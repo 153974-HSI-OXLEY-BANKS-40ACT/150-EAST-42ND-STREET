@@ -1,0 +1,375 @@
+From - Sat May  7 03:53:06 2022
+X-Account-Key: account1
+X-UIDL: AJ6+MJ0clxIvYnYycwmweHHjBcQ
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.196.243.14
+ by atlas113.free.mail.bf1.yahoo.com with HTTPS; Sat, 7 May 2022 08:48:51 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.208]
+Received-SPF: pass (domain of github.com designates 192.30.252.208 as permitted sender)
+Authentication-Results: atlas113.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 7 May 2022 08:48:51 +0000
+X-YMailAVSC: GnMwh.c3bBt_4kSWKOldQT2YoM4hE7wGvFXa6qWlljyyNMe
+ wAhBa7tLv0h5mMkPttBPUc6Q5_O9imwytX3jm7ggq467VbFhQq.rw7XD0ICw
+ lZLGtuEgSQQwZ.n8AeYgGlZNblXFQ1LXDT9MNQ5NvsCvrpiXqAXWm5cLR_c0
+ ITDj.bwyLwZZSSGwwKm3sTwQcUtkIAUD7SaOqIQjUg7qRRmAufePhduv1aIz
+ 8gZ9z4K_28iCgmXdztFWoxeRp4abqDYwmn2W6l2P.D.sSs6zJLwPn34Fu1.p
+ dzoQ_0hpSvPQhjnIuUltAHbcrWq0cyk5siRTte4980.cBecCHnOFSrPiv4Q-
+ -
+X-YMailISG: 9Yg578AWLDtgFFZbEb8tMuvpnxLXFHxP35_IQfhC3mPamENS
+ q93c0cdNLJKa9jQV5GOkJLoLuDnwAyIkQNKo1VEhL9oL4yv.0ZLRfAXMxznu
+ M7gz4auIyDti8N4HPeAJxdVP7TpEec9gE.P9YYrgzVTzRZROpjinrVRROqDY
+ PSrCi58gbvSIShbAO.THAaEHWWx5CyRme4gir2wspLW0KScaNJgKjbM4AULr
+ kSliG8ABJyIvNRmcPlDAAwTJ2gKWVLhBM_nKsJ3Dcy0J7REeOnsMhnneaWRQ
+ CuU39sWeihdu3LYQXoi7yUOM6SBDksRkB.cRtvLrNXcopf6SM7CODxSgwQcF
+ _z_LZ1xcqb9gwhhzcm9iohMogbwrhK90Hgz1lIrzFhv3KK_3TLULzMJNPm4_
+ cZrLameE7nTPtQK2qOPgqdaRsFIIvizZVM_f5pJCcZTrTYlaEzSyO5rzrdpW
+ HAGaE3Wjb4f4Y0t9HaxGYZT6l_OtNHeUCq0mfmx_pWd54S2_u209Sii7ujT7
+ eGVZuPAzZgq740aIFrMP9bCa1XmxmTKhHJGP1oZ5Q3ge96ms8ZkgDMx5ZTLp
+ cBd1CJVu6S11Hu8JtFSEKsmuya8N2Cg37yLCYWRogE579QvVolMJsQQHr6Ul
+ GKK5vJy7BA9ORcB7a_gRqcesIU02b_ZOQarXFkH8iOW3l63jhtQ5cQyqSwiY
+ XC9Bi4xnCfBVS6lMeWsm0FX9i8ettbGN72RrYtCqEp8nE9K4FYx3xDExy0kv
+ rd9almzL3hzfLDb8b2ClygOp54nOR_PT2D8TLB.bYjFF8iG2bMk9XgVkCRsx
+ Rs_E9zq7TvYhxhgSEkG7FcjH6S.SVIe3j4O8eeuntwsBKzL4ONbmjgWx0ExF
+ VL02mn8vHXLoy7XP5b48tBplSPUwwC_zdgR7TSLrc5J1MCaaZ8NMfYJg9jJk
+ rN49BPXcogIXNV85ByQFNtZbHlGPC8qJmL2mkGAwYly4e7rTU9djLZsZ_4xu
+ etBNqOwAI.iB2lO7LI.auQzpoh6oGKiKywsd1UcGpW._TtIyITOP_.5PfmcK
+ poPPl8S6m.uiNVl4J0_7PfMGAPqWQ5M9E.96Mmx9F381rMsIDd62ifWZeRvO
+ 9C1_WN3bqGH5qyzlIJom6ahl6OqqPPoxQHOnUD9qn0Wan8Yu9H1aVazxXHbD
+ y6OUaRd7MlsY30PyUQ--
+Received: from 192.30.252.208 (EHLO smtp.github.com)
+ by 10.196.243.14 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sat, 07 May 2022 08:48:51 +0000
+Received: from github.com (hubbernetes-node-40df79c.ash1-iad.github.net [10.56.209.95])
+	by smtp.github.com (Postfix) with ESMTPA id 306D5840211;
+	Sat,  7 May 2022 01:48:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1651913331;
+	bh=KCpWrpgmVGADqXKlxwAGBKPXlBIXDoi2aAHNWQBwAgM=;
+	h=Date:From:To:Subject:From;
+	b=sK6QU90yHuCqRQh97ztCg2MSU/IjUkW2gj69a/dcU/gl2/8pi0Rv9OFzdhhluUh8I
+	 wOkQdZW0C5U+1J4CVtfSlkj2cZYZfFotMO6pkSLR5XmcL7dEW9leDHZ2CQS57LQeZp
+	 Ut+UvTGhVmcj7c5QiwXHUaUSiuJX5CXSo5G1O33U=
+Date: Sat, 07 May 2022 01:48:51 -0700
+From: "DINCER & CO." <noreply@github.com>
+To: amy.hanrahan@wilsonelser.com, 
+ MS60710444266@YAHOO.COM
+Message-ID: <BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV/push/refs/heads/main/bbcafd-b36970@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV] b36970:
+ FILER: 93715
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: MOV DISTRIBUTIONS ANNEXED
+X-GitHub-Recipient-Address: amy.hanrahan@wilsonelser.com,MS60710444266@YAHOO.COM
+X-Auto-Response-Suppress: All
+Content-Length: 13380
+
+  Branch: refs/heads/main
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LAS=
+KOWITZ-MOV
+  Commit: b369701381f7ead0e9a9d9385eed8eafa145201d
+      https://github.com/BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWI=
+TZ-MOV/commit/b369701381f7ead0e9a9d9385eed8eafa145201d
+  Author: DINCER & CO <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github=
+.com>
+  Date:   2022-05-07 (Sat, 07 May 2022)
+
+  Changed paths:
+    A README.md
+
+  Log Message:
+  -----------
+  FILER: 93715
+
+    HEY I'LL GIVE IT TO THEM... THEY 100% LIVE UP TO THE NAME...
+
+    Wed, Jun 3, 2020, 2:20 PM        RECEIVED NYSCEF: 08/09/2020   =
+
+
+            "... Why don't you just tack on the 9 billion dollars NYC is =
+in the hole while you're at it? ..."
+
+        https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DT=
+xAa7cNVIHKtnJU/ni/zvg=3D=3D
+
+
+        21 JULY 2020    NYSCEF DOC. NO. 53             RECEIVED NYSCEF:  =
+   07/21/2020
+
+                "...REPRESENTATIVES SHOULD BE DISBARRED..."
+
+            https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=
+=3DLMUE9g_PLUS_k6vCmKgfCSJEzuQ=3D=3D
+
+            https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=
+=3DTxAa7cNVIHKtnJU/ni/zvg=3D=3D
+
+
+
+
+    ------- Original Message -------
+    On Friday, May 6th, 2022 at 10:59 PM, BD <bondstrt@protonmail.com> wr=
+ote:
+
+
+
+        21 JULY 2020    NYSCEF DOC. NO. 53             RECEIVED NYSCEF:  =
+   07/21/2020
+
+                "...REPRESENTATIVES SHOULD BE DISBARRED..."
+
+            https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=
+=3DLMUE9g_PLUS_k6vCmKgfCSJEzuQ=3D=3D
+
+            https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=
+=3DTxAa7cNVIHKtnJU/ni/zvg=3D=3D
+
+
+
+
+
+
+        ------- Original Message -------
+        On Friday, May 6th, 2022 at 10:50 PM, BD <bondstrt@protonmail.com=
+> wrote:
+
+
+            FROM 11-30-2021 THOUGH 03-31-2022
+
+
+                            $852,029,498.38 =
+
+
+             =
+
+                            FOR ALL FOUR OF THE TICKERS UNDER THE FORMER =
+UMBRELLA OF 93715
+                            -- MERGED INTO A LARGER BODY OF RISK UNDER TH=
+E UMBRELLA 1516523
+                            -- UNDER THE ADVISEMENT AND OMISSION OF ITS C=
+OUNSELORS, CONTINUE TO
+                            -- HEMORRHAGE ITS CAPITAL AT THE EXPENSE OF I=
+TS INVESTORS WITHOUT
+                            -- ANY PUBLIC DISCLOSURE, OR ESTOPPEL BY FINR=
+A PERMIT FOR THEM TO
+                            -- CONTINUE TO FUNCTION WITHOUT ANY "TRUE" SP=
+ECIALIST TO HANDLE
+                            -- THEIR AFFAIRS, DEMONSTRABLY AS SEEN IN THE=
+ PERFORMANCE OF THE
+                            -- FUND.
+
+                    -----------------------------------------------------=
+-----------------------------
+                        STFGX
+                        Date    Close/Last    Adjusted Close
+
+                        11/10/2021    121.17    121.17
+                        11/11/2021    120.77    120.77
+                        11/12/2021    121.48    121.48
+                                                    _____________________=
+_____
+                                                    11/15/2021    121.34 =
+   121.34
+                                                    11/16/2021    121.6  =
+  121.6
+                                                    11/17/2021    121.52 =
+   121.52
+                                                    11/18/2021    121.87 =
+   121.87
+                                                    11/19/2021    121.69 =
+   121.69
+                                                    11/22/2021    121.64 =
+   121.64
+                                                    11/23/2021    121.79 =
+   121.79
+                                                    11/24/2021    121.85 =
+   121.85
+                                                    11/26/2021    119.44 =
+   119.44
+                                                    11/29/2021    120.48 =
+   120.48
+                                                    11/30/2021    118.5  =
+  118.5
+                                                    12/1/2021    117.78  =
+  117.78
+                                                    12/2/2021    118.95  =
+  118.95
+                                                    12/3/2021    118.46  =
+  118.46
+                                                    12/6/2021    119.95  =
+  119.95
+                                                    12/7/2021    121.89  =
+  121.89
+                                                    12/8/2021    122.51  =
+  122.51
+                                                    12/9/2021    121.99  =
+  121.99
+                                                    12/10/2021    123.25 =
+   123.25
+                                                    12/13/2021    122.76 =
+   122.76
+                                                    12/14/2021    122.16 =
+   122.16
+                                                    12/15/2021    124.36 =
+   124.36
+                                                    12/16/2021    123.55 =
+   123.55
+                                                    12/17/2021    121.93 =
+   121.93
+
+                    INSIDER TRADING [DECEMBER 18TH, 2021]. . . . . . . . =
+. . . . . . . . . . . . . .[0212]
+                    -----------------------------------------------------=
+---------------------------------
+                                                                         =
+       __________________________
+                                                                         =
+       12/20/2021    120.72    120.72
+                                                                         =
+       12/21/2021    106.35    106.35
+                                                                         =
+       12/22/2021    107.39    107.39
+                                                                         =
+       12/23/2021    108.08    108.08
+                                                                         =
+       12/27/2021    109.52    109.52
+                                                                         =
+       12/28/2021    109.57    109.57
+                                                                         =
+       12/29/2021    109.82    109.82
+                                                                         =
+       12/30/2021    109.55    109.55
+                                                                         =
+       12/31/2021    109.48    109.48
+                _________________________________________________________=
+_________________________________
+
+
+
+            -------- Forwarded Message --------
+            Subject:	***LOAN 50074 annexed IN 153974/2020 State Farm and =
+Sullivan Properties LP. [ receipt ]
+            Date:	Fri, 6 May 2022 22:43:02 -0500
+            From:	B D2022 <ms60710444266@yahoo.com>
+            To:	Andrew Keller [FINRA] <akeller106@bloomberg.net>, Andrew =
+Korb [FINRA] <akorb1@bloomberg.net>, Austin McCrary [FINRA] <amccrary@blo=
+omberg.net>, ASHLEY MEAD [FINRA] <amead11@bloomberg.net>, Andrew Smith [F=
+INRA] <asmith1151@bloomberg.net>, Anthony Walker [FINRA] <awalker231@bloo=
+mberg.net>, Cassandra Kirk [FINRA] <ckirk21@bloomberg.net>, Chris Gursky =
+[FINRA] <csgursky@bloomberg.net>, Dian Zhu [FINRA] <dian.zhu@finra.org>, =
+FINRA Corporate Notification <finracorporatenotification@finra.org>, FINR=
+A Product Management <finraproductmanagement@finra.org>, finrawebmaster@f=
+inra.org <finrawebmaster@finra.org>, FINRA CAT Helpdesk <help@finracat.co=
+m>, hesham.ibrahim@finra.org, iard@finra.org, Jessica.Brach@finra.org, Jo=
+sephine.Vella@finra.org <Josephine.Vella@finra.org>, John Sagan [FINRA] <=
+jsagan8@bloomberg.net>, Joshua Wong [FINRA] <jwong554@bloomberg.net>, Kim=
+berly Berry [FINRA] <k28826@bloomberg.net>, Kenneth Thompson [FINRA] <kth=
+ompson84@bloomberg.net>, michelle.ong@finra.org, nancy.condon@finra.org, =
+pfrdsupport@finra.org, Finra Webmaster <postmaster@finra.org>, ray.pellec=
+chia@finra.org, rosalyn.marcus@finra.org <rosalyn.marcus@finra.org>, Rosi=
+nna Rivera [FINRA] <rrivera88@bloomberg.net>, TRACE Data Services <traced=
+ataservices@finra.org>, Finra Webmaster <webmaster@finra.org>, Yana Siege=
+l <yana.siegel@wilsonelser.com>, WILLIAM BEHR <william.behr@wilsonelser.c=
+om>, Urvashi Sinha <urvashi.sinha@wilsonelser.com>, Thomas R. Manisero <t=
+homas.manisero@wilsonelser.com>, Suzanne S. Swanson <suzanne.swanson@wils=
+onelser.com>, Stephen J. Barrett <stephen.barrett@wilsonelser.com>, Stace=
+y L. Seltzer <stacey.seltzer@wilsonelser.com>, Sean Wagner <sean.wagner@w=
+ilsonelser.com>, Roger R. Gottilla <roger.gottilla@wilsonelser.com>, Rick=
+i Roer <ricki.roer@wilsonelser.com>, Ricki Roer <ricki.roer@wilsonanddick=
+er.com>, ricki.raared@wilsonsdickers.com <ricki.raared@wilsonsdickers.com=
+>, Randyc.wilson@usdoj.gov <Randyc.wilson@usdoj.gov>, patricia.wik@wilson=
+elser.com, meghan.rigney@wilsonelser.com, Lori Semlies <lori.semlies@wils=
+onelser.com>, Lois K. Ottombrino <lois.ottombrino@wilsonelser.com>, Laure=
+n M. Zink <lauren.zink@wilsonelser.com>, Kathleen A. Mullins <kathleen.mu=
+llins@wilsonelser.com>, jwilson578@bloomberg.net, judy.selmeci@wilsonelse=
+r.com, Jennifer L. Sciales <jennifer.sciales@wilsonelser.com>, Jennifer M=
+. Provost <jennifer.provost@wilsonelser.com>, info@wilsonelser.com, Hanna=
+h.King@WILSONELSER.COM, grace.song@wilsonelser.com, erin.zecca@wilsonelse=
+r.com, ellyn.wilder@wilsonelser.com, elizabeth.scoditti@wilsonelser.com, =
+Debra Tama <debra.tama@wilsonelser.com>, Daniel F. Flores <daniel.flores@=
+wilsonelser.com>, curt.schlom@wilsonelser.com, craig.hunter@wilsonelser.c=
+om, craig.brinker@wilsonelser.com, Corrine Shea <corrine.shea@wilsonelser=
+.com>, carole.nimaroff@wilsonelser.com, aviva.stein@wilsonelser.com, Ashl=
+ey V. Humphries <ashley.humphries@wilsonelser.com>, Angelique Sabia-Cande=
+ro <angelique.sabia-candero@wilsonelser.com>, angel.vitiello@wilsonelser.=
+com, Andrea Shiffman <andrea.shiffman@wilsonelser.com>, Amy Hanrahan <amy=
+.hanrahan@wilsonelser.com>, alex.kress@wilsonelser.com, ALDEN 00066govtId=
+x WILSON <alden.wilson@maine.gov>, Alan Rubin <alan.rubin@wilsonelser.com=
+>, terrance.ludwig@statefarm.com, replacementprogram@statefarm.com, rebec=
+ca.coyle@statefarm.com <rebecca.coyle@statefarm.com>, PHIL SUPPLE <phil.s=
+upple.hid9@statefarm.com>, PAUL.SMITH@STATEFARM.COM, Nicole Bowyer <nicol=
+e.bowyer@statefarm.com>, State Farm <mutualfunds@statefarm.com>, MIKE.CAR=
+TER.HUSL@STATEFARM.COM, JOSE.MONK@STATEFARM.COM, dick.luedke.h2hj@statefa=
+rm.com, David Moore <david.moore.ct95@statefarm.com>, brian.hodgson.nyz6@=
+statefarm.com <brian.hodgson.nyz6@statefarm.com>
+            CC:	Alisa Maksimova [FRB-NY] <Alisa.Maksimova@ny.frb.org>, So=
+lis, Anita <anita.solis@chi.frb.org>, Cynthia.H.Francis@frb.gov, dallas-r=
+eserve-mgmt@dal.frb.org <dallas-reserve-mgmt@dal.frb.org>, Mielke, Evan P=
+ <evan.p.mielke@chi.frb.org>, general.info@ny.frb.com <general.info@ny.fr=
+b.com>, general.info@ny.frb.org <general.info@ny.frb.org>, kenneth.j.fras=
+er@frb.gov, media@chi.frb.org <media@chi.frb.org>, ny.public.information@=
+ny.frb.org, ny.reserves@ny.frb.org <ny.reserves@ny.frb.com>, ny.reserves@=
+ny.frb.org <ny.reserves@ny.frb.org>, nyreporting.forms@ny.frb.org <nyrepo=
+rting.forms@ny.frb.org>, oighotline@frb.gov <oighotline@frb.gov>, reserve=
+s@chi.frb.org <reserves@chi.frb.org>, PRIYA.RAGHURAM@MORGANSTANLEY.COM, M=
+SHY15@MORGANSTANLEY.COM, mscampusrecruiting@morganstanley.com, mediainqui=
+ries@morganstanley.com, kerri.saperstein@morganstanley.com <kerri.saperst=
+ein@morganstanley.com>, john.varriano@morganstanley.com <john.varriano@mo=
+rganstanley.com>, jmorgan274@bloomberg.net, Jessica.Colpani@morganstanley=
+.com, JAMES GORMAN [MORGAN STANLEY] <james.gorman@morganstanley.com>, col=
+in.brooks@morganstanley.com <colin.brooks@morganstanley.com>, alex.zuluag=
+a@ey.com <alex.zuluaga@ey.com>, david.brown1@ey.com <david.brown1@ey.com>=
+, Deborah M Jones <Deborah.Jones@ey.com>, info@ey.com <info@ey.com>, jacq=
+ueline.kelley@ey.com <jacqueline.kelley@ey.com>, karim.anani@ey.com <kari=
+m.anani@ey.com>, kevin.klimara@ey.com <kevin.klimara@ey.com>, lee.henders=
+on@ey.com <lee.henderson@ey.com>, mark.schwartz1@ey.com <mark.schwartz1@e=
+y.com>, rachel.gerring@ey.com <rachel.gerring@ey.com>, slaskowitz@inngram=
+llp.com <slaskowitz@ingramllp.com>
+
+
+            To whom this may concern.
+
+            LOAN DOCKETS WERE NOTARIZED AND ANNEXED IN NYSCEF 153974/2020=
+
+
+            . . . . . . . . . . . . . . . . [0254]
+
+            DOCKET 270-- ATTACHED... --- RECEIPT
+
+            - NO WONDER THEY ACCEPT $2.00 AND HAD TO HIRE A LARGER FIRM..=
+.
+
+            https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=
+=3DUavl5NRQV4YHKqWUf8fyVQ=3D=3D     =
+
+
+                               =
+
+
+            ACRIS REPORT: transfer and assignment of RENTS and LEASES [ i=
+ncome used as guarantee ]
+
+                https://iapps.courts.state.ny.us/nyscef/ViewDocument?docI=
+ndex=3D19MVPFXy0G0QvnmRLGpYIQ=3D=3D
+
+
+            of the Sarbanes-Oxley Act of 2002
+                https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/=
+pull/27
+
+             FILER: 93715
+
+                https://www.sec.gov/Archives/edgar/data/0000093715/000119=
+312520200810/d913497dex99cert.htm
+                https://www.sec.gov/Archives/edgar/data/0000093715/000119=
+312520200810/d913497dex99906cert.htm
+
+

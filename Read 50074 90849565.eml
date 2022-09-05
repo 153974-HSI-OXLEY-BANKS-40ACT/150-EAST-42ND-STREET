@@ -1,0 +1,278 @@
+From - Thu Jul 21 14:56:47 2022
+X-Account-Key: account1
+X-UIDL: AN+UsfcfHO0NYtVUrwjR0H8smaQ
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.134.205
+ by atlas120.free.mail.ne1.yahoo.com with HTTPS; Mon, 18 Jul 2022 12:40:15 +0000
+Return-Path: <CShugg@sylint.com>
+X-Originating-Ip: [40.107.243.66]
+Received-SPF: pass (domain of sylint.com designates 40.107.243.66 as permitted sender)
+Authentication-Results: atlas120.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@sylint.com header.s=selector1;
+ spf=pass smtp.mailfrom=sylint.com;
+ dmarc=pass(p=QUARANTINE) header.from=sylint.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 18 Jul 2022 12:40:15 +0000
+X-YMailISG: SAqU77YWLDvcdzp_i8ypiC7C6JKRKOeQA2r9bW_0F4CxesFg
+ 3qki0L4aVVnSxcB7MRLVqT20pL72PeD7uqI3oCQ864c7pW7BEv7S2LeIXpOL
+ yu7q5p0HDkMD4GLJJr9qiAdZQMXT2h1VAu32.urcVunKzLak..F9UQQCWeVL
+ XjwXPXRh.EVEngT1ChEqg8dsXn__Bnpk1SqgZfhPpE.l3CItPIE9rtQrtehI
+ 2d3.Q7LFf4Xtikhy_hfl2n1M_9uLLSkrbs4XBUxruaCHIhwTul6hl4VCW2Rk
+ nmqdKduKGQnlhd4gKV89ixC4hH206z4ysJjNxsXWqnUoZQBb8sCRlgjGuDsR
+ cJr2D3QxHe7pmy4BitShLJDMerinaQGz6.eSz82ZODnckSG35rkP8R4uhMBg
+ 0jBTL0i.4u1UJoI9f75AFophWpoXxdni_FaQCjZGxwUwoZjBGx_mwh5ADGgI
+ tS1ZNs7SR9PWGU4sKSF_BaeQlhcf68HaiChDZqeKVtoTp81EmvKFLD_sRZD5
+ C.pf4zKoxY0ZiVS9pS1q32HR11UBmjC4018kna1KIQwE9j4EV3mZBFNRTrdD
+ 2.uV4_mQ0J9vnHG5U_XPtSaAk5kV66Z7NrjgiNuAKTX6yPeovwn9D3ybp5_3
+ 8IHuaO.yUSRONO9uOEB_WPy3KkfQWV_12WXvTOyvD77V7lNXoAx.dRcDVIIA
+ 00XD5RDZrT_e2cGys5SlwmF1Lw8RXBSajSyMTzdrsw4Dl_MZdh4P82jpC0oI
+ PZl_u3i0uo7.cUetba_P8lwVNEujt285rmDiJr1XtSZhYnbTRdrXZigxLJ0s
+ zkvFvwvXxwW8aVzu7TwQm.DAKXbemo8Gw071_zNy4sCFPp3vtTqpOlyuJDRG
+ D.Tojqj9cgEWGXnfFSH2dsoMWAn1OR717PT5dRVMYkeh_figltrVEeBLs9xP
+ eN6OxIiaHxhGFBRWsW2.D5iTa6F8OEncFidjpnNPMijkO9yTnFvC_Z9KvUMa
+ z77.mIpoWkDrBfvXGAFtwOSEmAgyyDKtFLWU9I1IKPRZq1n0wsBo3eR_IMFC
+ IZqV3BYxCBXu7ceSPLWjLlr4z.7PzTI9IMse8og3uRWiRf95kEpjH7G.r_Je
+ 8K7So_6sc83jQyCEp5cSvUt6KfvZ.VVovnWsMhEhBUmUCqCQRgBOi.AEnuSs
+ 3xJEgsStdGwCq28Kwk3RVIwo.siFLgLVwbWoyRvQJO2uxmJRFQU6SbQ-
+Received: from 40.107.243.66 (EHLO NAM12-DM6-obe.outbound.protection.outlook.com)
+ by 10.217.134.205 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 18 Jul 2022 12:40:15 +0000
+ARC-Seal: i=2; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=fail;
+ b=Ikdt+u44n4ZSa9JSV1SUJkM/4efzRcREncBcpnI7oqKw1mCGqCAwBNnBSNI9dAh2eH0U/5nWeK+dJGLfOku5De7s1+cNGLe6rVd64Cew0Y4NTghNXI2nTzgu5f98pnOCylPqiszEi3I4Wx2QH08L7olQGkd3wxQQAcmm5ddng8dlVKSXgmp+yZnx/8/uzmpZMGDGTaWSv2WklXjYCvneKv/qpAtZp7gPoiQizWbR1R2iYX6qgmq57ks40SYl0E0YBtpemEnaUnaGtHMZWlGCzOaXGt88p1Wf9s/+K25vKzyAOcdScqGMsfbr4u3dkzPBRhbE8kf/9b5UK/bzd1NTiw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=BHlJ2Uz5R/kO+ZakWwVsjapHZ3rPGGPG2SILGZyzhII=;
+ b=jgXTvfwUtB5V1DY6/pAw4WlfcAoe7WieVRW1Y6hzemGnQuu80QOixeMG688gh2/BPLMgWG8Insz1jxPhawaCnvRYYKX0BskNJj4hIS/GNUNBk6QjzfFbItiDc2kVzC94vx2uOI1KoUPjkF7oqBHP0h1PWtc3n97IsJHlcjTEdvyhS6g2YDIiW1wusd3EA5bllCqGdK4LZgQ8I1nJlgNA2ECeIC6juwvhEBYLKtcsoHrgrxW2HOgDzKnixVWJfcaT/BWZrjeD/QbqMQ92HMh2oMdfOpQKyBvRePmNLLd3a3+tQT9AEJUEKpt2fKvM7QcTGDao4hTlUlv1Py1Tv4ZX1Q==
+ARC-Authentication-Results: i=2; mx.microsoft.com 1; spf=pass (sender ip is
+ 20.98.2.159) smtp.rcpttodomain=yahoo.com smtp.mailfrom=sylint.com;
+ dmarc=bestguesspass action=none header.from=sylint.com; dkim=none (message
+ not signed); arc=fail (47)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=sylint.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=BHlJ2Uz5R/kO+ZakWwVsjapHZ3rPGGPG2SILGZyzhII=;
+ b=bNs2YZ4yidSnpUJ9MB7SvQ8+CML0cd/E5lMY3zHEeLelL9zByIHtlFE8DLyBQf/Hj+jyaA01CVyIXzzpRxJtEeW5TvX7azoW+5rodUqtpvkeriB9sy8wFdDpewZa2kNN2Nv2elkJ+5UarR5n/ZZ5BrHcqhl9pPUVH3X8vGozxmM=
+Received: from MW4PR03CA0125.namprd03.prod.outlook.com (2603:10b6:303:8c::10)
+ by BY5PR17MB3922.namprd17.prod.outlook.com (2603:10b6:a03:239::21) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5438.23; Mon, 18 Jul
+ 2022 12:40:12 +0000
+Received: from MW2NAM12FT009.eop-nam12.prod.protection.outlook.com
+ (2603:10b6:303:8c:cafe::fe) by MW4PR03CA0125.outlook.office365.com
+ (2603:10b6:303:8c::10) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5438.20 via Frontend
+ Transport; Mon, 18 Jul 2022 12:40:12 +0000
+X-MS-Exchange-Authentication-Results: spf=pass (sender IP is 20.98.2.159)
+ smtp.mailfrom=sylint.com; dkim=none (message not signed)
+ header.d=none;dmarc=bestguesspass action=none header.from=sylint.com;
+Received: from us1-emailsignatures-cloud.codetwo.com (20.98.2.159) by
+ MW2NAM12FT009.mail.protection.outlook.com (10.13.180.76) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5458.5 via Frontend Transport; Mon, 18 Jul 2022 12:40:10 +0000
+Received: from NAM10-MW2-obe.outbound.protection.outlook.com (104.47.55.107) by us1-emailsignatures-cloud.codetwo.com with CodeTwo SMTP Server (TLS12) via SMTP; Mon, 18 Jul 2022 12:40:06 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=oOeesa4c1N8bIawLDAK7gA2VVNXQmCXamqrjfnBJ+jfh7BgYdSevNZSp2aCLOWMs2py9/FNLQpHqyyrEbJZhx6hZF+1OW1jCcc9y6aK4c8aVmTCrIEDIWocVSeREyJz/m/krcPetUfVVuEak2UuajUvrRPYDAd/hebn3WhGt6Co/qSw8rRlidQcqstU4vokSjEPWxTI3wlZgJ/7Uo/pmE3uCjTyetNUIyQe5sEGJ7eeKirbTIzZSLDeValbIUNM/w1IssmrmzYRvOMbs+SsO0Nyyt00bBnnW0npSdDW2hsRMphyY1AN8XgJYUpUog0VU1XPkfPlFXTGiOW5vjyIURw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=ptLotlJKEX083ZHR7XD4WF13KJmV4MmpoZCVZu5k1OE=;
+ b=kILlbqL+Zq1lZMLKsGmcP9E/Pms0aPMuUfG5RQDeNh9jtlVOaonuRdHyhbZ6BLdgr3xpe+hRN/7why4xVnMGA8UeBjFUeBebcFW7tjUGgfj0SHPaBgCAeh4ptmcE+x5Ca1WIaV+V4ANs9pZIM+nWteAeWdv9I8wzQnrG7KofdASMqC1dndc63XeEV4rhjVwMviYrtR1NaY6FKjORRuVdKpuFpypPufK3p/5PB5PskRUtts7qvZFpLamg08VDitHB03ZfRE6lGqMa0r0qB4vgBh2MrRq3KpKsvqYv1pvQW3hjArk1dLkNxgDsUA1002CNP2z3KltvAq7T3j6CNWHqtQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=sylint.com; dmarc=pass action=none header.from=sylint.com;
+ dkim=pass header.d=sylint.com; arc=none
+Received: from DM6PR17MB3562.namprd17.prod.outlook.com (2603:10b6:5:1d9::27)
+ by DM8PR17MB4981.namprd17.prod.outlook.com (2603:10b6:8:3e::12) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5438.23; Mon, 18 Jul
+ 2022 12:40:03 +0000
+Received: from DM6PR17MB3562.namprd17.prod.outlook.com
+ ([fe80::91ea:bd46:c815:6be8]) by DM6PR17MB3562.namprd17.prod.outlook.com
+ ([fe80::91ea:bd46:c815:6be8%7]) with mapi id 15.20.5438.023; Mon, 18 Jul 2022
+ 12:40:03 +0000
+From: Charly Shugg <CShugg@sylint.com>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: 50074 90849565
+Thread-Topic: 50074 90849565
+Thread-Index: AQHYmqMB6e7TwmVIXUi2nwaV2yxY7a2EEX3t
+Date: Mon, 18 Jul 2022 12:40:03 +0000
+Message-ID: <DM6PR17MB3562C101718816ACCBC41173AD8C9@DM6PR17MB3562.namprd17.prod.outlook.com>
+In-Reply-To: <da3afbb9-c6fd-4bf0-26a7-95a4b22d5a4b@yahoo.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+Authentication-Results-Original: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=sylint.com;
+X-MS-Office365-Filtering-Correlation-Id: 36f9ff5d-5284-4bb7-3cb8-08da68baa766
+x-ms-traffictypediagnostic:
+	DM8PR17MB4981:EE_|MW2NAM12FT009:EE_|BY5PR17MB3922:EE_
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam-Untrusted: BCL:0;
+X-Microsoft-Antispam-Message-Info-Original:
+ fON19+IKUZOICU8RAL6RMd79oVN0eV67JIdKh6TlmQHfbN49Gid9Rm8lVvL3179R3Yh5539p5zZw6rehPc+qwU5KMksdhwfQE1ZMioDyqlr6ePkAtlv41lIAHUXZPi2ZcU0ixUbs62HxJsw6C5sIsg84I+JmQ6xgYDdxxn+wDur+xF0LifNHLB/RdAK9xMEmhlFg2wsYvCNO9WTwCUPe3DxjvbsWm0YgFbYSeiR24t6VmpHF8Pm/kghu3k3nR6IuFGSXVhqJ9QU2IXn/SRLBaIbJPAgREL7Y9u2qlz7cjWCHLTvSMLZJxJsFGBzyoeYpp6wRjgNryjxHZFjxp1sK1ALBzy8/hFEhW0xbMbF5mufJmm2TV6gwrIWM3EJvQOpKtlrWbAYkwsvE78BTHCcbXg23WkrthDR9U3K9IyTJgaBdq3nXb+OC+s6Uxg9kgfNv2o2pO5VVkFaaSspdcpdbnX9UIEy2JbXDK39ZEj3BB4PZZn825sEa/KPiPXXJiALCxmyY0nbO7k0v4aJ3FSo97wdXAMEamLsXqSiDmK7yZFcPGSW7AntdvQ0CWKoDXqO1
+X-Forefront-Antispam-Report-Untrusted:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:DM6PR17MB3562.namprd17.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(39830400003)(376002)(396003)(136003)(366004)(346002)(76116006)(64756008)(8676002)(66446008)(66946007)(66556008)(66476007)(52536014)(38070700005)(33656002)(6916009)(8936002)(86362001)(122000001)(316002)(38100700002)(4270600006)(26005)(186003)(621065003)(7696005)(6506007)(41300700001)(478600001)(71200400001)(73894004)(55016003)(2906002)(9686003);DIR:OUT;SFP:1101;
+Content-Type: multipart/report;
+	boundary="_000_DM6PR17MB3562C101718816ACCBC41173AD8C9DM6PR17MB3562namp_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM8PR17MB4981
+X-CodeTwo-MessageID: 80aef52b-55e5-42a4-90e3-e6c5f699c531.20220718124005@us1-emailsignatures-cloud.codetwo.com
+X-CodeTwoProcessed: true
+References: <345ac950-92c9-47ad-aec8-8775c68ed1ea.2597a45f-d4e7-4744-b7de-539fec3e4a72.04545005-e4d9-4604-8da7-fe72201d2cda@emailsignatures365.codetwo.com>
+X-EOPAttributedMessage: 0
+X-MS-Exchange-Transport-CrossTenantHeadersStripped:
+ MW2NAM12FT009.eop-nam12.prod.protection.outlook.com
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id-Prvs:
+	67a38bcd-63c3-4982-3dd2-08da68baa2ea
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	+eIPhMi6jrTVc5RP68IEcWxPRNMdIKIzfFB47ldkx1IFIqxVJwwKE6Sg4O7IJeMFnaHcLbzHGFolFn/BbaISFdzfyEybbzTyLSm4QHIGcj6QmY0mhYqqrtxjHQ4cd66s1VtnJyS5RbUxp5zLTUw+wQqn093SedGY4B25D5k/qcmkeAgvet7544w4JSO2YfZvJu120miRVfDDwUrAy+40EFDniaGFRsFVSs85b2WXtvHwA8fl5bekIWj/i5qdXSmkKqnhfsbEQF0wUAgfhOFCTIIOzItAIo/txReOElvubGviHw/86Bf8WEto7K4xbu5DV3NtvDSXrMKE9iszma9JRFTOI2IPckFIPGwKBwWjPVf7c6OOimWpz3QUZ9PwTPACn5N2haiT1/gzs53EkSbbL+MgbM6xWC1PSvWAO21g+8uayvrFwFPMmiFbbe6nN4GjPABOQolpRSHubH2S7wl5uriW+TXnOjz89NHCD1BzW6eoGbIMib44PxCUvgAhByaXdfV9pDijadwlvk2dt39efn9m/WvaSTOTqtuCSjW/Gri1K2V99rfEJVcQflJ9ngw9QaGE2isqFSQUD9oERR6x4EgXtqjw8aCMNvtV6oE4UvbH0p6HTgmWpg+fPgzuLnElfhu54jw9KYwoupDPxOEaPHTnTK8GIvbX200eHuwXxdSAZcmRsszebzO1aPnK8nOWmYqKZma4h7t8EGBiZPI7uUdec88hEK4FH94vR587jGbIFYxtYGbc1G75xSLs+9JNBGQAkn1XH7yakIv3vRA0ndA7ZYRY5KdLNCRURm79AVkfBDSLUmXR4RudNSa1E08su8spD3LKH/fXUPB/+s1kbIILndCxjFXf+zNThFjfLRU=
+X-Forefront-Antispam-Report:
+	CIP:20.98.2.159;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:us1-emailsignatures-cloud.codetwo.com;PTR:us1-emailsignatures-cloud.codetwo.com;CAT:NONE;SFS:(13230016)(4636009)(136003)(396003)(346002)(376002)(39830400003)(36840700001)(46966006)(7636003)(83380400001)(7596003)(478600001)(356005)(166002)(41300700001)(7696005)(6506007)(316002)(47076005)(186003)(336012)(6916009)(40480700001)(70206006)(5660300002)(70586007)(8936002)(52536014)(82310400005)(8676002)(36860700001)(55016003)(86362001)(2906002)(15974865002)(9686003)(40140700001)(33656002)(26005);DIR:OUT;SFP:1101;
+X-OriginatorOrg: sylint.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 18 Jul 2022 12:40:10.7110
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 36f9ff5d-5284-4bb7-3cb8-08da68baa766
+X-MS-Exchange-CrossTenant-Id: 82153baa-d2d2-4e1b-9f89-24255a27ca0a
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=82153baa-d2d2-4e1b-9f89-24255a27ca0a;Ip=[20.98.2.159];Helo=[us1-emailsignatures-cloud.codetwo.com]
+X-MS-Exchange-CrossTenant-AuthSource:
+	MW2NAM12FT009.eop-nam12.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY5PR17MB3922
+Content-Length: 5684
+
+--_000_DM6PR17MB3562C101718816ACCBC41173AD8C9DM6PR17MB3562namp_
+Content-Type: multipart/alternative;
+	boundary="_002_DM6PR17MB3562C101718816ACCBC41173AD8C9DM6PR17MB3562namp_"
+
+--_002_DM6PR17MB3562C101718816ACCBC41173AD8C9DM6PR17MB3562namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Charly Shugg
+   Subject: Fwd: 50074 90849565
+   Sent: Monday, July 18, 2022 9:33:34 AM (UTC-05:00) Eastern Time (US & Ca=
+nada)
+
+ was read on Monday, July 18, 2022 8:39:12 AM (UTC-05:00) Eastern Time (US =
+& Canada).
+
+<https://www.twitter.com/user_name_here>Charly Shugg
+
+Partner | COO
+
+Sylint
+Cyber Security,
+Forensics & eDiscovery
+
+240 N. Washington Blvd. 6th Floor
+Sarasota, Florida 34236 USA
+
+Direct: +1.941.866.2248
+Phone: +1.941.951.6015
+
+www.sylint.com
+FL P.I. A2900240
+This message, including any attachments, may contain confidential informati=
+on intended for a specific individual and purpose, and is protected by law.=
+ If you are not the intended recipient, please contact the sender immediate=
+ly by reply email and destroy all copies. You are hereby notified that any =
+disclosure, copying or distribution of this message, or the taking of any a=
+ction based on it, is strictly prohibited.
+
+--_002_DM6PR17MB3562C101718816ACCBC41173AD8C9DM6PR17MB3562namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Charly Shugg<br>
+&nbsp;&nbsp; Subject: Fwd: 50074 90849565<br>
+&nbsp;&nbsp; Sent: Monday, July 18, 2022 9:33:34 AM (UTC-05:00) Eastern Tim=
+e (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Monday, July 18, 2022 8:39:12 AM (UTC-05:00) Eastern Time=
+ (US &amp; Canada).</div>
+</span></font>
+=0A=
+=0A=
+=0A=
+<p style=3D"FONT-SIZE: 10pt; FONT-FAMILY: ARIAL">=0A=
+</p><a class=3D"socialLink" href=3D"https://www.twitter.com/user_name_here"=
+></a><b style=3D"font-family: Calibri;"><span style=3D"color: rgb(1, 52, 10=
+3); font-size: 11pt;">Charly Shugg</span></b><p style=3D"font-family: Calib=
+ri; font-size: 10pt; color: rgb(1, 52, 103);">Partner | COO</p><p style=3D"=
+font-family: Calibri; font-size: 11pt; color: rgb(1, 52, 103);"><strong sty=
+le=3D"color: rgb(1, 52, 103);"><span style=3D"font-size: 24pt; font-family:=
+ &quot;Trebuchet MS&quot;, sans-serif; color: rgb(1, 52, 103);">Sylint</spa=
+n></strong><b style=3D"color: rgb(1, 52, 103);"><span style=3D"font-size: 1=
+1pt; font-family: &quot;Trebuchet MS&quot;, sans-serif; color: rgb(1, 52, 1=
+03);"><br style=3D"color: rgb(1, 52, 103);">=0A=
+</span></b><span style=3D"font-size: 10pt; font-family: &quot;Trebuchet MS&=
+quot;, sans-serif; color: rgb(1, 52, 103);"><span style=3D"color: rgb(128, =
+128, 128);">Cyber Security,</span></span><span style=3D"font-size: 11pt; fo=
+nt-family: &quot;Trebuchet MS&quot;, sans-serif; color: rgb(128, 128, 128);=
+"><br style=3D"color: rgb(128, 128, 128);">=0A=
+</span><span style=3D"font-size: 10pt; font-family: &quot;Trebuchet MS&quot=
+;, sans-serif; color: rgb(1, 52, 103);"><span style=3D"color: rgb(128, 128,=
+ 128);">Forensics&nbsp;&amp; eDiscovery</span><br style=3D"color: rgb(1, 52=
+, 103);">=0A=
+</span><span style=3D"font-size: 10pt; font-family: Calibri, sans-serif; co=
+lor: rgb(1, 52, 103);"><br style=3D"color: rgb(1, 52, 103);">=0A=
+240 N. Washington Blvd. 6th Floor<br style=3D"color: rgb(1, 52, 103);">=0A=
+Sarasota, Florida 34236 USA</span></p><p style=3D"font-family: Calibri; fon=
+t-size: 11pt; color: rgb(1, 52, 103);"><span style=3D"font-size: 10pt; font=
+-family: Calibri, sans-serif; color: rgb(1, 52, 103);">Direct: +1.941.866.2=
+248<br style=3D"color: rgb(1, 52, 103);">Phone: +1.941.951.6015</span><span=
+ style=3D"font-size: 10pt; font-family: Calibri, sans-serif; color: rgb(1, =
+52, 103);"><br style=3D"color: rgb(1, 52, 103);"></span></p><p style=3D"fon=
+t-family: Calibri; font-size: 11pt; color: rgb(1, 52, 103);"><span style=3D=
+"font-size: 10pt; font-family: Calibri, sans-serif; color: rgb(1, 52, 103);=
+">www.sylint.com<br></span><span style=3D"font-family: Calibri, sans-serif;=
+ font-size: 13.3333px;">FL P.I. A2900240</span><span style=3D"font-size: 10=
+pt; font-family: Calibri, sans-serif; color: rgb(1, 52, 103);"><br></span><=
+/p><p class=3D"MsoNormal"><em><span style=3D"font-size:10.0pt;font-family:&=
+quot;Calibri&quot;,sans-serif;=0A=
+color:navy"><span style=3D"color: rgb(1, 52, 103);">This message, including=
+ any attachments, may contain confidential=0A=
+information intended for a specific individual and purpose, and is protecte=
+d by=0A=
+law. If you are not the intended recipient, please contact the sender=0A=
+immediately by reply email and destroy all copies. You are hereby notified =
+that=0A=
+any disclosure, copying or distribution of this message, or the taking of a=
+ny=0A=
+action based on it, is strictly prohibited.</span></span></em></p></body>
+</html>
+
+--_002_DM6PR17MB3562C101718816ACCBC41173AD8C9DM6PR17MB3562namp_--
+
+--_000_DM6PR17MB3562C101718816ACCBC41173AD8C9DM6PR17MB3562namp_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; CShugg@sylint.com
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: Y1C4iN68VkCC9xLr03Qjew==
+X-Display-Name: Charly Shugg
+
+
+--_000_DM6PR17MB3562C101718816ACCBC41173AD8C9DM6PR17MB3562namp_--

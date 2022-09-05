@@ -1,0 +1,238 @@
+From - Mon May 16 05:46:32 2022
+X-Account-Key: account8
+X-UIDL: 1645857828.809
+X-Mozilla-Status: 0005
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <ms60710444266@yahoo.com>
+Received: from compute4.internal (compute4.nyi.internal [10.202.2.44])
+	 by sloti52n19 (Cyrus 3.7.0-alpha0-591-gfe6c3a2700-fm-20220427.001-gfe6c3a27) with LMTPA;
+	 Mon, 16 May 2022 06:40:08 -0400
+X-Cyrus-Session-Id: sloti52n19-1652697608-3971869-2-9307281002541212512
+X-Sieve: CMU Sieve 3.0
+X-Spam-known-sender: yes ("Address ms60710444266@yahoo.com in From header is in addressbook");
+ in-addressbook; bba2db8d-33a3-40c2-87e0-df67be267777 ("Autosaved")
+X-Spam-charsets: plain='UTF-8'
+X-Resolved-to: cockarens@vouchersrus.org
+X-Delivered-to: COCKARENS@VOUCHERSRUS.ORG
+X-Mail-from: ms60710444266@yahoo.com
+Received: from mx3 ([10.202.2.202])
+  by compute4.internal (LMTPProxy); Mon, 16 May 2022 06:40:08 -0400
+Received: from mx3.messagingengine.com (localhost [127.0.0.1])
+	by mailmx.nyi.internal (Postfix) with ESMTP id DA9D61960094
+	for <COCKARENS@VOUCHERSRUS.ORG>; Mon, 16 May 2022 06:40:08 -0400 (EDT)
+Received: from mx3.messagingengine.com (localhost [127.0.0.1])
+    by mx3.messagingengine.com (Authentication Milter) with ESMTP
+    id CFFBA1A4A7A;
+    Mon, 16 May 2022 06:40:08 -0400
+ARC-Seal: i=1; a=rsa-sha256; cv=none; d=messagingengine.com; s=fm1; t=
+    1652697608; b=R59WKGMwCAXDwGC9J6xJacyBZ4FR3leeQBsTgOIzgIKGT3ElY/
+    fpnqEtqr56t1gsaRM7SfsRxumhDIU5fufwxSHCFz8wgEnWkWR02PcT7ZGo2g+v3I
+    ICcXvrE8A80Cvw1xLBdTuUZk4hidiIqoc2u1IOalLUTgDAgdAYg/kySNl/lokOXx
+    YRuUk/3+ohhTnOBxrtKaRCXEcjvrN17X5CiNwwr6ZmxZwtje5bbUrrAQLKP8Mp+2
+    Sb+ToHPKxSZQTDJw45VYcr3CIpg+VB6+tf5ntQ3cqfUR+02fkkNfBa3dpd2rGAP7
+    IQ56Y3abGKtyKJVgulqvrCXr8YeIjk79pPyA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=
+    messagingengine.com; h=message-id:date:mime-version:to:from
+    :subject:content-type:content-transfer-encoding:references; s=
+    fm1; t=1652697608; bh=VeXKokmEzVk5zg9wgGDeZxh2sZKp5vBsnOFPTCYFhW
+    M=; b=Y96ygmG0QFAgJdAyN/SNpKhyzMh+KUjEu8qzPBEdy/f1ZC8J79xaDrf1QZ
+    hHnSDUbVpC79rG6FUecqYK8fskIED4Yhxm05MU2swrR3PFubv0GjGi4+6rPbp9Mx
+    ME6kjJ8dQNlMwNqGofvtsfdCMgGM0OX2grsCPJHXElfuwgGItLzbYSGhaw5TLbi6
+    KiYNXxjYjgxmk0xBEgHFDdKatrt0wsuiwex1SPqNMW3lTXJdEV4wnQ4cgLTW7jun
+    pZ5AHtcXGwc0ueHBCsgMuTswwkIEq0hIZiLmlXPwVh1bsIFvOgt0K8R1bxGEDeQO
+    gjW6QACj+TqX4NiUc7bV+8CPnTOQ==
+ARC-Authentication-Results: i=1; mx3.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=sonic306-29.consmr.mail.bf2.yahoo.com
+    policy.ptr=sonic306-29.consmr.mail.bf2.yahoo.com;
+    bimi=none (No BIMI records found);
+    arc=none (no signatures found);
+    dkim=pass (2048-bit rsa key sha256) header.d=yahoo.com
+    header.i=@yahoo.com header.b=ae7jtajL header.a=rsa-sha256
+    header.s=s2048 x-bits=2048;
+    dmarc=pass policy.published-domain-policy=reject
+    policy.applied-disposition=none policy.evaluated-disposition=none
+    (p=reject,d=none,d.eval=none) policy.policy-from=p
+    header.from=yahoo.com;
+    iprev=pass smtp.remote-ip=74.6.132.228
+    (sonic306-29.consmr.mail.bf2.yahoo.com);
+    spf=pass smtp.mailfrom=ms60710444266@yahoo.com
+    smtp.helo=sonic306-29.consmr.mail.bf2.yahoo.com
+X-ME-Authentication-Results: mx3.messagingengine.com;
+    x-aligned-from=pass (Address match);
+    x-return-mx=pass header.domain=yahoo.com policy.is_org=yes
+      (MX Records found: mta5.am0.yahoodns.net,mta7.am0.yahoodns.net,mta6.am0.yahoodns.net);
+    x-return-mx=pass smtp.domain=yahoo.com policy.is_org=yes
+      (MX Records found: mta6.am0.yahoodns.net,mta5.am0.yahoodns.net,mta7.am0.yahoodns.net);
+    x-tls=pass smtp.version=TLSv1.3 smtp.cipher=TLS_AES_256_GCM_SHA384
+      smtp.bits=256/256;
+    x-vs=clean score=15 state=0
+Authentication-Results: mx3.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=sonic306-29.consmr.mail.bf2.yahoo.com
+      policy.ptr=sonic306-29.consmr.mail.bf2.yahoo.com
+Authentication-Results: mx3.messagingengine.com;
+    bimi=none (No BIMI records found)
+Authentication-Results: mx3.messagingengine.com;
+    arc=none (no signatures found)
+Authentication-Results: mx3.messagingengine.com;
+    dkim=pass (2048-bit rsa key sha256) header.d=yahoo.com
+      header.i=@yahoo.com header.b=ae7jtajL header.a=rsa-sha256
+      header.s=s2048 x-bits=2048;
+    dmarc=pass policy.published-domain-policy=reject
+      policy.applied-disposition=none policy.evaluated-disposition=none
+      (p=reject,d=none,d.eval=none) policy.policy-from=p
+      header.from=yahoo.com;
+    iprev=pass smtp.remote-ip=74.6.132.228
+      (sonic306-29.consmr.mail.bf2.yahoo.com);
+    spf=pass smtp.mailfrom=ms60710444266@yahoo.com
+      smtp.helo=sonic306-29.consmr.mail.bf2.yahoo.com
+X-ME-VSCause: gggruggvucftvghtrhhoucdtuddrgedvfedrheehgddvlecutefuodetggdotefrodftvf
+    curfhrohhfihhlvgemucfhrghsthforghilhdpggftfghnshhusghstghrihgsvgdpuffr
+    tefokffrpgfnqfghnecuuegrihhlohhuthemuceftddtnecuogetfedtuddqtdduucdlud
+    ehmdenucfjughrpefkffggfgfvhffutgfgfhfosehtjeertderfeejnecuhfhrohhmpeeu
+    ucffvddtvddvuceomhhsiedtjedutdeggeegvdeiieeshigrhhhoohdrtghomheqnecugg
+    ftrfgrthhtvghrnhepueetffdttdeuteetveegkeetfedukeefveefgfehueelhfevfeef
+    keetfeetudelnecukfhppeejgedriedrudefvddrvddvkeenucevlhhushhtvghrufhiii
+    gvpedtnecurfgrrhgrmhepihhnvghtpeejgedriedrudefvddrvddvkedphhgvlhhopehs
+    ohhnihgtfedtiedqvdelrdgtohhnshhmrhdrmhgrihhlrdgsfhdvrdihrghhohhordgtoh
+    hmpdhmrghilhhfrhhomhepoehmsheitdejuddtgeeggedvieeiseihrghhohhordgtohhm
+    qe
+X-ME-VSScore: 15
+X-ME-VSCategory: clean
+X-ME-CSA: none
+Received-SPF: pass
+    (yahoo.com ... _spf.mail.yahoo.com: 74.6.132.228 is authorized to use 'ms60710444266@yahoo.com' in 'mfrom' identity (mechanism 'ptr:yahoo.com' matched))
+    receiver=mx3.messagingengine.com;
+    identity=mailfrom;
+    envelope-from="ms60710444266@yahoo.com";
+    helo=sonic306-29.consmr.mail.bf2.yahoo.com;
+    client-ip=74.6.132.228
+Received: from sonic306-29.consmr.mail.bf2.yahoo.com (sonic306-29.consmr.mail.bf2.yahoo.com [74.6.132.228])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mx3.messagingengine.com (Postfix) with ESMTPS
+	for <COCKARENS@VOUCHERSRUS.ORG>; Mon, 16 May 2022 06:40:08 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1652697607; bh=VeXKokmEzVk5zg9wgGDeZxh2sZKp5vBsnOFPTCYFhWM=; h=Date:To:From:Subject:References:From:Subject:Reply-To; b=ae7jtajLUxe479ihUxBaYLYTZe21x67WGDUdxnOSKhQFI8/NNQfYCj+R7zAy7fFVxd1Tg08X0iA4rPulTyEM37pMHDfIgz9bQHA8a7A9EQqeT3bz40KH7WqRZxFcJwRPgb4wYF5mI1ssJ+855MfWCE2+68D9FwasOLsu4p/vwnC/iuHzY/pXfWaV+1lvITQhniEr+jLi/T2pRfjgVCcfNU6CC8S9zzgv880F5I78xvnJ3gM1xxhE7QtwXOfqQ5E9/jjip0SdLAL6NIaPIb3ETQW/da8hDX/0em4/uojLddzZYsejEBhCMF6d7CTB8OxHMxHPx0Pwua0SC0jTmJSljw==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1652697607; bh=GNGe7noDsRoiTwRDzY1tQlGwnfj9b12wAPhq7XD0Qzd=; h=X-Sonic-MF:Date:To:From:Subject:From:Subject; b=RVdAh9CYa+t4s55OyF5R0++bXupJzt88EjWHJ1kNWx4NApvtHYHBCBBNHQHL5PAb/GFrByWYH0g2AKEdG518U0J1OPyLWN2Ia3D54XN7fYRWeCLtHvup5CNerVG1d+gu/haMrLFpyvu8qEQe1bDe+Iy/lmJZ4Xwpl3XE/mVW0EX0DebtJsMUVKDDErGObgsvnPoB+UoNHM85WKQ/YJIx66JI2gqu3lMc4hvFbaiKf6dC57k3cp+SoKhvwfWTsLFXuOqTFsAI7Agl8eV1SY2QzfkoZpjzMPn6JMuKilKJhVXcqUpkcwg6JBVkhXoj4AunQX5KrhIpUflhmCfsxnp6pg==
+X-YMail-OSG: yolARgUVM1kG6t4ijq9htX7SpL4lyvIampBPIc8WwknJRw84OGtqeiNAZmdVACl
+ a_ESwRREgaTIcK5N65w4r4XGHcNDUyrZzxjXn72KpCbwgkxT4l.C4WacRNYSE5JdriNIdY4QttYq
+ waYMV4so188XtaH7OocAF_7M0BISPR4PzzvnCDW.06fPNHV.m8aLsl4Pm.znn6rskC84NU7MpaWV
+ KIWD_XB5od37Tc72jHzYhtA5BpdR11hm4kOVrJrAZ9s83m5xme..idJr3fK2Y35wsn1qZdzqiK9D
+ r_JIBmChylKwtXUOtIGn2Z6EgInF11xT5s3pq6aVMf3TPvojZ8ym2IGX_bgB4IabrJxQnxHQHVlH
+ .QoWqwusLwqA5Yx44KhxsjwtCVmXmyBIPsPafpCGQLeEaH5dq22.AxkXmPjBTZ.veCheJa7cCIC0
+ 68ATVptmbb5Ib96vAEBoopjgNrgDS_Ow4yFEpvFMVOJPK2mutFQH0ZOyti2H4JX14QvQInYjUhvr
+ RTMUSbbuMMOtFW.N.ge2CveTcXZMYK9382QNqOdzgmZJm0rkPPztw1VHXYlnf4Qmous.KCqdIWQM
+ 62d2Bk7aAb4k4NN5R6u7Xf6fuv.bMjgf9HgeWabJLGq.bQsSfvxhZXgLm8j55FkmjMTRXTkJFPTU
+ UmzqWUbjaRX.9c52a.Na2KZl5aBXwh4PKWOSgdMWbPHmA4XyjKnHsG3NTmwc70Q8wCQasoRhx.n8
+ 0CgESLk3qGgT89oQk1JHpUBLZWVpMwFj__avBcYK1XWfpHPY8ND21yzjB2NLK5AUycFq6rtAUTjD
+ SMYasWsrhAJfP2X1_p9Qbm3zfVe1vOt3unCHrRNfjnP4N0I0UCpwAhpubDphjRKdQI34GkIu7rzG
+ _4.TJ1253fdfC0MrKqE61EoG9L_oKOitQaa8udI8TrS5T59Yt7vXq.OqaGjMAU9TDUKBg601Jezo
+ FAw8QsdMcdLA3rgbV_udK7zRNfXl3SEDfL26VKKrTQgEP8Qtlb8gPd4yTEMDW7xgoU2m1xkIAozP
+ X6V3JbOIe3bpw_Cxj065LVc5Vy1iSYjw8kuFxnz7qxdJB9isZSs616RSd1l.eeztoRdxfSbHRO3w
+ snywB7XY7mVffFGJ6GmF.IPrd_rnI6c6mZvI7TIog9MsHKl_ZQJEC_uwNZzSDyaNNh3yDBCamT4j
+ LmHtZdDmkB7zdDwsHskvxDCDcaQ4xqoezDQU89a1dMNYV.b98RgN1BalGRWerObjwQHFby_QViCU
+ 0b4boRS5k3Nl9APgH3J3a3ZVJs6sadt33uFPJ0HnFmBtQPWb03_Z1qHXIp5k9bJ1lBrMH.krBFea
+ UDv5WlwJGsRfNDkGzK3QsMkxaLJX7iOWUZnvO3IxcQCbYT0wI.rCpyD_WT_IonreCNkMs9a1HmBX
+ 2PXolpNSOUQsByUBQJVvVEIKhY.j5resfLAeo39.gCEFdXuaUFJLX8aNHDlu041oVxs1i33_p5qr
+ vm0FFCwuiApFWTJw7qxSDbPuDrAhByUuFWvoU9K67KVohUkMvBuxU7IY7aEcJfs6I.BqeH_sKBfd
+ q9ubrMOZx.pDTwi3OrZSjPci2ft8ph_Gj9JzalCAbvnQJ.7pk41WZJLNikj6oVz8mDRtm.UPricp
+ ZtSiMc4WDSfil.HbuFFqb5upmtU1.NQYDnKirR8POt.AmYnVza_ysjRLqxyHxJyCY4a1Cmc.sp8n
+ TdPPNxXZb4Lz4rG_PNlXB0qp_nQSV9fn.rfxSntmr8qpI6YyNi780y.v.IgQ61K_MuMTVtcbt9Y9
+ ygCsdz2D27qUQnKL_bsa9PVY.qIey0qdeJaj0uN8ClaCsFW_H4nsEm3EBuozRtqHEZ3RekUVnDkA
+ iftqpqu1Lw0.aO5CM8ff3rE_BhDNJSCS1cpU6DKvyt1QKA4ockUVOy_H_qULJtgu.rXWd.p2Nvxq
+ Al7952rwpSQgHvB8cmRpgvrXLM4QPSkSpW5rUqLN3pPezi34waGgF3wjaXgxtgd8Z.5W9CodQ2lK
+ m6tsfN85x14HEJHIcZP1XWFvNQTre3LYv6mrucEBlE.Q0gqaHH1FDC55_LH6G5NIGtYJwXe.6TGe
+ 1VHpGOX6nJ4_9QMXLBEYhHOzoK7xcttpgt2CpTkh2qGBAuk.0wv5AcMRbW7JWghK4BebSRsnkT7J
+ C.02JpUTsD1zpxWYJ.xsfrPzQdfALnhe0uSLLbNKGx.JI7PSDJjt3tmQ6oyYYq9OC5Q4EjnS7NUt
+ 82bCkuUnlq_73hNoATxs3tvChhLC8wvDOH4ZcMU8AK6HWSQk-
+X-Sonic-MF: <ms60710444266@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic306.consmr.mail.bf2.yahoo.com with HTTP; Mon, 16 May 2022 10:40:07 +0000
+Received: by hermes--canary-production-bf1-579c78cbb7-wvb8d (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID 76751fcf70f0cb8db62b13c056e0fce1;
+          Mon, 16 May 2022 10:38:05 +0000 (UTC)
+Message-ID: <0a934e65-8ead-6807-44ea-a48fbe79e39d@yahoo.com>
+Date: Mon, 16 May 2022 05:38:01 -0500
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:91.0) Gecko/20100101
+ Thunderbird/91.6.1
+Content-Language: en-US
+To: MILTON MCKENZIE <MS60710444266@YAHOO.COM>
+From: B D2022 <ms60710444266@yahoo.com>
+Subject: emails
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+References: <0a934e65-8ead-6807-44ea-a48fbe79e39d.ref@yahoo.com>
+X-Mailer: WebService/1.1.20188 mail.backend.jedi.jws.acl:role.jedi.acl.token.atz.jws.hermes.yahoo
+
+Connie Yeung (FINRA ) <mailto:cyeung134@bloomberg.net>, Stephanie Banker 
+(FINRA ) <mailto:sbanker52@bloomberg.net>, John Margolis (FINRA ) 
+<mailto:jmargolis31@bloomberg.net>, Lad Dullum (FINRA ) 
+<mailto:dulluml1@bloomberg.net>, Jay Gibbon (FINRA ) 
+<mailto:jgibbon@bloomberg.net>, Lisa Capasso (FINRA ) 
+<mailto:lcapasso1@bloomberg.net>, Patrick Helmstetter (FINRA ) 
+<mailto:patrickjh@bloomberg.net>, Andrew Smith (FINRA ) 
+<mailto:asmith1151@bloomberg.net>, Bbgnj 499586 (STATE STREET BANK AN ) 
+<mailto:njtsy1@bloomberg.net>, Boston Audit (BROWN BROTHERS HARRI ) 
+<mailto:boaudit@bloomberg.net>, Kpmg Audit (KPMG LUXEMBOURG SOCI ) 
+<mailto:4audit@bloomberg.net>, Internal Audit (LAZARD FRERES & CO L ) 
+<mailto:ialazard@bloomberg.net>, Bethany Arnold (FINRA ) 
+<mailto:barnold71@bloomberg.net>, Ray Pellecchia (FINRA ) 
+<mailto:rpellecchia2@bloomberg.net>, Ryan Krieg (FINRA ) 
+<mailto:rkrieg99@bloomberg.net>, Justin Cressell (FINRA ) 
+<mailto:cressell@bloomberg.net>, Donald Rizer (FINRA ) 
+<mailto:drizer@bloomberg.net>, Tony Grant (FINRA ) 
+<mailto:tgrant84@bloomberg.net>, Christian Alvarez (FINRA ) 
+<mailto:calvarez115@bloomberg.net>, Kimberly Berry (FINRA ) 
+<mailto:k28826@bloomberg.net>, Harold Maldonado (FINRA ) 
+<mailto:dlaburo21@bloomberg.net>, Nancy Soto (FINRA ) 
+<mailto:nsoto20@bloomberg.net>, Michael Karp (FINRA ) 
+<mailto:karp58@bloomberg.net>, David Nguyen (FINRA ) 
+<mailto:davidnuge1@bloomberg.net>, Srisha Bolledula (FINRA ) 
+<mailto:sbolledula@bloomberg.net>, Nathan Scarff (FINRA ) 
+<mailto:nscarff@bloomberg.net>, Ngozi Daniel (FINRA ) 
+<mailto:ngozid@bloomberg.net>, Joshua Wong (FINRA ) 
+<mailto:jwong554@bloomberg.net>, Paul Aragon (FINRA ) 
+<mailto:aragonp@bloomberg.net>, Justin Morgan (FINRA ) 
+<mailto:jmorgan274@bloomberg.net>, Nian Xue (FINRA ) 
+<mailto:nianxue@bloomberg.net>, Brian Carr (FINRA ) 
+<mailto:bcarr43@bloomberg.net>, Isaac Booth (FINRA ) 
+<mailto:ibooth3@bloomberg.net>, Anthony Marchitto (FINRA ) 
+<mailto:amarchitto6@bloomberg.net>, Jason Grinkin (FINRA ) 
+<mailto:jgrinkin6@bloomberg.net>, John Sagan (FINRA ) 
+<mailto:jsagan8@bloomberg.net>, Dominic Marchesano (FINRA ) 
+<mailto:dmarchesano2@bloomberg.net>, Jay Loftus (FINRA ) 
+<mailto:jloftus21@bloomberg.net>, Glenn Rose (FINRA ) 
+<mailto:grose88@bloomberg.net>, Trudy Clarke (FINRA ) 
+<mailto:tclarke57@bloomberg.net>, Dilmeet Singh (FINRA ) 
+<mailto:delsingh@bloomberg.net>, Troy Smith (FINRA ) 
+<mailto:tsmith626@bloomberg.net>, Caroline Jones (FINRA ) 
+<mailto:cjones558@bloomberg.net>, Chris Gursky (FINRA ) 
+<mailto:csgursky@bloomberg.net>, Scott Avery (FINRA ) 
+<mailto:savery10@bloomberg.net>, Mavis Kalo (FINRA ) 
+<mailto:mkalo1@bloomberg.net>, Brandon Scarff (FINRA ) 
+<mailto:bscarff1@bloomberg.net>, Ting Wu (FINRA ) 
+<mailto:twu294@bloomberg.net>, Lewen Song (FINRA ) 
+<mailto:lsong108@bloomberg.net>, Joshua Joannides (FINRA ) 
+<mailto:jjoannides2@bloomberg.net>, Razina Dixon (FINRA ) 
+<mailto:rdixon81@bloomberg.net>, Rosinna Rivera (FINRA ) 
+<mailto:rrivera88@bloomberg.net>, Shannon Grant (FINRA ) 
+<mailto:sgrant90@bloomberg.net>, Chris Tuite (FINRA ) 
+<mailto:ctuite1@bloomberg.net>, John Rouce (FINRA ) 
+<mailto:jrouce@bloomberg.net>, Ryan Schye (FINRA ) 
+<mailto:rschye@bloomberg.net>, Greg West (FINRA ) 
+<mailto:gwest20@bloomberg.net>, Dale Sauble (FINRA ) 
+<mailto:dsauble@bloomberg.net>, Geoff Pruzinsky (FINRA ) 
+<mailto:gpruzinsky1@bloomberg.net>, Austin McCrary (FINRA ) 
+<mailto:amccrary@bloomberg.net>, Ashley Mead (FINRA ) 
+<mailto:amead11@bloomberg.net>, Kenneth Thompson (FINRA ) 
+<mailto:kthompson.84@bloomberg.net>, Andrew Keller (FINRA ) 
+<mailto:akeller106@bloomberg.net>, Cassandra Kirk (FINRA ) 
+<mailto:ckirk21@bloomberg.net>, Anthony Walker (FINRA ) 
+<mailto:awalker231@bloomberg.net>, Andrew Korb (FINRA ) 
+<mailto:akorb1@bloomberg.net>, LEGAL@MSKYLINE.COM, akmaliy@yahoo.com, 
+dian.zhu@finra.org, bondstrt@protonmail.com, bd2561@columbia.edu
+

@@ -1,0 +1,299 @@
+From - Sat Jun 25 23:16:21 2022
+X-Account-Key: account1
+X-UIDL: ALJM2uBA7BHsYrfc+Q4pAOhKBGw
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.40.105
+ by atlas313.free.mail.bf1.yahoo.com with HTTPS; Sun, 26 Jun 2022 04:13:45 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.206]
+Received-SPF: pass (domain of github.com designates 192.30.252.206 as permitted sender)
+Authentication-Results: atlas313.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 04:13:45 +0000
+X-YMailAVSC: X6MBAxE3bBtsi3LOkjDFZF1awT6hS.imK_4a83A4UFFll_W
+ QUyyNdZu.7kolKnKUYBdw5BjJ0IBjIcia6QU7vaXjaVO3fKlgkg_iwlX1EQu
+ KqFOKdqbmY6JbEehCa1kVuk2H.gqjtHzsYiknC5mLsrQ2kCPMmC8mrSYy1oP
+ h3VqoImob4.yG1ggHBJfOakQpWAq4ZEUALjNDH7Fm2mVQh0Ctx_Sg5p4k65R
+ oLK3dS1KJZ.hYT5xAJE7puxbzYrm5JuaFSWKFH44TkX1IXGwh.TuGVxNLNag
+ PsPTfpHywFhqxGW8GpW1swdyXv_m60..Z.8ivABJ95_Hu4H051NSI032USAy
+ 5OWajnufsCIxdWc4808pIAVptCEwosarLiyM-
+X-YMailISG: 5GRma94WLDstcXaig3aKFytao_YeAvSZ2V1uduMdtXUwytI1
+ uPMzA8akWod0tUVEJqdbdl20BdZY8Uky3o1biqjc5VICzNbGza_zkNbzUJxu
+ zGWhaWtBWNzk3OGQtx83L.h0BR1j4jNoLfE5_t0LE8UzvJMbQszLzWTFrPru
+ ra2TUAEVMlppnDDbnplwc5sjLiA.u01lKoDFVjDZBrLyHQ9jr6HejYVFcBGz
+ RE2ZAny8QqcKphjJzN29XvG3SaJP3bZTA15DHskKxJ9SKxoZSJq_sxkReDqL
+ r_sqfrg7QveIHyuu5zhEKvi88aiYPjYEwmh8E3nk3uTUrBAZSwByhLGO4ZSu
+ Uh1lYDuf754JeheC874.YfVetF6uLAzn8aSvhKzTUG0PDIBLBGnuuvkM4MOI
+ .tyPxRilRUpU7wJF90T5_wabIlzkSayl6Od73cfvCKVb10MoMFn1THGtxn9Y
+ b01GSAKGqG_kqIK8uSCK9AVLfZ8WmKvezJ_7kGiEsy7wJeLkeG49VFmn1YRn
+ CjR8S3q.xuZSYsBQoOHnjaLrH8Qg7rsID4958sXijRsqdNnt_1ln3g7D7cEV
+ 8tnc4NY2weR6Jh_emPIaUrv.BYp.WB3ADu0Ln28ZjjcjqyyahelvblfcmGMe
+ lZq3lhlbrWp1SP6icJHL509P.pLz8tVTfUuPEDSDGpqMosw.fCxJQqfK1yVF
+ RxC2QR6RLVFCLXO4Yay5QQmtwJIb3ab6_JmNz_DNg31bV2DeivuD7_kG1Mxt
+ 96NSY2F8d6go0iNUb.VUEHNrNY6AjSk1xxvzqtqnu5B2Jl4INBIi69nFfuFB
+ TbSxexmqB026QyWlp0VWrNN1x4Uv.Lg80p7aBVZDP22XdgZAefNilxBB8wT6
+ WVViN4gwqE.HTQ44ZTluMoZ3uD2WxnBUlgmRiIPCQe2wPWDkC6lA8zcaKQQJ
+ SVB0nB1ypapGY5l8hvpmVu97WDUgzwUWG_lHOdrA9iTIkXj3sKnJUQXub1VC
+ lAR5qGj802YcstsvPa34bki.WmieK8SuT4feW9cRe7FvkxIo7dcKuSDKZUWg
+ LLYNDIgTDrJHOWQarwo.d7uVSUWDtfH9R1TxomLx3hcnnWahDxNe6M8Oc9nG
+ pDDGC.RPGxL5IFvINhxxY41KuM1tP1HI9hyWGsPnbs2FGoBQU3mE4vfbTbtm
+ JRwHqJsFA96KUF8nzN03A0ptKvZ6A8oxMyZ4DAjm
+Received: from 192.30.252.206 (EHLO out-23.smtp.github.com)
+ by 10.197.40.105 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 04:13:45 +0000
+Received: from github.com (hubbernetes-node-b4e9ef3.ac4-iad.github.net [10.52.201.40])
+	by smtp.github.com (Postfix) with ESMTPA id 74A8C600379;
+	Sat, 25 Jun 2022 21:13:45 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656216825;
+	bh=rfcXZFrn9W3HHjqH+TBR5u/0Wgwq87WwdgKtvpM9EnY=;
+	h=Date:From:To:Subject:From;
+	b=CZ128s7vZ6axTSnAxLD/Yqaf0ZHwM3n7i6gH7syPEq/vCJ/KO06JcnMhsZdvNFoGG
+	 kaBmCn0DyovjfCmXovJFiB3bbNUGxgzJGZXTy1KpmCWPkDvINrqURA4QGnCt9E57G8
+	 TSmmWVvT8qS57pxEkLI0VSItDrUS7tcoSxec9ty0=
+Date: Sat, 25 Jun 2022 21:13:45 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/25dd7e-93d5a2@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 93d5a2: ASHLEY.HUMPHRIES@WILSONELSER.COM: BY AND BETWEEN T...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 12546
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: 93d5a2b097d3138538c99c6ccccb6e1375952cf0=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/93d5a2b097d3138538c99c6ccccb6e137595=
+2cf0=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-25 (Sat, 25 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  ASHLEY.HUMPHRIES@WILSONELSER.COM: BY AND BETWEEN THE WILSON ELSER LAW F=
+IRM, AND ITS REPRESENTATIVES AND COUNSELORS.=0D
+=0D
+BOOKS & RECORDS -------------------------XX=0D
+--------------------------------------------------=0D
+LOCATION 1:        Lewisohn HALL, 4TH FLOOR. =0D
+Street Address:     2970 Broadway=0D
+                           New York, NY 10027=0D
+--------------------------------------------------=0D
+USC 18. VIOLATIONS ANNEXED IN NYSCEF 153974/2020 [ LOAN 50074 ] VIA DHS/C=
+BP=0D
+=C2=A72. - Principals (a) Whoever commits an offense against the United S=
+tates or aids, abets, counsels, commands, induces or procures its commiss=
+ion, is punishable as a principal. (b) Whoever willfully causes an act to=
+ be done which if directly performed by him or another would be an offens=
+e against the United States, is punishable as a principal.=0D
+=0D
+=C2=A73. - Accessory after the fact Whoever, knowing that an offense agai=
+nst the United States has been committed, receives, relieves, comforts or=
+ assists the offender in order to hinder or prevent his apprehension, tri=
+al or punishment, is an accessory after the fact. Except as otherwise exp=
+ressly provided by any Act of Congress, an accessory after the fact shall=
+ be imprisoned not more than one-half the maximum term of imprisonment or=
+ (notwithstanding section 3571) fined not more than one-half the maximum =
+fine prescribed for the punishment of the principal, or both; or if the p=
+rincipal is punishable by life imprisonment or death, the accessory shall=
+ be imprisoned not more than 15 years.=0D
+=0D
+=C2=A74. Misprision of felony Whoever, having knowledge of the actual com=
+mission of a felony cognizable by a court of the United States, conceals =
+and does not as soon as possible make known the same to some judge or oth=
+er person in civil or military authority under the United States, shall b=
+e fined under this title or imprisoned not more than three years, or both=
+.=0D
+=0D
+Filing User Shari Laskowitz | slaskowitz@ingramllp.com | 2129079600=0D
+=0D
+150 East 42nd Street 19th Floor, New York, NY 10017 Filed: 07/21/2020=0D
+=0D
+[NYSCEF INDEX NO. 153974/2020] https://iapps.courts.state.ny.us/nyscef/Vi=
+ewDocument?docIndex=3DE0CKxALt/dD_PLUS_Wk3Z8vuaXQ=3D=3D=0D
+=0D
+VIOLATION OF PRIVACY AND BREACH OF DUTIES=0D
+*** Filed: 07/21/2020=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=3DE0CKxA=
+Lt/dD_PLUS_Wk3Z8vuaXQ=3D=3D=0D
+=0D
+PROCESSED=0D
+https://iapps.courts.state.ny.us/nyscef/FilingUserInfo?filerId=3DSVnk_PLU=
+S_wwn_PLUS_akZLr2HagUrng=3D=3D&ret=3DD&docketId=3DrbJs1u78EZo22UbkaVdrZg=3D=
+=3D=0D
+=0D
+Please keep this notice https://iapps.courts.state.ny.us/nyscef/Confirmat=
+ionNotice?docId=3DUZsCx4RNLy/6V9gf1BkpTQ=3D=3D CONFIRMATION -- PROCESSED =
+The NYSCEF website has received an electronic filing on 08/04/2020 02:32 =
+PM.=0D
+=0D
+BY AND BETWEEN THE WILSON ELSER LAW FIRM, AND ITS REPRESENTATIVES. ASHLEY=
+.HUMPHRIES@WILSONELSER.COM=0D
+FILED: NEW YORK COUNTY CLERK 08/04/2020 02:32 PM=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DxBYJ69pjI=
+uDxBegralE8Uw=3D=3D=0D
+=0D
+NYSCEF DOC. NO. 225 RECEIVED NYSCEF: 08/04/2020 https://iapps.courts.stat=
+e.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4RNLy/6V9gf1BkpTQ=3D=3D=0D
+=0D
+FILED: NEW YORK COUNTY CLERK 08/04/2020 09:10 AM INDEX NO. 153974/2020=0D=
+
+RECEIVED NYSCEF: 08/04/2020=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DJjKiWNUTB=
+eipcESQfFiwVQ=3D=0D
+=0D
+E-mail Notifications An email regarding this filing has been sent to the =
+following on 08/04/2020 02:32 PM: SHARI LASKOWITZ - slaskowitz@ingramllp.=
+com=0D
+=0D
+249 AFFIDAVIT OR AFFIRMATION IN REPLY TO ORDER TO SHOW CAUSE, Motion #001=
+ 250 EXHIBIT(S) 1, Motion #001 251 EXHIBIT(S) 2, Motion #001 252 EXHIBIT(=
+S) 3, Motion #001 253 EXHIBIT(S) 4, Motion #001 254 EXHIBIT(S) 5, Motion =
+#001 255 EXHIBIT(S) 6, Motion #001 256 EXHIBIT(S) 7, Motion #001 257 EXHI=
+BIT(S) 8, Motion #001 258 EXHIBIT(S) 9, Motion #001 260 EXHIBIT(S) 1, Mot=
+ion #001 261 EXHIBIT(S) 2, Motion #001 262 EXHIBIT(S) 3, Motion #001 263 =
+EXHIBIT(S) 4, Motion #001 264 EXHIBIT(S) 5, Motion #001 265 EXHIBIT(S) 6,=
+ Motion #001 266 EXHIBIT(S) 7, Motion #001 267 EXHIBIT(S) 8, Motion #001 =
+268 EXHIBIT(S) 9, Motion #001 269 EXHIBIT(S) 10, Motion #001 270 EXHIBIT(=
+S) 11, Motion #001 271 EXHIBIT(S) 12, Motion #001 272 EXHIBIT(S) 13, Moti=
+on #001 273 EXHIBIT(S) 14, Motion #001 274 EXHIBIT(S) 15, Motion #001 275=
+ EXHIBIT(S) 16, Motion #001 276 EXHIBIT(S) 17, Motion #001 277 EXHIBIT(S)=
+ 18, Motion #001 278 EXHIBIT(S) 19, Motion #001 279 EXHIBIT(S) 20, Motion=
+ #001 280 EXHIBIT(S) 21, Motion #001 281 EXHIBIT(S) 22, Motion #001 282 E=
+XHIBIT(S) 23, Motion #001 283 EXHIBIT(S) 24, Motion #001 284 EXHIBIT(S) 2=
+5, Motion #001 285 EXHIBIT(S) 26, Motion #001 286 EXHIBIT(S) 27, Motion #=
+001 287 EXHIBIT(S) 28, Motion #001 288 EXHIBIT(S) 29, Motion #001 289 EXH=
+IBIT(S) 30, Motion #001 290 EXHIBIT(S) 31, Motion #001 291 EXHIBIT(S) 32,=
+ Motion #001 292 EXHIBIT(S) 33, Motion #001 293 EXHIBIT(S) 34, Motion #00=
+1 294 EXHIBIT(S) 35, Motion #001=0D
+=0D
+Filing User Shari Laskowitz | slaskowitz@ingramllp.com | 2129079600 150 E=
+ast 42nd Street 19th Floor, New York, NY 10017=0D
+=0D
+Hon. Milton A. Tingling, New York County Clerk and Clerk of the Supreme C=
+ourt NYSCEF Resource Center, nyscef@nycourts.gov Phone: 646-386-5956 Webs=
+ite: http://www.nycourts.gov/courts/1jd/supctmanh/county_clerk_operations=
+.shtml=0D
+=0D
+Phone: (646) 386-3033 | Fax: (212) 401-9146 | Website: www.nycourts.gov/e=
+file=0D
+=0D
+LOAN DOCKETS, ASSIGNMENT OF LEASES AND RENTS TO STATE FARM IN EXCHANGE FO=
+R $6,000,000.00=0D
+=0D
+USC 18.21, UNLAWFUL RENTS AND LEASES TRANSFERRED TO STATE FARM=0D
+ANNEXED IN THE LOAN DOCKETS AND IN NYSCEF 153974/2020=0D
+=0D
+=C2=A721. Stolen or counterfeit nature of property for certain crimes def=
+ined (a) Wherever in this title it is an element of an offense that- (1) =
+any property was embezzled, robbed, stolen, converted, taken, altered, co=
+unterfeited, falsely made, forged, or obliterated; and (2) the defendant =
+knew that the property was of such character; -such element may be establ=
+ished by proof that the defendant, after or as a result of an official re=
+presentation as to the nature of the property, believed the property to b=
+e embezzled, robbed, stolen, converted, taken, altered, counterfeited, fa=
+lsely made, forged, or obliterated.=0D
+=0D
+PROPERTY REPORT (see also: Miwa and Teschman) Assignment to Zucker 05/26/=
+2020 Filed: 08/04/2020 Confirmation Notice 307 EXHIBIT(S) - OPP (Motion #=
+001) Dincer, B. (Pro Hac / Pro Se) Processed PLAINTIFF DOES NOT HAVE A CE=
+RTIFICATE OF OCCUPANCY FOR THIS PROPERTY Filed: 08/09/2020 Confirmation N=
+otice https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DrjL=
+6yoW3Mt2U6UigWCM9XQ=3D=3D Received: 08/09/2020 308 EXHIBIT(S) - 503 (Moti=
+on #001) Dincer, B. (Pro Hac / Pro Se) Processed TAX MAP BLOCK 503 - LOT =
+8 [GIS.NYC.GOV] Filed: 08/09/2020 Confirmation Notice https://iapps.court=
+s.state.ny.us/nyscef/ViewDocument?docIndex=3DSgjFfExxNV4Y4DTX6pANaA=3D=3D=
+ Received: 08/09/2020 309 EXHIBIT(S) - no1 (Motion #001) Dincer, B. (Pro =
+Hac / Pro Se) Processed PLAINTIFF ASSIGNED LEASES AND RENTS ON MAY 15TH F=
+iled: 08/09/2020 Confirmation Notice https://iapps.courts.state.ny.us/nys=
+cef/ViewDocument?docIndex=3D19MVPFXy0G0QvnmRLGpYIQ=3D=3D Received: 08/09/=
+2020 310 EXHIBIT(S) - AC0 (Motion #001) Dincer, B. (Pro Hac / Pro Se) Pro=
+cessed ACRIS Detailed Document Information (2019000021408)201901080047500=
+1 Filed: 08/09/2020 Confirmation Notice https://iapps.courts.state.ny.us/=
+nyscef/ViewDocument?docIndex=3Dze6a1KA9akRV9TGfXXJT/g=3D=3D Received: 08/=
+09/2020 311 EXHIBIT(S) - AC1 (Motion #001) Dincer, B. (Pro Hac / Pro Se) =
+Processed ACRIS Detailed Document Information (2020000155422)202005200029=
+1003 Filed: 08/09/2020 Confirmation Notice https://iapps.courts.state.ny.=
+us/nyscef/ViewDocument?docIndex=3DbVk8sIt7n3kGwHqebPg0fw=3D=3D Received: =
+08/09/2020 312 EXHIBIT(S) - AC2 (Motion #001) Dincer, B. (Pro Hac / Pro S=
+e) Processed ACRIS Detailed Document Information (2020000155421)202005200=
+0291002 Filed: 08/09/2020 Confirmation Notice https://iapps.courts.state.=
+ny.us/nyscef/ViewDocument?docIndex=3DwTG2YD2PqXuxmoKqFiESrw=3D=3D Receive=
+d: 08/09/2020 313 EXHIBIT(S) - AC3 (Motion #001) Dincer, B. (Pro Hac / Pr=
+o Se) Processed ACRIS Detailed Document Information (2020000155422)202005=
+2000291003 Filed: 08/09/2020 Confirmation Notice https://iapps.courts.sta=
+te.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D=
+ Received: 08/09/2020 314 EXHIBIT(S) - AC4 (Motion #001) Dincer, B. (Pro =
+Hac / Pro Se) Processed ACRIS Detailed Document Information (202000015542=
+3)2020052000291004 Filed: 08/09/2020 Confirmation Notice https://iapps.co=
+urts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiKJ0BGv2DF/MOn4g=3D=
+=3D Received: 08/09/2020 315 EXHIBIT(S) - ACR (Motion #002) Dincer, B. (P=
+ro Hac / Pro Se) Processed ACRIS.NYC.GOV >> ASSIGNMENT OF LEASE AND RENTS=
+ ON FILED ON MAY 26TH - https://a836-acris.nyc.gov/ Filed: 08/09/2020 Con=
+firmation Notice https://iapps.courts.state.ny.us/nyscef/ViewDocument?doc=
+Index=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D Received: 08/09/2020 316 EXHIBIT(S) =
+- Bu0 Dincer, B. (Pro Hac / Pro Se) Processed COMPLAINT #14585819 (7/25/2=
+020) @BBB Filed: 08/09/2020 Confirmation Notice https://iapps.courts.stat=
+e.ny.us/nyscef/ViewDocument?docIndex=3D7Ry3LAoVfWOLjSXhyJZ94A=3D=3D Recei=
+ved: 08/09/2020=0D
+=0D
+CERTIFICATES OF OCCUPANCY AT ALL RELEVANT TIMES. FOR THE LOAN 50074 (ALSO=
+ FILED IN NYSCEF 153974/2020)=0D
+230 EXHIBIT(S) - COr Dincer, B. (Pro Hac / Pro Se) Processed CERTIFICATE =
+OF OCCUPANCY FOR 111 SULLIVAN STREET REAR, NEW YORK, NEW YORK 10012 Filed=
+: 08/04/2020 Confirmation Notice https://iapps.courts.state.ny.us/nyscef/=
+ViewDocument?docIndex=3DJjKiWNUTBeipcESQfFiwVQ=3D=3D Received: 08/04/2020=
+ 231 EXHIBIT(S) - COf Dincer, B. (Pro Hac / Pro Se) Processed CERTIFICATE=
+ OF OCCUPANCY FOR 111 SULLIVAN STREET, NEW YORK, NEW YORK 10012 Filed: 08=
+/04/2020 Confirmation Notice https://iapps.courts.state.ny.us/nyscef/View=
+Document?docIndex=3D1Wx2R9sKfno_PLUS_ol5jFakV9g=3D=3D Received: 08/04/202=
+0 232 EXHIBIT(S) - MEW (Motion #002) Dincer, B. (Pro Hac / Pro Se) Proces=
+sed Miwako Messer (AFFIDAVIT) IS REPORTED AS A 25 YEAR AFFILIATE OF THE P=
+LAINTIFF Filed: 08/04/2020 Confirmation Notice https://iapps.courts.state=
+.ny.us/nyscef/ViewDocument?docIndex=3D72GIYXnN1f/CSjCYtDxKUw=3D=3D Receiv=
+ed: 08/04/2020=0D
+=0D
+233 EXHIBIT(S) - MW1 (Motion #001) Dincer, B. (Pro Hac / Pro Se) Processe=
+d Affidavit of Miwako Messer SHOULD BE CONSIDERED AS WELL ORCHESTRATED Fi=
+led: 08/04/2020 Confirmation Notice https://iapps.courts.state.ny.us/nysc=
+ef/ViewDocument?docIndex=3DG5D0bfOIy4SeSXS47aSWbw=3D=3D Received: 08/04/2=
+020 234 EXHIBIT(S) - VER Dincer, B. (Pro Hac / Pro Se) Processed NO COMPL=
+AINTS HAVE BEEN FILED IN MY BUILDING - PER DEPARTMENT OF BUILDINGS RECORD=
+S. Filed: 08/04/2020 Confirmation Notice https://iapps.courts.state.ny.us=
+/nyscef/ViewDocument?docIndex=3D1Wx2R9sKfno_PLUS_ol5jFakV9g=3D=3D Receive=
+d: 08/04/2020 235 EXHIBIT(S) - 804 (Motion #002) Dincer, B. (Pro Hac / Pr=
+o Se) Processed property report (see also: Miwa and Teschman) Assignment =
+to Zucker 0526 Filed: 08/04/2020 Confirmation Notice https://iapps.courts=
+.state.ny.us/nyscef/ViewDocument?docIndex=3DOioy2FAQ_PLUS_uuEatGhmc4JnA=3D=
+=3D Received: 08/04/2020=0D
+=0D
+[Read:SLASKOWITZINGRAMLLP.COM---WILSONELSER---ZUCKER--SCCS--XXXX@COLUMBIA=
+.EDU CONFIRMED](https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER=
+/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8985954/Read-.SLASKOWITZING=
+RAMLLP.COM---WILSONELSER---ZUCKER--SCCS--SGO%40COLUMBIA.EDU.CONFIRMED.zip=
+)=0D
+FAXED THE PRIOR MSG TO NY SUPREME COURTS, CIVIL BRANCH.=0D
+https://faxzero.com/status/31316917/6b34c3ad9620003256df358c638765fc2ae38=
+7cc=0D
+=0D
+=0D

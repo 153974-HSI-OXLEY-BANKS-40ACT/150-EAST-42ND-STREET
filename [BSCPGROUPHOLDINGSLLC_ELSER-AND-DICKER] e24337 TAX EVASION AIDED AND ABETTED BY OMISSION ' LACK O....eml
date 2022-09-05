@@ -1,0 +1,417 @@
+From - Sat Jun  4 11:03:56 2022
+X-Account-Key: account1
+X-UIDL: AHRg8tIn4Vq7Ypn1YgFjeJ9vUl8
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.233.85
+ by atlas321.free.mail.gq1.yahoo.com with HTTPS; Fri, 3 Jun 2022 11:49:53 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.208]
+Received-SPF: pass (domain of github.com designates 192.30.252.208 as permitted sender)
+Authentication-Results: atlas321.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 3 Jun 2022 11:49:53 +0000
+X-YMailAVSC: gMVVQdk3bBv_oNLDl_0mc_9arXxytwkokIOrfxPQtMvtBxQ
+ AleDHJ_JhqV1FNS30sBaYguTKLTKIkKpIsqoNrB9XyzvlFkQ0RbXYXlp0P8A
+ 9707uRoLkQ5tZB9sRxHKGeXIoZekXx.RA56F.JVRsOXDB0NtECu44t6fMnu6
+ BLdy0qsQiwhCUbMaZ3MRtNSkidXWANi4bZ7jErxDNSy9hFCg_De1i45RT3.d
+ Q2qibR7kkEHFvyT7qQcl991deiE.9efQQ.FICGckB3j2KfG52Jz5emg7J_2K
+ rXMHEVKs4qyuymFvm8lvgtZ0kwi00cVXRr59ybOQ2yIkc0lrQTqIxJVVJ3rY
+ dOsAYUt7zUlTmoxMcj_M3IxA4IN.OnNJJ
+X-YMailISG: D0It1wAWLDs0.LOZRSKn.kj4EvNec2qRSmlEjN7xAGcO6ZuY
+ uo.0wPqNctA1KAsVPjEE5U_nbnYtjI_CeTgVmXVtC7f2ZcGeGGAqUVhsf2.C
+ KLmyajYyx7lkjyy9iLczEW_OHRGaKku3E6zRYbfvm6cKCa_PdAkTKzdeNkQX
+ 1chXWB4TMqJQrg9JmoWsGxfWyFDiGHkVfYw1dXpYGXhN3SdULYq_X4h5LMUT
+ 3su5pi2_Q7KVOsfbbNmkPjAbYwIZful_U86N4DFfER3wkuszrX7UBVwjxD54
+ kQST8YJA6it.jXmpvHuYURj48Nlu5pwghYRlDeiaNKGr__ufjjodQCWdgc59
+ .CoCNEoWU7hNEUifjZ9MT8ak8xdy_UhbwnPYKmNwxviw5aV_rS1pj61acLJS
+ Z6N2ovQuGEcozzJy90260N8Xia9pL.NJC9SD0L6mZxDBvx5ysYqQZwNNkZjS
+ 71OgWDK7pPChmc860JsRNQsm5R08j.LJas9T76QApQ4rWRcfSoWoiPpBx4Oc
+ W7SmCnvdt2Xc8iseDeNIY6xVGtRCPqXFM_M3J2Mf5T3aY2WB42wTCaiZkQYW
+ CmqegDgbtuuOL1A.CFMsxB4BzMBWJ8SE97ckN92M9j0t2oUZczlVZ8sZ2Epr
+ Dm0.sZXJqLRfouexx.XZxhjmTfJCRKrkW7kJ60Jt8m9ujn8AlX17y.P7l9QS
+ Z2YKeRdrktP905f5Sztg90oJzh3DDrSAdAdHv57k7FJQW5WuLUO19wTCytya
+ mz2DDOZBYt41SUjzfl9RxuvgdZG6InqAbkjZM1FxrnDiR7fyz2MzX0_0PCJ5
+ zToQ6ToermhmcoOA_aCaPM18kwWcmvan_qym739EuHNkyLYhaOx06s2H7goR
+ eOJ5gEuEXJqOJUshF65JHAKGHox4Q03PKizGBM47yDJLySuoXvTrQUvQZvno
+ YFrdPJi17qsOps4wMFzJD1xHlDluekkaBq_fjk8bQRZTuhURY4TQfvLIch44
+ oFsOWI0W0hx7R7BOLqwKdBbkthSHbhnT792P3lzwLW5ZSgWwWvvvi7HtXn44
+ .Z1MO_0hxxEiqAhXrKrsE8B2L4Ed_DlRP_NpxZWO7V0WQts61AS1kZM8YJTI
+ opvJsV0mm3bN5ISLFGc1a5..BRYFD6kaDoHHggUJc0FryyX7d8id00t5FuwJ
+ elHTNQ0BbGlhAD7RAvkbG0QhxK92
+Received: from 192.30.252.208 (EHLO smtp.github.com)
+ by 10.253.233.85 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 03 Jun 2022 11:49:53 +0000
+Received: from github.com (hubbernetes-node-0e6b21e.ash1-iad.github.net [10.56.211.52])
+	by smtp.github.com (Postfix) with ESMTPA id CFC3B8406B1;
+	Fri,  3 Jun 2022 04:49:52 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1654256992;
+	bh=jieChy4ild9Pr1C9v4QWGeWItSX+NIY4fJwnshKqaSI=;
+	h=Date:From:To:Subject:From;
+	b=FUG0zI2LdyQdFqqxFvoiHNecZtfHiMsGN1reCxwZKtEN5LcRX9Dmy9V6uqhBtlZAH
+	 S6YgYR4OP37ZZUKMXv8bqTFempZPuG0Hn0wZ3khRbmB5GNO5ArHIztzgG+VB+o5F2F
+	 7SATkLgIbQo9vAFQpPbU/4jqMKPNWtNR6m/wOjbg=
+Date: Fri, 03 Jun 2022 04:49:52 -0700
+From: 1212-5858 <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ fed-mmkt-ops@bloomberg.net
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/TAX-OBSTRUCTIONS/10d596-e24337@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] e24337: TAX EVASION AIDED AND
+ ABETTED BY OMISSION " LACK O...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,fed-mmkt-ops@bloomberg.net
+X-Auto-Response-Suppress: All
+Content-Length: 13840
+
+  Branch: refs/heads/TAX-OBSTRUCTIONS
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+  Commit: e24337206a13684607c1b393b752425db7ecd2f1
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/e24=
+337206a13684607c1b393b752425db7ecd2f1
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.c=
+om>
+  Date:   2022-06-03 (Fri, 03 Jun 2022)
+
+  Changed paths:
+    A ESTOPPEL-AND-BAR
+
+  Log Message:
+  -----------
+  TAX EVASION AIDED AND ABETTED BY OMISSION " LACK OF KNOWLEDGE "
+
+
+
+
+-------- Forwarded Message --------
+Subject: 	Fwd: ***LOAN 50074 annexed IN 153974/2020 State Farm and Sulliv=
+an Properties LP. [ receipt ]
+Date: 	Fri, 3 Jun 2022 06:34:14 -0500
+From: 	B D2022 <ms60710444266@yahoo.com>
+To: 	EDINCER54@OUTLOOK.COM, edincer54@gmail.com, Hale Dincer <hidincer@ao=
+l.com>, +15163667582@tmomail.net, +15168841083@tmomail.net, +15168841084@=
+tmomail.net, +19173783467@tmomail.net, slaskowitz@inngramllp.com <slaskow=
+itz@ingramllp.com>, us.client.onboarding@citi.com, odonned@assembly.state=
+.ny.us <odonned@assembly.state.ny.us>, KATHY HOCHUL <governor.hochul@exec=
+.ny.gov>, stringer@comptroller.nyc.gov <stringer@comptroller.nyc.gov>, AC=
+SInspectorGeneral@doi.nyc.gov <ACSInspectorGeneral@doi.nyc.gov>, assessme=
+nts@fdic.gov <assessments@fdic.gov>, CongressionalLiaison@occ.treas.gov, =
+ofac_feedback@treasury.gov <ofac_feedback@treasury.gov>, +15163224896@tmo=
+mail.net, daphne.dincer@gmail.com
+CC: 	William.Lleras2@nypd.org, tracie.shagiuriguen@nypd.org, Thomas.Meane=
+y@nypd.org, FROEHLICH, TERRANCE <TERRANCE.FROEHLICH@nypd.org>, tejinder.s=
+ingh@nypd.org, TARA.TIZZIO@nypd.org, Taimoor.Ahmad@nypd.org, Serge.Jean@n=
+ypd.org, SEAN.HOGAN@nypd.org, Sean.Aman@nypd.org, Ronald.Perillo@nypd.org=
+, Robert.Yturraspe@nypd.org, ROBERT.PASSERO@nypd.org, richard.narciso@nyp=
+d.org, richard.lee3@nypd.org <richard.lee3@nypd.org>, raul.rodriguez3@nyp=
+d.org, BOYLE, PETER <PETER.BOYLE@nypd.org>, PAUL.CLARK@nypd.org, PATRICK.=
+DOYLE@nypd.org, oliver.matos@nypd.org, Nicholas.Mitchell@nypd.org, Nichol=
+as.Henry@nypd.org, nibal.pena@nypd.org, narine.ramlochan@nypd.org, Miguel=
+.Rivera2@nypd.org, Michelle.Murray@nypd.org, michael.reilly2@nypd.org, Mi=
+chael.Rachwalski@nypd.org, MICHAEL.CORRADO@nypd.org, Max.Solomon@nypd.org=
+, MATTHEW.WHITING@nypd.org, Mark.Pagano@nypd.org, mark.hunter@nypd.org, m=
+arilyn.noa@nypd.org, Marian.Bencea@nypd.org, GOURDINE, LUIS <LUIS.GOURDIN=
+E@nypd.org>, Liam.Moyles3@nypd.org, Leonard.Bradley@nypd.org, lance.trent=
+@nypd.org, Lamarr.Barnes@nypd.org, Kerriann.Smith@nypd.org, kenneth.feele=
+y@nypd.org, Joseph.Soldano@nypd.org, joseph.leonard@nypd.org, Joseph.Hart=
+nett@nypd.org, JOSEPH.ALGERIO@nypd.org, Johnny.Liquori@nypd.org, JOHN.TOU=
+RLOUKIS@nypd.org, john.lamneck@nypd.org, JARREE.JONES@nypd.org, jarett.di=
+lorenzo@nypd.org, IAB@nypd.org, Herbert.Wroten2@nypd.org, hctf@nypd.org, =
+GREGORY.CONLON@nypd.org, GEORGE.KALOGEROPOULOS@nypd.org, FRANK.ALIPERTI@n=
+ypd.org, francisco.martireyes@nypd.org, CHAUCA, FLAVIO <FLAVIO.CHAUCA@nyp=
+d.org>, eric.chau@nypd.org, erdem.ozen@nypd.org, Edward.Bergmann@nypd.org=
+, dion.gaspard@nypd.org, SENDROWSKI, DANIEL <Daniel.Sendrowski@nypd.org>,=
+ Daniel.Bavuso@nypd.org, Dajon.Panton@nypd.org, Connor.Lisante@nypd.org, =
+CHRISTOPHER.FREDA@nypd.org, Christophe.Snagg@nypd.org, CHRISTOPHE.LEAP@ny=
+pd.org, christina.ortiz@nypd.org <christina.ortiz@nypd.org>, charles.nova=
+k@nypd.org, brian.nelsen@nypd.org, brian.crooks@nypd.org, anthony.sclafan=
+i@nypd.org, Alyssa.Vogel@nypd.org, aloysius.sosic@nypd.org, CHATEAU, ALEX=
+ANDER <ALEXANDER.CHATEAU@nypd.org>, ALEXANDER.AVDIC@nypd.org, Adam.Riddic=
+k@nypd.org, 90pctyco@nypd.org, 90pctdvo@nypd.org <90pctdvo@nypd.org>, 23p=
+ctyco@nypd.org <23pctyco@nypd.org>, 23pctdvo@nypd.org, 23pctdvo@nypd.com,=
+ 19pctyco@nypd.org <19pctyco@nypd.org>, 19pctdvo@nypd.org <19pctdvo@nypd.=
+org>, 18pctyco@nypd.org <18pctyco@nypd.org>, 18pctdvo@nypd.org <18PCTDVO@=
+nypd.org>, 17pctyco@nypd.org, 17pctdvo@nypd.org, 14pctyco@nypd.org <14pct=
+yco@nypd.org>, 14pctdvo@nypd.org <14pctdvo@nypd.org>, 10pctyco@nypd.org <=
+10pctyco@nypd.org>, 10pctdvo@nypd.org <10pctdvo@nypd.org>, 1pctyco@nypd.o=
+rg <1pctyco@nypd.org>, 1pctdvo@nypd.org <1pctdvo@nypd.org>
+
+
+in the TO: AREA
+
+- as obstructed in the PRIOR.
+
+
+ 12/10/2021    123.25    123.25
+                                        12/13/2021    122.76  122.76
+                                        12/14/2021    122.16  122.16
+                                        12/15/2021    124.36  124.36
+ 12/16/2021    123.55    123.55
+                                        12/17/2021  121.93    121.93
+
+        INSIDER TRADING [DECEMBER 18TH, 2021]. . . . . . . . . . . . . . =
+. . . . . . . .[0212]
+ ------------------------------------------------------------------------=
+--------------
+         __________________________
+         12/20/2021    120.72    120.72
+         12/21/2021    106.35    106.35
+     12/22/2021    107.39    107.39
+     12/23/2021    108.08    108.08
+     12/27/2021    109.52    109.52
+
+https://github.com/BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV=
+
+
+> LOAN DOCKETS WERE NOTARIZED AND ANNEXED IN NYSCEF 153974/2020
+>
+> . . . . . . . . . . . . . . . . [0254]
+>
+> *DOCKET 270-- ATTACHED... --- RECEIPT
+> *
+>
+> /*- NO WONDER THEY ACCEPT $2.00 AND HAD TO HIRE A LARGER FIRM...*/
+>
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUavl5NR=
+QV4YHKqWUf8fyVQ=3D=3D
+>
+>
+> ACRIS REPORT: transfer and assignment of RENTS and LEASES [ income used=
+ as guarantee ]
+>
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFX=
+y0G0QvnmRLGpYIQ=3D=3D
+>
+>
+> /of the Sarbanes-Oxley Act of 2002
+> https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/27
+> /
+>
+> / FILER: 93715/
+>
+> * https://www.sec.gov/Archives/edgar/data/0000093715/000119312520200810=
+/d913497dex99cert.htm
+> * https://www.sec.gov/Archives/edgar/data/0000093715/000119312520200810=
+/d913497dex99906cert.htm
+>
+>
+> _______________________________________________________________________=
+_______________________
+>
+>     TOTAL LOSSES SUFFERED ON THE BASIS OF THE REPORT FILED BY THE COMPL=
+IANCE OFFICER
+>     OF STATE FARM VP. MANAGEMENT CORP ON 11-30-2021 THROUGH THE END OF =
+Q1, 2022
+>
+> ***
+> **       STFGX        STFBX        SFITX  SFBDX**
+> ****
+> **        COMBINED LOSSES
+> *
+>
+> *FROM 11-30-2021 THOUGH 03-31-2022*
+>
+> *
+> ****             $852,029,498.38 *
+>
+>
+>                 FOR ALL FOUR OF THE TICKERS UNDER THE FORMER UMBRELLA O=
+F 93715
+>                 -- MERGED INTO A LARGER BODY OF RISK UNDER THE UMBRELLA=
+ 1516523
+>                 -- UNDER THE ADVISEMENT AND OMISSION OF ITS COUNSELORS,=
+ CONTINUE TO
+>                 -- HEMORRHAGE ITS CAPITAL AT THE EXPENSE OF ITS INVESTO=
+RS WITHOUT
+>                 -- ANY PUBLIC DISCLOSURE, OR ESTOPPEL BY FINRA PERMIT F=
+OR THEM TO
+>                 -- CONTINUE TO FUNCTION WITHOUT ANY "TRUE" SPECIALIST T=
+O HANDLE
+>                 -- THEIR AFFAIRS, DEMONSTRABLY AS SEEN IN THE PERFORMAN=
+CE OF THE
+>                 -- FUND.
+>
+>  ----------------------------------------------------------------------=
+------------
+>             STFGX
+>             Date    Close/Last    Adjusted Close
+>
+>             11/10/2021    121.17    121.17
+>             11/11/2021    120.77    120.77
+>             11/12/2021    121.48    121.48
+>  __________________________
+>                                         11/15/2021  121.34    121.34
+>                                         11/16/2021  121.6    121.6
+>                                         11/17/2021  121.52    121.52
+>                                         11/18/2021  121.87    121.87
+>                                         11/19/2021  121.69    121.69
+>                                         11/22/2021  121.64    121.64
+>                                         11/23/2021  121.79    121.79
+>                                         11/24/2021  121.85    121.85
+>                                         11/26/2021  119.44    119.44
+>                                         11/29/2021  120.48    120.48
+>                                         11/30/2021  118.5    118.5
+>                                         12/1/2021  117.78    117.78
+>                                         12/2/2021  118.95    118.95
+>                                         12/3/2021  118.46    118.46
+>                                         12/6/2021  119.95    119.95
+>                                         12/7/2021  121.89    121.89
+>                                         12/8/2021  122.51    122.51
+>                                         12/9/2021  121.99    121.99
+>                                         12/10/2021  123.25    123.25
+>                                         12/13/2021  122.76    122.76
+>                                         12/14/2021  122.16    122.16
+>                                         12/15/2021  124.36    124.36
+>                                         12/16/2021  123.55    123.55
+>                                         12/17/2021  121.93    121.93
+>
+>         INSIDER TRADING [DECEMBER 18TH, 2021]. . . . . . . . . . . . . =
+. . . . . . . . .[0212]
+>  ----------------------------------------------------------------------=
+----------------
+>                  __________________________
+>                  12/20/2021    120.72    120.72
+>                  12/21/2021    106.35    106.35
+>                  12/22/2021    107.39    107.39
+>                  12/23/2021    108.08    108.08
+>                  12/27/2021    109.52    109.52
+>                  12/28/2021    109.57    109.57
+>                  12/29/2021    109.82    109.82
+>                  12/30/2021    109.55    109.55
+>                  12/31/2021    109.48    109.48
+>  ______________________________________________________________________=
+____________________
+>
+>
+>
+> MAY 11, 2020
+>
+>         "STATE FARM LIFE INSURANCE COMPANY"
+>         BY ITS MANAGING MEMBER
+>             -------------------------------
+> *            STATE FARM REALTY MORTGAGE LLC*
+>             -------------------------------
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DXjn0/e1=
+NcBADqRc_PLUS_g11P4g=3D=3D
+>
+>
+>     RECEIVED NYSCEF: 08/11/2020
+>         AUG  9, 2020
+>             RE: STATE FARM.                DOCKET 398
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dn_PLUS_=
+CvSQR36fqPKko6L47FFQ=3D=3D
+>
+>
+>         AUG 10, 2020
+>             LETTER FROM COUNSELORS.     DOCKET 399
+> *>>> "STATE FARM REALTY INSURANCE LLC" <<<*
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DD9Td7If=
+WXyajw1tBNCFb9g=3D=3D
+>                         I AM UNFAMILIAR WITH >>> "STATE FARM REALTY INS=
+URANCE LLC"
+>
+>
+>
+> *FY 2020*
+>     8/9/2020
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFX=
+y0G0QvnmRLGpYIQ=3D=3D
+>     NO CERTIFICATE OF OCCUPANCY FILED ON AUGUST 9TH, 2020
+>
+>     8/8/2020
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DZOCFS3H=
+H2UeHQe8j2tXJoQ=3D=3D
+>     NO CERTIFICATE OF OCCUPANCY FILED ON AUGUST 10TH, 2020
+>
+>
+>
+> *SO WAS THIS.*
+>
+> *I. THEY MONITORED MY LAPTOP FROM OUTSIDE OF MY APARTMENT.*
+>     - ON A 24 HOUR BASIS, RECORDED MY EVERY STEP AND MOTION.
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dc3iexOl=
+Bwsgc1lnMJ2_PLUS_AqQ=3D=3D
+>
+> *      ASHLEY HUMPHRIES, OF WILSON & DICKER.*
+> ***
+> **      " ... PLEASE CHECK THE SECURITY TAPES ... "*
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DHbnFLHB=
+3tyjhEWAYb6mOPw=3D=3D
+>
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DYvkihzM=
+1cwANtAvbUwWX_PLUS_g=3D=3D
+>
+>
+> *    II.    VIDEOTAPED ME "INSIDE OF MY APARTMENT".*
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4R=
+NLy/6V9gf1BkpTQ=3D=3D
+>
+>
+> *    III. DISTRIBUTED VIDEOS OF MYSELF IN MY APARTMENT -- THE INTERIOR.=
+*
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DYGRsoOy=
+DJuc93MrOnwh5Jw=3D=3D
+>
+>
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D84wdx4R=
+hX5LEi0sISXetBw=3D=3D
+>
+>
+> *    IV. ATTACHED VIDEO OF MYSELF DRILLING INSIDE OF MY APARTMENT.*
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D5uMb/OR=
+klCen4NaSEt6oFg=3D=3D
+>
+>
+> *    V.    ATTACHED VIDEO OF MYSELF HAMMERING INSIDE OF MY APARTMENT.*
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DC4X_PLU=
+S_6_PLUS_kgBxoElZyFgKxGEQ=3D=3D
+>
+> *    VI.    THEY ALSO ANNEX RECEIPTS TO HELP BUY THEMSELVES MORE TIME A=
+ND TO DISTRACT *
+> *        THE JUDGE/ CLERK AND INSTEAD OF DEALING WITH THEIR TAX-EVASION=
+S AND ILLEGAL CONDUCT...*
+>
+> *--- CANVAS NEW NEIGHBORHOODS WITHOUT REPRESENTING THE RECEIPTS FOR TAX=
+ES PAID IN THE PRIOR 15-YEARS...*
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUavl5NR=
+QV4YHKqWUf8fyVQ=3D=3D
+>
+> *    VII. ALSO WILL SWEAR IN THEIR AFFIDAVITS THAT GO ON FOR PAGES THAT=
+ THEY HAVE NO INVOLVEMENT.**
+> **        - HAVE ALSO MONITORED ME FROM THE CORRIDOR, AND THROUGH MY DO=
+OR.**
+> **        - BY ALL OF THE ATTORNEYS, COUNSELORS, AND STAFF OF SULLIVAN =
+PROPERTIES, LP.**
+> ***
+>         VIII.    HAVE ALSO ANNEXED AND SWORE UNDER OATH THEY SAW ME
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQc/W=
+FihoyIKwEunaalQ=3D=3D
+>
+> *                       "... BANGING ON A RADIATOR ...* "
+>
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Doz2nfEu=
+9a94Y3U5/kpIt5g=3D=3D
+>
+>         IX. ALSO HAVE ANNEXED THEY "HOSTED" MY VIDEOS ON THE INTERNET -=
+-
+>         -- USING ONE OF THEIR OWN TENANTS AS THE VIDEOGRAPHER..
+>
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQc/W=
+FihoyIKwEunaalQ=3D=3D
+>
+>
+> NO CERTIFICATE OF OCCUPANCY IN FY 2020.
+>
+> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DZOCFS3H=
+H2UeHQe8j2tXJoQ=3D=3D
+>
+
+

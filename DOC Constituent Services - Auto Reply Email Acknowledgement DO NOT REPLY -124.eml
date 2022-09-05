@@ -1,0 +1,249 @@
+From - Fri Jul  8 15:47:59 2022
+X-Account-Key: account1
+X-UIDL: ABlHmgVgVZ8fYsiWWQDikKgClMU
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.220.180.164
+ by atlas125.free.mail.ne1.yahoo.com with HTTPS; Fri, 8 Jul 2022 20:40:56 +0000
+Return-Path: <prvs=1817ac234=constituentservices@doc.nyc.gov>
+X-Originating-Ip: [68.232.129.157]
+Received-SPF: pass (domain of doc.nyc.gov designates 68.232.129.157 as permitted sender)
+Authentication-Results: atlas125.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@doc.nyc.gov header.s=mail-s1;
+ dkim=pass header.i=@doc.nyc.gov header.s=selector1;
+ spf=pass smtp.mailfrom=doc.nyc.gov;
+ dmarc=pass(p=REJECT) header.from=doc.nyc.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 8 Jul 2022 20:40:56 +0000
+X-YMailISG: tDRgXnQWLDstaSIJ_EOJuHLELbmsOJBKGxklGeQ2k7DZBNH1
+ rxyGDlCPFHTuXH4rp8sQoz9IzURXeYW32J_gwJJ.Nur4NFEM3yp5wKJM4NQ7
+ GzpWm.XIkenREzNn_d73CNTXjvBP6_zwuDanYccY68NJIdjR6Bgu2fMqWzqM
+ brLQDi3s1stzw68X4vd8qF3Am_Ka1sEwKTGjAlFqVC_MdJmxc5Ie2OVPv4F9
+ e.NNxs5VwJQ4GSFL4g8SDxww2fCDL4SAi1JaTzNHnHGptyH6hPoGPbjGhk8Q
+ zlIaEKwrOIgMRwrBqa7YQ6SJsJl02Ob1e2Y2uYeKMvA5YFbKb_uCG9d3D3mC
+ uhNz5WQRw7ibCmSmavXYHwb5OSbwUEejcXGLb0WN9sOOfCg_AYkpqoQtdln2
+ c.oPXBMJafrCR28isQPN17IzbTuiAVRiCDi.pgBngudKvaXaWL2tvcVMRHjp
+ EtiHwmKJnG22MNP1hUiQuurZASHAvgWUMlOaaQraA7hZkat4_XLKQvU32LKh
+ QodPqnB2Piv1JPLeMhE929c0z7EiR525x4Fu4w8fS5pr9LpsLf_1usVsytPU
+ 2_pxTt49DxCMIU_JCnzZxXfKvPtzYIie80tvPVlbDk2G4wgbOjusnDTKZ7ks
+ 0UsYrC5I9LjbyVyqrUaeQuZbiCkJYXSOW3tmMI07U8hYmYYumNJRil068o3M
+ 46ze5aqbPcDDbotL2ZS9aswGHxoG8w6T2jknAURksu6.0sAikVfdkomWXaxj
+ VGxnOjrQdUXI9_K59kAALJtbRJ7.fGP1ysalU.1NWonqwqadUjxVbZjFahdF
+ rJQ4RkQN2CDfPAZnDRnXvFdb5BRhCJFIUyz50pjh5Dv_sAkb6HT0jPIOhWp0
+ eGQ62J7LdDMT7h291J6IfEunf59mV9VGKtC.KAjRBIxi1AlurgkevbUFsbSf
+ 7ieLQqr0jfsGRjJvGMiJLixTpgThXpgu2BQH_.6I6qVqR2ITrOXU3ybg4re2
+ daa7onbusEb7AgMiz3EbZKeyKLTCrMWi9il959S89wzXCuFx0q82tUhsDcf2
+ E7.ORJ36UFleODxIXEXhmutEXy2YSsUcC2Gk0psD2IZxms2ASE9D.yqNSSD3
+ 7aOY_txNysLqqXRQOiDcoqjGOIpWhpBEeKWrBo_8LcwSJHvWHe9ZotJFOb5q
+ 6GA8y.MZatLMA_ghXtmkHAe8TSSIMizYNTZUMT.s8uS4Lxx3u3zw7ZIkdDg8
+ UUp7Ya_BPujFweNZroYTtzzLX9Jhm44Ex.dW7dge.ZIzFW32qyOgtQrsuIBv
+ HYVZ0mVFLdlAG3zCe754KcZTcaZAP2gxdG7sXjYHEMd_zXaXgqxOQ17QrZGw
+ j83d_nUjatPnwDi7mUj.bJ_CgzoAYBT_6GHBoMr6jkmwNgLW9tJqCowBshGA
+ jjpsJwBWiG3y
+Received: from 68.232.129.157 (EHLO esa7.nycdoitt.iphmx.com)
+ by 10.220.180.164 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 08 Jul 2022 20:40:56 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+  d=doc.nyc.gov; i=@doc.nyc.gov; q=dns/txt; s=mail-s1;
+  t=1657312856; x=1688848856;
+  h=from:to:subject:date:message-id:mime-version;
+  bh=aXcBdrFj+jeBlJsKBBOJ6Utu/pA9ZoeSuSjkWQhPvaI=;
+  b=W8TyUiAYloWiGYv1bCmgxFs3J9a2Wt51D3yMiN/9DBA7M+fWOz5g8UCl
+   xbj6q7dlzUEp6hRKrQ41B7qmm5DT6Ekf9B7uoLiIYcE1gPGBunPJEG9I/
+   w5HA/M2XoMm7aQ0c6mUrDV4E2xlGJDMY1yGsJw2gfckmWBAZJzs3v87Xa
+   oDD+7YVRxl7NuwpA3izCzk7QEWIK8Q1dz5J9ZlY7o2m27xUj/1qDzN4D2
+   BX0KB7KpgTsO96RaYR7eDjMse4lswtj4VMMv8/s1732VgMnvZooUYeLf2
+   XThpwZkCIuMEiCjkANKWeWwqjoSjCJv2fjmWBPoxt1u79MTvs5MFlpezV
+   A==;
+IronPort-Data: A9a23:SUvh76CHqPAp9RVW/3/iw5YqxClBgxIJ4kV8jS/XYbTApDsl1WMPy
+ TFMCDrTMvqCN2Ckfo9+bY+z90NU75Dcyt82TANkpHpgcSl2pJueD7x1DKtR0wB+jCHnZBg6h
+ ynLQoCYdKjYdleF+lH1dOKJQUBUjclkfJKlYAL/En03FFcMpBsJ00o5wbZl2NEw2LBVPivW0
+ T/Mi5yGULOa824sWo4kw/rrRMRH5amaVJsw5zTSVNgT1LPsvyB94KE3fMldG0DFrrx8RYZWc
+ QpiIIaRpQs19z91Yj+sfy2SnkciGtY+NiDX4pZatjTLbrGvaUXe345iXMfwZ3u7hB2btcJd8
+ /x0qKaBagYXG/fWxLlEf0ZxRnQW0a1uoNcrIFCQmufLlQjqViCpxP9jSkYrIYcf5+B7R3lU8
+ uAVIywMaRbFgP+qxLW8Sa9ngcFLwMvDZdtD/C0/i2+ES69+HvgvQI2TjTNc9Dw3gNtSHOrDa
+ swFcjd1chXLbgZnNlAcTpQvl6GngWeXnzhw9wPE+PNouze7IApZyr+wE+jWaJ+2Wsh7hk+ag
+ maBwlXAO0RPXDCY4X/fmp62vcfKhn2jB9tKSOHkrKA0qEyaxmsUThYRUDOGTeKRj0e/X5dTL
+ hcb8SF296wqrhXzEZ/6QgGyp2OCslgEQd1MHuYm6QaLjK3J/wKeAWtCRTlEADA7iPILqfUR/
+ gfht7vU6fZH6dV5lVr1Gm+okA6P
+IronPort-HdrOrdr: A9a23:zVkDlqnMrbS0ftUyOe9RF0OB5yTpDfOqimdD5ihNYBxZY6Wkfp
+ +V8cjzhCWftN9OYhodcIi7SdC9qADnhOZICOgqTP6ftWzd1FdAQ7sSiLcKrweAJ8S6zJ866U
+ 4CSdk3NDSTNykfsS+S2mDRfLgdKZu8gceVbIzlr0uFODsaCZ2ImD0JaTqzIwlTfk1rFJA5HJ
+ 2T6o5svDy7Y0kaacy9Gz0sQ/XDj8ejruOtXTc2QzocrCWehzKh77D3VzKC2A0Fbj9JybA+tU
+ DYjg3C4Lm5uf3T8G6Q64aT1eUbpDLS8KoMOCW+sLlVFtzYsHfmWG0uYczDgNl/mpDV1L9jqq
+ i3n/5nBbU515qZRBDInTL2xwfv3Cwy53LVwUKEiXHjpcD/WQQhB9BahYRfRBvVgnBQwe1Uwe
+ ZF2XmUuIFQCg6FlCPh58LQXxUvjUasp2E++NRj+0C3fLFuGoO5l7ZviX99AdMFBmb3+YonGO
+ 5hAIXV4+tXa0qTazTcsnN0yNKhU3wvFlPeK3JyzPC9wnxThjR03kEYzMsQkjMJ8488UYBN46
+ DBPr5znL9DQ8cKZeZ2BfsHQ8GwFmvRKCi8R166MBDiDuUKKnjNo5n47PE84/yrYoUByN8olJ
+ HIQDpjxB0PkoLVeL2zNbFwg27wqT+GLEvQI+lllulEhoE=
+X-IronPort-AV: E=Sophos;i="5.90,293,1643691600"; 
+   d="scan'208,217";a="79951707"
+X-IronPort-Outbreak-Status: No, level 0, Unknown - Unknown
+Received: from mail-dm3gcc02lp2107.outbound.protection.outlook.com (HELO GCC02-DM3-obe.outbound.protection.outlook.com) ([104.47.65.107])
+  by ob1.nycdoitt.iphmx.com with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 08 Jul 2022 16:40:54 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=IBZ7dyYZtfqA5jUCJGZMeg39NHfkgcA8NhTdTtQLUQTMVR39ZyxMzS3dXYO2hjgfI3aN4PELTAg5/28wco/SyzOKCruvNUcAhUOFy0Js/gPYAnk4TXVtx/2x9/NgW4boIsln2igkz3rImFxHchAVBBjDC+lqHClU6Ccitio6cLlIlcor5SkasyEwkhNn7MqWtutpmnnDwRkfomF9ErVoMAnD0yQyDgnC9szvCLDnyqKf2PEMPK44jZqjegRA6D+SeVQlX/L8I+5pm2hwWbKso2mZ6V7tjE3cYB8Djuq67uwy+WEPML3kEbiDnt/kLZCSlRzRh1fvyUGCc1D32zlrdA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=aXcBdrFj+jeBlJsKBBOJ6Utu/pA9ZoeSuSjkWQhPvaI=;
+ b=hvctOJvHxpBFhAwxtz9bP1Fvf7JN4RXzlewlF0bUPkGoz4dHLmhZT+rhhu94QKWkFC5QecddWQjbszS0QmGJ2S7jy6CojpnVYHmFXJjiQBG68vH4lRM+bVqlfB+DrJNa2i5MjX8dRMEZXIoo3TFW2vNGFSrCVViqYk6+pziybySv5e4furqC/4KlPIrypm2C4nhnv9JRyP8vrjjaHSn4AvsOLxGt2ehJH0FsPh1sb2y/Cv3zoDTK/xmPCo7/BEjFv3e5WoC/Jqtoou47Tmw/81YCYjzBE8uAeNiLyuYVt+4PLElFlqO4MqkgnH9DN2RACLYar1PlAlTmAgHa9c7M2g==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=doc.nyc.gov; dmarc=pass action=none header.from=doc.nyc.gov;
+ dkim=pass header.d=doc.nyc.gov; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=doc.nyc.gov;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=aXcBdrFj+jeBlJsKBBOJ6Utu/pA9ZoeSuSjkWQhPvaI=;
+ b=iDDjNyasua4/0f4s4Ehi9vHmz6181O/mzsaFRn4KQE7jdhXYRk7T4l2N1XVMXR24pFii6/CIKd1OqqRRlS0IpkUOKTu6OQ4aBnDD2a9RrjFrlPIWqntg7O8pss/rdW6unsT4d11mBRGZBeE5t0w0Opo5jfKJ2PNxVz2H7fUjpM+MubZH5x8NeG7C8wXDTVpBrBAug81vyYMu9UzD+0uJJpQAfKMsZrZS78vu3oZEltY9/Ynos6FyJvwduizGlMPvFVsUXDxz3vb7E9udY116GrXYDQSHa/UwuG8xYzFOGwR6mT0TpnwU64jDlqJVu+lmuPvaOpHomvggGOwSrNI07Q==
+Received: from BLAPR09MB6465.namprd09.prod.outlook.com (2603:10b6:208:2a7::22)
+ by BY5PR09MB5908.namprd09.prod.outlook.com (2603:10b6:a03:24a::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5417.20; Fri, 8 Jul
+ 2022 20:40:51 +0000
+Received: from BLAPR09MB6465.namprd09.prod.outlook.com ([::1]) by
+ BLAPR09MB6465.namprd09.prod.outlook.com ([fe80::25ed:7811:79ac:5132%7]) with
+ Microsoft SMTP Server id 15.20.5417.016; Fri, 8 Jul 2022 20:40:51 +0000
+From: Constituent Services <constituentservices@doc.nyc.gov>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: DOC Constituent Services - Auto Reply Email Acknowledgement ***DO NOT
+ REPLY***
+Thread-Topic: DOC Constituent Services - Auto Reply Email Acknowledgement
+ ***DO NOT REPLY***
+Thread-Index: AQHYkwsCddIUY0VKv0SYYHh8vn0oYA==
+Date: Fri, 8 Jul 2022 20:40:51 +0000
+Message-ID:
+ <c05f0bf9aaed406ca67487df8ed5f1d0@BLAPR09MB6465.namprd09.prod.outlook.com>
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: Constituentservices@doc.nyc.gov
+X-MS-TNEF-Correlator:
+x-ms-exchange-parent-message-id:
+ <14b8c49f-6652-d1ab-3cf2-90861c377e68@yahoo.com>
+auto-submitted: auto-generated
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 68e033ea-f3ce-4b81-13a0-08da61222574
+x-ms-traffictypediagnostic: BY5PR09MB5908:EE_
+x-outbound-auth: NYCO365
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ UvfQI2eRDi8nWq+4PxhGNnEcHhFCfASKzyCCcmR/pDyG2P+lCvyfMKCo1Pk2taqlqUvKYcZMfWKUJ+IHqGk1xFxu0a10AuzJtfFkceG9Cm/lMQb16pn70MRz5Ou35Blstq8Z8LZ8z6laphVkueP1OD/AstYjHvziIcj5YSwqkwfsuJXpNOHs4Aeghsb23j+c0wNoO99eEqV+CKLwUCo2DFRDVIBr0ZaJqH8a8bwD1h8L6lPlw0KQr+2tD53fLdvIGnhrKzJFgZlxJZRIoAVZAuZjOWDzl51BQDBzHjyZ0GaM4M7fmxN2uDKtnHYLgl0xOlkIjU21su/PKPuiYvV5Eou4X7sgDFYQCznmbV67MgbJjFwfS1DLkz8Cujr7VFYw/PF4TjsHk/AdbUUzI45eTRAvNMl0hS69BqbF+CYMDfqfFf7au+ur9ZHA1bR1KuZgBJDeuAgO6OOwA52MnTWJM1ooEflT1N4Zb3TN/R79zJzrcyaSSUhzE9442OGWyBI8GoCaffDjLnnHtccLNX3Wbv1KLTauue5sLAiY//wTOAMr6jGIj0CY6MTjCnoYFLuR9FlzREa5nLQgA3dvr20lu8jO8kSEO3RPXsNk4Mxpm9sf6ubI59j71sAjpgePLiByvJsn8qDo27EktYn+fWefJr1n+sGNt/Wg52kbcCqo75i3C2EoXH++ppVSRGOMZNkJ
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:BLAPR09MB6465.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(366004)(40140700001)(88996005)(2906002)(498600001)(71200400001)(5660300002)(7696005)(4744005)(108616005)(24736004)(186003)(9686003)(6506007)(122000001)(6916009)(8936002)(66556008)(83380400001)(66946007)(64756008)(66446008)(8676002)(66476007)(55016003)(86362001);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ irWMN3F/gb9R3qXEAYm6TOYAtpAUlWllcdF+gvp6UNvyq5jKCCKZjxvir7ckB8poHtl1iU1Mv3l+HA4finjx0CmVl23Pce8H8eg31Lt5wXepFCs65kIzcYGxV6ihZiVgnxjwxndDZi4FmaJODG9Pw/OuqSwq8hD2WJ2staLLk8rgrHW1wF7x9h+Xl6u/cGWxzAU++r8vt9vM6ldXWpaNnKnPEySk9Ip/FklbBSZuhl1pSIWa32SbizEsBrxzeepWMXVzgHsHzwnHW24MWbAGyuEeymm+MzrQ7t2mKEL/vvKT4PR8bYBC0fYnIH9FwDZV
+Content-Type: multipart/alternative;
+	boundary="_000_c05f0bf9aaed406ca67487df8ed5f1d0BLAPR09MB6465namprd09pr_"
+MIME-Version: 1.0
+X-OriginatorOrg: doc.nyc.gov
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: BLAPR09MB6465.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 68e033ea-f3ce-4b81-13a0-08da61222574
+X-MS-Exchange-CrossTenant-originalarrivaltime: 08 Jul 2022 20:40:51.1336
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 32f56fc7-5f81-4e22-a95b-15da66513bef
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BY5PR09MB5908
+Content-Length: 3349
+
+--_000_c05f0bf9aaed406ca67487df8ed5f1d0BLAPR09MB6465namprd09pr_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Good day,
+
+Thank you for contacting the New York City Department of Correction (DOC). =
+We appreciate your concern and/or feedback. Your correspondence has been re=
+ceived and will be reviewed.
+
+If you have any specific questions or follow up, please feel free to also c=
+all the Department of Correction Information Hotline at 718-546-1500.
+
+Thank you again for contacting DOC.
+
+Office of Constituent and Grievance Services
+NYC Department of Correction
+
+
+--_000_c05f0bf9aaed406ca67487df8ed5f1d0BLAPR09MB6465namprd09pr_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Good day,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Thank you for contacting the New York City Departmen=
+t of Correction (DOC). We appreciate your concern and/or feedback. Your cor=
+respondence has been received and will be reviewed.
+<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">If you have any specific questions or follow up, ple=
+ase feel free to also call the Department of Correction Information Hotline=
+ at 718-546-1500.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Thank you again for contacting DOC.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Office of Constituent and Grievance Services <o:p></=
+o:p></p>
+<p class=3D"MsoNormal">NYC Department of Correction<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_c05f0bf9aaed406ca67487df8ed5f1d0BLAPR09MB6465namprd09pr_--

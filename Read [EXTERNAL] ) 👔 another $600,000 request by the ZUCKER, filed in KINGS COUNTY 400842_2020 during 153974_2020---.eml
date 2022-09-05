@@ -1,0 +1,223 @@
+From - Fri Jul  1 21:24:44 2022
+X-Account-Key: account1
+X-UIDL: ALTCnj1Gpk5bYr8HaAxzgLPGm1g
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.151.201
+ by atlas314.free.mail.ne1.yahoo.com with HTTPS; Fri, 1 Jul 2022 14:40:40 +0000
+Return-Path: <Anthony.Lincoln@va.gov>
+X-Originating-Ip: [152.131.26.45]
+Received-SPF: pass (domain of va.gov designates 152.131.26.45 as permitted sender)
+Authentication-Results: atlas314.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@va.gov header.s=vasel6;
+ dkim=pass header.i=@DVAGOV.onmicrosoft.com header.s=selector2-DVAGOV-onmicrosoft-com;
+ spf=pass smtp.mailfrom=va.gov;
+ dmarc=pass(p=REJECT) header.from=va.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 1 Jul 2022 14:40:40 +0000
+X-YMailISG: NKbCR0kWLDs3Um203QEMtgNOip9Uy.0gLDzpS7j6fzedn.5Z
+ 35o5iu1hhH76MgCDFe2KoirJ_KZuu.CuKe2tBJ9tVBn718NwWT0KMoJS1_um
+ 81AG1GyXwwUTYbpnX4N20pnWFRqk11Zpd6zqoQVgyqJZq6DY_biAwpGoOSWG
+ vdfgHfqnOZAMXWP2WLMKyzSosMXS0IwVjQgnCUw19YYb_UnWRP4PsqLKFXW0
+ 00Xsaj48JgCR36ag9mK8whl0LujovcHk382tvr_xfXhfpQCLqFMG05RlIPyX
+ HP5DzkgsFqNM56uUORodvUZeEmdf_tUDnVAK0mICuPhj5hCDM0.KkE3EGshZ
+ tqeLkjtED7txoRBQI3awG0aQ8eCKmJoMEtnVM1l9O7mFIW909CxdsCVNyGs0
+ igmkTPa2TYgym6_d2QLpOfhNtZacSKjcrtEbfhD84nlwGrOVUlkFXubgZ4nV
+ uAjzgCFGzUbLm1GpfMNIdcJrjg6Vcl.l.lwZ4eoLCJ6Ba74kQCzRSRau0T7B
+ 31JclNS4UtwKtME95NtM3z.gmeWUKIdds5ooKPVWPvJpkJw2ic1OBwU_E2Aw
+ WQmp0glDjJ5KgbXnlddfzIgohWldqh0dDpMhud096wTwjs8Vnl5lgdW.a6BP
+ Sju106EkHisCsN1rIDkeWOhL4UVwyvmIJDtreaUxHr9VYg5oGgGlHEbyPtkB
+ .HNfm_N0TlQBv0sPvuvp1Jyf2NGZsqIUjc_k._G4Tj2gl7F_.RkQIJ4gJzIm
+ yUtL5wCKwgeU.jtg26EIxnwEBv.8zoQjy0CNntFHs7X3sljwYrZkRh4Nnc2k
+ NucLgqX296pcrocg9yLxefqi8h8b_5UbJPy_Zn1886zp45SWDniIPJ5j2PqV
+ K47mW8o4Xt3I4kYlu6Sg1gWO9uRR1oiVZaQp97bS.Sx58Hb0yX.TsIgf5rvS
+ OwwDoqUfth4aljywLTd71k5Xsan3R7NpCAMIBT5Robh3qBaGWDq27SCjVTg8
+ jCGRhSq_Ysx7ONHFqAMIS_KAmdH3g_ZOp7wyL4bmgHpVFJS2yy4Zb1rOzPRs
+ nyP7oIqvJAwvGMb2p.MAvSAgTiTb.36TCoWaIViDsyXBWi7sLQbFsWZyt.E7
+ blpxTdFhiqgSC6UYuEvxfPtf7GKO6klPyEmDiVo7YzpplUb_PDB7VITc.PTH
+ w8.lKqeaFH.5svJT4Dxn.QmgeuQV7_e6i.XIxw0i6eeTqt1AppqjXOEerYxz
+ TfdBYB.pZneNZf5e1O2EUuDOglQRMwDqTbAk_h6WmqdpeJxgV3vDhBCJ07C7
+ fR7Dm9L.JibITrm7Cxo4RSnKjVXDq11E0Pke2ul_EPFJDaE-
+Received: from 152.131.26.45 (EHLO gwwma03-mta.va.gov)
+ by 10.217.151.201 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 01 Jul 2022 14:40:40 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+  d=va.gov; i=@va.gov; q=dns/txt; s=vasel6;
+  t=1656686440; x=1688222440;
+  h=from:to:subject:date:message-id:in-reply-to:mime-version;
+  bh=OSUpWa0LbsccPMbYhtGfjOmiENrUfs+YjEXUu6M7vn4=;
+  b=AV8Z1l66ZeMvCdrM6E7e1TXrxISYSh0K7EpdLOvbUr435braosRi1qYH
+   KJujT/nHAojitqMyug9L03S7B6rZpiTgY3vxRaHZL8Dj2rydkJuxh205k
+   tSGwn0qLQZbhE094YYCzssoJycecT8D+3FxZZtAxjDdxFzJBz7X7OdSeD
+   QUTvuvXb4RiNzYNs6YJW4Kyvv2mIAaTbXA6zhaPvf6bzEyQEvBmiQlB4t
+   a5RKwRVOpRognMM0Wne3TKMhgcdk+CZuC7HsAihOJFonwLkPNqto+8VUS
+   8we1qx4k59C1C8EMjAGV0s6V5O9+wygKSmneSFMQxe+dYzRjP0gorSDRV
+   Q==;
+IronPort-SDR: hnkG+eHLMaNHJdXfYux0ViY1jLnHxM08zislgo36Yf8XMsJaYXPB7oOok/RciAkx3/g/AFJnug
+ HOMUorpFwIAQ==
+IronPort-Data: A9a23:jBjFvqusCMrZ5O4e5gUMxjZOcefnVIRcMUV32f8akzHdYApBsoF/q
+ tZmKWGBbK6MYmH0eogkPY2woU0PuZHQyIU3HQA4+ys9RSMUpJueD7x1DKtR0wB+jyHnZBg6h
+ yk4QoecdJhcolj0/0/2Y+SJQUFUjPrOHvygYAL9EngZqTVMEU/Nsjo+3b9j6mJUqYLhWVnV5
+ our+5e31GKNgFaYDEpFsspvlzs/5JweiBtA1rAPTagjUG32zhH5P7pDTU2FFEYUd6EPdgKMq
+ 0Yv+5nilo/R109F5tpICd8XeGVSKlLZFVDmZna7x8GfbhZ+Siwais7XNdIzQmwP0XCluos0z
+ 99A85utVQ0uI6vA3vwHVAVVGD1/OqsA/6LbJX+4soqYyEiun3nEmq0oVh1qe9REpKAuaY1N3
+ aVwxDQlRxafh+Ww0fSfS+9ngcAlBNfieowYpBmMyBmCV6d3HMGSGPWiCdhwmW1Yatp1NfPFO
+ ZJGMGIzMEiaPUNnK14XD5V4l+Ct7kQT2RUwREm9/PJxuTSPilUtjv60WOc5s+eiHa199nt0b
+ Eqcl4glKnn27OCi9Ac=
+IronPort-HdrOrdr: A9a23:4LMqhK9+nHOhYQWtWc9uk+E3db1zdoMgy1knxilNoENuGPBwxv
+ rEoB1E73fJYW4qKRcdcKO7SdC9qBLnhOlICOwqUItKMzOW3VdAQLsN0WKm+UyGJ8SczJ8q6U
+ 4DSdkbNDSYNzEX4voSizPZLz9U+qjkzEnev5a8854Cd2BXQpAlyz08JheQE0VwSgUDL4E+Do
+ Cg6s1OoCflUWgLb+ygb0N1F9TrlpnurtbLcBQGDxko5E2lljWz8oP3FBCew1M3Ty5P+7E/6m
+ LI+jaJrZlL8svLgCM05VWjo6i+q+GRheerMfb8x/T9ZA+cxDpAL74RI4Fq9ApF291Hrmxa2e
+ Uk6i1QRfhb+jffeHq4rgDq3BSl2DEy62X6wVvdmnf7p9flLQhKefapqLgpAicx0XBQz+1Uwe
+ ZOxSaUppBXBRTPkGD04MXJTQhjkg6xrWA5meAegnRDWc9GAYUh2bA37QdQCtMNDSj64IcoHK
+ 1nC9zd/u9fdRefY2rCtmdizdSwVjA4HwuAQEIFpsuJugIm6UxR3g8d3ogSj30A/JUyR91N4P
+ nFKL1hkPVUQsoffctGdZY8qAuMexLwqD73QR6vyA7cZdw60lr22uHK3Ik=
+X-IronPort-AV: E=McAfee;i="6400,9594,10394"; a="329959938"
+X-IronPort-AV: E=Sophos;i="5.92,237,1650931200"; 
+   d="scan'";a="329959938"
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=GeC2O3+w6apW4HrHwuV2kNf/40IJDybzYBT28Vddh0Jpp2gdw8R2/RzeD1jrzHlEwG83rNVOhV+Tj6CHfb2MvC1CeyFT0/3ex65ZaWvc9NUmm6d5N3RYRnEx9bNGF/mzcTMa+N09eJeU8L+0uXkxEbxVxNZkhLM5nbAlvR8c3xI4olu/nAzGUSYSF+mXx/mS1qMMAxvesSaISIabPMQMMECVRwgz1UsgKe2Kzq3DlSZ5GhueKLzUEgtveZmTkE/Z5+tI6syhBHIXrhJxKqxJ9H0mQgucDtGYjTwsAiMb+7Ex3KTxFTgMpE3Iti7iL992qOJf2XSIKFYMQ/GqrEokWQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=JXvDlsPbIncgWwLCIXnyiltkg2X87hLum7VO0YEa5Ug=;
+ b=gHdVMvRmcySWHpiqaZUJFVtBS3qkKpW8ZbyRc8/9jgoah2ON1RxbTPBOoIXrGyvzw/6rX7Bdkc/FaqjBGd2qHnKNJ8ABtHjrA6phlRnL9ENVGO6x7dljJlVNzRtD95LTz8+T2Md355lJUKXgkbKpcLUUr6e9N4BslMyuRt4FSllG7uDczj7DbVWfDeECHIpAyDNWNhEAvX+0ug3q7xEhVPYVsgKbLzPcizocGUUJIbSfPj259iQvqCqnSaKwepvJkAiHhO2/1Um7vBAxYUc9pVx3+8u8D0kYE+7gHrS91v5BfLO4tSNPc5uL4YdBSOiN4CL7T9A4n8lN5kHDN/OiSw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=va.gov; dmarc=pass action=none header.from=va.gov; dkim=pass
+ header.d=va.gov; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=DVAGOV.onmicrosoft.com; s=selector2-DVAGOV-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=JXvDlsPbIncgWwLCIXnyiltkg2X87hLum7VO0YEa5Ug=;
+ b=PIiFqgXOZQGBhtIxRVfPyjdlOq5bfz0WLe7I7AkDv/WgG6Q2+lO+tuCfyyy7loSumP7bSYNgL0H3awegpXmeobw4rM+Nd+Dytx2jXepPRcd0HQOvhcj8KCN5DxOV4QtzEl8a+1ktUG45YBucioZPwQJ5280F1GN3ErgVmsU0aRA=
+From: "Lincoln, Anthony K." <Anthony.Lincoln@va.gov>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject:
+ =?utf-8?B?UmVhZDogW0VYVEVSTkFMXSA+IPCfkZQgYW5vdGhlciAkNjAwLDAwMCByZXF1?=
+ =?utf-8?B?ZXN0IGJ5IHRoZSBaVUNLRVIsIGZpbGVkIGluIEtJTkdTIENPVU5UWTogNDAw?=
+ =?utf-8?Q?842/2020_during_153974/2020---?=
+Thread-Topic:
+ =?utf-8?B?W0VYVEVSTkFMXSA+IPCfkZQgYW5vdGhlciAkNjAwLDAwMCByZXF1ZXN0IGJ5?=
+ =?utf-8?B?IHRoZSBaVUNLRVIsIGZpbGVkIGluIEtJTkdTIENPVU5UWTogNDAwODQyLzIw?=
+ =?utf-8?Q?20_during_153974/2020---?=
+Thread-Index: AQHYjUcPpXMH6kQ2rkaSC7WreYqnz61pllk8
+Date: Fri, 1 Jul 2022 14:40:38 +0000
+Message-ID:
+ <CO6PR09MB832624BA4B0C85199F2C996B9DBD9@CO6PR09MB8326.namprd09.prod.outlook.com>
+In-Reply-To: <75c574ca-0687-8777-9fa5-92a6d10a445c@yahoo.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 4c00c033-ae9d-4ecf-ef10-08da5b6faa75
+x-ms-traffictypediagnostic: DM8PR09MB6421:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ N/U9o9Y/dezxFXfqXwV6feOK9Pq6R9+4z+xe6q/C7+iymBlF2r+gvJnUC+dla0QzSRam40FZ95K7ozfO3ufuh1EsZ/uhrPs5Oy6aiI4YU4N0dlflIP+n48iQiUoLLdMCnOWQrGtfrLWOuWHSLZhpdYKEfYiQxoOlH4377OckMEopFovlUQuZGjcEqGOF7cqnjTMEhO8Iy0+YuLD+OiW6yLQZrqqMrLBrzeMzyG5+IJNMzLP3lxuMLDxHra5rT4VNygUojNCEKPPz0/2iYgHLYk9/AP1oPIzLV/1a7DWdQkv6rRczNX907aIFEc13tF9w1DDaBIgDa4Mr6MVrTygN3UVsA6u3DGBOc6iuzz9updeRDtYonkP9F1VebqSOThqMOihSIRZZA0MWapugIWUyuNo9Y+EOJ2d6rEtljnpngfh+FSljFKy98BfBJWqHoYmMb5tKa3UzouEcie8i5p+3uPv2/bd+jInYLzHmw9jE21JNPW16gYMWxAcaxgrsHypJgbWAtt9thVC3ncBaUkGMgv36sKlBC4GqUcSeZBn7Xu5Z6QCvd/iYUYHTx+jOA9zs
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:CO6PR09MB8326.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(366004)(82960400001)(122000001)(38100700002)(38070700005)(71200400001)(498600001)(6506007)(7696005)(8936002)(621065003)(26005)(9686003)(4270600006)(186003)(73894004)(2906002)(52536014)(33656002)(86362001)(6916009)(76116006)(55016003)(66476007)(66946007)(66556008)(66446008)(64756008);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?utf-8?B?SnUva1RJUlVwMkxoME5nSzJabkR0cGV1anBuc0doU0tPMXI1blF3aUh6UDJD?=
+ =?utf-8?B?VndaekxJdiszcGE4RTdleTEyL1lXVmpNYnVvbDNWZkpkUWtBWHQwMnM2bCtL?=
+ =?utf-8?B?aHRoOER2K0pSWmpGSzh4OE5hWHZZNjRDeSszVkovN2hQUFpHTTd6dGtIVUhC?=
+ =?utf-8?B?T0ZxWlUzSzA5cDBwQTZwd3V4dmEwYXArMzc5TmxMZmRXOWJCd3VOeE9qNHEw?=
+ =?utf-8?B?M0ZBeTdNT09lMExhUlNEZlZ3UytCNFA5Ky9NVjhFcitOeDdlNWtmOHoyc0NM?=
+ =?utf-8?B?ZHNPb2xaMzE1YjBNejJMYzJpZUEyMk5rRWNhN09UeUU0cHVGdDZqdTBpM2Vx?=
+ =?utf-8?B?bXZUaUZ1V2RHNE5rbmh5UFJrNnFCTFRYK3Q4TzRVSDRmcE4yVEVnaU1CSmZz?=
+ =?utf-8?B?c1ovd2Z6K0hzSjlUT29lbllzNzFvY1ZpRG5QemZZbmZIVFV2THZyL0I4QmY2?=
+ =?utf-8?B?WDI4VDl3N1J2OEY1OUN4R254d1AyekMyNFhpdEtZZjllVlZLNlV0ZzFHaTJ3?=
+ =?utf-8?B?Ym5uK0J6WVVrWmd2ZGZDWUVDbUU3Ujl3bjN2Vms2NS8yNThJcXVxUEYrQnRl?=
+ =?utf-8?B?Wmx2ZkZ6UERlR3BPSzJuNVltZHNPTWlvTnlQMmEzYzdqMzdpTGd4bDRDMGgw?=
+ =?utf-8?B?a1lXQWtLU3VocXl3SlYyVnh5M3VnTk83UnZCQ1VOR3lkRkw3bk9tZnZzclgw?=
+ =?utf-8?B?bmJtdkk4SnQyMW5mbXNOdm1QeHN3UkZzN3B0d20wSUNmeDE2Rm1jTDBKZ216?=
+ =?utf-8?B?M2F2djZwZEo3SjQwZ0NUbGpmbVNoMVdJOG12SW5KV1M1QUxvdnEyN3B6c0w3?=
+ =?utf-8?B?NnZzVFprbjZ4UTZyYnhJOHg0SmlTNStRdHBwZ1EzbHI3Vkp2dndZUURZZE9E?=
+ =?utf-8?B?bE9WeTdYMEJZQWxTM1FVOXNDaURvcGU4NGo2N0gwd3lJQkVEYU9xb1M2cVNL?=
+ =?utf-8?B?U3VBQjJXbkNGWDJuWldXRG1aaDFvS01Rc29wVFFDZ3FXN3ZKQjBRME1OQk9G?=
+ =?utf-8?B?UXhDMktJM2Y1M0wxWkdLOTVQZEVKanVwRmVKMmM2UHp1eis3VXc0dU56Q1Ew?=
+ =?utf-8?B?cUVxTnl3TkJlVDA4U0JoTm9acWx1NHgvZkZ5Tk04UDVCWC80V05LNjlMNDFT?=
+ =?utf-8?B?WTFxalVmVFk5bjZIeDh2cXdLNWlFNTJIZ0RrSmVNN0NqeDg5d2VzcTc5VDNL?=
+ =?utf-8?B?MUJFeXp0WTZKOURibGtabGZGRDBKZXN3MStNbkVDS3QvN2JRVHBnT0xORUVN?=
+ =?utf-8?B?SWpXWWkvVUxtbVptOVNNZGh1VHVYOVFtRWhDeEh4cTUwMjU1SGN0K1RyVGRm?=
+ =?utf-8?B?UnRqeTZYclFTK0tDZmdlSGIvaTh4TEljbGxLSjhXM256b2xhYVBMNEdlT0xN?=
+ =?utf-8?B?Qy8rVnBpSzdWUjFPN1AySWszZXRQTVo1T3ZvMVVJcDcyV3Vab1ZieFVLVXRy?=
+ =?utf-8?B?RUE3NUE2YlZOZ25sMERFOU0rc1VmQ04waE1QUkVHNzJuZ3JCRy94UHNIaDU0?=
+ =?utf-8?B?Z0ZoSTMrdTlaamloM3Z6Z0dGOGI0U3ZvRENkM2JyUnJ1Z3dSQjFuTGpSZ1M2?=
+ =?utf-8?B?NFRlRFhpSlBVM0trd0ZzSmVWaHlMMnErV2M0UnhCUm0vVElEeERkUVR0eHVt?=
+ =?utf-8?B?SzhCMjdBaitRY0RtVUJRZjRBdlJoK2xRZ1hvTWhkMDRRRXZoUFFLM0dDTDVl?=
+ =?utf-8?B?QmloVUZoSWUwNG50cHg3VE9OWGVZVEFJMnpzZFZxY3FRMVNLa0taRGVxTDVQ?=
+ =?utf-8?B?V0lmRHA4NVJLNEhjTVlpOEYrcUFsSjhrOHpzOG01WWM5WVA1ckhQb2NPbzVs?=
+ =?utf-8?B?REZJOTI0Z2lCQkFOQ1lSOFo3QXYrcnk4M2trTmlBZFF1aHV3Rmk5aCtPb0Mw?=
+ =?utf-8?B?VlpKRUdGMGR0b0xlY0NSZ1ZMSE5FODQyNjhBMjQrLzlIMzYxclM1ZTByNFBV?=
+ =?utf-8?B?dzJyZlh4KzJYRVVGVXpPZng5UGFpRXQ0Z3BEa1hvSVdPT216YkQ5Y2FzY0ov?=
+ =?utf-8?B?SHFra3A5TVIyQVF6MlpKcVllRFRTYzhKT1RPckRyZEhyR3VENmJNZ2djc3I1?=
+ =?utf-8?B?dENCdWNrWXF2VEhiNmxjdlR2S2NQbCtkMTN0REQ5OGVTNEVYai9QbXVpalUv?=
+ =?utf-8?Q?xT3YTDTbhPpzH9hjPRfGzSoJ1?=
+Content-Type: multipart/report;
+	boundary="_000_CO6PR09MB832624BA4B0C85199F2C996B9DBD9CO6PR09MB8326namp_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: va.gov
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: CO6PR09MB8326.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 4c00c033-ae9d-4ecf-ef10-08da5b6faa75
+X-MS-Exchange-CrossTenant-originalarrivaltime: 01 Jul 2022 14:40:38.5387
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: e95f1b23-abaf-45ee-821d-b7ab251ab3bf
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM8PR09MB6421
+Content-Length: 2482
+
+--_000_CO6PR09MB832624BA4B0C85199F2C996B9DBD9CO6PR09MB8326namp_
+Content-Type: multipart/alternative;
+	boundary="_002_CO6PR09MB832624BA4B0C85199F2C996B9DBD9CO6PR09MB8326namp_"
+
+--_002_CO6PR09MB832624BA4B0C85199F2C996B9DBD9CO6PR09MB8326namp_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+WW91ciBtZXNzYWdlDQoNCiAgIFRvOiBMaW5jb2xuLCBBbnRob255IEsuDQogICBTdWJqZWN0OiBb
+RVhURVJOQUxdID4g8J+RlCBhbm90aGVyICQ2MDAsMDAwIHJlcXVlc3QgYnkgdGhlIFpVQ0tFUiwg
+ZmlsZWQgaW4gS0lOR1MgQ09VTlRZOiA0MDA4NDIvMjAyMCBkdXJpbmcgMTUzOTc0LzIwMjAtLS0N
+CiAgIFNlbnQ6IEZyaWRheSwgSnVseSAxLCAyMDIyIDg6Mjk6MjQgQU0gKFVUQy0wNTowMCkgRWFz
+dGVybiBUaW1lIChVUyAmIENhbmFkYSkNCg0KIHdhcyByZWFkIG9uIEZyaWRheSwgSnVseSAxLCAy
+MDIyIDEwOjQwOjA0IEFNIChVVEMtMDU6MDApIEVhc3Rlcm4gVGltZSAoVVMgJiBDYW5hZGEpLg0K
+
+--_002_CO6PR09MB832624BA4B0C85199F2C996B9DBD9CO6PR09MB8326namp_
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0i
+dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjxtZXRhIG5hbWU9IkdlbmVyYXRvciIgY29udGVu
+dD0iTWljcm9zb2Z0IEV4Y2hhbmdlIFNlcnZlciI+DQo8IS0tIGNvbnZlcnRlZCBmcm9tIHRleHQg
+LS0+PHN0eWxlPjwhLS0gLkVtYWlsUXVvdGUgeyBtYXJnaW4tbGVmdDogMXB0OyBwYWRkaW5nLWxl
+ZnQ6IDRwdDsgYm9yZGVyLWxlZnQ6ICM4MDAwMDAgMnB4IHNvbGlkOyB9IC0tPjwvc3R5bGU+DQo8
+L2hlYWQ+DQo8Ym9keT4NCjxmb250IHNpemU9IjIiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTFw
+dDsiPg0KPGRpdiBjbGFzcz0iUGxhaW5UZXh0Ij5Zb3VyIG1lc3NhZ2UgPGJyPg0KPGJyPg0KJm5i
+c3A7Jm5ic3A7IFRvOiBMaW5jb2xuLCBBbnRob255IEsuPGJyPg0KJm5ic3A7Jm5ic3A7IFN1Ympl
+Y3Q6IFtFWFRFUk5BTF0gJmd0OyDwn5GUIGFub3RoZXIgJDYwMCwwMDAgcmVxdWVzdCBieSB0aGUg
+WlVDS0VSLCBmaWxlZCBpbiBLSU5HUyBDT1VOVFk6IDQwMDg0Mi8yMDIwIGR1cmluZyAxNTM5NzQv
+MjAyMC0tLTxicj4NCiZuYnNwOyZuYnNwOyBTZW50OiBGcmlkYXksIEp1bHkgMSwgMjAyMiA4OjI5
+OjI0IEFNIChVVEMtMDU6MDApIEVhc3Rlcm4gVGltZSAoVVMgJmFtcDsgQ2FuYWRhKTxicj4NCjxi
+cj4NCiZuYnNwO3dhcyByZWFkIG9uIEZyaWRheSwgSnVseSAxLCAyMDIyIDEwOjQwOjA0IEFNIChV
+VEMtMDU6MDApIEVhc3Rlcm4gVGltZSAoVVMgJmFtcDsgQ2FuYWRhKS48L2Rpdj4NCjwvc3Bhbj48
+L2ZvbnQ+DQo8L2JvZHk+DQo8L2h0bWw+DQo=
+
+--_002_CO6PR09MB832624BA4B0C85199F2C996B9DBD9CO6PR09MB8326namp_--
+
+--_000_CO6PR09MB832624BA4B0C85199F2C996B9DBD9CO6PR09MB8326namp_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; Anthony.Lincoln@va.gov
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: Y6ngzmirg0+Z4Do/X1PNTQ==
+X-Display-Name: Lincoln, Anthony K.
+
+
+--_000_CO6PR09MB832624BA4B0C85199F2C996B9DBD9CO6PR09MB8326namp_--

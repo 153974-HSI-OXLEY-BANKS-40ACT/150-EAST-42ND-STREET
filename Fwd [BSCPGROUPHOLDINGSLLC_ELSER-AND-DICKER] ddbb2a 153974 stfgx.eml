@@ -1,0 +1,265 @@
+From - Fri May 20 13:04:24 2022
+X-Account-Key: account8
+X-UIDL: 1645857828.863
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <bdincer66@icloud.com>
+Received: from compute4.internal (compute4.nyi.internal [10.202.2.44])
+	 by sloti52n19 (Cyrus 3.7.0-alpha0-591-gfe6c3a2700-fm-20220427.001-gfe6c3a27) with LMTPA;
+	 Fri, 20 May 2022 05:15:29 -0400
+X-Cyrus-Session-Id: sloti52n19-1653038129-345943-2-9689325793994168663
+X-Sieve: CMU Sieve 3.0
+X-Spam-known-sender: yes ("Address bdincer66@icloud.com in From header is in addressbook");
+ in-addressbook; bba2db8d-33a3-40c2-87e0-df67be267777 ("Autosaved")
+X-Spam-charsets: plain='utf-8', html='utf-8'
+X-Resolved-to: cockarens@vouchersrus.org
+X-Delivered-to: cockarens@vouchersrus.org
+X-Mail-from: bdincer66@icloud.com
+Received: from mx1 ([10.202.2.200])
+  by compute4.internal (LMTPProxy); Fri, 20 May 2022 05:15:29 -0400
+Received: from mx1.messagingengine.com (localhost [127.0.0.1])
+	by mailmx.nyi.internal (Postfix) with ESMTP id 73D3423C01AC
+	for <cockarens@vouchersrus.org>; Fri, 20 May 2022 05:15:29 -0400 (EDT)
+Received: from mx1.messagingengine.com (localhost [127.0.0.1])
+    by mx1.messagingengine.com (Authentication Milter) with ESMTP
+    id C37773EE1ED;
+    Fri, 20 May 2022 05:15:29 -0400
+ARC-Seal: i=1; a=rsa-sha256; cv=none; d=messagingengine.com; s=fm1; t=
+    1653038129; b=sIVfqqIjyvnfXaRTzJVMe93nmKIhASboGpcbH61mz3nprstlQE
+    vhi3T9zXKLz2HfBSL20kzu5+s5IMuzf5RhtwE7zCp8f5UvKvnrrzv4yrkttGxA5X
+    Bq0NVISC+ACgronx2otgC1ofku86i4AiwMaA8HeFkjAW+F5bj/kwrXytAD/M4yAF
+    V17nWHvqF1UD1Dztmi0N9IWhgpSW4R95v4WSxU+ugyMcm7GmXCB0TR70pNKjZIZw
+    Ic0IzztUMJu9akOeG/hpd7ERYrA4tg+WtXacEfSF5Sl4sAF+5SyO1rdJiuJYhL9G
+    LM4c0gBDixr+M502sqLNkh1LemEavyHQDG4g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=
+    messagingengine.com; h=content-type:content-transfer-encoding
+    :from:mime-version:subject:date:references:to:message-id; s=fm1;
+    t=1653038129; bh=CJvhJpx0I96UTCffOJiJCJsKWwIO8rjV1DsqtBfcgwk=; b=
+    PIL4xPENQT3p3pOUUr8h1RKtjCv5QU7LKE8gk3jaLJ+H3BclHB3YwgBWh3NltoGJ
+    4Sgz7XcKmd0vNittk/2Qsm/zIbvs0GWcbHpqPUk/jsf9DDnPZCykQm4uah0nATKv
+    DPSpjnKgV7PyTqjxFRtooHA+h4CEE8fpwSnqAaoVzJbOORTt6dn6Raz8K/CNgfH0
+    UCbMRlCEMvY4AE5hwhXSsNxGSvr0e2wVrc8M2w4i+IOTPnR5qH/PrFA8tesVLTf2
+    c8+ubzKbWEtIv4JUw++9f4WCmN7mKOSd1nyLOwVyxWwIjRfd2GVTUkf/egJ7/gOg
+    PJB0TRMUdLpn4NwYmGUHyQ==
+ARC-Authentication-Results: i=1; mx1.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=st43p00im-zteg10071901.me.com
+    policy.ptr=st43p00im-zteg10071901.me.com;
+    bimi=none (No BIMI records found);
+    arc=none (no signatures found);
+    dkim=pass (2048-bit rsa key sha256) header.d=icloud.com
+    header.i=@icloud.com header.b=DxuyrOCD header.a=rsa-sha256
+    header.s=1a1hai x-bits=2048;
+    dmarc=pass policy.published-domain-policy=quarantine
+    policy.published-subdomain-policy=quarantine
+    policy.applied-disposition=none policy.evaluated-disposition=none
+    (p=quarantine,sp=quarantine,d=none,d.eval=none) policy.policy-from=p
+    header.from=icloud.com;
+    iprev=pass smtp.remote-ip=17.58.63.169 (st43p00im-zteg10071901.me.com);
+    spf=pass smtp.mailfrom=bdincer66@icloud.com
+    smtp.helo=st43p00im-zteg10071901.me.com
+X-ME-Authentication-Results: mx1.messagingengine.com;
+    x-aligned-from=pass (Address match);
+    x-return-mx=pass header.domain=icloud.com policy.is_org=yes
+      (MX Records found: mx01.mail.icloud.com,mx02.mail.icloud.com);
+    x-return-mx=pass smtp.domain=icloud.com policy.is_org=yes
+      (MX Records found: mx02.mail.icloud.com,mx01.mail.icloud.com);
+    x-tls=pass smtp.version=TLSv1.3 smtp.cipher=TLS_AES_256_GCM_SHA384
+      smtp.bits=256/256;
+    x-vs=clean score=-6 state=0
+Authentication-Results: mx1.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=st43p00im-zteg10071901.me.com
+      policy.ptr=st43p00im-zteg10071901.me.com
+Authentication-Results: mx1.messagingengine.com;
+    bimi=none (No BIMI records found)
+Authentication-Results: mx1.messagingengine.com;
+    arc=none (no signatures found)
+Authentication-Results: mx1.messagingengine.com;
+    dkim=pass (2048-bit rsa key sha256) header.d=icloud.com
+      header.i=@icloud.com header.b=DxuyrOCD header.a=rsa-sha256
+      header.s=1a1hai x-bits=2048;
+    dmarc=pass policy.published-domain-policy=quarantine
+      policy.published-subdomain-policy=quarantine
+      policy.applied-disposition=none policy.evaluated-disposition=none
+      (p=quarantine,sp=quarantine,d=none,d.eval=none) policy.policy-from=p
+      header.from=icloud.com;
+    iprev=pass smtp.remote-ip=17.58.63.169 (st43p00im-zteg10071901.me.com);
+    spf=pass smtp.mailfrom=bdincer66@icloud.com
+      smtp.helo=st43p00im-zteg10071901.me.com
+X-ME-VSCause: gggruggvucftvghtrhhoucdtuddrgedvfedrieefgdduudcutefuodetggdotefrodftvf
+    curfhrohhfihhlvgemucfhrghsthforghilhdpggftfghnshhusghstghrihgsvgdpuffr
+    tefokffrpgfnqfghnecuuegrihhlohhuthemuceftddtnecufghrlhcuvffnffculddqie
+    dmnecujfgurheptgfghfgguffffhfvkffosegrjehmrehhtdejnecuhfhrohhmpeeuohcu
+    ffhinhgtvghruceosgguihhntggvrheiieesihgtlhhouhgurdgtohhmqeenucggtffrrg
+    htthgvrhhnpeehtdffkedvhffgtdeltdevieekudekffevtdevkeefudetleevhfefgfei
+    ueevhfenucffohhmrghinhepghhithhhuhgsrdgtohhmnecukfhppedujedrheekrdeife
+    drudeiledpudejrdegvddrvdehuddrgedunecuvehluhhsthgvrhfuihiivgeptdenucfr
+    rghrrghmpehinhgvthepudejrdehkedrieefrdduieelpdhhvghlohepshhtgeefphdttd
+    himhdqiihtvghguddttdejudeltddurdhmvgdrtghomhdpmhgrihhlfhhrohhmpeeosggu
+    ihhntggvrheiieesihgtlhhouhgurdgtohhmqe
+X-ME-VSScore: -6
+X-ME-VSCategory: clean
+X-ME-CSA: none
+Received-SPF: pass
+    (icloud.com: 17.58.63.169 is authorized to use 'bdincer66@icloud.com' in 'mfrom' identity (mechanism 'ip4:17.58.0.0/16' matched))
+    receiver=mx1.messagingengine.com;
+    identity=mailfrom;
+    envelope-from="bdincer66@icloud.com";
+    helo=st43p00im-zteg10071901.me.com;
+    client-ip=17.58.63.169
+Received: from st43p00im-zteg10071901.me.com (st43p00im-zteg10071901.me.com [17.58.63.169])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mx1.messagingengine.com (Postfix) with ESMTPS
+	for <cockarens@vouchersrus.org>; Fri, 20 May 2022 05:15:29 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=icloud.com;
+	s=1a1hai; t=1653038128;
+	bh=CJvhJpx0I96UTCffOJiJCJsKWwIO8rjV1DsqtBfcgwk=;
+	h=Content-Type:From:Mime-Version:Subject:Date:To:Message-Id;
+	b=DxuyrOCDcsjz4y3QRVfRkQofdzBpBnUwt7gpOM6wLfYe7830pDRx1HlfFrMY2jofM
+	 zUcakGJQQQht/sr2ku6Ko+nAaC9D6EMPAKsa0pGDUa2HhAhw7s9OSC8v6Lq6FamhY+
+	 Firkw+JvRVgf8Bt/RVzHoc33jU9xrIWzgSxtIKH702wPMzwwnECdI8NWsfaJlEGqFE
+	 01uJyXR0jRTJXrUMITFeXBa1AkmsXmPGjhQWcaiFZAL7+iiTgJCbvHjLSDg3dzWCDP
+	 OV7QRqVXQdA+ImUV/UXSzPaVMZt1wtsF3hUNbTLtWuo4/9BJazRPNRsoZW9fGlHHsZ
+	 E5XoQTuQUK/tQ==
+Received: from smtpclient.apple (st43p00im-dlb-asmtp-mailmevip.me.com [17.42.251.41])
+	by st43p00im-zteg10071901.me.com (Postfix) with ESMTPSA id 02FD08405B3;
+	Fri, 20 May 2022 09:15:25 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=Apple-Mail-EEC73B77-1D44-467A-9F7D-047D42EEA465
+Content-Transfer-Encoding: 7bit
+From: Bo Dincer <bdincer66@icloud.com>
+Mime-Version: 1.0 (1.0)
+Subject: Fwd: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] ddbb2a: 153974  stfgx
+Date: Fri, 20 May 2022 05:15:25 -0400
+References: <9172ee4ab8ca40a8aa54753fc76ff31f@BYAPR20MB2647.namprd20.prod.outlook.com>
+To: block803lot11@outlook.com
+Message-Id: <87172F3D-9131-42D9-9F79-A5234878C2FA@icloud.com>
+X-Mailer: iPhone Mail (18E212)
+X-Proofpoint-ORIG-GUID: 6MYA7UvNWdx1HIPOsy26UIR7sf4G4Ou-
+X-Proofpoint-GUID: 6MYA7UvNWdx1HIPOsy26UIR7sf4G4Ou-
+X-Proofpoint-Virus-Version: =?UTF-8?Q?vendor=3Dfsecure_engine=3D1.1.170-22c6f66c430a71ce266a39bfe25bc?=
+ =?UTF-8?Q?2903e8d5c8f:6.0.138,18.0.816,17.0.605.474.0000000_definitions?=
+ =?UTF-8?Q?=3D2022-01-17=5F04:2020-02-14=5F02,2022-01-17=5F04,2020-01-23?=
+ =?UTF-8?Q?=5F02_signatures=3D0?=
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 malwarescore=0 adultscore=0
+ phishscore=0 spamscore=0 suspectscore=0 mlxlogscore=999 mlxscore=0
+ clxscore=1015 bulkscore=0 classifier=spam adjust=0 reason=mlx scancount=1
+ engine=8.12.0-2202240000 definitions=main-2205200067
+
+
+--Apple-Mail-EEC73B77-1D44-467A-9F7D-047D42EEA465
+Content-Type: text/plain;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+/BD
+
+
+Begin forwarded message:
+
+> From: zucker elser <BLOCK803LOT11@outlook.com>
+> Date: May 20, 2022 at 3:03:30 AM EDT
+> To: "Governor.Hochul@exec.ny.gov" <Governor.Hochul@exec.ny.gov>, "PRIYA.RA=
+GHURAM@MORGANSTANLEY.COM" <PRIYA.RAGHURAM@morganstanley.com>, "mscampusrecru=
+iting@morganstanley.com" <mscampusrecruiting@morganstanley.com>, "tracedatas=
+ervices@finra.org" <tracedataservices@finra.org>
+> Subject: FW: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] ddbb2a: 153974  stfgx=
+
+>=20
+> =EF=BB=BF
+>=20
+>=20
+> ________________________________________
+> From: 1212-5858 <noreply@github.com>
+> Sent: Friday, May 20, 2022 7:03:26 AM (UTC) Coordinated Universal Time
+> To: mscampusrecruiting@morganstanley.com; BLOCK803LOT11@OUTLOOK.COM
+> Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] ddbb2a: 153974  stfgx
+>=20
+>  Branch: refs/heads/BSCPGROUPHOLDINGSLLC-patch-199
+>  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
+>  Commit: ddbb2a5062f4e89fb307e9515c4ef13c37018d9c
+>      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/ddbb2=
+a5062f4e89fb307e9515c4ef13c37018d9c
+>  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com=
+>
+>  Date:   2022-05-20 (Fri, 20 May 2022)
+>=20
+>  Changed paths:
+>    A     FW  VIDEO   MOV DISTRIBUTION       CONFIRMED   MOV      .msg
+>    A ATTACHED   .msg
+>    A FW  ATTACHED  .msg
+>    A FW  ref         101 west 55th street  new york  NY  10019    (22).msg=
+
+>    A Undeliverable      FW  VIDEO   MOV DISTRIBUTION       CONFIRMED   MOV=
+      .msg
+>=20
+>  Log Message:
+>  -----------
+>  153974  stfgx
+>=20
+> https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5
+>=20
+> https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/11
+>=20
+> https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/7
+>=20
+> https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/6
+>=20
+
+--Apple-Mail-EEC73B77-1D44-467A-9F7D-047D42EEA465
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto"><br><br><div dir=3D"ltr">/BD<div><br></div>=
+</div><div dir=3D"ltr"><br>Begin forwarded message:<br><br></div><blockquote=
+ type=3D"cite"><div dir=3D"ltr"><b>From:</b> zucker elser &lt;BLOCK803LOT11@=
+outlook.com&gt;<br><b>Date:</b> May 20, 2022 at 3:03:30 AM EDT<br><b>To:</b>=
+ "Governor.Hochul@exec.ny.gov" &lt;Governor.Hochul@exec.ny.gov&gt;, "PRIYA.R=
+AGHURAM@MORGANSTANLEY.COM" &lt;PRIYA.RAGHURAM@morganstanley.com&gt;, "mscamp=
+usrecruiting@morganstanley.com" &lt;mscampusrecruiting@morganstanley.com&gt;=
+, "tracedataservices@finra.org" &lt;tracedataservices@finra.org&gt;<br><b>Su=
+bject:</b> <b>FW: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] ddbb2a: 153974&nbs=
+p; stfgx</b><br><br></div></blockquote><blockquote type=3D"cite"><div dir=3D=
+"ltr">=EF=BB=BF<span></span><br><span></span><br><span></span><br><span>____=
+____________________________________</span><br><span>From: 1212-5858 &lt;nor=
+eply@github.com&gt;</span><br><span>Sent: Friday, May 20, 2022 7:03:26 AM (U=
+TC) Coordinated Universal Time</span><br><span>To: mscampusrecruiting@morgan=
+stanley.com; BLOCK803LOT11@OUTLOOK.COM</span><br><span>Subject: [BSCPGROUPHO=
+LDINGSLLC/ELSER-AND-DICKER] ddbb2a: 153974 &nbsp;stfgx</span><br><span></spa=
+n><br><span> &nbsp;Branch: refs/heads/BSCPGROUPHOLDINGSLLC-patch-199</span><=
+br><span> &nbsp;Home: &nbsp;&nbsp;https://github.com/BSCPGROUPHOLDINGSLLC/EL=
+SER-AND-DICKER</span><br><span> &nbsp;Commit: ddbb2a5062f4e89fb307e9515c4ef1=
+3c37018d9c</span><br><span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://github.com=
+/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/ddbb2a5062f4e89fb307e9515c4ef1=
+3c37018d9c</span><br><span> &nbsp;Author: 1212-5858 &lt;70865813+BSCPGROUPHO=
+LDINGSLLC@users.noreply.github.com&gt;</span><br><span> &nbsp;Date: &nbsp;&n=
+bsp;2022-05-20 (Fri, 20 May 2022)</span><br><span></span><br><span> &nbsp;Ch=
+anged paths:</span><br><span> &nbsp;&nbsp;&nbsp;A &nbsp;&nbsp;&nbsp;&nbsp;FW=
+ &nbsp;VIDEO &nbsp;&nbsp;MOV DISTRIBUTION &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;CONFIRMED &nbsp;&nbsp;MOV &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.msg</span><br><sp=
+an> &nbsp;&nbsp;&nbsp;A ATTACHED &nbsp;&nbsp;.msg</span><br><span> &nbsp;&nb=
+sp;&nbsp;A FW &nbsp;ATTACHED &nbsp;.msg</span><br><span> &nbsp;&nbsp;&nbsp;A=
+ FW &nbsp;ref &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;101 west 55th s=
+treet &nbsp;new york &nbsp;NY &nbsp;10019 &nbsp;&nbsp;&nbsp;(22).msg</span><=
+br><span> &nbsp;&nbsp;&nbsp;A Undeliverable &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FW=
+ &nbsp;VIDEO &nbsp;&nbsp;MOV DISTRIBUTION &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;CONFIRMED &nbsp;&nbsp;MOV &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.msg</span><br><sp=
+an></span><br><span> &nbsp;Log Message:</span><br><span> &nbsp;-----------</=
+span><br><span> &nbsp;153974 &nbsp;stfgx</span><br><span></span><br><span>ht=
+tps://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5</span><br><spa=
+n></span><br><span>https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/=
+pull/11</span><br><span></span><br><span>https://github.com/BSCPGROUPHOLDING=
+SLLC/ELSER-AND-DICKER/pull/7</span><br><span></span><br><span>https://github=
+.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/6</span><br><span></span><br=
+></div></blockquote></body></html>=
+
+--Apple-Mail-EEC73B77-1D44-467A-9F7D-047D42EEA465--

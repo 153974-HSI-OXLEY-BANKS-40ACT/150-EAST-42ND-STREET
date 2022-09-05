@@ -1,0 +1,372 @@
+From - Sun Jun 26 14:00:47 2022
+X-Account-Key: account1
+X-UIDL: AF5lSRcy9oiqYriqjAr8gAqHI7I
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.223.248.247
+ by atlas106.free.mail.ne1.yahoo.com with HTTPS; Sun, 26 Jun 2022 18:50:52 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.204]
+Received-SPF: pass (domain of github.com designates 192.30.252.204 as permitted sender)
+Authentication-Results: atlas106.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 18:50:52 +0000
+X-YMailISG: aDGy58cWLDvbLCnuNPmEhrlm3AZnPuYQ1SVXxbWuwh2uLpsk
+ Wi.ivSUu3eQyF3gEGDTDX8Ao494w0z4hnhlTbvoi3KjGLLZZY3azaLz35HyH
+ QMk5K57rB6xJrRx6WfFOPwGKpG1RthVOphJiCInAbRQHL8xEdknKb_jWlinW
+ aSTjdS41UXpZMtTO_8Q5N58MXsRLbREqBRU7FjMUuleVtT1IjZPMGP3DHaYV
+ ofAueANXlQZFLa..Jy5Ag76fcpUP4P6JFo9uSeqyntz52TNCCjncUOn_75_G
+ ADhRdWCAq48qfuSt2x5oT60tLYnvMWBHcMRTuSD7pwz.DnJzh6ZiyQiKAOON
+ jcyU4CLq5nY4W6yBcdGesJAMmGNOXPF49Q8FZE0IFTuZf1YfclE4G8EhD_MM
+ _3kcRm8o7xq1UI.S.a2JjPGF8jo9f4ahTucqSHhROkRARiGwaI1Duj5ziaew
+ ddjANrvn6cQfY6G6rqDF8hwMPPPgXaOR6DVbuD4t3O6Z1pR.4YvCbWxHGsZ0
+ xNfxna1smwVLts7pkgoIgT4kx2yNbgEZI9XGeIPOWPPbyCJnqSAU0u2PZpnC
+ HphvcKfkI7nnACGO9JbqS5KwrPip0fqnImXvq1Wg6qs18Ch81eCWtWOT__5H
+ xLEKriAK.Tg8j04dAflCBcAAelrPJFSI9a1Z_tCPbNOm0rIHgAVcfsZ2.Sk3
+ Haee89Ix8XclY32eA6ugXZNUIOBJ4H51CF0.5MY7IFpF813zk5p9C5La2LGB
+ B0sRBN64wytP2YZYtg_SnLw8yS4n3bhaqMlI5OJIhXHHTau5DbzjEbQCfWxF
+ INYLapwELdL91y6d6R3yz8sHoRfyB8Nvae.pg0erEcsanpV2yjGiKmQIFgv8
+ 16EeB4E_Ao4BvQP9FXFp8n_GnbP2Fq0sBpeJ1EV.j_GmBDDLezFDO3kLe6Ti
+ m0Rs5Iuf2wHrZnUgt7XRHbHx.eh98MhrVdQsc1QkfHjYm16J_CGfrXWWZBhN
+ qeDjiuweugLzUWk0q73Cx6T83awloFTqLZXTHL_Rjyb5YuJI.8fdKNPvyQhE
+ aNIL9sbpdBWgMIqxC5EmV0najEAx5gpcU93Q3..P4wuF9tKvrpD3qKR1lhLB
+ Ynq25oEXZfRXfMC_FHCQfqTroWnahExSgmW26heuyTBA2NJdASBdpEUPcTNq
+ xjtsiHiMJUXeRHZTmjSq9Lquz4BZOtcMI17IPA--
+Received: from 192.30.252.204 (EHLO smtp.github.com)
+ by 10.223.248.247 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 18:50:52 +0000
+Received: from github.com (hubbernetes-node-f040e1d.ac4-iad.github.net [10.52.201.73])
+	by smtp.github.com (Postfix) with ESMTPA id F0A885205B8;
+	Sun, 26 Jun 2022 11:50:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656269452;
+	bh=l1DErkoaJ+EW0i+wl1RkwLOvTew/W9BQ4chohousiBw=;
+	h=Date:From:To:Subject:From;
+	b=TgLTTrLtLFiqTVG2amm5eExZYnbp/e+jp47XEeoFr8Vy1DoiGkM8FKB6dFFi4QHW0
+	 bcDiOElsnk4XZiRWMI3ZwO7hFrzLz7pHgk+Z74f3eX6ctcnHdBz1/BIpz+SbPfTIpY
+	 JpNZOOu1jTzlENjn8s1NtDhfytRYLo5egw2KqiAs=
+Date: Sun, 26 Jun 2022 11:50:51 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/e804b4-38c92b@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 38c92b: PROCEEDINGS FOR THE RICH AND FAMOUS ( IT DOESN'T E...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 14616
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: 38c92b532339aaf03c5b81220734e12ea6df78f6=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/38c92b532339aaf03c5b81220734e12ea6df=
+78f6=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-26 (Sun, 26 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    A PROCEEDINGS FOR THE RICH AND FAMOUS=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  PROCEEDINGS FOR THE RICH AND FAMOUS ( IT DOESN'T END WELL, IS MY GUESS =
+) VIOLATION OF PRIVACY, CONTINUING FINANCIAL CRIMES --> 000=0D
+=0D
+$ LEFT CIK FILER (93715) WITH EXACTLY $0.00 IN ASSETS UNDER MANAGEMENT. N=
+O OBLIGATION TO ETHICAL STANDARDS, =0D
+OTHER THAN $6,000,000 TO SATISFY A BREACH OF THE MINIMUMS =0D
+UNDER USC 18.225, USC 18.21, AND ALSO 18.2 (AS SEEN IN THEIR CONFIRMED AF=
+FIDAVITS, NOTARIZED DOCKETS ALSO FILED FOLLOWING THE LOAN 50074 DOCKETS I=
+ ANNEXED IN THE MATTER.)=0D
+=0D
+237=C2=A0	NOTICE TO COUNTY CLERK CPLR 8019(C)=C2=A0=C2=A0(Motion #001)	Di=
+ncer, B. (Pro Hac / Pro Se)	*** Pending ***=0D
+AMENDMENT TO CAPTION	Filed: 08/04/2020	Confirmation Notice=0D
+Received: 08/04/2020	=0D
+=0D
+242=C2=A0	NOTICE TO COUNTY CLERK CPLR 8019(C)=C2=A0=C2=A0(Motion #002)	Di=
+ncer, B. (Pro Hac / Pro Se)	*** Pending ***=0D
+	AMENDMENT TO CAPTION	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=0D
+---=0D
+=0D
+CONFIRMATION.=0D
+https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=3DJjKiWN=
+UTBeipcESQfFiwVQ=3D=3D=0D
+=0D
+230=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- COr	Dincer, B. (Pro Hac / Pro Se)	Proce=
+ssed=0D
+	CERTIFICATE OF OCCUPANCY FOR 111 SULLIVAN STREET REAR, NEW YORK, NEW YOR=
+K 10012	Filed: 08/04/2020	Confirmation Notice=0D
+  =0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DJjKiWNUT=
+BeipcESQfFiwVQ=3D=3D	Received: 08/04/2020	=0D
+=0D
+231=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- COf	Dincer, B. (Pro Hac / Pro Se)	Proce=
+ssed=0D
+	CERTIFICATE OF OCCUPANCY FOR 111 SULLIVAN STREET, NEW YORK, NEW YORK 100=
+12	Filed: 08/04/2020	Confirmation Notice=0D
+  =0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D1Wx2R9sK=
+fno_PLUS_ol5jFakV9g=3D=3D	Received: 08/04/2020	=0D
+=0D
+232=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- MEW =C2=A0(Motion #002)	Dincer, B. (Pro=
+ Hac / Pro Se)	Processed=0D
+	Miwako Messer (AFFIDAVIT) IS REPORTED AS A 25 YEAR AFFILIATE OF THE PLAI=
+NTIFF	Filed: 08/04/2020	Confirmation Notice=0D
+  =0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D72GIYXnN=
+1f/CSjCYtDxKUw=3D=3D	Received: 08/04/2020	=0D
+=0D
+233=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- MW1 =C2=A0(Motion #001)	Dincer, B. (Pro=
+ Hac / Pro Se)	Processed=0D
+	Affidavit of Miwako Messer SHOULD BE CONSIDERED AS WELL ORCHESTRATED	Fil=
+ed: 08/04/2020	Confirmation Notice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DG5D0bfOI=
+y4SeSXS47aSWbw=3D=3D	Received: 08/04/2020	=0D
+=0D
+234=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- VER	Dincer, B. (Pro Hac / Pro Se)	Proce=
+ssed=0D
+	NO COMPLAINTS HAVE BEEN FILED IN MY BUILDING - PER DEPARTMENT OF BUILDIN=
+GS RECORDS.	Filed: 08/04/2020	Confirmation Notice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D1Wx2R9sK=
+fno_PLUS_ol5jFakV9g=3D=3D	Received: 08/04/2020	=0D
+=0D
+235=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 804 =C2=A0(Motion #002)	Dincer, B. (Pro=
+ Hac / Pro Se)	Processed=0D
+	property report (see also: Miwa and Teschman) Assignment to Zucker 0526	=
+Filed: 08/04/2020	Confirmation Notice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DOioy2FAQ=
+_PLUS_uuEatGhmc4JnA=3D=3D	Received: 08/04/2020	=0D
+=0D
+INVASION OF PRIVACY DOCKET 55 https://iapps.courts.state.ny.us/nyscef/Vie=
+wDocument?docIndex=3Da43m_PLUS_clRyXQUxugcxPS87A=3D=3D=0D
+=0D
+DOCKET 65 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+COy_PLUS_fGGrxcNqhj5mZodapA=3D=3D=0D
+=0D
+DOCKET 69 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+uJvG1tzc8IMvYa8hShj/Cg=3D=3D=0D
+=0D
+DOCKET 75 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+WKtCOttbZBozKuu4gOj3vQ=3D=3D=0D
+=0D
+DOCKET 77 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+E0CKxALt/dD_PLUS_Wk3Z8vuaXQ=3D=3D=0D
+=0D
+DOCKET 86, 87, 88, ARE ALL CEASE AND DESIST LETTERS I ALSO ANNEXED, AND W=
+ERE PROCESSED AND REVIEWED BY THE JUDGE, CLERK, AND THE COUNSELORS OF SUL=
+LIVAN PROPERTIES, LP - -- WHO WILLFULLY AND KNOWINGLY VIOLATED MY PRIVACY=
+ AND AT ALL TIMES THE CONSTITUTION BY ABUSING THE NY SUPREME COURT SYSTEM=
+ DURING THE COVID-19 PANDEMIC.=0D
+=0D
+CONFIRMED https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docI=
+d=3D2opE3abI9S6xqguMxbLbfg=3D=3D=0D
+=0D
+DOCKET 84 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+pGt7XCp7TJijlcOc9BhGIA=3D=3D=0D
+=0D
+DOKCET 85 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+eMsWWM4o9DTBlZgXC8QRLw=3D=3D=0D
+=0D
+DOCKET 86 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+vXeeM/sbWWlVIKXDtEZonw=3D=3D=0D
+=0D
+DOCKET 87 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+EZ6cahgP5O75C/WwoFggJA=3D=3D=0D
+=0D
+DOCKET 88 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+2opE3abI9S6xqguMxbLbfg=3D=3D=0D
+=0D
+84 EXHIBIT(S) - LTS (Motion #1) Dincer, B. (Pro Hac / Pro Se) Processed V=
+IOLATION OF PRIVACY IS A CONCERN Filed: 07/21/2020 Confirmation Notice Re=
+ceived: 07/21/2020 85 STATEMENT OF MATERIAL FACTS (Motion #1) Dincer, B. =
+(Pro Hac / Pro Se) Processed PETITIONER'S REQUEST TO REMOVE VENTILATOR RE=
+MOVAL REQUEST Filed: 07/25/2020 Confirmation Notice Received: 07/25/2020 =
+86 EXHIBIT(S) - N1 (Motion #1) Dincer, B. (Pro Hac / Pro Se) Processed NO=
+TICE OF PRIVACY ATTN: Andres Reynoso; Skyline Management Corp Filed: 07/2=
+5/2020 Confirmation Notice Received: 07/25/2020 87 EXHIBIT(S) - N2 (Motio=
+n #1) Dincer, B. (Pro Hac / Pro Se) Processed NOTICE OF PRIVACY:: ATTN: T=
+om Eschmann; Skyline Management Corp Filed: 07/25/2020 Confirmation Notic=
+e Received: 07/25/2020 88 EXHIBIT(S) - N3 (Motion #1) Dincer, B. (Pro Hac=
+ / Pro Se) Processed NOTICE OF PRIVACY VIOLATION: Joseph Giamboi; Skyline=
+ Management Corp Filed: 07/25/2020 Confirmation Notice Received: 07/25/20=
+20=0D
+=0D
+INVASION OF PRIVACY CRD 8209 @@ -0,0 +1,65 @@ https://user-images.githubu=
+sercontent.com/70865813/169640877-ef653d85-64a5-4f31-84d0-69a54a3d62aa.jp=
+g=0D
+=0D
+DISTRIBUTED IN GOOD FAITH TO THEIR PROMOTERS, WHO INSTEAD SIGNED UP TO BE=
+ THEIR PROMOTER AGAIN IN CIK FILER (1516523) AND IN FACT REDUCED THE AMOU=
+NT OF THEIR SALES AND INVITED THE FORMER CIK FILER (93715) INTO A MORE CO=
+MPLICATED "MORE INVOLVED DEALERS AND PROMOTERS" WHO WERE INVITED INTO THE=
+SE MATTERS WITHOUT ANY NOTICE, WARNING, OR PUBLIC DISCLOSURE FOR THE OLD =
+INVESTORS STFGX, A TICKER "WHO LOST THE GREATER OF 10% IN ONE BUSINESS DA=
+Y" FOLLOWING MY SENDING THEIR INSITUTIONAL DESK THE SAME INFORMATION I PR=
+OVIDED THEIR CEO, AFTER NOT-SEEING ANY SUCCINT FILING TO SHOW THE MATERIA=
+L FACTS IN THEIR OF THEIR FILER NUMBERS.=0D
+=0D
+WHILE CRD FIRM NUMBER 8209 INVITED ON NEW INVESTORS WITHOUT ANY DISCLOSUR=
+E OF THE LEGAL PROCEEDINGS, OMISSIONS, AS SEEN IN THEIR FILINGS WITH THE =
+SECURITIES AND EXCHANGE COMMISSION UNDER BOTH CIK FILER (93715) AND ALSO =
+THE NEW FILER (CIK 1516523), WHERE THE OBSTRUCTION OF COURT IN MATTER 153=
+974/2020 ALSO CAUSED, IN PART, A FAILURE BY PRICE WATERHOUSE COOPERS TO A=
+SSERT TO ANY LEVEL III HOLDINGS.=0D
+=0D
+" WHEN THEY DIDN'T HEAR BACK FROM THE BROKERS"....=0D
+=0D
+$ LEFT CIK FILER (93715) WITH EXACTLY $0.00 IN ASSETS UNDER MANAGEMENT. N=
+O OBLIGATION TO ETHICAL STANDARDS, OTHER THAN $6,000,000 TO SATISFY A BRE=
+ACH OF THE MINIMUM UNDER USC 18.225, USC 18.21, AND ALSO 18.2 (AS SEEN IN=
+ THEIR CONFIRMED AFFIDAVITS, NOTARIZED DOCKETS THAT WERE ALSO FILED FOLLO=
+WING THE LOAN 50074 DOCKETS I ANNEXED IN THE MATTER.=0D
+=0D
+INVASION OF PRIVACY DOCKET 55 https://iapps.courts.state.ny.us/nyscef/Vie=
+wDocument?docIndex=3Da43m_PLUS_clRyXQUxugcxPS87A=3D=3D=0D
+=0D
+DOCKET 65 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+COy_PLUS_fGGrxcNqhj5mZodapA=3D=3D=0D
+=0D
+DOCKET 69 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+uJvG1tzc8IMvYa8hShj/Cg=3D=3D=0D
+=0D
+DOCKET 75 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+WKtCOttbZBozKuu4gOj3vQ=3D=3D=0D
+=0D
+DOCKET 77 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+E0CKxALt/dD_PLUS_Wk3Z8vuaXQ=3D=3D=0D
+=0D
+DOCKET 86, 87, 88, ARE ALL CEASE AND DESIST LETTERS I ALSO ANNEXED, AND W=
+ERE PROCESSED AND REVIEWED BY THE JUDGE, CLERK, AND THE COUNSELORS OF SUL=
+LIVAN PROPERTIES, LP - -- WHO WILLFULLY AND KNOWINGLY VIOLATED MY PRIVACY=
+ AND AT ALL TIMES THE CONSTITUTION BY ABUSING THE NY SUPREME COURT SYSTEM=
+ DURING THE COVID-19 PANDEMIC.=0D
+=0D
+CONFIRMED https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docI=
+d=3D2opE3abI9S6xqguMxbLbfg=3D=3D=0D
+=0D
+DOCKET 84 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+pGt7XCp7TJijlcOc9BhGIA=3D=3D=0D
+=0D
+DOKCET 85 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+eMsWWM4o9DTBlZgXC8QRLw=3D=3D=0D
+=0D
+DOCKET 86 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+vXeeM/sbWWlVIKXDtEZonw=3D=3D=0D
+=0D
+DOCKET 87 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+EZ6cahgP5O75C/WwoFggJA=3D=3D=0D
+=0D
+DOCKET 88 https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+2opE3abI9S6xqguMxbLbfg=3D=3D=0D
+=0D
+84 EXHIBIT(S) - LTS (Motion #001) Dincer, B. (Pro Hac / Pro Se) Processed=
+ VIOLATION OF PRIVACY IS A CONCERN Filed: 07/21/2020 Confirmation Notice =
+Received: 07/21/2020 85 STATEMENT OF MATERIAL FACTS (Motion #001) Dincer,=
+ B. (Pro Hac / Pro Se) Processed PETITIONER'S REQUEST TO REMOVE VENTILATO=
+R REMOVAL REQUEST Filed: 07/25/2020 Confirmation Notice Received: 07/25/2=
+020 86 EXHIBIT(S) - N1 (Motion #001) Dincer, B. (Pro Hac / Pro Se) Proces=
+sed NOTICE OF PRIVACY ATTN: Andres Reynoso; Skyline Management Corp Filed=
+: 07/25/2020 Confirmation Notice Received: 07/25/2020 87 EXHIBIT(S) - N2 =
+(Motion #001) Dincer, B. (Pro Hac / Pro Se) Processed NOTICE OF PRIVACY::=
+ ATTN: Tom Eschmann; Skyline Management Corp Filed: 07/25/2020 Confirmati=
+on Notice Received: 07/25/2020 88 EXHIBIT(S) - N3 (Motion #001) Dincer, B=
+. (Pro Hac / Pro Se) Processed NOTICE OF PRIVACY VIOLATION: Joseph Giambo=
+i; Skyline Management Corp Filed: 07/25/2020 Confirmation Notice Received=
+: 07/25/2020=0D
+=0D
+=0D
+=C2=A0USC 18.225, 18.21, 18.2=0D
+ CONFIRMED.=0D
+ -- UNLAWFUL RENTS "FRIVOLOUS INCOME" IS REPORTED IN ALL SIX BUILDINGS US=
+ED AS A GUARANTEE TO STATE FARM TO OBTAIN A LOAN FOR $6,000,000.00=0D
+ -- 18.215, 18.2 - STATE FARM DIRECTORS FILED THEIR BONUS PAYMENTS WITH T=
+HE SECURITIES AND EXCHANGE COMMISSION FOR A "SUCCESSFUL MERGER"=0D
+ ------ IN FACT, WERE TRYING TO KEEP AL THE "DIRTY" FILES IN CIK FILER 93=
+715, WHICH IS MOST LIKELY WHY MR. DAVID MOORE DID NOT USE THE CORRECT SEC=
+ FILER NUMBER IN HIS PETITION.=0D
+ ------ ALREADY DISTRIBUTED TO ALL RELEVANT PARTIES EARLIER, MAYBE THEY D=
+IDN'T CATCH THAT EITHER.=0D
+ =0D
+ =0D
+ 307=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- OPP =C2=A0(Motion #001)	Dincer, B. (Pr=
+o Hac / Pro Se)	Processed=0D
+	PLAINTIFF DOES NOT HAVE A CERTIFICATE OF OCCUPANCY FOR THIS PROPERTY	Fil=
+ed: 08/09/2020	Confirmation Notice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DrjL6yoW3=
+Mt2U6UigWCM9XQ=3D=3D	Received: 08/09/2020	=0D
+=C2=A0=0D
+ 308=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 503 =C2=A0(Motion #001)	Dincer, B. (Pr=
+o Hac / Pro Se)	Processed=0D
+	TAX MAP BLOCK 503 - LOT 8 [GIS.NYC.GOV]	Filed: 08/09/2020	Confirmation N=
+otice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DSgjFfExx=
+NV4Y4DTX6pANaA=3D=3D	Received: 08/09/2020	=0D
+=C2=A0=0D
+ 309=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- no1 =C2=A0(Motion #001)	Dincer, B. (Pr=
+o Hac / Pro Se)	Processed=0D
+	PLAINTIFF ASSIGNED LEASES AND RENTS ON MAY 15TH 	Filed: 08/09/2020	Confi=
+rmation Notice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy=
+0G0QvnmRLGpYIQ=3D=3D	Received: 08/09/2020	=0D
+=C2=A0=0D
+ 310=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- AC0 =C2=A0(Motion #001)	Dincer, B. (Pr=
+o Hac / Pro Se)	Processed=0D
+	ACRIS Detailed Document Information (2019000021408)2019010800475001	File=
+d: 08/09/2020	Confirmation Notice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dze6a1KA9=
+akRV9TGfXXJT/g=3D=3D	Received: 08/09/2020	=0D
+=C2=A0=0D
+ 311=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- AC1 =C2=A0(Motion #001)	Dincer, B. (Pr=
+o Hac / Pro Se)	Processed=0D
+	ACRIS Detailed Document Information (2020000155422)2020052000291003	File=
+d: 08/09/2020	Confirmation Notice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DbVk8sIt7=
+n3kGwHqebPg0fw=3D=3D	Received: 08/09/2020	=0D
+=C2=A0=0D
+ 312=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- AC2 =C2=A0(Motion #001)	Dincer, B. (Pr=
+o Hac / Pro Se)	Processed=0D
+	ACRIS Detailed Document Information (2020000155421)2020052000291002	File=
+d: 08/09/2020	Confirmation Notice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DwTG2YD2P=
+qXuxmoKqFiESrw=3D=3D	Received: 08/09/2020	=0D
+=C2=A0313=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- AC3 =C2=A0(Motion #001)	Dincer, B=
+. (Pro Hac / Pro Se)	Processed=0D
+	ACRIS Detailed Document Information (2020000155422)2020052000291003	File=
+d: 08/09/2020	Confirmation Notice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn=
+66hrVmJ9DX_PLUS_bdg=3D=3D	Received: 08/09/2020	=0D
+=C2=A0314=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- AC4 =C2=A0(Motion #001)	Dincer, B=
+. (Pro Hac / Pro Se)	Processed=0D
+	ACRIS Detailed Document Information (2020000155423)2020052000291004	File=
+d: 08/09/2020	Confirmation Notice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiK=
+J0BGv2DF/MOn4g=3D=3D	Received: 08/09/2020	=0D
+=C2=A0315=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- ACR =C2=A0(Motion #002)	Dincer, B=
+. (Pro Hac / Pro Se)	Processed=0D
+	ACRIS.NYC.GOV >> ASSIGNMENT OF LEASE AND RENTS ON FILED ON MAY 26TH - ht=
+tps://a836-acris.nyc.gov/	Filed: 08/09/2020	Confirmation Notice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFz=
+m0ynPeXZKSHgLQ=3D=3D	Received: 08/09/2020	=0D
+=C2=A0316=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- Bu0	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	COMPLAINT #14585819 (7/25/2020) @BBB	Filed: 08/09/2020	Confirmation Noti=
+ce=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D7Ry3LAoV=
+fWOLjSXhyJZ94A=3D=3D	Received: 08/09/2020=0D
+=0D
+=0D
