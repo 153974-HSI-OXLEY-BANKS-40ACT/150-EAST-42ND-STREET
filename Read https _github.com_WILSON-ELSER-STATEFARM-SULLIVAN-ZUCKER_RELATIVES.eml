@@ -1,0 +1,195 @@
+From - Thu Jul 21 15:03:06 2022
+X-Account-Key: account1
+X-UIDL: AKq+UsdkcreSYtfnbgD2GLTAHmQ
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.137.14
+ by atlas125.free.mail.ne1.yahoo.com with HTTPS; Wed, 20 Jul 2022 11:30:53 +0000
+Return-Path: <Genester.Powell@dc.gov>
+X-Originating-Ip: [40.107.91.84]
+Received-SPF: pass (domain of dc.gov designates 40.107.91.84 as permitted sender)
+Authentication-Results: atlas125.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@dc.gov header.s=selector2;
+ spf=pass smtp.mailfrom=dc.gov;
+ dmarc=pass(p=NONE) header.from=dc.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 20 Jul 2022 11:30:53 +0000
+X-YMailISG: uohw7vcWLDu5mJmR6G6L5bUnLUbxSIjl.8pTLE6pE8Xe2QMP
+ 1zYhNF43UtQjYw.a6tF7NAOKRoH7E7uYvF829D4K4X0TgMd1C3cvww2RIvB8
+ XGkSazx4K6t.oYcY8ZEgTvDLymJtjw4zm7O7NThFTjLoBbpM989kXcdixPol
+ IhFbzIIZ3jkzDhvPX187dpq1PfsSmw9la3JnX68OgPw6g7HIVU2BQxBJuzui
+ bLYrENcFkur5qVOu8J6NVZvEynjZXLqCDpOuXed5D1avGHZYiSfyszem1xkM
+ arDmYtR4XwcOqu196BsNsRmR.tySKwzClPDWsqnsjBrHsApA_VnqehqBrWuE
+ hnyNoMG67.cDFm64YuktNq_IWBcNcu5vJGoRe68LEQrDHud4V1z3r0Gsxd56
+ eErwlgQ2OGNSFstXYI4QYt0ZnvKdSMjtMOdKA76Xc3w1OB4hS98doChVk8Rp
+ 771Ls.kEt6jOgo6pj.GSjHFyttniodggqGaDzHuR_T4Y_d736O.ffjPxYOPZ
+ uo_iGz097ECmesTknbpVGVzDPyaBElGkyBc_yqEZZrnzr4o6DNOrUX8TPFTO
+ XJEIX3QsyvPhgasmbet1ceXMet5Ig62zkdoKhOam65rTdMDFGmUtx4vygO5X
+ ylCwGxSkNeMLX3OkHIN6BDZuo5UtLR8QK2doCsMsTF8b3ETloriw014KAbce
+ DaYgUyp4PnGJrIQkgpHbZdk9j4bbhz7jEq9az7c6yZPAeG8NK2hxKkGrbhEj
+ 927fUZzYuSrp7f73t6xHwlPzILtTIv9ldcpnkvtbDUGbK4AQFavp8r7UPdMW
+ XFihoQCPmoeY0I3UxZe3lpYebKNOs3plwGULWZ4LDCQsqhFFQn9FQ3szzLfd
+ HXpTPZL4YSyAntZ2tqB40DeragA2AeGhFF4Vtj31pGRg_.2xZQx7wwdr1s2E
+ KIGTnE4OAKgSwncTnybSjLzEztI1NoRpGDaeAOBkzvTIfp3cCDB7YGiklrrv
+ rnYQOjbIcFsWboAwa8GhwdHLStvGe2.l27Bn27Edugc0l9.QkbWuXr3HWxI1
+ p4cD_.7al6zlnI01X.QL18aHoVnie2vliwLgJUDhnXfUoYiqZ3epSTupqxvD
+ eSkA8UcSrjnGNDW8JaoJC1C5IOc281kCEamjDOsmd6aMC8MCC9IzVi.L2eM5
+ T4fk93bn6wWWFec0Xcz4LOkBlOTfXNEf.HAcIuNFSNQppH7bD2KL8uHkFTQR
+ enoxbHivrFTy9mOS.3cr6YSJSL8SDVrY_SIgGdUVjSCyEP5yHwINsHQpzLnM
+ T4Tpd0ZTvUT053vOsCbuu3hV1XFAaKL6LPNZFO.ARzA5
+Received: from 40.107.91.84 (EHLO GCC02-DM3-obe.outbound.protection.outlook.com)
+ by 10.217.137.14 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 20 Jul 2022 11:30:53 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=m2G+3ZdPfw/c4Zx01q0+G4fkbwQn8TxY9Rz/WcSDzU75U6LBCstgyx3epVLr7vbE4czInmyKvzg+DPSqzI3J3QcpPMZPh9aWxbinb8JMBUxGdMQ4vJpt1nqWqtuPRems1iwDYijdzB9logGF3y2svme608+udYV1BCvvwvwxrQeW6O1yMn/NI48A/x8tYxfGHN9MzjPM2yb/sp8gcV4LqqASuf9lLLwvUWJ2qdp90+itFtNP4EEbfhcS8OCMVo9nFoSDlW574t+hCN/TuWaDjfchEJYkrMiPI9KMoYQyLH3teJc0/b8XspO0S2pIG99e/rcGuuRqwVOx3cttR90Pdw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=p0W2uw1v3Vvi7/ldjS/3sV5+tfxQFLA6ObWBcBfbU/I=;
+ b=nNLkSU5YR6N/SiowauW2JpZ51DoDutsg2Dj8d+shh1C+WpdUnJMjC+IQ3vP/Tj71msvdySuqS4fGpxr+HmV9h2/iBbwnJlWJrpLRiCxfZlFEZ+MoyoUASTvIgceBJA7hLXEzqem0qSVUd68MJ7rsjZLFPYfRo4JKC35VuEpNr60WRwgmspHYdtkgEsmJuFfptxCkiW7Gd7+4lql//qOszHHaQ1Ec9+yt4mJgCNjbJJd18xkUx+6fpwnHAofehaWk8QDqVl2Gr+QabbHIntKLPxDyXa+Hn2b9vYV7Ua73LTKnKWd1NE0a/thDsJqquDXRsmu+3zbu/3Nc5nCBgbbGAw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=dc.gov; dmarc=pass action=none header.from=dc.gov; dkim=pass
+ header.d=dc.gov; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=dc.gov; s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=p0W2uw1v3Vvi7/ldjS/3sV5+tfxQFLA6ObWBcBfbU/I=;
+ b=IR8KGjcvpBe/t+2fbcbh9ruu3mFqcOwgYNGguBYcFxgutcQubg4VwYtzx4MgC4i9Q+5cfUcj6W6GDYTJs140JrWiQw4oKXk+hFVAN/Opf118qLPtCqpmVeM8M39sbeFMyCdt8sBHuHdkVUDDaFMymd2kH4UpoZGr5eECjPe64Tm0Q5XKuDcVNaY52xzooY4OjD55smYFUIk794HBpSYHFnUUchd2NaCfwTeP+0s6TXYiohbQ+SNUEG+3a2oOFX7D7rClUCK95CQKtkYlHcytfcfk7z6xxDw4f3K1rZEVPomvwgoovqWvDOlhLL8f+gogDCRmJQPDeESfBIgPT1guqQ==
+Received: from BY3PR09MB7889.namprd09.prod.outlook.com (2603:10b6:a03:351::13)
+ by SA0PR09MB6122.namprd09.prod.outlook.com (2603:10b6:806:ad::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5438.19; Wed, 20 Jul
+ 2022 11:30:51 +0000
+Received: from BY3PR09MB7889.namprd09.prod.outlook.com
+ ([fe80::55f2:11d9:a364:d763]) by BY3PR09MB7889.namprd09.prod.outlook.com
+ ([fe80::55f2:11d9:a364:d763%7]) with mapi id 15.20.5458.018; Wed, 20 Jul 2022
+ 11:30:51 +0000
+From: "Powell, Genester (DOC)" <Genester.Powell@dc.gov>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read:
+ https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/RELATIVES
+Thread-Topic:
+ https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/RELATIVES
+Thread-Index: AQHYm8+eDHX72uFpbECp6JScu1mDuq2HIQW9
+Date: Wed, 20 Jul 2022 11:30:51 +0000
+Message-ID:
+ <BY3PR09MB78898CB2FBC2CC11CA71FE4A978E9@BY3PR09MB7889.namprd09.prod.outlook.com>
+In-Reply-To: <e5c90b94-d6c6-d338-c826-c628cc530b14@yahoo.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: acd5e92e-c67c-46c1-b809-08da6a434cec
+x-ms-traffictypediagnostic: SA0PR09MB6122:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ jGte6PXl9G2ze7AWoUfIBkrPwe8NWYShA+mdU6JBJK3f+05Ii5SIvH8rcOpXBjxnKoPJ5QaIT4gD1EnRaMDADY23XpSc9PQ0wjg8c3K5utM//UV53K9q8DjveKTpp4x4nL2KyCKzDH4iUNvbRs0cX0oHMHAtb20pYc4htM/vNlDRGgdbfpK4VPwY1C/Z9Q0r165DJEpssazA0vLpGYEQNsgR6spp8ZC7E92elXnCBKsi5VWllBA1uBW3xg+HaYb+DBR6UYsax0KIvT8l8E8VBpT5dMQjaotWkAnn4UZEhXEDgp5CYUfDWnoE1IiPhYGn7Ac+hwuRAdenBq1quQbelVW8rCUz/uSxz0Ov9bK3Lk8zyEAIWE2hexv+C2+97SoHgvapPNeWFC8WO9khRML4TphQYSx7vVNOfBIAf0JaPo8xSZvwG5vnVxZGpVNfhK9KHPRwCqCMNkn6seV0KpI2WO3SBy7VAUXOoFcKCJrgNgwdBYJD+kZ7bJYuIN6JPChEotBvfb/6QYOK9f/Haa02uv7wMwHbpqUP9gwOXFabOXZ3sYwgUyC2p+PoW+WUa63u
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:BY3PR09MB7889.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(366004)(6916009)(122000001)(73894004)(55016003)(621065003)(4270600006)(9686003)(186003)(86362001)(38100700002)(2906002)(6506007)(76116006)(66476007)(71200400001)(33656002)(26005)(498600001)(66556008)(64756008)(8676002)(52536014)(66946007)(66446008)(38070700005)(8936002)(7696005);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?nofB2UiWGsWVZTa1ZS0uSoJjPI4APpNW8Jms92os1MU+I6a9der5uAWGegx3?=
+ =?us-ascii?Q?IRRifNBRDto0iy6PcLjaDYdUQ5qtXIe5mIelTPO8YSWksjfcP28qguq0vMyu?=
+ =?us-ascii?Q?7j1JcV+ja9MwSZEjS9ctGtgtUIVoTFGnp39Tynyrd3jR7TopuEkaVn/0oS7p?=
+ =?us-ascii?Q?spe1ZWrvGdU+YcCvS9lFdf40XEg+RTJfcw1DJTg59WSnREZVB5fYAoWwReMO?=
+ =?us-ascii?Q?OIiVyrAO+8l/IB7Jxtf3lHffCjkZoTSydg0PcC7Uet6Fs+8GeuMuBCJKo/UL?=
+ =?us-ascii?Q?Oxe7XFj8/GqZt5ssAI4jpcr2gBkQH007joTeoYuARreyJOob07BRgdySB186?=
+ =?us-ascii?Q?lzJtDoi7yCiLyGBGM88AJAUGrF7zseE12D7REYNqjdMrta+XlkB9z4VQ0a+l?=
+ =?us-ascii?Q?J0wI9ZyvVi6ydQtichkwnkHkr8j+Px5dxrqHj2k5XNcyGRu3isgx1htohRGE?=
+ =?us-ascii?Q?AHcQHuX8e2GaYIEUH6bWcDaj5/l/amzBWQ4any712pecr5V8xWzJ63ayrKcm?=
+ =?us-ascii?Q?P79+Bu6+B+ADg0xazLYU+DuEFgQbrJmmXuoKoLOrchw1NE5jKaBpC8oKF2r+?=
+ =?us-ascii?Q?xML+nZyalCn4yZg1/ai+mDLmwnpcPvfB9mKMtIbUC4JJmGUobjPOLV/RctJ6?=
+ =?us-ascii?Q?2/Xm4Nt7lUW0NY04jwRIy31QADI9txKjmigU6l3Vzk5BAIGL5GBMAIBo/uuO?=
+ =?us-ascii?Q?CjuIYJ5BJEBHxrtRTGIwQA/hZ8hQ2mWUeSv/KpSM27rN23mgXu1Nn9XcBwST?=
+ =?us-ascii?Q?5YX44w3OZF6DNyeR5ZYi3YjmShYdFVvsY0DQRf+nrKbOrHyWGXGngZ38Lkwh?=
+ =?us-ascii?Q?oyZmR/9GjrbqZPWWAqWVtAeyf74sx1HVuC8XarWK1M8M7qMgh+tBB9+MuJ/N?=
+ =?us-ascii?Q?6080FRm8tloXXja35E6X4pLngw7aFiSTDkpuKvFYvWZh71RUz2v+zxoOdXrc?=
+ =?us-ascii?Q?ofIt8Q4Up6TZixO4bQlEU7eOh8asD9MeV61bGts1LPm3Yt7zOU0Q/vBpuf/0?=
+ =?us-ascii?Q?Fz/127cTJ2OoZ275cNQ9j7eLxeZEiSRTzR5BMrFR38c0E051Zu0RBNNQt4J6?=
+ =?us-ascii?Q?qY47D1RimnFNnPyOx8WuLrGylilUBGvJ7eEL+WmJj2W3eDa6Fuw8cjxZ2v0S?=
+ =?us-ascii?Q?rm/q512PXoc4D3KDR0e9E9ySvLfWnPZ23kTomSGHj05CZt4skvU/g599FnCC?=
+ =?us-ascii?Q?awgMhJsq3lYSiaI+pNqwYTg1LA+LN3f/7djKH+02Tl7KROOn2ER8gdbDFxjB?=
+ =?us-ascii?Q?iSoyZ1Hk73Gp14FePr2vvKJG2irHy7oqyDjafc7iDg+8S8kFMNefDDGwBaGP?=
+ =?us-ascii?Q?mrVV01K2uFVWoTvKJmwsAzHGDls4R2e5Nwu0SBRGlH+WdqaZoxtX26MXx50B?=
+ =?us-ascii?Q?rrgnMDUmDPUawUgsd7RnZ/ecA9ZDehqB4DtAbFq2C0t2+6rDtLhhxAP7/Pim?=
+ =?us-ascii?Q?9bCVf0JpJkSCYmORm7zr7sKbWGZMsI4+iz8Ns22EPrziMHVS79geOAbnOIRl?=
+ =?us-ascii?Q?NTiiDG3HtSW6PDGwp4xM0hHPxhKkP/FGuxsyAkaidjqkxbEzC39u/7g8jsJ7?=
+ =?us-ascii?Q?cj9xoD6vKE/bbGEytbq61GaFxdvvvM+2M3LpW7w0?=
+Content-Type: multipart/report;
+	boundary="_000_BY3PR09MB78898CB2FBC2CC11CA71FE4A978E9BY3PR09MB7889namp_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: dc.gov
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: BY3PR09MB7889.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: acd5e92e-c67c-46c1-b809-08da6a434cec
+X-MS-Exchange-CrossTenant-originalarrivaltime: 20 Jul 2022 11:30:51.2125
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 8fe449f1-8b94-4fb7-9906-6f939da82d73
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SA0PR09MB6122
+Content-Length: 2114
+
+--_000_BY3PR09MB78898CB2FBC2CC11CA71FE4A978E9BY3PR09MB7889namp_
+Content-Type: multipart/alternative;
+	boundary="_002_BY3PR09MB78898CB2FBC2CC11CA71FE4A978E9BY3PR09MB7889namp_"
+
+--_002_BY3PR09MB78898CB2FBC2CC11CA71FE4A978E9BY3PR09MB7889namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Powell, Genester (DOC)
+   Subject: https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/RELAT=
+IVES
+   Sent: Tuesday, July 19, 2022 9:25:55 PM (UTC-05:00) Eastern Time (US & C=
+anada)
+
+ was read on Wednesday, July 20, 2022 7:31:58 AM (UTC-05:00) Eastern Time (=
+US & Canada).
+
+--_002_BY3PR09MB78898CB2FBC2CC11CA71FE4A978E9BY3PR09MB7889namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Powell, Genester (DOC)<br>
+&nbsp;&nbsp; Subject: <a href=3D"https://github.com/WILSON-ELSER-STATEFARM-=
+SULLIVAN-ZUCKER/RELATIVES">
+https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/RELATIVES</a><br>
+&nbsp;&nbsp; Sent: Tuesday, July 19, 2022 9:25:55 PM (UTC-05:00) Eastern Ti=
+me (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Wednesday, July 20, 2022 7:31:58 AM (UTC-05:00) Eastern T=
+ime (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_BY3PR09MB78898CB2FBC2CC11CA71FE4A978E9BY3PR09MB7889namp_--
+
+--_000_BY3PR09MB78898CB2FBC2CC11CA71FE4A978E9BY3PR09MB7889namp_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; Genester.Powell@dc.gov
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: +1W8x/c7CkaH0PrCdzmNJQ==
+X-Display-Name: Powell, Genester (DOC)
+
+
+--_000_BY3PR09MB78898CB2FBC2CC11CA71FE4A978E9BY3PR09MB7889namp_--

@@ -1,0 +1,197 @@
+From - Fri Jun  3 02:30:27 2022
+X-Account-Key: account1
+X-UIDL: ADEegdhbnKTgYpl5dASbsO+/DVI
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.108
+ by atlas204.free.mail.ne1.yahoo.com with HTTPS; Fri, 3 Jun 2022 03:01:07 +0000
+Return-Path: <nchini@bainbridge.com>
+X-Originating-Ip: [40.107.236.115]
+Received-SPF: pass (domain of bainbridge.com designates 40.107.236.115 as permitted sender)
+Authentication-Results: atlas204.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@bainbridge.com header.s=selector2;
+ spf=pass smtp.mailfrom=bainbridge.com;
+ dmarc=pass(p=QUARANTINE) header.from=bainbridge.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 3 Jun 2022 03:01:08 +0000
+X-YMailISG: rZFaFzIWLDuEI_kGaM.juwjyCECtZIsebXBKhI1w.YMqijHY
+ i0ChAcFlTa0DGdJEF6IGB0GtaJZ_.6aCKYdwLL43MVbHak4c4nwjJIxbOcci
+ pkMgh3kUL5Z_L3xDF6.90CVyGOYGVWgk5Syvb0.RkJXYyqxDWsXJIAZG5yVI
+ t_bFwptEkg0HgxeD91XGqc5zWuLxA5B_SYe5Juwth3iPNzVMTbG4AV2gnFcl
+ vEgmNpoqOKkPOYzoOiUpVsBiklFEDpA7KvCuB1HeZGCqAN3_uX8GQTN9Hw1T
+ Rg6n0dHB1dj.tqtF_a8Pt1KM9S5iivNsir70o2ODfBRSnHrEVLNY4UxnZiLD
+ tMuriduYANfQflWss4ClAVBZhp4.nHzulYvt4nX3Y7JEcqNhdfg7wXrDiKCU
+ .hBTTxspajlvsWgEMjpUSc3rqRMmof91vil7tZlOCH6xQ4DwTRvCAOeVpoEa
+ TGWr4al4XKiCXyDY2TLK.xWeHV8Yl6F5TINcByj13DnEIaudFBb0YndJ3w.5
+ hX3ExPckDYlfnp0jvWXfCmh0mOd8LGD9JA740D__J9FLcK2SbyGbCxY.YkMk
+ QJ0qRC4AmULR_5shsM6BZj848wDLeRJqgMGcorcQIxrd4dANgOWknokj01xh
+ XoPvyllgogOat.Z4JatV2FRxPb2Sn9JGWQ6yflWPmBKd4C2bL0a30aEZE9vC
+ NtwYlHaO3VTU1tRQmylJ9_msx1HhTUeC4fmonIflhQ7f07PkUBp_szsGW67k
+ VIBC.QBey2Ad2kITGBkLJe_D5KCeruBOHR2e60DZtgYnrFjc.fPqRNyoat9N
+ tcC4tJrBQriw.VgM1FKj.VN5SuNNBcKL0BoSf4ePDuUTejypLQVeG.g4BCMG
+ DtGyhpz57mP9yJLroZLkaMB6XyutpTPd4m5JIvJSV5zh9_gLxnew1gmsFCtL
+ _kkWWCUgQvY3q3d6Tdvg.b4dEfnx.fLtnefwxgBGnDyhICEsPuMTobb9Vj6o
+ dtskxqNz21Q7m0eQnTYprBXiBj1wbnFN0q1UkRSWwn.E.LmiunyavY_RAsLQ
+ nmStt06MHtTF3xO1rFuVKQ.Vvjnoy8iQW0eiYk7oe59lgO_oANpIfaJfxd78
+ nlpiUF9ePq8vAZgOp7CNBMp2k43X1wZzScbgmeHOYbjy0qEQSMECGU2ZMcXQ
+ nAiYGur7wcJWF26sFBlpk9iI90wqdLdAHLaHbA--
+Received: from 40.107.236.115 (EHLO NAM11-BN8-obe.outbound.protection.outlook.com)
+ by 10.217.135.108 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 03 Jun 2022 03:01:07 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=bg6kSvFW9aew+kLFbyTvhWc6hh6WjhetTB7tmnyW02tWdmRNRHRZzXSAOGxZ+mSxI0IHdqN4pQ0JNeIxzjC0ycLkVuEPLt6sileTVLnMaRzqj4oqOccA+/xrn2r6SnUo3mSbwq5KVI4xX/rdNvz9qzRUKiH3tyYiL4wXze+r7sXHmE/rCdUaIJtdHVo1bhc+soQX96oB2lhA71YNkOdxBhUJeyMEFdvf/vbRNFrs5D4hmurb8NWqgQ2d2rlzZf55fzPEaTqSj/7LJ4Dv2ikLc0YoXxFSdtUZwMbihqskOrxB4WQKekyFBLCLYeERiVpf25+gujEyN+O8NqlwRGo0bg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=jEO+fwIIIveNOuqxApMGMViwqs9r+UmQEUKV3Q8mxZg=;
+ b=HUVHgHkaW5nwVTltCuF/2Z8uYw8fn+1kOh4kV5mumcU0x+i8nBuqAftMMaipzE8ywolL4nJTBDprLju7CPtIzj2mPBkU8ajWxprFzwFBibvtjRA8y/zJ3TeEitbvsTU/eh0By77SppQxCYgSnPhh955oE3a2yh5+vjmhOB98jFzaDV+YNpWhvZD5owWDfqewEiahm3qq+9oEeOhqHlkkFINI68VMS9nGp21HlI3AwK5Q1rFYU5eL2RVD7XP4h5B5OVDSR5nHANg/1/R+KYoxBWiongw0QTOliN6WOs4SL4PEXlcbEfYM+MrDoaMQ8N/bljreL6Kps312EDgM+e9xVw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=bainbridge.com; dmarc=pass action=none
+ header.from=bainbridge.com; dkim=pass header.d=bainbridge.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=bainbridge.com;
+ s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=jEO+fwIIIveNOuqxApMGMViwqs9r+UmQEUKV3Q8mxZg=;
+ b=tQB/d0h3DbuzNodDzJ3PFd/802zZN2ygWq4nRsBSIPyIB1MCS0yE+Ka9U3UL1aCy1xKryuSOpv7g8g0Yp4YQOIq1dsA35qEfXU21SBK8mZsmO6dGwgB/Qg2BxV3gjEIW0bz65jY+b8+l257NNj87lH/FKdo8mC99OlQXHA3J1XqJiLpSQDJa4T2doqXCcSWZqlajoa2/kPu3EopQ0JGr2WXE5xMht3Lq6vDtnUi5gxQKk2PUIOfZEXqSL6CHRmXdjLgufFO8/pkf+Sf7xHLVmT1SHg7svKq4JJuHSDLJtduw9h4dRlZogR5CnnlpWO9Ofx0BUtQr092ZaPxt8iWc0w==
+Received: from BYAPR03MB4231.namprd03.prod.outlook.com (2603:10b6:a03:76::13)
+ by DM6PR03MB4969.namprd03.prod.outlook.com (2603:10b6:5:1e5::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5314.13; Fri, 3 Jun
+ 2022 03:01:06 +0000
+Received: from BYAPR03MB4231.namprd03.prod.outlook.com
+ ([fe80::60f2:74bc:e787:3441]) by BYAPR03MB4231.namprd03.prod.outlook.com
+ ([fe80::60f2:74bc:e787:3441%3]) with mapi id 15.20.5314.013; Fri, 3 Jun 2022
+ 03:01:06 +0000
+From: Nick Chini <nchini@bainbridge.com>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: Fwd: [BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER] 21bd91: FDIC
+ Law. Section 8000 - DOCKETS FILED IN NYSCEF M...
+Thread-Topic: [BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER] 21bd91: FDIC Law.
+ Section 8000 - DOCKETS FILED IN NYSCEF M...
+Thread-Index: AQHYdt634xi8lsxidUKI+80KYBOcEA==
+Date: Fri, 3 Jun 2022 03:01:06 +0000
+Message-ID: <20d613e6b8fa44759c678e89d0e0ca54@bainbridge.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: cf74dc05-dd47-4784-a26c-08da450d4d93
+x-ms-traffictypediagnostic: DM6PR03MB4969:EE_
+x-microsoft-antispam-prvs:
+ <DM6PR03MB4969F0943B03E7410C839CCBA5A19@DM6PR03MB4969.namprd03.prod.outlook.com>
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ KewT/W+oU2HKIlau6mQTkQEUIYprp7pPg0MqUXpOKL+9UZ+PQmwmcuzP9Sxt7cLQufDVOglcgpne5JJBvtSc8G2Cj8mQX5piCs+tqlz2dOw2xyCbfGQQoZDI+4zO71lJ+EMvRzF2Vtok5J4kqKZtW18QchqzsETr9kUKuw/Bt0LuLM41ePxTILfFrpR8JFta//YB3GQJcB4QEhnalA5eastKWFTqG/oFLDZ3wd5hQInMteec7hhSFoh0kPownn7eoIHr4Dbt19HXBxVQ2lAtkXoKyeBkb/S8ZNBVn/cKmQoOtLbltPM60AvxVfa6jfmtmuhvcCM5nhrsIN9FWyWOWuR5xRLciQDqpK6uKtr9wXH88lFdzxqmoZI1q5HL4z4Z84n9+LocI1zCh6yBXLheTA==
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:BYAPR03MB4231.namprd03.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230001)(4636009)(376002)(39830400003)(346002)(366004)(396003)(136003)(122000001)(41300700001)(2616005)(316002)(66946007)(66476007)(66446008)(64756008)(66556008)(36756003)(8676002)(6916009)(4270600006)(6512007)(108616005)(2906002)(88996005)(71200400001)(621065003)(73894004)(508600001)(6506007)(24736004)(86362001)(6486002)(8936002)(186003);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?T82A1kIFnSIwN5t3HKhe9jQRq+kT+kZqB1J+Z3v/vXY/c0qm0bqTmR2hHLHT?=
+ =?us-ascii?Q?OkZR61XzN+b0rpSGmm4is70ax2do5DH/q8OggKOEAujJr7YBcEn6oqkGsJaw?=
+ =?us-ascii?Q?rLZbp5oAJExgw9j8CiQBADe6QW0MiMsQOaqK1UhGdSyvYranKM+Tsbglx5zG?=
+ =?us-ascii?Q?Wd77pQWhjucUjykkn9Sn2V32an292tRx0j063rHkDlawZhs9/cTomufKcSZe?=
+ =?us-ascii?Q?btwTMTDetK7Bbv04UGHQQ0RRbPDlco3uLfbeyAVcGBZW3aCwTnOxCe+Qduph?=
+ =?us-ascii?Q?FiRehz7OoKL43b51fs5ebqInKaPaJQUQa5EEvPeqDNEM25+6XYYdbW3P4GaN?=
+ =?us-ascii?Q?Khs//2dNMTLOrNiMzMQbfcqymDDf0k0qL3Bf/EUXHnbnYx1spdEcDfk+knca?=
+ =?us-ascii?Q?3YM2Q48ktrYROnWL4YpP74Z8bydVncu8yqafw9w6B6858k/s14/KSPOjwvNV?=
+ =?us-ascii?Q?yY4naFHlJD5YVfCf4UOn/VW4V+LZ7iycF6whmKYo9yNXnH5uwVmaI9cVBlmm?=
+ =?us-ascii?Q?lSxZVXg3XvVWLJbug6oBIg+YTj2cQ0T3Scv3CyYCcC56EB1p/sU9XhfzMiay?=
+ =?us-ascii?Q?VwA+miHU5CNbYhLT3RhMqkKQKZjp59dYrDoeZkOVhxbDN8Ysu/R2Uf+BaIst?=
+ =?us-ascii?Q?en/ixvnOHmANnJmrS3mVkVNjiZ4wzf1sdURPU+DhfdIHVDuXgmKzX6OWFHbW?=
+ =?us-ascii?Q?jQvMI2h13YsRiiQvG20TdH8QOLNskTVlYiaacabod5Lls5ZbE/kHaq4IaK1Y?=
+ =?us-ascii?Q?7t/RpwRJWj1SCJUVdKvGte0qRZky7qWNtaqymfc/WSBh1S7j3/2vXhWrUGwP?=
+ =?us-ascii?Q?SQlQSROTHg+vqyNh6sMyjbEjxUdmZ3ZBAuCc2fXE8LcwMhAf1Ww/q+gehWC1?=
+ =?us-ascii?Q?A4ETyg0hlpW2wRCD9BjYHBAobBuv+vEiLLlehs0Vb5vTcuffLc+TV3rw+tP9?=
+ =?us-ascii?Q?Kp2vKDBRohFKsGGlamws98yVTh+F2VvLocIzAlQHCULh2/U23ythpv4etkYe?=
+ =?us-ascii?Q?qMtgki2xln3lCplwHWyZAttR864JS9xPFGun10JXw08LYgfnvfeXN9pwDu/L?=
+ =?us-ascii?Q?lv0xE9xpJj6q5DTQhbcvbu9LQgNNZB6pxoXRbPMwagiqMCNZU0HPJFIbFyHM?=
+ =?us-ascii?Q?daxM0zoBp32aUivbN0iyOxwAYmW3LzEm30W2pMwJSxCNK5elYu7X8WpHO4+U?=
+ =?us-ascii?Q?WPljMeOCI0GqiYtv2fkwL6gzrUhc6uzPGeU0lQHUif4J1ME2XgvNpsUMlwL5?=
+ =?us-ascii?Q?QW2In3VXSn+cmPBu0VIWgcIS5JJCATkohDpP1XBLX3Y7p/YKzBRdAeOjVxZR?=
+ =?us-ascii?Q?CxWDHeLVSucI9tsVPDCo1dEQJHyHfNr8AO7gaQqtHEqOm/0L09dLE9NZX7g6?=
+ =?us-ascii?Q?K9Gok7fHTLBdha/VhD9C5EWRYnHbYaC4h3QjwLetBkpJ7lYzIFq2tdS+4xNf?=
+ =?us-ascii?Q?9nNFupOa+w/4+MnVFwWtQd7sx8YVxOUL6SPWq1s94tyJgxBldHQ6Hp0PrB0a?=
+ =?us-ascii?Q?D2rcODTd6EENjE9c/O3lbTU05hfcIvE8KkwVPGw3tVRXSma9SpXWComr+xCr?=
+ =?us-ascii?Q?KLl2MhG4A0G3SaR5l1PgK9y9r+7vNpEGM4JIPCw7FvGe3pvND6XeJYRmxzqT?=
+ =?us-ascii?Q?T/Tf1z3GxFSGF6c4rkY2TrA=3D?=
+Content-Type: multipart/report;
+	boundary="_000_20d613e6b8fa44759c678e89d0e0ca54bainbridgecom_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: bainbridge.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: BYAPR03MB4231.namprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: cf74dc05-dd47-4784-a26c-08da450d4d93
+X-MS-Exchange-CrossTenant-originalarrivaltime: 03 Jun 2022 03:01:06.4290
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 13c6d1ee-68ac-46ec-85c7-fef5fc31f417
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: hnF59DpP7nKOSHp9OltIWckla2e/3y/sHVMeSOskY6T9B06yRuXYb5ug8f2A57eDyysZX80UCZKeGAGCFHi4Ug==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM6PR03MB4969
+Content-Length: 2070
+
+--_000_20d613e6b8fa44759c678e89d0e0ca54bainbridgecom_
+Content-Type: multipart/alternative;
+	boundary="_002_20d613e6b8fa44759c678e89d0e0ca54bainbridgecom_"
+
+--_002_20d613e6b8fa44759c678e89d0e0ca54bainbridgecom_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Nick Chini
+   Subject: Fwd: [BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER] 21bd91: FDIC Law=
+. Section 8000 - DOCKETS FILED IN NYSCEF M...
+   Sent: Thursday, June 2, 2022 5:09:56 PM (UTC-08:00) Pacific Time (US & C=
+anada)
+
+ was read on Thursday, June 2, 2022 8:01:06 PM (UTC-08:00) Pacific Time (US=
+ & Canada).
+
+--_002_20d613e6b8fa44759c678e89d0e0ca54bainbridgecom_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Nick Chini<br>
+&nbsp;&nbsp; Subject: Fwd: [BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER] 21bd91=
+: FDIC Law. Section 8000 - DOCKETS FILED IN NYSCEF M...<br>
+&nbsp;&nbsp; Sent: Thursday, June 2, 2022 5:09:56 PM (UTC-08:00) Pacific Ti=
+me (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Thursday, June 2, 2022 8:01:06 PM (UTC-08:00) Pacific Tim=
+e (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_20d613e6b8fa44759c678e89d0e0ca54bainbridgecom_--
+
+--_000_20d613e6b8fa44759c678e89d0e0ca54bainbridgecom_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; nchini@bainbridge.com
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: jhKKUZ4DMkaTOlc29sX5tQ==
+Original-Message-ID: <9dea39b2-21fb-cd0f-d8e5-6236c9912b55@yahoo.com>
+X-Display-Name: Nick Chini
+
+
+--_000_20d613e6b8fa44759c678e89d0e0ca54bainbridgecom_--

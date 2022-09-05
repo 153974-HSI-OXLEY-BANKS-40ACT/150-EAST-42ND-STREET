@@ -1,0 +1,194 @@
+From - Sat Jul  9 19:09:26 2022
+X-Account-Key: account1
+X-UIDL: AIbsSgAfo9pmYsoXUQelCCc5/iE
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.151.10
+ by atlas119.free.mail.ne1.yahoo.com with HTTPS; Sun, 10 Jul 2022 00:03:29 +0000
+Return-Path: <eric.glover@dc.gov>
+X-Originating-Ip: [40.107.89.47]
+Received-SPF: pass (domain of dc.gov designates 40.107.89.47 as permitted sender)
+Authentication-Results: atlas119.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@dc.gov header.s=selector2;
+ spf=pass smtp.mailfrom=dc.gov;
+ dmarc=pass(p=NONE) header.from=dc.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 10 Jul 2022 00:03:29 +0000
+X-YMailISG: yWwY1jgWLDvxc4c.DBJHmgXtX7HtdDA5wrDzMenYjp7dOUNx
+ XlfB3b4EQqt8JdYx8ggFb0tEZD4qv6grIWCLPMD1cfx4TQVPB0qnrIUGilFx
+ 7naxfvMly5Pv5Jvl_hwromoXLBd1JVeNw4eTwqsCSZnmGUyOdX.WY021cLKN
+ LyLFul988sDHPyL_no4PX.UV8kjCX8XZ37kIa6aosYAzzw42AmEp_O8Mpen4
+ a6n5Bl3nF_ThSZBPSILjK2PDvARoyqA5s2UufQASNirfKyYlGz6na1Lbrifq
+ gBOVeo3BgVTqy5hB3pIhG1oaGA0ddZnWFvnUvmk3XSbVgi46vfww__NQE4kQ
+ BBQPY_Ph6LIaRjrukpmUvw0ubhXh.zAT3ndP8wN2S9Ss7Qflj5kZNvgM82wC
+ C8TzV8MnSclRpHwiiDt7Yf83QytybhRmJ6Wu9Z2yY9XyZRON2GaiBWGLw6Lm
+ xlipIpUYKf.0935DvjHgvOV0DkLxqD9oGs3pnLivLWlTOz5wjOKji9y_Qp7Y
+ khVhli3NTOqf4XMjrulDTpTmhQXgkC_vjAOPVkNnt1O8yoyhFF5fG_Om4KRl
+ 0VXUHsyX4rjWIRMZXoDEorB68CYeY29fWw114zh0LX9yiC2a8kymzNJr0_7N
+ y97WxzePqPLtutLX.fp6_f7RspqV_oVftuG_h5.FXe_YlQxBBDjPGNEAN9sC
+ uwjPUrmGg_KmibjQo8H8SCrcF9QYtqNPlByZJM6AkPTpXPyS58nqOuD2qQQx
+ 9tcHoyayhDT_2PhKEtsazy0Nl6KHQ3I6kFpTlmDMEwVrH3iaBFbfyM3z5oh_
+ IjuH_0rZqjc3ahBELPoEvD7n97dU6TDnHTu7d7IzQ8Pb55rgPupI7AzuTJ5q
+ RlYaCXezGobsy0fJjLXxzBBmU_kx1.vZy2zQhTaq1IOX8dB8ywBx95J4JoiJ
+ 7NxfiLTfxTN5XhchLw63e33DXdjaqyZQZmvLmLfX35sebKesvhM_bIRjHtml
+ wUOD1vZZ7XdfuUSSJMOFPz.8vjQjFqyF0xykxrhc_er6bNI.sNGbAyYDgGvx
+ pr_1sSMOC7eN73ad.Tbc2l1QKnHHkXxYlRHZuYte61E2zEm8hMhLNWyLaT_J
+ Q4k4I.oEcEj8n_BeEj8B7uHAhwFw_fP53YFibgHDy.dzrxLZCQmiDXFOCYIE
+ klUfctPuRaqBk_8yEGGyCDKeAOXk.FsdLkPDhEP9c4Uzz514BmReMautV5Y9
+ ie1.dphshwn.FMwlLqPGHQmfFNC1tlb577O1rJ09od8-
+Received: from 40.107.89.47 (EHLO GCC02-BL0-obe.outbound.protection.outlook.com)
+ by 10.217.151.10 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 10 Jul 2022 00:03:29 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=hb/LLMx/ldzjadw905L9Aye3xgruGYnWMolp5NeJv7WHmIX3fhJoibsweGuYPdDEtqiq2CkpbK+44uK8RZ3Ryuv9e9Fg1tgyd32bnitkfzrlUxALrdHnY4M/IICDzd50OdrReTrB1GaEDtvWfK4kbuacDEPL8tYVbE1l53F/SDIj06A6dd7tuH50CF/QmiWfZKx4Qf1gBPcK+Hv2QA/tRtbEZ7RTFifPtFh9uFW+BcTSrnb3DnER+3j83EOLKPxZDnojzfsu4uLn1JkDd/2fpvrO2Qe1DWsmSJPlFEB/OCRu+JHM1BPGZ/dJRke3wYxX51rzvy3w/09MRst2OJUUvQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=zDH9APlLPcNSz8HmWsEMIFNaA+G3iv5mKRNZuoqoqXM=;
+ b=XRyUM8gPR0Tuov04b8SCv9G1urcgLS2J+fScC/kksjinDLbAwmeoHYwOo0IorxLWmC9Bu3ENmL6N/JwHCg60CX1hRUtwen3Uytq1mgocgz2AFJIWBJW9R1HxbYSd9wslvRPUvd+aagkp0q2N4PjFRrKoypP5W4u9fBvkuqCR2XyMZVw2Afrn2i+Bh0xjtVjUdzz7tq8n1fMncc1FkR56r5SmuplJvxrh+k4sLCVUguoZxAl0ff2Jw3orLiTIVaDKwoy1pTnjFzt2QKJOvsLh2MUrI3E5pHJcUT6V/P9wd6BkwUwpWFvswn+AHzdDiEdfOuGwIBV07o6Yt4bHTUv1YA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=dc.gov; dmarc=pass action=none header.from=dc.gov; dkim=pass
+ header.d=dc.gov; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=dc.gov; s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=zDH9APlLPcNSz8HmWsEMIFNaA+G3iv5mKRNZuoqoqXM=;
+ b=mak8Cv4OkVUc0D3LtIj9/eHqxviaHQV8V8Fgz7GCYzkZY2CynMnGwciN6tduqsMS845bw1XyV8Yrt039vMUcuOv8WOaWb8IHjzBx1qg00968jsi6OC3+liJU02HIVgSZ+E8IwDIS6VcjRA0fcwoLyLn+tj7nCS/FVfYiYRBUx/3mNxH0r+PlbyBQLKFeaMvCz12E18M6DCKRKqOOdlHWUkiLt3dIF7yZGM0Fk4s5ULDVkc6uNNhoK0i2S84zVB0YsGnqyXYf1omYT/lKUBdxpLdljFlrnhuCy712ceFyVhKUk6E+L8SBYS0zbqeo24Hr/TXpnSacQmLL+m5QbCmAcg==
+Received: from MN2PR09MB5116.namprd09.prod.outlook.com (2603:10b6:208:215::7)
+ by PH0PR09MB7642.namprd09.prod.outlook.com (2603:10b6:510:61::18) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5417.20; Sun, 10 Jul
+ 2022 00:03:26 +0000
+Received: from MN2PR09MB5116.namprd09.prod.outlook.com
+ ([fe80::f4ac:e5b0:1059:4843]) by MN2PR09MB5116.namprd09.prod.outlook.com
+ ([fe80::f4ac:e5b0:1059:4843%8]) with mapi id 15.20.5417.025; Sun, 10 Jul 2022
+ 00:03:26 +0000
+From: "Glover, Eric (DOC)" <eric.glover@dc.gov>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject:
+ =?iso-8859-1?Q?Read:_Fwd:_Fwd:_USC_Title_18_=A7_1512,_USC_Title_18_=A7_22?=
+ =?iso-8859-1?Q?5,_USC_Title_18_=A7_215,_USC_Title_18_=A7_4,_USC_Title_18_?=
+ =?iso-8859-1?Q?=A7_2.?=
+Thread-Topic:
+ =?iso-8859-1?Q?Fwd:_USC_Title_18_=A7_1512,_USC_Title_18_=A7_225,_USC_Titl?=
+ =?iso-8859-1?Q?e_18_=A7_215,_USC_Title_18_=A7_4,_USC_Title_18_=A7_2.?=
+Thread-Index: AQHYk96RjGnXjIvL/EGZzysAiQ8owg==
+Date: Sun, 10 Jul 2022 00:03:26 +0000
+Message-ID: <9e5b1574211d4d7495c188325c7d0772@dc.gov>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 2995f15a-4c91-4226-399d-08da62079d13
+x-ms-traffictypediagnostic: PH0PR09MB7642:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ t8nFulL3g8FZ5jEanl5khK13Ell3kwsUcfc2SWxip/EtyGlMdLuwnp1lakSGl/DyIPx8I21tQsesC1eQ6ryjlBvn0x5arHxwCvbA+inAjr41kurkVIXA6AW64Ixvj7ZR1NCtl/sn8ltisYRK5RPuybmR6cfHAXysiCnxJjgweda1NOFg8mPCmNkYcUPlenoOPaoreeRqG/zW9XSYj4qIqqfHXMEAwZSDsWfyMZMbEawPPuuHAX70DV9JxY49mfgSJczBhnlScg1Dku+SjJRO1reyUHRWmRQeunP6xlqIas5oIN8PhX3BQLiNcEIBRJSvf9zFvzQcrgrpJg93/oAaRz+/3mQEFzb+7CimYVfRLaaxhaX3fucXIy6lv73MzyMmr1rItC6exBRRfk2tOT9GA+AiNywz8iAYVf783tiODGneru9vRpqhcLRTmhGV6mvcfwtZXwTVPAXK0zvi65Jhc6uXRFIkBXc6thxqmCHULIaP3kBlcaEstcGFRDiCOqM6
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:MN2PR09MB5116.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(366004)(2616005)(108616005)(6486002)(66446008)(6512007)(64756008)(122000001)(66476007)(66946007)(6916009)(66556008)(4270600006)(498600001)(8936002)(86362001)(71200400001)(88996005)(2906002)(73894004)(621065003)(6506007)(24736004)(36756003)(186003);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?u9PpNdGNTAjmuk9wZiMU+EMS3tRZsNHN5zst4GhBSCBBVNSk6gpY5ytNxj?=
+ =?iso-8859-1?Q?G2WvWZQCK5PpcCnYrOLUH4TMHyVr8nVzSX1WzYqI0J7+lYfDdhWSWrWkpd?=
+ =?iso-8859-1?Q?5bB0f9xvtUsWlXmOeqNn9CE+0ZmtazQDTpcIw9QtkryLSDaYPFvw5bWlTA?=
+ =?iso-8859-1?Q?SXNoa6iEOfr1cIf8KfsPLv0+6rAo5u3z6yUpklSSV671d948K0jUzSYZlH?=
+ =?iso-8859-1?Q?n6wpmGEO790zUnkP4d2YnaSKX50yfqDVnlZ29n5n4yUPIl6aVheAEYgkCn?=
+ =?iso-8859-1?Q?9JDtoeUiH/OTREUX5sBkUwYTVVErFeF38s14DhS0LIpy9StSnJJXX/bLE3?=
+ =?iso-8859-1?Q?modd6P181U9Vt+I+GwX8u5yN5D6gqdzYX0jQlzR+Tx4HMZiA2AXxnyywIn?=
+ =?iso-8859-1?Q?bLNXdLBflpv48IXMhPmIlB7owees+7qMvpigCEJf0z4ARflqxlBI2+Vl2S?=
+ =?iso-8859-1?Q?Yn4nmnBPnrWZmGYzW8+Cof+pR4VYy6G4ORf7UY3zGtV3cIqFoPlyZeKj6b?=
+ =?iso-8859-1?Q?1aeYpYcwZIVjQG3rYd530TrCj9DhQTVM5q9Nu9bL6hRJE8oGutgTqUlU2m?=
+ =?iso-8859-1?Q?pZvlb1gAii6JelRcQpqjOZBASa9CwM8Ltk7FtKDexRDL+CiF2tODget1km?=
+ =?iso-8859-1?Q?HS0OJpew59lt/4X3H0fGYfWhugsYo5XM0aO4y7BtBIx9JmdDf6WXbvGXTD?=
+ =?iso-8859-1?Q?ny3Z3H79jjZlMMKLT4y7NwsB8jPgUkG8rMQPTnoo2A5bYsPa9/v0DtYsmd?=
+ =?iso-8859-1?Q?HkzBTPIm4cgFoMFAmqbIs7K0AZ4+/aKGX1D6zLwVO1sk6j22IDfda5dl44?=
+ =?iso-8859-1?Q?6OIoUUjr4uZIULCr8mZSw7//kAi1DhtFZuuTVD8b+Pylwauk5ZXos0sJV3?=
+ =?iso-8859-1?Q?HSsxTda6cVSOlBUECiYpDHkv4A5uVcZI9uodtekF6GdjhiZp9CrWe6mxtm?=
+ =?iso-8859-1?Q?lB6DqYYn4Sd0O6lZDH3UdWFwFVYWe4tEg7edHb2Bdl3+Ga/hiVt50sqiEW?=
+ =?iso-8859-1?Q?JaJnlWJqGfFpRAQBnzykIesT3gtX42VYGx1jzB2ustX33oEriGRqgxOSWd?=
+ =?iso-8859-1?Q?UlnfCCNHtcAq2VLvIDcqbDuSWYofAKjc9cpVxvDLpZwJezGUyuxWNo/KME?=
+ =?iso-8859-1?Q?Cm3zF+9B3A4yaPSCRt6yrLK8ZpyNETITOKxJj6N618OV9f1hyO47IVDvRp?=
+ =?iso-8859-1?Q?wNPpeaEOvVebpSBNSF6QUTGR7zTJXwxICW1pzHnFdmqditI8ftW0IY21h+?=
+ =?iso-8859-1?Q?psTaTrnNhK3dknWsAA0uRULCXJa1N7X9tMWhI207sBUktbDfO6VNm5j1cl?=
+ =?iso-8859-1?Q?9aaZyIVIIsOicu9v9GGuA5WLlmw2TMAFQHlCvHYo3DDy/kHlFAx1Tc/1uj?=
+ =?iso-8859-1?Q?fMgAntzRTSSclhpSVFMwj9aXFnVUZn172Vc10C1DIRyD00ub/UOxeE/Bs5?=
+ =?iso-8859-1?Q?+uwxeB34PYM/Z/znMh7QPGmNN86zKLUuQj11ZKL14tpb+gt5hVCdGL7rXI?=
+ =?iso-8859-1?Q?LmtikK32473TpbHurX6v83?=
+Content-Type: multipart/report;
+	boundary="_000_9e5b1574211d4d7495c188325c7d0772dcgov_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: dc.gov
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: MN2PR09MB5116.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 2995f15a-4c91-4226-399d-08da62079d13
+X-MS-Exchange-CrossTenant-originalarrivaltime: 10 Jul 2022 00:03:26.5766
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 8fe449f1-8b94-4fb7-9906-6f939da82d73
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PH0PR09MB7642
+Content-Length: 2057
+
+--_000_9e5b1574211d4d7495c188325c7d0772dcgov_
+Content-Type: multipart/alternative;
+	boundary="_002_9e5b1574211d4d7495c188325c7d0772dcgov_"
+
+--_002_9e5b1574211d4d7495c188325c7d0772dcgov_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Glover, Eric (DOC)
+   Subject: Fwd: Fwd: USC Title 18 =A7 1512, USC Title 18 =A7 225, USC Titl=
+e 18 =A7 215, USC Title 18 =A7 4, USC Title 18 =A7 2.
+   Sent: Saturday, July 9, 2022 5:54:20 PM (UTC-05:00) Eastern Time (US & C=
+anada)
+
+ was read on Saturday, July 9, 2022 8:03:26 PM (UTC-05:00) Eastern Time (US=
+ & Canada).
+
+--_002_9e5b1574211d4d7495c188325c7d0772dcgov_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Glover, Eric (DOC)<br>
+&nbsp;&nbsp; Subject: Fwd: Fwd: USC Title 18 =A7 1512, USC Title 18 =A7 225=
+, USC Title 18 =A7 215, USC Title 18 =A7 4, USC Title 18 =A7 2.<br>
+&nbsp;&nbsp; Sent: Saturday, July 9, 2022 5:54:20 PM (UTC-05:00) Eastern Ti=
+me (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Saturday, July 9, 2022 8:03:26 PM (UTC-05:00) Eastern Tim=
+e (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_9e5b1574211d4d7495c188325c7d0772dcgov_--
+
+--_000_9e5b1574211d4d7495c188325c7d0772dcgov_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; eric.glover@dc.gov
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: 3jBgBL62MUyniMSkpDRASA==
+Original-Message-ID: <da1fe7d2-6940-f4dd-b3c9-0f4a39366c8e@yahoo.com>
+X-Display-Name: Glover, Eric (DOC)
+
+
+--_000_9e5b1574211d4d7495c188325c7d0772dcgov_--

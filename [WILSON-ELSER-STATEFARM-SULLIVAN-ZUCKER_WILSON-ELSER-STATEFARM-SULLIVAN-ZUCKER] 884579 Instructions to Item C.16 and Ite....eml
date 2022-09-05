@@ -1,0 +1,234 @@
+From - Sun Jun 26 09:48:28 2022
+X-Account-Key: account1
+X-UIDL: AHrO39ILRlMQYrhwIwQW4IFjxa4
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.31.112
+ by atlas211.free.mail.gq1.yahoo.com with HTTPS; Sun, 26 Jun 2022 14:41:38 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.204]
+Received-SPF: pass (domain of github.com designates 192.30.252.204 as permitted sender)
+Authentication-Results: atlas211.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 14:41:39 +0000
+X-YMailAVSC: F3oPkh03bBuI_43cRdZnSSgK_Ey0ywNH0ArO7W4WcqOogUG
+ 3.Xrc13oyIBODi2NvejbgLJqev228cGaRsPdaJwZNe8Yq3g0OTKLCk_otJki
+ 4XmyiYH.NE8JTDOFqXD7d0httXnUr0vNDYUMf2Bk5MhjeUFRb0sQEitEm.Li
+ cbFUclZdotw0D8L0tED3gAhfhUNNqJTiRg5fSoihdPlcKZTuG_gBYAtenPu7
+ wcLsE_5jvHqA7gOvxHhWIYnGHRomZckRaneFpnFWsq8vsRkMoTNAvG4Lj.C9
+ kog.lTvD_XIqIwpc_YAtFzeMuHoGuliZSod6_qWHIgjTth9NybbROMRi6JjO
+ K2zQj8ajKBqj5.e3RsE.kOCSivwDcJXGA5lk-
+X-YMailISG: qgWithAWLDum0cEl3qkL5wmvn5i5RkE2JEoxJjgLsxQD5p34
+ U0xXxKbvA9MsuoU50qUUMY9YWq.jmqH092MUfI.nn4AZ2kpYF1fZ2phV29rV
+ qrtEYLvLZuqQ_gOinpCYy49fJUB99SxIRbSCcglzXof9aFxypw643S9aXFZS
+ .1Tcw2QFEYbO8w_X5HG9yI3V3YDeZywRZDfc_bA.e3FQfcDmO1ryeeojvDiR
+ LieU5J8JNJiXoM3nIbUuEx2bUUxHf3sneF4UQaX5l6azUBPkiJD072xMj49_
+ XK25pMFbFmteiDb08kec37yN174BIc7ranNBp58zGSc2LlOz99FLrAS1wT0J
+ iGJIqywu._8fXQ28A842Wa2NnFoD52PDfq9u0rCPWuKPGhhY3LSJQYH3_hdY
+ kX__ymvdPdGcJN543T9z4a6lBmfGYwW8bMFa43uq0TdP.yQy0BUad8sVFNYI
+ PhqIqiDuDVpCjCCIXOwuTaF8vydIkStw.TZRcey2dOttjGEoF3WSvlvz.Gde
+ FFlPra.Rqr_NMDEZy9UW8nFXLfK4aRzq3xAGaPCuXnX7zYF1vWSrtWXlZfwu
+ Z_RyhoPhEd6fLSSLnFBlMvwTiKFhVuQAH1wvRePmzX3dbSNemTAo1iCOanu9
+ 6Vsx8j9cHWI06n9ICxkj629w77rW_tlrx0j5Vy1svmf34rGu2JnCYunkOVKK
+ N_jhAsLHzdkByZr51db7.hpewLPxy4.Xg4jZlNbk0HThmgyI8xFuIoiEvuIC
+ EYkL8VIgGqhtXUYfssiI12HAHoytKElWkAQL.mc6632taKX3D35WCnwsH67o
+ j21b.kFIT.aJhBN5SmNC7slqf_Ibeq7bgiGkrWl4qqjRLK9Jl_COighl79fZ
+ GPukFnhRw7EPvtV_501Sy1jjlsY8ZUMbOXaoo_aezj02d0gW9iom_DLcHI8X
+ mcFv4zzVZ.DUNBDC1i7W0Zcm0Ynv_7Q_bDecBcXEXikakrIYl98yBEuCfP_w
+ KP6QhkWYqTUYT1DD.MDos_HJkgKt_RtFeNYavnRvQfrln3DVldu9FZ5sJOmm
+ l8dQjHMyNAf7sfVMdgaA00JeW.kk54krZq4eICKnMMAgeN0I.ND4CWJqKTfn
+ A2cobTjp5SgwfNFXkMTwjXe4UocItKaBTeu7tME6jOWIzFbwmiO3HHUa3arW
+ jOWwbvJ4J2HB0wTEfzhY8F7Wa2leCwii.4Y-
+Received: from 192.30.252.204 (EHLO smtp.github.com)
+ by 10.253.31.112 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 14:41:38 +0000
+Received: from github.com (hubbernetes-node-497e415.ac4-iad.github.net [10.52.205.25])
+	by smtp.github.com (Postfix) with ESMTPA id DD1D252056F;
+	Sun, 26 Jun 2022 07:41:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656254497;
+	bh=vuz3lhcuInsOCU3spHF2Kk3m3kzM5PDwGh+8rSR+j/E=;
+	h=Date:From:To:Subject:From;
+	b=nWe2h/WYhUCG1fPR68YjPbm5e7dyoV9KSuASIBU2/Xt5b2Zo+hKUXCXAR8bwTztS0
+	 6OTC/5sD1JfiYDWa/Y8aSFCmewF8xn1PNcYNBT0Td9O/eEZM627maoQOYgjBqBJtSc
+	 3WLKDXO00A8brPKMGGQYOFOS0orGV4KLPPr5JVnA=
+Date: Sun, 26 Jun 2022 07:41:37 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/21dc98-884579@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 884579: Instructions to Item C.16 and Item C.17. [40 ACT -...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 7668
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: 8845799b2de69c077b0a76f9632bc7e2f7291389=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/8845799b2de69c077b0a76f9632bc7e2f729=
+1389=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-26 (Sun, 26 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  Instructions to Item C.16 and Item C.17. [40 ACT - INVESTMENT ADVISOR A=
+CT 1940 ]=0D
+=0D
+THE FAILED TO DISCLOSE TO NOT GET FINED IN TEXAS?=0D
+    THEY  ALSO FAILED DISCLOSE IT FOR THE NEW INVESTORS OF THE TICKERS BE=
+LOW AFTER LOSING THE UPPER BOUND OF $940,000,000.00 WITH RESPECT TO BRK-B=
+ IS NOT A JOB WELL DONE, IN-DEED.=0D
+        TO PROTECT TAX EVASION AND THE FINES, PENALTIES AND CERTAIN PRISO=
+N TIME...=0D
+    WHILE COLLECTING PREMIUMS AND INTEREST FOR THE PROPERTIES WHICH ARE G=
+OING TO NEED DENTURES ("FINANCIALLY") UPON REALIZING THEY "STATE FARM" IS=
+ LIABLE FOR 5 OTHERS UNDER 26 CFR =C2=A7 1.6662=0D
+- ACCOUNTED FOR, AND BY YOURS TRULY - WAS ANNEXED IN THE MATTER OF 153974=
+/2020 WHICH ANY GENERAL COUNSELOR OF LAW WOULD UNDERSTAND IN THEIR FIDUCI=
+ARY ROLES, NOTWITHSTANDING AN INVESTMENT PROFESSIONAL.=0D
+P.S. #GOCARDS...=0D
+=0D
+=0D
+=0D
+	=0D
+*** 2021-2022 ANNUAL FILING=0D
+https://www.sec.gov/Archives/edgar/data/0000093715/000114554922006149/xsl=
+FormN-CEN_X01/primary_doc.xml=0D
+ =0D
+.. WITHOUT BEING REGISTERED IN THE STATE OF NEW YORK TO CONDUCT ANY FORM=
+ OF INVESTMENT BANKING, THE DIRECTOR OF STATE FARM INSURANCE LLC AS THE M=
+ANAGING MEMBER OF STATE FARM MORTGAGE LLC=0D
+    - IS ALSO NOW HOLDING A NOTE "NOT COVERS" AS A FIDUCIARY WHICH HOLDS =
+THE TAX LIABILITY, AND AVOIDANCE TO PROSECUTION WHEREBY THE PREMIUMS AND =
+INSURANCE COLLECTED ON A LETTER OF CREDIT...=0D
+    HOWEVER "INDEMNIFIED...BY "SULLIVAN PROPERTIES LP" WHO HAS ASSURED IN=
+ WRITING THAT THEY WILL REIMBURSE "STATE FARM" IN THE EVENT OF A DEFAULT,=
+ OR LATE PAYMENT.=0D
+ANNEXED IN NYSCEF 153974/2020=0D
+ =0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DIY8iDH_PL=
+US_UpVanEtcRioef3A=3D=3D=0D
+ =0D
+ =0D
++++ I SENT THIS TO THE SUPREME COURT JUSTICES INDEPENDENTLY IN NOVEMBER A=
+S WELL, BTW.=0D
+ =0D
+NOTICE TO STATE FARM:=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dn_PLUS_Cv=
+SQR36fqPKko6L47FFQ=3D=3D=0D
+ =0D
+THE FAILED TO DISCLOSE TO NOT GET FINED IN TEXAS?=0D
+    THEY  ALSO FAILED DISCLOSE IT FOR THE NEW INVESTORS OF THE TICKERS BE=
+LOW AFTER LOSING THE UPPER BOUND OF $940,000,000.00 WITH RESPECT TO BRK-B=
+ IS NOT A JOB WELL DONE, IN-DEED.=0D
+        TO PROTECT TAX EVASION AND THE FINES, PENALTIES AND CERTAIN PRISO=
+N TIME...=0D
+    WHILE COLLECTING PREMIUMS AND INTEREST FOR THE PROPERTIES WHICH ARE G=
+OING TO NEED DENTURES ("FINANCIALLY") UPON REALIZING THEY "STATE FARM" IS=
+ LIABLE FOR 5 OTHERS UNDER 26 CFR =C2=A7 1.6662=0D
+- ACCOUNTED FOR, AND BY YOURS TRULY - WAS ANNEXED IN THE MATTER OF 153974=
+/2020 WHICH ANY GENERAL COUNSELOR OF LAW WOULD UNDERSTAND IN THEIR FIDUCI=
+ARY ROLES, NOTWITHSTANDING AN INVESTMENT PROFESSIONAL.=0D
+P.S. #GOCARDS...=0D
+ =0D
+Instructions.=0D
+1. Item G.1.a.i. Legal proceedings.=0D
+    (a) If the Registrant responded "YES" to Item B.11.a., provide a brie=
+f description of the proceedings.=0D
+        -- As part of the description, provide the case or docket number =
+(if any), and the full names of the principal parties to the proceeding.=0D=
+
+    (b) If the Registrant responded "YES" to Item B.11.b., identify the p=
+roceeding and give its date of termination.=0D
+ =0D
+2. Item G.1.a.ii.     Provision of financial support.=0D
+If the Registrant responded "YES" to Item B.14., provide the following in=
+formation (unless the Registrant is a Money Market Fund):=0D
+    (a) Description of nature of support.=0D
+    (b) Person providing support.=0D
+    (c) Brief description of relationship between the person providing su=
+pport and the Registrant.=0D
+    (d) Date support provided.=0D
+    (e) Amount of support.=0D
+    (f) Security supported (if applicable). Disclose the full name of the=
+ issuer, the title of the issue (including coupon or yield, if applicable=
+) and at least two identifiers, if available (e.g., CIK, CUSIP, ISIN, LEI=
+).=0D
+    (g) Value of security supported on date support was initiated (if app=
+licable).=0D
+    (h) Brief description of reason for support.=0D
+    (i) Term of support.=0D
+    (j) Brief description of any contractual restrictions relating to sup=
+port.=0D
+ =0D
+3. Item G.1.a.iii.=0D
+ =0D
+Independent public accountant's report on internal control (management in=
+vestment companies other than small business investment companies only). =
+Each management investment company shall furnish a report of its independ=
+ent public accountant on the company's system of internal accounting cont=
+rols. The accountant's report shall be based on the review, study and eva=
+luation of the accounting system, internal accounting controls, and proce=
+dures for safeguarding securities made during the audit of the financial =
+statements for the reporting period. The report should disclose any mater=
+ial weaknesses in: (a) the accounting system; (b) system of internal acco=
+unting control; or (c) procedures for safeguarding securities which exist=
+ as of the end of the Registrant's fiscal year.=0D
+The accountant's report shall be furnished as an exhibit to the form and =
+shall: (1) be addressed to the Registrant's shareholders and board of dir=
+ectors; (2) be dated; (3) be signed manually; and (4) indicate the city a=
+nd state where issued.=0D
+Attachments that include a report that discloses a material weakness shou=
+ld include an indication by the Registrant of any corrective action taken=
+ or proposed.=0D
+The fact that an accountant's report is attached to this form shall not b=
+e regarded as acknowledging any review of this form by the independent pu=
+blic accountant.=0D
+    4. Item G.1.a.iv. Change in accounting principles and practices. If t=
+he Registrant responded "YES" to Item B.21, provide an attachment that de=
+scribes the change in accounting principles or practices, or the change i=
+n the method of applying any such accounting principles or practices. Sta=
+te the date of the change and the reasons therefor. A letter from the Reg=
+istrant's independent accountants, approving or otherwise commenting on t=
+he change, shall accompany the description.=0D
+    5. Item G.1.a.v. Information required to be filed pursuant to exempti=
+ve orders. File as an attachment any information required to be reported =
+on Form N-CEN or any predecessor form to Form N-CEN (e.g., Form N-SAR) pu=
+rsuant to exemptive orders issued by the Commission and relied on by the =
+Registrant.=0D
+    6. Item G.1.a.vi. Other information required to be included as an att=
+achment pursuant to Commission rules and regulations. File as an attachme=
+nt any other information required to be included as an attachment pursuan=
+t to Commission rules and regulations.=0D
+    Pursuant to the requirements of the Investment Company Act of 1940, t=
+he Registrant has duly caused this report to be signed on its behalf by t=
+he undersigned hereunto duly authorized.=0D
+ =0D
+ =0D
+Instructions to Item C.16 and Item C.17.=0D
+ =0D
+ =0D
+https://www.sec.gov/Archives/edgar/data/0000093715/000114554922006149/xsl=
+FormN-CEN_X01/primary_doc.xml=0D
+ =0D
+https://www.sec.gov/Archives/edgar/data/0000093715/000119312521278180/d22=
+2043dn8f.htm=0D
+=0D
+=0D

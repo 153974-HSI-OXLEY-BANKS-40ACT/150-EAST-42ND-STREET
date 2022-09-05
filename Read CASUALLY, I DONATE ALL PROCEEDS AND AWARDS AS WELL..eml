@@ -1,0 +1,196 @@
+From - Mon Aug  1 16:00:48 2022
+X-Account-Key: account1
+X-UIDL: AAIOhJgU4OqcYugweQFvMCq39YY
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.136.93
+ by atlas102.free.mail.ne1.yahoo.com with HTTPS; Mon, 1 Aug 2022 19:58:48 +0000
+Return-Path: <ntomasso@acus.gov>
+X-Originating-Ip: [40.107.220.80]
+Received-SPF: pass (domain of acus.gov designates 40.107.220.80 as permitted sender)
+Authentication-Results: atlas102.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@ACUS.onmicrosoft.com header.s=selector1-ACUS-onmicrosoft-com;
+ spf=pass smtp.mailfrom=acus.gov;
+ dmarc=pass(p=REJECT) header.from=acus.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 1 Aug 2022 19:58:48 +0000
+X-YMailISG: cA54.rEWLDtWCHT0VTYjvyNTk2.4819kJlUtMiv6aiT3Sblu
+ MxMUT9GCMgW5RfjDIqgk4H_urXE3.jCqblVmL7LGvvI53XAHeD86Q_1F..YZ
+ iOP.kO.4sMreR.3bAMjTSunpBF4Yd.t.U.Xr_qEc_LFmgAGGpbe.xxJO3dSH
+ Sap8xrlYNzmIWzEmLtWeihTY688.STptwRcHGhfyNV01g1aoQ61cqw0BM62z
+ v0Rdgpznjb9aYEuzWoA81qel1JWlnD2mOx94sMtNIxjWsNwXpE7XICn4y1Bk
+ O7prLk7fqeWqOG3MSTglPFgq4rHQ6AzdDFeBwsfG0It_H08d0L3FIJVjEV2j
+ j974nQZwox1_9WvQl1dZcnfcy69Q0Asf0bVZo.VcVPJHnnb11AyPfY0HLmyt
+ OW2YeMmcQs4K7TpkxliMdaWS4ZQXVB5RADhe0r6S7PsZ3yf5GAPMpafEuDAS
+ kvLaiQJGy8NbDrC0zGSIEspMotxR9zkhSHGPw5tnmTPjp80psS5yLezHuXB4
+ AwJhg1kI9cgkxCzf9qm7WvKzKD_M.aDOWhxaMPJGdrroTAopLr3A8A1Ua3Sa
+ KRmMRgk0s93OdHdJFhcnJDS6T99u4yhedBJi4nDOpw9HW_25AJc_poo2c5zq
+ 3pCuO5iZfEN4mq8mwCb3UFZy8U7KnclzpxPXBxXzkrM68ljNTldEeHsPZvWu
+ aJ9WaDaSF8Feeoh0iiPB9nwg4z7vUd3BGcZkFD5u_HhcXKsXVhb2kCF4o3b.
+ 4NCm2AsvonjdOscBRioXIOfGLLwM_rLo.WEcbEctkYlDKHdiZqjO2ZvSBpKP
+ MThahIjMqLDt35n1PuLLE5hQomEH2mp86hH7sRMao8h07p_Y5naVjTc.thyY
+ NwtWPrN3YZ4OCFIc_m9dKNqufNxo31UejJZldS1xmJeRoZZQdZ67lFFyB6PZ
+ JLUwWylxyM0TCpHv_eG8QoZm5X.Q3WF6TDhNljffQE8KNsXdi9Z2oRIZizBD
+ vcFIyKnsd88_JXBA1y4jNBE6aG3c4s8GVwr7zZE7LZT7.xRaJ_pYWGSGQQbe
+ JMvq_4IlT.vW0sIBTk6v.l3IFTCotPnn7aXKdOPJTOyICH25rjU2u8v5HDox
+ xkjB5JiIjn7ZPpnFCMmNuQIpF0trtr8YyPIw7UU6axB5JsEPibP21ehrY1wl
+ b7VAxzUdH.RI2evoGMtRjActsYLqYho73kLng649fqCuaP2DBqiP3ESDROt1
+ JNoBvF0Wb_L32K7MPmv6muRj6oAQGtKlyYkT40Ts3PfMop4x1uJvPq6u2ekU
+ Fh5qMM7bXMBM9fMzU1smSXTJjlL.CIaGmudH5GhDleKv0Z_CQYVIjRrk9iFp
+ 8jWOrvrjzo8-
+Received: from 40.107.220.80 (EHLO NAM11-CO1-obe.outbound.protection.outlook.com)
+ by 10.217.136.93 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 01 Aug 2022 19:58:48 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=n1HscqWZL7LlZXMgMwq1jX/xjWc9kaP1xXX6a7NuRDmCEUdtiMyWX/mPdzQFMRQtbjZqMzJkuOgFhAOlzuQli6ysjq+X/lUW+r3cNykOfhV9zNxjybDTPaWqOutJInnPW49o4bxUc5TVF8PSuw+I1vN9vOw1aMDGGcvT50I0DHcPrUlsbvrIl93uChIeEBO+WZ1UwfQYVK8XX1IseC4LNAAwZ9Bm9ynCm9PJXQPctEY19nGtz7E9FjY6k9HRyxjvhYRrzO/mWnCKVFIWMLyYpHJ9eBUUxfpvMnCrQYoRwg+p2kGbQzzInsv1SvqpqgxBReR854TSkP5ztZvEU7a2XA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=fRYDvedIOg3zyQtj30ZGA/ejLZvjHhXyDFc2ceqstFQ=;
+ b=SiaangwAnD6bWzD94R0fCeOFWROJRK1vzNe4CNx7mBvkE2ICpu09dZYpWKP4h0S1QHL2errHbVT+Bim7vXiXVkY5t+jlzHdt2DVYR/TGb7DArLLGKlrjn4n5D92yfrLiIFbTPiXuMjDPviQ6VpqfXU7U/f+UGRl9dpzIF7yFyYTHlk9w4suz8plLFQilPsRqSvFwxp0inlvnwG7iAlHmwFuRhqDMAZfvyWegITD9JrPpSrqcZ9h+4E4QpA1mb/+ER5NPfHD3rC9zIovVhZnOAi2A3RkTYGB9JAYG7WBQKk5fALPjYRt4esEOjjryC/z4YFu2UgIScsHgu+RzEUrsnQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=acus.gov; dmarc=pass action=none header.from=acus.gov;
+ dkim=pass header.d=acus.gov; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ACUS.onmicrosoft.com;
+ s=selector1-ACUS-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=fRYDvedIOg3zyQtj30ZGA/ejLZvjHhXyDFc2ceqstFQ=;
+ b=JMIDFgx+Hmey+j5HGyBMNTBVrcRugeDbZiGPS36Y9KBqgE/nmh3iyFOzNw5Q8Y6/MnZPfSSu9nYKghZHQdlsEYJSUs5VUiqaArR+AkCyMdrEvUiNB+t3QpAgpqS25saXx+16XJziILMloOYuRXSLDktjzzPSuCgKMnLnnabdw/Q=
+Received: from MN2PR01MB5807.prod.exchangelabs.com (2603:10b6:208:18b::25) by
+ CH2PR01MB6056.prod.exchangelabs.com (2603:10b6:610:44::29) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5482.13; Mon, 1 Aug 2022 19:58:46 +0000
+Received: from MN2PR01MB5807.prod.exchangelabs.com
+ ([fe80::51af:eced:2735:dbb1]) by MN2PR01MB5807.prod.exchangelabs.com
+ ([fe80::51af:eced:2735:dbb1%6]) with mapi id 15.20.5482.016; Mon, 1 Aug 2022
+ 19:58:46 +0000
+From: Nathan Tomasso <ntomasso@acus.gov>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: CASUALLY, I DONATE ALL PROCEEDS AND AWARDS AS WELL.
+Thread-Topic: CASUALLY, I DONATE ALL PROCEEDS AND AWARDS AS WELL.
+Thread-Index: AQHYpeDhc27R0nl8SEmWtBE3yLHlXq2adkWU
+Importance: high
+X-Priority: 1
+Date: Mon, 1 Aug 2022 19:58:46 +0000
+Message-ID:
+ <MN2PR01MB58075276088C4B4B87A1C9E6B89A9@MN2PR01MB5807.prod.exchangelabs.com>
+In-Reply-To: <b7aa8a62-0727-31e8-8d3c-dbb716e2dfce@yahoo.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 548d893b-d800-4958-d386-08da73f83e4e
+x-ms-traffictypediagnostic: CH2PR01MB6056:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ un1tFQBjbJyaL8Cs8AFTqFGhgUgZYeV5iwQno47/TnVqHImbPHEUEo+IDiLaaO+6aMm7Bu3BWOXC5gMNRHqYrP4+Fgg71EeftH/0QoEIgJ37Ogc97FJ75/T4K1v/AAo9Sgud378rdarclhcYn2QcHrALn0VwTlxabTpIC9I95KqcrZpPVqwbAWHOSZLIr6LiMyvPvXHQtl+0hz3hOcoAmtL7rtkL8T1Ir8V2d4lZ0udN3h2U+5PKjPvhr0yuggBO/RUZsaBNHwB8r6e9n2t6kCf1sN5i9QwmkmwReyz4rJTR9pSWP1GieqrANr59hdOedpVLOgxiAranFwQmG/xW0P4jl0D40cAIu2YQrShWla6z+KuKUnZPSZ5MUM4gbCbBh3LM6ZrxEh8zQGG8ry9GNyre2Dzf2Kd+u9TcEiN9C6Z+0tK9OLiPwILdmaMoVaSvjZ3LfiGqbFB7E7ZALOF7GJlEgyUWRyKRNnFql4XgUF+Z9IDwQyPIVhp6sHuvzBDo2vZ6W3ZAn+1MgvFX6wcTp1iuQewgxmHPUakO/yYctzw=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:MN2PR01MB5807.prod.exchangelabs.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(39830400003)(396003)(136003)(366004)(346002)(376002)(7696005)(122000001)(6506007)(26005)(2906002)(9686003)(86362001)(66446008)(52536014)(38100700002)(41300700001)(71200400001)(33656002)(8936002)(478600001)(4270600006)(6916009)(76116006)(316002)(38070700005)(66556008)(66476007)(73894004)(64756008)(8676002)(66946007)(186003)(55016003)(621065003);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?KmHhTPjVthFljvWE5/CRbGs9Fh8UsnOZ9IVU2H4b0MVgJ265EpWQETGGOhzF?=
+ =?us-ascii?Q?Xg3VTe14oFTeTMzIRuDH+MT4VgBpvvk9J2UELBhA4MFnOC1+YM2oYumG2p3I?=
+ =?us-ascii?Q?wbnRaUrdINy8akL5P1rP1ODX15YIAFM/daszyi/OO8VBDbyXqEBisTl9IRN3?=
+ =?us-ascii?Q?a4bx/sCgcOG/+Q5hUTGS0GQnnVp4CFwHsMCsBhcVB7e8ho5cA7NORHpQUKWf?=
+ =?us-ascii?Q?OeTDnD8ZDgynn7/KlIJU1odcEliuEKEFIYvlG3nCwgnAvj9/9ioygf4r7d34?=
+ =?us-ascii?Q?huWm4o2rZakmM+hsTtFUDC0o4+G3MLFTQ9wye1daVq38HYFCyEdhbsAbaQRC?=
+ =?us-ascii?Q?J5k7UtUhwwsGbSbdU6jBeOqAzl7xvkqKSPDt6woEKxAfLPzrCJddJ7g5Kib4?=
+ =?us-ascii?Q?34YpJ+M9HiulKvU94/wi1UUX150rNke4Zj60sKQJKQjCzj94wzy6Guh4TtQ9?=
+ =?us-ascii?Q?rEfYHGazZG9TcEq22nanxW2tjGuZJo3LVL/bG0z3xn4BEw2V+Aob/H3zHLwE?=
+ =?us-ascii?Q?A00FVgAUlwgBdN6tIsmGKNm4LbnZGZVPLkrhV2HyyH0bbexcTOOnRFdljgeV?=
+ =?us-ascii?Q?cHelMLkom4549lwqXz5F+AmP1OLM5MUZIxeiwsWg+TBfHuRLmHotoT8k6OVW?=
+ =?us-ascii?Q?KGOwuFFAmQeZsX+xT7srBrUiHw8HBiJbLN4iTO9tv66DvPXUowpq0zIWgCt9?=
+ =?us-ascii?Q?SIko2Q8hDrF3Ce11iVCeJYbROiAw95hi2Go0Ia+441LEsGqELNgeAnZ3T8dN?=
+ =?us-ascii?Q?BCVJXyXGldH1RNtXY2v7CDAr9iaqjHfkRtfps1ZBOZQEWkXz9yRxMU1pGCba?=
+ =?us-ascii?Q?PV8BMXmCNMr8j4ywjdwvz+Ti1Ky4PrWOP5wGfpCru2WPLxvul0IGYFHcSgHK?=
+ =?us-ascii?Q?ns40wc420t/fNi+Qi2m5BpxbYKVgRt6RZNA7necMsHNs6gdHPso9L+Z3x72f?=
+ =?us-ascii?Q?BHm9MM8Bdvi3YVkUV9LahyM8J4q/jJV9Pr7CVD7Ftb5+2bHC08iHKcxvNwS7?=
+ =?us-ascii?Q?2Qg3KTYUiKJqbxNTONWrmjVdNLVhG0UK5IQF/R5T9DGlii7uelLWbWwzLvFo?=
+ =?us-ascii?Q?9iLJpm3rkN8IU8FC8Hk7YydW4f7CdUeHXToMH4izm1tAzLMEEi+U1ErHWz+b?=
+ =?us-ascii?Q?SDVmVH3muGqTNcfkldhx2IDCIg8fGGHPZcHTD5xfc1X0J4AoBIGO7Y1hfFJT?=
+ =?us-ascii?Q?opOH7nHSXNLy2hmSvYGpy765z5mMQPR32pVsyWX9QT+f672oqLDeLJEX7ok1?=
+ =?us-ascii?Q?RqfguazvQ8Zux68ZCA41cpGQctRlu+xXboUmHQO1UB6uClvAJ8MTOjLRbmM2?=
+ =?us-ascii?Q?Qqttu/TyqufgBlovK0xdLW7WvVzgqXkzWFUoaEgfVx/PqMUeCu3C/KgVHzjP?=
+ =?us-ascii?Q?yaxKcijBFat96hjW/hFfpewmu5yGHXVJklHq9bdMmtUgqS6wEf7TMhqCG7Py?=
+ =?us-ascii?Q?Hfb8KKnr7+u+tKNc9/ZhI1ZqmkRgjjC8+sMFeuW342uokhoaUM2gb84aR7Ub?=
+ =?us-ascii?Q?1i8usn9AIcOeQOshZ+YhgygVpldJ5abHcpmO9o0H1qpSjW8Dsnfa09e48YJu?=
+ =?us-ascii?Q?bdneTk73ZaUiISzOth11tHUTn8DHU1XkhvYCA5HM?=
+Content-Type: multipart/report;
+	boundary="_000_MN2PR01MB58075276088C4B4B87A1C9E6B89A9MN2PR01MB5807prod_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: acus.gov
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: MN2PR01MB5807.prod.exchangelabs.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 548d893b-d800-4958-d386-08da73f83e4e
+X-MS-Exchange-CrossTenant-originalarrivaltime: 01 Aug 2022 19:58:46.0471
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: a7e0313e-475e-4563-aac9-8c6b9ef92a16
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: gtFSkVdeRkOT4u/5tRYkk5kayjHhO1405p150lp4m/DSU/pTxxuTIUAG2wL05qfDmhbJVPT/gmfqsimvEeFkLg==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CH2PR01MB6056
+Content-Length: 1972
+
+--_000_MN2PR01MB58075276088C4B4B87A1C9E6B89A9MN2PR01MB5807prod_
+Content-Type: multipart/alternative;
+	boundary="_002_MN2PR01MB58075276088C4B4B87A1C9E6B89A9MN2PR01MB5807prod_"
+
+--_002_MN2PR01MB58075276088C4B4B87A1C9E6B89A9MN2PR01MB5807prod_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Nathan Tomasso
+   Subject: Fwd: CASUALLY, I DONATE ALL PROCEEDS AND AWARDS AS WELL.
+   Sent: Monday, August 1, 2022 4:56:12 PM (UTC-05:00) Eastern Time (US & C=
+anada)
+
+ was read on Monday, August 1, 2022 3:58:05 PM (UTC-05:00) Eastern Time (US=
+ & Canada).
+
+--_002_MN2PR01MB58075276088C4B4B87A1C9E6B89A9MN2PR01MB5807prod_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Nathan Tomasso<br>
+&nbsp;&nbsp; Subject: Fwd: CASUALLY, I DONATE ALL PROCEEDS AND AWARDS AS WE=
+LL.<br>
+&nbsp;&nbsp; Sent: Monday, August 1, 2022 4:56:12 PM (UTC-05:00) Eastern Ti=
+me (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Monday, August 1, 2022 3:58:05 PM (UTC-05:00) Eastern Tim=
+e (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_MN2PR01MB58075276088C4B4B87A1C9E6B89A9MN2PR01MB5807prod_--
+
+--_000_MN2PR01MB58075276088C4B4B87A1C9E6B89A9MN2PR01MB5807prod_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; ntomasso@acus.gov
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: fEf1TGEUFUGtQT6+Xw647A==
+X-Display-Name: Nathan Tomasso
+
+
+--_000_MN2PR01MB58075276088C4B4B87A1C9E6B89A9MN2PR01MB5807prod_--

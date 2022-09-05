@@ -1,0 +1,192 @@
+From - Fri Jul  1 01:26:23 2022
+X-Account-Key: account1
+X-UIDL: AL7nhh9wI1jmYr6MGwwlYMZivV0
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.152.8
+ by atlas204.free.mail.ne1.yahoo.com with HTTPS; Fri, 1 Jul 2022 05:54:35 +0000
+Return-Path: <James.L.Balthazar@usdoj.gov>
+X-Originating-Ip: [149.101.180.131]
+Received-SPF: pass (domain of usdoj.gov designates 149.101.180.131 as permitted sender)
+Authentication-Results: atlas204.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@usdoj.gov header.s=doj;
+ spf=pass smtp.mailfrom=usdoj.gov;
+ dmarc=pass(p=REJECT) header.from=usdoj.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 1 Jul 2022 05:54:35 +0000
+X-YMailAVSC: HQ3YBR83bBuhYcuBGh61MC9bnO7foXFk9UnWG_H7YUa1GX5
+ UzAwgjdoBpAQ4p8UPbX_VrV1_NNbp22VjRWiSW9NB_qA46Jf55Q96YLW5VuT
+ Z8THiuWkQ5PwBU5FKwXy2weBe7EKDOxnemL6qA4vHcZGV7tQx0fWUQKFgz8T
+ COdQKYRIvih_uQME1tOe5BmN.MMZ6MGL5obLq6XK6phiO_tOjWgtQkOtJVG5
+ Z58.ohpEKnkSmn._ogw8jVpEzRfYNSBN6pqhJZ5NPMIllpG8tMFef9KGinbK
+ 8xyV0Bj3bC9RXPir0Qx10QrXKqESSEoix55v1XXNTvr5JNK3pNlDnhEPrnM.
+ kBx5smksUQaEawLZWycSJ825CB9ZpKvCtc0.2AYKk
+X-YMailISG: 8D.gNw8WLDt0h7werywOB6JY1dBHLaIH4mcqnO2PLGMOn_1v
+ OITjQ7NrfPZVosIdwzAwR0V9XA1kTWEcxtPmRyvuo4pgoNQxI9o.TLQH6iuY
+ hYk9WK5sg9PbTtSwezMp.k96vKRb3DrIPlFuuSWUU.jgK9CGQsIFXef8TVE6
+ rCOoZXzTBsbV_cI04v7021Q38UOb5LA6j0g7KLFqAqOI0olJ9oos2DMOHgbc
+ ir7P38NIalgjxeFJYBKLZtRP5w0LE6x3JwDjYH.Vcqw0MoEbu0EOsyTEESmg
+ KP2vAbbLT3K1DvpOAqPeaAJPQuDujj9G5twPHEMSvPwxW3bFFh38WlVS_8bL
+ FWsS8wM_5gHqz6UiKUoTzPHPcqakYo7PsfIHSS1Cgc.IzcqFR4hwgSSXsJWO
+ ChaURXo8PQ6qGrCdyh9EuSmC.1OnI_ShvkWHC6UKZu0TO7wOGu.oHmlG2I5k
+ 7PrpEUuO4WBqb98TL9erLauPOEXh6LYein44zJTRVwBWVQIdVFcywUfsaXBV
+ g5d3yO0te8SORH5whdCPPrHFpVAm4y0ghN8QLvg8EsPKgQnLQk7djzahShIE
+ b6EL0EdNjTjZxjsxNvTlAL5xUBso9rnxy1wCgze8dpqYCbcIAs4.mtXRAL2K
+ wRDgXInIoQPL1P2deZbBioB9p5lu_AKu3aMM9dGaXdZvgUex_Mr_QBX9Ep6I
+ _QeyXSB5UYewnQSg4CeG1xNysDXpI8OyV3PSWook1PFgsVCFEmWZkxocYFiU
+ OKocWv64Kf9PbDUnK0BUsQaCSKU456AXjvPYu_X0fyeyBtGnrbeC7pOF1Bcy
+ R5quz3_tcRCf9ulLRuAyDx6G4URmbntKfxZLliIHDYTs15q0NxN512lS.Ifw
+ 42cp4ToZxVgAhBBcJyM0ZyBikHKcd1B2_GuIl9tOLAjSTcFZnk6c6OuSgjrb
+ RHAxcl_G1shQg6SynPgfnDn25MowPiAmORzM_9gxLsfLvkzDCO8j74MY1P1o
+ Q3VblB2kDWiMuLlAwxvQhf8iPA9UhJBpia1.iXGny9YqRNnsMTrS75k0eLXV
+ CTj.MPtFwbXtvAE2cwm5PP6XVqmcemlCvR5wmi7MqTCvFlp435xAt5QNtNjW
+ P25SWosArTtaTxgxaQbTBsbMjNgzw5QlbzA4ndEQfW8dhYMy9TyCXM.7s0kd
+ 1wVVHCPzrg--
+Received: from 149.101.180.131 (EHLO mx-jcotsb.usdoj.gov)
+ by 10.217.152.8 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 01 Jul 2022 05:54:35 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=usdoj.gov; h=from : to : subject :
+ date : message-id : in-reply-to : content-type : mime-version; s=doj;
+ bh=jIMRnP0Oax9T2dG1diB5qAHkv/ouT53KSPX4bmzizJc=;
+ b=iOB9zgdmWNFeqVQNxax5AqeDqMeasXnXOCclvP9+XR5Q93i+mwm7lXICGP88LELVdSSJ
+ hZuPbmHz5B5J2f2qgmKOOFjY5JOvxO4D7y17lHUIoKHU8s7fSh6FoIvVMyUDWOIDDXuj
+ sgirHFUi6dWYhUvtahoj1MiqdQpuUHe+3y7j/LU0GDxXWSwNOsJACHbNbkyYNEVcZG85
+ 4jOI/yYBwoXjt+tD8hS+hhEpe9udE53tRlgp7++hoijulGjV0MCFUBX1El+tkgyLSPnn
+ 04MiSYfQ0MlxWREDyPmsjU6W52O2FOsKiwQcebfdLakoTwqwXUgH+9IKav0RALU7IvDY bA== 
+Received: from mx.doj.gov ([10.187.137.62])
+	by DJJMDCJC02-PPOINT05.jcots.jutnet.net (8.16.0.43/8.16.0.43) with ESMTP id 2615sYgE007010
+	for <ms60710444266@yahoo.com>; Fri, 1 Jul 2022 05:54:34 GMT
+Received: from CP-CAR-DC04.car.doj.gov ([10.222.1.24])
+	by pp-cefw-11.mail.doj.gov (8.16.1.2/8.16.1.2) with ESMTPS id 2615sVAk062446
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-SHA384 bits=256 verify=NOT)
+	for <ms60710444266@yahoo.com>; Fri, 1 Jul 2022 05:54:31 GMT
+Received: from USG02-BN3-obe.outbound.protection.office365.us (10.222.1.61) by
+ CP-CAR-DC04.car.doj.gov (10.222.1.24) with Microsoft SMTP Server (TLS) id
+ 14.3.498.0; Fri, 1 Jul 2022 01:54:30 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector5401; d=microsoft.com; cv=none;
+ b=A9HeCFKYfZFfIupkfqQj4Axze/EcSU35qNqZ7ZLU4w7hFLT/5HX07WtwAM4g1vZsTE9Nku7wcW6BmKgrs+tVmJRmh7FLwbCoYFR/N18MsSGGyWj+ejooBvZsyHOci0JRYQy6FNAhnlYYmXhCG0OibJwA6IGrHfkK1/8qQnB+b5tc+4doWkzX/AdIQpJ5pX0w65o8MtlPZqLxdRfKLj/vJt4sLFgRI+K6H72//oNb6vsIUHaspFOuSMTKB9phFrYmJ/RzRm4LVViTsjf6tmKrMkfml3v0J+X/xXRl8krmcGerp64fBjRmyZ7s+PX/sTrBEYVXn/UQJXp44i7lqJUl1g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector5401;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=jIMRnP0Oax9T2dG1diB5qAHkv/ouT53KSPX4bmzizJc=;
+ b=MUkb06SooV1w7/5LSE5AFfudQo40WVg1x5qjjzrPYutiyioKtqZ3o+39K6lSCB/7fjRfzlfXTvyvHoQdS57y+Zof70JLIuM/AGaytuakuWvO6iuZy57npzAwTQ3bKZ6Vya7+Sprztg1NJlaHH99s50DE00g9sFWtx83kjd2nUF7JFuRNzoZPLZfd0q24+eL/uV9SVbtYBP7ulB2Rc0igCsItzStyxPYOJ1j3olzt57L8JpWVazppq/wh6wGoqFRRC+r+dQvLhTwTi1DPaXFIZjog9FiAFvKAKSiCnyXv7zh7KkHxS/6MuMxOgPQ7Qhazo9A1sr9J+QafEg/Efzzvtw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=atf.gov; dmarc=pass action=none header.from=atf.gov; dkim=pass
+ header.d=atf.gov; arc=none
+Received: from BN2P110MB1158.NAMP110.PROD.OUTLOOK.COM (2001:489a:200:17f::12)
+ by BN2P110MB1654.NAMP110.PROD.OUTLOOK.COM (2001:489a:200:178::7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5353.16; Fri, 1 Jul
+ 2022 05:54:30 +0000
+Received: from BN2P110MB1158.NAMP110.PROD.OUTLOOK.COM
+ ([fe80::988f:844:ff47:7a14]) by BN2P110MB1158.NAMP110.PROD.OUTLOOK.COM
+ ([fe80::988f:844:ff47:7a14%4]) with mapi id 15.20.5353.028; Fri, 1 Jul 2022
+ 05:54:30 +0000
+From: "Balthazar, James L." <James.L.Balthazar@usdoj.gov>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Not read: [EXTERNAL] Fwd: CONFIDENTIAL: 153974/2020 >> 400842/2020 >>
+ 251334/2021 [ CLEAR ]
+Thread-Topic: [EXTERNAL] Fwd: CONFIDENTIAL: 153974/2020 >> 400842/2020 >>
+ 251334/2021 [ CLEAR ]
+Thread-Index: AQHYjMWcNpEHC/hPCkqyH8SCR1OwRK1pBHCb
+Date: Fri, 1 Jul 2022 05:54:30 +0000
+Message-ID: <BN2P110MB11587E53464367C397BD456FFCBD9@BN2P110MB1158.NAMP110.PROD.OUTLOOK.COM>
+In-Reply-To: <4720a6aa-1c8b-9c5e-c290-915141aee441@yahoo.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 29047371-4544-4e5d-81c6-08da5b262a4e
+x-ms-traffictypediagnostic: BN2P110MB1654:EE_
+x-ms-exchange-atpmessageproperties: SA|SL
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: gjY7LwiTQ1folA55C5Cms1O2txcshSvxmlTmLilhHrJRePBdolNUMd4flLiEx8enkCZJmL75fNInMb69jgv2RqCs0Y8niiUoxfHB/PCYP0GWMGQ1mWwEIsIp1aGbMURIzkleW4RMHPPHclOOvBpGnMNDWfc3d7LeLDf59MslhB9ryv/Ivv7v6XsB3MbnCKfcFEwCIWNNY2CsIRFK8sYEvX4K4iJ6VLSgUXbx/9mRlcdUlkOVyB0htqXJoAG3qg2IEMNQPr/txHsIeJZPJiZaNpwk6U6MnZdROkxPH2gYAHIScnAC4e5fHcOLI06jkbM2ZaYZDfb3LuFMr9cbsb+xG3a7OCnF2oOd0xYZiZedQN6Qc/sMgzPA3kTrEbcPDGuS0ZRY8pKvcv4WQbpmJ3MouZqPOc0isV9iTaRKd7J7MbdX2Is8GRCg7TombRr6UQqfpS7bnvqjJK8gHz3pFFu+CnNxzhi7abM66S7hIrtP46JcBCq0S845gMug3S7Q3h4r
+x-forefront-antispam-report: CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:BN2P110MB1158.NAMP110.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230016)(4636009)(366004)(86362001)(38100700002)(8676002)(82960400001)(55016003)(71200400001)(38070700005)(122000001)(498600001)(6916009)(4270600006)(621065003)(73894004)(186003)(33656002)(9686003)(2906002)(52536014)(66446008)(76116006)(64756008)(66946007)(66476007)(8936002)(66556008)(7696005)(26005)(6506007)(2490200003);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: YpRO8N26LrEgeJOpyE4itFGOcwe2YgojLLc4OpfbfrnghBuK+1WZzy26xt2O5SBR9pE/m6KtFYtfG/VnOxZD+CsI/XkkcB4OPwEhb0HnmCE0rG10O36+SgiTmVSIykCfLKCo9vJ1G9F8pi0FpEa/Awfg7zgw4Cf9V4A3TKn6+0zQj2md+Xt5orK/zx/o09Acux8KJooP7dWnRhDFl6GUVQu4SokoxF9YAv94y6wsuCYhf9N0LqZAdOKs2D9Voo9NkfgGSKSaPHg68pjoFXX1/fi8puTcUUyHFk+oiP+CBcvUFFNv0x3/7m7dqwX03slPcQTnXJsV/ikqQQwb5FCpV5ladK/IZwFAvadOQ6owBN358K0bZubZG02ZVD8tTLd+fdAkZMfI4bsDWakX7z7/fuKtsmU2nPR7nNpk1GTyG7w=
+Content-Type: multipart/report;
+	boundary="_000_BN2P110MB11587E53464367C397BD456FFCBD9BN2P110MB1158NAMP_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: BN2P110MB1158.NAMP110.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: 29047371-4544-4e5d-81c6-08da5b262a4e
+X-MS-Exchange-CrossTenant-originalarrivaltime: 01 Jul 2022 05:54:30.2551
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 15ef12a1-af58-44c4-b029-712fc0605570
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN2P110MB1654
+X-Proofpoint-ORIG-GUID: 9Nvt_-qjrjIr-KCkKWtL2zEUI--Om4Ys
+X-Proofpoint-GUID: 9Nvt_-qjrjIr-KCkKWtL2zEUI--Om4Ys
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10434:6.0.517,18.0.883
+ definitions=2022-07-01_04:2022-06-28,2022-07-01 signatures=0
+X-Proofpoint-Virus-Version: vendor=fsecure engine=2.50.10434:6.0.517,18.0.883
+ definitions=2022-07-01_04:2022-06-28,2022-07-01 signatures=0
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 suspectscore=0 mlxscore=0 spamscore=0
+ phishscore=0 bulkscore=0 mlxlogscore=599 adultscore=0 malwarescore=0
+ classifier=spam adjust=0 reason=mlx scancount=1 engine=8.12.0-2204290000
+ definitions=main-2207010020
+Content-Length: 2097
+
+--_000_BN2P110MB11587E53464367C397BD456FFCBD9BN2P110MB1158NAMP_
+Content-Type: multipart/alternative;
+	boundary="_002_BN2P110MB11587E53464367C397BD456FFCBD9BN2P110MB1158NAMP_"
+
+--_002_BN2P110MB11587E53464367C397BD456FFCBD9BN2P110MB1158NAMP_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Balthazar, James L.
+   Subject: [EXTERNAL] Fwd: CONFIDENTIAL: 153974/2020 >> 400842/2020 >> 251=
+334/2021 [ CLEAR ]
+   Sent: Thursday, June 30, 2022 4:52:52 PM (UTC-05:00) Eastern Time (US & =
+Canada)
+
+ was deleted without being read on Friday, July 1, 2022 1:54:13 AM (UTC-05:=
+00) Eastern Time (US & Canada).
+
+--_002_BN2P110MB11587E53464367C397BD456FFCBD9BN2P110MB1158NAMP_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Balthazar, James L.<br>
+&nbsp;&nbsp; Subject: [EXTERNAL] Fwd: CONFIDENTIAL: 153974/2020 &gt;&gt; 40=
+0842/2020 &gt;&gt; 251334/2021 [ CLEAR ]<br>
+&nbsp;&nbsp; Sent: Thursday, June 30, 2022 4:52:52 PM (UTC-05:00) Eastern T=
+ime (US &amp; Canada)<br>
+<br>
+&nbsp;was deleted without being read on Friday, July 1, 2022 1:54:13 AM (UT=
+C-05:00) Eastern Time (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_BN2P110MB11587E53464367C397BD456FFCBD9BN2P110MB1158NAMP_--
+
+--_000_BN2P110MB11587E53464367C397BD456FFCBD9BN2P110MB1158NAMP_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; James.Balthazar@atf.gov
+Disposition: automatic-action/MDN-sent-automatically; deleted
+X-MSExch-Correlation-Key: D69jvgB+Fk6vd+JKVXFAog==
+X-Display-Name: Balthazar, James L.
+
+
+--_000_BN2P110MB11587E53464367C397BD456FFCBD9BN2P110MB1158NAMP_--

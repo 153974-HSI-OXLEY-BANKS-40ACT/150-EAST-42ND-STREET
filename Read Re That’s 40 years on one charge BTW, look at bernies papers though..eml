@@ -1,0 +1,195 @@
+From - Mon Jun 27 16:43:05 2022
+X-Account-Key: account1
+X-UIDL: AOPcY4Bsc1vgYrojuQV6WHuU+kw
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.151.201
+ by atlas322.free.mail.ne1.yahoo.com with HTTPS; Mon, 27 Jun 2022 21:40:08 +0000
+Return-Path: <ROBERT.FIGUEIRA@nypd.org>
+X-Originating-Ip: [40.107.89.92]
+Received-SPF: pass (domain of nypd.org designates 40.107.89.92 as permitted sender)
+Authentication-Results: atlas322.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@nypd.org header.s=selector2;
+ spf=pass smtp.mailfrom=nypd.org;
+ dmarc=pass(p=QUARANTINE) header.from=nypd.org;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 27 Jun 2022 21:40:09 +0000
+X-YMailISG: PGbSELUWLDuYi0tydMOrZgGswOFKHCgEFlGWrQBDEBfV5dNm
+ oSxARYaBBog8plyhIZAgB40kVTtfDkQ8o5lqd4_iNhmAZEB3lhV4K.sW5Czj
+ n9aH4hA9.y21mlV1DKzhElyu7ecxYxFFlZwCtZB8qsoKfGGBHO6DUbErx_v6
+ dsnhmaelTob6gNtVJZ6st5cdhYfERKbMf9SsjxjZM9F4C8vW6uEsNOd_2.zh
+ ylCVh0wWZUD09nTieyfLTAdBkTAlgINsQ.8x4PEi1etj35kMqZvRRBgqdjNt
+ L0iYfLrkqhpQvyuogGTzKFXWEvxAjU_OHVwPVJnmsYxhlAwZPitqgYEgel.v
+ 7Xr3WAbaeoLRv2ljGwPPosY3xBUKl0iI7N2JPzyVT1davpkJwuCCatIs.S8j
+ xwpQCah0KU.sejLRuDBE0X9sXSzLc0bLSM3y1H8gbbXQjCXYHXVkPwbM8jBn
+ JlY.9.uEc7l2YWO2sxrM6tn8zfVe7sFghNwBZ7d4j3TejZYADFTaaNFtKdSC
+ 7IUHmO.ofnKxZqQu63FCalcFb4qyktGW2y9vNJzzAa3HQUan6u2EMXu5NE3O
+ UznER35Pja62s8IWlB7Ux6IWqx9i0Of6HKf8XIlwyqkTiCu10QJnUr6woyei
+ VftgC8qYbVmmyZMgudFzYZ5IIND_Aw7bMqJcJc2nPvEcke0EUtAsU8d9VfjD
+ 7bPauXJS_oVwkw5S.UHZFm8ic0oZqeIfDRLBMYb7GYkrwSgLzIAijajG521k
+ hsjx1QPl0FN4r7mG7cl4n4bteh8YrT9azPlCleIBtX4PaYRwSu8PfmbFCejV
+ H.K9Buvk9_2xmxmgQt5YuRrfANZSM9Mw6qA4my9Xx1WqqUMMwdtlBFVXSc7t
+ nbYsei4ocgQSx68DeWWS4QNcQqmWZjWZbZHldEtIirRQs3NNoq5ee08ScuUN
+ SAiv0thWXH0TvKGy160BiJ9Ymk0WGU1spU4aC0weCCOt7AbuocZVKO5tRVPj
+ qVQ2HSupXYhLansWiDY28tfaPDwNPDSIKaVOKUYxJQuNxjxqMkKzcfPZb6.t
+ tfr_FgugSW135vTut6naPKbBhOY6WNIxToD2gYS.rQDHLznPZcwPq7s1fRQb
+ KgG82oJ_QtGtRbNGnh6W.4WyBBFmwqVDBcPXM9VJ2Ckxea2e7AVGyZpmefeY
+ 7j2D6G2JqW9CsqPiYNmCXNgg9ObeILHkyaJkTbCW3nnps.Gjrl9UIVXnS0x0
+ i942k7AbDBIoS964DsduO5BaK9dDyDiK46PjK4llrHDPMhv3kGNsM2EC7W50
+ LUOr4vMkvAlm7U9BLjFUr4Z__OBmfkkN8s8z
+Received: from 40.107.89.92 (EHLO GCC02-BL0-obe.outbound.protection.outlook.com)
+ by 10.217.151.201 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 27 Jun 2022 21:40:08 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=koklYveK2Ktlb4n7APPj19JgezAHjAAdYv00T40IJEN/HTO72Ds86hZRJJrBWq+U8A0ilN4h5Y7MGR0Go68YJek/84/CaXyw02fy1UQBYcbmZ7KifysxQbIqH6dBVe+0MN4ik5+XnzAuNF4mUvh7/U3hlpkbnGnKS5TSAOmxdKbCJ4mtkB8BLgwxrTHLDqCvnRf7vAfwGEHepTvLLUQkzT3ho0Bpr6zuxH2w1VLwSWzf1D92VxgZdzmG3hqP7MzESvgqAHjgVwm1l7pH5z0SWMP6uu5DoXwouvePM1HemJstnkhT2xcxtlm5VNV9zFgG8BwQWxUq8rs1Alg1ibpJIQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=GXHwtfIfZQY2KIAe+P/+68PEGvhSJ1ge/7gFCKKiR4g=;
+ b=B2M7ss+d+EJ+TqTC9G2lfbFDFAgUfc88ud+1oCEBPdylfhlVriLa6jTIxNp5fVI7I7C2Jci+ETlTk2m7AfkchT6OAY5+KAKHFBWGL+hzDlXSJPHxrF2b02+UeIKzXzkmLKto9aMoTMZ1PfYm1nCQJg9ZYocF+d7L9EVAsQDKDhL24yvdePCbBnUycd8/kjOEIiHKoaTiJLWHzXiM+Ij61zzgwDTA5Ldhjq1x3yXkKxYF3SiwuuOKTIzU4Wa0zXdpOGebYOBQxKtPSy/YekSxU38I2QBfWlWikCeNqVgemL5u88NeXus/Yw33qm2iZuvStpR8yc3byd15jsx0l00MyA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=nypd.org; dmarc=pass action=none header.from=nypd.org;
+ dkim=pass header.d=nypd.org; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=nypd.org; s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=GXHwtfIfZQY2KIAe+P/+68PEGvhSJ1ge/7gFCKKiR4g=;
+ b=ISshuJMNPPxV16H1/q9uX7S495Wt9EUJz+WyQObaSwkJ2tOIdowyXUhnrJGGw3fSDogwX1hTxChh/6qE0F1jGFmv1oPPCspz5GQ4EoSOvDi201tNqreSrXzH1PreXBzcPKpAL7ah+c72EkPoTzQCCslHXg1Llx6ywr4fvF06M+8=
+Received: from MN2PR09MB5178.namprd09.prod.outlook.com (2603:10b6:208:218::15)
+ by SJ0PR09MB6255.namprd09.prod.outlook.com (2603:10b6:a03:26c::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5373.15; Mon, 27 Jun
+ 2022 21:40:06 +0000
+Received: from MN2PR09MB5178.namprd09.prod.outlook.com
+ ([fe80::a89e:6f0d:1390:8ddc]) by MN2PR09MB5178.namprd09.prod.outlook.com
+ ([fe80::a89e:6f0d:1390:8ddc%4]) with mapi id 15.20.5373.018; Mon, 27 Jun 2022
+ 21:40:06 +0000
+From: "FIGUEIRA, ROBERT" <ROBERT.FIGUEIRA@nypd.org>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject:
+ =?Windows-1252?Q?Read:_Re:_That=92s_40_years_on_one_charge_BTW,_look_at_b?=
+ =?Windows-1252?Q?ernies_papers_though.?=
+Thread-Topic:
+ =?Windows-1252?Q?That=92s_40_years_on_one_charge_BTW,_look_at_bernies_pap?=
+ =?Windows-1252?Q?ers_though.?=
+Thread-Index: AQHYicCMpMQ5sDzio0GQl8luOpucNK1jpS2A
+Date: Mon, 27 Jun 2022 21:40:06 +0000
+Message-ID: <a81b5c4552b54bf4a5f10353a866211c@nypd.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 7e9e0117-3734-45ea-f230-08da58859a14
+x-ms-traffictypediagnostic: SJ0PR09MB6255:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ LyW1nNdYT6d3CA7jxYE1KtOA0rz4P2yz2u75nS8nkxW/urNptEvffqnolsp0ai+PmuegtR3iY8B0iNRoTSNUPctgHN72gEGF3XttxBQ7juBSxT7260+3SxTJC0bEpID/xRVMVaYXstxxVeoCKMD8UcOau4R5txSDUnaNnIBsOyhn2CIP07IP2uYxn4DMB9/eLYGCb79Sen/YVY3DHJ3eleVGpUvyepAQo6oz2hIrYiNue5yViWaAjsVonlqcbnDjVntsX1yftr54DONN4MXAjU1BngkPipIyWd0Ll1PpPzacc55Gw6G6HQIqxsV6SbUocA0jFLpPGsbtaUmR/18TdmS15izYgWn76U4ZBiQ7sguMzk6qyZZFWjPh29+VCi+oryu+ewxW1hjED1jYbkAC02lBwzUyQCbJEND1sfbNVmK3ApAu/6RG7cwmEK/uP6PcBSWXxApC781dTNBUevw2lcihSrW1i6BXgnPmd9V63jY=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:MN2PR09MB5178.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(366004)(71200400001)(2616005)(4270600006)(88996005)(498600001)(66556008)(66476007)(64756008)(66946007)(66446008)(36756003)(6486002)(86362001)(6512007)(122000001)(24736004)(2906002)(108616005)(6506007)(82960400001)(621065003)(8936002)(73894004)(6916009)(186003);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?Windows-1252?Q?uZpuPcpCBad9jBLwM6a69dWm2NBMVEIiaV1kfLeDn2Ievtw/bsOC51DF?=
+ =?Windows-1252?Q?4b6WyS+I3jDQmjPW3dY8/ZCXShmQSH0ThUBLaYfTc+WTELYseftjTcOo?=
+ =?Windows-1252?Q?r7lnbC8QR2fuzlKwF8DeLdnxyokRz2WpLfVSFPsIl2RsBoSqnPdfpr10?=
+ =?Windows-1252?Q?Ed78uMqLmxznmg1CFPfMipIrZkgyTOifZ4HB68O5foVLFcT+hZ6X+BZV?=
+ =?Windows-1252?Q?ddGJfBITj83dA93mdwnERktnJW76WMWes8csn8+Sfzxj9sPZSNnnmSKc?=
+ =?Windows-1252?Q?9eowJGNIsDt2v419Lh/gHB5tzmzCTV+75mTLE06Il9YUw1OmvMbQEAib?=
+ =?Windows-1252?Q?5OzFbpqN9DC7ZRuARVbNQh/hBVRINtcs1AoYO/myxVtOWKXeI/91keCZ?=
+ =?Windows-1252?Q?poXPr8YYWBSI88qrpCAWz/DjlZLtQzYT2fMs683jbLj8ysKdZvm1TPb4?=
+ =?Windows-1252?Q?gAlKpj3CEBRYr3QxkayYh3rnfR+DRr00sIb/DQKhCUVrjNNAxnmHaaPn?=
+ =?Windows-1252?Q?+hn+Rt9jaJ2TDxTRzS7pR7kT7mR5up/JRgrwux4tJ2mRr3mEC4c+r9Zz?=
+ =?Windows-1252?Q?WqVoYBBsg4YjJn4tLR1Zj4NMlJBfZ58RfdIW23GSuVFDE3OMXE31C8uP?=
+ =?Windows-1252?Q?fVo12YJS1kVYecIs/bhAfY3SR0W2AQ4Qf1Pb1gRGRa/OMLitYvkRWP4n?=
+ =?Windows-1252?Q?lSr0jCsPNp38NF1I0rAXjOEsjcmkCPXEHMhu8sYV19uZbNb2V3SbZ3SM?=
+ =?Windows-1252?Q?ohYMgFn5KRldrGxNLQUn6e51FF5/vbDt3mqEOGzdpHQDJxYz82GmqebA?=
+ =?Windows-1252?Q?VYUYmhbyczuD0KG3hWm/CyXDOtNIMC+1mYurzWx0yhCUQBwtyyw9fXNL?=
+ =?Windows-1252?Q?dxGy9Z5g2F+LYYmEP98XwL/mBPb54UgyyOlSDPo/uaADhGRZhl9fJBrt?=
+ =?Windows-1252?Q?Mo/HlwCRdVW0xorUFNy9+lhMLazLUkrnwT6+lvNFet/g7nvWl9qGe4SC?=
+ =?Windows-1252?Q?NnNBmOWUK3+4VHXF3dy1Ss6VVq8BplJVgZG4IOJssa0WkPF8bUl55LxO?=
+ =?Windows-1252?Q?1je2nIdLjMSfY9TnoKasLOA9c1yuevXD7vIT8Eq99TKSQCvFZSP6sxrA?=
+ =?Windows-1252?Q?zCDK31tjANYZI90l2Sifbp5RSKd/uMDbbT5FurM+vZTZ6jm0PzPJFpto?=
+ =?Windows-1252?Q?rZzI0b1uTv6pIcjhvtpBMAIjetlMFi4gBO/+S1iC9hD4X7tTE0ia/cPP?=
+ =?Windows-1252?Q?DmDB/7WOlKSqB+lGq7upzkbo5PlTe1XafWUSnFcclfFunsxaszV9ndeA?=
+ =?Windows-1252?Q?7dMdUtJRU0wrcyFeJm84RLnu6Fs6lUhNYUKUA4GXGTptLeclSOTR1Ixn?=
+ =?Windows-1252?Q?iP7WlQispq7sM1L/NxLLNC0iHB0gkN/rh3QkMoOcTFgjNDojzkoxqyZ7?=
+ =?Windows-1252?Q?eHvlg1Cam6P2Ndv9gSSOcGB9gs0uUOkHwQzp2uVDW5LBQ3oNSMRDnuK1?=
+ =?Windows-1252?Q?tfXZqL5JxgRHRaveWRKArMwA0Ja/9fJ5eT5WCVZIRMa5ui5/8+UEoWup?=
+ =?Windows-1252?Q?m6SpjjJw9ARgxFlrqbneKDahLTuKJt0K0vNC8w=3D=3D?=
+Content-Type: multipart/report;
+	boundary="_000_a81b5c4552b54bf4a5f10353a866211cnypdorg_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: nypd.org
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: MN2PR09MB5178.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 7e9e0117-3734-45ea-f230-08da58859a14
+X-MS-Exchange-CrossTenant-originalarrivaltime: 27 Jun 2022 21:40:06.4680
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 2b9f57eb-78d1-46fb-be83-a2afdd7c6043
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SJ0PR09MB6255
+Content-Length: 1983
+
+--_000_a81b5c4552b54bf4a5f10353a866211cnypdorg_
+Content-Type: multipart/alternative;
+	boundary="_002_a81b5c4552b54bf4a5f10353a866211cnypdorg_"
+
+--_002_a81b5c4552b54bf4a5f10353a866211cnypdorg_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: FIGUEIRA, ROBERT
+   Subject: Re: That=92s 40 years on one charge BTW, look at bernies papers=
+ though.
+   Sent: Monday, June 27, 2022 3:30:21 PM (UTC-05:00) Eastern Time (US & Ca=
+nada)
+
+ was read on Monday, June 27, 2022 5:40:06 PM (UTC-05:00) Eastern Time (US =
+& Canada).
+
+--_002_a81b5c4552b54bf4a5f10353a866211cnypdorg_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: FIGUEIRA, ROBERT<br>
+&nbsp;&nbsp; Subject: Re: That=92s 40 years on one charge BTW, look at bern=
+ies papers though.<br>
+&nbsp;&nbsp; Sent: Monday, June 27, 2022 3:30:21 PM (UTC-05:00) Eastern Tim=
+e (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Monday, June 27, 2022 5:40:06 PM (UTC-05:00) Eastern Time=
+ (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_a81b5c4552b54bf4a5f10353a866211cnypdorg_--
+
+--_000_a81b5c4552b54bf4a5f10353a866211cnypdorg_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; ROBERT.FIGUEIRA@nypd.org
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: naC2X51uaEW/WzQiuPl9BQ==
+Original-Message-ID: <1be57b84-e2e9-bf1b-8720-f5acd35b2cc1@yahoo.com>
+X-Display-Name: FIGUEIRA, ROBERT
+
+
+--_000_a81b5c4552b54bf4a5f10353a866211cnypdorg_--

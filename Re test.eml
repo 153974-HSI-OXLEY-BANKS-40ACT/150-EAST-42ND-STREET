@@ -1,0 +1,192 @@
+From - Thu May 19 22:44:56 2022
+X-Account-Key: account8
+X-UIDL: 1645857828.843
+X-Mozilla-Status: 0011
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <ms60710444266@yahoo.com>
+Received: from compute4.internal (compute4.nyi.internal [10.202.2.44])
+	 by sloti52n19 (Cyrus 3.7.0-alpha0-591-gfe6c3a2700-fm-20220427.001-gfe6c3a27) with LMTPA;
+	 Thu, 19 May 2022 22:44:47 -0400
+X-Cyrus-Session-Id: sloti52n19-1653014687-2791779-2-15048875501203113084
+X-Sieve: CMU Sieve 3.0
+X-Spam-known-sender: yes ("Address ms60710444266@yahoo.com in From header is in addressbook");
+ in-addressbook; bba2db8d-33a3-40c2-87e0-df67be267777 ("Autosaved")
+X-Spam-charsets: plain='UTF-8', html='UTF-8'
+X-Resolved-to: cockarens@vouchersrus.org
+X-Delivered-to: COCKARENS@VOUCHERSRUS.ORG
+X-Mail-from: ms60710444266@yahoo.com
+Received: from mx3 ([10.202.2.202])
+  by compute4.internal (LMTPProxy); Thu, 19 May 2022 22:44:47 -0400
+Received: from mx3.messagingengine.com (localhost [127.0.0.1])
+	by mailmx.nyi.internal (Postfix) with ESMTP id 87A9D1960103
+	for <COCKARENS@VOUCHERSRUS.ORG>; Thu, 19 May 2022 22:44:47 -0400 (EDT)
+Received: from mx3.messagingengine.com (localhost [127.0.0.1])
+    by mx3.messagingengine.com (Authentication Milter) with ESMTP
+    id 753462DB52A;
+    Thu, 19 May 2022 22:44:47 -0400
+ARC-Seal: i=1; a=rsa-sha256; cv=none; d=messagingengine.com; s=fm1; t=
+    1653014687; b=D8pTN+W5aKRsLjY0pKvI+0c2rztgXSMdufCma1jZAtoT3qDx0l
+    urujMleh7iyPBF6YXtneN5PTueyzbPdvgek1gfBBWXZqz7DifyDZX6l5OlNFFq1j
+    hyS3YAv8dZQ+eHEOLKENHvRX9SYRSmDpq5GmXVadQ33WntkULDsZQ64hzLoG99jf
+    ckuJ1dsEAhUHLoe+oyop8Xn25+5YqhTerXw4vcsXiBJoQ0rXQzWnm2YU9eDuTAeW
+    N8V099OQfOKgrHKB6jzq6/orYQyHJeQ+KsY+t9g2cwBbYRxvCIM3felspyWaTWug
+    zWXufCQBX2aHdVgAwjKmcpjolUYDwvoXFhiA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=
+    messagingengine.com; h=content-type:message-id:date:mime-version
+    :subject:to:references:from:in-reply-to; s=fm1; t=1653014687;
+    bh=s/siu7K0xxGzRSWP36nW2j+AkkLw+E8/pGJ9WHKGxdY=; b=T90hcC28iZq4
+    XyDkLyM8bkMMiSHQyTNsR5EnYQqX5sx+BwZtn1gxCWQ7m2PXPUWQRTt3lWtLGjtl
+    kySVC9cC9lqBJEQtxyflSgn0iCHPYTxycDO7nNrfB2TtyUfSc0mbCnbP8QcyCdPU
+    efKNKKBOBIDlgGcfgoQNFvxEU+acPbDF3pi87p+Gnflv41kNyj4vIal5bxw6Kw79
+    YaDy/IKVTKT86zdRJUUhF+UOscEertu+1I4KC2ycrEqVnvd61Ouauedbra7Fu896
+    gOg5aDqUXAqJtcYkZLRearlWL2L2+Rq8mr57CGvsvPqt1tqoFBxwfsToAE5aSN3v
+    PLT69NvvOQ==
+ARC-Authentication-Results: i=1; mx3.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=sonic312-22.consmr.mail.bf2.yahoo.com
+    policy.ptr=sonic312-22.consmr.mail.bf2.yahoo.com;
+    bimi=none (No BIMI records found);
+    arc=none (no signatures found);
+    dkim=pass (2048-bit rsa key sha256) header.d=yahoo.com
+    header.i=@yahoo.com header.b=Hvk4BD8p header.a=rsa-sha256
+    header.s=s2048 x-bits=2048;
+    dmarc=pass policy.published-domain-policy=reject
+    policy.applied-disposition=none policy.evaluated-disposition=none
+    (p=reject,d=none,d.eval=none) policy.policy-from=p
+    header.from=yahoo.com;
+    iprev=pass smtp.remote-ip=74.6.128.84
+    (sonic312-22.consmr.mail.bf2.yahoo.com);
+    spf=pass smtp.mailfrom=ms60710444266@yahoo.com
+    smtp.helo=sonic312-22.consmr.mail.bf2.yahoo.com
+X-ME-Authentication-Results: mx3.messagingengine.com;
+    x-aligned-from=pass (Address match);
+    x-return-mx=pass header.domain=yahoo.com policy.is_org=yes
+      (MX Records found: mta6.am0.yahoodns.net,mta7.am0.yahoodns.net,mta5.am0.yahoodns.net);
+    x-return-mx=pass smtp.domain=yahoo.com policy.is_org=yes
+      (MX Records found: mta6.am0.yahoodns.net,mta7.am0.yahoodns.net,mta5.am0.yahoodns.net);
+    x-tls=pass smtp.version=TLSv1.3 smtp.cipher=TLS_AES_256_GCM_SHA384
+      smtp.bits=256/256;
+    x-vs=clean score=0 state=0
+Authentication-Results: mx3.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=sonic312-22.consmr.mail.bf2.yahoo.com
+      policy.ptr=sonic312-22.consmr.mail.bf2.yahoo.com
+Authentication-Results: mx3.messagingengine.com;
+    bimi=none (No BIMI records found)
+Authentication-Results: mx3.messagingengine.com;
+    arc=none (no signatures found)
+Authentication-Results: mx3.messagingengine.com;
+    dkim=pass (2048-bit rsa key sha256) header.d=yahoo.com
+      header.i=@yahoo.com header.b=Hvk4BD8p header.a=rsa-sha256
+      header.s=s2048 x-bits=2048;
+    dmarc=pass policy.published-domain-policy=reject
+      policy.applied-disposition=none policy.evaluated-disposition=none
+      (p=reject,d=none,d.eval=none) policy.policy-from=p
+      header.from=yahoo.com;
+    iprev=pass smtp.remote-ip=74.6.128.84
+      (sonic312-22.consmr.mail.bf2.yahoo.com);
+    spf=pass smtp.mailfrom=ms60710444266@yahoo.com
+      smtp.helo=sonic312-22.consmr.mail.bf2.yahoo.com
+X-ME-VSCause: gggruggvucftvghtrhhoucdtuddrgedvfedriedvgdeigecutefuodetggdotefrodftvf
+    curfhrohhfihhlvgemucfhrghsthforghilhdpggftfghnshhusghstghrihgsvgdpuffr
+    tefokffrpgfnqfghnecuuegrihhlohhuthemuceftddtnecunecujfgurheptgfkffggfg
+    fuvfhfhfgjofesrgdtreerreefjeenucfhrhhomhepuecuffdvtddvvdcuoehmsheitdej
+    uddtgeeggedvieeiseihrghhohhordgtohhmqeenucggtffrrghtthgvrhhnpeeluefhgf
+    etledvgffhvdfhfedtffelveekvddtuddtkeeuhedujefhudejueeifeenucfkphepjeeg
+    rdeirdduvdekrdekgeenucevlhhushhtvghrufhiiigvpedtnecurfgrrhgrmhepihhnvg
+    htpeejgedriedruddvkedrkeegpdhhvghlohepshhonhhitgefuddvqddvvddrtghonhhs
+    mhhrrdhmrghilhdrsghfvddrhigrhhhoohdrtghomhdpmhgrihhlfhhrohhmpeeomhhsie
+    dtjedutdeggeegvdeiieeshigrhhhoohdrtghomheq
+X-ME-VSScore: 0
+X-ME-VSCategory: clean
+X-ME-CSA: none
+Received-SPF: pass
+    (yahoo.com ... _spf.mail.yahoo.com: 74.6.128.84 is authorized to use 'ms60710444266@yahoo.com' in 'mfrom' identity (mechanism 'ptr:yahoo.com' matched))
+    receiver=mx3.messagingengine.com;
+    identity=mailfrom;
+    envelope-from="ms60710444266@yahoo.com";
+    helo=sonic312-22.consmr.mail.bf2.yahoo.com;
+    client-ip=74.6.128.84
+Received: from sonic312-22.consmr.mail.bf2.yahoo.com (sonic312-22.consmr.mail.bf2.yahoo.com [74.6.128.84])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mx3.messagingengine.com (Postfix) with ESMTPS
+	for <COCKARENS@VOUCHERSRUS.ORG>; Thu, 19 May 2022 22:44:47 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653014685; bh=s/siu7K0xxGzRSWP36nW2j+AkkLw+E8/pGJ9WHKGxdY=; h=Date:Subject:To:References:From:In-Reply-To:From:Subject:Reply-To; b=Hvk4BD8py6XYwb2cTYSaVWXtzz58/zpFR0MdEjq4CkRR752iBFEWjZwuGRpBPi4Ytz1PZ+Oo9B6DisD8xbrxiVToaXev91H07NarzD5kfj7fN8lRZ3tHfE+gP4BLVM/B3Yf7CKkTjiAxg1urGduryI5uWHRoifJSrba99GerAS1RomdCYSbcYHkR+cthElES8QQX5JwLcSg1oxGcZeHGtJeHV2yfDDA/onybDDvLTe7HAlpDwuXcf3z+i+KdnzUW+A8kMnFrFrGy8ixInyQ1nnIdJ8ockcODyZNBJv73B9ABR8zGipSe4xf52XMFEUf3Yj5RDqXB7hd3UkIxTVSh3Q==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653014685; bh=NqoPIeFoP6jxvJaMoXou9AY3eT4a3Okjtq076CUswo2=; h=X-Sonic-MF:Date:Subject:To:From:From:Subject; b=AH2dYvQ7XJ6WrkAo59/+pwgcRl4IBBILnaEWcWWaO4nAVhLINn3C6ACV/uPLPRwmWVw9S5NenXHTNTfdHw/tFo9MF1x5/26r0H9U1lIwrN3XSuwoWOa2VXmyowbD3o5cQ3E5P2CzFxxMYtJuUm6KoVPlAPt1E1n8kMmK60laro/Xn3MKRdNeKrK65xyqkRuoPZtYddTZ05epwYFDfSG9UjW1u35tjtUt9QKLmQPc2iyivteFv/rAOHJFnyj2kWilxnSXRCQTpO4pufydNjEP8HjHfxcQAkinO96poN2uc+YpHLF7o8KBKtVR5KOBdnq5V7/6MimzAgKl7OKsGtLoBQ==
+X-YMail-OSG: R2JmA_gVM1kkAkULi2FmtVJT1LM7Zc97Uq13.1H0IybQ0owmZ51Chd5YdGQsmSC
+ wdiCgHu5S0Zv09nntdq27Rj2wm6FYAic2TOcTjJhreLs6AQ9HF_dJZYsYxxd0TnuVO3U7jYsq30v
+ Xlrn6vBKvM3xJZuWZMUOBQTOh2T1F2rOjq8HrditkjRD3ejjLas2ggShGe2LM6ryRN4VHp2DjnFZ
+ E8kfnpvYWzoJeW.6nGHLhQx6mA3IT04sQZmNcmzTNgqXjbiX3ihjLDd6E4eK422XGvCPcdr_aFkL
+ 5k3H5G4HF14XLECrLO5Lt2bS.2ZH8dS0s.HJXCF_IwX.hYV8M4vtktAniTtvEwM3lbY2y7fBrmF7
+ 3sacdKZqSEco2FBVLL8.wSGqiKvVJQvZyeJO79mAYS0UOXiNgc9mRHlwJq35B8wgxQbk8ftZd1Hk
+ A26jFzqAwa7b9eWhz_fqm9ojzaI1Wtn.Ln1RCKuiy42bCDG0NGeEYuvT7yIHV4hlw6d9ftQb9_pN
+ q1HEJZpnrVUO2n3QGn5Z9LCUjIoqnU1vToFe9TzELVJrY5iPXf2CNUBS2bX3Qt_Z0_OPwZXQGcs9
+ xMJDx_npwEfKXVnliCcFm4rbbQOfKgNQFLBkxKnQ63fwURIw_h5A.rM7_fynKghdDW15wddjSOUx
+ bN6kjhXLKeH0l8qO.n_FyxHYg4E.ND3WmtmetMvtee1_nAnSuV_2n7J.bHnKYvwxrVf06I.BFiDB
+ ie00fs2yMCiZzCqju_4WaaCX7vv5ghLt.qEI0Q5TtJLF9WMwtzt9kvt0HbYvGczoTVvJsye4gqkf
+ 4EsFiYXcpy6_1IBMbosdZ0YcIZgBzRnOpxuV84X650rgcIkBE2krcpG8tl22BN8jRwQMSUu6JWf7
+ UOx6RAFLz_9IhgLSNS2jVP05xn0qj2GeR_brRwNIxIus7JtCW62KAx2vPiGc0jVSU4qoGKFMj7XE
+ 3kB4X_nTdrfQ__aRa3PEYDdsf86iPjuCudSqrI6XJ7P0bqqLLn07VOUjcBZKKGYziONLkhBVdwmA
+ 9thV7aVxxk8zOsfcgYj.oxLrpopMITSXxx7LIfI1yce.bOvRbV.Q_NUkEy8VstKqe5bN7TPrVvVO
+ jK76YkPBYz5Hq8XI9eCYvmjP_1zUktoMWp7si6enWZI2n8tyztg6ZgTPTFlal_G_FlUD_0aGSso8
+ 7bfXXmIF4Jhc3eebwIC0n_1mDds0f8WQrOLNLglvusFXnFBo8gisATNU1.1_Wl9.wuAvmw8nzUOh
+ 5n7kD8LZcEcSOlJuzUHceEfPAK7KV0os9bEm.X2AMkHc4fzCrAdTTk69_GsJyDl.l5sG0_l.m0Bc
+ SVtpAwDWiZLCfzVzeaxzIINweps.7ZXiBx2Qx6rbJMAnVQt.aEVPEHrlc38B.oP3EmglXTEi4zFJ
+ 7euDt3zUz.74bAquxw2HahaChcNHWGwS.XOfRjGNUaIPcB.wvwrpEn1qQuICn7o7zl2_j0g.juIN
+ 2V7j0g9fXDJxHE6NbNOHUbxBJOKgZ6PI6voLzW_zoRwRCB5XM2nRgzOxb.P177l.HBdVC2ukMXHV
+ rR4QUd3l_Bn8OJxQLIBClFvlsL_QR8EHscQmBSXdq_2_GEeO.S2sRdRUuJqZbE4timBcnld7GHfK
+ rFn_my6zesNYw6Ky_sHT1D6mVzyKOyu3l.EklX3Z4ma7hKLi8eIJfZJccUUR2SYDvukuSRyvFGuQ
+ EC1uc0nLJlDxQklHc.H1IUhMZXx6Eb.JeHF8BIE_zq8SUbmusqz_UcTXH1LanDev1euvW8c95Gl5
+ fevXIPOHrCcNp_wHUm_tLD4vCmrwFcFy5usevh53CMR6Cogwr1m1NXXLuLNPTHssnmsmauGdlriV
+ cYGGwsqUKpL2JjI4RH1aD51H.oWbiNH0bHjf3iAQaWqQng09c5P8_DzNSxkI6OQ7fn4DRO.5EffH
+ AaFA.EriolVtaJhIkdGKnTftm_ZindI.muCbFK2X0y7UOMFqFx9k4iFABckjPzUUEZ_4wEXkyYUw
+ 0N6YaAhm5VTht2cbVngRvBIyAOz_lhMSylP45CDv9uMXl0puAMAza3tHO7D0g7WOsILxhNZNv1sw
+ w_Sv9BXqvp8T0_LcqSa4kp4yrPMSxKvphuXGQJZmRKCsw6tipiNsloSo87Sms8YZbWD3mcJRmLZi
+ ygPuLTLXgm4HQjzL3r8SKfkJP5YNmpD0gbJaUA0rO7FulgFQkzZbEwgJbhCVdVGbSNXIz1ouaKFZ
+ zyLF1m9TcWQYv
+X-Sonic-MF: <ms60710444266@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic312.consmr.mail.bf2.yahoo.com with HTTP; Fri, 20 May 2022 02:44:45 +0000
+Received: by hermes--canary-production-ne1-5495f4d555-vwstm (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID aba044bcc23435af053800090cc16663;
+          Fri, 20 May 2022 02:44:43 +0000 (UTC)
+Content-Type: multipart/alternative;
+ boundary="------------PisPb03zg6g6b4D7ccSOeSTx"
+Message-ID: <22e009c3-c51b-417b-5180-e3147aa3a716@yahoo.com>
+Date: Thu, 19 May 2022 22:44:29 -0500
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:91.0) Gecko/20100101
+ Thunderbird/91.6.1
+Subject: Re: test
+Content-Language: en-US
+To: zucker elser <BLOCK803LOT11@outlook.com>
+References: <BYAPR20MB264719B0BA0AE46CE7A4D895F9D39@BYAPR20MB2647.namprd20.prod.outlook.com>
+From: B D2022 <ms60710444266@yahoo.com>
+In-Reply-To: <BYAPR20MB264719B0BA0AE46CE7A4D895F9D39@BYAPR20MB2647.namprd20.prod.outlook.com>
+X-Mailer: WebService/1.1.20225 mail.backend.jedi.jws.acl:role.jedi.acl.token.atz.jws.hermes.yahoo
+
+This is a multi-part message in MIME format.
+--------------PisPb03zg6g6b4D7ccSOeSTx
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+MS60710444266@YAHOO.COM
+
+--------------PisPb03zg6g6b4D7ccSOeSTx
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html data-lt-installed="true">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body spellcheck="false" data-gramm="false">
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-abbreviated" href="mailto:MS60710444266@YAHOO.COM">MS60710444266@YAHOO.COM</a></font></font><br>
+    </p>
+  </body>
+</html>
+
+--------------PisPb03zg6g6b4D7ccSOeSTx--

@@ -1,0 +1,195 @@
+From - Sat Jul  9 15:20:36 2022
+X-Account-Key: account1
+X-UIDL: ANgJznFmnDiMYsm5sgpE6Nr0Bc0
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.211
+ by atlas310.free.mail.ne1.yahoo.com with HTTPS; Sat, 9 Jul 2022 17:24:02 +0000
+Return-Path: <nchini@bainbridge.com>
+X-Originating-Ip: [40.107.220.117]
+Received-SPF: pass (domain of bainbridge.com designates 40.107.220.117 as permitted sender)
+Authentication-Results: atlas310.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@bainbridge.com header.s=selector2;
+ spf=pass smtp.mailfrom=bainbridge.com;
+ dmarc=pass(p=QUARANTINE) header.from=bainbridge.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 9 Jul 2022 17:24:02 +0000
+X-YMailISG: txrrx5EWLDvyplsW2pMIWlW44PH6Z5oOYvgRDqC9rhwMbB2J
+ 2L4ND4FY0nb2YWRbzvSFde1Mf47kosA8lrVijw1.TWx._0b.n0X60K2616gZ
+ VboMw1qnoWC1QmheEygy5SKlrmCE0fwZ2lcOIz8iKRjdrjdTGhyhGmeGkJ8S
+ u9hv6uk80ZM8jpLQUoYjdRhuwgCm2x_UFDodEUjFkGbHN_Yk0co_20Gh7you
+ hE0bfB2QAr2CDp40ipAqNW_R1iDZssUrkace5bmdiL2aAQ8PFuloi4tbz2CG
+ fNd1sQhci1FpHSHkykcEqRlly603JdHdTn76N6kzHABEYlwae5NPLbXoAyrt
+ 710DQ186LFUA._RLl0X7dIyGC_MkSuzyeCoXWFuwV.iJPmjKGyGuSTBSFLkM
+ 8bFceuo379CDnGhUl_DrjN28KkmRp1My3AI53nKXntlUZhG4yzlMkqDP0ksG
+ fqTY_Nm.gH6BEqKdwT_h2MxL5iYdjE8hDqwlKkeuWvN.6r9j2tcAP_j_Qv_6
+ nXJUHJ.CvKFMxgnVo0CRNIEsWuqNYlGqLQjE.XrhDrthMaZ0_36O8FznLD.f
+ mC4XIApvLBmIKhrIalbSJiE_z7.y7P3oWtvscDOmbDkMWK8dqeYVOht71Zz.
+ ibkat3IYtMAezZ2DMxbXPe8jdyWR9wNGpvQrJcDBQXevGYc0mi3NoMmHXpxs
+ PJ_S3ql5mA4QfkGeTq4jrSocjfLnn8JNXBuLb7PIf0.QqGsMkpY7mizAKZX5
+ p_MlFbb551vXhwyl9SES_STihld0sdauXbY5_b_4XAbECICCvjzTos_rhQgj
+ jMrsa_sL23WJaUrrNdX.bDYTflhzgVyclKGeirvDa1SOG3qzdSx36wu_EZ2u
+ f40Cr9avqPb6UcU8oaup_2FkGM1mPfXqPCmtpdawyP5Wjtal41OP8SQ53nyh
+ 2Ubl_vKY2t_LGslFVK7I43lPgV_urkd1gbBuavqiolq9elcFcFElApwVtX5I
+ oJM1_McOqzej0K3QpQ0dWeUzxDm0WG6gcVzd1vs2wQKwgt7923xm68WEMonX
+ fRWU0asUSKnez4vIKteTPVjoe7TNHHm.gaSMHrmV31Nx2Rh1npsPrMRcJf5r
+ kr4_kdn4YvL.soSNVnZKcmXGRPIty3l3dFcE_2wbuH0C5JxwLQAM3R2pRCj9
+ aaZM6ymRv51imLEH39j1hb.__s9nYoEm.RORHgYOSDnnQnJ4silyGG4ZYSQz
+ p1kpYmegiU6bUutLIzJbIXF9oxfNS3IuwMNE6ctYiNQ6bdz.BPYZWUnHiN_p
+ mq6mHzUGFjRHUbJ1K3RMNinQkIKmO6oswg--
+Received: from 40.107.220.117 (EHLO NAM11-CO1-obe.outbound.protection.outlook.com)
+ by 10.217.135.211 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sat, 09 Jul 2022 17:24:02 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=IeNZ825WrV4l7jXCQrk0XDv/L0P+uD+rrp+cRbnntLskrbtL4XWZxabM8mjPk1zRejRJdenaL8EvsIpCUih8hRYjofyanwfGHOyIXWpSCIiwC8oOmBcbxSZPmg6bhsOqazppag3x/zUnAYx/ckyQflQeEtF4+Yy4RsnRMGC26U9UEowEjMKhSbbryfwkI6Bu8eiZBug0s5WuOlOBbvHvvWxt5WWVL6Z/K4hBcIU8Tgo6xh22g3WYI6weAkI3Tez/t862QNt4exbHtarZJBJIMJuomJZYpzH/yLmfGWxPp1+OR3URj5vzmNT4mlNC95R9PXhGrliS9fnlmxTVjs7MyQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=Op5w3X94qLfhMM4DyOPUN34ifQJmRYEtfrbLJvHPO90=;
+ b=XnzmsPQitbGP1QC5UDL7+mvAo32wIqxd9rzEWRpk+iCsBbewMP8euma3BqYy+3CbgBEx+wazi+sPwT2UJUczQf9UvRL7GpN9z4ZNZw/7ZD1B+jRyTZZjG3XSuYYZ3axRhGJfUBf63cSDePDvwKSwAtOEmu2e6xhvKY3ps0ZY9dt9fzn1Alah8YOgHRz2+7/rfht7fuu7LeUs9f/9XjCjqBHgHM6AsRHQr3gFtZpiPVxrHhdKJ8bTiL0HIhmhBKrLRsraLLCZoxOR+bxol/Hd9cpLZlzCpzMqh6ztCgZHdS8w1zUGkb4FP6uwM5lmruZwFBspYh+9uVmkxh7boK81dw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=bainbridge.com; dmarc=pass action=none
+ header.from=bainbridge.com; dkim=pass header.d=bainbridge.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=bainbridge.com;
+ s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=Op5w3X94qLfhMM4DyOPUN34ifQJmRYEtfrbLJvHPO90=;
+ b=pK58W9DOWqUzXaBVED1YpqT+zqtcIKd3jjkCXmd8cLR3UdPndNJlDXkv9ORiAZSqQvPyGyxsmp8iaOSvpzGutDRRYE8kPzxp9keADEc5Tr3E4mp8u63kBMg2JAl7fV1gVFG5UnCEzbv/NHzWnshyGMIP6N8rS00sGrUfVGfocxBU55Zkp/h/xa9SQFP2phEoUBlNLCxPflBD5Mxwzi5Yd2GFWlJgxFmmi17D1fhS06aEoprb/LXlZ0NAk/7A4v16cSJtFl+rf4Nz+kX3eKQ6D+J/se49V3NUW+H5TrBEuehWJYjbZ6fIxNuOYLCMGJs1fzsg0u6Gn3LtuK0Ptac/Ag==
+Received: from BYAPR03MB4231.namprd03.prod.outlook.com (2603:10b6:a03:76::13)
+ by SJ0PR03MB5614.namprd03.prod.outlook.com (2603:10b6:a03:282::12) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5417.15; Sat, 9 Jul
+ 2022 17:23:57 +0000
+Received: from BYAPR03MB4231.namprd03.prod.outlook.com
+ ([fe80::3d91:fec3:50d5:104f]) by BYAPR03MB4231.namprd03.prod.outlook.com
+ ([fe80::3d91:fec3:50d5:104f%2]) with mapi id 15.20.5417.020; Sat, 9 Jul 2022
+ 17:23:57 +0000
+From: Nick Chini <nchini@bainbridge.com>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: Fwd: VIOLATION OF CIVIL RIGHTS [ VERIFIED ] USC 18 TITLE 18-
+ SECTION 1512 - PREVENTING COMMUNICATION TO A LAW ENFORCEMENT OFFICER OR JUDGE
+Thread-Topic: VIOLATION OF CIVIL RIGHTS [ VERIFIED ] USC 18 TITLE 18- SECTION
+ 1512 - PREVENTING COMMUNICATION TO A LAW ENFORCEMENT OFFICER OR JUDGE
+Thread-Index: AQHYk47ZYcw8mn3/pka63SszohbhCA==
+Date: Sat, 9 Jul 2022 17:23:57 +0000
+Message-ID: <deed899db750482cb16205489a8470f3@bainbridge.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 19238e70-9c67-4ae3-05b4-08da61cfce74
+x-ms-traffictypediagnostic: SJ0PR03MB5614:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ nA7VrMvD5OcWJJKA38Bfi+R4eBiKiJ+RoT1hzRDL4rjYDpXqVc+1+7kuUkq2HzKeX2A5fwXphkbdSkwXAi4EuBpFDBFCEvoCogJ9poOZR+H2MXiYwuR8COBmUDOzA8aH/SU81wEZ5y6sZD2qVQJR6547LP+PzJpfNzSvkeuL4KabOnrJiUStXP1jszphTrRiTuz8HxbTfEWqvZN8fvFbTD6bzt8NzoIaabaq8+mhA1CRsapQKTRSFdD3tu6vnhvuY7NnzMNf2AALVq8oS6vA93GUJdXwWnLn9C35Wq9AXx2S4K9ASilnTLPGBZ4edL82eLhcEMkasH+Th+ENmrrrTgk6rhPvsPAJP7boT1L+FiHfPPaLtZBNjaWseqq2mJj3H1D3NwFaPA8N6Mdl8xhmTxls+CoF0BlW9c6RXglzyPIEutyvwmVu98h97t/wG1E0OZZlp58furBMBGvbRoZEkUMHiJeI1BPywp8I17FyZyOzK4b3Kc20V0egY49/NOPD
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:BYAPR03MB4231.namprd03.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(136003)(39830400003)(396003)(376002)(366004)(346002)(478600001)(24736004)(4270600006)(6486002)(6506007)(6916009)(8676002)(122000001)(66556008)(66946007)(66476007)(8936002)(66446008)(64756008)(108616005)(2616005)(6512007)(316002)(88996005)(86362001)(2906002)(71200400001)(41300700001)(621065003)(36756003)(186003)(73894004);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?ZP7DbrZZKofJcNxkEjzRiz8FEZua4ZTmM3M+t0+gxCFzfX1nutX28/aYuLIN?=
+ =?us-ascii?Q?w2CN8FokcKlP3kGS6Vs5/aYCClWbGLJEES4+5xjPnsSwNa6xWAI2yJz6OU+T?=
+ =?us-ascii?Q?ktMPuGLY0B3Lexujz8xLwHVj1flUGRddseDve9YfspNHLoqxzCck0Kc/UxzD?=
+ =?us-ascii?Q?6iNIgCmfqMQvW8rx+aXg0d31pXwkJSTBrIE733X2hbTMd9pAYxpcxXDvUeH+?=
+ =?us-ascii?Q?C2HZ9LlJCsVFf4qmplKFJ+GnG3ZCJ6t86CHXKwrxqmGi3ZaIUpXSj+3fIOys?=
+ =?us-ascii?Q?q39cVkrq37kScLg9XZqik+QIuAjTvkFyWWorWE35ySY3myITA6D8VODJortx?=
+ =?us-ascii?Q?mldkHTvxLgA2yUmuH/4ary3UIOdwIiL9fuL0+qypH9Hou5QmFB6uM8LhH3qA?=
+ =?us-ascii?Q?TYu+RYEOawq6/dVNczUyKyMHB/JXTTLwqBiYl2KkmDKlW6rqkF4mZVJrWaMZ?=
+ =?us-ascii?Q?YWHP3Tpe3Ky0pgiIGobNiL1ipeCVokvbsraDZw+Qd0h8pfW9eHCaWuHrU743?=
+ =?us-ascii?Q?/lEdKQoBdjM5yDLFT3DceeK3cxUKMfe7XuP2YGm36WiCyw2YTV5wdkaKYjhz?=
+ =?us-ascii?Q?qI35I9TUAXruf2x0o1XtlUcCgolvvdpUwqEp6iDZkqf3c8pUZv/wtRGJ+UGT?=
+ =?us-ascii?Q?QH/jOlvqB/D4G/c8ycC3VvUiBjszwCT130yiv/N3s0DOU7H4D60iX/GMcFhp?=
+ =?us-ascii?Q?c5l+WKImGvlrIm8OGyRO52v43Z/C1BKunQLjUVqoVKK3REoRVHZyK9YQ/6wy?=
+ =?us-ascii?Q?pr/Gq5kcpfP8bVvZi33oL0tvN4T4qwBGbQ8FLoaZdcj/RUIPbAMGDmLi3iGj?=
+ =?us-ascii?Q?rwtYXCMckHry2h3Zbx+ZiWKTI+hrjjd3aR2Two6BSEJllMMxbph6ZSl3nbmN?=
+ =?us-ascii?Q?oD2Ky0upw5fM73Jkmu0bWR2FWB7qYUDYoFYXScJsCmXVMWqAdMjOHznyD6sf?=
+ =?us-ascii?Q?KYW3Q+WiywRMvJ/2K2itHsqLUFBkISAzgmvuP1aRbTBD8y9uVOww9gz/FHM7?=
+ =?us-ascii?Q?A4OVOpCbRDz7nEV3R4k1BbGaM8H1Yq2XSkYyvdVDxV4ZX9pUcM58aE368RLP?=
+ =?us-ascii?Q?c2N4Vwx4IkWnq6+iFizmk1DvGjcCE7v89IWkTajjkeMZ1FzPzWsQnD3AkTBp?=
+ =?us-ascii?Q?7x9mgxmAnoz+532wjvnGk728fUqyNwKAmCRwxAcvn5adoVp9pkBI//tZczbG?=
+ =?us-ascii?Q?SV3RRidVOgbqc9wSnCFwaucZJAEFd8X/buCPMHp2UKkaxT7eUIMuih0TSlEY?=
+ =?us-ascii?Q?6/BvzUB1JbzDpMDueClHV8WMI1lSt+911Nv8wYKaaEs1yNzf0XMs4696nWaE?=
+ =?us-ascii?Q?IxKLt9b1tLxwUHuw+/XIa/rqhiZ7e5Nq3m4suh0RQGqkjiGjgcp/0vUEB5r6?=
+ =?us-ascii?Q?gzFsCz5A6kxqduErycJmhwLOv0KWfT/HNlZMcu4qFYvB3iyNQRbu5Kep81+G?=
+ =?us-ascii?Q?fxweGuGkopBFC7Gdxy6VyaOZvDlFazDNLE2Y6cAGmlsnHKT5+HPvLw=3D=3D?=
+Content-Type: multipart/report;
+	boundary="_000_deed899db750482cb16205489a8470f3bainbridgecom_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: bainbridge.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: BYAPR03MB4231.namprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 19238e70-9c67-4ae3-05b4-08da61cfce74
+X-MS-Exchange-CrossTenant-originalarrivaltime: 09 Jul 2022 17:23:57.5868
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 13c6d1ee-68ac-46ec-85c7-fef5fc31f417
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: Se4LkHdhpXATQiIzXAZi7pqRvjxXs7hfgPW6XSysMtxouafTZ3kSf+0fqcOaG5pqknIUOYEEsWbTu0vWn2Mcyw==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SJ0PR03MB5614
+Content-Length: 2134
+
+--_000_deed899db750482cb16205489a8470f3bainbridgecom_
+Content-Type: multipart/alternative;
+	boundary="_002_deed899db750482cb16205489a8470f3bainbridgecom_"
+
+--_002_deed899db750482cb16205489a8470f3bainbridgecom_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Nick Chini
+   Subject: Fwd: VIOLATION OF CIVIL RIGHTS [ VERIFIED ] USC 18 TITLE 18- SE=
+CTION 1512 - PREVENTING COMMUNICATION TO A LAW ENFORCEMENT OFFICER OR JUDGE
+   Sent: Saturday, July 9, 2022 5:20:38 AM (UTC-08:00) Pacific Time (US & C=
+anada)
+
+ was read on Saturday, July 9, 2022 10:23:57 AM (UTC-08:00) Pacific Time (U=
+S & Canada).
+
+--_002_deed899db750482cb16205489a8470f3bainbridgecom_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Nick Chini<br>
+&nbsp;&nbsp; Subject: Fwd: VIOLATION OF CIVIL RIGHTS [ VERIFIED ] USC 18 TI=
+TLE 18- SECTION 1512 - PREVENTING COMMUNICATION TO A LAW ENFORCEMENT OFFICE=
+R OR JUDGE<br>
+&nbsp;&nbsp; Sent: Saturday, July 9, 2022 5:20:38 AM (UTC-08:00) Pacific Ti=
+me (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Saturday, July 9, 2022 10:23:57 AM (UTC-08:00) Pacific Ti=
+me (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_deed899db750482cb16205489a8470f3bainbridgecom_--
+
+--_000_deed899db750482cb16205489a8470f3bainbridgecom_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; nchini@bainbridge.com
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: zK0ounGc30ekNkOQLMB7wQ==
+Original-Message-ID: <f20ac2e7-e50d-9e98-7570-34900dc591d4@yahoo.com>
+X-Display-Name: Nick Chini
+
+
+--_000_deed899db750482cb16205489a8470f3bainbridgecom_--

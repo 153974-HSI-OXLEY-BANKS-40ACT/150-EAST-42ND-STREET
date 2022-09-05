@@ -1,0 +1,194 @@
+From - Sat Jul  9 15:20:59 2022
+X-Account-Key: account1
+X-UIDL: AEYqJTBKuRxpYsnbwgUJECeqrD0
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.107
+ by atlas106.free.mail.ne1.yahoo.com with HTTPS; Sat, 9 Jul 2022 19:49:21 +0000
+Return-Path: <SHAUN.ENRIGHT@nypd.org>
+X-Originating-Ip: [40.107.91.117]
+Received-SPF: pass (domain of nypd.org designates 40.107.91.117 as permitted sender)
+Authentication-Results: atlas106.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@nypd.org header.s=selector2;
+ spf=pass smtp.mailfrom=nypd.org;
+ dmarc=pass(p=QUARANTINE) header.from=nypd.org;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 9 Jul 2022 19:49:21 +0000
+X-YMailISG: EXgQwGgWLDvwC3ouP8tHVu40kOjgdDqbOE51b9iAGbASmC4D
+ SIg20fgyqSInEdTKBUk0fYUvlbvOYRydSnZ5lCE4d8ZMDYwYD3GL9uISjYKe
+ O.GxXsenSr9ugTzGrpRmjjiBfuxhUWtTglsWSgHF0uy8at7ogWdIAPtKvQ6K
+ YjuxVYMBO_OydEUfcoIIpJEUcnVtKKC6mbZVKXY6kQ0PyfchJTJPapx3kv0w
+ 5chi3HCG6ova6TtCyobRFqU_lVtFz6fHNDP8K9irMn_HODcxiu7.f2A7ODv_
+ KRvgOOiPY5xqrgVeIoEJrU_Bnc3q.jSsZK25hvHz7lE7Hhtj6F7m8oEIonAE
+ llRQ8D..m4OXhYOV7PPEd7rG6YFUDlylmbVcI9O1_jhLbYv8gULRZHcNpHIb
+ juYSuqpc2Q8bMM5szJD9PRGv9wzNkT4ac5WCOFSI.tC_TbijRpuwAJXe16sy
+ DmDpdmziYaVvIE0lI.gadWCnmZqUgFKuRj1jx4r4te0d4FCLjPgBvi_xvXOA
+ UYG_crMBTkQVi_JsthJwMaX2y8iKha5IScAI02hWUSy6EgalstEgKg62vMUO
+ hIg1NEUTZZgmSNLHFzEaqXkZ5WqjzRty6RHV6Jh_X9aObcm99GIBVkUSgBkg
+ 8uNuSah1cmVMM8rJGBDIQ7B9rccN6xj53oQ.HHcVi.EeGBoWECudYVOyK4ye
+ r2mgFojSU7hy5qvUS4zYvQ5qNZOyp_kOGTDnlD6SmtUMtz93AeG0n6O.rAOe
+ nZDTiVjT4aGgT2h55iyq9t8rOQRqRPJ5KDlqvMh9mMGUfwIxBA2s7dvZWNTp
+ VAkpxscRherAjaA9vy6amHUTTHfQcPpYPi9.8hq79g2yccqvspRxo2kKUmIz
+ uPz51jrXJuwhH4_jMVYPsVuhr0PM.U3sQtixEwBi5ZAL8y8CnTOTN1atvw0O
+ ..85Bs_NsMxgIOU7kNCR7htxcPU3oQ_gaFGGCTZQBvMdRUnZwug0Ffm_r760
+ FWy6HjYuL8MAl4HMyC2ZJGlmbvgEGaewk_GgC0W0r_OMWwZ69mBziE5e8_fx
+ aScJQhQ_OpAqdXb9RPf2FyR2mSGUFTpK3lm4o4HqGhiX8_FZTv9OwAtPH98R
+ FnDyqf87qnUVT7lqv58XJu5iwKRvUZM_.TUnA2CYZQ53R9HdYGQCgcDWqG35
+ PzjNnEiKHIGt.jZ5hVhnQtdacpmYwy4NqiTpAbbVymtzKMeJSPdc4asflq4h
+ ywca6CT3xHPT4aLaHiX.KzlBbSk.gG.fsqCR6OuiwpYiJ7Ey_O9ejTPHW.0q
+ C7nPriQYaMFcFQuTh4iDpCEbDAkYIU6J
+Received: from 40.107.91.117 (EHLO GCC02-DM3-obe.outbound.protection.outlook.com)
+ by 10.217.135.107 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sat, 09 Jul 2022 19:49:21 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=ftoGIbeUqN4X4uf5WoysWLRBF0mJyIduE1A444EiBBakqO8Oo+dq1s58gmEcsU7+ZXbuoWdz/cHS692PxbdHNluRGe4EN9+L5fJOR/qhCddC6Tqw7FrxKAKxz2SI7eZaJZdQiFgo26xrHIHRTERhrEy5Z49Rd873j2w84mc3s0UDQnJYb9WNbkK3P4Q7/hsdQ4nQGdZ6i/a4ewdsn1euaJbLwuUv+B2DwPzHQXlaXKOPOSD5sf+DjQhx9wDA8o0LYFmJZ1rTxiLCdtNFiCt5siz0n/9fYuQ31dVPoRja7hq03Z1LMaClATE6Hg6hE07kMxAK9HcoIyn0CKTtsa80dQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=ZUF3gNMQc1mUrdv9J1QykyisGJEgdmMTKGqOeQduQZc=;
+ b=i5ej7h3nzmv7OQC2GHb81T+bth0Ta3LNCouNU3iEHf5v4vQj8flbIlt9VCJjGDv4A4iO/w++bXDDSogwK8+6sc33XviqRnMwQD1DPzATcY7pPZaxorkbGkx5c1zQJE5kshi43lLUmzvFPwr5iZHrHo0rpI0fOza8TuqaLNcG7Dqird0nG84JvzJVo/FtBjgdnaPD9257RE9YDz/0DVNEM6DNd5NAqeNzJeTtglJsgyc5/0EdE012WxH7rdGSQU7nhbFfqUHyy5e46hM74m3mtr+MC/NYCngBa8fvLMyjYE8s8I5mzGFBmFmwrH/1fMsmEM5E/Pejh8kDlw3jCXenug==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=nypd.org; dmarc=pass action=none header.from=nypd.org;
+ dkim=pass header.d=nypd.org; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=nypd.org; s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=ZUF3gNMQc1mUrdv9J1QykyisGJEgdmMTKGqOeQduQZc=;
+ b=xJkRmVbtnV7j9m4uPzxSlAbLVlV8gpKhGhaVCCt1Kg11QGUy398SCZegX+LiG5nAT1nOqqPa5FJ9FdCYXZJLXA7/HlTiCRR2S8mhQ2vreF++VxLcImfq9GFprqBHShh8/dTbCRcPj8F1nUirxLRWNBkNx/RSIybUm0yK0sQ4zhg=
+Received: from DM8PR09MB6088.namprd09.prod.outlook.com (2603:10b6:5:2e4::7) by
+ MN2PR09MB4650.namprd09.prod.outlook.com (2603:10b6:208:21d::23) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5417.20; Sat, 9 Jul
+ 2022 19:49:20 +0000
+Received: from DM8PR09MB6088.namprd09.prod.outlook.com
+ ([fe80::fd23:fbbc:179c:a2f4]) by DM8PR09MB6088.namprd09.prod.outlook.com
+ ([fe80::fd23:fbbc:179c:a2f4%7]) with mapi id 15.20.5417.020; Sat, 9 Jul 2022
+ 19:49:20 +0000
+From: "ENRIGHT, SHAUN" <SHAUN.ENRIGHT@nypd.org>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject:
+ =?iso-8859-1?Q?Read:_Fwd:_Fwd:_18_U.S._Code_=A7_1512_-_Tampering_with_a_w?=
+ =?iso-8859-1?Q?itness,_victim,_or_an_informant?=
+Thread-Topic:
+ =?iso-8859-1?Q?Fwd:_18_U.S._Code_=A7_1512_-_Tampering_with_a_witness,_vic?=
+ =?iso-8859-1?Q?tim,_or_an_informant?=
+Thread-Index: AQHYj28DI341f+QjQkenQm8lSCeJWQ==
+Date: Sat, 9 Jul 2022 19:49:20 +0000
+Message-ID: <e00e68c17e994371976209ffacf30b86@nypd.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: ad62aaa6-abab-4dec-4429-08da61e41dd8
+x-ms-traffictypediagnostic: MN2PR09MB4650:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ 8AARQz8P6b6VC02sG/PDqQBWZKW9w476wJssAHS7gwvKVY9PiVKfptlvgDJ9W0SiSv5N/5GGRd17zHjT0Et3m1VvMbsKYuInrvScqupODP1IVQqpMBaSWkSp4Bx+4mIVSM+MmM1e/VfcVCxoHM/KUltfJ5G4hbyxWSLlVv5yDldZk9qVkK8zG1H8FVW5Tp6p99cBKM+hdBL2+WidOfIMlMrIUsW5W8lbpVM5M9cniemzryuwzycO8mfNDykdYKhoZ2DuSlZFGVGZv7z/M16+mWKqu3+Q4rXXlUhjjhJGctl8ClJWEehZwXYeAPNsRLW8rbE+9NHvmMRFjOjRDxnCNeXzCmIH7acEYMYk7ZnN9jCIulyGErIKgSLHIvJsIcpIm/duxzONGf1JobXMnbqqv03lWDIgkH6dgmWdQi+XdUREwGAiygZMtiy7pZ8nKbFOWFXoaSW4iUs4XOcodP4NxitOiKlvRY2Dcidh8+tY9D/FC52XMmd9Iara/Bkk0cLF
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:DM8PR09MB6088.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(366004)(6512007)(2616005)(6916009)(36756003)(4270600006)(66556008)(66476007)(66446008)(64756008)(621065003)(73894004)(66946007)(108616005)(24736004)(186003)(6506007)(86362001)(82960400001)(71200400001)(122000001)(6486002)(8936002)(2906002)(88996005)(498600001);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?coj91CekzQGnoZOAyVdIvBp56+ki4E3F2jug2IAP7n8yphXNT5ilhct8C3?=
+ =?iso-8859-1?Q?ikvVHqlFyYPbmDHt6IRYUTT4GGYpW4p9q8luV+9+nKakusHQ7UlAZ2zkiR?=
+ =?iso-8859-1?Q?auqKAtsta1EWgHRTWk6MFvi7v+/q06mB5JC7m3xyItKqKqSe9OtaoRXoQM?=
+ =?iso-8859-1?Q?XJotcFLWOURHM8jPpJMg0VbqhXwLAL9O471zlhbZgoltavgjJfQ1cCXI3a?=
+ =?iso-8859-1?Q?vegNzdLMpsj6XJ4VGvwElWYeIqFGkhqrP4AKrQrtYVp6Me55z5PdHJq6WK?=
+ =?iso-8859-1?Q?1O1gN6hfJlINV07RFTaB0hiJqD+0h3l/Kd7Fv+Jbll9gwHmERp6i82NG5K?=
+ =?iso-8859-1?Q?aE/fERXDIuWVCMrAOQ9lc3MwWdIt8FeBCN/ATHqaKosmhpKdG5V+JtVjZ2?=
+ =?iso-8859-1?Q?q8PmDJrN/v1b95zOjEYB93oIAxfwn0LRj1ELj4B3gQM935OgnTehjRoICW?=
+ =?iso-8859-1?Q?o4ThOlvJaKLkifuTqzSIZDVrnEXKC4RGF1VDhMjCKX6fy2AS2el1A7dmhW?=
+ =?iso-8859-1?Q?eTQfNi+nJeXQsvzcb3kXBlhYw+U/WMuVemClO3Qsh6NVFf4sRl4qwXgY2C?=
+ =?iso-8859-1?Q?5obXmHhYCodSzYRB+Vy6R73VUg3c0pHERdzdA7Me0HZOKrG+qaB4ZuuR9B?=
+ =?iso-8859-1?Q?i2BTy/oNbVKNb9TRJWoJ+lbq7s2NAUgigmBWwET490vOYD5pSeZv6RYIC1?=
+ =?iso-8859-1?Q?wH/rBNPgBm74EP8oIXvgU2H10gLe1Pg8B98lEdN7Ic8obou0d1LR2415Kb?=
+ =?iso-8859-1?Q?rQJ3XgB9w0BfKWQ3WnNe2wg9G/sWcGs5JflZ6uAyaoJql8X+obJrtqijER?=
+ =?iso-8859-1?Q?sbhN9cEeLMycFoaxd+K6BRdzuuMn3jHiIYm3LJAT2TcrWyE9H9EzaO2dLi?=
+ =?iso-8859-1?Q?yw21JruAUeaGs7l+I0AR6jDDdEi1eACjbCeQXX065iUAWlmATvBIbaDiF5?=
+ =?iso-8859-1?Q?hj7eb4/kFzYHFk9Oj5fKbjIXi3Xk2GWkfoR4tXpHQaPzn0SFbf4s05yg/8?=
+ =?iso-8859-1?Q?ZgfHhr7UgnAOCPA8/GjUy0ArMVM8V/X/K3WjskLhCDXMowdDACcfbYbeWH?=
+ =?iso-8859-1?Q?6RogDIzL739rmDfVB4DNM4MYYzXz5BYaRvpofZv8MRqTz8J14FckFdg9Yz?=
+ =?iso-8859-1?Q?H/O+WqR1B6d+4S7tRrTG7FxIVIdmG8fUjq8cmVH0RD23me10DoUKXOl6AO?=
+ =?iso-8859-1?Q?+eVIGijEvTOc/N4b3IudcGmo9QjyWWNsCEVqxSK+lmH7/9EsPR7ZbiqDyL?=
+ =?iso-8859-1?Q?/XFcrWllfwna6U9M2Yzd6dO/BvEh51gqN/MR2UBfnI7P06WVxuFpjOcg6T?=
+ =?iso-8859-1?Q?tIKibO80IzwHrwgLt6vmmVDYAJmVacPYVcP22/Sf2/hr6MCxzFnZ/kh95h?=
+ =?iso-8859-1?Q?iAMX/ii8uzzbFFBW0Rk8zYRASWSTysSSuAH0+jlZVYYM57oLwzH2q+xFON?=
+ =?iso-8859-1?Q?giknslD6E97udmY5AemDl5sQicU5OagG97bcCnOqtVyCG3CXZm3jmVPUGR?=
+ =?iso-8859-1?Q?s1Om3Sj7xtGVNQ0gFScaTp12VXZ6EUo8U0/gSIyzFpdA=3D=3D?=
+Content-Type: multipart/report;
+	boundary="_000_e00e68c17e994371976209ffacf30b86nypdorg_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: nypd.org
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: DM8PR09MB6088.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: ad62aaa6-abab-4dec-4429-08da61e41dd8
+X-MS-Exchange-CrossTenant-originalarrivaltime: 09 Jul 2022 19:49:20.7028
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 2b9f57eb-78d1-46fb-be83-a2afdd7c6043
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MN2PR09MB4650
+Content-Length: 1993
+
+--_000_e00e68c17e994371976209ffacf30b86nypdorg_
+Content-Type: multipart/alternative;
+	boundary="_002_e00e68c17e994371976209ffacf30b86nypdorg_"
+
+--_002_e00e68c17e994371976209ffacf30b86nypdorg_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: ENRIGHT, SHAUN
+   Subject: Fwd: Fwd: 18 U.S. Code =A7 1512 - Tampering with a witness, vic=
+tim, or an informant
+   Sent: Monday, July 4, 2022 2:24:22 AM (UTC-05:00) Eastern Time (US & Can=
+ada)
+
+ was read on Saturday, July 9, 2022 3:49:20 PM (UTC-05:00) Eastern Time (US=
+ & Canada).
+
+--_002_e00e68c17e994371976209ffacf30b86nypdorg_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: ENRIGHT, SHAUN<br>
+&nbsp;&nbsp; Subject: Fwd: Fwd: 18 U.S. Code =A7 1512 - Tampering with a wi=
+tness, victim, or an informant<br>
+&nbsp;&nbsp; Sent: Monday, July 4, 2022 2:24:22 AM (UTC-05:00) Eastern Time=
+ (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Saturday, July 9, 2022 3:49:20 PM (UTC-05:00) Eastern Tim=
+e (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_e00e68c17e994371976209ffacf30b86nypdorg_--
+
+--_000_e00e68c17e994371976209ffacf30b86nypdorg_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; SHAUN.ENRIGHT@nypd.org
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: nd/hx1fzh0OKldLGIV1Lmw==
+Original-Message-ID: <2ec4d8df-a33f-be77-aca2-64fc7701117b@yahoo.com>
+X-Display-Name: ENRIGHT, SHAUN
+
+
+--_000_e00e68c17e994371976209ffacf30b86nypdorg_--

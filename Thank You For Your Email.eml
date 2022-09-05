@@ -1,0 +1,204 @@
+From - Sun Apr 17 11:34:51 2022
+X-Account-Key: account1
+X-UIDL: AJAKfzwyxUU2YkQTvQ2UkI6TOLs
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.231.22
+ by atlas114.free.mail.gq1.yahoo.com with HTTPS; Wed, 30 Mar 2022 08:24:29 +0000
+Return-Path: <service@americanbar.org>
+X-Originating-Ip: [40.107.101.130]
+Received-SPF: pass (domain of americanbar.org designates 40.107.101.130 as permitted sender)
+Authentication-Results: atlas114.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@americanbar.org header.s=selector1;
+ spf=pass smtp.mailfrom=americanbar.org;
+ dmarc=pass(p=QUARANTINE) header.from=americanbar.org;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 30 Mar 2022 08:24:29 +0000
+X-YMailISG: OgCoLEEWLDuif1ES1qOIUwDMiNp6YyVLez1Kzsqk8a26IJt6
+ 49cvPZhVZhI7eR2tG4K2rlRV9M75kC7BjgF_4Pd4cZSs_2Ihqp9Di4UN3t5p
+ v25YCfROwMp6rTDt3LJZ0I4ApuWhz_LeRQRTg3y8FHnxiwaosWzafx3Ys7Xm
+ UL67L.86tp0WWHp8LLZ7v7aZeYeLSJmBmZgC0iGnA46JzvYyuiL85QKOvJMN
+ HGoNqlQO4OaYqnczfrALas07Wgf6rqFVKhnMVM7suOKE1HCveqFXL6NQOTLG
+ ODY5E6eAJayS8X6jfes_HelFSGx0NCvRxyREZ4WHj1byiRBaKW4H484wN3GB
+ qudkTrfWd3PGhuQEcizq1qXt5Ews_93zsxfj153te345Nox5Lp0CIwEmR09d
+ r7C79vLVNu4w2b4EuEx5xQGhnwx91en2_xDfDwMyB6Z_iuPTWrY4cLZoQG.7
+ 0pOWH3J.8TonCN6uPpanNmZhVkQaS_I.5ihsqph8ArZgHin011mWZG4KFS7i
+ kDh5kCZ.BL0XwhFnIylcx_nsUkSnJG.70GCcS7u31WFndExuC7YC5deB3aVY
+ GrglGYzfz1pTWxGvPTcncCfztUwlz6K_svVwAqxCpsGuZQrx06D9eZdKrO9E
+ iaRYdl2m4hxrI0G_TF_HMeoSHZe6tJSbJ4CxFZTztD.1lTUm4V44OtSrMI31
+ Lp0n9Gj4A9k9KmkOMbtxsTTeLN_ukZqr6NimOSIkWqrJIUbG5Ynlbhk15Vud
+ OU896pwkFR4m_wsChFN0OBzIyIrHdpg_VPMgVFrrqLWp6q2wLk8mxaSjdG58
+ R1vPNsfU49pI2nU8llEnJGBx_918M3RiK8jdadPTY_JTUku5mv.n5OMeOPXy
+ buSRL8.02wYCbM2l58SQDN6Ub1okaCuGddvWHHLaU0Aj1TF9mh2Zms_9s_PZ
+ hsRIVXTT6WxtD9.8THE.JP4fUy2At_YZOvDXTfWBRf_iadEu4Ab3nYzLeGB1
+ 2t4mp8Xt3BLpbbhsq2rgj6t8UjlJKTEXkpFGyQgdaPfkb1_Nj2ENW4cRMmqa
+ LeIV2sA.dRIdwVM4ZuryWl7h7x47fkzTNbkApfbi2ir0jfksPtyBleYrzOBf
+ K3AAyi9oHcvI.vx0xeYUQLQeQjH3mI_cUb68WT6bfgOEAc6tTMXvdKW5PC1J
+ V8pwOZvFOYcMZxtcE031.NamyF0wSwUrSAyg_VmdfZ1JRAjuucn0Qg--
+Received: from 40.107.101.130 (EHLO NAM04-MW2-obe.outbound.protection.outlook.com)
+ by 10.253.231.22 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Wed, 30 Mar 2022 08:24:29 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=apHeM7dCWH83xWuG5m10y5tcyPWCx+swJHLJO9pAJGYahIrBaGIh7TL7WHlsFjHy1i5ZaM7fw0QfsTK6gxwDw9LeiQbwiwfZwCPazkDBllI3QvoxvbWwuG7Zvw9n32KiPx1A4Hmy6KJSzF7VyUQFjwD95exWmvro0lz05VlJSsWjlFsjKWAzz1X+74h+jmWIx4noRsBB05ZEM45Rszrdd6Y/J+gB3gAEq2PoiIXzL9IuFY5Wgztxj9pf+dnj0hYOZ6cb3YSgxcM86Hn2+s5nyQpHZk3WUflZd+bOuMDW6qXZ/bXxlwYD9L8vUiqF7i16gnKdz2HYO4w6Ecegp5a5Fg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=n1X6ysCI/qkGw6hK+TMTHlBELAT4mnVJfqRpK5MPu5E=;
+ b=XC0nWX7VZAJ34KrvGSu2UmA0olzCuqN1jJ9v4AVxXcnXAi90KoXQPzZA8VRx8kbvuNCEtP7OlZHiK7aOTlREVYYfxpzdkjQ+js2uzpKTieuN2w5tzLqgNWe/Qmw6ZSS9HMJ+ZrqZiUcluc83I1Y6yf3uyOvjo9joEKncO/GrWfuTwBOgmaYsoOwjJVMuJNpMAM/qSO8RxWN/FesehMCo9Sk+v8M0emzeNzfqa4yrs9vyKfeNGjqdAJfWmyj7QijYJjQSNiVAp5owELtHCkL4rG6WMpK14iBRwGm9x5zRYnX/ZM+SmiKpsBMAjtc+/YMUDkMZ1elH6qiXf3iKxUVzLA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=americanbar.org; dmarc=pass action=none
+ header.from=americanbar.org; dkim=pass header.d=americanbar.org; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=americanbar.org;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=n1X6ysCI/qkGw6hK+TMTHlBELAT4mnVJfqRpK5MPu5E=;
+ b=aOTTBTGILWJS+KY9+qLjsr4TUTfU45//DYcRHkUibj/WzhDEf+6mtfXXKwxnvL96Fr4INyRkPwCd7X3ndzn6Q33MuHFrTgniWmryvDoCfWXfU1qck4gflv/EYEpHXbxMtN0sLrUeP6uA5cH+3eajNFXQfSdezxq6NmT9SF8xbG0=
+Received: from DM6PR12MB3673.namprd12.prod.outlook.com (2603:10b6:5:1c5::11)
+ by MN2PR12MB3200.namprd12.prod.outlook.com (2603:10b6:208:102::22) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5123.17; Wed, 30 Mar
+ 2022 08:24:28 +0000
+Received: from DM6PR12MB3673.namprd12.prod.outlook.com ([::1]) by
+ DM6PR12MB3673.namprd12.prod.outlook.com ([fe80::e9b0:6e12:6be0:f29f%5]) with
+ Microsoft SMTP Server id 15.20.5123.016; Wed, 30 Mar 2022 08:24:28 +0000
+From: ABA Member Service <service@americanbar.org>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Thank You For Your Email
+Thread-Topic: Thank You For Your Email
+Thread-Index: AQHYRA+SKGEQbkO7i0elCOVEsn/67A==
+Date: Wed, 30 Mar 2022 08:24:28 +0000
+Message-ID:
+ <59410a1634a14adc8e24a5ecc4547526@DM6PR12MB3673.namprd12.prod.outlook.com>
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: All
+X-MS-Exchange-Inbox-Rules-Loop: service@americanbar.org
+X-MS-TNEF-Correlator:
+x-ms-exchange-parent-message-id:
+ <ee9dec00-0430-38a8-3a63-9dc4a8ae4e34@yahoo.com>
+auto-submitted: auto-generated
+x-ms-exchange-generated-message-source: Mailbox Rules Agent
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 7e971344-16dd-4793-769c-08da1226b523
+x-ms-traffictypediagnostic: MN2PR12MB3200:EE_
+x-microsoft-antispam-prvs:
+ <MN2PR12MB3200022A87C8161DEFC4C9CFBC1F9@MN2PR12MB3200.namprd12.prod.outlook.com>
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ DjvYPiCF3Jfu3klKTNDc92Y6RAE7kc0QuZD3FUAma9XCa8txUvV/YpictiV5HW/23dQ21GbhykMo2fmzJRJafpITR/OYtu2EksZjkmlPn8vbb2K+/Sqf9lS/Y12N0iVWvURYuNbEcWbC0xvWFXAQTN20k1cE2SGbAT4fjmPACvs8NIwikpMBtwsDZznfZ9Fp1PZ6a/l7LGguvNtx+f8vcY9Snw2Yi3nOWWN6dBQ8O2XVJhByb1S6hWTccGh/xNoi28yo0wznkQkqYZuv5+zWddrNepg2muPIje2PsauU6xsYKi184tT/rBIrNfxvSKEkovuiShfYVyhBQp5GJjHhDjaamVeAC0n8N/YlIsH+s5drYxZPzb0/A2PhiEjBbHEEsrS/JMXcKC+h4daHpdRyJMzVbzwVtUVzo+gE6+ucW0agDcGhSVvoMEhW7dmsOWbUVowGTLyJJLli2zRhATvOhOc08gLzHuoddWVPJbxbPWp2qZsKi4q15cnOk3+qESwLhfIgfdPuvPAL7AL3xbovr90hS7j+XTSljennqVV0SWWeHBDeWLJgQhw2tLDPiN1D1La2YT6RGezgyFSUkJRWaf82gGAw4+ZNjjwfZFfJrmDvZ7J5UqbQCXfbtokyb+UO4GITghZjnkhDAz8Fyzhg1g==
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:DM6PR12MB3673.namprd12.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230001)(366004)(8676002)(108616005)(6506007)(7696005)(66556008)(66446008)(9686003)(2906002)(24736004)(558084003)(64756008)(66946007)(66476007)(40140700001)(8936002)(5660300002)(186003)(122000001)(166002)(6916009)(88996005)(86362001)(508600001)(316002)(71200400001)(55016003);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ jbfHu4YXX1JwPrF5YbOsTXb4a5RY92QNn9RK5mBw8NH32i6+fFbaElBScIkatZvAhjzjNZP3BldAYnD1IIzGxhSa0YqgV6VknzpXjgVB5UZQ9MHeMav4u9HBv1t+fyMc2VCoJoNeL1swZfnYlIw+cFauDzbVjZw6938uTptNAlJzfhsj7JXnox0nomQse2tcOR/SpmwogunqNdehKcERcxFx1vEN65p7Uf1c9gqtUcemgDx5uzYc5EVxXI+wKDGu6rgxMuS4hbbJs/KFXSD2x6cc4ONcyDutgEobZbbG4/jwoGGwldPfeiIbIOjWHTBd
+Content-Type: multipart/alternative;
+	boundary="_000_59410a1634a14adc8e24a5ecc4547526DM6PR12MB3673namprd12pr_"
+MIME-Version: 1.0
+X-OriginatorOrg: americanbar.org
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: DM6PR12MB3673.namprd12.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 7e971344-16dd-4793-769c-08da1226b523
+X-MS-Exchange-CrossTenant-originalarrivaltime: 30 Mar 2022 08:24:28.3247
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: c0f7bf33-a74b-4d15-a7b3-bcae22ea9bdc
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MN2PR12MB3200
+Content-Length: 3914
+
+--_000_59410a1634a14adc8e24a5ecc4547526DM6PR12MB3673namprd12pr_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Thank you for contacting the American Bar Association. It is our goal to re=
+spond to your email within two business days.
+
+For faster service, contact us at 800-285-2221 or 312-988-5522 Monday-Frida=
+y between 9:00 AM and 6:00 PM ET.
+
+Information may also be found on our website at www.americanbar.org<http://=
+www.americanbar.org/>.
+
+
+--_000_59410a1634a14adc8e24a5ecc4547526DM6PR12MB3673namprd12pr_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Arial",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72" style=3D"word-wrap:=
+break-word">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Thank you f=
+or contacting the American Bar Association. It is our goal to respond to yo=
+ur email within two business days.</span><span style=3D"font-size:10.5pt;fo=
+nt-family:&quot;Segoe UI&quot;,sans-serif;color:black"><o:p></o:p></span></=
+p>
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black"><o:p>&nbsp;=
+</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">For faster =
+service, contact us at 800-285-2221 or 312-988-5522 Monday-Friday between 9=
+:00 AM and 6:00 PM ET.</span><span style=3D"font-size:10.5pt;font-family:&q=
+uot;Segoe UI&quot;,sans-serif;color:black"><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black"><o:p>&nbsp;=
+</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"background:white"><span style=3D"font-size:=
+12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Information=
+ may also be found on our website at&nbsp;<a href=3D"http://www.americanbar=
+.org/" target=3D"_blank" title=3D"http://www.americanbar.org/"><span style=
+=3D"color:black">www.americanbar.org</span></a>.</span><span style=3D"font-=
+size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black"><o:p><=
+/o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</div>
+</body>
+</html>
+
+--_000_59410a1634a14adc8e24a5ecc4547526DM6PR12MB3673namprd12pr_--

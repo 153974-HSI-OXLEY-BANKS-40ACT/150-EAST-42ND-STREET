@@ -1,0 +1,207 @@
+From - Tue Jun 28 14:25:11 2022
+X-Account-Key: account1
+X-UIDL: AD3bKAxWwaJuYrtIlgJRwNNe7v0
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.222.142.148
+ by atlas124.free.mail.ne1.yahoo.com with HTTPS; Tue, 28 Jun 2022 18:29:41 +0000
+Return-Path: <Anthony.Lincoln@va.gov>
+X-Originating-Ip: [152.132.26.45]
+Received-SPF: pass (domain of va.gov designates 152.132.26.45 as permitted sender)
+Authentication-Results: atlas124.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@va.gov header.s=vasel6;
+ dkim=pass header.i=@DVAGOV.onmicrosoft.com header.s=selector2-DVAGOV-onmicrosoft-com;
+ spf=pass smtp.mailfrom=va.gov;
+ dmarc=pass(p=REJECT) header.from=va.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 28 Jun 2022 18:29:41 +0000
+X-YMailISG: Yw6kBlEWLDuCvcNwDRw9G_gXVawJNVLotmhbXCFXpKx4yYOo
+ HWWoiqi6MYO9KihjTonEWtsreOlBcyGV5Tb6Om6lT8yQA4cViwEGkfM.paHC
+ ycxyonRICE3sbhMvfzg6Pjui4mkny4xP_kXIYkgPMC0SgTKZ61WiJJWxAqlA
+ Yi03CotW.Tf1oLpRxEy1en8GLmQiUW.K9AaCrgt.QxULsva4RTIur56wJqj.
+ 7BLwd7UTC9au9Rr2TsOfDXLw8WcTqko6gunfvU7YJdHZVIHmM42AR6bwOns4
+ XtxdYA3NltMn8ACzecN6yFiVTjxTf_kpceSuFkwErQQRIF_6cO3Cbc1RJAWD
+ DVn3Soo3m885wZtIPCqnT58Si7UqUExMXvo.TrhS_LZwD5nWY2nsIpax9LXl
+ 4q0sYJmBoCor1LCW6nCLfW9Q2Ewvp0qLY0IWTOnJokn5UQTJADHHkmB82jG3
+ bJS5UDn1JWMYpY2PTvRpIkYbdo1NG5ihqo9nAlN6CDeH7WOU.WrhcSIkwuKl
+ QVDBwwcMs3cEF_JIi5WhiWMevVLAu1VXGw0xNLAU4pS0zClQE42jFkmytyqk
+ EB.cadJKtV7sJw1T2ySBNDJuY6U22QiTkW0lenQOxyCFOy1.GN7Ydq9d_Eay
+ .wM7eMuiSPR2OsyYPwIXBnwQH2yhGeT0RBofDq94K9hBOZJNZqhLy6tjYzPv
+ 3ED5QVm.zWwc9__UipzA6yRntdbRKhgRhDkg9az1mT4xz4gm4nu11W13wNn9
+ T8yH6nz46I2ZTHod8tZ6RvNvq9pDHdmrtpfFdfXPjfBrkHkADmT1uaRFyY4W
+ TG8P8BTS3PmVszD7_PvjSEJleoouCpNpQ1n97GCCAuVe9OXi7geq3Uurkax2
+ e2gMmADbAw0bcsD2foR.Qv2vBh7eid90VB2x3KXkG371ABFumjK7n8V0KlsU
+ .iXfQuoruRRez4WXcnbgVxlAlwAEiQQ0xpbFanmvSNb6Ezc1WOgUW._WfA9N
+ QFuH7gpbJwKKtLkP6TZj5XBid_0En83_UoEdiCOjZd9Pdx4GCAJcmFbU2iXJ
+ o8l0q7GIjlCl3RNk5BaNSpvzoJVqeofQq6uwpaRFscMrbaXUT5tffpzIaQEw
+ m3kKd6TKn4jyiAYaiwJbi.xrU2HULs9ZeBrrR3i0QFELkVp3Ak4iX1rOAA.K
+ kE..ONFOXdXeQm6s1GLH_dQIakdB7lkGFM0MUUa7SNWjOcM721O8pmc.PqW2
+ n8wgCU5Aq_MxrSaJ2Dt1ImYvmT6GRUCdeNErWWfNEj1xP5fb3C6HcXDac_mz
+ Nvcdi1EB.XJzOfUekmB1EkrRK9PCB4YzVSNaa.yo0wFTCngmnKy5Q12CpvUh
+ cZGL3d_wTTB9.gE-
+Received: from 152.132.26.45 (EHLO gwsma03-mta.va.gov)
+ by 10.222.142.148 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 28 Jun 2022 18:29:41 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+  d=va.gov; i=@va.gov; q=dns/txt; s=vasel6;
+  t=1656440981; x=1687976981;
+  h=from:to:subject:date:message-id:in-reply-to:mime-version;
+  bh=mL4POuRd/MX32Z1OUcGyOIcZU7rOYwNWEqS+YnAcOY0=;
+  b=YWw8X8JYpyu25i1miiwACpWu89Ll9w9DBx0DVxLGtUuOgvDfY3qGuDAY
+   AOtp2uSbrOBBTaS+rN1zRy9fggMc9J1aKRwEzO8sSmy9FwzyaN2pyoIi9
+   UYP8b4v3GYTj+TSkjaAa6Q4f8gNbVMtBlHHT5gnkr/m5LVqjQKV8MrEnY
+   p4blcZ+3SIhiNnaWB5tyZj+XzWj0j3mRTK4ZABMnBFGMbfbRMdqfNcoya
+   FzGNYsFiEktynB7gAUTOSQ9D4OsGdu5XhoIwk/xPFm75/Gz08VPnk4dQv
+   F2KVjJ++NQSkB+alde7nYTYarYGNqU2JVknfkXPG7BHZdbZps2OhGR/0x
+   Q==;
+IronPort-SDR: j2nFL/6qKsoZzH6UyUcOlxVCs+vtCOSPEKxcngTUa1cmHGftvsyNtkg+o5YGHDM9jdvxC1SUY6
+ /IlsSOSgBa/w==
+X-IronPort-AV: E=McAfee;i="6400,9594,10392"; a="312307180"
+X-IronPort-AV: E=Sophos;i="5.92,229,1650931200"; 
+   d="scan'";a="312307180"
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=ij7yrQJhnMkzAyenpN3pfU6AwJvBPHNPIBypn5yNW7aQ1Pzii43kXHhmBJj1TPjYHquUfBzg/rCVus21Nas2ExytqOQKqiK2CUQ+DSCBUm+H6vOVWzTJwri9WU5C7ePqm7EzZVsUR/rMGz0Z0lnNeSQ/3qRbfUe8XKm8WIxfYQv4ksINlz26j7mHkmqRLKjpoiMg2lputn86juVXeVyjkAODb9bobHlIIFwL2rrlwbqhcizzUpi/Tvd477nUU0AoigCjjbW+8lrKnLpu14Y7KZ0fOQ79Mo0X9oqtXT8+SIb1JqbuRj/qXqdEipEaieB46a1kAMCMt6S8FR2JNF96xQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=rFaDCFOP7JrbO1MnV6/wWfNROQFWGdCmQLLzn1m1Zxw=;
+ b=HrXqb9fUlTCykca3aRN2q8aiazea+I6u00kc4eXzh44yKSNOkxvxqb+XRakE4Ck7yt+xmMrWBC91SlCz359Xn8XajSqgxogSSYkOW8I8MGGRPiOjUh5vanHxu4pbIrx61KwPhUpDq5V01NIdhRIXJRn3oUuSvn8jnDX/FaKvZkMAK1Y+nY/NjVJmOSDjqKE0xvrsTU7UoM7sDGiuOOyMUBcVO5v46gj7Z9HbaGOabMzRLEMJLxhFcRtO149aGE8wBfhLbf6l/drveVX4SMYQ1AYrUZ5xcZ5Q9NIN5AzUwGx2FXu9LlCNm0WVc60oWCYHlcN7c6urxl8IVtWvI9O/7g==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=va.gov; dmarc=pass action=none header.from=va.gov; dkim=pass
+ header.d=va.gov; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=DVAGOV.onmicrosoft.com; s=selector2-DVAGOV-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=rFaDCFOP7JrbO1MnV6/wWfNROQFWGdCmQLLzn1m1Zxw=;
+ b=F13IEaVqidYWTGTLQiQaT0wywMcdWZQ8U4NA9PocmBJfRGLmCF53fLyMkHsv8vaVLZW1AxvwIoHIZxEiATfyGwEEIzOYYKnERatJHYNebKbqO/TBEirfaKlqSJNnfA5oxKB7kjGyBWMF+YJndlOUX1+RIlM7rk5+ihFESQZSVOk=
+From: "Lincoln, Anthony K." <Anthony.Lincoln@va.gov>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: [EXTERNAL] USC 18. VIOLATIONS ANNEXED IN NYSCEF 153974/2020 [
+ LOAN 50074 ] est ++
+Thread-Topic: [EXTERNAL] USC 18. VIOLATIONS ANNEXED IN NYSCEF 153974/2020 [
+ LOAN 50074 ] est ++
+Thread-Index: AQHYin3J6idgnvWbiUCiiT3/+VnfN61lJNZS
+Importance: high
+X-Priority: 1
+Date: Tue, 28 Jun 2022 18:29:38 +0000
+Message-ID:
+ <CO6PR09MB83262A1D795187A19FA3FB529DB89@CO6PR09MB8326.namprd09.prod.outlook.com>
+In-Reply-To: <5fed7975-7a06-7807-37b0-1462efe0fec1@yahoo.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 6ebc8c18-c6bd-4b5a-ce50-08da593428b6
+x-ms-traffictypediagnostic: DM6PR09MB5800:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ 5epFkGteSZsQoj74EFKjN8RYhSzPsBFrU/lJtc/NL5cN408Nyc6aNlZZ+70l/4g6vCKovjew6+4bKoJGndYDpAPpYrO+6n/aakgHIVluo6vuOI38ZoAXwZ55XKrhgc2wF9l4wMBBpTYQvG5xwLLwCh2G1SINTq5ES2KJSXPTd20zcmA0iuaQNjIfSynfeIBjmx5Zr8LyaaA9F0vqK2mMmTS7rWxPGGtiAGlHoJa+o9BxLRH6RJhKCCElVax9RTXQRQ9Y9VVRLuFiMiXkkwrl1YNWUjcGNJh1kNq9Yh0dUmcQAT9ZcMQuABwlLoIrFAaF1VWtOxMIxfF8nWh5XPixbMmLhjw1woQfQKAlJOGi24CJmqCTs+Jb7kRxmfFo5+6TM/MySQITMrwnAhly6XAfbdVDgjJji2aKsQPBKIzwr/A6R7bnJ5cl1lka86EYBFRqFQ6ThzczRBp1oszP4+rz8Anq1bHdFmL+tb0h0/iYHftkQbxIZZ3S2GZZqxlV1WDMukKxIaiJkJ0rk5xyAGS/MSVYX6j8PYC5Mv6ZSdrCnP0=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:CO6PR09MB8326.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(366004)(66446008)(4270600006)(7696005)(6506007)(86362001)(66946007)(2906002)(26005)(8676002)(64756008)(8936002)(186003)(122000001)(498600001)(82960400001)(55016003)(9686003)(621065003)(38100700002)(66556008)(6916009)(38070700005)(71200400001)(73894004)(33656002)(76116006)(52536014)(66476007);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?9NQJDu2xImes8O/PlLd1LB1BH/5Hrb4KXwBt5SZChR+sEO+qfYHxEFPLWR1Y?=
+ =?us-ascii?Q?hMu3YwyG9NB51LsqVu6IR2F3Ut/ZBqjreADz8QSHPKS04oCihLaXDw8EPUOK?=
+ =?us-ascii?Q?w4t52J2QtNHJKb3763+G4/2lLA73g9VzsgRas4VXDzA009Pss4B5lcp0RuQj?=
+ =?us-ascii?Q?tfek7gxHY9EH7498muFvcoXhcfB7U2LGJtsyLXSRwhvou3YDKDHpa/TyA5XG?=
+ =?us-ascii?Q?fK32mU2NLzY0GKcurIkfTgiuiIjxPawvXA+ciZy8lYZJgFwxS34QPM6pqKyi?=
+ =?us-ascii?Q?n0oq51dGi88lQQSnLLkiu38RZmu3/2oJrrKjjvAprTUjFftKiLiNahs9Vmm1?=
+ =?us-ascii?Q?1PtQCUHbIKKor+C1n1Rw0LH2IEGblphIlCSkvtwTPT81xLRbKiZYLQoYSIrc?=
+ =?us-ascii?Q?uNodLYppO0xobQDAFAtGNJXduBnXbcY1ieZ53SqROJpHclWzgexCOkhkKz8x?=
+ =?us-ascii?Q?BZfQioNi95eLG4+NDo4Sa9x1Gz7/yQBSCkesNuTv6sFWfTl5gwk4q3C1HLB7?=
+ =?us-ascii?Q?S0EWE5Xw/F/IIOnBen9FsvO5lHVXse+zxf5Zz/bUCbGiJJa4U+knNL7AWTP4?=
+ =?us-ascii?Q?TxB2yyD6Eu2ZXFb5C/TqIENkkn7TL8JPn74E4ZN/yeR1C6wml/t7tV16wB+c?=
+ =?us-ascii?Q?jkuLMlWetx4BhyecVXn8eAqIs/9AjzFchEeslcgO+van4KW7jb+pKJKq3BM3?=
+ =?us-ascii?Q?gbETb0oBgGbwpLyO2SzcOpT6fZ1FhbPSUyBp8H3RnOpJDC+pskJb7ak0CCf4?=
+ =?us-ascii?Q?meboX7DoTd+FAlf7t6xg8XswJpM8qM3WZtWGOl2v5Ku5pqPZ08E6qJ9KRkWE?=
+ =?us-ascii?Q?aV4cHJlU390HszzqHlhLNZ1yFrk8eq5/61Zsm1X341YwJGDXDlj1eyaDQywF?=
+ =?us-ascii?Q?rBLIU+yfsjtKO10ZDogVJjgvQLDRr946giEamzDSKJjqVpYTBQQdAyHmU/Fu?=
+ =?us-ascii?Q?PQW9vwMfybD0z9kn6ekC2zODJBkzHE3ulGcgrvuLR9JrSBdAAD0gZJ+K3yx5?=
+ =?us-ascii?Q?KbqGEgOUsGdh+nBImM2YJs/By/3HSW391oT8im36IMPZwi5noudJ1e7eU42n?=
+ =?us-ascii?Q?WVDFr8gooFNqLSqaOqxtMtr2VMcvmTpiQDyWWYGcCdi5qK77Y7j/+UpazLPr?=
+ =?us-ascii?Q?+5xm46trz6p4zsI9W7sv2lLd1PuVP4z15TyOLkr1MW3+r7qC3TFL5EjB2rAR?=
+ =?us-ascii?Q?3nmj/FON/ldcQlZpxKbQX+l0otnKm4k5W2Gpth/+tSo6MK5hf9oF/Nna1Fh6?=
+ =?us-ascii?Q?2fVkGoC7Jao/S3DK9YxMDo1qys+zeRc7qxZyZvfIC68/dVVXl0xf13Mjy/3Q?=
+ =?us-ascii?Q?l2OMzgqth0p1t7DOL3tqTCLYVrllOpHaglab84GjyDwjZE8mowWxqkReUz4C?=
+ =?us-ascii?Q?K4D0ZGcob97ud/0iA9sgEZoSl1/udlGCEUvz+IK/J3CKfaUMcENzgBVgpUzw?=
+ =?us-ascii?Q?aGcbe+49YnjLRqEvSooTWyruMQEihBJdpbGzGWhW5lahXcW9iQLFu7w3vdgn?=
+ =?us-ascii?Q?WVV1Z8J3gxjuCp4N22ZivGthcTmcGPV25P4NMqzWixfH7fuHA3Czh3dvpfRf?=
+ =?us-ascii?Q?Lz/DjYubydI3Vbqpr/Q+cWaAcWTIig8Y0gLByW9U?=
+Content-Type: multipart/report;
+	boundary="_000_CO6PR09MB83262A1D795187A19FA3FB529DB89CO6PR09MB8326namp_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: va.gov
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: CO6PR09MB8326.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 6ebc8c18-c6bd-4b5a-ce50-08da593428b6
+X-MS-Exchange-CrossTenant-originalarrivaltime: 28 Jun 2022 18:29:38.1961
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: e95f1b23-abaf-45ee-821d-b7ab251ab3bf
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM6PR09MB5800
+Content-Length: 2042
+
+--_000_CO6PR09MB83262A1D795187A19FA3FB529DB89CO6PR09MB8326namp_
+Content-Type: multipart/alternative;
+	boundary="_002_CO6PR09MB83262A1D795187A19FA3FB529DB89CO6PR09MB8326namp_"
+
+--_002_CO6PR09MB83262A1D795187A19FA3FB529DB89CO6PR09MB8326namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Lincoln, Anthony K.
+   Subject: [EXTERNAL] USC 18. VIOLATIONS ANNEXED IN NYSCEF 153974/2020 [ L=
+OAN 50074 ] est ++
+   Sent: Monday, June 27, 2022 7:27:25 PM (UTC-05:00) Eastern Time (US & Ca=
+nada)
+
+ was read on Tuesday, June 28, 2022 2:28:49 PM (UTC-05:00) Eastern Time (US=
+ & Canada).
+
+--_002_CO6PR09MB83262A1D795187A19FA3FB529DB89CO6PR09MB8326namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Lincoln, Anthony K.<br>
+&nbsp;&nbsp; Subject: [EXTERNAL] USC 18. VIOLATIONS ANNEXED IN NYSCEF 15397=
+4/2020 [ LOAN 50074 ] est ++<br>
+&nbsp;&nbsp; Sent: Monday, June 27, 2022 7:27:25 PM (UTC-05:00) Eastern Tim=
+e (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Tuesday, June 28, 2022 2:28:49 PM (UTC-05:00) Eastern Tim=
+e (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_CO6PR09MB83262A1D795187A19FA3FB529DB89CO6PR09MB8326namp_--
+
+--_000_CO6PR09MB83262A1D795187A19FA3FB529DB89CO6PR09MB8326namp_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; Anthony.Lincoln@va.gov
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: CwD/9gtIWkOGzZsqPFKHJA==
+X-Display-Name: Lincoln, Anthony K.
+
+
+--_000_CO6PR09MB83262A1D795187A19FA3FB529DB89CO6PR09MB8326namp_--

@@ -1,0 +1,188 @@
+From - Sat Jul  9 08:29:27 2022
+X-Account-Key: account1
+X-UIDL: ALfRu5BtdOaPYsmBjQl5yMKJeeI
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.152.9
+ by atlas117.free.mail.ne1.yahoo.com with HTTPS; Sat, 9 Jul 2022 13:24:28 +0000
+Return-Path: <Nicole.Colbert@dc.gov>
+X-Originating-Ip: [40.107.91.56]
+Received-SPF: pass (domain of dc.gov designates 40.107.91.56 as permitted sender)
+Authentication-Results: atlas117.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@dc.gov header.s=selector2;
+ spf=pass smtp.mailfrom=dc.gov;
+ dmarc=pass(p=NONE) header.from=dc.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 9 Jul 2022 13:24:29 +0000
+X-YMailISG: MNOTWpMWLDv7oB6VmAhKVnwkrNDTdS1qw0t3hD4ciqWAAgo1
+ Z_xk0OjvMXAxnSGSIor441MsrZ0TcztmRmZelOXio..bms7DGBen7zbXnEN6
+ EpcLSHCil3vrq.rHZHf2Tt46PGqqe917O7HeK7EssoMNevQnFGEiEAg2Gqxo
+ rXrnDKoW1P1FZMhVAHDExr4bEvi9a68.H2bU8MhfcKvTofu2XaNDcWE1rBl.
+ _j_B2nKe29TKR0J6NqC58F.lVKyODaQ1VtE7OeP_4OjfATUUTlHeoMqmRMDM
+ ZdHlkt535_XsFpgHla2X4xaGVXuCgYnhAecsMhfsGLrxZ2WAtpHIGBaoz4gc
+ 133p13Pw1qBVrSvbvYLCEzX.lUHv1gXhh7d91rLuVVEUCQ3u7tN1eaYNbW0B
+ TjDQ.dVsmLsfsMh97ndc6J6PryZcd01d8ur_HevSPv80aLRjP7ScSAmEQPW8
+ J3oEcMEy9xZ.W_63auPCnftrfUdeu7vkNx5sBvcMHyndsjszQSdQHLS1rBwl
+ kkp6ZCniEIoLyu0CnHflIUuGCB8tSLq1P4l_FSzs2JXjrKaX2MmFMzj8nJBr
+ z.dq79uXrRQ_.kxWlwZQF1YPU0.idUfSc2xSAAbmtgBFVKstux9lRNreCoi1
+ CLnoQf1z5GxdxJoEwFzOkVrkCnFRWf_iwX83Vgs1z_I140rhanggyicuftdP
+ dYgBcsoOi5wsV6qqo38z5UmbjNvkG1NLTnzto5pvZ3RS0b6lStPhzGkZaF3r
+ FBNle5PQkHEOt6Ba9OT9ILCIaU3XgrzhydarrMPcfnyO.yxkUc_KWp_REKWm
+ hBVoe1IX18MOcIHxTZH9nGZzLf1kBQfRSXMoZUIpWA.XV450fL6NCGzsanSV
+ JsxhyOkp8dTAkd95nN.EAv8b5_wFuhPPtL4T.721b2q5mmS38cIdehZNWtKO
+ GySM7Tm3btxVNr6cWMl5vT1mE4RPNArpL7pDDn6lfMFQ9bg8H1d2jTPvldhM
+ 1JIU20IpcID4ww2m_lIEC5PQyXcK6ePXiYCeuu_2_NgMheZ32WgusvHPflQO
+ gsgyf1LCn.LSQw9VTTHZrouvRb3uxFX3RdE_TFqbGAGPExYGKL5SUEugokDB
+ i6E_EDk.1Frd1C10x0E7ZQh2Zf_cNHvZ_k4lFSssX20EjQVQ_hBVbdopu0xp
+ G1Hkgw4UA4TNAD_CkJ2sHAjPZi77VhX0c_t2MmT7r28rV6DWleImNd77bNky
+ qhejGqPb7bdp3wIck7HLfTvINFKVOt7NcD8YsnMcjOxJgapqbp1AmqAPlGa0
+ Wijop3RJ0gcdBh9V83_Zrg--
+Received: from 40.107.91.56 (EHLO GCC02-DM3-obe.outbound.protection.outlook.com)
+ by 10.217.152.9 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sat, 09 Jul 2022 13:24:28 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=FoBe1l9Ba1JcZtfRDsmCfrst2KiKKFCsfT9Jz3HERVefcBdwQzWs9ICPq2hXj4jNyId1/ryN60xHZCsAWtyibVo62jbV+Dm1s+fZF3d6evCIBLw8Mu7UbLirnOlO6GTpdrtEzKrAmfqsLX/u2VW+dWtHxfUrEwcZAJf/VnQuDUEneEEAuK/eRVXuzfKBZsub9MZLhbmE/a41YR4kynV+rfVBYspsBdLInnY8ieuvfepMFL/N4CgxGQGmtat5wICWegcXYcGu89B4ghTCKf8pKaZ6n6egu49GPBRDIoxIcUJnA5o0fxEQRPi/pCRZ1zivzTan+xlGdxAQNSEBkL0btQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=9BE6laGB5UyObw1BtxUbxD/iT/4UKyPEz7S8PFWvL6U=;
+ b=VLQKozkG0HEzHAtzEtaHosOe4CIy7v5WIFt49GThqDqJNbrvfX0SbOF+lg7XIBm6m3fwjlloc94IAnvgaMwq1aDg2THOUMoPYV0ZllBzmrXKuRbLR46uui1MGGzkzXKoJxMLtadEeXDvvfC9qy0e/u21ZHCLwkHDVzoXxZRVhPX6WPrZoOy0hPtStYw7Gl4fXZkhC3v+BrQyVH6yva0YpwbgjQaDMjWzCtum1ca0BIfS9JUQbClpSdnXMthoWDE7t2MhNrYG/3E7zsCI43fo1iEjcdokTsBSvM/U5+4hV0YcXVg7Gx54FY05m4VFsBAzSaXcYvI6AWl66wGtwEeRxA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=dc.gov; dmarc=pass action=none header.from=dc.gov; dkim=pass
+ header.d=dc.gov; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=dc.gov; s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=9BE6laGB5UyObw1BtxUbxD/iT/4UKyPEz7S8PFWvL6U=;
+ b=giMmHRywUcEf7gkMydrDA4c7kT1JsPWtFfhHTuWV9uVfJCi2TgtV3//L3a1+I1YSWbz+qEsYyPzdx21NNG47+6CVMn2GRmE78lO/KQ+Ng+l59O/IJlACzYK4UTfeVj/CNQHb/bwgui6w6831OnQaQJtpjvFsW5BRGgFtg5A1P0jKdx8Wm/j2NAdUDV+ss46Mut6D4mdXAaatE62JSXboyVM2hGdVq39lfN7/2exToGXQWdjTIGrOzZLB2PZtKUx4mLT6f+ILRDJNysLQrNIuyDeC9QQGGdbIGfj9Abv7gDSWKFB4y2gZRMTvX6imyUlmSxwb4gYjaq6APhz6x4+gwg==
+Received: from SA9PR09MB5726.namprd09.prod.outlook.com (2603:10b6:806:4b::19)
+ by SA0PR09MB6396.namprd09.prod.outlook.com (2603:10b6:806:7f::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5395.14; Sat, 9 Jul
+ 2022 13:24:26 +0000
+Received: from SA9PR09MB5726.namprd09.prod.outlook.com
+ ([fe80::e4be:5af0:840:dd7a]) by SA9PR09MB5726.namprd09.prod.outlook.com
+ ([fe80::e4be:5af0:840:dd7a%5]) with mapi id 15.20.5417.023; Sat, 9 Jul 2022
+ 13:24:25 +0000
+From: "Colbert, Nicole (DOC)" <Nicole.Colbert@dc.gov>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: Fwd: RECEIPTS AND LINKS ATTACHED. don't ask about my ankle.
+Thread-Topic: RECEIPTS AND LINKS ATTACHED. don't ask about my ankle.
+Thread-Index: AQHYk5KAsUMge08j80+dHAjZUm3GRg==
+Date: Sat, 9 Jul 2022 13:24:25 +0000
+Message-ID: <e5cbcc4121d747cdb45ee907d3e1ec07@dc.gov>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 431dff7a-14e7-4dfa-4df8-08da61ae583f
+x-ms-traffictypediagnostic: SA0PR09MB6396:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ 1F33rjFM1pS/ZxPFpdk4qKM1Wm3RH0fdF77yNvP2LH4axuwp79iJMXD2E9H7TJkWgFxhq8Kb5d39dZ0Oz/YyGm5qJpLjA2njaTtRa3rINuLknXCsI3VLRsDuqJkIkzIspWO0l4a4K3TBr/PLuQHqNBuKnkphaqC1gH5xGyI8en42Hwi61uzemTQI0JXWsqztymWeoNrDnEM8U1nVWurTv+2rGElyB0n4R0PVpDCMzE8lDHYbnNRhy+SXuonffP9vkOM2T7Stv4ktoAJmWC1au5rEykwgKuYoCFVIs7mWqACWoNjY2nuP0T8RUFhJv39HSCMtbdigifhBZOrHmv7BbgW2v/K8YgI2QM9MgeY6nR9BlsEUNp4Xi7Id37adHdP5WCPRiOe5m3/gwR+8ZBWXNltC3bvMNIsfN00MG4a/tsHty4CpPG3G6cF4MPVcAHegJiKNSafYoyF9ypBGcJwNWah2tggYdbSaX/nQNxawVb4nvXypuBEmmgPEwSyfmLAw
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:SA9PR09MB5726.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(366004)(6486002)(88996005)(6916009)(6506007)(24736004)(186003)(73894004)(498600001)(86362001)(122000001)(2616005)(108616005)(6512007)(4270600006)(621065003)(71200400001)(64756008)(66446008)(8936002)(66946007)(66476007)(8676002)(66556008)(2906002)(36756003);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?rSeRQNxxoZWCl1wf17PxUEvKu5WVfzXwVznFNOKsOPC5aVYs3SbhFEk5ippi?=
+ =?us-ascii?Q?1UIDeqVLWteqREjScUZ24dGsXr4tAMICfY1Ey9acqWcZg8CARbmxHaCO0Ni5?=
+ =?us-ascii?Q?T0bFQprtfQonNHQP2uokJGc+Lat4+ldbbiwKJzhy7VIi3szSJUDVCDPErmVM?=
+ =?us-ascii?Q?rFTz6GLcifquweB5RHXR40scCrdAgJ5JB9AEAdQuG3lpbWU238dwthj+wg9X?=
+ =?us-ascii?Q?mN+rneiIqEI/pjNm01/pxWVGJdH8e3Lgepr2uAYJjs9JEj4D9KD7+CiNVjCt?=
+ =?us-ascii?Q?aJTVWPVTMIlXtNUYKYrxhO0xyXJhr4ZJ4qfRNiTq49UXuXb+bgxjZiYtTyGo?=
+ =?us-ascii?Q?UUrdFCdEOBNJUYSzSs9K8rzxHVy5cqelWaVhj1/SirVnf1B6y0TZXt6wUCRd?=
+ =?us-ascii?Q?Te1UC/hAJWtLatXKVRLlQqf5UwnzbHepUmswOK77bbZGMlyBvn/CmMsruUKX?=
+ =?us-ascii?Q?V0lX96CpGAQjkzb3ybttM5qbzT77UiZL+WqVnYs7Uo+PcRU913iYkrjpdg15?=
+ =?us-ascii?Q?teMkS21LKQ4S4hqIUne6rqKfbLDI8I35ahZM+yNQLjVGYhzU5gNXHfmTiFOo?=
+ =?us-ascii?Q?Jn9TrAMlyhWcXjkAwseKOlkxNGn+Ycu8BD7a2BSIVKnv/ouF7N4F76eGs2aS?=
+ =?us-ascii?Q?THIOf/WsmdUyO3TAqVWoJ3o3FnA/73Kfm3wX/BM6YbdoW/WMGyiNcmqp4mlU?=
+ =?us-ascii?Q?I0SYk0MoZssEAsrjfnYUNrH0d/cZhkmHwWO8PKj11f9fyKk9gcKHOppf60Vl?=
+ =?us-ascii?Q?Dj26L2RwId0fNO4Op4lg0aY4h5mCuWrS/3fF5atdRm7d/IV+Oy9mzxKhPmo6?=
+ =?us-ascii?Q?uqRSjMaADlUUn0ZhExYbJH/tL+QryMusrGtYJweTYp2VrAAHwShRr54yJhuv?=
+ =?us-ascii?Q?xINjJWDd93Uz774Ab7pHalBezwsbozg1ykKJL11i7boazfF2L7gQUK1/e2sp?=
+ =?us-ascii?Q?akRIP0JMg+RjLTbxnp+WKAqn79cTAM/mpndSpgPTqo+QOEW1QaAIL34hTAjW?=
+ =?us-ascii?Q?xdgUgTerkC403/TXFaIxt5lBnrZ9G6TbluTZhD/I559owGKq1uYTyfhNLAqs?=
+ =?us-ascii?Q?0v6eJeMYff80sXRU00GTZ9fGL6Skt6RDHgLosXEe5YZtbwgApcUYgtQjfsz/?=
+ =?us-ascii?Q?h5me0+JEMOrVKIlh0JM6CfPVj2aM1lO9mKUBeu3iNQ1xRSP4FKpOmipUzX7p?=
+ =?us-ascii?Q?8f8cgMywGG2z4xx0bdRIB7kv47RxZcEKJQe2F+F5VjDueZo/2SkAJM6DyOm6?=
+ =?us-ascii?Q?J0atEkpADXe6BV57rT5THAa/ND19AQ7EpEWOWnB7hkLe+6IVRKfC2YRgE0Ia?=
+ =?us-ascii?Q?Ra99tlgHTc1P+FnBe0lKwmmq9+CD/LYZx0MpnCQdrPj4e54RgRCYVI72yWKq?=
+ =?us-ascii?Q?3RYWDzXMG9wWvEhcPZFR2HD2Bb0sr+Y0QsiE+56vwp8wYEYeO3JsyQd2NHOT?=
+ =?us-ascii?Q?c/mp6iPzldCVvP0/E22XiktxnpnJAGzJnmHWX89PylGvt7qsIhfn9w=3D=3D?=
+Content-Type: multipart/report;
+	boundary="_000_e5cbcc4121d747cdb45ee907d3e1ec07dcgov_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: dc.gov
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: SA9PR09MB5726.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 431dff7a-14e7-4dfa-4df8-08da61ae583f
+X-MS-Exchange-CrossTenant-originalarrivaltime: 09 Jul 2022 13:24:25.8781
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 8fe449f1-8b94-4fb7-9906-6f939da82d73
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SA0PR09MB6396
+Content-Length: 1947
+
+--_000_e5cbcc4121d747cdb45ee907d3e1ec07dcgov_
+Content-Type: multipart/alternative;
+	boundary="_002_e5cbcc4121d747cdb45ee907d3e1ec07dcgov_"
+
+--_002_e5cbcc4121d747cdb45ee907d3e1ec07dcgov_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Colbert, Nicole (DOC)
+   Subject: Fwd: RECEIPTS AND LINKS ATTACHED. don't ask about my ankle.
+   Sent: Saturday, July 9, 2022 8:50:05 AM (UTC-05:00) Eastern Time (US & C=
+anada)
+
+ was read on Saturday, July 9, 2022 9:24:25 AM (UTC-05:00) Eastern Time (US=
+ & Canada).
+
+--_002_e5cbcc4121d747cdb45ee907d3e1ec07dcgov_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Colbert, Nicole (DOC)<br>
+&nbsp;&nbsp; Subject: Fwd: RECEIPTS AND LINKS ATTACHED. don't ask about my =
+ankle.<br>
+&nbsp;&nbsp; Sent: Saturday, July 9, 2022 8:50:05 AM (UTC-05:00) Eastern Ti=
+me (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Saturday, July 9, 2022 9:24:25 AM (UTC-05:00) Eastern Tim=
+e (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_e5cbcc4121d747cdb45ee907d3e1ec07dcgov_--
+
+--_000_e5cbcc4121d747cdb45ee907d3e1ec07dcgov_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; Nicole.Colbert@dc.gov
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: r3bs/nt4nEKV9uLwZvKoOg==
+Original-Message-ID: <13d0d209-7d16-0a99-f689-0fb83b9a3058@yahoo.com>
+X-Display-Name: Colbert, Nicole (DOC)
+
+
+--_000_e5cbcc4121d747cdb45ee907d3e1ec07dcgov_--
