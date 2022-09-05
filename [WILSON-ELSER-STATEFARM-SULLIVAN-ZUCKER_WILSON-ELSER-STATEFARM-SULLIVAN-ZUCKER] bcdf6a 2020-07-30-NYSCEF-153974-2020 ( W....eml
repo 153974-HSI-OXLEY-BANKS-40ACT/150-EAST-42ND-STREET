@@ -1,0 +1,566 @@
+From - Tue Jun 28 03:06:01 2022
+X-Account-Key: account1
+X-UIDL: AJx3vH0WId0dYrq2JAb1QOkKVOM
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.234.150
+ by atlas317.free.mail.gq1.yahoo.com with HTTPS; Tue, 28 Jun 2022 08:04:52 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.208]
+Received-SPF: pass (domain of github.com designates 192.30.252.208 as permitted sender)
+Authentication-Results: atlas317.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 28 Jun 2022 08:04:52 +0000
+X-YMailAVSC: UaAz0j03bBtU0NqXhZV3gGZ4zFMluLAtjXvhgyWytDqrqFr
+ oD8Qz3JCvNtDEn13jImQvwybBjZgALdP6MDWKv28iAEeE3sa0zy3u36i1UFQ
+ RYArsLw2ggMa1ihBqDUCzKjmVHmsd3S7OLDz2qF7SjX9PPHrWJ3iSNrg7Em7
+ lLfSTyR27NmQ5B3Ons.g7X1hyFdGjs1YlCqPAuLnHi_FEhu2vONNaM0FLK_V
+ oP_hLLdytYfP.fG0yqmOPs1DdEIz60zkb0a7h9Jk0AegdxwDasTiift_snpm
+ NM8qYMixJNLknjuFPbSXZSzgv9_yOg0ANogYXI9DjrGq0LfTxEpJawFlqrHB
+ 3T6o-
+X-YMailISG: ZIE4Ti4WLDveF6GFSqI8ACKB7KREEDuSIyXBvBA4YDG1RLET
+ 550Ion582qceev5X2ozvPeSQ9zjNwCLeXbkOBbu1vvGcGEpKwGyU2c0HZnUt
+ vmubyOeiU4XMOiatBDcq5LINoR0iJB0poie_LMc2h37sDmecFxbOqsx.OXng
+ WWZ0WDg44ZN0el4oWM3oOZnXucI5HEy2M3haYrFpcxXXZ1ooQ.zhyF9YNMnf
+ n9Wx9R1RkHK4NFtgFggeLRtlTziU12ylb_G0Na2byjS2HG75qvBPVOU5AQ81
+ 8LwXmvWAQT_7UTKKcXNyXH.23quIct4huPfwPTq.sM0DoFNAQqYl3yUWefTs
+ cn1wUBt_TPkylUBWitQr4tUbfbgtfVcN63qYFxl_Hp7oMZSi5vD8Fmf2z6fq
+ 7E3pm8FzC6iNPkxnF7H5F0g5jMScCUgehPHvpo5BpEhEYyOM3O5lablOw6AX
+ 85UnENHFJbLKQYj3uXaPmDubPDEFLJtgbaSUMm_Hjf0iL51.Q8i_jXvmPW5w
+ _Ct23BB_619EoXhT6qQAURpRN9ounkDa77TdNiDZXqoeRIF6_ab.32.tVE.x
+ 2QrJ.2RlysyLquQo8G5jAXY3hqOhtGQLXH0hDooAfkH_78Hz8jZLICft9PZm
+ ZdeBmsubXX3oZZmbiey8GdXk__UtE9_ffm1vCiynjKwrqLGKGeS_zuMhjA0r
+ xcRV8LxAxGugjCxCv6EpJ49C2u_HECMJd9jSKXA7ddoMyPK1vpMPjcCk20bm
+ agL__Trl3l6LnMKPewgr.mYRjqZ_yXh1mZ0oGq3dLkiNiuKeXKsqPf0w_XXl
+ x.K9vignMBPV80Df.LaswgU7txq9qNdJwgWgYX8F3b.WTikK9BUFA_xCCNTf
+ qg._Rg.Rhkr_7m0MFF2hiVBo1fiGdTM8azHNQEMuWJlRRfxbW3owSRYrjTow
+ .HNwXeRz6pSMa7jSsMvwk1rmUvWM81qtW6H.VGhfkfUl0GRXWNdBTFMzIlhb
+ 6LBRUS6VYXAbH6go4__PHUmJwxPalZsfv.fSGGzxhAHHxMhcc8F9Rm1IF8os
+ VjfRa4pVgWkRgepMRAEdyY2MScZQeaZ8ytWctBwCvSsD4eyXb_iF2LjwBJzC
+ JPKdxAgBRoCQVXp6whee251snaM1Fk76rFk.gAsbYwafz9bFpgWEP5JnoMN7
+ 3q8TfUJ_DJ5IUWN92z.hZlekLEfpq4wUZ8xzxA--
+Received: from 192.30.252.208 (EHLO smtp.github.com)
+ by 10.253.234.150 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 28 Jun 2022 08:04:52 +0000
+Received: from github.com (hubbernetes-node-727d397.ash1-iad.github.net [10.56.226.35])
+	by smtp.github.com (Postfix) with ESMTPA id 3DDC384029A;
+	Tue, 28 Jun 2022 01:04:51 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656403491;
+	bh=z6Fj/PXlQKNAQGPlG8biPZ+cvdGkBcn1mQ4SQ1H462c=;
+	h=Date:From:To:Subject:From;
+	b=l7ziX93Gbp3y+F/mPoSxI9pCvrtuoG7oME3hL3O1qvfFUC2urD+7uA7a4l+qGQnww
+	 hDJi3yuWaCCi02KVt3PUp7qibzSJg9TxT5p+Dyz007lEZYZbG31BHVZqRov2EfBz5P
+	 /jBafAiVL0Mz3Thr9jFNNWqL/NNfHGrVy/fZjXik=
+Date: Tue, 28 Jun 2022 01:04:51 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ financialeducation@info.consumerfinance.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/MSG-MULE1/c00fd4-bcdf6a@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ bcdf6a: 2020-07-30-NYSCEF-153974-2020 ( WILLFUL PARTICIPAT...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,financialeducation@info.consumerfinance.gov
+X-Auto-Response-Suppress: All
+Content-Length: 25971
+
+  Branch: refs/heads/MSG-MULE1=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: bcdf6a21b33a515c640157a0c28cc7c2363f7806=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/bcdf6a21b33a515c640157a0c28cc7c2363f=
+7806=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-28 (Tue, 28 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    A 2020-07-30-NYSCEF-153974-2020=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  2020-07-30-NYSCEF-153974-2020 ( WILLFUL PARTICIPATION TO OBSTRUCT ME - =
+AND DELAY THEIR INEVITABLE CHARGES )=0D
+=0D
+2020-07-30-NYSCEF-153974-2020 ( WILLFUL PARTICIPATION TO OBSTRUCT ME - AN=
+D DELAY THEIR INEVITABLE CHARGES  AT ANY COST - APPARENTLY )=0D
+USC 18. VIOLATIONS ANNEXED IN NYSCEF 153974/2020 [ LOAN 50074 ]=0D
+>>      	Received: 07/30/2020=0D
+>>=0D
+>>      THEY FILED IN THE WRONG ZIPCODE ON THE 5TH OF JUNE, 2020. 10018=0D=
+
+>>     >> dy-no-mite=0D
+>>>     Received: 07/30/2020=0D
+>>=0D
+>>      144 	CONSENT TO EFILING by yours truly.=0D
+=C2=A72. - Principals (a) Whoever commits an offense against the United S=
+tates or aids, abets, counsels, commands, induces or procures its commiss=
+ion, is punishable as a principal. (b) Whoever willfully causes an act to=
+ be done which if directly performed by him or another would be an offens=
+e against the United States, is punishable as a principal.=0D
+=0D
+=C2=A73. - Accessory after the fact Whoever, knowing that an offense agai=
+nst the United States has been committed, receives, relieves, comforts or=
+ assists the offender in order to hinder or prevent his apprehension, tri=
+al or punishment, is an accessory after the fact. Except as otherwise exp=
+ressly provided by any Act of Congress, an accessory after the fact shall=
+ be imprisoned not more than one-half the maximum term of imprisonment or=
+ (notwithstanding section 3571) fined not more than one-half the maximum =
+fine prescribed for the punishment of the principal, or both; or if the p=
+rincipal is punishable by life imprisonment or death, the accessory shall=
+ be imprisoned not more than 15 years.=0D
+=0D
+=C2=A74. Misprision of felony Whoever, having knowledge of the actual com=
+mission of a felony cognizable by a court of the United States, conceals =
+and does not as soon as possible make known the same to some judge or oth=
+er person in civil or military authority under the United States, shall b=
+e fined under this title or imprisoned not more than three years, or both=
+.=0D
+=0D
+Filing User Shari Laskowitz | slaskowitz@ingramllp.com | 2129079600=0D
+=0D
+150 East 42nd Street 19th Floor, New York, NY 10017 Filed: 07/21/2020=0D
+https://iapps.courts.state.ny.us/nyscef=0D
+=0D
+*****     [USC 18, =C2=A7225]+[USC 18, =C2=A721]+[USC 18, =C2=A7215]+[USC=
+ 18, =C2=A7241]+[USC 18, =C2=A7373]   <**voicemail attached>*<br>=0D
+*****     [USC 18, =C2=A7241]+[USC 18, =C2=A7216][USC 18, =C2=A7218]+[USC=
+ 18, =C2=A7229B]<br>=0D
+*****     [USC 18, =C2=A71962]+[USC 18, =C2=A71963]<br>=0D
+*****     [USC 18, =C2=A72]+[USC 18, =C2=A73]+[USC 18, =C2=A74]<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+c3iexOlBwsgc1lnMJ2_PLUS_AqQ=3D=3D<br>=0D
+*****    under  [USC 18, =C2=A7225]+[USC 18, =C2=A721]+[USC 18, =C2=A7196=
+2]+[USC 18, =C2=A71963]+[USC 18, =C2=A7241]+[USC 18, =C2=A74]+the despera=
+tion of [USC 18, =C2=A73] =3D priceless<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+au8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+PWFQc/WFihoyIKwEunaalQ=3D=3D<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+COy_PLUS_fGGrxcNqhj5mZodapA=3D=3D<br>=0D
+*****    GOOD LUCK EXPLAINING THAT TO HIDE 1 BILLION IN LOSSES TO AVOID P=
+ROSECUTION IN A VIOLATION OF PRIVACY CASE<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+LMUE9g_PLUS_k6vCmKgfCSJEzuQ=3D=3D<br>=0D
+*****    ABUSE OF THE NY SUPREME COURT, CIVIL PART IN 2020 <br>=0D
+*****    DURING THE COVID-19 PANDEMIC - SEE ALSO LOSSES SUFFERED IN ONE U=
+PON DISCOVERY OF THE MATERIAL FACTS<br>=0D
+*****    TICKERS: STFGX, SFITX, SFBDX, STFBX<br>=0D
+*****    - WITHOUT THE ABILITY TO ENVOKE A TRADE RESTRICTION OR EFFECTIVE=
+LY, AN "ESTOPPEL"<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+cve65PXNBCtdxjJFkfwUnw=3D=3D<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+au8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+LMUE9g_PLUS_k6vCmKgfCSJEzuQ=3D=3D<br>=0D
+*****    UNLAWFUL ASSETS IN CUSTODY AT JP MORGAN CHASE BANK, NA<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+R9aac7D6DBJZ1wsiq0b38A=3D=3D<br>=0D
+         &nbsp;&nbsp;&nbsp;*****     *****     *****     *****     ***** =
+    *****     *****     *****     *****     *****     *****     *****    =
+ *****     *****     *****     *****     *****     *****     *****     **=
+***     *****     *****     *****     *****     *****     *****=0D
+=0D
+On 6/27/2022 3:11 PM, Bo Dincer wrote:=0D
+> Yep.=0D
+> /S/ BO DINCER=0D
+>=0D
+>     ----- Forwarded Message -----=0D
+>     From: "MILTON MCKENZIE" <ms60710444266@yahoo.com>=0D
+>     To: "B D2022" <ms60710444266@yahoo.com>, "60710 BD. 153974" <bdince=
+r66@icloud.com>, "ashley.humphries@wilsonelser.com" <ashley.humphries@wil=
+sonelser.com>, "kidsprivacy@viacomcbs.com" <kidsprivacy@viacomcbs.com>, "=
+ricki.roer@wilsonelser.com" <ricki.roer@wilsonelser.com>, "BD" <bondstrt@=
+protonmail.com>, "60710 BD. 153974" <bo.dincer@yahoo.com>, "American Bar =
+Association" <abanews@americanbar.org>, "stephen.barrett@wilsonelser.com"=
+ <stephen.barrett@wilsonelser.com>, "william.behr@wilsonelser.com" <willi=
+am.behr@wilsonelser.com>, "nibal.pena@nypd.org" <nibal.pena@nypd.org>, "c=
+hristina.ortiz@nypd.org" <christina.ortiz@nypd.org>, "brittany.postiglion=
+e@nypd.org" <brittany.postiglione@nypd.org>, "wmckenzie@nycourts.gov" <wm=
+ckenzie@nycourts.gov>, "john.lamneck@nypd.org" <john.lamneck@nypd.org>=0D=
+
+>     Cc: "lauren.zink@wilsonelser.com" <lauren.zink@wilsonelser.com>, "e=
+rin.zecca@wilsonelser.com" <erin.zecca@wilsonelser.com>, "ellyn.wilder@wi=
+lsonelser.com" <ellyn.wilder@wilsonelser.com>, "patricia.wik@wilsonelser.=
+com" <patricia.wik@wilsonelser.com>, "angel.vitiello@wilsonelser.com" <an=
+gel.vitiello@wilsonelser.com>, "aviva.stein@wilsonelser.com" <aviva.stein=
+@wilsonelser.com>, "suzanne.swanson@wilsonelser.com" <suzanne.swanson@wil=
+sonelser.com>, "grace.song@wilsonelser.com" <grace.song@wilsonelser.com>,=
+ "urvashi.sinha@wilsonelser.com" <urvashi.sinha@wilsonelser.com>, "jennif=
+er.provost@wilsonelser.com" <jennifer.provost@wilsonelser.com>, "kathleen=
+.mullins@wilsonelser.com" <kathleen.mullins@wilsonelser.com>, "carole.nim=
+aroff@wilsonelser.com" <carole.nimaroff@wilsonelser.com>, "meghan.rigney@=
+wilsonelser.com" <meghan.rigney@wilsonelser.com>, "ricki.roer@wilsonelser=
+.com" <ricki.roer@wilsonelser.com>, "angelique.sabia-candero@wilsonelser.=
+com" <angelique.sabia-candero@wilsonelser.com>, "jennifer.sciales@wilsone=
+lser.com" <jennifer.sciales@wilsonelser.com>, "elizabeth.scoditti@wilsone=
+lser.com" <elizabeth.scoditti@wilsonelser.com>, "lois.ottombrino@wilsonel=
+ser.com" <lois.ottombrino@wilsonelser.com>, "judy.selmeci@wilsonelser.com=
+" <judy.selmeci@wilsonelser.com>, "stacey.seltzer@wilsonelser.com" <stace=
+y.seltzer@wilsonelser.com>, "lori.semlies@wilsonelser.com" <lori.semlies@=
+wilsonelser.com>, "corrine.shea@wilsonelser.com" <corrine.shea@wilsonelse=
+r.com>, "andrea.shiffman@wilsonelser.com" <andrea.shiffman@wilsonelser.co=
+m>, "yana.siegel@wilsonelser.com" <yana.siegel@wilsonelser.com>, "debra.t=
+ama@wilsonelser.com" <debra.tama@wilsonelser.com>, "craig.brinker@wilsone=
+lser.com" <craig.brinker@wilsonelser.com>, "craig.hunter@wilsonelser.com"=
+ <craig.hunter@wilsonelser.com>, "curt.schlom@wilsonelser.com" <curt.schl=
+om@wilsonelser.com>, "daniel.flores@wilsonelser.com" <daniel.flores@wilso=
+nelser.com>, "roger.gottilla@wilsonelser.com" <roger.gottilla@wilsonelser=
+.com>, "sean.wagner@wilsonelser.com" <sean.wagner@wilsonelser.com>, "thom=
+as.manisero@wilsonelser.com" <thomas.manisero@wilsonelser.com>, "brittany=
+.postiglione@nypd.org" <brittany.postiglione@nypd.org>, "William McKenzie=
+" <wmckenzi@nycourts.gov>=0D
+>     Sent: Sun, Jan 30, 2022 at 11:20 AM=0D
+>     Subject: *** Assigned Judge: Shlomo S. Hagler --- TY FOR GETTING TH=
+IS TO THE RIGHT PRECINCT IMMEDIATE.  >> 153974/2020=0D
+>     ATTORNEYS ON THE RECORD FOR THE MATTER REPRESENTING THE ANNEXED ENT=
+ITIES, NOTWITHSTANDING ITS:=0D
+>=0D
+>         Members, Providers, Affiliates, Agents, Officers, Directors, Vo=
+lunteers, Employees, Contractors, and Principals are being drafted in a N=
+Y SUPREME COURT as a conglomerate of: THE ZUCKERS, THE YUZERS, THE ELSERS=
+, AND THEIR ACCESSORIES...=0D
+>=0D
+>=0D
+>     101 WEST 55th STREET, NEW YORK, NY,     10019=0D
+>=0D
+>         PAUL R. REGAN, ESQ.    [NYS BAR # 2623577]=0D
+>         JOSEPH J. GIAMBOI, ESQ. [NYS BAR # 2104396]=0D
+>         DANIEL F. SULLIVAN, ESQ. [NYS BAR # 2383347]=0D
+>=0D
+>         WHERE DO THE ZUCKERS WORK FROM, THEY ALSO TRIED TO PEACOCK THE =
+PROSECUTION OF THE NYPD...=0D
+>=0D
+>     150 EAST 42ND STREET, 19TH FLOOR, NEW YORK, NY,    10017=0D
+>=0D
+>         SHARI S. LASKOWITZ, ESQ. [NYS BAR # 3043015]=0D
+>         CORY L. WEISS, ESQ.   [NYS BAR # 2327187]=0D
+>=0D
+>         "...LOCATION..."=0D
+>=0D
+>     >>> RICKI E. ROER, ESQ.   [NYS BAR # 1838549] <<<=0D
+>          notarized by the ELSERS ///=0D
+>           see also  docket 33. 153972-2020; Ashley v. Humphries =0D
+>         =0D
+>           =0D
+>     received a confirm from your paralegal Miss Roer...      =0D
+>     Tel.: 281-330-8004.=0D
+>             =0D
+>     A rough draft in progress... EX-POST FACTO...  WHO ELSERS ON THAT L=
+ISTSERVE BTW.. ASK MCKENZIE.=0D
+>        =0D
+>     1.    NOW WHERE THE F*** ARE MY TAPES;         ?=0D
+>     2.    PHOTOGRAPHS,                                                 =
+  ?=0D
+>     3.    AUDIO; AND OTHER RECORDS VIDEOTAPED THE INTERIOR OF MY APARTM=
+ENT, AS ANNEXED BY THE CON-PLAINTIFFS. ?=0D
+>=0D
+>          =0D
+>     WITHOUT MY CONSENT...=0D
+>          =0D
+>     >>> in the matter of 153974/2020, =0D
+>     >>> I BCCED the proper NYPD Precincts here as well for you, who dem=
+onstrably are capable of using their emails as well.=0D
+>            =0D
+>            =0D
+>        =0D
+>=0D
+>=0D
+>     PART 1.01          WRITTEN DOCUMENTATION, ENTERED IS AN INVASION OF=
+ MY PRIVACY BY DEFENDANTS IN THE CAPTION AS REFERENCED HEREUNDER.=0D
+>     ARTIFACT NUMBER [1]                      NYSCEF DOCKET 32: THE AFFI=
+DAVIT OF MIWAKO G. MESSER.=0D
+>                        (i)     ANNEXED here is [X01], EXHIBIT 1 and in =
+the AFFIDAVIT of MIWAKO G. MESSER aided and abetted the invasion of my pr=
+ivacy, demonstrably in her daily recount of my personal life and as part =
+a part of her daily tasks and affairs attested further under penalty of p=
+erjury:=0D
+>     1)          Observed from the corridor myself positioned and in her=
+ 22ND item of record, on the 27TH of April - myself as:=0D
+>         =E2=80=9C=E2=80=A6banging against the radiator=E2=80=A6=E2=80=9D=
+=0D
+>=0D
+>     ARTIFACT NUMBER [2]                      ANNEXED here is [X02], EXH=
+IBIT 2, and in, consideration of the ARTIFACT NUMBER [1], as ANNEXED IN T=
+HIS MATTER as items X01 and X02:=0D
+>=0D
+>                                            viii.     ITEM 21=0D
+>=0D
+>     3 April 2020.                       Defendants attest and document =
+to a =E2=80=9C=E2=80=A6chronicle=E2=80=A6=E2=80=9D in light of the 1/8=E2=
+=80=9D hole that was drilled and reported on the 28TH of March, as a basi=
+s of cause for the six hundred dollars in damages paid to replace a light=
+ fixture and paint a wall;=0D
+>=0D
+>     2 April 2020.                           Attest and document to myse=
+lf using a hammer.=0D
+>=0D
+>     2 April 2020.                           Attest and document to myse=
+lf building a bed.=0D
+>=0D
+>     2 April 2020.                           Attest and document myself =
+hanging two chandeliers from the ceiling.=0D
+>=0D
+>                                               ix.     ITEM 22=0D
+>=0D
+>     3 April 2020.                       Defendants attest and document =
+another resident email regarding the work conducted in the residence, whi=
+ch was completed as referenced in the latter images entered; the Mirror w=
+as hung in good taste.=0D
+>=0D
+>                                                 x.     ITEM 23=0D
+>=0D
+>     4 April 2020.                       Defendants attest and document =
+the building superintendent=E2=80=99s coordination of Defendants=E2=80=99=
+ purported residents and entered a photograph of cigarette butts and used=
+ this image on several occasions as referenced in the AFFIDAVITS of the e=
+arlier BRANDON as entered in the County of Alameda, in the State of Calif=
+ornia, which is also not in the ZIP-CODE 10018.=0D
+>=0D
+>                                               xi.     ITEM 24=0D
+>=0D
+>     11 April 2020.                     Defendants attest and document t=
+o several emails circulated internally by Defendants which in this case t=
+he Defendant was in the State of California, Notarized the same and enter=
+ed separately in the ANNEXED email in EX04 =E2=80=93 entered an additiona=
+l Docket Number 14 under the false light of Alexis Brandon under the ausp=
+ice of the ZUCKERS distributed, tampered, adjusted, and have not returned=
+ any photographs or videos as requested in email, letter, and by telephon=
+e =E2=80=93 notwithstanding myself positioned and =E2=80=9C=E2=80=A6bangi=
+ng on the radiator=E2=80=A6=E2=80=9D on the 27TH of April, 2020 =E2=80=93=
+ which I affirm as ANNEXED in the AFFIDAVIT of MIWAKO G. MESSER, as I rec=
+all this intimate encounter in the flesh =E2=80=93 was a trespass of the =
+sanctity of my home while in the nude as seen from the corridor and the g=
+azing eyes ANNEXED and entered by Defendants in the matter.=0D
+>=0D
+>                                              xii.      ITEM 25=0D
+>=0D
+>     11 April 2020.                     Defendants attest and document t=
+o the mother of a resident, ANNE BRANDON =E2=80=93 after having entered t=
+he AFFIDAVIT of ALEXIS BRANDON entered on the 11th of APRIL and the AFFID=
+AVIT of MIWAKO G. MESSER who under oath represents Miss Brandon having to=
+ leave on the 12TH of April in light of the documented chronicle of infor=
+mation entered and sworn to by Defendants in the matter, notwithstanding =
+Miss Ashley Humphries who notarized the Affidavit of John Doe as furthere=
+d hereunder on behalf of the ELSERS and the unlawful fees collected by th=
+e ZUCKERS, per the terms of their own lease.=0D
+>=0D
+>      =0D
+>=0D
+>                                            xiii.     ITEM 27=0D
+>=0D
+>     13 April 2020.                     Defendants attest and document t=
+o circulating emails by and between the principles of the ZUCKER, namely =
+Laurie Zucker, Anne Brandon, Paul Regan, Cory Weiss, and other members na=
+med above re-iterate that ALEXIS BRANDON is leaving the building, after d=
+emonstrating that she was already in California on the 11TH while ANNE BR=
+ANDON was purported to be writing emails to the named defendants in the m=
+atter who in fact harassed me at all times demonstrably as referenced in =
+ITEM 4 as a tenant in one of their properties and throughout the term and=
+ lease agreement which terminated on the 31ST of December, 2020 whereby m=
+y STUDIO was understood to be their =E2=80=9CPremises=E2=80=9D under whic=
+h I was photographed, documented in the AFFIDAVITS of their residents, an=
+d purported as legal residents of the building and address where I reside=
+d in the County of New York, addressed formerly at 111 Sullivan Street, A=
+PT 2BR, New York, NY 10012.=0D
+>=0D
+>      =0D
+>=0D
+>                                            xiv.     ITEM 28=0D
+>=0D
+>     15 April 2020.                     Defendants attest and document t=
+o circulating emails by and between the NEXUS of the ZUCKERS, whereby the=
+ window which provides egress to the fire-escape was damaged, boarded-up =
+and was not repaired at any point in time. Despite the requests for EMERG=
+ENCY access, was deemed as appropriate in the ORAL ARGUMENT of SHARI S. L=
+ASKOWITZ, who on behalf of the YUZERS represented the interests of the ZU=
+CKERS documented myself as locked out and capable of entering the premise=
+s as a basis of fitness. It was deemed of no consequence or urgency, as t=
+he Defendants in this matter were also neglectful of my physical health a=
+s furthered hereunder, despite the continuance as =E2=80=9Cchronicled=E2=80=
+=9D in the daily recount of my personal life. As referenced previously an=
+d during the time period referenced under ITEM 4 =E2=80=93 obsessively wo=
+uld document each and every aspect of my life, certain of those claims ar=
+e in fact a perjury under Federal and State Law, as sworn to under the AF=
+FIDAVITS notarized by the ZUCKERS, YUZERS, and the ELSERS.=0D
+>=0D
+>                                              xv.     ITEM 29=0D
+>=0D
+>     19 April 2020.                     Defendants attest and document t=
+o circulating communications by and between the NEXUS of ZUCKERS, whereby=
+ I was documented as =E2=80=9Ccalm=E2=80=9D and also wearing =E2=80=9Cear=
+buds=E2=80=9D =E2=80=93 a claim in their first docket as admitted.=0D
+>=0D
+>      =0D
+>=0D
+>                                            xvi.     ITEM 30=0D
+>=0D
+>     19 April 2020.                     Defendants attest and document t=
+o circulating communications by and between the NEXUS of ZUCKERS, whereby=
+ I was documented as owner of a =E2=80=9Ctape gun=E2=80=9D, while videota=
+ping, recording, and documenting my every step and motion referenced prev=
+iously and during the time period referenced under ITEM 4 =E2=80=93 obses=
+sively and without my consent, destroyed the sanctity of my home in their=
+ coordinated observations entered by and on behalf of the ZUCKERS, YUZERS=
+, and ELSERS was admittedly documented as closing my door was entered in =
+the FEDERAL record as such and =E2=80=9Ctwice in an hour=E2=80=99s time.=E2=
+=80=9D =E2=80=93 which demonstrates a scrutinized violation of my privacy=
+ by all the NEXUS of Defendants named in the caption of this matter, swor=
+n to under the AFFIDAVITS notarized by the ZUCKERS, YUZERS, and the ELSER=
+S.=0D
+>=0D
+>      =0D
+>=0D
+>      =0D
+>=0D
+>                                           xvii.     ITEM 32=0D
+>=0D
+>     21 April 2020.                     Defendants attest and document t=
+o circulating communications by and between the NEXUS of ZUCKERS, whereby=
+ I was documented playing music and also during the onset of the Covid-19=
+ Pandemic =E2=80=93 attest to finding a blue-mask.=0D
+>=0D
+>      =0D
+>=0D
+>                                         xviii.     ITEM 33=0D
+>=0D
+>     27 April 2020.                     Defendants attest and document t=
+o circulating communications by and between the NEXUS of ZUCKERS, whereby=
+ I was documented =E2=80=9C=E2=80=A6banging on the radiator=E2=80=A6=E2=80=
+=9D as referenced on the same date by as ANNEXED in the AFFIDAVIT of MIWA=
+KO G. MESSER, whereby she attests to the location and departure of ALEXIS=
+ BRANDON, who notarized the letter on the same date emailed by her mother=
+, purportedly as entered by Defendants in the matter =E2=80=93 was more l=
+ikely than not tampered with.=0D
+>=0D
+>                                            xix.      ITEM 34=0D
+>=0D
+>     28 April 2020.                     Defendants attest and document t=
+o circulating communications by and between the NEXUS of ZUCKERS, in furt=
+herance of myself documented =E2=80=9C=E2=80=A6banging on the radiator=E2=
+=80=A6=E2=80=9D through the door was admitted by the YUZERS on behalf of =
+the ZUCKERS as being =E2=80=9C=E2=80=A6watched=E2=80=A6 opening his door=E2=
+=80=A6 outside of the front door frame=E2=80=A6=E2=80=9D=0D
+>=0D
+>=0D
+>                                         xxix.     ITEM 46=0D
+>=0D
+>     22 May 2020.                      Defendants again document to circ=
+ulating emails by and between the NEXUS of ZUCKERS, YUZERS and ELSERS and=
+ disdain to my culinary skills, as furthered hereunder was also introduce=
+d as a coordination of emails, as purported, by two building residents wh=
+o allegedly resided in their Premises located at 111 Sullivan Street, New=
+ York, NY 10012.=0D
+>=0D
+>                                           xxx.     ITEM 47=0D
+>=0D
+>     24 May 2020.                      Defendants again document to circ=
+ulating emails by and between the NEXUS of ZUCKERS, YUZERS and ELSERS and=
+ have an ongoing problem of flooding in the building, despite having a co=
+llection of written, photographed, videotaped, and recorded audio continu=
+e to place blame on myself for a 1/8=E2=80=9D inch hole which was reporte=
+d on the 28TH of March, and was repaired.=0D
+>=0D
+>                                         xxxi.     ITEM 48=0D
+>=0D
+>     28 March 2020.                   Plaintiff previously attests to ha=
+ving reported the 1/8=E2=80=9D hole, document such as this was circulated=
+ by and between the NEXUS of ZUCKERS, YUZERS and ELSERS throughout their =
+pleadings, perjury, and violation of the sanctity of my home throughout m=
+y tenancy as referenced in the caption and in their ITEM 4 while I was a =
+tenant in one of their properties, throughout the term and lease agreemen=
+t terminated on the 31ST of December, 2020 whereby my STUDIO was understo=
+od to be their =E2=80=9CPremises=E2=80=9D where I was photographed, as do=
+cumented in the AFFIDAVITS of their residents, purported to and while I r=
+esided at 111 Sullivan Street, #2BR, New York, NY 10012 are named in the =
+caption having knowledge, involvement, and are jointly and severally liab=
+le for violating the privacy of home, and also the physical and psycholog=
+ical risks to my health as implied in the daily harassment by Defendants =
+named previously, in this CAPTION and  also in the SUMMONS will attest to=
+ having a =E2=80=9Cconcierge=E2=80=9D, a =E2=80=9Cporter=E2=80=9D and a m=
+yriad of other services as advertised by the Manhattan Skyline Management=
+ Corp., notwithstanding their Members, Providers, Affiliates, Agents, Off=
+icers, Directors, Volunteers, Employees, Contractors, and Principals.=0D
+>=0D
+>                                        xxxii.     ITEM 50=0D
+>=0D
+>     Defendants in the morning, afternoon and evening were aware of each=
+ step that I would take, anything I would cook, music that I listened to,=
+ and also entered in their EXHIBITS and without my consent videotaped me =
+twenty-four hours a day and also at night per the timestamps as entered i=
+n the stills of their videos have not returned any of the more =E2=80=9C.=
+.intimate=E2=80=A6=E2=80=9D videos as attested to by Defendants in this =
+matter in their ITEM 33 which was sworn to and NOTARIZED by Paul R. Regan=
+, Daniel Sullivan, Shari S. Laskowitz and Ashley V. Humphries and in thei=
+r commencement documents.=0D
+>=0D
+>     -    Instructed as furthered hereunder was understood by the Part T=
+ime Clerk, McKenzie in the prior matter was maintained by the the NEXUS o=
+f ZUCKERS, YUZERS and ELSERS as a listserve, distributed over the interne=
+t and maintained by the named individuals in the Caption as acceptable.=0D=
+
+>=0D
+>                                      xxxiii.     ITEM 51=0D
+>=0D
+>     27 May 2020.      Defendants again document to circulating emails b=
+y and between the NEXUS of ZUCKERS, YUZERS and ELSERS and have an ongoing=
+ problem having reported a =E2=80=9Clight bulb=E2=80=9D has gone out, as =
+a continuation and in violation of my privacy as seen in the AFFIDAVITS o=
+f ANDRES REYNOSO and ADNAN UTIC, and emails entered by Defendants named i=
+n the caption also reported to having entered the premises on the 26TH of=
+ May as well =E2=80=93 maintained a =E2=80=9Cpodcast=E2=80=9D of myself b=
+y a videographer named as an ACCESSORY to the NEXUS of ZUCKERS, YUZERS an=
+d ELSERS by ROSALIA CHANN =E2=80=93 who is a professional host and distri=
+butor of videos, as furthered in the EXHIBITS annexed in the sections whi=
+ch ensue.=0D
+>=0D
+>                                      xxxiv.     ITEM 52=0D
+>=0D
+>     29 May 2020.                      Defendants again document to circ=
+ulating emails by and between the NEXUS of ZUCKERS, YUZERS and ELSERS and=
+ have an ongoing problem having reported the sound of grinding metal at 9=
+:00PM as a claim.=0D
+>=0D
+>      =0D
+>=0D
+>                                        xxxv.     ITEM 53=0D
+>=0D
+>     05 JUNE 2020.                    Defendants again jointly and sever=
+ally document and attest to themselves and use the words =E2=80=9CHUMAN D=
+ECENCY=E2=80=9D after circulating emails by and between the NEXUS of ZUCK=
+ERS, YUZERS and ELSERS of a certain breach of the sanctuary of my home in=
+ the PUBLIC and FEDERAL RECORD repeat and realleges same for each and eve=
+ry ITEM above, as an allegation for cause; attested to and entered as ITE=
+M 55, further demonstrating their understanding of the Federal, State, an=
+d Local Laws which are set forth herein more robustly as justifiable caus=
+e for injunctive relief sought for each cause of action as set forth belo=
+w, jointly and severally for all Defendants named and grouped for conveni=
+ence as members of the ZUCKERS, YUZERS, ELSERS, and the ACCESSORIES named=
+ as Defendants in this matter. =0D
+>>=0D
+>>     ....=0D
+>>      	Received: 07/30/2020=0D
+>>=0D
+>>      THEY FILED IN THE WRONG ZIPCODE ON THE 5TH OF JUNE, 2020. 10018=0D=
+
+>>     >> dy-no-mite=0D
+>>>     Received: 07/30/2020=0D
+>>=0D
+>>      144 	CONSENT TO EFILING by yours truly.=0D
+>>=0D
+>>=0D
+>>     	=0D
+>=0D
+=0D
+=0D

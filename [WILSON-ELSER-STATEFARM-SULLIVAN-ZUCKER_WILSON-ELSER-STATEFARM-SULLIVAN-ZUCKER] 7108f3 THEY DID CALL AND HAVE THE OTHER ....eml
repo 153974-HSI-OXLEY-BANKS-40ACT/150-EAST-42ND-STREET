@@ -1,0 +1,566 @@
+From - Sun Jun 26 14:20:52 2022
+X-Account-Key: account1
+X-UIDL: AG+bt5VftJdGYritgQH/uLsgeI8
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.223.249.98
+ by atlas321.free.mail.ne1.yahoo.com with HTTPS; Sun, 26 Jun 2022 19:03:28 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.209]
+Received-SPF: pass (domain of github.com designates 192.30.252.209 as permitted sender)
+Authentication-Results: atlas321.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 19:03:28 +0000
+X-YMailISG: uyeXrPQWLDvI.PyFdXn1bWFrC0132PUKx_x0BQnfhwaiopNh
+ kADa4IObzq79lXCaq6NjgvS9WsOSPSY4VLv5e4E26yL60iaA9Id_oT3CJCH7
+ 30CjVXwMf4JS807McRsqJN.hIpXqVuw65vS8fM_VtC9UftIfrQbtZs2GP.EJ
+ hO6dGyykq1MssI68sGf.QqlAN.77Md9a3tIU6w5haudIUB2OELg2iD.pKkGb
+ hj9j3QBYLwLuLQGOD3L5eZwogGcHd339lzby3HaWqTi.iAAaByu.aN340YIT
+ fiZEE102QvwNZ0NeoJp9ipFXD48manD8BfFQjuBMZFLv72cxFvoKtZtJqWoS
+ yOJkp3uw4YGCRkN0EUuxBB2m1yi632n_6._gWvLbvJcZapolLy6oNUunbzPY
+ G0uIiPM0nL_AlhrkaUELxH7WM8MpjKderzQU0u3bsVct7WLBl.g3CBH8OFNi
+ SCPUGdtd_ykzIlIATj2P2Tl9dr4S7JCbYos93tLJ80Q_d7ze190ah6.HrkV7
+ WFSCvZ3i9soVGSOuKAjs1rB2ml5T_oN0Y0SHY7letiC4L6cI9ccvEJBwgRp6
+ mf7qwsNfvf2wzJf.eySBEZlry3qaizUdpk_cXye_eWu8fJyuuKRtAnHg8P7D
+ lx7g6PxzOPyZJQp7fzEJY2AJwyJtLhs8yxSoHNskW3VzM9MAr0djy4EvYTYs
+ BoEGjkHkzumbVH0MfBtle7xS1ABX8JhxP4z29yqt6jaNvJoZi0zygK.MW8Yu
+ k7ffE79BEnWr1UxIbC7ndYThgkq5ZtNbfm7iARDOKsDREkty1TWoWIcIKvil
+ 8cEkWERXfKl_7oQAa84KdyIBrBYIXK.IAyfsneJXMIv3dn.CTz8YcS9ziSMd
+ ov9yOrJTmERJ5YzPjGkJoIK.ZFwInlise0SfyjNWZy81Z.e0XiovMHfijOEa
+ tzrP.akU2vHyclXM7RqmyTTnothRffeTH19YCyLY0htSPgi8DgEZ9NOAMfT0
+ lzxcH8UndA8tiQ0X78kC.vme4H0Hfaym3wBVn9UcjIxsc5pnnkCDckxA2VEX
+ acBSnPGXJBMWpNfSQcG7iWvluQ0IxK_UvObYnsnjtAZakHxLxzXEiuGJIdf2
+ A7Jtx.Gic.OvY4DRxGe3pZNvD.8e2eSd91vlr6dYhqY5YUcXIZ9dbt2wKfAQ
+ 5EbCAXjS2AP3jL86rGBs1f5wRArg5WvmPyPjAg--
+Received: from 192.30.252.209 (EHLO smtp.github.com)
+ by 10.223.249.98 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 19:03:28 +0000
+Received: from github.com (hubbernetes-node-3142c17.ash1-iad.github.net [10.56.14.68])
+	by smtp.github.com (Postfix) with ESMTPA id 291535E0387;
+	Sun, 26 Jun 2022 12:03:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656270208;
+	bh=OPNkXFDlJiCarpXkT7FoWhyjyKq4eSZutCJhBjblpWI=;
+	h=Date:From:To:Subject:From;
+	b=nd+E3LRv+sLj7W/tC255mab7+jD6xZKJh1KGKy3naRsHdYD5vXvJbNYYJLvQGXpjT
+	 gSBXb7wlav4gXzJltlXhJF1qHzkA+HHVM1eC5C3oRuWqlVSDWHeISWYqUUXAlfmz4I
+	 oy0ciK9j4dKSfkZTERscIi5HgSBci8zCu2aRAjp8=
+Date: Sun, 26 Jun 2022 12:03:28 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/516e8e-7108f3@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 7108f3: THEY DID CALL AND HAVE THE OTHER REPOSITORY TAKEN ...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 22607
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: 7108f3d8c0415d0e23ae8a7c808db2f711d16c70=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/7108f3d8c0415d0e23ae8a7c808db2f711d1=
+6c70=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-26 (Sun, 26 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    A WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER-RM-50074-1.html=0D
+    A WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER-RM-50074-2  DOCKET 48.html=0D=
+
+    A WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER-RM-50074-2.html=0D
+    A WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER-RM-50074-3.html=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  THEY DID CALL AND HAVE THE OTHER REPOSITORY TAKEN DOWN -- WHICH IS WHY =
+I KNOW THEY ARE HIDING THIS - EVEN IF ITS OBSTRUCTION TO DESTROY COURT RE=
+CORDS=0D
+=0D
+SO I JUST PRINT THEM OUT SO YOU CAN "DOWNLOAD THEM AND THROW THEM IN THE =
+TRASH".=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=3DE0CKxA=
+Lt/dD_PLUS_Wk3Z8vuaXQ=3D=3D=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DE0CKxALt/=
+dD_PLUS_Wk3Z8vuaXQ=3D=3D=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DJjKiWNUTB=
+eipcESQfFiwVQ=3D=3D=0D
+=0D
+Section 203(f) of the Advisers Act permits the Commission to sanction any=
+ person who, at the time of the misconduct, was associated with an invest=
+ment adviser, if the Commission finds that the sanction is in the public =
+interest and the person has been convicted of any offense specified in Se=
+ction 203(e)(2) within ten years of the commencement of proceedings. 15 U=
+.S.C. =C2=A7 80b3(e)(2),(f).=0D
+=0D
+https://www.sec.gov/alj/aljdec/2015/id747ce.pdf=0D
+conspiracy to commit securities fraud, in violation of 18 U.S.C. =C2=A7 3=
+71; =0D
+conspiracy to commit wire fraud, in violation of 18 U.S.C. =C2=A7 1349; =0D=
+
+securities fraud, in violation of 15 U.S.C. =C2=A7=C2=A7 78j(b), 78ff, an=
+d 17 CFR =C2=A7 240.10b-5; =0D
+wire fraud, in violation of 18 U.S.C. =C2=A7 1343; =0D
+and investment adviser fraud, in violation of 15 U.S.C. =C2=A7=C2=A7 80b-=
+6 and 80b-17. OIP at 2; =0D
+=0D
+On June 23, 2014, Balboa was sentenced to a prison term of fortyeight mon=
+ths, to run concurrently on all counts, followed by three years of superv=
+ised release, and ordered to pay restitution of $390,243,873.92 and to fo=
+rfeit $2,223,000. =0D
+=0D
+15 U.S.C. =C2=A7 80b3(e)(2)(A). =0D
+Ex. C at 1-2; Exs. D, E. The superseding indictment charged Balboa with, =
+among other things, engaging in a scheme to falsely inflate the value of =
+illiquid securities between January 2008 and October 2008 and with commit=
+ting wire fraud. =0D
+=0D
+15 U.S. Code =C2=A7 78r - Liability for misleading statements=0D
+(a)Persons liable; persons entitled to recover; defense of good faith; su=
+it at law or in equity; costs, etc.=0D
+Any person who shall make or cause to be made any statement in any applic=
+ation, report, or document filed pursuant to this chapter or any rule or =
+regulation thereunder or any undertaking contained in a registration stat=
+ement as provided in subsection (d) of section 78o of this title, which s=
+tatement was at the time and in the light of the circumstances under whic=
+h it was made false or misleading with respect to any material fact, shal=
+l be liable to any person (not knowing that such statement was false or m=
+isleading) who, in reliance upon such statement, shall have purchased or =
+sold a security at a price which was affected by such statement, for dama=
+ges caused by such reliance, unless the person sued shall prove that he a=
+cted in good faith and had no knowledge that such statement was false or =
+misleading. A person seeking to enforce such liability may sue at law or =
+in equity in any court of competent jurisdiction. In any such suit the co=
+urt may, in its discretion, require an undertaking for the payment of the=
+ costs of such suit, and assess reasonable costs, including reasonable at=
+torneys=E2=80=99 fees, against either party litigant.=0D
+=0D
+(b)Contribution=0D
+Every person who becomes liable to make payment under this section may re=
+cover contribution as in cases of contract from any person who, if joined=
+ in the original suit, would have been liable to make the same payment.=0D=
+
+=0D
+(c)Period of limitations=0D
+No action shall be maintained to enforce any liability created under this=
+ section unless brought within one year after the discovery of the facts =
+constituting the cause of action and within three years after such cause =
+of action accrued.=0D
+=0D
+=0D
+[SFITX]=0D
+15 U.S. Code =C2=A7 78s - Registration, responsibilities, and oversight o=
+f self-regulatory organizations=0D
+(5)The Commission shall consult with and consider the views of the Secret=
+ary of the Treasury prior to approving a proposed rule filed by a registe=
+red securities association that primarily concerns conduct related to tra=
+nsactions in government securities, except where the Commission determine=
+s that an emergency exists requiring expeditious or summary action and pu=
+blishes its reasons therefor. If the Secretary of the Treasury comments i=
+n writing to the Commission on a proposed rule that has been published fo=
+r comment, the Commission shall respond in writing to such written commen=
+t before approving the proposed rule. If the Secretary of the Treasury de=
+termines, and notifies the Commission, that such rule, if implemented, wo=
+uld, or as applied does (i) adversely affect the liquidity or efficiency =
+of the market for government securities; or (ii) impose any burden on com=
+petition not necessary or appropriate in furtherance of the purposes of t=
+his section, the Commission shall, prior to adopting the proposed rule, f=
+ind that such rule is necessary and appropriate in furtherance of the pur=
+poses of this section notwithstanding the Secretary=E2=80=99s determinati=
+on.=0D
+=0D
+=0D
+=0D
+=0D
+https://www.sec.gov/alj/aljdec/2015/id739ce.pdf=0D
+[t]he proper functioning of the securities industry and markets depends o=
+n the=0D
+integrity of industry participants and their commitment to transparent di=
+sclosure.=0D
+Securities industry participation by persons with a history of fraudulent=
+ conduct is=0D
+antithetical to the protection of investors. . . . We have long held that=
+ a history of=0D
+egregious fraudulent conduct demonstrates unfitness for future participat=
+ion in the=0D
+securities industry even if the disqualifying conduct is not related to t=
+he=0D
+professional capacity in which the respondent was acting when he or she e=
+ngaged=0D
+in the misconduct underlying the proceeding. The industry relies on the f=
+airness=0D
+and integrity of all persons associated with each of the professions cove=
+red by the=0D
+collateral bar to forgo opportunities to defraud and abuse other market=0D=
+
+participants.=0D
+=0D
+=0D
+=0D
+TRANSACTIONS OF CERTAIN AFFILIATED PERSONS AND UNDERWRITERS=0D
+-UNLAWFUL TRANSACTIONS=0D
+SEC. 17. (a) =0D
+It shall be unlawful for any affiliated person or pro- moter of or princi=
+pal underwriter for a registered investment company (other than a company=
+ of the character described in section 12 (d) (3) (A) and (B)), or any af=
+filiated person of such a person, promoter, or principal underwriter, act=
+ing as principal- =0D
+(1) knowingly to sell any security or other property to such registered c=
+ompany or to any company controlled by such regis- tered company, unless =
+such sale involves solely (A) securities of which the buyer is the issuer=
+, (B) securities of which the seller is the issuer and which are part of =
+a general offering to the holders of a class of its securities, or (C) se=
+curities deposited with the trustee of a unit investment trust or periodi=
+c payment plan by the depositor thereof;=0D
+=0D
+(2) knowingly to purchase from such registered company, or from any compa=
+ny controlled by such registered company, any security or other property =
+(except securities of which the seller is the issuer)=0D
+=0D
+=0D
+Liability of directors, etc., for willful misfeasance.=0D
+SEC. 17. =0D
+(h) 	After one year from the effective date of this title, neither=0D
+the charter, certificate of incorporation, articles of association, inden=
+ture of trust, nor the by-laws of any registered investment company, nor =
+any other instrument pursuant to which such a company is organized or adm=
+inistered, shall contain any provision which protects or purports to prot=
+ect any director or officer of such company against any liability to the =
+company or to its security holders to which he would otherwise be subject=
+ by reason of willful misfeasance, bad faith, gross negligence or reckles=
+s disregard of the duties involved in the conduct of his office.=0D
+=0D
+		In the event that any such instrument does not at the effective date of=
+ this Act comply with the requirements of this subsection (h) and is not =
+amended to comply therewith prior to the expiration of said one year, suc=
+h company may nevertheless continue to be a registered investment company=
+ and shall not be deemed to violate this subsection if prior to said expi=
+ration date each such director or officer shall have filed with the Commi=
+ssion a waiver in writing of any protective provision of the instrument t=
+o the extent that it does not comply with this subsection, and each such =
+person subsequently elected or appointed shall before assuming office fil=
+e a similar waiver.=0D
+=0D
+(i) 	After one year from the effective date of this title no contract or =
+agreement under which any person undertakes to act as investment adviser =
+of, or principal underwriter for, a registered investment company shall c=
+ontain any provision which protects or purports to protect such person ag=
+ainst any liability to such company or its security holders to which he w=
+ould otherwise be subject by reason of willful misfeasance, bad faith, or=
+ gross negligence, in the performance of his duties, or by reason of his =
+reckless disregard of his obligations and duties under such contract or a=
+greement.=0D
+=0D
+Injunctions against gross abuse.=0D
+SEC. 36. =0D
+The Commission is authorized to bring an action in the proper district co=
+urt of the United States or United States court of=0D
+any Territory or other place subject to the jurisdiction of the United St=
+ates, alleging that a person serving or acting in one or more of the foll=
+owing capacities has been guilty, after the enactment of this title and w=
+ithin five years of the commencement of the action, of gross misconduct o=
+r gross abuse of trust in respect of any registered investment company fo=
+r which such person so serves or acts:=0D
+(1) as officer, director, member of an advisory board, investment adviser=
+, or depositor; or=0D
+(2) as principal underwriter, if such registered company is an open-end c=
+ompany, unit investment trust, or face-amount=0D
+certificate company.=0D
+If the Commission's allegations of such gross misconduct or gross abuse o=
+f trust are established, the court shall enjoin such person from acting i=
+n such capacity or capacities either permanently or for such period of ti=
+me as it in its discretion shall deem appropriate.=0D
+=0D
+=0D
+SEC. 32. =0D
+(c) The Commission is authorized, by rules and regulations or order in th=
+e public interest or for the protection of investors, to require accounta=
+nts and auditors to keep reports, work sheets, and other documents and pa=
+pers relating to registered investment companies for such period or perio=
+ds as the Commission may prescribe, and to make the same available for in=
+spection by the Commission or any member or representative thereof.=0D
+=0D
+=0D
+DESTRUCTION AND FALSIFICATION OF REPORTS AND RECORDS=0D
+SEC. 34.=0D
+=0D
+(a) It shall be unlawful for any person, except as permitted by rule, reg=
+ulation, or order of the Commission, willfully to=0D
+destroy, mutilate, or alter any account, book, or other document the pres=
+ervation of which has been required pursuant to section 31 (a) or 32 (c).=
+=0D
+(b) It shall be unlawful for any person to make any untrue statement of a=
+ material fact in any registration statement, application, report, accoun=
+t, record, or other document filed or transmitted pursuant to this title =
+or the keeping of which is required pursuant to section 31 (a). =0D
+=0D
+It shall be unlawful for any person so filing, transmitting, or keeping a=
+ny such document to omit to state therein any fact necessary in order to =
+prevent the statements made therein, in the light of the circumstances un=
+der which they were made, from being materially misleading. For the purpo=
+ses of this subsection, any part of any such document which is signed or =
+certified by an accountant or auditor in his capacity as such shall be de=
+emed to be made, filed, transmitted, or kept by such accountant or audito=
+r, as well as by the person filing, transmitting, or keeping the complete=
+ document.=0D
+=0D
+=0D
+000.ROSALIA.CHANN.AND.CONTRARY.TO.MY.REQUEST.-.AS.ADMITTED.BY.PLAINTIFFS.=
+IN.THE.FORMER.WITH.NO.REDACTION.-.AND.NO.ORDER.TO.REMOVE.THE.CAMERA.pdf=0D=
+
+[00403] 2020 MAY 15 - CRFN 2020000155422 - 6MM LOAN BY STATE FARM=0D
+14 minutes ago=0D
+00221.--.22.JUNE.2020.---.NOTICE.TO.wmckenzie@nycourts.gov (1).pdf=0D
+2020_05_27 - INDEX and PAPERS.pdf 00221.--.22.JUNE.2020.---.NOTICE.TO=E2=80=
+=A6=0D
+12 minutes ago=0D
+10.AUG.2020.-.LETTER.TO.LAURIE.ZUCKER.AT.1236AM.pdf=0D
+[00403] 2020 MAY 15 - CRFN 2020000155422 - 6MM LOAN BY STATE FARM=0D
+14 minutes ago=0D
+10018.-.docket.1.item.1.parties.pdf=0D
+2020_05_27 - INDEX and PAPERS.pdf 00221.--.22.JUNE.2020.---.NOTICE.TO=E2=80=
+=A6=0D
+12 minutes ago=0D
+111.REAR.SULLIVAN.STREET.MANHATTAN.-.REAR.-.NO.CERTIFICATE.OF.OCCUPANCY.0=
+3.03.2022.pdf=0D
+[00403] 2020 MAY 15 - CRFN 2020000155422 - 6MM LOAN BY STATE FARM=0D
+14 minutes ago=0D
+153974_2020_S__309.pdf=0D
+2020_05_27 - INDEX and PAPERS.pdf 00221.--.22.JUNE.2020.---.NOTICE.TO=E2=80=
+=A6=0D
+12 minutes ago=0D
+2020_05_27 - INDEX and PAPERS.pdf=0D
+2020_05_27 - INDEX and PAPERS.pdf 00221.--.22.JUNE.2020.---.NOTICE.TO=E2=80=
+=A6=0D
+12 minutes ago=0D
+2022-04-04_TCRReport (16491-117-831-823) EMAILED TO PARITES WITH 7 ATTACH=
+MENTS.pdf=0D
+TCRReport-16491-117-831-823, FILED NOVEMBER 13TH, 2021 - AT THE OBSTR=E2=80=
+=A6=0D
+1 minute ago=0D
+2022.03.02 - Property Profile Overview - 111 sullivan street REAR - NO CE=
+RTIFICATE OF OCCUPANCE.pdf=0D
+TCRReport-16491-117-831-823, FILED NOVEMBER 13TH, 2021 - AT THE OBSTR=E2=80=
+=A6=0D
+1 minute ago=0D
+2022.03.07.CRD.Mutual.Fund.SFBDX.SFITX.STFBX.STFGX.LGL.pdf=0D
+TCRReport-16491-117-831-823, FILED NOVEMBER 13TH, 2021 - AT THE OBSTR=E2=80=
+=A6=0D
+1 minute ago=0D
+Dec 22 2021 - sgo2107@columbia.edu + nyscef@nycourts.gov.pdf=0D
+FAX TO THE COURT ON DECEMBER 22ND, 2021 - AT 7:20PM=0D
+5 minutes ago=0D
+EX69.---.docket.385.--.2020-08-10.--.EMAIL.TO.LAURIE.ZUCKER.AT.1236AM.pdf=
+=0D
+FAX TO THE COURT ON DECEMBER 22ND, 2021 - AT 7:20PM=0D
+5 minutes ago=0D
+EX72.---.2020.08.10.---.NOTICE.FROM.COUNSEL.FOR.ZUCKERS.TO.NOT.CONTACT.AN=
+Y.AUTHORITY.ENCLOSURE.pdf=0D
+FAX TO THE COURT ON DECEMBER 22ND, 2021 - AT 7:20PM=0D
+5 minutes ago=0D
+EXHIBIT_S__383.-.LOAN.50074.--.ME133300053v.2.pdf=0D
+FAX TO THE COURT ON DECEMBER 22ND, 2021 - AT 7:20PM=0D
+5 minutes ago=0D
+IMPUTATION__1.3__ABA.GUIDELINES.ON.CONFLICTS.OF.INTERESTS.pdf=0D
+FAX TO THE COURT ON DECEMBER 22ND, 2021 - AT 7:20PM=0D
+5 minutes ago=0D
+NYC.DEPT.OF.FINANCE.-.PUBLIC.RECORD.pdf=0D
+FAX TO THE COURT ON DECEMBER 22ND, 2021 - AT 7:20PM=0D
+5 minutes ago=0D
+Nov.16.2021.-.WMCKENZIE@NYCOURTS.GOV.---.SEC.---.BOC@BOC.NYC.GOV (1).pdf=0D=
+
+FAX TO THE COURT ON DECEMBER 22ND, 2021 - AT 7:20PM=0D
+5 minutes ago=0D
+README.md=0D
+[Accessory after the fact](https://github.com/WILSON-ELSER-STATEFARM=E2=80=
+=A6=0D
+21 minutes ago=0D
+Read- $12.12 upfront --- DOCTOR'S NOTE FOR PRACTICE BTW --- IN CASE I GET=
+ FINED..eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- --- Federal, State, and Local Charges Apply.eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- --- ref.- DECEMBER 18TH MESSAGE TO PROMOTERS OF CIK FILER- 93715.em=
+l=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- ----- ref.- DECEMBER 18TH MESSAGE TO PROMOTERS OF CIK FILER- 93715 =
+xmas.eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- CROSS-REFERENCE ALSO..eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- DISCUSSED AN OUT OF COURT SETTLEMENT YESTERDAY BTW..eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- Fwd- --- FAXED THEIR TAX EVASION PAPERS AND INCLUDED THESE VIOLATIO=
+N OF PRIVACY DOCUMENTS..eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- Fwd- Federal, State, and Local Charges Apply TEL NUMBERS --div--.em=
+l=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- Fwd- Fw- OPEN EXPOSURES #50074 & AS STATED, TIME IS OF THE ESSENCE.=
+.eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- Fwd- Fw- OPEN EXPOSURES #50074 & THESE LEGAL OTHER MATTERS - ALL OP=
+EN EXPOSURES..eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- Fwd- Fwd- [BSCPGROUPHOLDINGSLLC-ELSER-AND-DICKER] d7daa6- C16-93715=
+ WITH THE HELP OF THE COUNSELORS OF COLU....eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- Fwd- Fwd- [BSCPGROUPHOLDINGSLLC-WILSONELSER-ZUCKER] b0dc3e- AFFIRM_=
+40 - barrett got 30 in Andrews..eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- Fwd- LOAN 50074 SEC FILER 93715 CIK 1516523 AND NYSCEF DOCKETS IN 1=
+53974-2020.eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- Fwd- Read- [EXTERNAL] [ STATE FARM SVC PROVIDERS ] https---github.c=
+om-BSCPGROUPHOLDINGSLLC-WILSONELSER-ZUCKER-tree-VIDEOTAPED-DISTRIBUTED.em=
+l=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- Fwd- TY FOR TAKING A LOOK AT THIS..eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- Fwd- VIOLATED. USC 18.2, 18.4, 18.21, 18.215, 18.225.eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- Fwd- https---github.com-BSCPGROUPHOLDINGSLLC-ELSER-AND-DICKER-tree-=
+TAX-OBSTRUCTIONS.eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- NO MANDATORY ATTENDANCE REQUIRED..eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- NOTICE TO MORGAN STANLEY.eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- REF -DIV- CROSS REFERENCED -DIV-.eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- Re- ---LOAN 50074 annexed IN 153974-2020 State Farm and Sullivan Pr=
+operties LP. [ receipt ].eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- Re- Automatic reply- [EXTERNAL] Fwd- [BSCPGROUPHOLDINGSLLC-ELSER-AN=
+D-DICKER] 2d1c49- C16-93715 --- PEEPING TOMS AND THEIR OBSTRUCTION....eml=
+=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- Re- Fwd- --- unlawful RENT and PAYMENTS in CUSTODY at JP MORGAN C.e=
+ml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- TAX Fraud INVOCATION and OBSTRUCTION of Justice..eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- TCR 16537-714-487-492 FILED.- OMISSIONS, OBSTRUCTION, VIOLATION OF =
+PRIVACY.eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- VIOLATION OF PRIVACY DOCKETS OBSTRUCTED IN NYSCEF 153974-2020 [ URL=
+ ].eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- congratulations... --- DOCTOR'S NOTE FOR PRACTICE BTW SO I DON'T GE=
+T FINED....eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- d7daa6- C16-93715 WITH THE HELP OF THE COUNSELORS.eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- https---github.com-BSCPGROUPHOLDINGSLLC-ELSER-AND-DICKER-tree-TAX-O=
+BSTRUCTIONS.eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+Read- https---github.com-BSCPGROUPHOLDINGSLLC-WILSONELSER-ZUCKER-issues-2=
+0.eml=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+STATE.FARM.ASSOCIATES.FUNDS.TRUSTS.JULY.2020.pdf=0D
+TCRReport-16491-117-831-823, FILED NOVEMBER 13TH, 2021 - AT THE OBSTR=E2=80=
+=A6=0D
+1 minute ago=0D
+TCRReport.pdf=0D
+TCRReport-16491-117-831-823, FILED NOVEMBER 13TH, 2021 - AT THE OBSTR=E2=80=
+=A6=0D
+1 minute ago=0D
+[00309] 153974_2020_Sullivan_Properties_L_P_v_Baris_Dincer_EXHIBIT_S__379=
+.pdf=0D
+[00403] 2020 MAY 15 - CRFN 2020000155422 - 6MM LOAN BY STATE FARM=0D
+14 minutes ago=0D
+[00403] 2020 MAY 15 - CRFN 2020000155422 - 6MM LOAN BY STATE FARM.pdf=0D
+[00403] 2020 MAY 15 - CRFN 2020000155422 - 6MM LOAN BY STATE FARM=0D
+14 minutes ago=0D
+_40-15G-FILED----2020.06.08.pdf=0D
+[00403] 2020 MAY 15 - CRFN 2020000155422 - 6MM LOAN BY STATE FARM=0D
+14 minutes ago=0D
+assocSemAnnRpt - MAY 2021.pdf=0D
+TCRReport-16491-117-831-823, FILED NOVEMBER 13TH, 2021 - AT THE OBSTR=E2=80=
+=A6=0D
+1 minute ago=0D
+firm_43036.pdf=0D
+FAX TO THE COURT ON DECEMBER 22ND, 2021 - AT 7:20PM=0D
+5 minutes ago=0D
+rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER.pdf=0D
+[MSGA MULE 1 ] && [rosalia.chann.--.VIDEO.ON-DEMAND.DOMAIN.REGISTER [=E2=80=
+=A6=0D
+17 minutes ago=0D
+READ=0D
+=0D
+=0D

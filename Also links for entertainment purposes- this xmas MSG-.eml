@@ -1,0 +1,686 @@
+From - Sat Apr 30 16:09:09 2022
+X-Account-Key: account8
+X-UIDL: 1645857828.658
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <help@nytimes.com>
+Received: from compute4.internal (compute4.nyi.internal [10.202.2.44])
+	 by sloti52n19 (Cyrus 3.7.0-alpha0-591-gfe6c3a2700-fm-20220427.001-gfe6c3a27) with LMTPA;
+	 Thu, 28 Apr 2022 23:56:55 -0400
+X-Cyrus-Session-Id: sloti52n19-1651204615-2265366-2-13242202904416039106
+X-Sieve: CMU Sieve 3.0
+X-Spam-known-sender: no
+X-Spam-charsets: cc='UTF-8', plain='utf-8', html='utf-8'
+X-Resolved-to: cockarens@vouchersrus.org
+X-Delivered-to: cockarens@vouchersrus.org
+X-Mail-from: help@nytimes.com
+Received: from mx6 ([10.202.2.205])
+  by compute4.internal (LMTPProxy); Thu, 28 Apr 2022 23:56:55 -0400
+Received: from mx6.messagingengine.com (localhost [127.0.0.1])
+	by mailmx.nyi.internal (Postfix) with ESMTP id 0AB995C00D7
+	for <cockarens@vouchersrus.org>; Thu, 28 Apr 2022 23:56:55 -0400 (EDT)
+Received: from mx6.messagingengine.com (localhost [127.0.0.1])
+    by mx6.messagingengine.com (Authentication Milter) with ESMTP
+    id 6F48853325E;
+    Thu, 28 Apr 2022 23:56:55 -0400
+ARC-Seal: i=1; a=rsa-sha256; cv=none; d=messagingengine.com; s=fm3; t=
+    1651204615; b=MBkuXhyHgBt91BxkM6IlDYKDiMHMC2SIFTHBk1HNofVlOg2cXr
+    71nK5nJE4pug9aRKKrYR7bVXRi0aGql2bJnvDs1kV0xjtsHyFu7uWLTPBr/cEGVC
+    8IsL0EKPPSrdvOP3j9rzzrkrG4T5Eu1aftVWUHBFWVvdLuO2rdlEdS+tUFX38t0l
+    vAfB1pt3o8t/U2zwkefcnHZYJ6hpmA2utf8o7uLo08yc3dGN67PLXLI9U3VdObr2
+    ym8eGm/Lp0WOK5ZcDuh604qtzRLRJbPoVS5PLxHPdogOiSdudUYdegD4Cnxj2SGx
+    voDBVnLq1zShQTx1efDtN8vZQWuNfDdIVocQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=
+    messagingengine.com; h=date:from:reply-to:cc:message-id
+    :in-reply-to:references:subject:mime-version:content-type
+    :content-transfer-encoding; s=fm3; t=1651204615; bh=vpYB8rl81lct
+    6/IH6/a+qkzhmI9wRxiY9oy+1UjL6Ts=; b=oGkURAAkvQADKG/q5cBkeFXfNsck
+    5p9agwI/NwCoDqt3igeyIO6PPA+MNAnv+YUEb/JDy5zChDB9hPtVvtODywYO3JAn
+    OninFsAxgyRQnv1t8JHG2t9BsZqkIHvjS6cIDBUYhLpKj6KSF4Yy5au+DUP/37+F
+    DZMpcLU0k3MlWUZ3dnLBXJdAN9xsu6cH3SkX/u3EFFwDsM43eNn4WpZzbwer/+OA
+    SDxKOBLIGbktNZlbyCWdzlauM92/g+Hi70vdPcfOUebtD1jsi3QNMO7aeyqn62Q1
+    +bWf8/ppzgbPCF5QN8m5kPMeINyW/o12403KYMTwAn3QZtlCmibdCNN2QQ==
+ARC-Authentication-Results: i=1; mx6.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=outbyoip1.pod20.usw2.zdsys.com
+    policy.ptr=outbyoip1.pod20.usw2.zdsys.com;
+    bimi=none (No BIMI records found);
+    arc=none (no signatures found);
+    dkim=pass (2048-bit rsa key sha256) header.d=nytimes.com
+    header.i=@nytimes.com header.b=W7mu3zSK header.a=rsa-sha256
+    header.s=zendesk1 x-bits=2048;
+    dmarc=pass policy.dwl=pass policy.published-domain-policy=reject
+    policy.applied-disposition=none policy.evaluated-disposition=none
+    (p=reject,d=none,d.eval=none) policy.policy-from=p
+    header.from=nytimes.com;
+    iprev=pass smtp.remote-ip=192.161.151.31
+    (outbyoip1.pod20.usw2.zdsys.com);
+    spf=pass smtp.mailfrom=help@nytimes.com
+    smtp.helo=outbyoip1.pod20.usw2.zdsys.com
+X-ME-Authentication-Results: mx6.messagingengine.com;
+    x-aligned-from=pass (Address match);
+    x-return-mx=pass header.domain=nytimes.com policy.is_org=yes
+      (MX Records found: alt1.aspmx.l.google.com,alt2.aspmx.l.google.com,alt3.aspmx.l.google.com,alt4.aspmx.l.google.com,aspmx.l.google.com);
+    x-return-mx=pass smtp.domain=nytimes.com policy.is_org=yes
+      (MX Records found: alt3.aspmx.l.google.com,alt4.aspmx.l.google.com,aspmx.l.google.com,alt1.aspmx.l.google.com,alt2.aspmx.l.google.com);
+    x-tls=pass smtp.version=TLSv1.3 smtp.cipher=TLS_AES_256_GCM_SHA384
+      smtp.bits=256/256;
+    x-vs=clean score=-70 state=0
+Authentication-Results: mx6.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=outbyoip1.pod20.usw2.zdsys.com
+      policy.ptr=outbyoip1.pod20.usw2.zdsys.com
+Authentication-Results: mx6.messagingengine.com;
+    bimi=none (No BIMI records found)
+Authentication-Results: mx6.messagingengine.com;
+    arc=none (no signatures found)
+Authentication-Results: mx6.messagingengine.com;
+    dkim=pass (2048-bit rsa key sha256) header.d=nytimes.com
+      header.i=@nytimes.com header.b=W7mu3zSK header.a=rsa-sha256
+      header.s=zendesk1 x-bits=2048;
+    dmarc=pass policy.dwl=pass policy.published-domain-policy=reject
+      policy.applied-disposition=none policy.evaluated-disposition=none
+      (p=reject,d=none,d.eval=none) policy.policy-from=p
+      header.from=nytimes.com;
+    iprev=pass smtp.remote-ip=192.161.151.31
+      (outbyoip1.pod20.usw2.zdsys.com);
+    spf=pass smtp.mailfrom=help@nytimes.com
+      smtp.helo=outbyoip1.pod20.usw2.zdsys.com
+X-ME-VSCause: gggruggvucftvghtrhhoucdtuddrgedvfedrudekgdejvdcutefuodetggdotefrodftvf
+    curfhrohhfihhlvgemucfhrghsthforghilhdpggftfghnshhusghstghrihgsvgdpuffr
+    tefokffrpgfnqfghnecuuegrihhlohhuthemuceftddtnecusecvtfgvtghiphhivghnth
+    hsucdlqddutddtmdenmhhishhsihhnghcuvffquchfihgvlhguucdlfedtmdenucfjughr
+    peffhfhrvefkjghfufggtgfgofesrgejreerredtjeenucfhrhhomhepfdeuqfcufffkpf
+    evgfftucdlvfhhvgcupfgvficujghorhhkucfvihhmvghsucevuhhsthhomhgvrhcuvegr
+    rhgvmddfuceohhgvlhhpsehnhihtihhmvghsrdgtohhmqeenucggtffrrghtthgvrhhnpe
+    dvteeggeehfeetgfegkefhtddtteejveetjeehvdfhteehjeehtdduueevgeefleenucff
+    ohhmrghinhepshhpohhtihhfhidrtghomhdphihouhhtuhdrsggvpdhnhihtihhmvghsrd
+    gtohhmnecukfhppeduledvrdduiedurdduhedurdefudenucevlhhushhtvghrufhiiigv
+    pedtnecurfgrrhgrmhepihhnvghtpeduledvrdduiedurdduhedurdefuddphhgvlhhope
+    houhhtsgihohhiphdurdhpohguvddtrdhushifvddriigushihshdrtghomhdpmhgrihhl
+    fhhrohhmpeeohhgvlhhpsehnhihtihhmvghsrdgtohhmqe
+X-ME-VSScore: -70
+X-ME-VSCategory: clean
+X-ME-CSA: none
+Received-SPF: pass
+    (nytimes.com: Sender is authorized to use 'help@nytimes.com' in 'mfrom' identity (mechanism 'include:%{i}._ip.%{h}._ehlo.%{d}._spf.vali.email' matched))
+    receiver=mx6.messagingengine.com;
+    identity=mailfrom;
+    envelope-from="help@nytimes.com";
+    helo=outbyoip1.pod20.usw2.zdsys.com;
+    client-ip=192.161.151.31
+Received: from outbyoip1.pod20.usw2.zdsys.com (outbyoip1.pod20.usw2.zdsys.com [192.161.151.31])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mx6.messagingengine.com (Postfix) with ESMTPS
+	for <cockarens@vouchersrus.org>; Thu, 28 Apr 2022 23:56:52 -0400 (EDT)
+Received: from zendesk.com (unknown [10.219.90.230])
+	by outbyoip1.pod20.usw2.zdsys.com (Postfix) with ESMTP id 4KqJZn52NNz14K2j;
+	Fri, 29 Apr 2022 03:56:49 +0000 (UTC)
+Date: Fri, 29 Apr 2022 03:56:49 +0000
+From: "BO DINCER (The New York Times Customer Care)" <help@nytimes.com>
+Reply-To: The New York Times Customer Care <help@nytimes.com>
+Cc: Info <info@ap.org>, 
+ Praghuram2 <praghuram2@bloomberg.net>, 
+ James Gorman <james.gorman@morganstanley.com>, 
+ Cockarens <cockarens@vouchersrus.org>, 
+ Info <info@wilsonelser.com>, 
+ Info <info@ingramllp.com>, 
+ State Farm <mutualfunds@statefarm.com>, 
+ David Moore <david.moore.ct95@statefarm.com>, 
+ Secretarys-office <secretarys-office@sec.gov>, 
+ Rss <rss@ap.com>, 
+ "PRIYA.RAGHURAM@MORGANSTANLEY.COM" <priya.raghuram@morganstanley.com>, 
+ Privacypolicy <privacypolicy@related.com>, 
+ =?UTF-8?B?4oCLY3NodWdnQHVzaW5mb3NlYy5jb20=?= <cshugg@usinfosec.com>, 
+ "LLC. MANHATTAN SKYLINE" <administrator@mskyline.com>, 
+ Shari Laskowitz <slaskowitz@ingramllp.com>, 
+ "lzucker@mskyline.com" <lzucker@mskyline.com>, 
+ "slaskowitz@mskyline.com" <slaskowitz@mskyline.com>
+Message-ID: <YDWW78E2W0_626b62013cbd2_473fec54acb964432369c_sprut@zendesk.com>
+In-Reply-To: <CAOHu48_iP0GbfwD9uTk6WJWuebg91362CQtPiXEoRXgfnrDt_A@mail.gmail.com>
+References: <YDWW78E2W0@zendesk.com>
+ <CAOHu48_iP0GbfwD9uTk6WJWuebg91362CQtPiXEoRXgfnrDt_A@mail.gmail.com>
+Subject: Also links for entertainment purposes- this xmas MSG-
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_626b620198961_473fec54acb964432375b";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Delivery-Context: event-id-1851277895191
+Auto-Submitted: auto-generated
+X-Auto-Response-Suppress: All
+X-Mailer: Zendesk Mailer
+X-Zendesk-From-Account-Id: c98509f
+DKIM-Signature:  v=1; a=rsa-sha256; c=relaxed/relaxed; d=nytimes.com;
+ q=dns/txt; s=zendesk1; t=1651204609;
+ bh=vpYB8rl81lct6/IH6/a+qkzhmI9wRxiY9oy+1UjL6Ts=;
+ h=date:from:reply-to:cc:message-id:in-reply-to:references:subject:mime-version:content-type:content-transfer-encoding;
+ b=W7mu3zSK7dHy8V+aulKvjr9qEg9HEckoxNb9EVyyOIQegwfsKYN1AYGBnJkVG442gtWA7R/ggk2DvoGr0ZIl73BrSqnRbGb1mzfIPSfjnFJFeGQLZTOQrPjEv9eMrjMEaxNTDxzDiRzRDD5oIbfzi+KJC2i/0+XyBhJVkAoz34qQG+E8MQQGbohmNZqMLU9bq0Y7xqH8ImE7gQH1ZD1g4wusmJ0QiQU4XzccOEx2aex/5XaKFPasC4GKF2trxWpClwuUYuFj+3nc6wkckmRtMh491DPjmHN9O3nG+4TyPJeWZ+gUIs6IURquQ6DklLTL9hNJH8VETaoFTclyzY6WXg==
+
+
+----==_mimepart_626b620198961_473fec54acb964432375b
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+##- Please type your reply above this line -##
+
+You are registered as a CC on this support request (2022113). Reply to th=
+is email to add a comment to the request.
+
+----------------------------------------------
+
+BO DINCER, Apr 28, 2022, 11:56 PM EDT
+
+$852,029,489.38 + chopped down the investors capital while taking INBOUND=
+ subscriptions w/o any notice =
+
+
+0.    CIK 0093715 <[OLD]>
+    =
+
+1.    CIK 1516523 <(NEW)>
+
+000.    Twenty Secen years later, casually decided to "NO LONGER FILE UND=
+ER THE FORMER CIK ID: 0093715...
+    =
+
+    =
+
+Thank you for NOT participating as a [C.16] representative, or servide pr=
+ovider in the NEW; and after the OLD institute for the smoothe operators =
+at:
+      =
+
+1.    ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710.
+>> maintain the same address INTO a geeater pool of shared risk.
+    =
+
+2.    101 west 55th street, NEW YORK, NY, 10019
+    =
+
+3.    150 east 42nd street, NEW YORK, NY, 10017
+    Aided and abetted to a SELF-ADMINISTERED and SELF CUSTODIED 40 ACT IN=
+ A BIGGER HOME <1516523> and some very expensive neighbors:
+   A.    <EY>
+   B.   [ PWC ]
+   C.   <DELOITTE>
+    =
+
+  X X. =
+
+    /s/    b.d., ... ,.
+        =
+
+
+---------- Forwarded message ---------
+From: BO DINCER <bondstrt007@gmail.com>
+Date: Thu, Apr 28, 2022, 7:49 PM
+Subject: Also links for entertainment purposes- this xmas MSG-
+To: <cockarens@vouchersrus.org>, JAMES GORMAN [MORGAN STANLEY] <james.gor=
+man@morganstanley.com>, Laskowitz, Shari <slaskowitz@ingramllp.com>, <LZU=
+CKER@mskyline.com>, <SLASKOWITZ@mskyline.com>, MANHATTAN SKYLINE, LLC. <A=
+DMINISTRATOR@mskyline.com>, <info@wilsonelser.com>, <info@ingramllp.com>,=
+ State Farm <mutualfunds@statefarm.com>, David Moore <david.moore.ct95@st=
+atefarm.com>, <Secretarys-Office@sec.gov>, <letters@nypost.com>, <ipadhel=
+p@nypost.com>, <rss@ap.com>, <info@ap.org>, <premerger@ftc.gov>
+Cc: <praghuram2@bloomberg.net>, PRIYA.RAGHURAM@MORGANSTANLEY.COM <PRIYA.R=
+AGHURAM@morganstanley.com>, <privacypolicy@related.com>, =E2=80=8Bcshugg@=
+usinfosec.com <cshugg@usinfosec.com>, <cscsspwaiver@buildings.nyc.gov>, <=
+espnfrontrow@espn.com>, <newsoffice@mit.edu>, Broker - Sullivan Mews <sul=
+livanmews@mskylinerentals.com>, <newsletters@latimes.com>, <news@penews.c=
+om>, <investorrelations@umusic.com>, <info@kpmg.com>, Bressler Info <INFO=
+@bressler.com>, <general.info@ny.frb.org>, <info@ap.org>, <info@tudor.com=
+>, <ksaperstein2@bloomberg.net>, <NYM-PREAComplianceMgr-S@bop.gov>, <911@=
+200.com>, =E2=80=8Biceglobalnetwork-info@ice.com <iceglobalnetwork-info@i=
+ce.com>, =E2=80=8BICEIndices@ice.com <ICEIndices@ice.com>, <isdaeurope@is=
+da.org>, <isda@isda.org>, <BOP-RSD-PREACOORDINATOR@bop.gov>
+
+
+https://open.spotify.com/track/59gOHOcGYdBTEh7Hr1FmyH?si=3DE7YYTXVnToyB6U=
+iSuRWneA&utm_source=3Dcopy-link
+
+
+Like peas in a pod. Solomon, Dicker, Zucker & Co.
+
+#1 #tf500. #No-Problem. =
+
+      =
+
+https://youtu.be/tCdqhdAmc9o
+
+***^^^For those of You NOT trying to figure out how-to duck the Fed  .. d=
+efinitely NO ONE in the BCC. Definitely NO.
+
+Attachment(s):
+Screenshot_20220422-011203_Spotify.jpg - https://help.nytimes.com/attachm=
+ents/token/rO6OO0BltzXCXwq6fhiEoUw1m/?name=3DScreenshot_20220422-011203_S=
+potify.jpgScreenshot_20220418-173501_Gallery.jpg - https://help.nytimes.c=
+om/attachments/token/yh7WoHFHGfUJMwzzCEPaFfPoY/?name=3DScreenshot_2022041=
+8-173501_Gallery.jpgScreenshot_20220415-144417_Facebook.jpg - https://hel=
+p.nytimes.com/attachments/token/ZH1gUSlnhtP8TXwMQgKz1lc1X/?name=3DScreens=
+hot_20220415-144417_Facebook.jpgScreenshot_20220415-144538_Facebook.jpg -=
+ https://help.nytimes.com/attachments/token/TCJzrU4frbOOYC2Vb5Ei4MzPt/?na=
+me=3DScreenshot_20220415-144538_Facebook.jpgScreenshot_20220414-173119_Li=
+nkedIn.jpg - https://help.nytimes.com/attachments/token/5IeN9DSmbPaXUXvLB=
+dmmeU0yZ/?name=3DScreenshot_20220414-173119_LinkedIn.jpgScreenshot_202204=
+13-235835_Yahoo Mail.jpg - https://help.nytimes.com/attachments/token/uBH=
+iTjdye9etSjLwJdtXIaxfj/?name=3DScreenshot_20220413-235835_Yahoo+Mail.jpgS=
+creenshot_20220413-234916_Yahoo Mail.jpg - https://help.nytimes.com/attac=
+hments/token/eCkfNYjzntdWf6QwIptnJ0DUw/?name=3DScreenshot_20220413-234916=
+_Yahoo+Mail.jpgScreenshot_20220413-233955_Yahoo Mail.jpg - https://help.n=
+ytimes.com/attachments/token/YBtlugRUU75bge26CJhB3ETy9/?name=3DScreenshot=
+_20220413-233955_Yahoo+Mail.jpgScreenshot_20220412-155102_Gallery.jpg - h=
+ttps://help.nytimes.com/attachments/token/WB9JIK1DmJGsWC9Pyd1WYLrkJ/?name=
+=3DScreenshot_20220412-155102_Gallery.jpgScreenshot_20220412-180424_Galle=
+ry.jpg - https://help.nytimes.com/attachments/token/mwNhqZ4FLKt7FyxeVg5UR=
+jkIw/?name=3DScreenshot_20220412-180424_Gallery.jpgScreenshot_20220412-16=
+2002_Chrome.jpg - https://help.nytimes.com/attachments/token/4xi2O4vtQCIY=
+FAlNZGWbjJftp/?name=3DScreenshot_20220412-162002_Chrome.jpgScreenshot_202=
+20408-131519_Messages.jpg - https://help.nytimes.com/attachments/token/UB=
+meULRqAktpur2aqiTqfaXTI/?name=3DScreenshot_20220408-131519_Messages.jpgSc=
+reenshot_20220407-232037_Yahoo Mail.jpg - https://help.nytimes.com/attach=
+ments/token/rba78WnA2fwCi8THVDnUjEBi0/?name=3DScreenshot_20220407-232037_=
+Yahoo+Mail.jpgScreenshot_20220408-120614_Yahoo Mail.jpg - https://help.ny=
+times.com/attachments/token/SSyHQkxVQL34UsToVaaPEQGTX/?name=3DScreenshot_=
+20220408-120614_Yahoo+Mail.jpg_TCRReport.pdf - https://help.nytimes.com/a=
+ttachments/token/cboLl4fFZmNM60avDaoiBd8wg/?name=3D_TCRReport.pdfYahoo Ma=
+il Document_ TCR ATTACHMENTS Sarbanes-Oxley BREACH.PDF - https://help.nyt=
+imes.com/attachments/token/Q0LylKDKkwSSIFWPmW9iCedp0/?name=3DYahoo+Mail+D=
+ocument_+TCR+ATTACHMENTS+Sarbanes-Oxley+BREACH.PDFYahoo Mail Document_ Re=
+_ Attached document(s) TCR REPORT ex-POST..PDF - https://help.nytimes.com=
+/attachments/token/rQlY65VXC3ROFPqOxEZuRjLPy/?name=3DYahoo+Mail+Document_=
++Re_+Attached+document%28s%29+TCR+REPORT+ex-POST..PDF
+
+----------------------------------------------
+
+BO DINCER, Apr 28, 2022, 7:50 PM EDT
+
+https://open.spotify.com/track/59gOHOcGYdBTEh7Hr1FmyH?si=3DE7YYTXVnToyB6U=
+iSuRWneA&utm_source=3Dcopy-link
+
+
+Like peas in a pod. Solomon, Dicker, Zucker & Co.
+
+#1 #tf500. #No-Problem. =
+
+      =
+
+https://youtu.be/tCdqhdAmc9o
+
+***^^^For those of You NOT trying to figure out how-to duck the Fed  .. d=
+efinitely NO ONE in the BCC. Definitely NO.
+
+Attachment(s):
+Screenshot_20220422-011203_Spotify.jpg - https://help.nytimes.com/attachm=
+ents/token/TYhUP6kgsMtoczKK4J0nMbK4V/?name=3DScreenshot_20220422-011203_S=
+potify.jpgScreenshot_20220418-173501_Gallery.jpg - https://help.nytimes.c=
+om/attachments/token/AWBaYf5BXom0gbETMFFWlw9wj/?name=3DScreenshot_2022041=
+8-173501_Gallery.jpgScreenshot_20220415-144417_Facebook.jpg - https://hel=
+p.nytimes.com/attachments/token/U2jEICiS9k4HVlqsyJI5eSffB/?name=3DScreens=
+hot_20220415-144417_Facebook.jpgScreenshot_20220415-144538_Facebook.jpg -=
+ https://help.nytimes.com/attachments/token/iBKGBOsBeZu8JCHua23rFTloo/?na=
+me=3DScreenshot_20220415-144538_Facebook.jpgScreenshot_20220414-173119_Li=
+nkedIn.jpg - https://help.nytimes.com/attachments/token/xGBKDXqQr7psBFtX4=
+Kn2GqZoa/?name=3DScreenshot_20220414-173119_LinkedIn.jpgScreenshot_202204=
+13-235835_Yahoo Mail.jpg - https://help.nytimes.com/attachments/token/w2V=
+2G2hRqkdNyHQc4QhrO238d/?name=3DScreenshot_20220413-235835_Yahoo+Mail.jpgS=
+creenshot_20220413-234916_Yahoo Mail.jpg - https://help.nytimes.com/attac=
+hments/token/bIVr3L40eczhK5MH7bZEny3kN/?name=3DScreenshot_20220413-234916=
+_Yahoo+Mail.jpgScreenshot_20220413-233955_Yahoo Mail.jpg - https://help.n=
+ytimes.com/attachments/token/D7YVTY0s5kJzSHxUGRNTumiBZ/?name=3DScreenshot=
+_20220413-233955_Yahoo+Mail.jpgScreenshot_20220412-155102_Gallery.jpg - h=
+ttps://help.nytimes.com/attachments/token/cEKi1z6NQUj8xXOEV7V7baJgx/?name=
+=3DScreenshot_20220412-155102_Gallery.jpgScreenshot_20220412-180424_Galle=
+ry.jpg - https://help.nytimes.com/attachments/token/1Ip5TY0HPEL9V5L8G6NWf=
+z3oN/?name=3DScreenshot_20220412-180424_Gallery.jpgScreenshot_20220412-16=
+2002_Chrome.jpg - https://help.nytimes.com/attachments/token/cF7vLXlwkYRD=
+NVMSG7yvVjy1c/?name=3DScreenshot_20220412-162002_Chrome.jpgScreenshot_202=
+20408-131519_Messages.jpg - https://help.nytimes.com/attachments/token/SV=
+WiFOCHMvaUXGV7rmrbKDPzE/?name=3DScreenshot_20220408-131519_Messages.jpgSc=
+reenshot_20220407-232037_Yahoo Mail.jpg - https://help.nytimes.com/attach=
+ments/token/cgA77eMML3cbUcznolnx5gQKc/?name=3DScreenshot_20220407-232037_=
+Yahoo+Mail.jpgScreenshot_20220408-120614_Yahoo Mail.jpg - https://help.ny=
+times.com/attachments/token/hwmQsnIzosUbUtv49jRRZhXjR/?name=3DScreenshot_=
+20220408-120614_Yahoo+Mail.jpg_TCRReport.pdf - https://help.nytimes.com/a=
+ttachments/token/40E4C4lMhsBKSUa4ZjVPumK2N/?name=3D_TCRReport.pdfYahoo Ma=
+il Document_ TCR ATTACHMENTS Sarbanes-Oxley BREACH.PDF - https://help.nyt=
+imes.com/attachments/token/isvzNZWalyBRVqo2kgZIWKjU2/?name=3DYahoo+Mail+D=
+ocument_+TCR+ATTACHMENTS+Sarbanes-Oxley+BREACH.PDFYahoo Mail Document_ Re=
+_ Attached document(s) TCR REPORT ex-POST..PDF - https://help.nytimes.com=
+/attachments/token/WBlDwfEfE51e3dWN4HA9HBY6z/?name=3DYahoo+Mail+Document_=
++Re_+Attached+document%28s%29+TCR+REPORT+ex-POST..PDF
+
+--------------------------------
+This email is a service from The New York Times Customer Care.
+
+
+
+
+
+
+
+
+
+[YDWW78-E2W0]=
+
+----==_mimepart_626b620198961_473fec54acb964432375b
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml"><head>
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+" />
+  <style type=3D"text/css">
+    table td {
+      border-collapse: collapse;
+    }
+    body[dir=3Drtl] .directional_text_wrapper { direction: rtl; unicode-b=
+idi: embed; }
+
+  </style>
+</head>
+<body lang=3D"en-us" style=3D"width: 100%!important; margin: 0; padding: =
+0;" xml:lang=3D"en-us">
+  <div style=3D"padding: 10px ; line-height: 18px; font-family: 'Lucida G=
+rande',Verdana,Arial,sans-serif; font-size: 12px; color:#444444;">
+    <div style=3D"color: #b5b5b5;">##- Please type your reply above this =
+line -##</div>
+    <p dir=3D"ltr">You are registered as a CC on this support request (20=
+22113). Reply to this email to add a comment to the request.</p><p dir=3D=
+"ltr"></p><div style=3D"margin-top: 25px" data-version=3D"2"><table width=
+=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" role=3D"presen=
+tation">  <tbody><tr>    <td width=3D"100%" style=3D"padding: 15px 0; bor=
+der-top: 1px dotted #c5c5c5;">      <table width=3D"100%" cellpadding=3D"=
+0" cellspacing=3D"0" border=3D"0" style=3D"table-layout:fixed;" role=3D"p=
+resentation">        <tbody><tr>                    <td width=3D"100%" st=
+yle=3D"padding: 0; margin: 0;" valign=3D"top">            <p style=3D"fon=
+t-family:'Lucida Grande','Lucida Sans Unicode','Lucida Sans',Verdana,Taho=
+ma,sans-serif; font-size: 15px; line-height: 18px; margin-bottom: 0; marg=
+in-top: 0; padding: 0; color:#1b1d1e;" dir=3D"ltr">                      =
+        <strong>BO DINCER</strong>                          </p>         =
+   <p style=3D"font-family:'Lucida Grande','Lucida Sans Unicode','Lucida =
+Sans',Verdana,Tahoma,sans-serif; font-size: 13px; line-height: 25px; marg=
+in-bottom: 15px; margin-top: 0; padding: 0; color:#bbbbbb;" dir=3D"ltr"> =
+             Apr 28, 2022, 11:56 PM EDT            </p>                  =
+                  <div class=3D"zd-comment" dir=3D"auto" style=3D"color: =
+#2b2e2f; font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Tahoma', V=
+erdana, sans-serif; font-size: 14px; line-height: 22px; margin: 15px 0;">=
+<p style=3D"color: #2b2e2f; font-family: 'Lucida Sans Unicode', 'Lucida G=
+rande', 'Tahoma', Verdana, sans-serif; font-size: 14px; line-height: 22px=
+; margin: 15px 0;" dir=3D"ltr">$852,029,489.38 + chopped down the investo=
+rs capital while taking INBOUND subscriptions w/o any notice </p><p style=
+=3D"color: #2b2e2f; font-family: 'Lucida Sans Unicode', 'Lucida Grande', =
+'Tahoma', Verdana, sans-serif; font-size: 14px; line-height: 22px; margin=
+: 15px 0;" dir=3D"ltr">0.    CIK 0093715 &lt;[OLD]&gt;<br />    <br />1. =
+   CIK 1516523 &lt;(NEW)&gt;</p><p style=3D"color: #2b2e2f; font-family: =
+'Lucida Sans Unicode', 'Lucida Grande', 'Tahoma', Verdana, sans-serif; fo=
+nt-size: 14px; line-height: 22px; margin: 15px 0;" dir=3D"ltr">000.    Tw=
+enty Secen years later, casually decided to "NO LONGER FILE UNDER THE FOR=
+MER CIK ID: 0093715...<br />    <br />    <br />Thank you for NOT partici=
+pating as a [C.16] representative, or servide provider in the NEW; and af=
+ter the OLD institute for the smoothe operators at:<br />      <br />1.  =
+  ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710.<br />&gt;&gt; maintain th=
+e same address INTO a geeater pool of shared risk.<br />    <br />2.    1=
+01 west 55th street, NEW YORK, NY, 10019<br />    <br />3.    150 east 42=
+nd street, NEW YORK, NY, 10017<br />    Aided and abetted to a SELF-ADMIN=
+ISTERED and SELF CUSTODIED 40 ACT IN A BIGGER HOME &lt;1516523&gt; and so=
+me very expensive neighbors:<br />   A.    &lt;EY&gt;<br />   B.   [ PWC =
+]<br />   C.   &lt;DELOITTE&gt;<br />    <br />  X X. <br />    /s/    b.=
+d., ... ,.<br />        </p><p style=3D"color: #2b2e2f; font-family: 'Luc=
+ida Sans Unicode', 'Lucida Grande', 'Tahoma', Verdana, sans-serif; font-s=
+ize: 14px; line-height: 22px; margin: 15px 0;" dir=3D"ltr">---------- For=
+warded message ---------<br />From: BO DINCER &lt;<a href=3D"mailto:bonds=
+trt007@gmail.com" rel=3D"noreferrer">bondstrt007@gmail.com</a>&gt;<br />D=
+ate: Thu, Apr 28, 2022, 7:49 PM<br />Subject: Also links for entertainmen=
+t purposes- this xmas MSG-<br />To: &lt;<a href=3D"mailto:cockarens@vouch=
+ersrus.org" rel=3D"noreferrer">cockarens@vouchersrus.org</a>&gt;, JAMES G=
+ORMAN [MORGAN STANLEY] &lt;<a href=3D"mailto:james.gorman@morganstanley.c=
+om" rel=3D"noreferrer">james.gorman@morganstanley.com</a>&gt;, Laskowitz,=
+ Shari &lt;<a href=3D"mailto:slaskowitz@ingramllp.com" rel=3D"noreferrer"=
+>slaskowitz@ingramllp.com</a>&gt;, &lt;<a href=3D"mailto:LZUCKER@mskyline=
+.com" rel=3D"noreferrer">LZUCKER@mskyline.com</a>&gt;, &lt;<a href=3D"mai=
+lto:SLASKOWITZ@mskyline.com" rel=3D"noreferrer">SLASKOWITZ@mskyline.com</=
+a>&gt;, MANHATTAN SKYLINE, LLC. &lt;<a href=3D"mailto:ADMINISTRATOR@mskyl=
+ine.com" rel=3D"noreferrer">ADMINISTRATOR@mskyline.com</a>&gt;, &lt;<a hr=
+ef=3D"mailto:info@wilsonelser.com" rel=3D"noreferrer">info@wilsonelser.co=
+m</a>&gt;, &lt;<a href=3D"mailto:info@ingramllp.com" rel=3D"noreferrer">i=
+nfo@ingramllp.com</a>&gt;, State Farm &lt;<a href=3D"mailto:mutualfunds@s=
+tatefarm.com" rel=3D"noreferrer">mutualfunds@statefarm.com</a>&gt;, David=
+ Moore &lt;<a href=3D"mailto:david.moore.ct95@statefarm.com" rel=3D"noref=
+errer">david.moore.ct95@statefarm.com</a>&gt;, &lt;<a href=3D"mailto:Secr=
+etarys-Office@sec.gov" rel=3D"noreferrer">Secretarys-Office@sec.gov</a>&g=
+t;, &lt;<a href=3D"mailto:letters@nypost.com" rel=3D"noreferrer">letters@=
+nypost.com</a>&gt;, &lt;<a href=3D"mailto:ipadhelp@nypost.com" rel=3D"nor=
+eferrer">ipadhelp@nypost.com</a>&gt;, &lt;<a href=3D"mailto:rss@ap.com" r=
+el=3D"noreferrer">rss@ap.com</a>&gt;, &lt;<a href=3D"mailto:info@ap.org" =
+rel=3D"noreferrer">info@ap.org</a>&gt;, &lt;<a href=3D"mailto:premerger@f=
+tc.gov" rel=3D"noreferrer">premerger@ftc.gov</a>&gt;<br />Cc: &lt;<a href=
+=3D"mailto:praghuram2@bloomberg.net" rel=3D"noreferrer">praghuram2@bloomb=
+erg.net</a>&gt;, <a href=3D"mailto:PRIYA.RAGHURAM@MORGANSTANLEY.COM" rel=3D=
+"noreferrer">PRIYA.RAGHURAM@MORGANSTANLEY.COM</a> &lt;<a href=3D"mailto:P=
+RIYA.RAGHURAM@morganstanley.com" rel=3D"noreferrer">PRIYA.RAGHURAM@morgan=
+stanley.com</a>&gt;, &lt;<a href=3D"mailto:privacypolicy@related.com" rel=
+=3D"noreferrer">privacypolicy@related.com</a>&gt;, =E2=80=8B<a href=3D"ma=
+ilto:cshugg@usinfosec.com" rel=3D"noreferrer">cshugg@usinfosec.com</a> &l=
+t;<a href=3D"mailto:cshugg@usinfosec.com" rel=3D"noreferrer">cshugg@usinf=
+osec.com</a>&gt;, &lt;<a href=3D"mailto:cscsspwaiver@buildings.nyc.gov" r=
+el=3D"noreferrer">cscsspwaiver@buildings.nyc.gov</a>&gt;, &lt;<a href=3D"=
+mailto:espnfrontrow@espn.com" rel=3D"noreferrer">espnfrontrow@espn.com</a=
+>&gt;, &lt;<a href=3D"mailto:newsoffice@mit.edu" rel=3D"noreferrer">newso=
+ffice@mit.edu</a>&gt;, Broker - Sullivan Mews &lt;<a href=3D"mailto:sulli=
+vanmews@mskylinerentals.com" rel=3D"noreferrer">sullivanmews@mskylinerent=
+als.com</a>&gt;, &lt;<a href=3D"mailto:newsletters@latimes.com" rel=3D"no=
+referrer">newsletters@latimes.com</a>&gt;, &lt;<a href=3D"mailto:news@pen=
+ews.com" rel=3D"noreferrer">news@penews.com</a>&gt;, &lt;<a href=3D"mailt=
+o:investorrelations@umusic.com" rel=3D"noreferrer">investorrelations@umus=
+ic.com</a>&gt;, &lt;<a href=3D"mailto:info@kpmg.com" rel=3D"noreferrer">i=
+nfo@kpmg.com</a>&gt;, Bressler Info &lt;<a href=3D"mailto:INFO@bressler.c=
+om" rel=3D"noreferrer">INFO@bressler.com</a>&gt;, &lt;<a href=3D"mailto:g=
+eneral.info@ny.frb.org" rel=3D"noreferrer">general.info@ny.frb.org</a>&gt=
+;, &lt;<a href=3D"mailto:info@ap.org" rel=3D"noreferrer">info@ap.org</a>&=
+gt;, &lt;<a href=3D"mailto:info@tudor.com" rel=3D"noreferrer">info@tudor.=
+com</a>&gt;, &lt;<a href=3D"mailto:ksaperstein2@bloomberg.net" rel=3D"nor=
+eferrer">ksaperstein2@bloomberg.net</a>&gt;, &lt;<a href=3D"mailto:NYM-PR=
+EAComplianceMgr-S@bop.gov" rel=3D"noreferrer">NYM-PREAComplianceMgr-S@bop=
+.gov</a>&gt;, &lt;<a href=3D"mailto:911@200.com" rel=3D"noreferrer">911@2=
+00.com</a>&gt;, =E2=80=8B<a href=3D"mailto:iceglobalnetwork-info@ice.com"=
+ rel=3D"noreferrer">iceglobalnetwork-info@ice.com</a> &lt;<a href=3D"mail=
+to:iceglobalnetwork-info@ice.com" rel=3D"noreferrer">iceglobalnetwork-inf=
+o@ice.com</a>&gt;, =E2=80=8B<a href=3D"mailto:ICEIndices@ice.com" rel=3D"=
+noreferrer">ICEIndices@ice.com</a> &lt;<a href=3D"mailto:ICEIndices@ice.c=
+om" rel=3D"noreferrer">ICEIndices@ice.com</a>&gt;, &lt;<a href=3D"mailto:=
+isdaeurope@isda.org" rel=3D"noreferrer">isdaeurope@isda.org</a>&gt;, &lt;=
+<a href=3D"mailto:isda@isda.org" rel=3D"noreferrer">isda@isda.org</a>&gt;=
+, &lt;<a href=3D"mailto:BOP-RSD-PREACOORDINATOR@bop.gov" rel=3D"noreferre=
+r">BOP-RSD-PREACOORDINATOR@bop.gov</a>&gt;</p><p style=3D"color: #2b2e2f;=
+ font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Tahoma', Verdana, =
+sans-serif; font-size: 14px; line-height: 22px; margin: 15px 0;" dir=3D"l=
+tr"><a href=3D"https://open.spotify.com/track/59gOHOcGYdBTEh7Hr1FmyH?si=3D=
+E7YYTXVnToyB6UiSuRWneA&amp;utm_source=3Dcopy-link" target=3D"_blank" rel=3D=
+"nofollow noreferrer">https://open.spotify.com/track/59gOHOcGYdBTEh7Hr1Fm=
+yH?si=3DE7YYTXVnToyB6UiSuRWneA&amp;utm_source=3Dcopy-link</a></p><p style=
+=3D"color: #2b2e2f; font-family: 'Lucida Sans Unicode', 'Lucida Grande', =
+'Tahoma', Verdana, sans-serif; font-size: 14px; line-height: 22px; margin=
+: 15px 0;" dir=3D"ltr">Like peas in a pod. Solomon, Dicker, Zucker &amp; =
+Co.</p><p style=3D"color: #2b2e2f; font-family: 'Lucida Sans Unicode', 'L=
+ucida Grande', 'Tahoma', Verdana, sans-serif; font-size: 14px; line-heigh=
+t: 22px; margin: 15px 0;" dir=3D"ltr"><a href=3D"https://help.nytimes.com=
+/hc/requests/1" target=3D"_blank" rel=3D"ticket">#1</a> #tf500. #No-Probl=
+em. <br />      <br /><a href=3D"https://youtu.be/tCdqhdAmc9o" target=3D"=
+_blank" rel=3D"nofollow noreferrer">https://youtu.be/tCdqhdAmc9o</a></p><=
+p style=3D"color: #2b2e2f; font-family: 'Lucida Sans Unicode', 'Lucida Gr=
+ande', 'Tahoma', Verdana, sans-serif; font-size: 14px; line-height: 22px;=
+ margin: 15px 0;" dir=3D"ltr">***^^^For those of You NOT trying to figure=
+ out how-to duck the Fed  .. definitely NO ONE in the BCC. Definitely NO.=
+</p></div>                        <p style=3D"line-height: 22px; font-fam=
+ily:'Lucida Grande','Lucida Sans Unicode','Lucida Sans',Verdana,Tahoma,sa=
+ns-serif; margin-top: 15px; margin-bottom: 15px; font-size: 14px; color:#=
+333333;" dir=3D"ltr">              Attachment(s)<br />                   =
+           <a href=3D"https://help.nytimes.com/attachments/token/rO6OO0Bl=
+tzXCXwq6fhiEoUw1m/?name=3DScreenshot_20220422-011203_Spotify.jpg">Screens=
+hot_20220422-011203_Spotify.jpg</a><br />                              <a=
+ href=3D"https://help.nytimes.com/attachments/token/yh7WoHFHGfUJMwzzCEPaF=
+fPoY/?name=3DScreenshot_20220418-173501_Gallery.jpg">Screenshot_20220418-=
+173501_Gallery.jpg</a><br />                              <a href=3D"http=
+s://help.nytimes.com/attachments/token/ZH1gUSlnhtP8TXwMQgKz1lc1X/?name=3D=
+Screenshot_20220415-144417_Facebook.jpg">Screenshot_20220415-144417_Faceb=
+ook.jpg</a><br />                              <a href=3D"https://help.ny=
+times.com/attachments/token/TCJzrU4frbOOYC2Vb5Ei4MzPt/?name=3DScreenshot_=
+20220415-144538_Facebook.jpg">Screenshot_20220415-144538_Facebook.jpg</a>=
+<br />                              <a href=3D"https://help.nytimes.com/a=
+ttachments/token/5IeN9DSmbPaXUXvLBdmmeU0yZ/?name=3DScreenshot_20220414-17=
+3119_LinkedIn.jpg">Screenshot_20220414-173119_LinkedIn.jpg</a><br />     =
+                         <a href=3D"https://help.nytimes.com/attachments/=
+token/uBHiTjdye9etSjLwJdtXIaxfj/?name=3DScreenshot_20220413-235835_Yahoo+=
+Mail.jpg">Screenshot_20220413-235835_Yahoo Mail.jpg</a><br />            =
+                  <a href=3D"https://help.nytimes.com/attachments/token/e=
+CkfNYjzntdWf6QwIptnJ0DUw/?name=3DScreenshot_20220413-234916_Yahoo+Mail.jp=
+g">Screenshot_20220413-234916_Yahoo Mail.jpg</a><br />                   =
+           <a href=3D"https://help.nytimes.com/attachments/token/YBtlugRU=
+U75bge26CJhB3ETy9/?name=3DScreenshot_20220413-233955_Yahoo+Mail.jpg">Scre=
+enshot_20220413-233955_Yahoo Mail.jpg</a><br />                          =
+    <a href=3D"https://help.nytimes.com/attachments/token/WB9JIK1DmJGsWC9=
+Pyd1WYLrkJ/?name=3DScreenshot_20220412-155102_Gallery.jpg">Screenshot_202=
+20412-155102_Gallery.jpg</a><br />                              <a href=3D=
+"https://help.nytimes.com/attachments/token/mwNhqZ4FLKt7FyxeVg5URjkIw/?na=
+me=3DScreenshot_20220412-180424_Gallery.jpg">Screenshot_20220412-180424_G=
+allery.jpg</a><br />                              <a href=3D"https://help=
+.nytimes.com/attachments/token/4xi2O4vtQCIYFAlNZGWbjJftp/?name=3DScreensh=
+ot_20220412-162002_Chrome.jpg">Screenshot_20220412-162002_Chrome.jpg</a><=
+br />                              <a href=3D"https://help.nytimes.com/at=
+tachments/token/UBmeULRqAktpur2aqiTqfaXTI/?name=3DScreenshot_20220408-131=
+519_Messages.jpg">Screenshot_20220408-131519_Messages.jpg</a><br />      =
+                        <a href=3D"https://help.nytimes.com/attachments/t=
+oken/rba78WnA2fwCi8THVDnUjEBi0/?name=3DScreenshot_20220407-232037_Yahoo+M=
+ail.jpg">Screenshot_20220407-232037_Yahoo Mail.jpg</a><br />             =
+                 <a href=3D"https://help.nytimes.com/attachments/token/SS=
+yHQkxVQL34UsToVaaPEQGTX/?name=3DScreenshot_20220408-120614_Yahoo+Mail.jpg=
+">Screenshot_20220408-120614_Yahoo Mail.jpg</a><br />                    =
+          <a href=3D"https://help.nytimes.com/attachments/token/cboLl4fFZ=
+mNM60avDaoiBd8wg/?name=3D_TCRReport.pdf">_TCRReport.pdf</a><br />        =
+                      <a href=3D"https://help.nytimes.com/attachments/tok=
+en/Q0LylKDKkwSSIFWPmW9iCedp0/?name=3DYahoo+Mail+Document_+TCR+ATTACHMENTS=
++Sarbanes-Oxley+BREACH.PDF">Yahoo Mail Document_ TCR ATTACHMENTS Sarbanes=
+-Oxley BREACH.PDF</a><br />                              <a href=3D"https=
+://help.nytimes.com/attachments/token/rQlY65VXC3ROFPqOxEZuRjLPy/?name=3DY=
+ahoo+Mail+Document_+Re_+Attached+document%28s%29+TCR+REPORT+ex-POST..PDF"=
+>Yahoo Mail Document_ Re_ Attached document(s) TCR REPORT ex-POST..PDF</a=
+><br />                          </p>                                  </=
+td>        </tr>      </tbody></table>    </td>  </tr></tbody></table><p =
+dir=3D"ltr"></p><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0"=
+ border=3D"0" role=3D"presentation">  <tbody><tr>    <td width=3D"100%" s=
+tyle=3D"padding: 15px 0; border-top: 1px dotted #c5c5c5;">      <table wi=
+dth=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"ta=
+ble-layout:fixed;" role=3D"presentation">        <tbody><tr>             =
+       <td width=3D"100%" style=3D"padding: 0; margin: 0;" valign=3D"top"=
+>            <p style=3D"font-family:'Lucida Grande','Lucida Sans Unicode=
+','Lucida Sans',Verdana,Tahoma,sans-serif; font-size: 15px; line-height: =
+18px; margin-bottom: 0; margin-top: 0; padding: 0; color:#1b1d1e;" dir=3D=
+"ltr">                              <strong>BO DINCER</strong>           =
+               </p>            <p style=3D"font-family:'Lucida Grande','L=
+ucida Sans Unicode','Lucida Sans',Verdana,Tahoma,sans-serif; font-size: 1=
+3px; line-height: 25px; margin-bottom: 15px; margin-top: 0; padding: 0; c=
+olor:#bbbbbb;" dir=3D"ltr">              Apr 28, 2022, 7:50 PM EDT       =
+     </p>                                    <div class=3D"zd-comment" di=
+r=3D"auto" style=3D"color: #2b2e2f; font-family: 'Lucida Sans Unicode', '=
+Lucida Grande', 'Tahoma', Verdana, sans-serif; font-size: 14px; line-heig=
+ht: 22px; margin: 15px 0;"><p style=3D"color: #2b2e2f; font-family: 'Luci=
+da Sans Unicode', 'Lucida Grande', 'Tahoma', Verdana, sans-serif; font-si=
+ze: 14px; line-height: 22px; margin: 15px 0;" dir=3D"ltr"><a href=3D"http=
+s://open.spotify.com/track/59gOHOcGYdBTEh7Hr1FmyH?si=3DE7YYTXVnToyB6UiSuR=
+WneA&amp;utm_source=3Dcopy-link" target=3D"_blank" rel=3D"nofollow norefe=
+rrer">https://open.spotify.com/track/59gOHOcGYdBTEh7Hr1FmyH?si=3DE7YYTXVn=
+ToyB6UiSuRWneA&amp;utm_source=3Dcopy-link</a></p><p style=3D"color: #2b2e=
+2f; font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Tahoma', Verdan=
+a, sans-serif; font-size: 14px; line-height: 22px; margin: 15px 0;" dir=3D=
+"ltr">Like peas in a pod. Solomon, Dicker, Zucker &amp; Co.</p><p style=3D=
+"color: #2b2e2f; font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Ta=
+homa', Verdana, sans-serif; font-size: 14px; line-height: 22px; margin: 1=
+5px 0;" dir=3D"ltr"><a href=3D"https://help.nytimes.com/hc/requests/1" ta=
+rget=3D"_blank" rel=3D"ticket">#1</a> #tf500. #No-Problem. <br />      <b=
+r /><a href=3D"https://youtu.be/tCdqhdAmc9o" target=3D"_blank" rel=3D"nof=
+ollow noreferrer">https://youtu.be/tCdqhdAmc9o</a></p><p style=3D"color: =
+#2b2e2f; font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Tahoma', V=
+erdana, sans-serif; font-size: 14px; line-height: 22px; margin: 15px 0;" =
+dir=3D"ltr">***^^^For those of You NOT trying to figure out how-to duck t=
+he Fed  .. definitely NO ONE in the BCC. Definitely NO.</p></div>        =
+                <p style=3D"line-height: 22px; font-family:'Lucida Grande=
+','Lucida Sans Unicode','Lucida Sans',Verdana,Tahoma,sans-serif; margin-t=
+op: 15px; margin-bottom: 15px; font-size: 14px; color:#333333;" dir=3D"lt=
+r">              Attachment(s)<br />                              <a href=
+=3D"https://help.nytimes.com/attachments/token/TYhUP6kgsMtoczKK4J0nMbK4V/=
+?name=3DScreenshot_20220422-011203_Spotify.jpg">Screenshot_20220422-01120=
+3_Spotify.jpg</a><br />                              <a href=3D"https://h=
+elp.nytimes.com/attachments/token/AWBaYf5BXom0gbETMFFWlw9wj/?name=3DScree=
+nshot_20220418-173501_Gallery.jpg">Screenshot_20220418-173501_Gallery.jpg=
+</a><br />                              <a href=3D"https://help.nytimes.c=
+om/attachments/token/U2jEICiS9k4HVlqsyJI5eSffB/?name=3DScreenshot_2022041=
+5-144417_Facebook.jpg">Screenshot_20220415-144417_Facebook.jpg</a><br /> =
+                             <a href=3D"https://help.nytimes.com/attachme=
+nts/token/iBKGBOsBeZu8JCHua23rFTloo/?name=3DScreenshot_20220415-144538_Fa=
+cebook.jpg">Screenshot_20220415-144538_Facebook.jpg</a><br />            =
+                  <a href=3D"https://help.nytimes.com/attachments/token/x=
+GBKDXqQr7psBFtX4Kn2GqZoa/?name=3DScreenshot_20220414-173119_LinkedIn.jpg"=
+>Screenshot_20220414-173119_LinkedIn.jpg</a><br />                       =
+       <a href=3D"https://help.nytimes.com/attachments/token/w2V2G2hRqkdN=
+yHQc4QhrO238d/?name=3DScreenshot_20220413-235835_Yahoo+Mail.jpg">Screensh=
+ot_20220413-235835_Yahoo Mail.jpg</a><br />                              =
+<a href=3D"https://help.nytimes.com/attachments/token/bIVr3L40eczhK5MH7bZ=
+Eny3kN/?name=3DScreenshot_20220413-234916_Yahoo+Mail.jpg">Screenshot_2022=
+0413-234916_Yahoo Mail.jpg</a><br />                              <a href=
+=3D"https://help.nytimes.com/attachments/token/D7YVTY0s5kJzSHxUGRNTumiBZ/=
+?name=3DScreenshot_20220413-233955_Yahoo+Mail.jpg">Screenshot_20220413-23=
+3955_Yahoo Mail.jpg</a><br />                              <a href=3D"htt=
+ps://help.nytimes.com/attachments/token/cEKi1z6NQUj8xXOEV7V7baJgx/?name=3D=
+Screenshot_20220412-155102_Gallery.jpg">Screenshot_20220412-155102_Galler=
+y.jpg</a><br />                              <a href=3D"https://help.nyti=
+mes.com/attachments/token/1Ip5TY0HPEL9V5L8G6NWfz3oN/?name=3DScreenshot_20=
+220412-180424_Gallery.jpg">Screenshot_20220412-180424_Gallery.jpg</a><br =
+/>                              <a href=3D"https://help.nytimes.com/attac=
+hments/token/cF7vLXlwkYRDNVMSG7yvVjy1c/?name=3DScreenshot_20220412-162002=
+_Chrome.jpg">Screenshot_20220412-162002_Chrome.jpg</a><br />             =
+                 <a href=3D"https://help.nytimes.com/attachments/token/SV=
+WiFOCHMvaUXGV7rmrbKDPzE/?name=3DScreenshot_20220408-131519_Messages.jpg">=
+Screenshot_20220408-131519_Messages.jpg</a><br />                        =
+      <a href=3D"https://help.nytimes.com/attachments/token/cgA77eMML3cbU=
+cznolnx5gQKc/?name=3DScreenshot_20220407-232037_Yahoo+Mail.jpg">Screensho=
+t_20220407-232037_Yahoo Mail.jpg</a><br />                              <=
+a href=3D"https://help.nytimes.com/attachments/token/hwmQsnIzosUbUtv49jRR=
+ZhXjR/?name=3DScreenshot_20220408-120614_Yahoo+Mail.jpg">Screenshot_20220=
+408-120614_Yahoo Mail.jpg</a><br />                              <a href=3D=
+"https://help.nytimes.com/attachments/token/40E4C4lMhsBKSUa4ZjVPumK2N/?na=
+me=3D_TCRReport.pdf">_TCRReport.pdf</a><br />                            =
+  <a href=3D"https://help.nytimes.com/attachments/token/isvzNZWalyBRVqo2k=
+gZIWKjU2/?name=3DYahoo+Mail+Document_+TCR+ATTACHMENTS+Sarbanes-Oxley+BREA=
+CH.PDF">Yahoo Mail Document_ TCR ATTACHMENTS Sarbanes-Oxley BREACH.PDF</a=
+><br />                              <a href=3D"https://help.nytimes.com/=
+attachments/token/WBlDwfEfE51e3dWN4HA9HBY6z/?name=3DYahoo+Mail+Document_+=
+Re_+Attached+document%28s%29+TCR+REPORT+ex-POST..PDF">Yahoo Mail Document=
+_ Re_ Attached document(s) TCR REPORT ex-POST..PDF</a><br />             =
+             </p>                                  </td>        </tr>    =
+  </tbody></table>    </td>  </tr></tbody></table></div>
+  </div>
+  <div style=3D"padding: 10px ; line-height: 18px; font-family: 'Lucida G=
+rande',Verdana,Arial,sans-serif; font-size: 12px; color: #aaaaaa;&#10;   =
+ margin: 10px 0 14px 0; padding-top: 10px; border-top: 1px solid #eeeeee;=
+">
+    This email is a service from The New York Times Customer Care.
+  </div>
+<span style=3D"color:#FFFFFF" aria-hidden=3D"true">[YDWW78-E2W0]</span>
+
+<div itemscope=3D"" itemtype=3D"http://schema.org/EmailMessage" style=3D"=
+display:none">  <div itemprop=3D"action" itemscope=3D"" itemtype=3D"http:=
+//schema.org/ViewAction">    <link itemprop=3D"url" href=3D"https://help.=
+nytimes.com/hc/requests/2022113" />    <meta itemprop=3D"name" content=3D=
+"View ticket" />  </div></div></body></html>
+
+----==_mimepart_626b620198961_473fec54acb964432375b--

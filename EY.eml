@@ -1,0 +1,563 @@
+From - Thu May 19 23:14:56 2022
+X-Account-Key: account8
+X-UIDL: 1645857828.844
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <ms60710444266@yahoo.com>
+Received: from compute4.internal (compute4.nyi.internal [10.202.2.44])
+	 by sloti52n19 (Cyrus 3.7.0-alpha0-591-gfe6c3a2700-fm-20220427.001-gfe6c3a27) with LMTPA;
+	 Thu, 19 May 2022 23:08:04 -0400
+X-Cyrus-Session-Id: sloti52n19-1653016084-4133929-2-3552388540649428661
+X-Sieve: CMU Sieve 3.0
+X-Spam-known-sender: yes ("Address ms60710444266@yahoo.com in From header is in addressbook");
+ in-addressbook; bba2db8d-33a3-40c2-87e0-df67be267777 ("Autosaved")
+X-Spam-charsets: plain='UTF-8', html='UTF-8'
+X-Resolved-to: cockarens@vouchersrus.org
+X-Delivered-to: COCKARENS@VOUCHERSRUS.ORG
+X-Mail-from: ms60710444266@yahoo.com
+Received: from mx3 ([10.202.2.202])
+  by compute4.internal (LMTPProxy); Thu, 19 May 2022 23:08:04 -0400
+Received: from mx3.messagingengine.com (localhost [127.0.0.1])
+	by mailmx.nyi.internal (Postfix) with ESMTP id AF7261960138
+	for <COCKARENS@VOUCHERSRUS.ORG>; Thu, 19 May 2022 23:08:04 -0400 (EDT)
+Received: from mx3.messagingengine.com (localhost [127.0.0.1])
+    by mx3.messagingengine.com (Authentication Milter) with ESMTP
+    id 1123F5208F7;
+    Thu, 19 May 2022 23:08:04 -0400
+ARC-Seal: i=1; a=rsa-sha256; cv=none; d=messagingengine.com; s=fm1; t=
+    1653016084; b=MYin3T3yqxVVnBdjt8YzLf1YiAQPh8V5DejOoIjSlhQFz5RJLw
+    B66tEOasNydCd/C4kbDBe3AA/U2DmcUG9OaJUJBoHHYcjBsnzYHdRjcwQwbyuDrr
+    hIqDVZsHR1tkKwfKoYWbCjle29BNFdktL3JlQQt63YfuwKPc9aN4FOn03jyVe17x
+    vaCs8mYSSlWrncr7i6xZYAOiSLf9taNu72Dyd+9ifT3PIYsadwhreN4PCFksE9Rf
+    w+yFCgoq/B+WS9RoZ4GxPhNT+iqoWpEZtNSYoAGTPBEw8+Xv6wTGV6UNNJ4kCgFe
+    86U3btwnIJb+CrfKGYQjG/loKZtjOEbEh2og==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=
+    messagingengine.com; h=content-type:message-id:date:mime-version
+    :to:from:subject:cc:references; s=fm1; t=1653016084; bh=g42g6El4
+    Ztw2XdpsXax6+2Yq6E6V1qLcJcuhzSo+vmk=; b=kzCU4Kf9L685CyXGXJYJkwYO
+    nQp8nA/eoEd7V++Oma1jvd5juh1VTV7otNXvVRBwbC+hnsxDbxfi8UfWXQRWT7CM
+    +F8CUGtBsy7FVpmf1r/6nX7X8wFzEfxU0N8Xl+Fn8PUWZ21ubpJhk7+4kzyjuy+L
+    XgRXll4SRvTVaorPQ5jnpTByrjzpothzPQ98e2ScpWPUs9X3S9L+XVtpiP9/+SlU
+    twXACnYmvLHDC1p+aMZTd6f4VI4jAbrXE4Fae0SyOCGmw7DKoCxGUsasTugeH8Te
+    PcGzVx6X4XQX1F1sQBc/3Lco9NbPK5IqJ+l86XXW8XYP5heBMYZSLYQnBfqKWw==
+ARC-Authentication-Results: i=1; mx3.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=sonic306-3.consmr.mail.bf2.yahoo.com
+    policy.ptr=sonic306-3.consmr.mail.bf2.yahoo.com;
+    bimi=none (No BIMI records found);
+    arc=none (no signatures found);
+    dkim=pass (2048-bit rsa key sha256) header.d=yahoo.com
+    header.i=@yahoo.com header.b=XLbJXUCZ header.a=rsa-sha256
+    header.s=s2048 x-bits=2048;
+    dmarc=pass policy.published-domain-policy=reject
+    policy.applied-disposition=none policy.evaluated-disposition=none
+    (p=reject,d=none,d.eval=none) policy.policy-from=p
+    header.from=yahoo.com;
+    iprev=pass smtp.remote-ip=74.6.132.42
+    (sonic306-3.consmr.mail.bf2.yahoo.com);
+    spf=pass smtp.mailfrom=ms60710444266@yahoo.com
+    smtp.helo=sonic306-3.consmr.mail.bf2.yahoo.com
+X-ME-Authentication-Results: mx3.messagingengine.com;
+    x-aligned-from=pass (Address match);
+    x-return-mx=pass header.domain=yahoo.com policy.is_org=yes
+      (MX Records found: mta7.am0.yahoodns.net,mta6.am0.yahoodns.net,mta5.am0.yahoodns.net);
+    x-return-mx=pass smtp.domain=yahoo.com policy.is_org=yes
+      (MX Records found: mta6.am0.yahoodns.net,mta5.am0.yahoodns.net,mta7.am0.yahoodns.net);
+    x-tls=pass smtp.version=TLSv1.3 smtp.cipher=TLS_AES_256_GCM_SHA384
+      smtp.bits=256/256;
+    x-vs=clean score=-36 state=0
+Authentication-Results: mx3.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=sonic306-3.consmr.mail.bf2.yahoo.com
+      policy.ptr=sonic306-3.consmr.mail.bf2.yahoo.com
+Authentication-Results: mx3.messagingengine.com;
+    bimi=none (No BIMI records found)
+Authentication-Results: mx3.messagingengine.com;
+    arc=none (no signatures found)
+Authentication-Results: mx3.messagingengine.com;
+    dkim=pass (2048-bit rsa key sha256) header.d=yahoo.com
+      header.i=@yahoo.com header.b=XLbJXUCZ header.a=rsa-sha256
+      header.s=s2048 x-bits=2048;
+    dmarc=pass policy.published-domain-policy=reject
+      policy.applied-disposition=none policy.evaluated-disposition=none
+      (p=reject,d=none,d.eval=none) policy.policy-from=p
+      header.from=yahoo.com;
+    iprev=pass smtp.remote-ip=74.6.132.42
+      (sonic306-3.consmr.mail.bf2.yahoo.com);
+    spf=pass smtp.mailfrom=ms60710444266@yahoo.com
+      smtp.helo=sonic306-3.consmr.mail.bf2.yahoo.com
+X-ME-VSCause: gggruggvucftvghtrhhoucdtuddrgedvfedriedvgdeikecutefuodetggdotefrodftvf
+    curfhrohhfihhlvgemucfhrghsthforghilhdpggftfghnshhusghstghrihgsvgdpuffr
+    tefokffrpgfnqfghnecuuegrihhlohhuthemuceftddtnecusecvtfgvtghiphhivghnth
+    hsucdlqddutddtmdenogfuuhhsphgvtghtffhomhgrihhnucdlgeelmdenfghrlhcuvffn
+    ffculddqhedmnegojggrhhhoohdqqdetfeeiuddqtdduucdlvddtmdenucfjughrpegtkf
+    ffgggfvffhufevrffpfhfosegrtderreerfeejnecuhfhrohhmpeeuucffvddtvddvuceo
+    mhhsiedtjedutdeggeegvdeiieeshigrhhhoohdrtghomheqnecuggftrfgrthhtvghrnh
+    epkefhfedtgffhleegfeeivdeihffhvdekvdehjeejieeutdfftdejkeeitedvudelnecu
+    ffhomhgrihhnpehgihhthhhusgdrtghomhdpshhtrghtvgdrnhihrdhushdpghhithhhuh
+    gsuhhsvghrtghonhhtvghnthdrtghomhdpfihinhguohifshdrnhgvthdpfihilhhsohhn
+    vghlshgvrhdrtghomhdpshgvtgdrghhovhenucfkphepjeegrdeirddufedvrdegvdenuc
+    evlhhushhtvghrufhiiigvpedtnecurfgrrhgrmhepihhnvghtpeejgedriedrudefvddr
+    gedvpdhhvghlohepshhonhhitgeftdeiqdefrdgtohhnshhmrhdrmhgrihhlrdgsfhdvrd
+    ihrghhohhordgtohhmpdhmrghilhhfrhhomhepoehmsheitdejuddtgeeggedvieeiseih
+    rghhohhordgtohhmqe
+X-ME-VSScore: -36
+X-ME-VSCategory: clean
+X-ME-CSA: none
+Received-SPF: pass
+    (yahoo.com ... _spf.mail.yahoo.com: 74.6.132.42 is authorized to use 'ms60710444266@yahoo.com' in 'mfrom' identity (mechanism 'ptr:yahoo.com' matched))
+    receiver=mx3.messagingengine.com;
+    identity=mailfrom;
+    envelope-from="ms60710444266@yahoo.com";
+    helo=sonic306-3.consmr.mail.bf2.yahoo.com;
+    client-ip=74.6.132.42
+Received: from sonic306-3.consmr.mail.bf2.yahoo.com (sonic306-3.consmr.mail.bf2.yahoo.com [74.6.132.42])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mx3.messagingengine.com (Postfix) with ESMTPS
+	for <COCKARENS@VOUCHERSRUS.ORG>; Thu, 19 May 2022 23:08:04 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653016083; bh=g42g6El4Ztw2XdpsXax6+2Yq6E6V1qLcJcuhzSo+vmk=; h=Date:To:From:Subject:Cc:References:From:Subject:Reply-To; b=XLbJXUCZofslPrZAG/D/UKO5M4g5YpUB6YEZnf3/IS0NUC/20qVKQ9AmX7u/Cmf6njsJsPpC9S3GHtdaXcluhoCWM61WoKHhoWglYlS/bhKZDc8BluGPQuveUFqtdaZ5euEVEvmUXWU8Chyz3pP5GWJoUgqSnXgA6voHtEeqcU2jvq47+PQz+WCCRE/4ccsCa+3Qq0OmiZvHM3Efi3SqIiToxiEuxI8Pq/J25bhl6NiFTwOMMRtuF6rMnII0RXw+kcfoWUNdJsN92VbaOp5VmjkLFdBE2zuhSmfvEfiMVN11SRMaDzglQxoYGEvY5n5WOYfB2cXB6dH53gm5caHHKQ==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653016083; bh=jqbaulIGW+6CaPWcJXkAafnSnRhbPTSJruSHEEKqnys=; h=X-Sonic-MF:Date:To:From:Subject:From:Subject; b=lAEvsZlb6qO4BuXCSR8Am1gjWnPi7LB0HMfU2/nP19l4xJWvtnBG1cptRUFxnNaMnjBQaOqIuS3uowUYb6WWhGW2vgn/ziWG2qbMxEwi5HcIbi4GG78oeGslK8tVHaBtL0uP04f9z5QXOatRtCatB/bdKKR4ntIKkMhhgi4GrTA07zVcZmDEa+zpfqumdobMRAqNZ5c3R7wwLRU7w1pA7O8lZWU+JiVAARXuvX9JsqLm0iub4URLWzbfIXMowCvBnea5aJZz+xsz9F/t/FcY5x/6guGdt8oiWDo4AiaSSCdkSQmwnVViM6rlIkVS9hhW6GlmPhQdDiHTuw0QBAhy5g==
+X-YMail-OSG: Oe3xNo8VM1lPSRSFAInbg.CEzMk6OnJkiTHWEjngw_46lonAkRD6FCgMyNuuOHV
+ NmQtPyoM0kj.S6DKDNU3QV.gLhtQCEvqeBzvHNaskFUD.ClBHNTMW6zwbnSpRI4C4GL05fY1n93a
+ .DESxDOj6kcsU0f1OZKI4r0QropaX74igtvJOtOBhAT50EyYimDFaJAq9lzpAuQopaFsvUycaaAp
+ cQbYJiNq5N6TP9ZPthu9jH7VUQfE8aCYfwRcu5aPJbsgoQGB0kywWk0SMJV7zSEviMfcx1BLqf_7
+ vt4eZUciFvs4q6z12vu3YvtbNfsIsrhVg7LLkLGzh3EE.n7zBV6AR3fzyYyjAzSU1cDyyelyENA0
+ SBHIgoCTg.dgTFtWcEfKjCIFNRm5LqdCx6ffklyLLtGLA9mfO3Th4YlGiYieS8anSdx5z02.BsIL
+ hxBOqSHvPC1EoCzdChuuwzibhlcFDe6bNQPAaaId9LXMAI_.DM6zBlhqhaCwQYWeWhK6PEYj0MOa
+ c6OZ0iNp2Pi.ZrwDTpoIeiAq_e_qV_BqI2jdU_vXaLq.ZAK588fHRqW.j8SIIrS.rMchJM4_jo_D
+ xgOcpM8aikB.0TzIvvMl_AknmCblensv6qM9ZTMAVmwLAKXzhwsOFDtCfNCeG4OiuiFPt3xGtE1v
+ nhTMFCczGtfUYvxBbO7PIcaUXiKm1nzmNrkQljzjGJvt155FLTd09h9nKIurf.OjAZYHVID88GYD
+ upUPItxQ57mu27guOEo0iT960s2VGlHvvKk8uQZ.m9MSHxui00x2JI9mw08MI7WfwA_VxiiCUj59
+ aPqUycJtPLkCfYoeF0tnCMq3a5djq6VRQY97H8GOO9D61ErmYv7Vv8Qwk4ZwKbZryxcK9wewRgA0
+ 6YFd6iiXRMQ_DdxUix3L1DzD92rX1N3kioQNkwGGov23Fjiq4v7dIaFNEbC6EZj5U4oPZBRYg7Qw
+ n4JsciAMu84faPv18V8gs.RUQeNDy03HTBOh_Es0SLSyw.DxTbKozlRriTVX33ZLSRfHIHcpL.6Z
+ 41X.GFryIrekaiPrT3vmCm6m0RhFzle4493qIXgh2cwQbzPIyCeC7mE7vM_I08P_6zwf5gqj.9PS
+ shpisH3l2.8Dsx1uy1HXbj2n.CFq7UJwrooQcLkFY.iSK3A5wjvonjUMrSJHbVBPCoIACAXKFz_a
+ yLqKR0fAw67V2i.qZ5dibd6I89SzTxgDeR2O3SpXczL5Iw_VuQ6m2_ijsThr0yUb7zOKQqqR7xy6
+ 82XN3Q8w91sOuf9WQhIi89IPzFSZze0SsQevGZoeUMIXWgjazs_TPeT4XVvYPfTb4n1wL7CAZY3i
+ qqIJ3j6tNDsA3P_vO1zVhpQocnH811lE0PC73ZCsHXkIj8NZMES4cdrBJThhClnjBP229h4e21ki
+ SayFslrjGtfvg4EXx..m3yMff7XeBSt1z.tKmsPK9cT_GqGlL8F5zkpfuU.oR5n7XM0DmMNpH985
+ iQqQWrNh4ZNuO0SIj1c77ogZtH2DLemonL4O7fmBrV62hKTNTpX9wQq10k9crG5xH.AD5Nyldf0u
+ sdRtDRTX9rL24wDXeZU_oF.gASr2lO8BFcJ0FG8h_kYtPJnHxDfuUOALgQ8WQCSgMfSTz143CNiR
+ chzGl1mSI1Wwm2XLmlU.NoV97klJ7U4SEDXcnMGRozlbEWdZrC0qrSyVNxGo95TjEA5q0mp13oig
+ NeAFfD4TcpHGVZ8NauJeyP9qJmr5h1NX.GfzD7jLhcvyJ7_C1YXYCuUCRJ7S8wQSI0_kGBlovGUb
+ GPZALuP8VvJD3JAEbDWHzIKVzkh4iYhX6gh24YOjhrESxMyE7T..koDi1kDbsKq1JZgVD2KRKPZa
+ .wx76NZed0_KVEUXQQD8N8BeyAxXOLzexX9DZAsr5I2SXGR68u4gzRuWzd7aJLJQIi5C4hJk9KDE
+ Br6SPd2yKJTK0DJm2mm_ivz2.8U6iCkQFQgJp43BX1DngAbCmGE4s3h9F2PdVE_saAynRasOPzi4
+ Q95zrcel9ZBleaSWNPSGbdRxU_ECfZQje1RYChw9ip6QBnnsSUBBMUbj8Je8S7nX8vbKPw4OlFul
+ yuQ08_597kyCwhYPl9JXJ1VChPNmBEsYBTa2W2SOM83D3U6QxmXF6L5_1reH4mpv7A6HzRfXKRZf
+ FfCjFEbcRjSXkyg_7HjGJU_HNaBDhF74izMdYcHensCZCgdbzOiFokKE7dwHcOgkUdFRfwSDg6ZC
+ djmDgFe0OzQRg83S0zXlEWbPOpjpu8ztC
+X-Sonic-MF: <ms60710444266@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic306.consmr.mail.bf2.yahoo.com with HTTP; Fri, 20 May 2022 03:08:03 +0000
+Received: by hermes--canary-production-ne1-5495f4d555-bjbtf (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID 700ed8d7918eb421bf2f4108e73a203d;
+          Fri, 20 May 2022 03:08:00 +0000 (UTC)
+Content-Type: multipart/alternative;
+ boundary="------------9CP2cMZyGW200wiHdaLzyFfC"
+Message-ID: <7e7e6e70-6b6a-f62d-af6e-4a7e296e78cf@yahoo.com>
+Date: Thu, 19 May 2022 23:07:43 -0500
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:91.0) Gecko/20100101
+ Thunderbird/91.6.1
+Content-Language: en-US
+To: Doc Webmaster <webmaster@doc.gov>,
+ "tmprosecutordocs@uspto.gov" <tmprosecutordocs@uspto.gov>,
+ SARAH 00068govtIdx BARNHART <SarahB@doc.ks.gov>,
+ MICHAEL 00064govtIdx OSVER <mosver@doc.gov>,
+ "Karol.Sabodocha@nypd.org" <Karol.Sabodocha@nypd.org>,
+ "HREmployeeServices@doc.nyc.gov" <HREmployeeServices@doc.nyc.gov>,
+ "gpradocorrea@bloomberg.net" <gpradocorrea@bloomberg.net>, doc@dc.gov,
+ doc-del@libraries.cul.columbia.edu,
+ "Constituentservices@doc.nyc.gov" <Constituentservices@doc.nyc.gov>,
+ CHERYL 00068govtIdx CADUE <CherylCa@doc.ks.gov>, bdocs2019@gmail.com,
+ support@nicic.gov,
+ "NYM-PREAComplianceMgr-S@bop.gov" <NYM-PREAComplianceMgr-S@bop.gov>,
+ Bop Info <info@bop.gov>, "CNK-CCM@bop.gov" <CNK-CCM@bop.gov>,
+ "BRO-ExecAssistant-S@bop.gov" <BRO-ExecAssistant-S@bop.gov>,
+ "BOP-RSD-PREACOORDINATOR@bop.gov" <BOP-RSD-PREACOORDINATOR@bop.gov>,
+ "BOP-IPP-PublicAffairs@bop.gov" <BOP-IPP-PublicAffairs@bop.gov>,
+ acjic@alacop.gov, ANNETTE 00000govtIdx FORD <ANNETTE.R.FORD@USDOJ.GOV>,
+ CAROL 00000govtIdx BURGER <CAROL.S.BURGER@USDOJ.GOV>, dojfax@bops.gov,
+ "Randyc.wilson@usdoj.gov" <Randyc.wilson@usdoj.gov>,
+ "tina.jeffery@usdoj.gov" <tina.jeffery@usdoj.gov>,
+ "Victimassistance.fraud@usdoj.gov" <Victimassistance.fraud@usdoj.gov>,
+ "4audit@bloomberg.net" <4audit@bloomberg.net>,
+ CRC FTC REPORTS <CRCMESSAGES@ftc.gov>,
+ "crcomplaints@treasury.gov" <crcomplaints@treasury.gov>,
+ TheBronxBBJccl@gmail.com, QueensBBJccl@gmail.com, BrooklynBBJccl@gmail.com
+From: B D2022 <ms60710444266@yahoo.com>
+Subject: EY
+Cc: "megan.disciullo@pwc.com" <megan.disciullo@pwc.com>,
+ "larissa.vonlockner@pwc.com" <larissa.vonlockner@pwc.com>,
+ "ryan.a.cangialosi@pwc.com" <ryan.a.cangialosi@pwc.com>,
+ "kivalena.starr@pwc.com" <kivalena.starr@pwc.com>,
+ "jordana.strosberg@pwc.com" <jordana.strosberg@pwc.com>,
+ "will.b.hodges@pwc.com" <will.b.hodges@pwc.com>,
+ "jennifer.vanoss@pwc.com" <jennifer.vanoss@pwc.com>,
+ PS-Investigation@facil.columbia.edu,
+ "stationservices@cbs2ny.com" <stationservices@cbs2ny.com>
+X-Priority: 1 (Highest)
+Disposition-Notification-To: B D2022 <ms60710444266@yahoo.com>
+References: <7e7e6e70-6b6a-f62d-af6e-4a7e296e78cf.ref@yahoo.com>
+X-Mailer: WebService/1.1.20225 mail.backend.jedi.jws.acl:role.jedi.acl.token.atz.jws.hermes.yahoo
+
+This is a multi-part message in MIME format.
+--------------9CP2cMZyGW200wiHdaLzyFfC
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+these TORTS and Violations of Privacy also are a BREACH OF CONTRACT.
+- now under the REVIEW OF ERNST & YOUNG ARE ACCEPTABLE AS A CLIENT.
+
+
+[MSG BOX 1: VIOLATION OF PRIVACY - DISTRIBUTION WITHOUT CONSENT]
+
+  * https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/tree/8980dec84c257bd182522e1a4b9a2d1f4e49bb68
+
+
+---# #11
+
+  * https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/tree/8980dec84c257bd182522e1a4b9a2d1f4e49bb68
+
+
+
+*#### HIRED A sub-par ON-DEMAND VIDEO SPECIALIST.*
+@rosaliachann
+
+  * https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=PWFQc/WFihoyIKwEunaalQ==
+
+
+*TAX EVASION*
+
+  * https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1
+
+- RECEIPTS FOR THE 10-YEARS PRIOR FOR BLOCK 803, LOT 11
+- 117 SULLIVAN STREET, NEW YORK, NY, 10012
+- TRANSFERRED TO STATE FARM ASSURANCES FUNDS TRUST
+- CIK FILER 93715
+
+## peeped me THROUGH the door?
+
+  * https://user-images.githubusercontent.com/70865813/153544431-27d6b33b-d34a-4e37-9532-aad92b15264c.png
+
+THEN distributed THE VIDEOS without my CONSENT
+     - written or oral.
+
+
+     STATE FARM INVESTMENT MANAGEMENT
+         SECURITY SYMBOL 3487
+         04-12-2022
+             TERRENCE MICHAEL LUDWIG
+             2004555
+             STATE FARM VP MANAGEMENT CORP 43036
+                         FAILURE TO DISCLOSE.
+
+  * https://saaze2311prdsra.blob.core.windows.net/clean/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%20$3231040-2004555.pdf
+
+*AIDED AND ABETTED BY:*
+
+COLUMBIA CONFIRMATIONS.
+
+  * https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=fXMaXgeyzvA85ViWMmvfAQ==
+  * https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=NvtIUa5jls0V4/OF7/XlGg==
+  * https://user-images.githubusercontent.com/70865813/168770321-4e8f51c0-3ce4-4bdd-afda-c433cc8912d8.png
+
+---
+*  was read on Monday, February 7, 2022 4:47:05 PM (UTC+00:00) Monrovia, 
+Reykjavik.**
+**        To: PS Investigation*
+         Subject: see also : camera NOT POINTED AT A WINDOW docket 49 + 
+SHANKING THE PORTER you missed.
+         Sent: Sunday, February 6, 2022 8:06:50 PM (UTC+00:00) Monrovia, 
+Reykjavik
+
+  * https://user-images.githubusercontent.com/70865813/168770401-e0220bf9-e639-4cc5-baf8-c80166e99414.png
+  * https://user-images.githubusercontent.com/70865813/168770555-25ef68a8-5bb3-42e6-a28a-c35b60cd9b0b.png
+
+CRC CONFIRMATIONS
+
+  * https://user-images.githubusercontent.com/70865813/168770401-e0220bf9-e639-4cc5-baf8-c80166e99414.png
+  * https://user-images.githubusercontent.com/70865813/168770459-03f1d0c4-a460-491d-a82e-e6c400b7ff71.png
+
+
+THE ZUCKERS: SULLIVAN PROPERTIES, LP
+
+- UNDER THE ADVISEMENT OF:     WILSON & DICKER
+
+[WWW.WILSONELSER.COM]
+
+  * https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/7
+
+  * https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=fXMaXgeyzvA85ViWMmvfAQ==
+  * https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=PlTp8O/4k_PLUS_GPLPHn15fi6A==
+  * https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=PWFQc/WFihoyIKwEunaalQ==
+  * https://user-images.githubusercontent.com/70865813/168733004-b6a8f437-dd06-409a-83ba-0d404245514f.png
+  * https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=D9Td7IfWXyajw1tBNCFb9g==
+
+
+RE: STATE FARM ASSOCIATES’ FUNDS TRUST
+
+  * https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=ZOCFS3HH2UeHQe8j2tXJoQ==
+  * https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=19MVPFXy0G0QvnmRLGpYIQ==
+  * https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=K9sgXcweC7esRoSPO8MNtA==
+  * https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVanEtcRioef3A==
+
+
+*
+**STATE FARM ASSOCIATES’ FUNDS TRUST 1:     GONE.*
+
+  * https://www.sec.gov/Archives/edgar/data/0000093715/999999999721005790/filename1.pdf
+
+
+
+*### EMAIL CONFIRMATIONS BY THE COUNSELORS OF THE ZUCKER ORGANIZATION*
+/*** A VIOLATION OF PRIVACY AND A BREACH OF THE LAW AND CONTRACT./
+
+  * https://user-images.githubusercontent.com/70865813/168770321-4e8f51c0-3ce4-4bdd-afda-c433cc8912d8.png
+
+*## READ TIMESTAMPS*
+
+  * https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/tree/8980dec84c257bd182522e1a4b9a2d1f4e49bb68
+
+
+*        [MSG BOX 2: § 11 440 Tampering with or fabricating physical 
+evidence]*
+
+  * https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/tree/0d69023191f5a8a25006caf258a50b649da83aa0
+
+
+         [MSG BOX 3: The Zuckers are protected by these individuals](
+
+  * https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/pull/4/files
+
+
+
+## ECONOMIC BENEFITS - AND AN UNDISCLOSED LOAN
+
+  * https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVanEtcRioef3A==
+
+## A CERTAIN BREACH OF CONTRACT, AND VIOLATION OF SECURITY
+
+  * https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/upload/BBOY-EPIC-SONY
+
+
+/S/ BO DINCER
+         646-256-3609
+
+--------------9CP2cMZyGW200wiHdaLzyFfC
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html data-lt-installed="true">
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body spellcheck="false" data-gramm="false">
+    <p><font face="Helvetica, Arial, sans-serif">these TORTS and
+        Violations of Privacy also are a BREACH OF CONTRACT.</font><font
+        size="2"><font face="Helvetica, Arial, sans-serif"><br>
+          - now under the REVIEW OF ERNST &amp; YOUNG ARE ACCEPTABLE AS
+          A CLIENT.<br>
+        </font></font><br>
+      <font size="2"><font face="Helvetica, Arial, sans-serif"><font
+            size="2"><font face="Helvetica, Arial, sans-serif"><br>
+              [MSG BOX 1: VIOLATION OF PRIVACY - DISTRIBUTION WITHOUT
+              CONSENT]</font></font></font></font></p>
+    <ul>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><font
+              size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/tree/8980dec84c257bd182522e1a4b9a2d1f4e49bb68">https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/tree/8980dec84c257bd182522e1a4b9a2d1f4e49bb68</a></font></font></font></font></li>
+    </ul>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif"><font
+            size="2"><font face="Helvetica, Arial, sans-serif"><br>
+            </font></font></font></font></p>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif">---# #11<br>
+        </font></font></p>
+    <ul>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/tree/8980dec84c257bd182522e1a4b9a2d1f4e49bb68">https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/tree/8980dec84c257bd182522e1a4b9a2d1f4e49bb68</a></font></font></li>
+    </ul>
+    <p><br>
+    </p>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif"><font
+            size="2"><font face="Helvetica, Arial, sans-serif"><br>
+              <b>
+                #### HIRED A sub-par ON-DEMAND VIDEO SPECIALIST.</b><br>
+              @rosaliachann<br>
+            </font></font></font></font></p>
+    <ul>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><font
+              size="2"><font face="Helvetica, Arial, sans-serif">
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=PWFQc/WFihoyIKwEunaalQ==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=PWFQc/WFihoyIKwEunaalQ==</a></font></font></font></font></li>
+    </ul>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif"><font
+            size="2"><font face="Helvetica, Arial, sans-serif"><br>
+            </font></font></font></font></p>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif"><font
+            size="2"><font face="Helvetica, Arial, sans-serif"><b>TAX
+                EVASION</b><br>
+            </font></font></font></font></p>
+    <ul>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1">https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1</a></font></font></li>
+    </ul>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif"><font
+            size="2"><font face="Helvetica, Arial, sans-serif">-
+              RECEIPTS FOR THE 10-YEARS PRIOR FOR BLOCK 803, LOT 11<br>
+              - 117 SULLIVAN STREET, NEW YORK, NY, 10012<br>
+              - TRANSFERRED TO STATE FARM ASSURANCES FUNDS TRUST<br>
+              - CIK FILER 93715<br>
+            </font></font></font></font></p>
+    <font size="2"><font face="Helvetica, Arial, sans-serif">## peeped
+        me THROUGH the door?</font></font><br>
+    <ul>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://user-images.githubusercontent.com/70865813/153544431-27d6b33b-d34a-4e37-9532-aad92b15264c.png">https://user-images.githubusercontent.com/70865813/153544431-27d6b33b-d34a-4e37-9532-aad92b15264c.png</a></font></font><br>
+      </li>
+    </ul>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif">THEN
+          distributed THE VIDEOS without my CONSENT <br>
+              - written or oral.</font></font></p>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif"><br>
+              STATE FARM INVESTMENT MANAGEMENT<br>
+                  SECURITY SYMBOL 3487<br>
+                  04-12-2022<br>
+                      TERRENCE MICHAEL LUDWIG<br>
+                      2004555<br>
+                      STATE FARM VP MANAGEMENT CORP 43036<br>
+                                  FAILURE TO DISCLOSE.<br>
+        </font></font></p>
+    <ul>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif">   
+               
+<a class="moz-txt-link-freetext" href="https://saaze2311prdsra.blob.core.windows.net/clean/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%20$3231040-2004555.pdf">https://saaze2311prdsra.blob.core.windows.net/clean/af081f4095d3ec11a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%20$3231040-2004555.pdf</a></font></font></li>
+    </ul>
+    <p><font face="Helvetica, Arial, sans-serif"><b>AIDED AND ABETTED
+          BY:</b></font><br>
+    </p>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif">COLUMBIA
+          CONFIRMATIONS.<br>
+        </font></font></p>
+    <ul>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=fXMaXgeyzvA85ViWMmvfAQ==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=fXMaXgeyzvA85ViWMmvfAQ==</a></font></font></li>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=NvtIUa5jls0V4/OF7/XlGg==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=NvtIUa5jls0V4/OF7/XlGg==</a></font></font></li>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://user-images.githubusercontent.com/70865813/168770321-4e8f51c0-3ce4-4bdd-afda-c433cc8912d8.png">https://user-images.githubusercontent.com/70865813/168770321-4e8f51c0-3ce4-4bdd-afda-c433cc8912d8.png</a></font></font></li>
+    </ul>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif">       
+          --- </font></font><br>
+      <font size="2"><font face="Helvetica, Arial, sans-serif">
+                <b>  was read on Monday, February 7, 2022 4:47:05 PM
+            (UTC+00:00) Monrovia, Reykjavik.</b></font></font><b><br>
+      </b><b><font size="2"><font face="Helvetica, Arial, sans-serif">
+                    To: PS Investigation</font></font></b><br>
+      <font size="2"><font face="Helvetica, Arial, sans-serif">
+                  Subject: see also : camera NOT POINTED AT A WINDOW
+          docket 49 + SHANKING THE PORTER you missed.</font></font><br>
+      <font size="2"><font face="Helvetica, Arial, sans-serif">
+                  Sent: Sunday, February 6, 2022 8:06:50 PM (UTC+00:00)
+          Monrovia, Reykjavik</font></font><br>
+      <font size="2"><font face="Helvetica, Arial, sans-serif"> <br>
+        </font></font>
+    </p>
+    <ul>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://user-images.githubusercontent.com/70865813/168770401-e0220bf9-e639-4cc5-baf8-c80166e99414.png">https://user-images.githubusercontent.com/70865813/168770401-e0220bf9-e639-4cc5-baf8-c80166e99414.png</a></font></font></li>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://user-images.githubusercontent.com/70865813/168770555-25ef68a8-5bb3-42e6-a28a-c35b60cd9b0b.png">https://user-images.githubusercontent.com/70865813/168770555-25ef68a8-5bb3-42e6-a28a-c35b60cd9b0b.png</a></font></font></li>
+    </ul>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif">CRC
+          CONFIRMATIONS<br>
+        </font></font></p>
+    <ul>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://user-images.githubusercontent.com/70865813/168770401-e0220bf9-e639-4cc5-baf8-c80166e99414.png">https://user-images.githubusercontent.com/70865813/168770401-e0220bf9-e639-4cc5-baf8-c80166e99414.png</a></font></font></li>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://user-images.githubusercontent.com/70865813/168770459-03f1d0c4-a460-491d-a82e-e6c400b7ff71.png">https://user-images.githubusercontent.com/70865813/168770459-03f1d0c4-a460-491d-a82e-e6c400b7ff71.png</a></font></font></li>
+    </ul>
+    <p><br>
+    </p>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif">THE
+          ZUCKERS: SULLIVAN PROPERTIES, LP</font></font><br>
+    </p>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif">- UNDER
+          THE ADVISEMENT OF:     WILSON &amp; DICKER <br>
+        </font></font></p>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif">[<a class="moz-txt-link-abbreviated" href="http://WWW.WILSONELSER.COM">WWW.WILSONELSER.COM</a>]<br>
+        </font></font></p>
+    <ul>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><font
+              size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/7">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/7</a></font></font></font></font></li>
+    </ul>
+    <ul>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=fXMaXgeyzvA85ViWMmvfAQ==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=fXMaXgeyzvA85ViWMmvfAQ==</a></font></font></li>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=PlTp8O/4k_PLUS_GPLPHn15fi6A==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=PlTp8O/4k_PLUS_GPLPHn15fi6A==</a></font></font></li>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=PWFQc/WFihoyIKwEunaalQ==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=PWFQc/WFihoyIKwEunaalQ==</a></font></font></li>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://user-images.githubusercontent.com/70865813/168733004-b6a8f437-dd06-409a-83ba-0d404245514f.png">https://user-images.githubusercontent.com/70865813/168733004-b6a8f437-dd06-409a-83ba-0d404245514f.png</a></font></font></li>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=D9Td7IfWXyajw1tBNCFb9g==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=D9Td7IfWXyajw1tBNCFb9g==</a></font></font></li>
+    </ul>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif">    <br>
+          RE: STATE FARM ASSOCIATES’ FUNDS TRUST<br>
+        </font></font></p>
+    <ul>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=ZOCFS3HH2UeHQe8j2tXJoQ==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=ZOCFS3HH2UeHQe8j2tXJoQ==</a></font></font></li>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=19MVPFXy0G0QvnmRLGpYIQ==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=19MVPFXy0G0QvnmRLGpYIQ==</a></font></font></li>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=K9sgXcweC7esRoSPO8MNtA==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=K9sgXcweC7esRoSPO8MNtA==</a></font></font></li>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVanEtcRioef3A==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVanEtcRioef3A==</a></font></font></li>
+    </ul>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif"><br>
+          <b><br>
+          </b><b>STATE FARM ASSOCIATES’ FUNDS TRUST 1:     GONE.</b><br>
+        </font></font></p>
+    <ul>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://www.sec.gov/Archives/edgar/data/0000093715/999999999721005790/filename1.pdf">https://www.sec.gov/Archives/edgar/data/0000093715/999999999721005790/filename1.pdf</a></font></font></li>
+    </ul>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif"><br>
+          <br>
+          <b>### EMAIL CONFIRMATIONS BY THE COUNSELORS OF THE ZUCKER
+            ORGANIZATION</b><br>
+          <i>*** A VIOLATION OF PRIVACY AND A BREACH OF THE LAW AND
+            CONTRACT.</i><br>
+        </font></font></p>
+    <ul>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://user-images.githubusercontent.com/70865813/168770321-4e8f51c0-3ce4-4bdd-afda-c433cc8912d8.png">https://user-images.githubusercontent.com/70865813/168770321-4e8f51c0-3ce4-4bdd-afda-c433cc8912d8.png</a></font></font></li>
+    </ul>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif"><b>##
+            READ TIMESTAMPS</b><br>
+          <br>
+        </font></font></p>
+    <ul>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/tree/8980dec84c257bd182522e1a4b9a2d1f4e49bb68">https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/tree/8980dec84c257bd182522e1a4b9a2d1f4e49bb68</a></font></font></li>
+    </ul>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif"><br>
+          <b>        [MSG BOX 2: § 11 440 Tampering with or fabricating
+            physical evidence]</b></font></font></p>
+    <ul>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/tree/0d69023191f5a8a25006caf258a50b649da83aa0">https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/tree/0d69023191f5a8a25006caf258a50b649da83aa0</a></font></font></li>
+    </ul>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif"><br>
+                  [MSG BOX 3: The Zuckers are protected by these
+          individuals](</font></font></p>
+    <ul>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/pull/4/files">https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/pull/4/files</a></font></font></li>
+    </ul>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif"><br>
+          <br>
+          ## ECONOMIC BENEFITS - AND AN UNDISCLOSED LOAN<br>
+        </font></font></p>
+    <ul>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVanEtcRioef3A==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVanEtcRioef3A==</a></font></font></li>
+    </ul>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif">## A
+          CERTAIN BREACH OF CONTRACT, AND VIOLATION OF SECURITY<br>
+        </font></font></p>
+    <ul>
+      <li><font size="2"><font face="Helvetica, Arial, sans-serif"><a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/upload/BBOY-EPIC-SONY">https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/upload/BBOY-EPIC-SONY</a></font></font></li>
+    </ul>
+    <p><br>
+    </p>
+    <p><font size="2"><font face="Helvetica, Arial, sans-serif">/S/ BO
+          DINCER<br>
+                  646-256-3609<br>
+        </font></font></p>
+  </body>
+</html>
+
+--------------9CP2cMZyGW200wiHdaLzyFfC--

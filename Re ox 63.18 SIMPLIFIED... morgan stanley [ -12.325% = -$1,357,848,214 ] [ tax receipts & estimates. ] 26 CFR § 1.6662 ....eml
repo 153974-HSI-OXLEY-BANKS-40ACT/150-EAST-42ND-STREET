@@ -1,0 +1,549 @@
+From - Sun May  1 00:07:56 2022
+X-Account-Key: account8
+X-UIDL: 1645857828.672
+X-Mozilla-Status: 0011
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <ms60710444266@yahoo.com>
+Received: from compute4.internal (compute4.nyi.internal [10.202.2.44])
+	 by sloti52n19 (Cyrus 3.7.0-alpha0-591-gfe6c3a2700-fm-20220427.001-gfe6c3a27) with LMTPA;
+	 Sun, 01 May 2022 01:03:51 -0400
+X-Cyrus-Session-Id: sloti52n19-1651381431-3106232-2-18125395142257881171
+X-Sieve: CMU Sieve 3.0
+X-Spam-known-sender: yes ("Address ms60710444266@yahoo.com in From header is in addressbook");
+ in-addressbook; bba2db8d-33a3-40c2-87e0-df67be267777 ("Autosaved")
+X-Spam-charsets: subject='UTF-8', plain='UTF-8', html='UTF-8'
+X-Resolved-to: cockarens@vouchersrus.org
+X-Delivered-to: cockarens@vouchersrus.org
+X-Mail-from: ms60710444266@yahoo.com
+Received: from mx1 ([10.202.2.200])
+  by compute4.internal (LMTPProxy); Sun, 01 May 2022 01:03:51 -0400
+Received: from mx1.messagingengine.com (localhost [127.0.0.1])
+	by mailmx.nyi.internal (Postfix) with ESMTP id 8918D23C0087
+	for <cockarens@vouchersrus.org>; Sun,  1 May 2022 01:03:51 -0400 (EDT)
+Received: from mx1.messagingengine.com (localhost [127.0.0.1])
+    by mx1.messagingengine.com (Authentication Milter) with ESMTP
+    id 425BB53EF15;
+    Sun, 1 May 2022 01:03:51 -0400
+ARC-Seal: i=1; a=rsa-sha256; cv=none; d=messagingengine.com; s=fm3; t=
+    1651381431; b=MbeTweB8lHeUD/frmAMXOJXuoOnuYZ2hiD4Lt2eXjjYnkI+bX6
+    9L4+YcvSLAIKDbQwtLdkfK9trTn2S+wpw2OJ5cCKqCQCfJ7MCn0j3FNX49WAnXDa
+    kj8FPCn/EaQqpU+g7Ce7vD5hjSCQwqUcJ1vUF3Y7BpcgxXg4GXhvkc4naEQHdJhR
+    G0CNwCgVFDd1ayPjfmpaGn1jWdaleBJBd2OwIc7sivF9bYl7phi4w56l6G0MFavf
+    pJtLCCz8KrXLimGCZ7wGwZWKwW+tIIdhenobkX2YirGK9ss8qNTgFpmdazgQUa32
+    4dUDoilpIlbawcCAAWVCYAbZF7wQh0dG4mjA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=
+    messagingengine.com; h=content-type:message-id:date:mime-version
+    :subject:to:cc:references:from:in-reply-to; s=fm3; t=1651381431;
+    bh=gxlRlkkWve89h+rbXFd8e2BZKSj/bYbnsj1tEfid1WI=; b=cp1NZERzlLeN
+    3U5Se50nwnRFVRVrOPMxjXGcokI/E8qbno56cKgZN3N48gLe+uApp0plibpZISxL
+    h9QiNDeVKPDubK/lmM56urPSGdsx5omkqHJindD0pILt/4nZZGZRET2xgDdR0Qyz
+    /T/JVTB3SsNg97jv3K+IECCpjGT34A0TY5aFat43Jg+UdLuNWtl+jQL8N+r3IYQw
+    Jh/MPOulyaU/L1N7PIDgtLMQJ3foO51+jOJmBP8DpmjrGyRbD10ZUyjdGoYwvWsn
+    mzKVjsXPwEn4uKLZ0rgILtzwA+gwXiOrYg3zSpOyN61K8EvUBUYnTHFCnzAtybcS
+    WliSuiOBPw==
+ARC-Authentication-Results: i=1; mx1.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=sonic309-44.consmr.mail.bf2.yahoo.com
+    policy.ptr=sonic309-44.consmr.mail.bf2.yahoo.com;
+    bimi=none (No BIMI records found);
+    arc=none (no signatures found);
+    dkim=pass (2048-bit rsa key sha256) header.d=yahoo.com
+    header.i=@yahoo.com header.b=t3AIOzdv header.a=rsa-sha256
+    header.s=s2048 x-bits=2048;
+    dmarc=pass policy.published-domain-policy=reject
+    policy.applied-disposition=none policy.evaluated-disposition=none
+    (p=reject,d=none,d.eval=none) policy.policy-from=p
+    header.from=yahoo.com;
+    iprev=pass smtp.remote-ip=74.6.129.218
+    (sonic309-44.consmr.mail.bf2.yahoo.com);
+    spf=pass smtp.mailfrom=ms60710444266@yahoo.com
+    smtp.helo=sonic309-44.consmr.mail.bf2.yahoo.com
+X-ME-Authentication-Results: mx1.messagingengine.com;
+    x-aligned-from=pass (Address match);
+    x-return-mx=pass header.domain=yahoo.com policy.is_org=yes
+      (MX Records found: mta5.am0.yahoodns.net,mta6.am0.yahoodns.net,mta7.am0.yahoodns.net);
+    x-return-mx=pass smtp.domain=yahoo.com policy.is_org=yes
+      (MX Records found: mta5.am0.yahoodns.net,mta6.am0.yahoodns.net,mta7.am0.yahoodns.net);
+    x-tls=pass smtp.version=TLSv1.3 smtp.cipher=TLS_AES_256_GCM_SHA384
+      smtp.bits=256/256;
+    x-vs=clean score=-85 state=0
+Authentication-Results: mx1.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=sonic309-44.consmr.mail.bf2.yahoo.com
+      policy.ptr=sonic309-44.consmr.mail.bf2.yahoo.com
+Authentication-Results: mx1.messagingengine.com;
+    bimi=none (No BIMI records found)
+Authentication-Results: mx1.messagingengine.com;
+    arc=none (no signatures found)
+Authentication-Results: mx1.messagingengine.com;
+    dkim=pass (2048-bit rsa key sha256) header.d=yahoo.com
+      header.i=@yahoo.com header.b=t3AIOzdv header.a=rsa-sha256
+      header.s=s2048 x-bits=2048;
+    dmarc=pass policy.published-domain-policy=reject
+      policy.applied-disposition=none policy.evaluated-disposition=none
+      (p=reject,d=none,d.eval=none) policy.policy-from=p
+      header.from=yahoo.com;
+    iprev=pass smtp.remote-ip=74.6.129.218
+      (sonic309-44.consmr.mail.bf2.yahoo.com);
+    spf=pass smtp.mailfrom=ms60710444266@yahoo.com
+      smtp.helo=sonic309-44.consmr.mail.bf2.yahoo.com
+X-ME-VSCause: gggruggvucftvghtrhhoucdtuddrgedvfedrvddvgdeklecutefuodetggdotefrodftvf
+    curfhrohhfihhlvgemucfhrghsthforghilhdpggftfghnshhusghstghrihgsvgdpuffr
+    tefokffrpgfnqfghnecuuegrihhlohhuthemuceftddtnecusecvtfgvtghiphhivghnth
+    hsucdlqddutddtmdenfghrlhcuvffnffculddqhedmnegojggrhhhoohdqqdetfeeiuddq
+    tdduucdlvddtmdenucfjughrpegtkfffgggfuffvvehfhffrpfgjofesrgdtreerreefje
+    enucfhrhhomhepuecuffdvtddvvdcuoehmsheitdejuddtgeeggedvieeiseihrghhohho
+    rdgtohhmqeenucggtffrrghtthgvrhhnpeduhfehkefhvedtgfejheekjeeuveeiledtke
+    eujeeikeelteejueevvdekleeigfenucffohhmrghinhepghhithhhuhgsrdgtohhmpdhs
+    vggtrdhgohhvpdhsthgrthgvrdhnhidruhhsnecukfhppeejgedriedruddvledrvdduke
+    enucevlhhushhtvghrufhiiigvpedtnecurfgrrhgrmhepihhnvghtpeejgedriedruddv
+    ledrvddukedphhgvlhhopehsohhnihgtfedtledqgeegrdgtohhnshhmrhdrmhgrihhlrd
+    gsfhdvrdihrghhohhordgtohhmpdhmrghilhhfrhhomhepoehmsheitdejuddtgeeggedv
+    ieeiseihrghhohhordgtohhmqe
+X-ME-VSScore: -85
+X-ME-VSCategory: clean
+X-ME-CSA: none
+Received-SPF: pass
+    (yahoo.com ... _spf.mail.yahoo.com: 74.6.129.218 is authorized to use 'ms60710444266@yahoo.com' in 'mfrom' identity (mechanism 'ptr:yahoo.com' matched))
+    receiver=mx1.messagingengine.com;
+    identity=mailfrom;
+    envelope-from="ms60710444266@yahoo.com";
+    helo=sonic309-44.consmr.mail.bf2.yahoo.com;
+    client-ip=74.6.129.218
+Received: from sonic309-44.consmr.mail.bf2.yahoo.com (sonic309-44.consmr.mail.bf2.yahoo.com [74.6.129.218])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange ECDHE (P-256) server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mx1.messagingengine.com (Postfix) with ESMTPS
+	for <cockarens@vouchersrus.org>; Sun,  1 May 2022 01:03:51 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1651381429; bh=gxlRlkkWve89h+rbXFd8e2BZKSj/bYbnsj1tEfid1WI=; h=Date:Subject:To:Cc:References:From:In-Reply-To:From:Subject:Reply-To; b=t3AIOzdv1rFLccv+m0ghKB9zmkV1T/3anHg0Gp4M2d6StQ+IBkFWFzXLB5RpGYybYvyPx1ZR/H9tDOc7dIQMI7HRFeeZgbYqiER2ZY02fgxhZhVOTDa4+jNJUP20ffk1Bz7gd2PS3i326SsIwG/rlEp/bGm8ZHi0CajTxBgsu8G6ZjGsW33/Kr0G5SxRK3Ii9KrF5qn1/PS/vN0d+OMOPp0i1CCAEmdnSOZZq8vcqGuuSvxUFXdOE8zOsUcs5EYypV0+G/ll2lmGi8FDgFpXFW8o2TE5zBCevxkxCtg46F7IxptEpDbvpPfVJtFjDSliQWnsfP9Tta3aTSkvK+dnhQ==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1651381429; bh=TL65w0K22h8AO5S88ZtUpnkuq68cQZaIuqZyFO+bZ79=; h=X-Sonic-MF:Date:Subject:To:From:From:Subject; b=LVq16DKn1X9s19EFymSoVPQGgCj+gGz5UPrtQ1u6i9qiqCO8IbWdyczsnqih88xwTzsE/bcPb5nr9343TATUF8/CDu0+M67nnmvxHazdCL1sZCECH0E/UoBgXq+TKYlLz+3di9XEv5B6IMYqgp3jZn5VDTPcWm6/LHwSfXoILVmh0a8T3CeW3TH6uD2bds2C0v3aFWvXSkWP3UslumtoKYaFRHrJZOjFKZjxU0iAmyvrxjaIarPAd2ok+Hq3k6kzCdpMcvMaam2Z2z7aU66/7DrneM7yq7SNkuYTwwiuI05wwwDETX1g00J1KAcO6eLnvbrEUpg38dAhnSIOtgbEPw==
+X-YMail-OSG: ISnmkhsVM1kaC0JMLo8mSAwextjtpHFMIPehlXSJSD_f_Izf7lDB_Dz5gkCyPpK
+ iJf06Lb8Ok0.aiyVG.kX79qBn0ssFUcjmEBzqebnjcF9y0M2tcKej64geWdGkHsXd7u9y1ro8UV7
+ QG9ozpwz7EGcim73kJWZaFot76ZNeAlBHhXdeAZ6fYXsQnyD04XYIqU9ojwHUT1oGlk0GuhMp4Bv
+ GhMJNoVdFpW8j5vnWWqWbkUkdI6.NTMhjZ4e4TIaw8Ln11t.Ta0M.Z6TAsSEBDJmuyn6a4fSQ3ze
+ OzHO4rnoaDY.SYVwNKVSk1QGrz1qovZfNu4UNBwgA7uQ8fFvIhgLXRCjKHiu_GkkF67qxxGSL4fM
+ hDpu2jferR81bCluQvWdHwao3REdzXOqIy0XMRQRawBEJnolAoMCA1rqH8qXjxROnGkhRZ_iZwbX
+ QU4Wcp875czSgBOXbWbOLKnCyVSW4q4cxKdR3R3smYnNjgWSRQ466elBvv6PMFmyDJN3liNKjBDw
+ CMkCf6Td4YrUIHVitsrj.OZQerAEV3lauEM3Am5FAD5y2oxDwg2A6jl14h8oLsmf88v5dk_0S0wT
+ vNAH1uRoxh38V9Dfwt4NBZ2v_pI.QVDGikLAsMhSa.4dmTCY1Ri9WzgzgzIZAMT.dWUbvwuwuFaK
+ VyJ_433697NvFd8tR.w5sQeNdeNEC77q_Hxq0Is1iAwma1zlYn9Hi1AnQJprISkTtvgwELU9_FTh
+ dQmpwSyRW2JWr12nNPdzIU_B3QDRBuNUC_TH1PssEUMZEQ5dS0aXSjWyImVEW54z4ao11q308WZE
+ a9f4slv7l2kKK5jC.VtK9gbL.8tnba6vwxh2dGiG7ktR4aJAgpr.o8DaFzUL2ZG7jwxe.ZstlBoW
+ 0u175XAS4Fi.fcomlUqF9MzADZZGEj_pxUTmR95XYrbHSJhnvQwNdCFn.TPNc_u8bAiVj1cj_mQi
+ RiSD7BtUuTgFh1zsFqbwYsUmqOJKQXFNntXSocoZUL.eZW3ZWUENr4g7C5EqJcJWwt3nfr3.P8TC
+ xo2Css8OyVqxY5NxtYbzXxUoOWN0uvEJSc2T.8GsroPuvWPK_u3j8KKvMJ8wdiaRlO_Qhi1oMxFC
+ LnPf48CCpnV8lvmnK7QSPDFC_ZTxqvgzoNPp1aDiu_W8nU_vkglc4zZ3zgH4OmOeNzcul_4s7JAE
+ lbJhw.mAcxC7pWCci4gd1.OC58tsv_1bWrJUY7LFbvz5eDGTb38K0Z7CaF6.paYM3.Jf4M.JKUAU
+ FwEryg_4guzMX32SMHSiF7UYpPuJVj_3FqAy6oJLkcxO6d_QdRkIPS0snNb9fPTMAazrBLe5DZ_B
+ mxFNouZ8pvr5ctUrklrGYr5MHXx_KRhNrfwN__5TOvELFB2IeHa1Hx8zNL2jVG2ZSw0OCSK_iNq8
+ g4lYMVzgespMVm3UaXua0aQ8iPm8IQVBsaR5IvEFWTYy_RFS0ffe5FIrN7no1owblHxWxO.A6PD5
+ N.uigGu1c1GH1_tBJcQgHl9z0dAlkhkql23LdR8VjOxow9tLpZo0iul_YcU0PKoThNrhjCRFZ6Cz
+ FZrCKe7fMUrK5pTBGZetp2fuwhWEcm4XgekugzbJbf0jPXxa3WqIpiSRE9M3uhyH1ItQpqbrex0Z
+ jVlJzDrb6rB35u7nONV1Qia4hzdK_AYktNjebHtyDkLserdOT8GizDtYuZ1TESzefrObHA05n8R4
+ EdPfroxLgbxiPUaptkpVivsCb0TR1h39e3iNhu97LDHuOdbGXI6fp9A_9Xc40oorh3Ev2CEMzNg_
+ hStLu5at7TXbYcnEyGFJs6qmxoOxk9P7d0o73JQQqq_GIDaFhyfUCW86smoaMVzamPVT0IFAxMH3
+ peyf8UjccZELL2EyFlhuKcShkD3ZfY0ywJk.dZ1UiSWgDl1diBS6dVWr2I5GncN2iwg.gnWIgALf
+ cwHN.qGR.23qTb9ZlzlcsREQvpp2NpVEiogh.X3uNDaXK9uc08w2r73g9td2rAZvi7RF6zYzOZyh
+ BMW_xBU1Kaev3FvuaiKGFBvx2fvMnbATlDJtQmIdLXgl5gMa10kVRyJrKetNkc994z2ol7wYQaab
+ b.b2Ug6AftZ_lHAwV45gfzKLIMSAj9VSop8sD6BncOdBgp5JB2GGEdGk5r4fZuHlycC_UhmhqQib
+ 1rA9XAkd3T3os9qbU5YUzl7Vt4_.3aYOc0Cr14DTOx3KLWM.1QH1wHexd3hNj2m1_uLBGOpdHzjs
+ IT67vKZgKhIwZDnqnwUxDh_tJFiNu.0UsOUfqHm44pki8F91MsKb.m0uaq3noJluxlo5gCOmAWli
+ 9jExUjGKouRbNs0k7oLUzJLjRdmhv
+X-Sonic-MF: <ms60710444266@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic309.consmr.mail.bf2.yahoo.com with HTTP; Sun, 1 May 2022 05:03:49 +0000
+Received: by hermes--canary-production-ne1-75b69fcf97-rv68v (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID 08c18e45541824bd68bfc483c6fe8999;
+          Sun, 01 May 2022 05:01:43 +0000 (UTC)
+Content-Type: multipart/alternative;
+ boundary="------------JvkZ2HqQEKfat4UlNguscFki"
+Message-ID: <b8acba7e-d0f9-6403-7675-0bc6ce43f1bb@yahoo.com>
+Date: Sun, 1 May 2022 00:01:21 -0500
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:91.0) Gecko/20100101
+ Thunderbird/91.6.1
+Subject: =?UTF-8?Q?Re=3a_ox_63=2e18=3a=3a_SIMPLIFIED=2e=2e=2e_morgan_stanley?=
+ =?UTF-8?B?IFsgLTEyLjMyNSUgPSAtJDEsMzU3LDg0OCwyMTQgXSBbIHRheCByZWNlaXB0cyAm?=
+ =?UTF-8?Q?_estimates=2e_=5d_26_CFR_=c2=a7_1=2e6662_FED_+500_=5b_LOAN_50074?=
+ =?UTF-8?B?LiBd?=
+Content-Language: en-US
+To: IMOCC@sec.gov, "CHAIR@SEC.GOV" <CHAIR@SEC.GOV>,
+ "CRA@dfs.ny.gov" <CRA@dfs.ny.gov>,
+ David Moore <david.moore.ct95@statefarm.com>, Secretarys-Office@sec.gov,
+ cfaimali@isda.org, isda@isda.org, isdaeurope@isda.org,
+ Joel Clark Isda <jclark@isda.org>, ldobbs@isda.org, nlu@isda.org,
+ Nick Isda <nsawyer@isda.org>,
+ "JAMES GORMAN [MORGAN STANLEY]" <james.gorman@morganstanley.com>
+Cc: champion gears <cockarens@vouchersrus.org>, Newyork <newyork@sec.gov>,
+ "CHICAGO@SEC.GOV" <CHICAGO@SEC.GOV>, philadelphia@sec.gov,
+ "dallas-reserve-mgmt@dal.frb.org" <dallas-reserve-mgmt@dal.frb.org>,
+ unclaimed.property@cpa.texas.gov, Treasury.operations@cpa.texas.gov,
+ TexasABLE@cpa.texas.gov, texas.tomorrow@cpa.texas.gov,
+ statewide.accounting@cpa.texas.gov, spd.outreach@cpa.texas.gov,
+ ptad.cpa@cpa.texas.gov, open.records@cpa.texas.gov,
+ ombudsman@tdcj.texas.gov, oigspecialops@tdcj.texas.gov,
+ oig.openrecords@tdcj.texas.gov, judiciary@cpa.texas.gov,
+ exempt.orgs@cpa.texas.gov, econ.dev@cpa.texas.gov,
+ court.costs@cpa.texas.gov,
+ BIANCA 00088govtIdx HARRIMON <citysecretary@mundaytexas.com>
+References: <65a5fe82-8b23-e472-9a77-eb504270615a@yahoo.com>
+ <540a4426-1f78-5fbd-f415-b58300a8bae8@yahoo.com>
+ <4dbf2bca-139a-2c31-ec23-f004e596f6e5@yahoo.com>
+From: B D2022 <ms60710444266@yahoo.com>
+X-Priority: 1 (Highest)
+Disposition-Notification-To: B D2022 <ms60710444266@yahoo.com>
+In-Reply-To: <4dbf2bca-139a-2c31-ec23-f004e596f6e5@yahoo.com>
+X-Mailer: WebService/1.1.20118 mail.backend.jedi.jws.acl:role.jedi.acl.token.atz.jws.hermes.yahoo
+
+This is a multi-part message in MIME format.
+--------------JvkZ2HqQEKfat4UlNguscFki
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+*AS STATED.*
+
+     ## ...ex590xxxx
+  *** NOTARIZED MAY 11TH, 13TH, AND 15TH OF 2020
+[...ex590xxxx.pdf](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196946/default.ex590xxxx.pdf)
+
+
+## 10 AUG 2020 - LETTER TO LAURIE ZUCKER AT 1236AM
+  *** returned a letter to me on the same day - addressed properly.
+[10 AUG 2020 - LETTER TO LAURIE ZUCKER AT 
+1236AM.pdf](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196947/10.AUG.2020.-.LETTER.TO.LAURIE.ZUCKER.AT.1236AM.pdf)
+
+
+## EX72 --- 2020.08.10 --- NOTICE FROM COUNSEL FOR ZUCKERS TO NOT 
+CONTACT ANY AUTHORITY [ENCLOSURE]
+   *** letter to me on the same day - addressed properly.
+[EX72 --- 2020.08.10 --- NOTICE FROM COUNSEL FOR ZUCKERS TO NOT CONTACT 
+ANY AUTHORITY 
+[ENCLOSURE].pdf](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196951/EX72.---.2020.08.10.---.NOTICE.FROM.COUNSEL.FOR.ZUCKERS.TO.NOT.CONTACT.ANY.AUTHORITY.ENCLOSURE.pdf)
+
+
+## 2022.03.07 — CRD  — Mutual Fund [ SFBDX ] [ SFITX ] [ STFBX ] [STFGX 
+] LGL
+   *** a courtesy notice.
+[2022.03.07 — CRD  — Mutual Fund [ SFBDX ] [ SFITX ] [ STFBX ] [STFGX ] 
+LGL.pdf](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196953/2022.03.07.CRD.Mutual.Fund.SFBDX.SFITX.STFBX.STFGX.LGL.pdf)
+
+
+## Dec 22, 2021 - sgo2107@columbia.edu --- nyscef@nycourts.gov
+   *** a courtesy notice
+[Dec 22, 2021 - sgo2107@columbia.edu --- 
+nyscef@nycourts.gov.pdf](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196958/Dec.22.2021.-.sgo2107%40columbia.edu.---.nyscef%40nycourts.gov.pdf)
+
+
+## Mar 1 2022 - the Zuckers - 101 west 55th street.NY.NY.10019. -opt
+   *** a courtesy notice
+[Mar 1 2022 - the Zuckers - 101 west 55th street.NY.NY.10019. 
+-opt.pdf](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196961/Mar.1.2022.-.the.Zuckers.-.101.west.55th.street.NY.NY.10019.-opt.pdf)
+
+
+## Nov 16, 2021 - WMCKENZIE@NYCOURTS.GOV --- SEC --- BOC@BOC.NYC.GOV
+   *** a courtesy notice
+[Nov 16, 2021 - WMCKENZIE@NYCOURTS.GOV --- SEC --- 
+BOC@BOC.NYC.GOV.pdf](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196963/Nov.16.2021.-.WMCKENZIE%40NYCOURTS.GOV.---.SEC.---.BOC%40BOC.NYC.GOV.pdf)
+
+
+## STATE FARM ASSOCIATES FUNDS TRUSTS JULY 2020
+   *** 2020 semi-annual report.
+[STATE FARM ASSOCIATES FUNDS TRUSTS JULY 
+2020.pdf](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196965/STATE.FARM.ASSOCIATES.FUNDS.TRUSTS.JULY.2020.pdf)
+
+
+https://www.sec.gov/Archives/edgar/data/0000093715/000114554921006167/xslFormN-CEN_X01/primary_doc.xml
+
+[2020-11-30 - BROKERS - 
+AUDITORS.pdf](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196976/2020-11-30.-.BROKERS.-.AUDITORS.pdf)
+
+## NOTICE TO DEPT OF BUILDINGS -- EX-POST DISCOVERY OF ALL THEIR 
+BUILDINGS IN THE COMPOUND WITH NO CoF
+[2022.02.23    NOTICE +DOB +NYPD +NYFD 
++FRB.pdf](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196991/2022.02.23.NOTICE.%2BDOB.%2BNYPD.%2BNYFD.%2BFRB.pdf)
+
+## BUILDINGS WITH NO CERTIFICATES OF OCCUPANCY = ILLEGAL RENT ROLLS.
+*** 111 SULLIVAN STREET, REAR, NEW YORK, NY, ,10012
+[111 REAR SULLIVAN STREET MANHATTAN - REAR - NO CERTIFICATE OF OCCUPANCY 
+03.03.2022.pdf](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8197007/111.REAR.SULLIVAN.STREET.MANHATTAN.-.REAR.-.NO.CERTIFICATE.OF.OCCUPANCY.03.03.2022.pdf)
+*** 113 SULLIVAN STREET, REAR, NEW YORK, NY, ,10012
+[113 REAR SULLIVAN STREET MANHATTAN - REAR - NO CERTIFICATE OF OCCUPANCY 
+2020.03.03.pdf](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8197008/113.REAR.SULLIVAN.STREET.MANHATTAN.-.REAR.-.NO.CERTIFICATE.OF.OCCUPANCY.2020.03.03.pdf)
+*** 115 SULLIVAN STREET, REAR, NEW YORK, NY, ,10012
+[115 REAR SULLIVAN STREET MANHATTAN - REAR - NO CERTIFICATE OF OCCUPANCY 
+03.03.2022.pdf](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8197009/115.REAR.SULLIVAN.STREET.MANHATTAN.-.REAR.-.NO.CERTIFICATE.OF.OCCUPANCY.03.03.2022.pdf)
+/
+/
+/I did warn the children earlier... now they all disappeared? it's the 
+Year of the Tiger -- did the investors all take a year off as well?/
+
+
+
+*Investment Companies (mutual funds, closed-end funds, business 
+development companies, unit investment trusts, interval funds and 
+exchange-traded funds) and Insured Investments (variable annuities and 
+variable life insurance)
+Chief Counsel's Office (CCO)
+         (202) 551-6825
+*
+
+*IMOCC@sec.gov
+*
+*/s/ BARIS DINCER.*
+*
+*
+
+
+*NYSCEF DOC. NO. 348          AUGUST 9 2021*
+
+
+Wed, Jun 3, 2020, 2:20 PM *RECEIVED NYSCEF: 08/09/2020
+*
+
+*        "... **Why don't you just tack on the 9 billion dollars NYC is 
+in the hole while you're at it? ..." *
+
+  * https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=TxAa7cNVIHKtnJU/ni/zvg==
+
+
+
+
+
+***** SEMI-ANNUAL HOLDING REPORT*
+
+
+
+         ** State Farm Associates' Funds Trust
+
+
+         ** [N-CSRS] 0001193125-20-200810
+
+
+         ** REPORT DATE: 2020-05-31
+
+
+         ** FILING DATE: 2020-07-28
+
+  * https://www.sec.gov/Archives/edgar/data/0000093715/000119312520200810/d913497dncsrs.htm
+
+
+
+*21 JULY 2020 NYSCEF DOC. NO. 53 **//**RECEIVED NYSCEF:     07/21/2020 *
+
+*    "...REPRESENTATIVES SHOULD BE DISBARRED..."*
+
+  * https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=LMUE9g_PLUS_k6vCmKgfCSJEzuQ==
+
+  * https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=TxAa7cNVIHKtnJU/ni/zvg==
+
+
+
+
+--------------JvkZ2HqQEKfat4UlNguscFki
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html data-lt-installed="true">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body spellcheck="false" data-gramm="false">
+    <font size="1" face="monospace"><b>AS STATED.</b><br>
+    </font><font size="1"><br>
+      <font face="monospace">    ## ...ex590xxxx<br>
+         *** NOTARIZED MAY 11TH, 13TH, AND 15TH OF 2020<br>
+[...ex590xxxx.pdf](<a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196946/default.ex590xxxx.pdf">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196946/default.ex590xxxx.pdf</a>)<br>
+        <br>
+        <br>
+        ## 10 AUG 2020 - LETTER TO LAURIE ZUCKER AT 1236AM<br>
+         *** returned a letter to me on the same day - addressed
+        properly.<br>
+        [10 AUG 2020 - LETTER TO LAURIE ZUCKER AT
+1236AM.pdf](<a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196947/10.AUG.2020.-.LETTER.TO.LAURIE.ZUCKER.AT.1236AM.pdf">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196947/10.AUG.2020.-.LETTER.TO.LAURIE.ZUCKER.AT.1236AM.pdf</a>)<br>
+        <br>
+        <br>
+        ## EX72 --- 2020.08.10 --- NOTICE FROM COUNSEL FOR ZUCKERS TO
+        NOT CONTACT ANY AUTHORITY [ENCLOSURE]<br>
+          *** letter to me on the same day - addressed properly.<br>
+        [EX72 --- 2020.08.10 --- NOTICE FROM COUNSEL FOR ZUCKERS TO NOT
+        CONTACT ANY AUTHORITY
+[ENCLOSURE].pdf](<a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196951/EX72.---.2020.08.10.---.NOTICE.FROM.COUNSEL.FOR.ZUCKERS.TO.NOT.CONTACT.ANY.AUTHORITY.ENCLOSURE.pdf">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196951/EX72.---.2020.08.10.---.NOTICE.FROM.COUNSEL.FOR.ZUCKERS.TO.NOT.CONTACT.ANY.AUTHORITY.ENCLOSURE.pdf</a>)<br>
+        <br>
+        <br>
+        ## 2022.03.07 — CRD  — Mutual Fund [ SFBDX ] [ SFITX ] [ STFBX ]
+        [STFGX ] LGL<br>
+          *** a courtesy notice. <br>
+        [2022.03.07 — CRD  — Mutual Fund [ SFBDX ] [ SFITX ] [ STFBX ]
+        [STFGX ]
+LGL.pdf](<a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196953/2022.03.07.CRD.Mutual.Fund.SFBDX.SFITX.STFBX.STFGX.LGL.pdf">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196953/2022.03.07.CRD.Mutual.Fund.SFBDX.SFITX.STFBX.STFGX.LGL.pdf</a>)<br>
+        <br>
+            <br>
+        ## Dec 22, 2021 - <a class="moz-txt-link-abbreviated" href="mailto:sgo2107@columbia.edu">sgo2107@columbia.edu</a> --- <a class="moz-txt-link-abbreviated" href="mailto:nyscef@nycourts.gov">nyscef@nycourts.gov</a><br>
+          *** a courtesy notice<br>
+        [Dec 22, 2021 - <a class="moz-txt-link-abbreviated" href="mailto:sgo2107@columbia.edu">sgo2107@columbia.edu</a> ---
+<a class="moz-txt-link-abbreviated" href="mailto:nyscef@nycourts.gov.pdf">nyscef@nycourts.gov.pdf</a>](<a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196958/Dec.22.2021.-.sgo2107%40columbia.edu.---.nyscef%40nycourts.gov.pdf">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196958/Dec.22.2021.-.sgo2107%40columbia.edu.---.nyscef%40nycourts.gov.pdf</a>)<br>
+        <br>
+        <br>
+        ## Mar 1 2022 - the Zuckers - 101 west 55th street.NY.NY.10019.
+        -opt<br>
+          *** a courtesy notice<br>
+        [Mar 1 2022 - the Zuckers - 101 west 55th street.NY.NY.10019.
+-opt.pdf](<a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196961/Mar.1.2022.-.the.Zuckers.-.101.west.55th.street.NY.NY.10019.-opt.pdf">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196961/Mar.1.2022.-.the.Zuckers.-.101.west.55th.street.NY.NY.10019.-opt.pdf</a>)<br>
+        <br>
+        <br>
+        ## Nov 16, 2021 - <a class="moz-txt-link-abbreviated" href="mailto:WMCKENZIE@NYCOURTS.GOV">WMCKENZIE@NYCOURTS.GOV</a> --- SEC ---
+        <a class="moz-txt-link-abbreviated" href="mailto:BOC@BOC.NYC.GOV">BOC@BOC.NYC.GOV</a><br>
+          *** a courtesy notice<br>
+        [Nov 16, 2021 - <a class="moz-txt-link-abbreviated" href="mailto:WMCKENZIE@NYCOURTS.GOV">WMCKENZIE@NYCOURTS.GOV</a> --- SEC ---
+<a class="moz-txt-link-abbreviated" href="mailto:BOC@BOC.NYC.GOV.pdf">BOC@BOC.NYC.GOV.pdf</a>](<a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196963/Nov.16.2021.-.WMCKENZIE%40NYCOURTS.GOV.---.SEC.---.BOC%40BOC.NYC.GOV.pdf">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196963/Nov.16.2021.-.WMCKENZIE%40NYCOURTS.GOV.---.SEC.---.BOC%40BOC.NYC.GOV.pdf</a>)<br>
+        <br>
+        <br>
+        ## STATE FARM ASSOCIATES FUNDS TRUSTS JULY 2020<br>
+          *** 2020 semi-annual report.<br>
+        [STATE FARM ASSOCIATES FUNDS TRUSTS JULY
+2020.pdf](<a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196965/STATE.FARM.ASSOCIATES.FUNDS.TRUSTS.JULY.2020.pdf">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196965/STATE.FARM.ASSOCIATES.FUNDS.TRUSTS.JULY.2020.pdf</a>)<br>
+        <br>
+        <br>
+<a class="moz-txt-link-freetext" href="https://www.sec.gov/Archives/edgar/data/0000093715/000114554921006167/xslFormN-CEN_X01/primary_doc.xml">https://www.sec.gov/Archives/edgar/data/0000093715/000114554921006167/xslFormN-CEN_X01/primary_doc.xml</a><br>
+             <br>
+        [2020-11-30 - BROKERS -
+AUDITORS.pdf](<a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196976/2020-11-30.-.BROKERS.-.AUDITORS.pdf">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196976/2020-11-30.-.BROKERS.-.AUDITORS.pdf</a>)<br>
+        <br>
+        ## NOTICE TO DEPT OF BUILDINGS -- EX-POST DISCOVERY OF ALL THEIR
+        BUILDINGS IN THE COMPOUND WITH NO CoF<br>
+        [2022.02.23    NOTICE +DOB +NYPD +NYFD
++FRB.pdf](<a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196991/2022.02.23.NOTICE.%2BDOB.%2BNYPD.%2BNYFD.%2BFRB.pdf">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8196991/2022.02.23.NOTICE.%2BDOB.%2BNYPD.%2BNYFD.%2BFRB.pdf</a>)<br>
+        <br>
+        ## BUILDINGS WITH NO CERTIFICATES OF OCCUPANCY = ILLEGAL RENT
+        ROLLS.<br>
+        *** 111 SULLIVAN STREET, REAR, NEW YORK, NY, ,10012<br>
+        [111 REAR SULLIVAN STREET MANHATTAN - REAR - NO CERTIFICATE OF
+        OCCUPANCY
+03.03.2022.pdf](<a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8197007/111.REAR.SULLIVAN.STREET.MANHATTAN.-.REAR.-.NO.CERTIFICATE.OF.OCCUPANCY.03.03.2022.pdf">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8197007/111.REAR.SULLIVAN.STREET.MANHATTAN.-.REAR.-.NO.CERTIFICATE.OF.OCCUPANCY.03.03.2022.pdf</a>)<br>
+        *** 113 SULLIVAN STREET, REAR, NEW YORK, NY, ,10012<br>
+        [113 REAR SULLIVAN STREET MANHATTAN - REAR - NO CERTIFICATE OF
+        OCCUPANCY
+2020.03.03.pdf](<a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8197008/113.REAR.SULLIVAN.STREET.MANHATTAN.-.REAR.-.NO.CERTIFICATE.OF.OCCUPANCY.2020.03.03.pdf">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8197008/113.REAR.SULLIVAN.STREET.MANHATTAN.-.REAR.-.NO.CERTIFICATE.OF.OCCUPANCY.2020.03.03.pdf</a>)<br>
+        *** 115 SULLIVAN STREET, REAR, NEW YORK, NY, ,10012<br>
+        [115 REAR SULLIVAN STREET MANHATTAN - REAR - NO CERTIFICATE OF
+        OCCUPANCY
+03.03.2022.pdf](<a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8197009/115.REAR.SULLIVAN.STREET.MANHATTAN.-.REAR.-.NO.CERTIFICATE.OF.OCCUPANCY.03.03.2022.pdf">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8197009/115.REAR.SULLIVAN.STREET.MANHATTAN.-.REAR.-.NO.CERTIFICATE.OF.OCCUPANCY.03.03.2022.pdf</a>)</font><br>
+      <font face="monospace">    <i><br>
+        </i></font><br>
+      <font face="monospace"><i>I did warn the children earlier... now
+          they all disappeared? it's the Year of the Tiger -- did the
+          investors all take a year off as well?</i></font><font
+        face="monospace"><br>
+      </font><br>
+      <font face="monospace"><br>
+      </font><font face="monospace"></font><br>
+      <font face="monospace"><b>Investment Companies (mutual funds,
+          closed-end funds, business development companies, unit
+          investment trusts, interval funds and exchange-traded funds)
+          and Insured Investments (variable annuities and variable life
+          insurance)<br>
+          Chief Counsel's Office (CCO)<br>
+                  (202) 551-6825 <br>
+        </b></font><br>
+      <font face="monospace"> </font><br>
+      <font face="monospace"><b>        <a
+            class="moz-txt-link-abbreviated moz-txt-link-freetext"
+            href="mailto:IMOCC@sec.gov">IMOCC@sec.gov</a><br>
+        </b></font><br>
+      <font face="monospace"> </font></font>
+    <div class="moz-forward-container"><font size="1" face="monospace"><b>/s/
+          BARIS DINCER.</b></font></div>
+    <font size="1" face="monospace"> </font>
+    <div class="moz-forward-container"><font size="1" face="monospace"><b><br>
+        </b></font></div>
+    <font size="1" face="monospace"> </font>
+    <div class="moz-forward-container"><font size="1" face="monospace"><br>
+      </font> <font size="1"><br>
+        <font face="monospace" color="#0080ff"><b>NYSCEF DOC. NO. 348  
+                     AUGUST 9 2021</b></font><font face="monospace"
+          color="#0080ff"><br>
+        </font><br>
+      </font> <font size="1"><br>
+        <font face="monospace" color="#0080ff">Wed, Jun 3, 2020, 2:20
+          PM        </font><font face="monospace" color="#0080ff"><b>RECEIVED
+            NYSCEF: 08/09/2020    <br>
+          </b></font><br>
+      </font> <font size="1"><br>
+        <font face="monospace"><b><font color="#ff0000">        "... </font></b><b><font
+              color="#ff0000">Why don't you just tack on the 9 billion
+              dollars NYC is in the hole while you're at it? ..." </font></b></font><br>
+      </font> <font size="1" face="monospace" color="#0080ff"> </font>
+      <ul>
+        <li><font size="1" face="monospace" color="#0080ff"><a
+href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=TxAa7cNVIHKtnJU/ni/zvg=="
+              class="moz-txt-link-freetext">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=TxAa7cNVIHKtnJU/ni/zvg==</a><br>
+          </font></li>
+      </ul>
+      <font size="1"><br>
+        <font face="monospace" color="#0080ff"><br>
+        </font><br>
+      </font> <font size="1"><br>
+        <font face="monospace" color="#0080ff"><b>**** SEMI-ANNUAL
+            HOLDING REPORT</b></font><br>
+      </font> <font size="1" face="monospace"> </font> <font size="1"><br>
+        <font face="monospace"> </font><br>
+      </font> <font size="1" face="monospace"> </font>
+      <blockquote> <font size="1"><br>
+          <font face="monospace">    ** State Farm Associates' Funds
+            Trust<br>
+          </font><br>
+        </font> <font size="1" face="monospace"> </font> <font
+          size="1"><br>
+          <font face="monospace">    ** [N-CSRS]       
+            0001193125-20-200810<br>
+          </font><br>
+        </font> <font size="1" face="monospace"> </font> <font
+          size="1"><br>
+          <font face="monospace">    ** REPORT DATE:             
+            2020-05-31<br>
+          </font><br>
+        </font> <font size="1" face="monospace"> </font> <font
+          size="1"><br>
+          <font face="monospace">    ** FILING DATE:               
+            2020-07-28<br>
+          </font></font> <font size="1"><br>
+        </font> </blockquote>
+      <font size="1" face="monospace"> </font>
+      <ul>
+        <li><font size="1" face="monospace"><a
+href="https://www.sec.gov/Archives/edgar/data/0000093715/000119312520200810/d913497dncsrs.htm"
+              class="moz-txt-link-freetext">https://www.sec.gov/Archives/edgar/data/0000093715/000119312520200810/d913497dncsrs.htm</a><br>
+          </font></li>
+      </ul>
+      <font size="1" face="monospace"> </font> <font size="1"><br>
+        <font face="monospace"><br>
+        </font><font face="monospace" color="#0080ff"><b>21 JULY 2020   
+            NYSCEF DOC. NO. 53   </b><b><i>          </i></b><b>RECEIVED
+            NYSCEF:     07/21/2020 </b></font><br>
+      </font> <font size="1" face="monospace"> </font> <font size="1"><br>
+        <font face="monospace" color="#0080ff"><b><font color="#ff0000">   
+                  "...REPRESENTATIVES SHOULD BE DISBARRED..."</font></b></font><font
+          face="monospace" color="#0080ff"><br>
+        </font></font> <font size="1"><br>
+      </font> <font size="1" face="monospace" color="#0080ff"> </font><font
+        size="1" face="monospace"> </font>
+      <ul>
+        <li><font size="1" face="monospace"><a
+href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=LMUE9g_PLUS_k6vCmKgfCSJEzuQ=="
+              class="moz-txt-link-freetext">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=LMUE9g_PLUS_k6vCmKgfCSJEzuQ==</a></font></li>
+      </ul>
+      <ul>
+        <li><font size="1" face="monospace"><a
+href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=TxAa7cNVIHKtnJU/ni/zvg=="
+              class="moz-txt-link-freetext">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=TxAa7cNVIHKtnJU/ni/zvg==</a></font></li>
+      </ul>
+      <font size="1"><br>
+        <font face="monospace"><br>
+        </font></font> <font size="1"><br>
+      </font> </div>
+  </body>
+</html>
+
+--------------JvkZ2HqQEKfat4UlNguscFki--

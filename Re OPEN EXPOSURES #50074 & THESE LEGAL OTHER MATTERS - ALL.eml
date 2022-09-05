@@ -1,0 +1,831 @@
+From - Wed May 25 01:34:37 2022
+X-Account-Key: account1
+X-UIDL: AGMNhuUECYP9YoyWmwySwI17mmY
+X-Mozilla-Status: 0011
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.151.10
+ by atlas319.free.mail.ne1.yahoo.com with HTTPS; Tue, 24 May 2022 08:26:03 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.66.148]
+Received-SPF: pass (domain of yahoo.com designates 98.137.66.148 as permitted sender)
+Authentication-Results: atlas319.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 24 May 2022 08:26:03 +0000
+X-YMailAVSC: oXWJJPw3bBtfmI.cVwSRREdAc92gKDOKrYYFZRe_p7yahMD
+ sqhpJbJ9ukbWj1V5yMvynY7wqHHlicd05FIf4b6DQneGip9xhOPXs5XPk8oi
+ 8yO9Xw2zgsnFMLoBuauhWpB0AXzIR2RAje7jXHzmKvktlHH.Am4u3iXFM2bn
+ Xypb3E8wuXfxRUq4MbcaVCOupZ.whx6OjlCtvUwiANA5nU6ZI0x4U2lEvGOs
+ s8vFNkA2DYodCJF5mocqsK.E9frqCRI8bBXWi78kDJr8uOzc9XAfM2971BbI
+ bDHV_W8xpCwJsmqzQdoIj1UTMovAoBOCxv3lpooKQQPWlVH_BXdPbU35E6En
+ Oz24p2xLx5nSG0SzK3KinwqoFk2rO0Kp2XjPsov0qjn1WBJio6eZ9YQ--
+X-YMailISG: ZQCt8oAWLDtOd2tF.qA6at_bYWrDT80wkESH1SuwiyppsKu6
+ BDZMFXarcrVRDsKoLHLUn1WIc4deOfCWqIpku8__ifHPXBKW1FasqHJkptSA
+ HysIAXmtTvTUCnUoYRweqUlqWR05h6eSlUU48QNOp_wNOaqdSG4mB32qs1FO
+ mHdlfjy52RS4e2dh.Kvx8tsVm2xDS1QD.qtJRuB4w40hbwq05_ExxTllXF4e
+ L_JDyJ6MgdbbpKIu63fLc96_d9mN8Bezjy2HAg5BdNpItVnH6GIE2y3KLtEG
+ 5.sUnKKgjSayGSd1fMuEdFqxZmuTi3Xqo0Up6Cot3te5.RKLHFqCzTyccaA6
+ R_T.tOh7CrcgfOvDS7lfheQmf44dFZqZTfuz53Q7FjfJ8pSlE5P_hPNn8alq
+ kLJy8YKKZKSuD2VgjYcWF3QjfKWN4mspiam2iBNEaeLkIQntSFk4O7QbL2Ly
+ BrHyUeNOlgb0ZKJWhzP_7SmEv7Wy5kMCbNXyYGFI0YkkgK17IO_zvTRdnD8r
+ OeKLENMeXJUN4kx9tkN5G_s64ZYZAhFwveHIpavgDkBNL00cQmbFByoB2tf8
+ FNE6yylCojK3_rFWIbtHkJ18zbeFUDTEuQJVAWxtYLW8TZCNWpkXvcb3ZcaV
+ rrYYRsj62eJYyKOACrpxV9OufBI6AasYN_9nvXPvQPLgUstUSURPsU5lr_9g
+ 5eBtB5WIypZks.nNH1rglpSFbjO6rPzMkVukF_cS7V8Z_5NoeWwVgpaXt2os
+ bUKFzmLS3fid.caVhBXKhgjOWbNdetxMaBfPbVdgLRt7c8k2AYv15pHqalYp
+ BDIWGmlLIHh692iwhcKTSIWozDWwf4jzAD6YYFMMKyHwfexWlzyH7epWsJ4B
+ 8RlCv84QS2tYtu5dXR4zSTvaq4L5H.yVjxrkHiua3tCHzo3TklD0ojsNjIM9
+ yS0KecTCvXAODXtOWo.m6xy42j6sTHVhr5tCRFbGwHfdLQw7bib_MtC67Kdu
+ wS4F2qsNlW6p5l3UT.qJmNGoJFsUfJxAVqHFxyaQazAzwQ7tnCkoYPgVNSkb
+ bjAANgukCfSmwCGqEghuC..WJuJJK2oT.TDUpkbrvCSENzEnZ0yQNBUMb2KG
+ y1lNVwGtm3miRoQYEQ4vMRV_NlZG9bANgMusZxJvwv7owmq_ccAeTdSOu0Yk
+ hR2GYc.uKK0-
+Received: from 98.137.66.148 (EHLO sonic317-22.consmr.mail.gq1.yahoo.com)
+ by 10.217.151.10 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Tue, 24 May 2022 08:26:03 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653380762; bh=v4f1KFT0P/QBnyUaKDSRQcYVVEd8+rxJO4svZxlf5tM=; h=Date:From:Reply-To:To:Cc:In-Reply-To:References:Subject:From:Subject:Reply-To; b=XYlip+36yeFjNbjA+mJMFi9z6mBb8ZCaWDsRGtx/KV4xQ+5sKslJ/ynjYLXD3NFl++RVls5qmp5Aj2R7HMN3ec+UCvABOWah1RMmW831q/0wr/Yx3zwTRi1EuzFqPR0prxOVRIYsnx1b4gGN/sOpklKJAaNiYaECY5N9xzAeSEggY31spbC6Wl3GKXCBpqhGBi7thYtt2mXGW5LxccFDgqIebclf4nifWfkgGoAt/BqJUMDW0yBGvpC+s8gSjWSRkU0HUPzs4S1KAQHJUoMJj04+bmkbSz4RBujaA8XVXvHcJZPeV9FPDYNOM8Szf1kiaylQNP0SvueUBss/MrIBjg==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653380762; bh=IyS+qjnRCtHOModK+4OkDboa2JQJHIWCibYxNjQZ2/X=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=jxmzX7ParwRzdv+cq7AdXpb+Offcfx56lFRe5ymDHJmLRTTuVZTNsrGJoLV117a1Qt94dMjFO+9h1mneF7fN87sR06OY/BeAcpi7m32I/vS1LGUOKLxQzEZ633mi+VNuji4TrQc+Ejk9ITCGhsn8HGFajwQVkF6v84u9bCEilc1ejP24OLf96PwRVV5ZmUcIKpit54zjk8XLPLHlVFcI87xVUUTG+6g/MTt0I0Rvqn1t/3J4yumcxU4oHux9fjFfYJ9eNrdHkail38h0h8Ut+Sd1fNjF4RsOklbi0qB6zlXzC+azk8oJbFfq5Bgi91hzeGogsREdgphvgkyVU/ZBIQ==
+X-YMail-OSG: v0RCyC4VM1liVkBZR22yhThk6_5zj8XC4bZvk07Sqmu2aZc_epPzR4OrSYQylai
+ WgmbB8q73w2AP7LmY1fo8lbXPR3q26b.ETHzOSy2L1RU2w7Bq9tNh1U4N7mFfpkTvRC5vARDE24U
+ k6Wp8DPrVTjCduji3u8VF0ZRD37Q1MgdGDCCOpqKQ0Kht89U6Avtm2zlwXKESMpZeZuCeARahaz9
+ PO.W.9O.C4ny8qUgWbVHx1bZxnLhwxQ3aac8NcN6GOvUEejauASkq0YeCLn_UvKR_7YtsX5aExOb
+ lY8reY7Mx4PJeFm3_ZbHDZB29SVZ9_tP_S34maMRbS8COxTz21a3pNQXu9TpcqCe34_7QLcIzOOh
+ eOKB6n5oAw4vOghqewpaFe1T0IfA4KU.9wiuX.S0BcIsyyXrIa9t0XD6zGoRfHWNxfMt3dXlpRui
+ GLN509yOxfgR0wBDMSXpZAy43OMmXq0yTjJkwne54.B26hMdkw1EXa7QRlYv73ep62KXDyWxlrCf
+ uUozEdchDGn.5mBLNm_2KWP3U.TzKDOIJubei8RZx_b78OXj7xArDtli3L6r1LhxMql9JTeY.c8T
+ QbIZk64Sv4feUkWedY83dR2YH5seD8rjf49UHgf4xgZPtUB_ORQx1a50zwDRGUvQKPAk4qN3TbWD
+ WAyzaOyBPIZiDwomqpmpT6Chs2IUqY066YX0rVV2NCsWNgi1V10KfK4BBDwdwiPB5NrQGItfz4rD
+ q2j5RzohTasLg_wBd63kJAKF8PF6mC_U0SiUbpCEOAHsvGLSuE2ld1T78_sSCkMNtzfbaSKK4h0e
+ Slf.sjqu1fQ5_aaZni1SF0g_k5cgLx_S2WUR6E0S04R2L67m_.JsBg3TNWL8Or_M.0KkVys2lMxB
+ 32pDAjXGzGk2tnsGFMHaoQOrG5nvMVoCvpLF4BfW1HvdbCfiiKJG3GdXxyJDvpiM1aLTobk.bqu7
+ VziRejs4O74WQMcNJsiAciOq2L.CfQdd0KuYmKUIPHHuI.Fl2sl.A_dnh50ktlwuGg6xal3IvAZE
+ kcfUyn4yi336.RAvYM5X_dKDslH2kX0N_2BUbC7yi7z_RaZM2ArZY7AXODXVegSDa_l4lIQ2.bxQ
+ 0EPjkoLv3.KxiwqT6QV31hdOEeV21902b2UCi1fCa2PDQC_dE24Mrs4uO_1gA1YjuoXV2nZQfH.Q
+ lPts7ENIMPVWuwgiG3X_Z9qwoGQpvjf4.DKIvSvbivZRPVdOxMX_22yT7NrdSEsWM.t1aq3vIQ.w
+ HBCNI4qPz3y.ChFz5otxzZUMqvjl3xPNNgl2Eq10XEPiB74HThYRyyB.Pq0f.Jtdk4Yzi1GrieTi
+ lsGqNQYVsBGUbXyJo4N0KKGSKMS.rfJDmJedXSzqqvtCl2vbQv7pwPvvlIH2_.S26s8xHkhT5HVD
+ 6cGQp8PwqJvO7yAPWWvGddJFvYntknpeBB7FRwn6qreABcrBwkU7Vm39cLHIIPuUy3JCxUya3Avr
+ G.cs6abts36RNJ_1plDxEqRHUazcJiVV.rfDZ3_j7Hg5a61AUtoUR4uoKGMwcR1Yxy37o38FVWtz
+ 9DZi3YMPGhZMvWswtryVUOtdnZ_X6SoYvyoUVwTCaZCJpcVES4zJXuBpr3OBcOEOhfFRn1OcdBTn
+ 1jddu329hw77cNOPRLp4d7GJ_qTHZKrZUU9hm7z_TMulILBLOl.D6Axh1W1IrGbeMXIN412BK0R1
+ d7_ywyibqx1pXwJ6rXKLd3epna1W377T8NDXBIVg88zjbQfqrTagLdl9a_mFdGBNFksGvS8oLlXh
+ _2D1o7f_hLXadajpUOkVSV_pv6chvrnQpdZwjXFecHgU8QgVbbvxUgHmlwkzGPuqWov9nMBAiVBR
+ M8JuN9Y50k6v0nGykXfQJmOZGERaMtv6SupNGYhuHorw9aDo3wN2dZlGsX5SJihbzCyK3ekKRGIX
+ Po29YhhTz9XnT.KS6d8BenCKwavSt7OzKtOZq.L.I3lJG5V8PbhlSLwCq.P2NjGCSS_nhvy2OUU4
+ qj5N4BaFZGgZhVnt7WCTDDLtccCjN2yifDxzyhDXbswbuYGyIYpLFrImQrAq.xrRs7Yz5SmsXyqc
+ r_2MSUd8hmlvHaG3dvkRW_CG8XrqWXgUxom8s_PpQSu6ThMar04k_WNbN0dbVeqdy.COvvjco6aA
+ wb4MtG5UaBYsY7ORjCxoU69FR5OdEGawHzjlBRH97kHozHooP51P0E_dM0bAsCGm9qgJY2zWC7RO
+ Sm1Cq1CdqzK9hxKB8scx9UKcClRDpOWzxphg9JgNg.sv_NdphO2XRwDoe4.mLdfW_sHlvkIC5kOP
+ hPsZrqa99lpqjnXOrlRktu6xhMYsY5gdfbVznKYCWr9qmoLYxL7UvT_TgbrD8dx1wQ2lD50.GkPi
+ nB_JUtJbEIUJaYgn_S2fMmIjfGlgnWDU1WDCtta5LQg--
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic317.consmr.mail.gq1.yahoo.com with HTTP; Tue, 24 May 2022 08:26:02 +0000
+Date: Tue, 24 May 2022 08:25:58 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "bdincer66@icloud.com" <bdincer66@icloud.com>, 
+	David Moore <david.moore.ct95@statefarm.com>, 
+	"david.moore@statefarm.com" <david.moore@statefarm.com>
+Cc: David Moore <david.moore.ct95@statefarm.com>, 
+	"Janna.Underwood@statefarm.com" <Janna.Underwood@statefarm.com>, 
+	"Tina.Powers@statefarm.com" <Tina.Powers@statefarm.com>, 
+	"phil.supple.hid9@statefarm.com" <phil.supple.hid9@statefarm.com>, 
+	"brian.hodgson.nyz6@statefarm.com" <brian.hodgson.nyz6@statefarm.com>, 
+	"MIKE.CARTER.HUSL@statefarm.com" <MIKE.CARTER.HUSL@statefarm.com>
+Message-ID: <1005529536.1661956.1653380758572@mail.yahoo.com>
+In-Reply-To: <F111D4D0-DE18-400C-9BF9-D21B017CA587@icloud.com>
+References: <BN8PR20MB2643A614BD01BC4469A0C122F9D79@BN8PR20MB2643.namprd20.prod.outlook.com> <F111D4D0-DE18-400C-9BF9-D21B017CA587@icloud.com>
+Subject: Re: OPEN EXPOSURES #50074 & THESE LEGAL OTHER MATTERS - ALL
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_1661955_1885483605.1653380758564"
+X-Mailer: WebService/1.1.20225 YahooMailAndroidMobile
+Content-Length: 37547
+
+------=_Part_1661955_1885483605.1653380758564
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+/S/ BO DINCER=20
+=20
+  On Mon, May 23, 2022 at 11:05 PM, Bo Dincer<bdincer66@icloud.com> wrote: =
+  TY. 646-256-360924/7
+On May 23, 2022, at 10:29 PM, zucker elser <BLOCK803LOT11@outlook.com> wrot=
+e:
+
+
+
+=EF=BB=BF
+ATTN:=C2=A0 =C2=A0 =C2=A0STATE FARM
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 ATTN:=C2=A0MR. MOORE, TIPSORD, HODGSON, =
+HARBERTS, ET. AL.
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 ONE STATE FARM PLAZA
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 BLOOMINGTON, IL, 61710=C2=A0 =C2=A0=C2=
+=A0=C2=A0 =C2=A0 =C2=A0=C2=A0TWO BRIEF POINTS FOR YOUR CONSIDERATION(S):1. =
+I REQUESTED AN ESTOPPEL: =C2=A0 =C2=A0 =C2=A0=C2=A0 =C2=A0 =C2=A0re: =C2=A0=
+ =C2=A0STATE FARM
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Ds5WAeCnxmd/=
+hcOI4eTnbig=3D=3D
+=C2=A0 =C2=A0 =C2=A02.=C2=A0 I REQUESTED AN ESTOPPEL: =C2=A0 =C2=A0 =C2=A0=
+=C2=A0 =C2=A0 =C2=A0re: =C2=A0 =C2=A0THE ZUCKER FAMILY & ITS COUNSELORS [ a=
+ll of them ]
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DJf3Un/JaVXZ=
+wF7kvbaee4w=3D=3D
+
+
+TO CEASE AND DESIST FROM ALL THE ACTIVITY / NOTWITHSTANDING FOOLING AROUND =
+WITH A 40' ACT MUTUAL FUND.IF YOU ARE LOOKING FOR AN EARLY RETIREMENT, YOU =
+SHOULD NOT LEAVE THE OTHERS WITH NOTHING TO LOOK FORWARD TO AT ANY OF THE D=
+EPARTMENTS IN BLOOMINGTON, OR YOUR BRANCHES IN NEW YORK.=C2=A0=C2=A0
+
+
+=C2=A0 =C2=A0 =C2=A0AKA=C2=A0 =C2=A0 =C2=A0***=C2=A0COST TO SETTLE OUT OF C=
+OURT WITHOUT ANY FURTHER " DISCOVERY " UPON KNOWLEDGE.=C2=A0
+*** TWENTY-FIVE MILLION UPFRONT ***
+1.=C2=A0 =C2=A0 =C2=A0LEGAL MATTERS CLOSED, ALL PRE-EXISTING ACTS WITH THE =
+IMPLIED "COVERAGE" THEREAFTER, ON MY WATCH.
+- I WILL PERSONALLY ASSIST YOU " FOR FREE " AND UNTIL THIS DISASTER YOUR AD=
+VISORS HAVE LEFT YOU WITH IS CLEAR, AND TO YOUR SATISFACTION.
+
+2.=C2=A0 =C2=A0 =C2=A0UPFRONT =E2=80=93 THAT IS MY COST.=C2=A0=C2=A0
+
+-=C2=A0IF YOU HAVE ANOTHER PROFESSIONAL TEAM OF EXPERTS YOU'D LIKE TO HIRE =
+AND CONSULT WITH TO DEAL WITH YOUR COMPANY'S AFFAIRS, THAT IS FINE BUT I MU=
+ST ALSO ABIDE BY MY OWN PRINCIPLES IN THAT RESPECT. I=C2=A0AM NOT AN ATTORN=
+EY, BUT A PROFESSIONAL WHEN I NEED TO BE, AS REFERENCED BELOW MY SIGNATURE.=
+=C2=A0YOUR $25 MILLION DOLLAR CREDIT LINE IS GOING TO BE ENOUGH TO COVER MY=
+ COSTS TO REPAIR THE FIRM.=C2=A0=C2=A0FOR FREE, BUT ONLY AFTER WE SETTLE AN=
+D PUT ALL PRIOR MATTERS BEHIND TO LAWFULLY RESOLVE THE ISSUES YOU HAVE AT T=
+HE NEW 1516523.
+
+
+
+-=C2=A0EVEN AFTER THE FACT, I CAN REPAIR IT ALL AND ALSO FOREGO THE VIOLATI=
+ON OF PRIVACY TORTS, AND OTHER MATTERS WHICH HAVE NOT YET BEEN BROUGHT TO T=
+HE FORE.=C2=A0=C2=A0
+
+
+3.=C2=A0 =C2=A0 =C2=A0IF YOU CONSIDER THE LOSSES SUFFERED & EVADED FOR THIS=
+ GROUP OF ZUCKERS AND THEIR TAX-EVASIONS THUS FAR.
+
+-=C2=A0YOU WOULD HAVE SAVED YOU ABOUT $1.5 BILLION DOLLARS BETWEEN NOV 13, =
+2021 THROUGHT DEC 18, 2021 AND THE STATE FARM ADVISORS FUNDS TRUST COMPANY =
+WOULD EXIST AND FUNCTION UNDER THE SAME FILER AND NAME.
+
+
+-=C2=A0YOUR BROKERAGE GROUP AND ADVISORS DID NOT ACT ACCORDINGLY IN NOVEMBE=
+R OF 2021, OR UPON THE PRIOR NOTICE - WHICH IS A SERIOUS PROBLEM FOR YOUR F=
+IRM, AND ITS SERVICE PROVIDERS.
+
+THE MISLEADING STATEMENTS THROUGHOUT YOUR FILINGS UNDER A DIFFERENT FUNCTIO=
+N OF "DURESS" WHICH NOT DEFINED IN ANY ORDINARY BOOK OF LAW, AND IS GENERAL=
+LY FROWNED UPON IN ANY JURISDISTION FOR "PRACTICAL" CAUSE THAT IS ALSO REAS=
+ONABLE, UNLIKE THE CAUSE TO "CEASE TO EXIST" AFTER 27-YEARS.=C2=A0 =C2=A0=
+=C2=A0=C2=A0 =C2=A0=C2=A0
+=C2=A0 =C2=A0=C2=A0
+- UNDER ADVISEMENT WITH A SEVERE CONFLICT OF INTEREST [ PRISON - FOR EXAMPL=
+E ]
+
+
+-=C2=A0OTHER MATTERS WHICH UNFORTUNATELY, I CAN'T DISCLOSE AT THIS POINT - =
+HENCE, A DISCOUNT.
+
+
+I CAN ONLY WARN YOU "AGAIN" THAT YOUR ENTIRE CORPORATION IS AT RISK, NOT JU=
+ST YOUR CREDIT LINE OF STATE FARM AUTOMOTICE GROUP THAT WAS EXTENDED TO THE=
+ FOUR FUNDS MANAGED UNDER THE PRIOR AND NEW FILER 1516523 UNDER THE ASSURAN=
+CES FUNDS TRUST.
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0- THE CREDIT LINE AT STATE FARM AUTOMOTIVE, WHIC=
+H LAST I CHECKED - IS IN TACT.
+=C2=A0 =C2=A0 =C2=A0=C2=A0IF YOU WOULD LIKE TO KEEP YOUR DAILY AFFIARS IN O=
+RDER,=C2=A0I WOULD HIGHLY RECOMMEND THAT YOU REACH OUT AND CONTACT ME AS SO=
+ON AS POSSIBLE.=C2=A0 =C2=A0 =C2=A0 =C2=A0- A=C2=A0BETTER USE OF YOUR CREDI=
+T LINE ANYWAYS, FOR ALL INTENSIVE PURPOSES - IN MY OPINION.=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0-=C2=A0TIME SENSITIVE, AS ALL THINGS ARE...=C2=A0 =C2=A0=C2=A0=
+I SINCERELY RECOMMEND THAT YOU CALL ME AT YOUR EARLIEST COVENIENCE AT 646-2=
+56-3609.
+=C2=A0 =C2=A0/S/ BO DINCER=C2=A0 =C2=A0 MS60710444266@YAHOO.COM=C2=A0 =C2=
+=A0 BDINCER66@ICLOUD.COM=C2=A0 =C2=A0 TEL.: =C2=A0 =C2=A0646-256-3609=C2=A0=
+ =C2=A0 =C2=A0=C2=A0 =C2=A0 =C2=A0IF YOU NEED SOME REFERENCES, CONTRARY TO =
+WHAT MAY HAVE BEEN " FABLED " BY YOUR COUNSELORS & ADVISORS.https://www.scr=
+ibd.com/document/386161673/Bo-Dincer-New-York-City-Fixed-Income-Trader-Bari=
+s-Dincer-Maritime-Capitalhttps://en.everybodywiki.com/Maritime_Capital_Part=
+ners_LP
+
+*** WITHOUT HAVING TO DRAG YOUR COUNSELORS, BROKERS, AND ADVISORS INTO A CO=
+URTROOM, CRIMINAL OR CIVIL.
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------=
+---------------------------------------------------------------------------=
+---------------
+HERE ARE YOUR ALTERNATIVE DISPUTES AND REGULATORY MATTERS THAT ARE KNOWN.ht=
+tps://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5https://github=
+.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/7
+*** THE INTEREST CARRIES OVER BTW, TRUST ME... =C2=A0I AM NOT A ZUCKER, AND=
+ NEVER WILL BE...
+
+P.S.=C2=A0 =C2=A0=C2=A0
+
+THERE IS NOT PRICE TAG THE ZUCKER'S CAN PAY TO HAVE ME REPAIR THEIR CORPORA=
+TIONS AND STATURE, AND TO THE BEST OF MY KNOWLEDGE AND BELIEF
+=C2=A0- THOSE LEASES AND RENTS WERE ASSIGNED TO YOU AND YOURS AT:=C2=A0 =C2=
+=A0 =C2=A0 STATE FARM LIFE INSURANCE COMPANY, MANAGING MEMBER OF STATE FARM=
+ REALTY MORTGAGE LLC
+
+#GOCARDS.
+
+
+From: B D2022 <ms60710444266@yahoo.com>
+Sent: Monday, May 23, 2022 9:31 PM
+To: David Moore <david.moore.ct95@statefarm.com>; Janna.Underwood@STATEFARM=
+.COM <Janna.Underwood@STATEFARM.COM>; Tina.Powers@STATEFARM.COM <Tina.Power=
+s@STATEFARM.COM>
+Cc: BLOCK803LOT11@outlook.com <BLOCK803LOT11@outlook.com>; bo.dincer@yahoo.=
+com <bo.dincer@yahoo.com>
+Subject: Re: THE LOAN 50074 & THESE LEGAL MATTERS -=C2=A0
+DO YOU HAVE THEIR EMAIL / CONTACT INFORMATION BY ANY CHANCE.
+
+- SORRY ABOUT ALL THE NONSENSE, HOPEFULLY YOU CAN GET A PROFESSIONAL TO HAN=
+DLE YOUR BOOKS, RECORDS, AND HOLDINGS REPORTED - NEED TO BE CLEANED UP, PRO=
+PERLY.
+_AND YES - I CAN FIX THAT TOO.
+
+/S/ BO DINCER.
+
+
+David Moore wrote:
+
+
+
+Please contact=C2=A0Janna Underwood at 309-766-8116 or Tina Powers at 309-7=
+66-6661 if you need immediate assistance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ =20
+
+------=_Part_1661955_1885483605.1653380758564
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div id=3D"ymail_android_signature">/S/ BO DINCER</div> <br> <block=
+quote style=3D"margin: 0 0 20px 0;"> <div style=3D"font-family:Roboto, sans=
+-serif; color:#6D00F6;"> <div>On Mon, May 23, 2022 at 11:05 PM, Bo Dincer</=
+div><div>&lt;bdincer66@icloud.com&gt; wrote:</div> </div> <div style=3D"pad=
+ding: 10px 0 0 20px; margin: 10px 0 0 0; border-left: 1px solid #6D00F6;"> =
+<div id=3D"yiv6063948253"><div>TY. 646-256-3609<div>24/7<div dir=3D"ltr"><d=
+iv id=3D"yiv6063948253yqt86020" class=3D"yiv6063948253yqt3285677336 yQTDBas=
+e"><blockquote type=3D"cite">On May 23, 2022, at 10:29 PM, zucker elser &lt=
+;BLOCK803LOT11@outlook.com&gt; wrote:<br clear=3D"none"><br clear=3D"none">=
+</blockquote></div></div><div id=3D"yiv6063948253yqt26748" class=3D"yiv6063=
+948253yqt3285677336 yQTDBase"><blockquote type=3D"cite"><div dir=3D"ltr">=
+=EF=BB=BF
+
+</div></blockquote></div></div></div><div id=3D"yiv6063948253yqt26903" clas=
+s=3D"yiv6063948253yqt3285677336 yQTDBase"><div><div style=3D"font-family:Ca=
+libri, Arial, Helvetica, sans-serif;font-size:12pt;color:rgb(0, 0, 0);" cla=
+ss=3D"yiv6063948253elementToProof">
+</div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:10pt;"><b>ATTN:&nbsp; &nbsp; &nbsp;STATE FARM</b></span><span=
+ style=3D"font-family:Arial;font-size:8pt;"><br clear=3D"none">
+</span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:10pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ATTN:&nbsp;</span><=
+span style=3D"font-family:Consolas;font-size:10pt;">MR. MOORE, TIPSORD, HOD=
+GSON, HARBERTS, ET. AL.</span><span style=3D"font-family:Arial;font-size:8p=
+t;"><br clear=3D"none">
+</span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:10pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ONE STATE FARM PLAZ=
+A<br clear=3D"none">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; BLOOMINGTON, IL, 61710</span></div>
+<div style=3D"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:1=
+2pt;color:rgb(0, 0, 0);" class=3D"yiv6063948253elementToProof">
+<span style=3D"font-family:Consolas;font-size:8pt;"><b>&nbsp; &nbsp;&nbsp;<=
+/b></span></div>
+<div style=3D"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:1=
+2pt;color:rgb(0, 0, 0);" class=3D"yiv6063948253elementToProof">
+<span style=3D"font-family:Consolas;font-size:8pt;"><b>&nbsp; &nbsp; &nbsp;=
+&nbsp;</b></span></div>
+<div style=3D"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:1=
+2pt;color:rgb(0, 0, 0);" class=3D"yiv6063948253elementToProof">
+<span style=3D"font-family:Consolas;font-size:8pt;"><b>TWO BRIEF POINTS FOR=
+ YOUR CONSIDERATION(S):</b></span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;"><b>1. I REQUESTED AN ESTOPPEL: &nbsp;</b></span><span s=
+tyle=3D"font-family:Consolas;font-size:8pt;"> &nbsp; &nbsp;
+</span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;">&nbsp; &nbsp; &nbsp;re: &nbsp; &nbsp;STATE FARM
+</span></div>
+<blockquote style=3D"margin-top:0;margin-bottom:0;">
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;"></span><span style=3D"font-family:Arial;font-size:8pt;"=
+><a rel=3D"nofollow noopener noreferrer" shape=3D"rect" target=3D"_blank" h=
+ref=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Ds5WA=
+eCnxmd/hcOI4eTnbig"><span style=3D"font-family:Consolas;">https://iapps.cou=
+rts.state.ny.us/nyscef/ViewDocument?docIndex=3Ds5WAeCnxmd/hcOI4eTnbig</span=
+></a></span><span style=3D"font-family:Consolas;font-size:8pt;">=3D=3D</spa=
+n></div>
+</blockquote>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;">&nbsp; &nbsp; &nbsp;</span></div>
+<div><span style=3D"font-family:Consolas;font-size:8pt;"></span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;"><b>2.&nbsp; I REQUESTED AN ESTOPPEL: &nbsp; &nbsp; &nbs=
+p;
+</b></span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;"></span><span style=3D"font-family:Arial;font-size:8pt;"=
+><span style=3D"background-color:rgb(255, 255, 255);display:inline !importa=
+nt;font-family:Consolas;">&nbsp; &nbsp; &nbsp;re: &nbsp; &nbsp;</span></spa=
+n><span style=3D"font-family:Consolas;font-size:8pt;">THE
+ ZUCKER FAMILY &amp; ITS COUNSELORS [ all of them ]</span></div>
+<blockquote style=3D"margin-top:0;margin-bottom:0;">
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;"></span><span style=3D"font-family:Arial;font-size:8pt;"=
+><a rel=3D"nofollow noopener noreferrer" shape=3D"rect" target=3D"_blank" h=
+ref=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DJf3U=
+n/JaVXZwF7kvbaee4w"><span style=3D"font-family:Consolas;">https://iapps.cou=
+rts.state.ny.us/nyscef/ViewDocument?docIndex=3DJf3Un/JaVXZwF7kvbaee4w</span=
+></a></span><span style=3D"font-family:Consolas;font-size:8pt;">=3D=3D</spa=
+n></div>
+</blockquote>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Arial=
+;font-size:8pt;"><br clear=3D"none">
+</span></div>
+<div><span style=3D"font-family:Consolas;font-size:8pt;"></span></div>
+<blockquote style=3D"margin-top:0;margin-bottom:0;">
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;"><b>TO CEASE AND DESIST FROM ALL THE ACTIVITY</b> / NOTW=
+ITHSTANDING FOOLING AROUND WITH A 40' ACT MUTUAL FUND.</span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;">IF YOU ARE LOOKING FOR AN EARLY RETIREMENT, YOU SHOULD =
+NOT LEAVE THE OTHERS WITH NOTHING TO LOOK FORWARD TO AT ANY OF THE DEPARTME=
+NTS IN BLOOMINGTON, OR YOUR BRANCHES IN NEW YORK.&nbsp;&nbsp;<br clear=3D"n=
+one">
+</span></div>
+<div class=3D"yiv6063948253elementToProof"><br clear=3D"none">
+</div>
+</blockquote>
+<div style=3D"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:1=
+2pt;color:rgb(0, 0, 0);" class=3D"yiv6063948253elementToProof">
+&nbsp; &nbsp; &nbsp;</div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;"><b><span style=3D"margin:0px;font-weight:400;font-size:=
+14px;font-family:UI Web -apple-system, BlinkMacSystemFont, Roboto, sans-ser=
+if;"><b><span style=3D"margin:0px;font-weight:400;font-size:8pt;font-family=
+:Consolas;background-color:rgb(255, 255, 255);"><b>AKA&nbsp;
+ &nbsp; &nbsp;</b></span><b style=3D"background-color:rgb(255, 255, 255);">=
+<span style=3D"margin:0px;font-size:8pt;font-family:Consolas;"><span style=
+=3D"margin:0px;background-color:rgb(255, 255, 255);"><i>***</i></span></spa=
+n><span style=3D"margin:0px;font-size:8pt;font-family:Arial;"><span style=
+=3D"margin:0px;font-family:Consolas;background-color:rgb(255, 255, 255);"><=
+i><span style=3D"margin:0px;">&nbsp;</span></i></span></span><span style=3D=
+"margin:0px;font-size:8pt;font-family:Consolas;">COST
+ TO SETTLE OUT OF COURT WITHOUT ANY FURTHER " DISCOVERY " UPON KNOWLEDGE.&n=
+bsp;</span></b><br clear=3D"none">
+</b></span></b></span></div>
+<div class=3D"yiv6063948253elementToProof"><b style=3D"color:inherit;font-f=
+amily:Consolas;font-size:8pt;font-style:inherit;">*** TWENTY-FIVE MILLION U=
+PFRONT ***</b><br clear=3D"none">
+</div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;"><b>1.</b></span><span style=3D"font-family:Consolas;fon=
+t-size:8pt;"><b><b style=3D"background-color:rgb(255, 255, 255);">&nbsp; &n=
+bsp; &nbsp;</b></b></span><span style=3D"font-family:Consolas;font-size:8pt=
+;">LEGAL
+ MATTERS CLOSED, ALL PRE-EXISTING ACTS WITH THE IMPLIED "COVERAGE" THEREAFT=
+ER, ON MY WATCH.</span></div>
+<blockquote style=3D"margin-top:0;margin-bottom:0;">
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;">- I WILL PERSONALLY ASSIST YOU " FOR FREE " AND UNTIL T=
+HIS DISASTER YOUR ADVISORS HAVE LEFT YOU WITH IS CLEAR, AND TO YOUR SATISFA=
+CTION.</span></div>
+</blockquote>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;"><br clear=3D"none">
+</span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;"><b style=3D"color:inherit;font-size:8pt;font-style:inherit;">2.</b></=
+span><span style=3D"font-family:Consolas;"><b style=3D"color:inherit;font-s=
+ize:8pt;font-style:inherit;"><b style=3D"background-color:rgb(255, 255, 255=
+);">&nbsp;
+ &nbsp; &nbsp;</b></b></span><span style=3D"font-family:Consolas;font-size:=
+8pt;">UPFRONT =E2=80=93 THAT IS MY COST.&nbsp;&nbsp;</span><br clear=3D"non=
+e">
+</div>
+<div class=3D"yiv6063948253elementToProof"></div>
+<blockquote style=3D"margin-top:0;margin-bottom:0;">
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;">-&nbsp;IF YOU HAVE ANOTHER PROFESSIONAL TEAM OF EXPERTS=
+ YOU'D LIKE TO HIRE AND CONSULT WITH TO DEAL WITH YOUR COMPANY'S AFFAIRS, T=
+HAT IS FINE BUT I MUST ALSO ABIDE BY MY OWN PRINCIPLES
+ IN THAT RESPECT. I</span><span style=3D"font-family:Consolas;font-size:8pt=
+;">&nbsp;AM NOT AN ATTORNEY, BUT A PROFESSIONAL WHEN I NEED TO BE, AS REFER=
+ENCED BELOW MY SIGNATURE.&nbsp;<span style=3D"font-size:8pt;">YOUR $25 MILL=
+ION DOLLAR CREDIT LINE IS GOING TO BE ENOUGH
+ TO COVER MY COSTS TO REPAIR THE FIRM.&nbsp;</span><span style=3D"font-size=
+:8pt;">&nbsp;FOR FREE, BUT ONLY AFTER WE SETTLE AND PUT ALL PRIOR MATTERS B=
+EHIND TO LAWFULLY RESOLVE THE ISSUES YOU HAVE AT THE NEW 1516523.</span></s=
+pan><br clear=3D"none">
+</div>
+</blockquote>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;"><br clear=3D"none">
+</span></div>
+<blockquote style=3D"margin-top:0;margin-bottom:0;">
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;">-&nbsp;EVEN AFTER THE FACT, I CAN REPAIR IT ALL AND ALS=
+O FOREGO THE VIOLATION OF PRIVACY TORTS, AND OTHER MATTERS WHICH HAVE NOT Y=
+ET BEEN BROUGHT TO THE FORE.&nbsp;&nbsp;</span><br clear=3D"none">
+</div>
+</blockquote>
+<div class=3D"yiv6063948253elementToProof"><br clear=3D"none">
+</div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;"><b>3.&nbsp; &nbsp; &nbsp;</b></span><span style=3D"font=
+-family:Consolas;font-size:8pt;">IF YOU CONSIDER THE LOSSES SUFFERED &amp; =
+EVADED FOR THIS GROUP OF ZUCKERS AND THEIR TAX-EVASIONS THUS FAR.</span><sp=
+an style=3D"font-family:Arial;font-size:8pt;"><br clear=3D"none">
+</span></div>
+<blockquote style=3D"margin-top:0;margin-bottom:0;">
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Arial=
+;font-size:8pt;"><span style=3D"background-color:rgb(255, 255, 255);display=
+:inline !important;font-family:Consolas;">-</span><span style=3D"background=
+-color:rgb(255, 255, 255);display:inline !important;"><span style=3D"font-f=
+amily:Consolas;">&nbsp;</span></span></span><span style=3D"font-family:Cons=
+olas;font-size:8pt;">YOU
+ WOULD HAVE SAVED YOU ABOUT $1.5 BILLION DOLLARS BETWEEN NOV 13, 2021 THROU=
+GHT DEC 18, 2021 AND THE STATE FARM ADVISORS FUNDS TRUST COMPANY WOULD EXIS=
+T AND FUNCTION UNDER THE SAME FILER AND NAME.</span></div>
+</blockquote>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Arial=
+;font-size:8pt;"><span style=3D"margin:0px;font-weight:400;background-color=
+:rgb(255, 255, 255);display:inline !important;font-family:Consolas;"><br cl=
+ear=3D"none">
+</span></span></div>
+<blockquote style=3D"margin-top:0;margin-bottom:0;">
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Arial=
+;font-size:8pt;"><span style=3D"margin:0px;font-weight:400;background-color=
+:rgb(255, 255, 255);display:inline !important;font-family:Consolas;">-</spa=
+n><span style=3D"margin:0px;font-weight:400;background-color:rgb(255, 255, =
+255);display:inline !important;"><span style=3D"margin:0px;font-family:Cons=
+olas;">&nbsp;</span></span></span><span style=3D"font-family:Consolas;font-=
+size:8pt;">YOUR
+ BROKERAGE GROUP AND ADVISORS DID NOT ACT ACCORDINGLY IN NOVEMBER OF 2021, =
+OR UPON THE PRIOR NOTICE - WHICH IS A SERIOUS PROBLEM FOR YOUR FIRM, AND IT=
+S SERVICE PROVIDERS.</span></div>
+</blockquote>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Arial=
+;font-size:8pt;"><br clear=3D"none">
+</span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;">THE MISLEADING STATEMENTS THROUGHOUT YOUR FILINGS UNDER=
+ A DIFFERENT FUNCTION OF "DURESS" WHICH NOT DEFINED IN ANY ORDINARY BOOK OF=
+ LAW, AND IS GENERALLY FROWNED UPON IN ANY JURISDISTION
+ FOR "PRACTICAL" CAUSE THAT IS ALSO REASONABLE, UNLIKE THE CAUSE TO "CEASE =
+TO EXIST" AFTER 27-YEARS.</span><span style=3D"font-family:Consolas;font-si=
+ze:8pt;"><b>&nbsp; &nbsp;&nbsp;</b></span><span style=3D"font-family:Consol=
+as;font-size:8pt;"><b>&nbsp; &nbsp;&nbsp;<br clear=3D"none">
+</b></span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;"><b>&nbsp; &nbsp;&nbsp;</b></span></div>
+<blockquote style=3D"margin-top:0;margin-bottom:0;">
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;">- UNDER ADVISEMENT WITH A SEVERE CONFLICT OF INTEREST [=
+ PRISON - FOR EXAMPLE ]
+</span><span style=3D"font-family:Arial;font-size:8pt;"><br clear=3D"none">
+</span></div>
+</blockquote>
+<blockquote style=3D"margin-top:0;margin-bottom:0;">
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;">-&nbsp;OTHER MATTERS WHICH UNFORTUNATELY, I CAN'T DISCL=
+OSE AT THIS POINT - HENCE, A DISCOUNT.</span></div>
+</blockquote>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;"><b><br clear=3D"none">
+</b></span></div>
+<blockquote style=3D"margin-top:0;margin-bottom:0;">
+<div class=3D"yiv6063948253elementToProof"><b><span style=3D"font-family:Co=
+nsolas;font-size:8pt;">I CAN ONLY WARN YOU</span><span style=3D"font-family=
+:Consolas;font-size:8pt;"> "AGAIN"</span><span style=3D"font-family:Consola=
+s;font-size:8pt;"> THAT YOUR ENTIRE CORPORATION
+ IS AT RISK, NOT JUST YOUR CREDIT LINE OF STATE FARM AUTOMOTICE GROUP THAT =
+WAS EXTENDED TO THE FOUR FUNDS MANAGED UNDER THE PRIOR AND NEW FILER 151652=
+3 UNDER THE ASSURANCES FUNDS TRUST.</span></b></div>
+</blockquote>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Arial=
+;font-size:8pt;"><br clear=3D"none">
+</span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;">&nbsp; &nbsp; &nbsp; &nbsp;- THE CREDIT LINE AT STATE F=
+ARM AUTOMOTIVE, WHICH LAST I CHECKED - IS IN TACT.</span><span style=3D"fon=
+t-family:Arial;font-size:8pt;"><br clear=3D"none">
+</span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;"><b style=3D"color:inherit;font-size:8pt;">&nbsp; &nbsp; &nbsp;&nbsp;<=
+/b></span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;"><b style=3D"color:inherit;font-size:8pt;">IF YOU WOULD LIKE TO KEEP Y=
+OUR DAILY AFFIARS IN ORDER,&nbsp;I WOULD HIGHLY RECOMMEND THAT YOU
+ REACH OUT AND CONTACT ME AS SOON AS POSSIBLE.</b></span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Arial=
+;font-size:8pt;"><span style=3D"background-color:rgb(255, 255, 255);display=
+:inline !important;"><i style=3D"font-weight:700;background-color:rgb(255, =
+255, 255);"></i><span style=3D"font-style:normal;font-weight:400;background=
+-color:rgb(255, 255, 255);display:inline !important;font-family:Consolas;">=
+&nbsp;
+ &nbsp; &nbsp; &nbsp;</span></span></span><span style=3D"font-family:Arial;=
+font-size:8pt;"><span style=3D"font-style:normal;font-weight:400;font-famil=
+y:Consolas;">- A</span></span><span style=3D"font-family:Consolas;font-size=
+:8pt;">&nbsp;BETTER USE OF YOUR CREDIT LINE ANYWAYS,
+ FOR ALL INTENSIVE PURPOSES - IN MY OPINION.</span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Arial=
+;font-size:8pt;"><span style=3D"background-color:rgb(255, 255, 255);display=
+:inline !important;font-family:Consolas;">&nbsp; &nbsp; &nbsp; &nbsp;-</spa=
+n><span style=3D"background-color:rgb(255, 255, 255);display:inline !import=
+ant;"><span style=3D"font-family:Consolas;">&nbsp;</span></span></span><spa=
+n style=3D"font-family:Consolas;font-size:8pt;">TIME
+ SENSITIVE, AS ALL THINGS ARE...</span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Arial=
+;font-size:8pt;">&nbsp; &nbsp;&nbsp;</span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;">I SINCERELY RECOMMEND THAT YOU CALL ME AT YOUR EARLIEST=
+ COVENIENCE AT 646-256-3609.<br clear=3D"none">
+</span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-size:8pt;"><=
+/span></div>
+<div style=3D"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:1=
+2pt;color:rgb(0, 0, 0);" class=3D"yiv6063948253elementToProof">
+&nbsp; &nbsp;</div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;"><b>/S/ BO DINCER</b></span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;">&nbsp; &nbsp; MS60710444266@YAHOO.COM</span></div>
+<div><span style=3D"font-family:Consolas;font-size:8pt;">&nbsp; &nbsp; BDIN=
+CER66@ICLOUD.COM</span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;"><b>&nbsp; &nbsp; TEL.: &nbsp; &nbsp;646-256-3609</b></s=
+pan><span style=3D"font-family:Consolas;font-size:8pt;">&nbsp; &nbsp; &nbsp=
+;</span></div>
+<div style=3D"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:1=
+2pt;color:rgb(0, 0, 0);" class=3D"yiv6063948253elementToProof">
+&nbsp; &nbsp; &nbsp;</div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Conso=
+las;font-size:8pt;"><i>IF YOU NEED SOME REFERENCES, CONTRARY TO WHAT MAY HA=
+VE BEEN " FABLED " BY YOUR COUNSELORS &amp; ADVISORS.</i></span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Arial=
+;font-size:8pt;"><a rel=3D"nofollow noopener noreferrer" shape=3D"rect" tar=
+get=3D"_blank" href=3D"https://www.scribd.com/document/386161673/Bo-Dincer-=
+New-York-City-Fixed-Income-Trader-Baris-Dincer-Maritime-Capital">https://ww=
+w.scribd.com/document/386161673/Bo-Dincer-New-York-City-Fixed-Income-Trader=
+-Baris-Dincer-Maritime-Capital</a></span></div>
+<div class=3D"yiv6063948253elementToProof"><a rel=3D"nofollow noopener nore=
+ferrer" shape=3D"rect" target=3D"_blank" href=3D"https://en.everybodywiki.c=
+om/Maritime_Capital_Partners_LP" style=3D"font-family:Arial;font-size:8pt;"=
+>https://en.everybodywiki.com/Maritime_Capital_Partners_LP</a><br clear=3D"=
+none">
+</div>
+<div style=3D"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:1=
+2pt;color:rgb(0, 0, 0);" class=3D"yiv6063948253elementToProof">
+<br clear=3D"none">
+</div>
+<div style=3D"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:1=
+2pt;color:rgb(0, 0, 0);" class=3D"yiv6063948253elementToProof">
+<span style=3D""><b style=3D"color:inherit;font-size:8pt;font-style:inherit=
+;"><i>*** WITHOUT HAVING TO DRAG YOUR COUNSELORS, BROKERS, AND ADVISORS INT=
+O A COURTROOM, CRIMINAL
+ OR CIVIL.</i></b></span><br clear=3D"none">
+</div>
+<div style=3D"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:1=
+2pt;color:rgb(0, 0, 0);" class=3D"yiv6063948253elementToProof">
+<br clear=3D"none">
+</div>
+<div style=3D"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:1=
+2pt;color:rgb(0, 0, 0);" class=3D"yiv6063948253elementToProof">
+<br clear=3D"none">
+</div>
+<div style=3D"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:1=
+2pt;color:rgb(0, 0, 0);" class=3D"yiv6063948253elementToProof">
+<br clear=3D"none">
+</div>
+<div style=3D"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:1=
+2pt;color:rgb(0, 0, 0);" class=3D"yiv6063948253elementToProof">
+<br clear=3D"none">
+</div>
+<div style=3D"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:1=
+2pt;color:rgb(0, 0, 0);" class=3D"yiv6063948253elementToProof">
+<br clear=3D"none">
+</div>
+<div style=3D"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:1=
+2pt;color:rgb(0, 0, 0);" class=3D"yiv6063948253elementToProof">
+<br clear=3D"none">
+</div>
+<div style=3D"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:1=
+2pt;color:rgb(0, 0, 0);" class=3D"yiv6063948253elementToProof">
+<br clear=3D"none">
+</div>
+<div style=3D"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:1=
+2pt;color:rgb(0, 0, 0);" class=3D"yiv6063948253elementToProof">
+<br clear=3D"none">
+</div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-size:8pt;">-=
+------------------------------------------------------------------</span><s=
+pan style=3D"font-family:Arial;font-size:8pt;"><span style=3D"background-co=
+lor:rgb(255, 255, 255);display:inline !important;">------------------------=
+--------------------------------------------------------------------------<=
+/span></span><br clear=3D"none">
+</div>
+<div style=3D"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:1=
+2pt;color:rgb(0, 0, 0);" class=3D"yiv6063948253elementToProof">
+<span style=3D""><b>HERE ARE YOUR ALTERNATIVE DISPUTES AND REGULATORY MATTE=
+RS THAT ARE KNOWN.</b></span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Arial=
+;font-size:8pt;"><a rel=3D"nofollow noopener noreferrer" shape=3D"rect" tar=
+get=3D"_blank" href=3D"https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DI=
+CKER/pull/5"><span style=3D"">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER=
+-AND-DICKER/pull/5</span></a></span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Arial=
+;font-size:8pt;"><a rel=3D"nofollow noopener noreferrer" shape=3D"rect" tar=
+get=3D"_blank" href=3D"https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DI=
+CKER/pull/7"><span style=3D"">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER=
+-AND-DICKER/pull/7</span></a></span><br clear=3D"none">
+</div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-size:8pt;">*=
+** THE INTEREST CARRIES OVER BTW, TRUST ME... &nbsp;I AM NOT A ZUCKER, AND =
+NEVER WILL BE...</span><span style=3D"font-family:Arial;font-size:8pt;"><br=
+ clear=3D"none">
+</span></div>
+<div style=3D"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:1=
+2pt;color:rgb(0, 0, 0);" class=3D"yiv6063948253elementToProof">
+<br clear=3D"none">
+</div>
+<div style=3D"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:1=
+2pt;color:rgb(0, 0, 0);" class=3D"yiv6063948253elementToProof">
+<span style=3D"font-size:8pt;">P.S.&nbsp; &nbsp;&nbsp;</span><br clear=3D"n=
+one">
+</div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Arial=
+;font-size:8pt;"><b><br clear=3D"none">
+</b></span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-size:8pt;"><=
+b>THERE IS NOT PRICE TAG THE ZUCKER'S CAN PAY TO HAVE ME REPAIR THEIR CORPO=
+RATIONS AND STATURE, AND TO THE BEST OF MY KNOWLEDGE AND BELIEF</b></span><=
+span style=3D"font-family:Arial;font-size:8pt;"><b><br clear=3D"none">
+</b></span><span style=3D"font-size:8pt;"><b>&nbsp;- THOSE LEASES AND RENTS=
+ WERE ASSIGNED TO YOU AND YOURS AT:&nbsp; &nbsp; &nbsp; STATE FARM LIFE INS=
+URANCE COMPANY, MANAGING MEMBER OF STATE FARM REALTY MORTGAGE LLC</b></span=
+></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Arial=
+;font-size:8pt;"><b><br clear=3D"none">
+</b></span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-family:Arial=
+;font-size:8pt;"><b><br clear=3D"none">
+</b></span></div>
+<div class=3D"yiv6063948253elementToProof"><span style=3D"font-size:8pt;"><=
+b><b style=3D"background-color:rgb(255, 255, 255);">#GOCARDS.</b></b></span=
+><span style=3D"font-family:Arial;font-size:8pt;"><b><br clear=3D"none">
+</b></span></div>
+<div style=3D"font-family:Calibri, Arial, Helvetica, sans-serif;font-size:1=
+2pt;color:rgb(0,0,0);" class=3D"yiv6063948253elementToProof">
+<br clear=3D"none">
+</div>
+<hr tabindex=3D"-1" style=3D"display:inline-block;width:98%;">
+<div dir=3D"ltr" id=3D"yiv6063948253divRplyFwdMsg" class=3D"yiv6063948253el=
+ementToProof"><font face=3D"Calibri, sans-serif" color=3D"#000000" style=3D=
+"font-size:11pt;"><b>
+</b></font><div style=3D"margin:0px;"><span style=3D"margin:0px;font-size:8=
+pt;font-family:Arial;"><b></b></span></div>
+<div style=3D"margin:0px;"></div>
+<span style=3D"margin:0px;font-size:12pt;font-family:Calibri, Arial, Helvet=
+ica, sans-serif;"></span><br clear=3D"none">
+</div>
+<div dir=3D"ltr" id=3D"yiv6063948253divRplyFwdMsg" class=3D"yiv6063948253el=
+ementToProof"><font face=3D"Calibri, sans-serif" color=3D"#000000" style=3D=
+"font-size:11pt;"><span style=3D""><b>From:</b></span><span style=3D""> B D=
+2022 &lt;ms60710444266@yahoo.com&gt;</span><br clear=3D"none">
+</font></div>
+<div dir=3D"ltr"><font face=3D"Calibri, sans-serif" color=3D"#000000" style=
+=3D"font-size:11pt;" class=3D"yiv6063948253elementToProof"><span style=3D""=
+><b>Sent:</b></span><span style=3D""> Monday, May 23, 2022 9:31 PM</span><b=
+r clear=3D"none">
+<span style=3D""><b>To:</b></span><span style=3D""> David Moore &lt;david.m=
+oore.ct95@statefarm.com&gt;; Janna.Underwood@STATEFARM.COM &lt;Janna.Underw=
+ood@STATEFARM.COM&gt;; Tina.Powers@STATEFARM.COM &lt;Tina.Powers@STATEFARM.=
+COM&gt;</span><br clear=3D"none">
+<span style=3D""><b>Cc:</b></span><span style=3D""> BLOCK803LOT11@outlook.c=
+om &lt;BLOCK803LOT11@outlook.com&gt;; bo.dincer@yahoo.com &lt;bo.dincer@yah=
+oo.com&gt;</span><br clear=3D"none">
+<span style=3D""><b>Subject:</b></span><span style=3D""> Re: THE LOAN 50074=
+ &amp; THESE LEGAL MATTERS -</span></font><span style=3D"">
+</span>
+<div><span style=3D"">&nbsp;</span></div>
+</div>
+<div>
+<p><font size=3D"2"><font face=3D"Helvetica, Arial, sans-serif"><span style=
+=3D"">DO YOU HAVE THEIR EMAIL / CONTACT INFORMATION BY ANY CHANCE.</span></=
+font></font></p>
+<p><font size=3D"2"><font face=3D"Helvetica, Arial, sans-serif"><span style=
+=3D"">- SORRY ABOUT ALL THE NONSENSE, HOPEFULLY YOU CAN GET A PROFESSIONAL =
+TO HANDLE YOUR BOOKS, RECORDS, AND HOLDINGS REPORTED - NEED TO BE CLEANED U=
+P, PROPERLY.</span><br clear=3D"none">
+<span style=3D"">_AND YES - I CAN FIX THAT TOO.</span></font></font></p>
+<p><font size=3D"2"><font face=3D"Helvetica, Arial, sans-serif"><span style=
+=3D""><b>/S/ BO DINCER.</b></span><br clear=3D"none">
+<br clear=3D"none">
+</font></font></p>
+<div class=3D"yiv6063948253x_moz-cite-prefix"><span style=3D"">David Moore =
+wrote:</span><br clear=3D"none">
+</div>
+<blockquote type=3D"cite">
+</blockquote></div></div><div><div class=3D"yiv6063948253x_WordSection1">
+<p style=3D"margin:0in;font-size:11pt;font-family:Calibri, sans-serif;" cla=
+ss=3D"yiv6063948253x_MsoNormal yiv6063948253elementToProof">
+<span style=3D"">Please contact&nbsp;Janna Underwood at 309-766-8116 or Tin=
+a Powers at 309-766-6661 if you need immediate assistance.</span><span styl=
+e=3D"">
+</span></p>
+</div>
+
+
+
+
+</div></div></div><div id=3D"yiv6063948253"><div id=3D"yiv6063948253yqt3827=
+8" class=3D"yiv6063948253yqt3285677336 yQTDBase"><div></div></div><div id=
+=3D"yiv6063948253yqt52421" class=3D"yiv6063948253yqt3285677336 yQTDBase"><d=
+iv><div><blockquote type=3D"cite"><div dir=3D"ltr"></div></blockquote></div=
+></div></div></div><div id=3D"yiv6063948253"><div id=3D"yiv6063948253yqt049=
+08" class=3D"yiv6063948253yqt3285677336 yQTDBase"><div></div></div><div id=
+=3D"yiv6063948253yqt58111" class=3D"yiv6063948253yqt3285677336 yQTDBase"><d=
+iv><div><blockquote type=3D"cite"><div dir=3D"ltr"></div></blockquote></div=
+></div></div></div><div id=3D"yiv6063948253"><div id=3D"yiv6063948253yqt351=
+48" class=3D"yiv6063948253yqt3285677336 yQTDBase"><div></div></div><div id=
+=3D"yiv6063948253yqt73612" class=3D"yiv6063948253yqt3285677336 yQTDBase"><d=
+iv><div><blockquote type=3D"cite"><div dir=3D"ltr"></div></blockquote></div=
+></div></div></div><div id=3D"yiv6063948253"><div id=3D"yiv6063948253yqt999=
+25" class=3D"yiv6063948253yqt3285677336 yQTDBase"><div></div></div><div id=
+=3D"yiv6063948253yqt85509" class=3D"yiv6063948253yqt3285677336 yQTDBase"><d=
+iv><div><blockquote type=3D"cite"><div dir=3D"ltr"></div></blockquote></div=
+></div></div></div><div id=3D"yiv6063948253"><div id=3D"yiv6063948253yqt590=
+48" class=3D"yiv6063948253yqt3285677336 yQTDBase"><div></div></div><div id=
+=3D"yiv6063948253yqt89276" class=3D"yiv6063948253yqt3285677336 yQTDBase"><d=
+iv><div><blockquote type=3D"cite"><div dir=3D"ltr"></div></blockquote></div=
+></div></div></div><div id=3D"yiv6063948253"><div id=3D"yiv6063948253yqt670=
+33" class=3D"yiv6063948253yqt3285677336 yQTDBase"><div></div></div><div id=
+=3D"yiv6063948253yqt15420" class=3D"yiv6063948253yqt3285677336 yQTDBase"><d=
+iv><div><blockquote type=3D"cite"><div dir=3D"ltr"></div></blockquote></div=
+></div></div></div><div id=3D"yiv6063948253"><div id=3D"yiv6063948253yqt494=
+85" class=3D"yiv6063948253yqt3285677336 yQTDBase"><div></div></div><div id=
+=3D"yiv6063948253yqt55123" class=3D"yiv6063948253yqt3285677336 yQTDBase"><d=
+iv><div><blockquote type=3D"cite"><div dir=3D"ltr"></div></blockquote></div=
+></div></div></div><div id=3D"yiv6063948253"><div id=3D"yiv6063948253yqt422=
+35" class=3D"yiv6063948253yqt3285677336 yQTDBase"><div></div></div><div id=
+=3D"yiv6063948253yqt02493" class=3D"yiv6063948253yqt3285677336 yQTDBase"><d=
+iv><div><blockquote type=3D"cite"><div dir=3D"ltr"></div></blockquote></div=
+></div></div></div><div id=3D"yiv6063948253"><div id=3D"yiv6063948253yqt569=
+61" class=3D"yiv6063948253yqt3285677336 yQTDBase"><div></div></div><div id=
+=3D"yiv6063948253yqt90014" class=3D"yiv6063948253yqt3285677336 yQTDBase"><d=
+iv><div><blockquote type=3D"cite"><div dir=3D"ltr"></div></blockquote></div=
+></div></div></div><div id=3D"yiv6063948253"><div id=3D"yiv6063948253yqt584=
+98" class=3D"yiv6063948253yqt3285677336 yQTDBase"><div></div></div><div id=
+=3D"yiv6063948253yqt33722" class=3D"yiv6063948253yqt3285677336 yQTDBase"><d=
+iv><div><blockquote type=3D"cite"><div dir=3D"ltr"></div></blockquote></div=
+></div></div></div><div id=3D"yiv6063948253"><div id=3D"yiv6063948253yqt335=
+54" class=3D"yiv6063948253yqt3285677336 yQTDBase"><div><div><blockquote typ=
+e=3D"cite"><div dir=3D"ltr"></div></blockquote></div></div></div></div> </d=
+iv> </blockquote>
+------=_Part_1661955_1885483605.1653380758564--

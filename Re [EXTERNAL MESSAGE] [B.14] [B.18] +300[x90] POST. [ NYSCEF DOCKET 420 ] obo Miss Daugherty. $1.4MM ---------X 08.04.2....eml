@@ -1,0 +1,925 @@
+From - Sun Apr 17 12:12:35 2022
+X-Account-Key: account1
+X-UIDL: AGgG1CQA4bpHYlq41AoOOHunFOQ
+X-Mozilla-Status: 0011
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.151.75
+ by atlas316.free.mail.ne1.yahoo.com with HTTPS; Sat, 16 Apr 2022 12:38:43 +0000
+Return-Path: <prvs=0981aa47b=publicinfo@fdic.gov>
+X-Originating-Ip: [167.176.6.41]
+Received-SPF: pass (domain of fdic.gov designates 167.176.6.41 as permitted sender)
+Authentication-Results: atlas316.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@fdic.gov header.s=ZIXVPM_13c2a3898e7;
+ spf=pass smtp.mailfrom=fdic.gov;
+ dmarc=pass(p=REJECT,sp=REJECT) header.from=fdic.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 16 Apr 2022 12:38:44 +0000
+X-YMailISG: kyJ9fnwWLDs5s9fw1glwbQReguobe5pgf6TRcZ4w6nfXZlcY
+ dIyzQjFpNeqMGwcSv6ef9M8M31gQN5hYXaQjixugRzAwPEJW65paAr_9mxEk
+ ZTevsrSJCwjcn57OKmXoN_MekXzTPeY5ksBtbR8S65B7RJCYtF_f6fqNq1c.
+ b6TokL9t2x86iTpTAGzmZdQI2orsgyOZN0BdsIiafvyO2LakfNZTJMDStPdp
+ VVSZMwcYkKAezVf3MdmU.ngq.9gRKaACHDJJ4eQ_0N43EtoT3u8EKA5_4NOK
+ qG9sdPfY4GCXWyG4S_n7_DWG0inCV61Aa8LFmIaoYoyrftb3rBDUXDYXBDQd
+ QFKpCkzXDB.OnVm3bo9CG2oHv8CZHYLRlQFlK3LQ9FKuews.Tr2C1m8bLwHe
+ yjxMVLBqZZDIr3Mj4_KEpylfVf0eMoIQOg4wKHp0pZOKIi3uzOn8sGqEXDCu
+ x948LjwZHPv9stJ7AssGpeGildKW8cOfDIcWpF1G7zxrn7gptNT4Uh.2x4Bg
+ HD_qRauFUtt56iBLvb_qPAxDROt_8uFZerdGdrIGSRtfRERnc52PyA7HROba
+ EOL6mu.w1DcMW6TfO06aZzXt9f70A6yvK6M8tEWNcjD7_1Gq5pw0UarSPRNk
+ sf3BTjwKcBoEoUo913MO1YbPwh6b_Bql6CgCGfm8p5kiCSEi0_9IWrbDX92x
+ _hbDjnAg295hUbRjgrw5Q0QoXmCdnMszf7fYgR5SX56wX7way3VMZjzvL49T
+ rE6sDBNUPlBCGsiO0kbNgg_vRgnG7Qn9vC9ft9JqraObUPqcbcpIelz7XCgJ
+ fO.5c174pzaD._NJG0HkMFLmx9y9qGt6.d05UIdKmqFyDyUbDnLouf1GlXid
+ e_3aLWgnShUjlj64s18RX5pmKk5VJ8eANF0ItjSxTffj_5txLPZj7d9YvZ01
+ nWaeuha0Cu5l9RdyhHTIqYZbdfr0ljn20JZ0NCzFU2uUas9hSE5IFDv1zmuY
+ Z11SESX3nv35BgqZp1CaNZ6qhc1qT._FIV8.ZuNG.XX7yeFfhazVehpca1je
+ aldr9zif7Qay8X6LhdvDmqdIj4qxqe0lNGHZyiXjVc7JWhJgyeG9stQS7nSi
+ u3cdM82hPkc6D38MmzLFl8q_GFZ5JszcmTHdh5FPOKLVvLa0nbEKuCzbkaKU
+ BqLqRaGsTUsoZ.IoTwAcgqbx_osIMUeJe1L7cSArmZ_mBEdu1A--
+Received: from 167.176.6.41 (EHLO zixvpm1.fdic.gov)
+ by 10.217.151.75 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sat, 16 Apr 2022 12:38:43 +0000
+Received: from 127.0.0.1 (ZixVPM [127.0.0.1])
+	by Outbound.fdic.gov (Proprietary) with SMTP id B39EC20601DC
+	for <ms60710444266@yahoo.com>; Sat, 16 Apr 2022 08:38:12 -0400 (EDT)
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+	s=ZIXVPM_13c2a3898e7; d=fdic.gov;
+	h=Date:From:To:Subject;
+	b=WY96PbKBuKyz2aIAAkoqe/rc01lYse0dgQ4l3Zz89x4AiEeWwU6O5+TYKlVzUjch
+	x/o2r/kUkXx9MuLt5DyAUQhybH3yLy7k9Ai8mzvh6eAd0Tp6zu8mwXqDq+VuBg
+	ZQGBsgTdxkCstQXdMSIHumfZBC8RC0aruGzzJJYNYTGTo=;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=fdic.gov;
+	s=ZIXVPM_13c2a3898e7; t=1650112692;
+	bh=4aARx8wFbczaP1OXDHiCZ7/T5mwEd145MhsvbMAIp7E=;
+	h=Date:From:To:Subject;
+	b=m9TrvVoujegZ2mXJnbkhu+b+r+ab3StB7X6P+rj/vK+XoFgmAep/x5B9i3XncBEpN
+	 BCDed8wQqxDxXWlbgU251/G2Wur0Qug32NCT0vOlwGIFZC0aTNO2qwKAoMXxr1aETN
+	 EqLA4dOYwekTny3SN4QG/2kPiGqGPA/JJ+Pn+i78=
+Received: from VASMXEXT01A-EXT.FDIC.GOV (vasmxext01a-ext.fdic.gov [10.30.1.142])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by zixvpm1.fdic.gov (Proprietary) with ESMTPS id 921F720601A3
+	for <ms60710444266@yahoo.com>; Sat, 16 Apr 2022 08:38:12 -0400 (EDT)
+Received: from vasdlp20-dmz.fdic.gov (HELO VASMXEXT01C-EXT.FDIC.GOV) ([10.30.1.110])
+  by VASMXEXT01A-DLP.FDIC.GOV with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 16 Apr 2022 12:38:43 +0000
+X-Ironport-Dmarc-Check-Result: validskip
+X-Outbound: true
+X-IronPort-AV: E=Sophos;i="5.90,264,1643673600"; 
+   d="scan'208,217";a="345611"
+Received: from smtp02-wax.mta.salesforce.com (HELO smtp02-wax-spx.mta.salesforce.com) ([96.43.153.65])
+  by VASMXEXT01C-EXT.FDIC.GOV with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 16 Apr 2022 12:38:43 +0000
+Received: from [10.250.32.238] ([10.250.32.238:36508] helo=na21-app2-33-wax.ops.sfdc.net)
+	by mx2-wax.mta.salesforce.com (envelope-from <publicinfo@fdic.gov>)
+	(ecelerity 4.2.38.62368 r(Core:release/4.2.38.0)) with ESMTPS (cipher=ECDHE-RSA-AES256-GCM-SHA384
+	subject="/C=US/ST=California/L=San Francisco/O=salesforce.com, inc./OU=0:app;1:wax;4:gia/CN=na21-app2-33-wax.ops.sfdc.net") 
+	id 2A/CC-12911-2D8BA526; Sat, 16 Apr 2022 12:38:42 +0000
+Date: Sat, 16 Apr 2022 12:38:42 +0000 (GMT)
+From: FDIC Public Information <publicinfo@fdic.gov>
+To: "ms60710444266@yahoo.com" <ms60710444266@yahoo.com>
+Message-ID: <WrNEt000000000000000000000000000000000000000000000RAFN4H00GdH01jrQQWqv-qfUwW1YjA@sfdc.net>
+In-Reply-To: <414cb25f-aa8b-8cc9-3d23-27cf7544d80f@yahoo.com>
+References: <aeee8155-9106-bfab-97d9-deface947933@yahoo.com>
+ <414cb25f-aa8b-8cc9-3d23-27cf7544d80f@yahoo.com>
+Subject: RE: [EXTERNAL MESSAGE] [B.14] [B.18] +300[x90] POST.: [ NYSCEF
+ DOCKET 420 ] obo Miss Daugherty. $1.4MM ---------X 08.04.2020    [
+ ref:_00Dt0GzPp._500t0yiPbC:ref ]
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_6744_1628248768.1650112722635"
+X-SFDC-LK: 00Dt0000000GzPp
+X-SFDC-User: 005t00000028YJI
+X-Sender: postmaster@salesforce.com
+X-mail_abuse_inquiries: http://www.salesforce.com/company/abuse.jsp
+X-SFDCOrgRelay: 00Dt0000000GzPp
+X-SFDC-Binding: 1WrIRBV94myi25uB
+X-SFDC-EmailCategory: quickActionEmail
+X-SFDC-EntityId: 500t000000yiPbC
+X-SFDC-Interface: internal
+X-SFDC-Restrict: ^(.*)
+X-SFDCRelayAddr: fdic.gov
+X-SFDCRelayPort: 25
+X-SFDCTLS: 2
+X-CFilter-Loop: Reflected
+X-VPM-MSG-ID: 8a8ff529-a4b8-4c04-97a4-cb8353701727
+X-VPM-HOST: zixvpm1.fdic.gov
+Cc: 
+X-VPM-GROUP-ID: 6d30e177-752a-484e-88d7-e4de25c56be4
+X-VPM-ENC-REGIME: Plaintext
+X-VPM-IS-HYBRID: 0
+Content-Length: 45652
+
+------=_Part_6744_1628248768.1650112722635
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+Good afternoon,
+
+Thank you for contacting the FDIC regarding your recent inquiry on=A0 4/15/=
+2022.
+
+Do you have an existing case established with a specific Division Office of=
+ the FDIC? =A0If so, please provide the case number so that we can better d=
+irect and address your inquiry.=A0
+
+Please be advised the Federal Deposit Insurance Corporation (FDIC) is an in=
+dependent government agency created by Congress to maintain stability and p=
+ublic confidence in the United States financial system. The FDIC insures de=
+posits; examines and supervises financial institutions for safety, soundnes=
+s, and consumer protection; makes large and complex financial institutions =
+resolvable; and manages receiverships.
+
+Please contact your financial institution as they may be able to better ass=
+ist=A0you.=A0
+=A0
+If you have any questions or concerns, please contact our toll-free 1-877-A=
+SK-FDIC (1-877-275-3342).
+
+Should you need to contact us again regarding this matter, your reference n=
+umber 01391297 will expedite our response.
+
+Sincerely,
+
+Public Information Center
+Division of Administration
+Federal Deposit Insurance Corporation
+
+--------------- Original Message ---------------
+From: B D2022 [ms60710444266@yahoo.com]
+Sent: 4/15/2022 6:39 PM
+To: boston@sec.gov; treasury.operations@cpa.texas.gov; mlowe@fdic.gov; ldob=
+bs@isda.org; alisa.maksimova@ny.frb.org; ocmgmtgrp@fdic.gov; cshugg@usinfos=
+ec.com; oig.openrecords@tdcj.texas.gov; assetmarketing@fdic.gov; news@sec.g=
+ov; commissionerpeirce@sec.gov; nlu@isda.org; imshareholderproposals@sec.go=
+v; bdincer66@icloud.com; supervision@fdic.gov; newyork@sec.gov; keymaster@t=
+own.hall.org; texas@sec.gov; ny.public.information@ny.frb.org; isdaeurope@i=
+sda.org; jclark@isda.org; oigspecialops@tdcj.texas.gov; oca@sec.gov; oc@ema=
+il.latimes.com; ny.reserves@ny.frb.org; webfilehelp@cpa.texas.gov; mediareq=
+uests@fdic.gov; isda@isda.org; chicago@sec.gov; chair@sec.gov; careers@fdic=
+.gov; oighotline@fdicoig.gov; captionhelp@myabc7.com; texasable@cpa.texas.g=
+ov; media@chi.frb.org; general.info@ny.frb.com; regs@fdic.gov; jordana.stro=
+sberg@pwc.com; ny.reserves@ny.frb.com; omwi@sec.gov; nyrobankruptcy@sec.gov=
+; commissionerroisman@sec.gov; dallas-reserve-mgmt@dal.frb.org; evan.p.miel=
+ke@chi.frb.org; kivalena.starr@pwc.com; dfw@sec.gov; citysecretary@mundayte=
+xas.com; commissionerlee@sec.gov; oighotline@frb.gov; assessments@fdic.gov;=
+ investorrelations@umusic.com; exempt.orgs@cpa.texas.gov; larissa.vonlockne=
+r@pwc.com; shareholderproposals@sec.gov; bo.dincer@yahoo.com; megan.disciul=
+lo@pwc.com; will.b.hodges@pwc.com; dcaoletters@sec.gov; reserves@chi.frb.or=
+g; denver@sec.gov; asbpolicy@fdic.gov; publicinfo@fdic.gov; oig@sec.gov; lo=
+sangeles@sec.gov; cfaimali@isda.org; general.info@ny.frb.org; lyle.adriano@=
+keymedia.com; cynthia.h.francis@frb.gov; efoia@fdic.gov; kenneth.j.fraser@f=
+rb.gov; secretarys-office@sec.gov; ombudsman@tdcj.texas.gov; econ.dev@cpa.t=
+exas.gov; ryan.a.cangialosi@pwc.com; depositorservices@fdic.gov; texas.tomo=
+rrow@cpa.texas.gov; open.records@cpa.texas.gov; judiciary@cpa.texas.gov; st=
+atewide.accounting@cpa.texas.gov; rule-comments@sec.gov; anita.solis@chi.fr=
+b.org; spd.outreach@cpa.texas.gov; jennifer.vanoss@pwc.com; unclaimed.prope=
+rty@cpa.texas.gov; ombudsman@sec.gov; nyreporting.forms@ny.frb.org; foiapa@=
+sec.gov; ptad.cpa@cpa.texas.gov; publicinfo@sec.gov; realestateforsale@fdic=
+.gov; commissionercrenshaw@sec.gov; atlanta@sec.gov; bondstrt@protonmail.co=
+m; webmaster@sec.gov; philadelphia@sec.gov; hillary.davis@latimes.com; nsaw=
+yer@isda.org; court.costs@cpa.texas.gov
+Cc: cbrooks7@bloomberg.net; iceimsupport@theice.com; tmc-corps@bloomberg.ne=
+t; investmentnews@editorial.investmentnews.com; r.fairbrother@ice.com; kerr=
+i.saperstein@morganstanley.com; iphonehelp@nypost.com; lzucker@mskyline.com=
+; retranselectionkabc@abc.com; info@ap.org; krock5@bloomberg.net; mediarela=
+tions@ap.org; mscampusrecruiting@morganstanley.com; mharvey13@bloomberg.net=
+; colin.brooks@morganstanley.com; syndicate.advisory@koyotecapital.com; inf=
+o@wilsonelser.com; iceglobalnetwork-info@ice.com
+Subject: [EXTERNAL MESSAGE] [B.14] [B.18] +300[x90] POST.: [ NYSCEF DOCKET =
+420 ] obo Miss Daugherty. $1.4MM ---------X 08.04.2020
+
+ TY for your review and CONFIRMATIONS, where applicable
+=A0 -- in the matter of 153974, Loan 50074.
+=A0=A0=A0 40-OX-19.'95-10.'''
+
+=A0 "enjoy the good weekend."
+=A0=A0=20
+=A0 Most sincerely,
+-BO DINCER.
+
+=A0=A0=A0 LET IT BE REMEMBERED.:=A0=A0=A0 keymaster@town.hall.org'''
+-------- Forwarded Message --------
+
+=09
+=09
+=09Subject:
+=09[B.14] [B.18] +300[x90] POST.: [ NYSCEF DOCKET 420 ] obo Miss Daugherty.=
+ $1.4MM ---------X 08.04.2020
+=09
+=09
+=09Date:
+=09Fri, 15 Apr 2022 17:17:24 -0500
+=09
+=09
+=09From:
+=09B D2022 <ms60710444266@yahoo.com>
+=09
+=09
+=09To:
+=09praghuram2@bloomberg.net, mshyld@bloomberg.net <mshyld@bloomberg.net>, D=
+EEO@ogs.ny.gov, Comments@dfs.ny.gov <Comments@dfs.ny.gov>, CRA@dfs.ny.gov <=
+CRA@dfs.ny.gov>, foiapa@sec.gov, Secretarys-Office@sec.gov, David Moore <da=
+vid.moore.ct95@statefarm.com>, mutualfunds@statefarm.com, megan.disciullo@p=
+wc.com <megan.disciullo@pwc.com>, larissa.vonlockner@pwc.com <larissa.vonlo=
+ckner@pwc.com>, ryan.a.cangialosi@pwc.com <ryan.a.cangialosi@pwc.com>, kiva=
+lena.starr@pwc.com <kivalena.starr@pwc.com>, jordana.strosberg@pwc.com <jor=
+dana.strosberg@pwc.com>, will.b.hodges@pwc.com <will.b.hodges@pwc.com>, jen=
+nifer.vanoss@pwc.com <jennifer.vanoss@pwc.com>, cfaimali@isda.org, isda@isd=
+a.org, isdaeurope@isda.org, jclark@isda.org, ldobbs@isda.org, nlu@isda.org,=
+ nsawyer@isda.org, alex.zuluaga@ey.com <alex.zuluaga@ey.com>, david.brown1@=
+ey.com <david.brown1@ey.com>, Deborah M Jones <Deborah.Jones@ey.com>, info@=
+ey.com <info@ey.com>, jacqueline.kelley@ey.com <jacqueline.kelley@ey.com>, =
+karim.anani@ey.com <karim.anani@ey.com>, kevin.klimara@ey.com <kevin.klimar=
+a@ey.com>, lee.henderson@ey.com <lee.henderson@ey.com>, mark.schwartz1@ey.c=
+om <mark.schwartz1@ey.com>, rachel.gerring@ey.com <rachel.gerring@ey.com>, =
+colin.brooks@morganstanley.com <colin.brooks@morganstanley.com>, cbrooks7@b=
+loomberg.net <cbrooks7@bloomberg.net>, JPMCinvestorrelations@jpmchase.com <=
+JPMCinvestorrelations@jpmchase.com>, bofamarkets@bofa.com <bofamarkets@bofa=
+.com>, bofamarkets@baml.com, hsrhelp@ftc.gov <hsrhelp@ftc.gov>, foiaconsult=
+sandref@atf.gov <foiaconsultsandref@atf.gov>, CongressionalLiaison@occ.trea=
+s.gov, liaison2@atf.gov, tim.knight@kpmg.co.uk, Chris Gursky [FINRA] <csgur=
+sky@bloomberg.net>, cshugg@usinfosec.com, LYLE.ADRIANO@KEYMEDIA.COM, CORREC=
+TIONS@YAHOONEWS.COM, CAPTIONHELP@MYABC7.COM, Alisa Maksimova [FRB-NY] <Alis=
+a.Maksimova@ny.frb.org>, Solis, Anita <anita.solis@chi.frb.org>, Cynthia.H.=
+Francis@frb.gov, dallas-reserve-mgmt@dal.frb.org <dallas-reserve-mgmt@dal.f=
+rb.org>, Mielke, Evan P <evan.p.mielke@chi.frb.org>, general.info@ny.frb.co=
+m <general.info@ny.frb.com>, general.info@ny.frb.org <general.info@ny.frb.o=
+rg>, kenneth.j.fraser@frb.gov, media@chi.frb.org <media@chi.frb.org>, ny.pu=
+blic.information@ny.frb.org, ny.reserves@ny.frb.org <ny.reserves@ny.frb.com=
+>, ny.reserves@ny.frb.org <ny.reserves@ny.frb.org>, nyreporting.forms@ny.fr=
+b.org <nyreporting.forms@ny.frb.org>, oighotline@frb.gov <oighotline@frb.go=
+v>, reserves@chi.frb.org <reserves@chi.frb.org>
+=09
+=09
+=09CC:
+=09IMOCA@sec.gov, dcaoletters@sec.gov <dcaoletters@sec.gov>, OCARequest@sec=
+.gov, mstanley321@bloomberg.net, mstanley1541@bloomberg.net, mshy1@blooombe=
+rg.net <mshy1@blooomberg.net>, mshy2@bloomberg.net <mshy2@bloomberg.net>, I=
+NFO@physiciansmutual.com, bk01@cb.nyc.gov, iphonehelp@nypost.com, lzucker@m=
+skyline.com <lzucker@mskyline.com>, Victimassistance.fraud@usdoj.gov <Victi=
+massistance.fraud@usdoj.gov>
+=09
+=09
+
+=A0
+
+[Codified to 12 U.S.C. 1461][Codified to 12 U.S.C. 1462][Codified to 12 U.S=
+.C. 1462a][Codified to 12 U.S.C. 1463]
+
+NOW ABOUT THAT "UNREGISTERED SECURITY...
+
+HELPED IN THE FIDUCIARY OF THE PRIOR
+November 24,2021. State Farm Associates' Funds Trust. [KO]
+=A0=A0=A0 =A0=A0=A0 https://www.sec.gov/Archives/edgar/data/0000093715/9999=
+99999721005790/filename1.pdf
+
+=A0=A0=A0 NOT THAT IT'S UNDERSTOOD
+=A0=A0=A0 - HAVING REVIEWED THEIR METHODS OF ELECTRONIC PROXY IN EDGAR [ON =
+SEVERAL OCCASIONS]
+
+**** are reported and under the AUSPICE of the SECURITIES & EXCHANGE COMMIS=
+SION, FINRA & ITS AFFILIATED ENTITIES.
+=A0=A0=A0 =A0=A0=A0 **** WITHOUT DISCLOSURE, SUBSCRIPTIONS ADDED WHILE VOTE=
+RS **** INFORMED ****
+=A0=A0=A0 =A0=A0=A0 **** DISCLOSURE OF $170,000.00 IN POSTAGE, DIRECTORS FE=
+ES ET. AL. TOTAL $912,500
+
+=A0=A0=A0 =A0=A0=A0 =A0=A0=A0=A0 =A0=A0=A0 =A0=A0=A0 =A0=A0=A0 THE ELECTRON=
+IC PROXIES AND ALSO THE POSTAGE FEES ARE DETAILED HERE AS WELL ---
+=A0=A0=A0 =A0=A0=A0 **** https://fintel.io/doc/sec-stfgx-state-farm-growth-=
+fund-ex99p-2020-march-27-18441-449
+
+NOT COVERED FOR OMISSIONS BY ITS DIRECT REPRESENTATIVES / PROMOTERS DURING =
+THE PERIOD OF JANUARY 1, 2020 AND JANUARY 1, 2022.
+=A0=A0=A0 =A0=A0=A0 =A0=A0=A0 - NOTWITHSTANDING ITS COUNSELORS, AUDITORS, C=
+USTODIANS, ADVISERS, AND BROKER DEALERS.
+=A0=A0 =A0=A0=A0=A0 Fund Surviving the Merger - Advisers Investment Trust
+=A0=A0 =A0"Investment Company Act File Number=A0 "811-22538"
+"State Farm VP Management Corp. "000043036"
+=A0=A0=A0 2021-11-30 - 2021-03-31 =A0=A0=A0 =A0=A0=20
+=A0=A0=A0 ASSETS:=A0=A0=A0 =A0=A0=A0 =A0=A0=A0 $10,164,850,238
+=A0=A0=A0 PERFORMANCE:=A0=A0=A0 =A0=A0 (-852,029,489.38)
+
+##TICKER: BRK-B##
+
+=A0=A0=A0 =A0=A0=A0 =A0=A0=20
+
+=09
+=09
+=09
+=09
+=09
+=09
+=09
+=09STATE FARM ASSOCIATES FUNDS TRUST 93715
+=09=A0
+=09=A0
+=09=A0
+=092022-03-31: MS 14.5-BLN=20
+=09
+=09
+=09MS: 14.5MMM, COVERED FOR NET INCOME
+=09? PRICE=A0 [$]
+=09? PRICE=A0 [%]
+=09=A0=A0 2021-11-30 SEC
+=09?=A0 ASSET=A0 VALUE
+=09
+=09
+=09TICKERS
+=092021-11-30
+=092022-03-31
+=09*** AUM
+=09
+=09
+=09STFGX
+=09=A0 118.50
+=09=A0 106.88
+=09=A0(11.62)
+=09-9.8059%
+=09=A06,547,492,154
+=09=A0 (642,041,003)
+=09
+=09
+=09STFBX
+=09=A0 92.93
+=09=A0 87.17
+=09=A0(5.76)
+=09-6.1982%
+=09=A02,410,114,218
+=09(149,384,030)
+=09
+=09
+=09SFITX
+=09=A0 10.13
+=09=A0 9.73
+=09=A0(0.40)
+=09-3.9487%
+=09=A0</
+=09
+=09
+
+ref:_00Dt0GzPp._500t0yiPbC:ref
+------=_Part_6744_1628248768.1650112722635
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+=09<title></title>
+</head>
+<body style=3D"height: auto; min-height: auto;"><span style=3D"font-size:12=
+.0pt"><span style=3D"font-family:&quot;Times New Roman&quot;,serif">Good af=
+ternoon,<br />
+<br />
+Thank you for contacting the FDIC regarding your recent inquiry on&nbsp; 4/=
+15/2022.<br />
+<br />
+Do you have an existing case established with a specific Division Office of=
+ the FDIC? &nbsp;If so, please provide the case number so that we can bette=
+r direct and address your inquiry.&nbsp;<br />
+<br />
+Please be advised the Federal Deposit Insurance Corporation (FDIC) is an in=
+dependent government agency created by Congress to maintain stability and p=
+ublic confidence in the United States financial system. The FDIC insures de=
+posits; examines and supervises financial institutions for safety, soundnes=
+s, and consumer protection; makes large and complex financial institutions =
+resolvable; and manages receiverships.<br />
+<br />
+Please contact your financial institution as they may be able to better ass=
+ist&nbsp;you.&nbsp;<br />
+&nbsp;<br />
+If you have any questions or concerns, please contact our toll-free 1-877-A=
+SK-FDIC (1-877-275-3342).<br />
+<br />
+Should you need to contact us again regarding this matter, your reference n=
+umber 01391297 will expedite our response.<br />
+<br />
+Sincerely,<br />
+<br />
+Public Information Center<br />
+Division of Administration<br />
+Federal Deposit Insurance Corporation</span></span><br />
+<br />
+<br />
+<br clear=3D"none" />
+<br clear=3D"none" />
+<br clear=3D"none" />
+--------------- Original Message ---------------<br clear=3D"none" />
+<b>From:</b> B D2022 [ms60710444266@yahoo.com]<br clear=3D"none" />
+<b>Sent:</b> 4/15/2022 6:39 PM<br clear=3D"none" />
+<b>To:</b> boston@sec.gov; treasury.operations@cpa.texas.gov; mlowe@fdic.go=
+v; ldobbs@isda.org; alisa.maksimova@ny.frb.org; ocmgmtgrp@fdic.gov; cshugg@=
+usinfosec.com; oig.openrecords@tdcj.texas.gov; assetmarketing@fdic.gov; new=
+s@sec.gov; commissionerpeirce@sec.gov; nlu@isda.org; imshareholderproposals=
+@sec.gov; bdincer66@icloud.com; supervision@fdic.gov; newyork@sec.gov; keym=
+aster@town.hall.org; texas@sec.gov; ny.public.information@ny.frb.org; isdae=
+urope@isda.org; jclark@isda.org; oigspecialops@tdcj.texas.gov; oca@sec.gov;=
+ oc@email.latimes.com; ny.reserves@ny.frb.org; webfilehelp@cpa.texas.gov; m=
+ediarequests@fdic.gov; isda@isda.org; chicago@sec.gov; chair@sec.gov; caree=
+rs@fdic.gov; oighotline@fdicoig.gov; captionhelp@myabc7.com; texasable@cpa.=
+texas.gov; media@chi.frb.org; general.info@ny.frb.com; regs@fdic.gov; jorda=
+na.strosberg@pwc.com; ny.reserves@ny.frb.com; omwi@sec.gov; nyrobankruptcy@=
+sec.gov; commissionerroisman@sec.gov; dallas-reserve-mgmt@dal.frb.org; evan=
+.p.mielke@chi.frb.org; kivalena.starr@pwc.com; dfw@sec.gov; citysecretary@m=
+undaytexas.com; commissionerlee@sec.gov; oighotline@frb.gov; assessments@fd=
+ic.gov; investorrelations@umusic.com; exempt.orgs@cpa.texas.gov; larissa.vo=
+nlockner@pwc.com; shareholderproposals@sec.gov; bo.dincer@yahoo.com; megan.=
+disciullo@pwc.com; will.b.hodges@pwc.com; dcaoletters@sec.gov; reserves@chi=
+.frb.org; denver@sec.gov; asbpolicy@fdic.gov; publicinfo@fdic.gov; oig@sec.=
+gov; losangeles@sec.gov; cfaimali@isda.org; general.info@ny.frb.org; lyle.a=
+driano@keymedia.com; cynthia.h.francis@frb.gov; efoia@fdic.gov; kenneth.j.f=
+raser@frb.gov; secretarys-office@sec.gov; ombudsman@tdcj.texas.gov; econ.de=
+v@cpa.texas.gov; ryan.a.cangialosi@pwc.com; depositorservices@fdic.gov; tex=
+as.tomorrow@cpa.texas.gov; open.records@cpa.texas.gov; judiciary@cpa.texas.=
+gov; statewide.accounting@cpa.texas.gov; rule-comments@sec.gov; anita.solis=
+@chi.frb.org; spd.outreach@cpa.texas.gov; jennifer.vanoss@pwc.com; unclaime=
+d.property@cpa.texas.gov; ombudsman@sec.gov; nyreporting.forms@ny.frb.org; =
+foiapa@sec.gov; ptad.cpa@cpa.texas.gov; publicinfo@sec.gov; realestateforsa=
+le@fdic.gov; commissionercrenshaw@sec.gov; atlanta@sec.gov; bondstrt@proton=
+mail.com; webmaster@sec.gov; philadelphia@sec.gov; hillary.davis@latimes.co=
+m; nsawyer@isda.org; court.costs@cpa.texas.gov<br clear=3D"none" />
+<b>Cc:</b> cbrooks7@bloomberg.net; iceimsupport@theice.com; tmc-corps@bloom=
+berg.net; investmentnews@editorial.investmentnews.com; r.fairbrother@ice.co=
+m; kerri.saperstein@morganstanley.com; iphonehelp@nypost.com; lzucker@mskyl=
+ine.com; retranselectionkabc@abc.com; info@ap.org; krock5@bloomberg.net; me=
+diarelations@ap.org; mscampusrecruiting@morganstanley.com; mharvey13@bloomb=
+erg.net; colin.brooks@morganstanley.com; syndicate.advisory@koyotecapital.c=
+om; info@wilsonelser.com; iceglobalnetwork-info@ice.com<br clear=3D"none" /=
+>
+<b>Subject:</b> [EXTERNAL MESSAGE] [B.14] [B.18] +300[x90] POST.: [ NYSCEF =
+DOCKET 420 ] obo Miss Daugherty. $1.4MM ---------X 08.04.2020<br clear=3D"n=
+one" />
+<br clear=3D"none" />
+<meta content=3D"text/html; charset=3DUTF-8"> <font size=3D"1">TY for your =
+review and CONFIRMATIONS, where applicable<br clear=3D"none" />
+&nbsp; -- in the<i> </i>matter of 153974, Loan 50074.</font>
+<div class=3D"moz-forward-container"><font size=3D"1">&nbsp;&nbsp;&nbsp; 40=
+-OX-19.&#39;95-10.&#39;&#39;&#39;</font></div>
+
+<div class=3D"moz-forward-container"><font size=3D"1"><i>&nbsp; &quot;enjoy=
+ the good weekend.&quot;<br clear=3D"none" />
+&nbsp;&nbsp; </i><br clear=3D"none" />
+&nbsp; Most sincerely,<br clear=3D"none" />
+-BO DINCER.<br clear=3D"none" />
+<br clear=3D"none" />
+<b>&nbsp;&nbsp;&nbsp; LET IT BE REMEMBERED.:</b><b>&nbsp;&nbsp;</b>&nbsp; <=
+a class=3D"moz-txt-link-abbreviated" href=3D"mailto:keymaster@town.hall.org=
+" shape=3D"rect" target=3D"_blank">keymaster@town.hall.org</a><i>&#39;&#39;=
+&#39;</i></font><br clear=3D"none" />
+-------- Forwarded Message --------
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"moz-email-=
+headers-table">
+=09<tbody>
+=09=09<tr>
+=09=09=09<th align=3D"RIGHT" colspan=3D"1" nowrap=3D"nowrap" rowspan=3D"1" =
+valign=3D"BASELINE">Subject:</th>
+=09=09=09<td colspan=3D"1" rowspan=3D"1">[B.14] [B.18] +300[x90] POST.: [ N=
+YSCEF DOCKET 420 ] obo Miss Daugherty. $1.4MM ---------X 08.04.2020</td>
+=09=09</tr>
+=09=09<tr>
+=09=09=09<th align=3D"RIGHT" colspan=3D"1" nowrap=3D"nowrap" rowspan=3D"1" =
+valign=3D"BASELINE">Date:</th>
+=09=09=09<td colspan=3D"1" rowspan=3D"1">Fri, 15 Apr 2022 17:17:24 -0500</t=
+d>
+=09=09</tr>
+=09=09<tr>
+=09=09=09<th align=3D"RIGHT" colspan=3D"1" nowrap=3D"nowrap" rowspan=3D"1" =
+valign=3D"BASELINE">From:</th>
+=09=09=09<td colspan=3D"1" rowspan=3D"1">B D2022 <a class=3D"moz-txt-link-r=
+fc2396E" href=3D"mailto:ms60710444266@yahoo.com" shape=3D"rect" target=3D"_=
+blank">&lt;ms60710444266@yahoo.com&gt;</a></td>
+=09=09</tr>
+=09=09<tr>
+=09=09=09<th align=3D"RIGHT" colspan=3D"1" nowrap=3D"nowrap" rowspan=3D"1" =
+valign=3D"BASELINE">To:</th>
+=09=09=09<td colspan=3D"1" rowspan=3D"1"><a class=3D"moz-txt-link-abbreviat=
+ed" href=3D"mailto:praghuram2@bloomberg.net" shape=3D"rect" target=3D"_blan=
+k">praghuram2@bloomberg.net</a>, <a class=3D"moz-txt-link-abbreviated" href=
+=3D"mailto:mshyld@bloomberg.net" shape=3D"rect" target=3D"_blank">mshyld@bl=
+oomberg.net</a> <a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:mshyld@bl=
+oomberg.net" shape=3D"rect" target=3D"_blank">&lt;mshyld@bloomberg.net&gt;<=
+/a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:DEEO@ogs.ny.gov" =
+shape=3D"rect" target=3D"_blank">DEEO@ogs.ny.gov</a>, <a class=3D"moz-txt-l=
+ink-abbreviated" href=3D"mailto:Comments@dfs.ny.gov" shape=3D"rect" target=
+=3D"_blank">Comments@dfs.ny.gov</a> <a class=3D"moz-txt-link-rfc2396E" href=
+=3D"mailto:Comments@dfs.ny.gov" shape=3D"rect" target=3D"_blank">&lt;Commen=
+ts@dfs.ny.gov&gt;</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto=
+:CRA@dfs.ny.gov" shape=3D"rect" target=3D"_blank">CRA@dfs.ny.gov</a> <a cla=
+ss=3D"moz-txt-link-rfc2396E" href=3D"mailto:CRA@dfs.ny.gov" shape=3D"rect" =
+target=3D"_blank">&lt;CRA@dfs.ny.gov&gt;</a>, <a class=3D"moz-txt-link-abbr=
+eviated" href=3D"mailto:foiapa@sec.gov" shape=3D"rect" target=3D"_blank">fo=
+iapa@sec.gov</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:Secr=
+etarys-Office@sec.gov" shape=3D"rect" target=3D"_blank">Secretarys-Office@s=
+ec.gov</a>, David Moore <a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:d=
+avid.moore.ct95@statefarm.com" shape=3D"rect" target=3D"_blank">&lt;david.m=
+oore.ct95@statefarm.com&gt;</a>, <a class=3D"moz-txt-link-abbreviated" href=
+=3D"mailto:mutualfunds@statefarm.com" shape=3D"rect" target=3D"_blank">mutu=
+alfunds@statefarm.com</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"ma=
+ilto:megan.disciullo@pwc.com" shape=3D"rect" target=3D"_blank">megan.disciu=
+llo@pwc.com</a> <a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:megan.dis=
+ciullo@pwc.com" shape=3D"rect" target=3D"_blank">&lt;megan.disciullo@pwc.co=
+m&gt;</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:larissa.von=
+lockner@pwc.com" shape=3D"rect" target=3D"_blank">larissa.vonlockner@pwc.co=
+m</a> <a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:larissa.vonlockner@=
+pwc.com" shape=3D"rect" target=3D"_blank">&lt;larissa.vonlockner@pwc.com&gt=
+;</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:ryan.a.cangialo=
+si@pwc.com" shape=3D"rect" target=3D"_blank">ryan.a.cangialosi@pwc.com</a> =
+<a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:ryan.a.cangialosi@pwc.com=
+" shape=3D"rect" target=3D"_blank">&lt;ryan.a.cangialosi@pwc.com&gt;</a>, <=
+a class=3D"moz-txt-link-abbreviated" href=3D"mailto:kivalena.starr@pwc.com"=
+ shape=3D"rect" target=3D"_blank">kivalena.starr@pwc.com</a> <a class=3D"mo=
+z-txt-link-rfc2396E" href=3D"mailto:kivalena.starr@pwc.com" shape=3D"rect" =
+target=3D"_blank">&lt;kivalena.starr@pwc.com&gt;</a>, <a class=3D"moz-txt-l=
+ink-abbreviated" href=3D"mailto:jordana.strosberg@pwc.com" shape=3D"rect" t=
+arget=3D"_blank">jordana.strosberg@pwc.com</a> <a class=3D"moz-txt-link-rfc=
+2396E" href=3D"mailto:jordana.strosberg@pwc.com" shape=3D"rect" target=3D"_=
+blank">&lt;jordana.strosberg@pwc.com&gt;</a>, <a class=3D"moz-txt-link-abbr=
+eviated" href=3D"mailto:will.b.hodges@pwc.com" shape=3D"rect" target=3D"_bl=
+ank">will.b.hodges@pwc.com</a> <a class=3D"moz-txt-link-rfc2396E" href=3D"m=
+ailto:will.b.hodges@pwc.com" shape=3D"rect" target=3D"_blank">&lt;will.b.ho=
+dges@pwc.com&gt;</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:=
+jennifer.vanoss@pwc.com" shape=3D"rect" target=3D"_blank">jennifer.vanoss@p=
+wc.com</a> <a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:jennifer.vanos=
+s@pwc.com" shape=3D"rect" target=3D"_blank">&lt;jennifer.vanoss@pwc.com&gt;=
+</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:cfaimali@isda.or=
+g" shape=3D"rect" target=3D"_blank">cfaimali@isda.org</a>, <a class=3D"moz-=
+txt-link-abbreviated" href=3D"mailto:isda@isda.org" shape=3D"rect" target=
+=3D"_blank">isda@isda.org</a>, <a class=3D"moz-txt-link-abbreviated" href=
+=3D"mailto:isdaeurope@isda.org" shape=3D"rect" target=3D"_blank">isdaeurope=
+@isda.org</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:jclark@=
+isda.org" shape=3D"rect" target=3D"_blank">jclark@isda.org</a>, <a class=3D=
+"moz-txt-link-abbreviated" href=3D"mailto:ldobbs@isda.org" shape=3D"rect" t=
+arget=3D"_blank">ldobbs@isda.org</a>, <a class=3D"moz-txt-link-abbreviated"=
+ href=3D"mailto:nlu@isda.org" shape=3D"rect" target=3D"_blank">nlu@isda.org=
+</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:nsawyer@isda.org=
+" shape=3D"rect" target=3D"_blank">nsawyer@isda.org</a>, <a class=3D"moz-tx=
+t-link-abbreviated" href=3D"mailto:alex.zuluaga@ey.com" shape=3D"rect" targ=
+et=3D"_blank">alex.zuluaga@ey.com</a> <a class=3D"moz-txt-link-rfc2396E" hr=
+ef=3D"mailto:alex.zuluaga@ey.com" shape=3D"rect" target=3D"_blank">&lt;alex=
+.zuluaga@ey.com&gt;</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mail=
+to:david.brown1@ey.com" shape=3D"rect" target=3D"_blank">david.brown1@ey.co=
+m</a> <a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:david.brown1@ey.com=
+" shape=3D"rect" target=3D"_blank">&lt;david.brown1@ey.com&gt;</a>, Deborah=
+ M Jones <a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:Deborah.Jones@ey=
+.com" shape=3D"rect" target=3D"_blank">&lt;Deborah.Jones@ey.com&gt;</a>, <a=
+ class=3D"moz-txt-link-abbreviated" href=3D"mailto:info@ey.com" shape=3D"re=
+ct" target=3D"_blank">info@ey.com</a> <a class=3D"moz-txt-link-rfc2396E" hr=
+ef=3D"mailto:info@ey.com" shape=3D"rect" target=3D"_blank">&lt;info@ey.com&=
+gt;</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:jacqueline.ke=
+lley@ey.com" shape=3D"rect" target=3D"_blank">jacqueline.kelley@ey.com</a> =
+<a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:jacqueline.kelley@ey.com"=
+ shape=3D"rect" target=3D"_blank">&lt;jacqueline.kelley@ey.com&gt;</a>, <a =
+class=3D"moz-txt-link-abbreviated" href=3D"mailto:karim.anani@ey.com" shape=
+=3D"rect" target=3D"_blank">karim.anani@ey.com</a> <a class=3D"moz-txt-link=
+-rfc2396E" href=3D"mailto:karim.anani@ey.com" shape=3D"rect" target=3D"_bla=
+nk">&lt;karim.anani@ey.com&gt;</a>, <a class=3D"moz-txt-link-abbreviated" h=
+ref=3D"mailto:kevin.klimara@ey.com" shape=3D"rect" target=3D"_blank">kevin.=
+klimara@ey.com</a> <a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:kevin.=
+klimara@ey.com" shape=3D"rect" target=3D"_blank">&lt;kevin.klimara@ey.com&g=
+t;</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:lee.henderson@=
+ey.com" shape=3D"rect" target=3D"_blank">lee.henderson@ey.com</a> <a class=
+=3D"moz-txt-link-rfc2396E" href=3D"mailto:lee.henderson@ey.com" shape=3D"re=
+ct" target=3D"_blank">&lt;lee.henderson@ey.com&gt;</a>, <a class=3D"moz-txt=
+-link-abbreviated" href=3D"mailto:mark.schwartz1@ey.com" shape=3D"rect" tar=
+get=3D"_blank">mark.schwartz1@ey.com</a> <a class=3D"moz-txt-link-rfc2396E"=
+ href=3D"mailto:mark.schwartz1@ey.com" shape=3D"rect" target=3D"_blank">&lt=
+;mark.schwartz1@ey.com&gt;</a>, <a class=3D"moz-txt-link-abbreviated" href=
+=3D"mailto:rachel.gerring@ey.com" shape=3D"rect" target=3D"_blank">rachel.g=
+erring@ey.com</a> <a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:rachel.=
+gerring@ey.com" shape=3D"rect" target=3D"_blank">&lt;rachel.gerring@ey.com&=
+gt;</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:colin.brooks@=
+morganstanley.com" shape=3D"rect" target=3D"_blank">colin.brooks@morganstan=
+ley.com</a> <a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:colin.brooks@=
+morganstanley.com" shape=3D"rect" target=3D"_blank">&lt;colin.brooks@morgan=
+stanley.com&gt;</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:c=
+brooks7@bloomberg.net" shape=3D"rect" target=3D"_blank">cbrooks7@bloomberg.=
+net</a> <a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:cbrooks7@bloomber=
+g.net" shape=3D"rect" target=3D"_blank">&lt;cbrooks7@bloomberg.net&gt;</a>,=
+ <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:JPMCinvestorrelations=
+@jpmchase.com" shape=3D"rect" target=3D"_blank">JPMCinvestorrelations@jpmch=
+ase.com</a> <a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:JPMCinvestorr=
+elations@jpmchase.com" shape=3D"rect" target=3D"_blank">&lt;JPMCinvestorrel=
+ations@jpmchase.com&gt;</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"=
+mailto:bofamarkets@bofa.com" shape=3D"rect" target=3D"_blank">bofamarkets@b=
+ofa.com</a> <a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:bofamarkets@b=
+ofa.com" shape=3D"rect" target=3D"_blank">&lt;bofamarkets@bofa.com&gt;</a>,=
+ <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:bofamarkets@baml.com"=
+ shape=3D"rect" target=3D"_blank">bofamarkets@baml.com</a>, <a class=3D"moz=
+-txt-link-abbreviated" href=3D"mailto:hsrhelp@ftc.gov" shape=3D"rect" targe=
+t=3D"_blank">hsrhelp@ftc.gov</a> <a class=3D"moz-txt-link-rfc2396E" href=3D=
+"mailto:hsrhelp@ftc.gov" shape=3D"rect" target=3D"_blank">&lt;hsrhelp@ftc.g=
+ov&gt;</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:foiaconsul=
+tsandref@atf.gov" shape=3D"rect" target=3D"_blank">foiaconsultsandref@atf.g=
+ov</a> <a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:foiaconsultsandref=
+@atf.gov" shape=3D"rect" target=3D"_blank">&lt;foiaconsultsandref@atf.gov&g=
+t;</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:CongressionalL=
+iaison@occ.treas.gov" shape=3D"rect" target=3D"_blank">CongressionalLiaison=
+@occ.treas.gov</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:li=
+aison2@atf.gov" shape=3D"rect" target=3D"_blank">liaison2@atf.gov</a>, <a c=
+lass=3D"moz-txt-link-abbreviated" href=3D"mailto:tim.knight@kpmg.co.uk" sha=
+pe=3D"rect" target=3D"_blank">tim.knight@kpmg.co.uk</a>, Chris Gursky [FINR=
+A] <a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:csgursky@bloomberg.net=
+" shape=3D"rect" target=3D"_blank">&lt;csgursky@bloomberg.net&gt;</a>, <a c=
+lass=3D"moz-txt-link-abbreviated" href=3D"mailto:cshugg@usinfosec.com" shap=
+e=3D"rect" target=3D"_blank">cshugg@usinfosec.com</a>, <a class=3D"moz-txt-=
+link-abbreviated" href=3D"mailto:LYLE.ADRIANO@KEYMEDIA.COM" shape=3D"rect" =
+target=3D"_blank">LYLE.ADRIANO@KEYMEDIA.COM</a>, <a class=3D"moz-txt-link-a=
+bbreviated" href=3D"mailto:CORRECTIONS@YAHOONEWS.COM" shape=3D"rect" target=
+=3D"_blank">CORRECTIONS@YAHOONEWS.COM</a>, <a class=3D"moz-txt-link-abbrevi=
+ated" href=3D"mailto:CAPTIONHELP@MYABC7.COM" shape=3D"rect" target=3D"_blan=
+k">CAPTIONHELP@MYABC7.COM</a>, Alisa Maksimova [FRB-NY] <a class=3D"moz-txt=
+-link-rfc2396E" href=3D"mailto:Alisa.Maksimova@ny.frb.org" shape=3D"rect" t=
+arget=3D"_blank">&lt;Alisa.Maksimova@ny.frb.org&gt;</a>, Solis, Anita <a cl=
+ass=3D"moz-txt-link-rfc2396E" href=3D"mailto:anita.solis@chi.frb.org" shape=
+=3D"rect" target=3D"_blank">&lt;anita.solis@chi.frb.org&gt;</a>, <a class=
+=3D"moz-txt-link-abbreviated" href=3D"mailto:Cynthia.H.Francis@frb.gov" sha=
+pe=3D"rect" target=3D"_blank">Cynthia.H.Francis@frb.gov</a>, <a class=3D"mo=
+z-txt-link-abbreviated" href=3D"mailto:dallas-reserve-mgmt@dal.frb.org" sha=
+pe=3D"rect" target=3D"_blank">dallas-reserve-mgmt@dal.frb.org</a> <a class=
+=3D"moz-txt-link-rfc2396E" href=3D"mailto:dallas-reserve-mgmt@dal.frb.org" =
+shape=3D"rect" target=3D"_blank">&lt;dallas-reserve-mgmt@dal.frb.org&gt;</a=
+>, Mielke, Evan P <a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:evan.p.=
+mielke@chi.frb.org" shape=3D"rect" target=3D"_blank">&lt;evan.p.mielke@chi.=
+frb.org&gt;</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:gener=
+al.info@ny.frb.com" shape=3D"rect" target=3D"_blank">general.info@ny.frb.co=
+m</a> <a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:general.info@ny.frb=
+.com" shape=3D"rect" target=3D"_blank">&lt;general.info@ny.frb.com&gt;</a>,=
+ <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:general.info@ny.frb.o=
+rg" shape=3D"rect" target=3D"_blank">general.info@ny.frb.org</a> <a class=
+=3D"moz-txt-link-rfc2396E" href=3D"mailto:general.info@ny.frb.org" shape=3D=
+"rect" target=3D"_blank">&lt;general.info@ny.frb.org&gt;</a>, <a class=3D"m=
+oz-txt-link-abbreviated" href=3D"mailto:kenneth.j.fraser@frb.gov" shape=3D"=
+rect" target=3D"_blank">kenneth.j.fraser@frb.gov</a>, <a class=3D"moz-txt-l=
+ink-abbreviated" href=3D"mailto:media@chi.frb.org" shape=3D"rect" target=3D=
+"_blank">media@chi.frb.org</a> <a class=3D"moz-txt-link-rfc2396E" href=3D"m=
+ailto:media@chi.frb.org" shape=3D"rect" target=3D"_blank">&lt;media@chi.frb=
+.org&gt;</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:ny.publi=
+c.information@ny.frb.org" shape=3D"rect" target=3D"_blank">ny.public.inform=
+ation@ny.frb.org</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:=
+ny.reserves@ny.frb.org" shape=3D"rect" target=3D"_blank">ny.reserves@ny.frb=
+.org</a> <a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:ny.reserves@ny.f=
+rb.com" shape=3D"rect" target=3D"_blank">&lt;ny.reserves@ny.frb.com&gt;</a>=
+, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:ny.reserves@ny.frb.o=
+rg" shape=3D"rect" target=3D"_blank">ny.reserves@ny.frb.org</a> <a class=3D=
+"moz-txt-link-rfc2396E" href=3D"mailto:ny.reserves@ny.frb.org" shape=3D"rec=
+t" target=3D"_blank">&lt;ny.reserves@ny.frb.org&gt;</a>, <a class=3D"moz-tx=
+t-link-abbreviated" href=3D"mailto:nyreporting.forms@ny.frb.org" shape=3D"r=
+ect" target=3D"_blank">nyreporting.forms@ny.frb.org</a> <a class=3D"moz-txt=
+-link-rfc2396E" href=3D"mailto:nyreporting.forms@ny.frb.org" shape=3D"rect"=
+ target=3D"_blank">&lt;nyreporting.forms@ny.frb.org&gt;</a>, <a class=3D"mo=
+z-txt-link-abbreviated" href=3D"mailto:oighotline@frb.gov" shape=3D"rect" t=
+arget=3D"_blank">oighotline@frb.gov</a> <a class=3D"moz-txt-link-rfc2396E" =
+href=3D"mailto:oighotline@frb.gov" shape=3D"rect" target=3D"_blank">&lt;oig=
+hotline@frb.gov&gt;</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mail=
+to:reserves@chi.frb.org" shape=3D"rect" target=3D"_blank">reserves@chi.frb.=
+org</a> <a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:reserves@chi.frb.=
+org" shape=3D"rect" target=3D"_blank">&lt;reserves@chi.frb.org&gt;</a></td>
+=09=09</tr>
+=09=09<tr>
+=09=09=09<th align=3D"RIGHT" colspan=3D"1" nowrap=3D"nowrap" rowspan=3D"1" =
+valign=3D"BASELINE">CC:</th>
+=09=09=09<td colspan=3D"1" rowspan=3D"1"><a class=3D"moz-txt-link-abbreviat=
+ed" href=3D"mailto:IMOCA@sec.gov" shape=3D"rect" target=3D"_blank">IMOCA@se=
+c.gov</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:dcaoletters=
+@sec.gov" shape=3D"rect" target=3D"_blank">dcaoletters@sec.gov</a> <a class=
+=3D"moz-txt-link-rfc2396E" href=3D"mailto:dcaoletters@sec.gov" shape=3D"rec=
+t" target=3D"_blank">&lt;dcaoletters@sec.gov&gt;</a>, <a class=3D"moz-txt-l=
+ink-abbreviated" href=3D"mailto:OCARequest@sec.gov" shape=3D"rect" target=
+=3D"_blank">OCARequest@sec.gov</a>, <a class=3D"moz-txt-link-abbreviated" h=
+ref=3D"mailto:mstanley321@bloomberg.net" shape=3D"rect" target=3D"_blank">m=
+stanley321@bloomberg.net</a>, <a class=3D"moz-txt-link-abbreviated" href=3D=
+"mailto:mstanley1541@bloomberg.net" shape=3D"rect" target=3D"_blank">mstanl=
+ey1541@bloomberg.net</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mai=
+lto:mshy1@blooomberg.net" shape=3D"rect" target=3D"_blank">mshy1@blooomberg=
+.net</a> <a class=3D"moz-txt-link-rfc2396E" href=3D"mailto:mshy1@blooomberg=
+.net" shape=3D"rect" target=3D"_blank">&lt;mshy1@blooomberg.net&gt;</a>, <a=
+ class=3D"moz-txt-link-abbreviated" href=3D"mailto:mshy2@bloomberg.net" sha=
+pe=3D"rect" target=3D"_blank">mshy2@bloomberg.net</a> <a class=3D"moz-txt-l=
+ink-rfc2396E" href=3D"mailto:mshy2@bloomberg.net" shape=3D"rect" target=3D"=
+_blank">&lt;mshy2@bloomberg.net&gt;</a>, <a class=3D"moz-txt-link-abbreviat=
+ed" href=3D"mailto:INFO@physiciansmutual.com" shape=3D"rect" target=3D"_bla=
+nk">INFO@physiciansmutual.com</a>, <a class=3D"moz-txt-link-abbreviated" hr=
+ef=3D"mailto:bk01@cb.nyc.gov" shape=3D"rect" target=3D"_blank">bk01@cb.nyc.=
+gov</a>, <a class=3D"moz-txt-link-abbreviated" href=3D"mailto:iphonehelp@ny=
+post.com" shape=3D"rect" target=3D"_blank">iphonehelp@nypost.com</a>, <a cl=
+ass=3D"moz-txt-link-abbreviated" href=3D"mailto:lzucker@mskyline.com" shape=
+=3D"rect" target=3D"_blank">lzucker@mskyline.com</a> <a class=3D"moz-txt-li=
+nk-rfc2396E" href=3D"mailto:lzucker@mskyline.com" shape=3D"rect" target=3D"=
+_blank">&lt;lzucker@mskyline.com&gt;</a>, <a class=3D"moz-txt-link-abbrevia=
+ted" href=3D"mailto:Victimassistance.fraud@usdoj.gov" shape=3D"rect" target=
+=3D"_blank">Victimassistance.fraud@usdoj.gov</a> <a class=3D"moz-txt-link-r=
+fc2396E" href=3D"mailto:Victimassistance.fraud@usdoj.gov" shape=3D"rect" ta=
+rget=3D"_blank">&lt;Victimassistance.fraud@usdoj.gov&gt;</a></td>
+=09=09</tr>
+=09</tbody>
+</table>
+<br clear=3D"none" />
+&nbsp;</div>
+<meta content=3D"text/html; charset=3DUTF-8">
+
+<p><font face=3D"monospace" size=3D"1">[Codified to 12 U.S.C. 1461][Codifie=
+d to 12 U.S.C. 1462][Codified to 12 U.S.C. 1462a][Codified to 12 U.S.C. 146=
+3]</font></p>
+
+<p><font face=3D"monospace" size=3D"1">NOW ABOUT THAT &quot;UNREGISTERED SE=
+CURITY...</font></p>
+
+<p><font color=3D"#004080" face=3D"monospace" size=3D"1"><span style=3D"fon=
+t-size: 5pt;"><span style=3D"font-size: 7pt;               line-height: 115=
+%;">HELPED IN THE FIDUCIARY OF THE PRIOR<br clear=3D"none" />
+November 24,2021. State Farm Associates&#39; Funds Trust. [KO]</span></span=
+></font><br clear=3D"none" />
+<font color=3D"#004080"><font face=3D"monospace" size=3D"1"><span style=3D"=
+font-size: 5pt;"><span style=3D"font-size: 7pt; line-height: 115%;"><span s=
+tyle=3D"font-size:7.0pt;font-family:&quot;Courier                   New&quo=
+t;;mso-fareast-font-family: &quot;Times New                   Roman&quot;">=
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <a class=3D"moz-txt-link-freetext" hr=
+ef=3D"https://www.sec.gov/Archives/edgar/data/0000093715/999999999721005790=
+/filename1.pdf" shape=3D"rect" target=3D"_blank">https://www.sec.gov/Archiv=
+es/edgar/data/0000093715/999999999721005790/filename1.pdf</a></span></span>=
+</span></font></font></p>
+
+<p><font color=3D"#004080" face=3D"monospace" size=3D"1"><font face=3D"mono=
+space">&nbsp;&nbsp;&nbsp; <font color=3D"#0080ff">NOT THAT IT&#39;S UNDERST=
+OOD<br clear=3D"none" />
+&nbsp;&nbsp;&nbsp; - HAVING REVIEWED THEIR METHODS OF ELECTRONIC PROXY IN E=
+DGAR [ON SEVERAL OCCASIONS]</font></font></font><br clear=3D"none" />
+<br clear=3D"none" />
+<font color=3D"#004080" face=3D"monospace" size=3D"1"><font face=3D"monospa=
+ce"><font color=3D"#0080ff"><font color=3D"#004080" face=3D"monospace" size=
+=3D"1"><font face=3D"monospace"><font color=3D"#0080ff"><font color=3D"#ff0=
+000"><font color=3D"#004080" face=3D"monospace" size=3D"1"><font face=3D"mo=
+nospace"><font color=3D"#0080ff"><font color=3D"#ff0000">**** </font></font=
+></font></font>are reported and under the AUSPICE of the SECURITIES &amp; E=
+XCHANGE COMMISSION, FINRA &amp; ITS AFFILIATED ENTITIES.</font></font></fon=
+t></font></font></font></font><br clear=3D"none" />
+<font color=3D"#004080" face=3D"monospace" size=3D"1"><font face=3D"monospa=
+ce"><font color=3D"#0080ff"><font color=3D"#ff0000"><font color=3D"#004080"=
+ face=3D"monospace" size=3D"1"><font face=3D"monospace"><font color=3D"#008=
+0ff"><font color=3D"#ff0000">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; **** </f=
+ont></font></font></font>WITHOUT DISCLOSURE, SUBSCRIPTIONS ADDED WHILE VOTE=
+RS **** INFORMED ****</font><br clear=3D"none" />
+<font color=3D"#ff0000">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; **** DISCLOSU=
+RE OF $170,000.00 IN POSTAGE, DIRECTORS FEES ET. AL. TOTAL $912,500</font><=
+/font></font></font></p>
+
+<p><font color=3D"#004080" face=3D"monospace" size=3D"1"><font face=3D"mono=
+space"><font color=3D"#0080ff"><font color=3D"#ff0000"><font color=3D"#0040=
+80" face=3D"monospace" size=3D"1"><font face=3D"monospace"><font color=3D"#=
+0080ff"><font color=3D"#ff0000">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp=
+;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp=
+; THE ELECTRONIC </font></font></font></font>PROXIES AND ALSO THE POSTAGE F=
+EES ARE DETAILED HERE AS WELL ---</font></font></font></font><br clear=3D"n=
+one" />
+<font color=3D"#004080" face=3D"monospace" size=3D"1"><font face=3D"monospa=
+ce"><font color=3D"#0080ff"><font color=3D"#ff0000"><font color=3D"#004080"=
+ face=3D"monospace" size=3D"1"><font face=3D"monospace"><font color=3D"#008=
+0ff"><font color=3D"#ff0000">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; **** </f=
+ont></font></font></font><a class=3D"moz-txt-link-freetext" href=3D"https:/=
+/fintel.io/doc/sec-stfgx-state-farm-growth-fund-ex99p-2020-march-27-18441-4=
+49" shape=3D"rect" target=3D"_blank">https://fintel.io/doc/sec-stfgx-state-=
+farm-growth-fund-ex99p-2020-march-27-18441-449</a></font></font></font></fo=
+nt></p>
+
+<p><font color=3D"#004080" face=3D"monospace" size=3D"1"><b>NOT COVERED FOR=
+ OMISSIONS BY ITS DIRECT REPRESENTATIVES / PROMOTERS DURING THE PERIOD OF J=
+ANUARY 1, 2020 AND JANUARY 1, 2022.<br clear=3D"none" />
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; - NOTWITHSTANDING =
+ITS COUNSELORS, AUDITORS, CUSTODIANS, ADVISERS, AND BROKER DEALERS.<br clea=
+r=3D"none" />
+<font color=3D"#004080"><font size=3D"1"><font face=3D"monospace">&nbsp;&nb=
+sp; &nbsp;&nbsp;&nbsp;&nbsp; Fund Surviving the Merger - Advisers Investmen=
+t Trust<br clear=3D"none" />
+&nbsp;&nbsp; &nbsp;&quot;Investment Company Act File Number&nbsp; &quot;811=
+-22538&quot;<br clear=3D"none" />
+<font color=3D"#ff0000">&quot;State Farm VP Management Corp. &quot;00004303=
+6&quot;</font></font></font></font></b><br clear=3D"none" />
+<b><font color=3D"#ff0000" face=3D"monospace" size=3D"1"><font color=3D"#00=
+4080"><font color=3D"#ff0000">&nbsp;&nbsp;&nbsp; 2</font></font></font></b>=
+</font><font color=3D"#004080" face=3D"monospace" size=3D"1"><b><font color=
+=3D"#ff0000" face=3D"monospace" size=3D"1"><font color=3D"#004080"><font co=
+lor=3D"#ff0000"><font color=3D"#004080" face=3D"monospace" size=3D"1"><b><f=
+ont color=3D"#ff0000" face=3D"monospace" size=3D"1"><font color=3D"#004080"=
+><font color=3D"#ff0000">021-11-30 - 2021-03-31 &nbsp;&nbsp;&nbsp; &nbsp;&n=
+bsp; </font></font></font></b></font><br clear=3D"none" />
+&nbsp;&nbsp;&nbsp; ASSETS:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp=
+;&nbsp; $10,164,850,238</font></font></font></b><br clear=3D"none" />
+<font color=3D"#ff0000">&nbsp;&nbsp;&nbsp; PERFORMANCE:&nbsp;&nbsp;&nbsp; &=
+nbsp;&nbsp; (-852,029,489.38)</font></font></p>
+
+<p><font color=3D"#ff0000" face=3D"monospace" size=3D"1">##TICKER: BRK-B</f=
+ont><font color=3D"#ff0000" face=3D"monospace" size=3D"1"><font color=3D"#0=
+04080" face=3D"monospace" size=3D"1"><font face=3D"monospace"><font color=
+=3D"#0080ff"><font color=3D"#ff0000">##</font></font></font></font></font><=
+/p>
+
+<p><font color=3D"#ff0000" face=3D"monospace" size=3D"1">&nbsp;&nbsp;&nbsp;=
+ &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; </font></p>
+
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"839">
+=09<colgroup span=3D"1">
+=09=09<col span=3D"1" style=3D"mso-width-source:userset;mso-width-alt:3401;=
+width:70pt" width=3D"93" />
+=09=09<col span=3D"4" style=3D"mso-width-source:userset;mso-width-alt:4022;=
+             width:83pt" width=3D"110" />
+=09=09<col span=3D"2" style=3D"mso-width-source:userset;mso-width-alt:5595;=
+             width:115pt" width=3D"153" />
+=09</colgroup>
+=09<tbody>
+=09=09<tr height=3D"19" style=3D"height:14.25pt">
+=09=09=09<td class=3D"xl82" colspan=3D"3" height=3D"19" rowspan=3D"1" style=
+=3D"height:14.25pt;               mso-ignore:colspan;width:236pt" width=3D"=
+313">STATE FARM ASSOCIATES FUNDS TRUST 93715</td>
+=09=09=09<td class=3D"xl66" colspan=3D"1" rowspan=3D"1" style=3D"width:83pt=
+" width=3D"110">&nbsp;</td>
+=09=09=09<td class=3D"xl66" colspan=3D"1" rowspan=3D"1" style=3D"width:83pt=
+" width=3D"110">&nbsp;</td>
+=09=09=09<td class=3D"xl66" colspan=3D"1" rowspan=3D"1" style=3D"width:115p=
+t" width=3D"153">&nbsp;</td>
+=09=09=09<td align=3D"right" class=3D"xl68" colspan=3D"1" rowspan=3D"1" sty=
+le=3D"width:115pt" width=3D"153">2022-03-31: MS 14.5-BLN<span style=3D"mso-=
+spacerun:yes"> </span></td>
+=09=09</tr>
+=09=09<tr height=3D"30" style=3D"mso-height-source:userset;height:22.5pt">
+=09=09=09<td class=3D"xl70" colspan=3D"3" height=3D"30" rowspan=3D"1" style=
+=3D"height:22.5pt">MS: 14.5MMM, COVERED FOR NET INCOME</td>
+=09=09=09<td class=3D"xl72" colspan=3D"1" rowspan=3D"2">&Delta; PRICE<span =
+style=3D"mso-spacerun:yes">&nbsp; </span>[$]</td>
+=09=09=09<td class=3D"xl72" colspan=3D"1" rowspan=3D"2">&Delta; PRICE<span =
+style=3D"mso-spacerun:yes">&nbsp; </span>[%]</td>
+=09=09=09<td class=3D"xl67" colspan=3D"1" rowspan=3D"1">&nbsp;&nbsp; 2021-1=
+1-30 SEC</td>
+=09=09=09<td align=3D"right" class=3D"xl73" colspan=3D"1" rowspan=3D"2" sty=
+le=3D"width:115pt" width=3D"153">&Delta;<span style=3D"mso-spacerun:yes">&n=
+bsp; </span>ASSET<span style=3D"mso-spacerun:yes">&nbsp; </span>VALUE</td>
+=09=09</tr>
+=09=09<tr height=3D"19" style=3D"height:14.25pt">
+=09=09=09<td class=3D"xl71" colspan=3D"1" height=3D"19" rowspan=3D"1" style=
+=3D"height:14.25pt">TICKERS</td>
+=09=09=09<td class=3D"xl74" colspan=3D"1" rowspan=3D"1">2021-11-30</td>
+=09=09=09<td class=3D"xl74" colspan=3D"1" rowspan=3D"1">2022-03-31</td>
+=09=09=09<td align=3D"right" class=3D"xl67" colspan=3D"1" rowspan=3D"1">***=
+ AUM</td>
+=09=09</tr>
+=09=09<tr height=3D"28" style=3D"mso-height-source:userset;height:21.0pt">
+=09=09=09<td class=3D"xl71" colspan=3D"1" height=3D"28" rowspan=3D"1" style=
+=3D"height:21.0pt">STFGX</td>
+=09=09=09<td align=3D"right" class=3D"xl75" colspan=3D"1" rowspan=3D"1"><sp=
+an style=3D"mso-spacerun:yes">&nbsp;</span><span style=3D"mso-spacerun:yes"=
+> </span>118.50</td>
+=09=09=09<td align=3D"right" class=3D"xl75" colspan=3D"1" rowspan=3D"1"><sp=
+an style=3D"mso-spacerun:yes">&nbsp;</span><span style=3D"mso-spacerun:yes"=
+> </span>106.88</td>
+=09=09=09<td align=3D"right" class=3D"xl75" colspan=3D"1" rowspan=3D"1"><sp=
+an style=3D"mso-spacerun:yes">&nbsp;</span>(11.62)</td>
+=09=09=09<td align=3D"right" class=3D"xl76" colspan=3D"1" rowspan=3D"1">-9.=
+8059%</td>
+=09=09=09<td align=3D"right" class=3D"xl78" colspan=3D"1" rowspan=3D"1"><sp=
+an style=3D"mso-spacerun:yes">&nbsp;</span>6,547,492,154</td>
+=09=09=09<td align=3D"right" class=3D"xl78" colspan=3D"1" rowspan=3D"1"><sp=
+an style=3D"mso-spacerun:yes">&nbsp;</span><span style=3D"mso-spacerun:yes"=
+> </span>(642,041,003)</td>
+=09=09</tr>
+=09=09<tr height=3D"28" style=3D"mso-height-source:userset;height:21.0pt">
+=09=09=09<td class=3D"xl71" colspan=3D"1" height=3D"28" rowspan=3D"1" style=
+=3D"height:21.0pt">STFBX</td>
+=09=09=09<td align=3D"right" class=3D"xl75" colspan=3D"1" rowspan=3D"1"><sp=
+an style=3D"mso-spacerun:yes">&nbsp;</span><span style=3D"mso-spacerun:yes"=
+> </span>92.93</td>
+=09=09=09<td align=3D"right" class=3D"xl75" colspan=3D"1" rowspan=3D"1"><sp=
+an style=3D"mso-spacerun:yes">&nbsp;</span><span style=3D"mso-spacerun:yes"=
+> </span>87.17</td>
+=09=09=09<td align=3D"right" class=3D"xl75" colspan=3D"1" rowspan=3D"1"><sp=
+an style=3D"mso-spacerun:yes">&nbsp;</span>(5.76)</td>
+=09=09=09<td align=3D"right" class=3D"xl76" colspan=3D"1" rowspan=3D"1">-6.=
+1982%</td>
+=09=09=09<td align=3D"right" class=3D"xl78" colspan=3D"1" rowspan=3D"1"><sp=
+an style=3D"mso-spacerun:yes">&nbsp;</span>2,410,114,218</td>
+=09=09=09<td align=3D"right" class=3D"xl78" colspan=3D"1" rowspan=3D"1">(14=
+9,384,030)</td>
+=09=09</tr>
+=09=09<tr height=3D"28" style=3D"mso-height-source:userset;height:21.0pt">
+=09=09=09<td class=3D"xl71" colspan=3D"1" height=3D"28" rowspan=3D"1" style=
+=3D"height:21.0pt">SFITX</td>
+=09=09=09<td align=3D"right" class=3D"xl75" colspan=3D"1" rowspan=3D"1"><sp=
+an style=3D"mso-spacerun:yes">&nbsp;</span><span style=3D"mso-spacerun:yes"=
+> </span>10.13</td>
+=09=09=09<td align=3D"right" class=3D"xl75" colspan=3D"1" rowspan=3D"1"><sp=
+an style=3D"mso-spacerun:yes">&nbsp;</span><span style=3D"mso-spacerun:yes"=
+> </span>9.73</td>
+=09=09=09<td align=3D"right" class=3D"xl75" colspan=3D"1" rowspan=3D"1"><sp=
+an style=3D"mso-spacerun:yes">&nbsp;</span>(0.40)</td>
+=09=09=09<td align=3D"right" class=3D"xl76" colspan=3D"1" rowspan=3D"1">-3.=
+9487%</td>
+=09=09=09<td align=3D"right" class=3D"xl78" colspan=3D"1" rowspan=3D"1"><sp=
+an style=3D"mso-spacerun:yes">&nbsp;</span><span style=3D"mso-spacerun:yes"=
+>&lt;/</span></td>
+=09=09</tr>
+=09</tbody>
+</table>
+<img src=3D"https://fdic-oit.my.salesforce.com/servlet/servlet.ImageServer?=
+oid=3D00Dt0000000GzPp&esid=3D018t000000Km47N&from=3Dext"><br><br>ref:_00Dt0=
+GzPp._500t0yiPbC:ref</body>
+</html>
+
+------=_Part_6744_1628248768.1650112722635--
+

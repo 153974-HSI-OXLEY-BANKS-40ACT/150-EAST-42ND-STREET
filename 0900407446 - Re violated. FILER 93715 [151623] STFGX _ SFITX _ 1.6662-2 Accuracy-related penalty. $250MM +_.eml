@@ -1,0 +1,664 @@
+From - Thu Apr 21 15:59:12 2022
+X-Account-Key: account1
+X-UIDL: AJ1Kz0VnambXYmHEDgwGICRCAVw
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.131.17
+ by atlas112.free.mail.ne1.yahoo.com with HTTPS; Thu, 21 Apr 2022 20:52:29 +0000
+Return-Path: <icechatsupport@ice.com>
+X-Originating-Ip: [68.232.130.224]
+Received-SPF: pass (domain of ice.com designates 68.232.130.224 as permitted sender)
+Authentication-Results: atlas112.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@ice.com header.s=c1;
+ spf=pass smtp.mailfrom=ice.com;
+ dmarc=pass(p=REJECT) header.from=ice.com;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 21 Apr 2022 20:52:29 +0000
+X-YMailISG: ET7M784WLDsnUTPgAG_kgqXbaRelSYewsPUwkM0XjCxemImC
+ fl6qt7uLGyY3v0c7YLhcucjw6Kw2P_Bc_o8cN028Dhj.ve6QiiANnMHrZqXi
+ 0j0wZ2oxG4hjkTP4P_aBL_C168X9UI7k3cMpK.O1DMOxaYD_wBGIRG7Yi8XU
+ ucSpkIq65sktg_HX9sEjJAQSGOY91XjXGWWJVJpgCWAVJy9SAy_kgKQIVayW
+ FXBKhowBhOHPp3htG8FZorYrFsg1lLGkj8FKTRqsX.3ZATvgLhRLRKvDMcwI
+ lqdVS6NmUSLkk8jzlS9GOBfycrjFFSmdom.V17mDSkCf1FkWmSHrj0CjFDvM
+ YXNeD2g3qDAocsnrKc8PtSlHM6_FnvDOHoKPa0IIQ3tdG0FH58vr1D0E7CZk
+ PGBNFJb6EHU4kU1ibl4Yb4enVAiNeEftUJ_6rep3t20Vb9aAKBVNomy1RjUO
+ ylFMaj68R5qNFPNdzewRtD5IcKy4reeSODx5cJkiPbHxSlOjZbnnw3ZVNdJz
+ 5gXrJk2DNqKAL3XgWYKs3_Qm5RmC67PunLWe0hslgDAWRP5JkisMlreMfJvN
+ 0Me8UJ.zOhTJZ2wRykJW48rXNLQ6DQK3.0M.UxmasW5aMg2zefhULW2BE2YG
+ kecI8lx9NsjlD1ipT1VzW2krg2dcag1D.YErPFQOXa0413A0Tth7gxV4lDRS
+ piUZusBAYtx4mKYpDNk5Dtsl7DjeRaYlJSc_.wQwvu14zXcu709chV7RFPJF
+ MO7vKrWoVJ0QOIorFYhq1mq8f226KT9f9F8SJ0NSr.DfiDboY6_wUnMX6jH1
+ lCRngKh3XvXgKK5PWqbWN3lUm0mq56mxNlInlw0uy1PrJHRjqDrpkCVeiS6V
+ BB1b7Oss1iMwTZEDHn1RdPXUIDHjTsvWj5LKbHfDe8QkHv1JV7h36WdkhEzC
+ gddTjJOXHV6g6a0bmUb67ost5ivACyy499_EBMTaaejwYngMWhOo5Q8MQCWM
+ wTEfG0a0lrXmHTj0v329gIQC53lfIJqpdlIcw4Lwqp58WfkWiNHOvV5NAXte
+ MNq7.9bCMfu4T54eUBcieZQceLh_cBR6mojQsnZXAxBKR6.0ETUJxP73SBip
+ cPs5.BNv8LdUpU.oSxyjVFTY_MwD4MAY199HDn_PKlJL77Cfuv24FgdYdyT2
+ Y2sge620EqLi7PsPrf9lrtlLkk14DxYB6DpaZ5OVUgo.76e9ek7mYV6.Z4wK
+ ergLBllDDtXNam3paqiRh3Oe4jy1rJvjYOJBrIGNKvI4.bM1tMv0o89XDsD.
+ hFOR30pX718vzszFuzisc03BsDcP2CCf_aSnd1f_AC1Zr9MB39rjwQmVxWaJ
+ cSD5IH4dsApifLVkzgmc
+Received: from 68.232.130.224 (EHLO esa3.theice.iphmx.com)
+ by 10.217.131.17 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Thu, 21 Apr 2022 20:52:29 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+  d=ice.com; i=@ice.com; q=dns/txt; s=c1; t=1650574349;
+  x=1682110349;
+  h=date:from:to:message-id:subject:mime-version;
+  bh=tIHSzw4CIbEmxddXG/6OEmziUf5tZkhljIAsQPJFERQ=;
+  b=Hd/QrvLxGqZzD4HugoOLd0ip1BnQfgA9ZIPPryzrdVIP4KfQaeGmBca5
+   rCf+e1cViABKgxwxXkNKEcaev/JKYrWzswLdme8Y2jSly/JOynC5frnmC
+   JKtmpx0D06Wv0aJjX0CeC7dq5vLjASRs/XzbShNE682URNLj7Z7iUBYQ6
+   67NCla3LNUByvN6s/avRTQnUx3pkDGhDjkeI7GDcDt9Q98scWtEQ++pyP
+   sHWTrZ7MuM3dIWewuJljwRu3Q5pw0rSZbyxuJVpK3UCn0SOOZcKl9Rvfn
+   tFmh6MgsowEi2GhmI+GbGpanr9mxpQg+JI9AA9ojai8iwhHk0GSihr33n
+   g==;
+X-Ironport-SF-Relay: odiUygt8Ce197
+X-IronPort-AV: E=Sophos;i="5.90,279,1643691600"; 
+   d="scan'208,217";a="166379433"
+Received: from smtp02-ia5-sp2.mta.salesforce.com ([13.110.78.209])
+  by esa3.theice.iphmx.com with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 21 Apr 2022 16:52:28 -0400
+Received: from [10.182.228.91] ([10.182.228.91:46004] helo=na139-app1-35-ia5.ops.sfdc.net)
+	by mx1-ia5-sp2.mta.salesforce.com (envelope-from <icechatsupport@ice.com>)
+	(ecelerity 4.2.38.62368 r(Core:release/4.2.38.0)) with ESMTPS (cipher=ECDHE-RSA-AES256-GCM-SHA384
+	subject="/C=US/ST=California/L=San Francisco/O=salesforce.com, inc./OU=0:app;1:ia5;2:ia5-sp2;3:na139;4:prod/CN=na139-app1-35-ia5.ops.sfdc.net") 
+	id B8/3E-05802-B04C1626; Thu, 21 Apr 2022 20:52:27 +0000
+Date: Thu, 21 Apr 2022 20:52:27 +0000 (GMT)
+From: **External Desktop - ICE Chat Support <icechatsupport@ice.com>
+To: "ms60710444266@yahoo.com" <ms60710444266@yahoo.com>
+Message-ID: <5004W000020guHQ.GGhX_4TXQP-trzQrUKn2yA.K6JiRrXTptYhdlhLmyiY8IPYJPuvre6C63BsrbMeW6w=.4W000000YemG@sfdc.net>
+Subject: 0900407446 - Re: violated. FILER 93715 [151623] STFGX | SFITX |
+ 1.6662-2 Accuracy-related penalty. $250MM +|
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9039_361305172.1650574347466"
+X-SFDC-LK: 00DE0000000aVY2
+X-SFDC-User: 005E0000007ONyk
+X-Sender: postmaster@salesforce.com
+X-mail_abuse_inquiries: http://www.salesforce.com/company/abuse.jsp
+X-SFDCOrgRelay: 00DE0000000aVY2
+X-SFDC-Binding: 1WrIRBV94myi25uB
+X-SFDC-EmailCategory: invocableActionEmail
+X-SFDC-EntityId: 5004W000020guHQ
+X-SFDC-Interface: internal
+X-SFDC-Restrict: ^(.*)
+X-SFDCRelayAddr: mx1.theice.iphmx.com
+X-SFDCRelayPort: 25
+X-SFDCTLS: 1
+Content-Length: 15645
+
+------=_Part_9039_361305172.1650574347466
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+A support case has been opened. Please use 0900407446 to reference your case.
+Regards,
+
+Client Support
+icechatsupport@ice.com
+
+Visit our support portal at http://service.theice.com/ where you can create and track cases, chat, and view our knowledge base.
+
+Region   Telephone
+Americas    +1 770 999 4501
+EMEA    +44 203 948 6501
+APAC - Australia    +61 3 9071 4592
+APAC - Hong Kong    +852 3018 8279
+APAC - Singapore    +65 6817 6211
+APAC - Tokyo    +81 3 4520 8110
+
+Prompts
+Option 1: BondEdge / ICE Data Analytics
+Option 2: Pricing & Analytics
+Option 3: Consolidated Feed & Tick History
+Option 4: Desktops
+Option 5: ICE Data Derivatives
+Option 6: Indices & IOPV
+Option 7: ICE Options Analytics and Quote Board
+------=_Part_9039_361305172.1650574347466
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head>
+
+<!--[if gte mso 9]><xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml><![endif]-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+@media (max-width:590px){
+table {
+width: 100% !important;
+height: auto !important;
+}
+
+img[class="img-banner"] {
+max-width:600px !important;
+height:auto !important;
+width:100% !important;
+}
+
+img[class="img-banner_v2"] {
+max-width:600px !important;
+height:auto !important;
+width:100% !important;
+}
+
+img[class="author_image"]{
+width:60px !important;
+height:60px !important;
+}
+
+img[class="preview_image"]{
+width:170px !important;
+height:170px !important;
+margin:0 auto !important;
+}
+
+img[class="speaker_image"] {
+width:120px !important;
+height:auto!important;
+margin:0 auto !important;
+}
+
+img[class="video_image"]{
+width:250px !important;
+height:auto !important;
+margin:0 auto !important;
+}
+
+img[class="img-logo"] {
+width:auto !important;
+height:40px !important;
+}
+
+img[class="main_point_image"] {
+width:54px !important;
+height:54px !important;
+}
+
+img[class="12m_icon"] {
+width:119px !important;
+height:44px !important
+}
+
+img[class="counter_image"] {
+width:172px !important;
+height:auto !important;
+margin:0 auto !important;
+}
+
+img[class="social-icon"] {
+width:15px !important;
+height:15px !important;
+}
+
+img[class="ICE logo"] {
+width:178px !important;
+height:13px !important;
+float:none !important;
+margin: 0 auto !important;
+}
+
+img[class="hash1_icon"] {
+width:48px !important;
+height:40px !important;
+}
+
+img[class="52per_icon"] {
+width:95px !important;
+height:40px !important;
+}
+
+img[class="divider"] {
+width:1px !important;
+height:1px !important;
+}
+
+table[class="max-width-200"] {
+width:200px !important;
+float:none !important;
+margin:0 auto !important;
+}				
+
+table[class="max-width-170"] {
+width:170px !important;
+float:none !important;
+margin:0 auto !important;
+}
+
+table[class="max-width-160" ] {
+width:170px !important;
+float:none !important;
+margin:0 auto !important;
+}
+
+table[class="max-width-150"] {
+width:170px !important;
+float:none !important;
+margin:0 auto !important;
+padding-top:5px !important;
+}
+
+table[class="table-width-530"] {
+max-width:530px !important;
+width:100% !important;
+margin:0 auto !important;
+float:none !important;
+padding-left:20px !important;
+padding-right:20px !important;
+}
+
+table[class="table-width-360"] {
+max-width:360px !important;
+width:100% !important;
+margin:0 auto !important;
+float:none !important;
+}
+
+table[class="width-120"] {
+max-width:120px !important;
+width:100% !important;
+}
+
+table[class="max-width-160"] {
+max-width:160px !important;
+width:100% !important;
+float:none !important;
+margin:0 auto !important;
+padding-top:5px !important;
+}
+
+table [class="max-width-140"] {
+max-width:140px !important;
+width:100% !important;
+float:none !important;
+margin:0 auto !important;
+padding-top:5px !important;	
+}
+
+td[class="padding-top-10"] {
+padding-top:10px !important;
+}
+
+td[class="padding-bottom-10"] {
+padding-bottom:10px !important;
+}
+
+td[class="padding-top-bottom-10"] {
+padding-top:10px !important;
+padding-bottom:10px !important;
+}
+
+td[class="title-style"] {
+padding-top:10px !important;
+font-size:20px !important;
+}
+
+td[class="title-style-v2"] {
+padding-top:10px !important;
+padding-bottom:10px !important;
+font-size:20px !important;
+text-align:center !important;
+padding-left:0px !important;
+}
+
+td[class="subtitle-style"] {
+padding-top:10px !important;
+font-size:15px !important;
+}
+
+td[class="align-center"] {
+text-align:center !important;
+}
+
+td[class="padding-left-0"] {
+padding-left:0px !important;
+}
+
+td[class="hide"] {
+display:none !important;
+}
+
+td[class=width-120] {
+width:120px !important;
+}
+
+td[class="text-align-center"] {
+text-align:center !important;
+}
+
+</style>
+</head>
+<body>
+<table style="mso-cellspacing: 0px; mso-padding-alt: 0px 0px 0px 0px; width:100%;" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td valign="top">
+<table style="mso-cellspacing: 0px; mso-padding-alt: 0px 0px 0px 0px; width:600px;margin:0 auto !important;" align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+
+<tbody>
+<tr>
+<td valign="top">
+
+<!-- Header -->
+<section class="" elq-edit="true" width="100%" elq-delete="true">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="mso-cellspacing: 0px; mso-padding-alt: 0px 0px 0px 0px; width:100%;" width="100%">
+<tbody>
+<tr>
+	
+
+			<td align="left" class="image-center" elq-delete="true" elq-edit="true" style="padding:30px 35px 18px 35px;" valign="top"><img alt="Logo" class="img-logo" elq-delete="true" elq-edit="Logo" src="https://theice--c.na139.content.force.com/servlet/servlet.ImageServer?id=0154W00000D9m1q&amp;oid=00DE0000000aVY2" style="padding:0;margin:0;font-family:Arial,Helvetica,sans-serif;border:0 none;display:block;"></td>
+
+		</tr>
+
+	</tbody>
+
+</table>
+
+
+
+</section>
+
+  <section class="" elq-edit="true" width="100%" elq-delete="true">
+
+<table style="mso-cellspacing: 0px; mso-padding-alt: 0px 0px 0px 0px; width:100%;" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+<tbody>
+
+
+<!--
+<tr> 
+<td class="" elq-edit="true" elq-delete="true" bgcolor="#3C444f" valign="top" style="height: 1px;"> </td>
+</tr>
+-->
+
+
+</tbody>
+
+</table>
+
+</section>
+
+<!-- Header -->
+<!-- Content -->
+<section elq-edit="true" width="100%" elq-delete="true" class="">
+<table style="mso-cellspacing: 0px; mso-padding-alt: 0px 0px 0px 0px; width:100%;margin:0 auto;" align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+
+<td bgcolor="#ffffff" valign="top">
+<table class="table-width-530" style="mso-cellspacing: 0px; mso-padding-alt: 0px 0px 0px 0px; width:530px;margin:0 auto;" align="center" border="0" cellpadding="0" cellspacing="0" width="530">
+<tbody>
+
+
+
+<tr>
+<td class="padding-top-bottom-10" elq-edit="true" elq-delete="true" style="font-family:Arial,Helvetica,sandbox;font-size:14px;color:#3C444F;line-height:18px;padding-top:25px;padding-bottom:20px;" valign="top"><font face="Arial, Helvetica, sans-serif" color="#000000">
+
+A support case has been opened. Please use 0900407446 to reference your case.
+
+</td>
+
+</tr>
+
+  <tr>
+
+<td class="padding-top-bottom-10" elq-edit="true" elq-delete="true" style="font-family: Arial, Helvetica, sandbox; font-size: 14px; color: rgb(60, 68, 79); line-height: 18px; padding-top: 10px; padding-bottom: 20px; border-style: none;" valign="top"><font color="#000000" face="Arial, Helvetica, sans-serif">
+
+Regards,&nbsp;</font><div><font color="#000000" face="Arial, Helvetica, sans-serif"><br>
+</font>
+<div><b style=""><font color="#000000" face="Arial, Helvetica, sans-serif">Client Support&nbsp;</font></b></div>
+<div><font color="#000000" face="Arial, Helvetica, sans-serif">icechatsupport@ice.com</font></div><br/>
+<div><font color="#000000" face="Arial, Helvetica, sans-serif">Visit our support portal at <a href="http://service.theice.com/">http://service.theice.com/</a> where you can create and track cases, chat, and view our knowledge base.</font></div>
+</div></td></tr>
+
+
+
+<tr>
+
+<td elq-edit="true" elq-delete="true" class="">
+    <table style="mso-cellspacing: 0px; mso-padding-alt: 0px 0px 0px 0px; width:100%;" class="responsive-table" border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tbody>
+            <tr>
+                <td style="vertical-align:top;">
+                    <table width="100%">
+                        <tbody>
+                            <tr>
+                                 <td>
+                                    <font face="Arial, Helvetica, sans-serif" color="#030203"><span style="font-size:11px;"><strong>Region</strong></span></font></td>
+                                <td>
+                                    <font face="Arial, Helvetica, sans-serif" color="#030203"><span style="font-size:11px;"><strong>Telephone</strong></span></font>
+                                </td>
+                    
+                            </tr>
+                            <tr bgcolor="#f1f1f1">
+                                <td>
+                                    <font face="Arial, Helvetica, sans-serif" color="#030203"><span style="font-size:11px;">Americas</span></font>
+                                </td>
+                                <td>
+                                    <font face="Arial, Helvetica, sans-serif" color="#030203"><span style="font-size:11px;">+1 770 999 4501</span></font>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <font face="Arial, Helvetica, sans-serif" color="#030203"><span style="font-size:11px;">EMEA</span></font>
+                                </td>
+                    
+                                <td>
+                                    <font face="Arial, Helvetica, sans-serif" color="#030203"><span style="font-size:11px;">+44 203 948 6501</span></font>
+                                </td>
+                            </tr>
+                            <tr bgcolor="#f1f1f1">
+                                <td>
+                                    <font face="Arial, Helvetica, sans-serif" color="#030203"><span style="font-size:11px;">APAC - Australia</span></font>
+                                </td>
+                    
+                                <td>
+                                    <font face="Arial, Helvetica, sans-serif" color="#030203"><span style="font-size:11px;">+61 3 9071 4592</span></font>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <font face="Arial, Helvetica, sans-serif" color="#030203"><span style="font-size:11px;">APAC - Hong Kong</span></font>
+                                </td>
+                                <td>
+                                    <font face="Arial, Helvetica, sans-serif" color="#030203"><span style="font-size:11px;">+852 3018 8279</span></font>
+                                </td>
+                            </tr>
+                            <tr bgcolor="#f1f1f1">
+                                <td>
+                                    <font face="Arial, Helvetica, sans-serif" color="#030203"><span style="font-size:11px;">APAC - Singapore</span></font>
+                                </td>
+                                <td>
+                                    <font face="Arial, Helvetica, sans-serif" color="#030203"><span style="font-size:11px;">+65 6817 6211</span></font>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span style="font-size:11px;"><font face="Arial, Helvetica, sans-serif" color="#030203">APAC - Tokyo</font></span>
+                                </td>
+                                <td>
+                                    <font face="Arial, Helvetica, sans-serif" color="#030203"><span style="font-size:11px;">+81 3 4520 8110</span></font>
+                                </td>                    
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td style="vertical-align:top;">
+                    <table width="100%" style="color:#030203;font-family: Arial, Helvetica, sans-serif;font-size:11px;" cellspacing="4">
+                        <tbody>
+                            <tr>
+                                <td>
+                                   <strong>Prompts</strong>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Option 1: BondEdge / ICE Data Analytics
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Option 2: Pricing &amp; Analytics
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                   Option 3: Consolidated Feed &amp; Tick History
+                                </td>
+                    
+                            </tr>
+                            <tr>
+                                <td>
+                                    Option 4: Desktops
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Option 5: ICE Data Derivatives
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Option 6: Indices &amp; IOPV
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Option 7: ICE Options Analytics and Quote Board
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</td>
+
+</tr>
+
+
+
+
+
+
+
+</tbody>
+
+</table>
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</section>
+
+<!-- Content -->
+
+
+
+
+
+<!-- Footer -->
+
+<section elq-edit="true" width="100%" elq-delete="true" class="">
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="mso-cellspacing: 0px; mso-padding-alt: 0px 0px 0px 0px; width:100%;margin:0 auto;" width="100%">
+
+	<tbody>
+
+		<tr>
+
+			<td bgcolor="#ffffff" valign="top">
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" class="table-width-530" style="mso-cellspacing: 0px; mso-padding-alt: 0px 0px 0px 0px; width:530px;margin:0 auto;" width="530">
+
+				<tbody>
+
+					
+					<tr>
+
+						<td class="padding-top-10" elq-edit="true" elq-delete="true" style="font-family:Arial,Helvetica,sandbox;font-size:1px;color:#ffffff;line-height:18px;padding-top:30px; padding-bottom:30px;" valign="top"></td>
+
+					</tr>
+					
+
+													
+
+				</tbody>
+
+			</table>
+
+			</td>
+
+		</tr>
+
+	</tbody>
+
+</table>
+
+
+
+
+
+
+
+</section>
+
+<!-- Footer -->
+
+
+
+
+
+</td>
+
+</tr>
+
+
+
+</tbody>
+
+</table>
+
+</td>
+
+
+
+</tr>
+
+</tbody>
+
+</table>
+
+
+
+
+
+
+
+<div id="_t"></div>
+
+
+
+
+
+
+
+
+
+</body></html>
+------=_Part_9039_361305172.1650574347466--

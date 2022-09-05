@@ -1,0 +1,497 @@
+From - Sun May 29 16:06:22 2022
+X-Account-Key: account1
+X-UIDL: AIGdL+le/pHYYpPfNgwVwBGFJb4
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.134.205
+ by atlas314.free.mail.ne1.yahoo.com with HTTPS; Sun, 29 May 2022 21:01:42 +0000
+Return-Path: <Ed.Hyman@evercoreisi.com>
+X-Originating-Ip: [40.107.102.42]
+Received-SPF: pass (domain of evercoreisi.com designates 40.107.102.42 as permitted sender)
+Authentication-Results: atlas314.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@evercoreisi.com header.s=selector2;
+ spf=pass smtp.mailfrom=evercoreisi.com;
+ dmarc=pass(p=NONE,sp=NONE) header.from=evercoreisi.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 29 May 2022 21:01:42 +0000
+X-YMailISG: ClRXifcWLDtv1zSkorUolo.SqetfEnQioBtFDa7UcMEn14OX
+ UCGUvjCKE74wOnYVKsUkVZn7WNlLLAUme54_SZ0aBfwlLV5LZ9lxOD_6l25m
+ eIyB7ISJNWzv_8NXx9Ul.onfyYY36hC3LslEnqphX8LlBEkIBa8XPNMZlQUA
+ G4FvZSyq4LG8lBFd1jkSZXRrZRPwkGrF5ln0AGtygVDcpHielWv77w.TOQ0O
+ mjNpzr6cl19fX027xQSKF1YFoH9xTQq15ZLlM_CbQNnw3gB6yM6pUv4SaY9A
+ XnVwBZ17_EdkV_Tlgrii.g2TPDEL02QIOj7jYU8Fwk.3x4zuQ3_B.pv2q_aS
+ 8PWpLBUJra8b2JQyZAUzGEtdP9qieQzqyUkGtEQy6NgUmCIIu8i9JrXZ4w60
+ cy5Hm17ydFL4g2dpqQzY7XYAUlhnqQBeYIBJ5NyNGb.hcF184aF0sZD0utx9
+ jrrHIzgMRKhVJDkCYdSsrmtRSS.yAmWQd8AtJHEUvjTz0rbKq1tqSVaoCRkb
+ O6eWwKbVvspyDC0IKgTNPq1rAZqAmurPDRWqLbIftLppe8IvDo2LM7oM4tI6
+ 4Ei6X3Ta37xD2LWxy5brwCFTqYpwL30tVTPWxH.eL85GHlJG9mI3BeOax3RY
+ PuXquS71cCSA16F0a3u4ArOvvXzb0II7xzoE_FLTZ5MXR0Yt5HCin8hZNeLB
+ 81cJaitLntxyHmyzjdcGAZgK0.VGYCKNqZZuUgim0rYgXOS1bls2XH.D4X3t
+ 5ShrRAseFjmHL.ZJBtwRVHMuppLqQhyUu_Fw5ZM2NJo6ByW6zZXst7kZbWg3
+ gMkXeYXcxdUenH.raicypOtCpA1Qqgps.XkhfjfR5Wq_kjjnUDokU3O3XInu
+ CeADwW8JDzY9CJH_34O1lxISAZIdiBc8jVWEtSv0JFMVue96lCvh1ZJlf5jw
+ dDx9jHwbTYsqwhwD0Wjk4PjdZBb9AI_JcoqIeYNo7HlxElzJD9dJBgvrgBSz
+ oxJy8e.A4KQ59zystpuGvF6AipeDr0K5ZzeewY3_2jZvbUedzSIQSBRGoKis
+ PbHXzmDEsl0uRr23Dgf1TluEzOIU29R1pSE9me8qFP5VvNda_s3GkLwMj652
+ T8p3kWGbfZZDGjbCYqy4nsyN4.UEbl5D4JEVzQYrEH7t73eD.ZG_fGbnFg0J
+ HQ6DLuUjQswjGsYI74GSwVoTwl1ugC2osvd1o5Div6U3eSTImUXP9wCdScJu
+ 1qkKl8X4cJNXdJTZsLGOv2FePoHANOSuyQ--
+Received: from 40.107.102.42 (EHLO NAM04-DM6-obe.outbound.protection.outlook.com)
+ by 10.217.134.205 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 29 May 2022 21:01:42 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=nET3C1w5t6rFznWNeC+XQTuP928OoS32q2mizxJ2mhX6eBaXMZTRa+NgrtMKIAm09BzSVY+fZSfzIkNduqxte4LD+WbQ30O/nlj3HJFRmYDVl2ETbY5qSc4tpdMSnBsEEK7U3k04u2GheyWRgbi2WVO2WzNrmVw9tO8J+GNoycL/dWM9SOr0lxqJCQtCtB1QoIL8aaw+fm8bi2S7zVce0uRNHdpFq7D9jSTN1sUerpXfcvQvzVpyBLwe3ekSpQbKeJvfahC1ziwv/kKPtAClPG855giIsNcC3zz8sxuZU/HT3wTqO8ob0Ix9rC+QxvI+7JdIr1koOPGNHFNXiwnnYA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=T+LffybClBdf+MmBfC1AKXVvzplunWPiyAuyvTMcft8=;
+ b=nW1kMJXbxcODIf6t4XGP5V9iTzrun2NXbLP52yD2FRqSBgup2ybwVp77Wtg2rDEry0VrY22sdgxJ7Gd5iaSCr+yKwI1Tq0fuVzo5MWellGRXYbmCCsJZv3AfvTOHuztCjuEUfNQMk7wxZiNUTBbV2Yf/S797XrJfZIIWbRcoLwCzQQrzDPBCI3Ee5AtoCrHYuslnLbBiHzgP89t9Z5uqa2uHWDqxGUFMKxuZ93ivY3ZWFaiVK0Ste3GN7kvp5yHFreQ3z3eLahz95B9XL4uNLKTjIknIHFeP7HUXJv4mtcLe9gLXPEiK4yKKNnPdd3kOCQHN2+WGyoAFh2S3skbd8g==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=temperror (sender ip
+ is 38.125.21.55) smtp.rcpttodomain=yahoo.com smtp.mailfrom=evercoreisi.com;
+ dmarc=temperror action=none header.from=evercoreisi.com; dkim=none (message
+ not signed); arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=evercoreisi.com;
+ s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=T+LffybClBdf+MmBfC1AKXVvzplunWPiyAuyvTMcft8=;
+ b=9ACE02yveU8avtbI79RP3BwdVteCkpAuqLPmdxDa4Y9L0+YsgnaBI34IRq/8XaXGjMGwgAxLvQCBtGM8L2jWwnitJd/dNCryKxW0k/Oj93hsNhw10Jkl+PhyzngAb0RXOE+zW0+WDXploVLinDZFcp9A1Osz5Z2MNK6Peqwaz4g=
+Received: from DM6PR11CA0025.namprd11.prod.outlook.com (2603:10b6:5:190::38)
+ by SA2PR08MB6507.namprd08.prod.outlook.com (2603:10b6:806:114::6) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5293.13; Sun, 29 May
+ 2022 21:01:39 +0000
+Received: from DM6NAM10FT063.eop-nam10.prod.protection.outlook.com
+ (2603:10b6:5:190:cafe::ea) by DM6PR11CA0025.outlook.office365.com
+ (2603:10b6:5:190::38) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5293.13 via Frontend
+ Transport; Sun, 29 May 2022 21:01:39 +0000
+X-MS-Exchange-Authentication-Results: spf=temperror (sender IP is
+ 38.125.21.55) smtp.mailfrom=evercoreisi.com; dkim=none (message not signed)
+ header.d=none;dmarc=temperror action=none header.from=evercoreisi.com;
+Received: from mail.evercore.com (38.125.21.55) by
+ DM6NAM10FT063.mail.protection.outlook.com (10.13.152.209) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5293.13 via Frontend Transport; Sun, 29 May 2022 21:01:37 +0000
+Received: from ecp-jc-exmbx1.evercore.local (10.170.4.18) by
+ ecp-jc-exmbx1.evercore.local (10.170.4.18) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.1.2375.17; Sun, 29 May 2022 17:01:36 -0400
+Received: from ecp-jc-exmbx1.evercore.local ([fe80::6c1d:cedc:19b4:ea9d]) by
+ ecp-jc-exmbx1.evercore.local ([fe80::6c1d:cedc:19b4:ea9d%6]) with mapi id
+ 15.01.2375.017; Sun, 29 May 2022 17:01:36 -0400
+From: "Hyman, Ed" <Ed.Hyman@evercoreisi.com>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: [EXTERNAL] THAT'S twelve-twelve, and probably about 58 to be
+ honest.
+Thread-Topic: [EXTERNAL] THAT'S twelve-twelve, and probably about 58 to be
+ honest.
+Thread-Index: AQHYc4nR4t4ISALVaUSxojOymUziag==
+Date: Sun, 29 May 2022 21:01:36 +0000
+Message-ID: <1b4f2db4de4841308453451d084d2948@evercoreisi.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+MIME-Version: 1.0
+X-EOPAttributedMessage: 0
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: b59b6b98-26aa-4707-a255-08da41b66bdc
+X-MS-TrafficTypeDiagnostic: SA2PR08MB6507:EE_
+X-Microsoft-Antispam-PRVS:
+	<SA2PR08MB65070B0CF9594494A8CA08A585DA9@SA2PR08MB6507.namprd08.prod.outlook.com>
+x-internal-source: yes
+Content-Type: multipart/mixed;
+	boundary="_fa787157-56e1-4ce1-bcb0-e4309bf22f8d_"
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	VBso74kh4tzSrjcQBjsAqtDZlnMKZON3G8nprVlAx/1q2l1ND2Asrab6XRqeHeXsIlHCSvw6OpTnvaXTzUqxJKKKSllsc8jfQYY0HektVq0I7QNDsFcnVfcuqCabQP53kNjpf8L8j0Vmi76X8Z2mcjTeHBiieydaY434yopK7dz9KlxPB6aURjPL1E+sC8nmWrw6DngFRmDaD9WGnh1mjpcc3b7hW4Y2Abb1lh63rU2V5X4DA3nUYDHjr1rzJF+glN7V00SxnEuIVyJ0NuoYDXNnee4U/k0USB2WAyOYbzQiMfg+ryaLt6JPbYMqgivLcKtWQ69VE8Ngdcq/pvMs+joWmGGrBeuz2qGG/h54y9lAwsw3naQz85x7lzbYnTTsPAJ9xU34q1g1aNSpFLs0MO8efbCxxLJMU6ziE7ONzruPzvbmJaeEBvWRDIQODWpb7A2GqNTMkAttEUEPLcWjUMleuFusdxTdaO5SlOCHc2ptCNiTi+2XIyiU0RY05mGKgv6PyS0vuMYlmumOIFFqXkMXqNcA6P+Fd0tgYYnmLqu7si6hTIXWZ7sG1CC9NHn25HIaONzY3oQ5t4ChOLRnSzwUJyekEdlIV2FxAZtrZBx9JZ/F1cCFhsKr/rd5C7raEa23kgKeMiCzMmxrtUFwEK9gJN6mxXBfazSnZP5XW9DxcAwD+asv9p+lYwGmQZ86vrsurIfvRriHw7Gmm3cUBmSAKlVD5bRs/GXj2Mlg4Wbav2cqbpLiNfi/T59HOV58
+X-Forefront-Antispam-Report:
+	CIP:38.125.21.55;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:mail.evercore.com;PTR:InfoDomainNonexistent;CAT:NONE;SFS:(13230001)(4636009)(46966006)(36840700001)(40470700004)(24736004)(508600001)(86362001)(40460700003)(36860700001)(108616005)(82310400005)(8676002)(26005)(70586007)(70206006)(2616005)(8936002)(81166007)(66574015)(47076005)(336012)(356005)(316002)(36756003)(2906002)(83380400001)(63370400001)(63350400001)(186003)(5660300002)(6916009)(19290500002)(36900700001);DIR:OUT;SFP:1101;
+X-OriginatorOrg: evercoreisi.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 29 May 2022 21:01:37.4727
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: b59b6b98-26aa-4707-a255-08da41b66bdc
+X-MS-Exchange-CrossTenant-Id: df2a9a6b-e42f-47b2-9ebd-6ce7a612e4f5
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=df2a9a6b-e42f-47b2-9ebd-6ce7a612e4f5;Ip=[38.125.21.55];Helo=[mail.evercore.com]
+X-MS-Exchange-CrossTenant-AuthSource:
+	DM6NAM10FT063.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SA2PR08MB6507
+Content-Length: 21956
+
+--_fa787157-56e1-4ce1-bcb0-e4309bf22f8d_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+
+________________________________
+
+IMPORTANT INFORMATION: This email is from Evercore. For further information=
+ about the particular Evercore entity which has sent you this email, please=
+ click here<https://www.evercore.com/regulatory/>. The information in this =
+email (and any attachment) is confidential, is intended only for use of the=
+ intended recipient(s) and must not be used by any other person. If you hav=
+e received this email in error, please inform Evercore immediately and dele=
+te the original. The security, accuracy and timeliness of electronic commun=
+ications cannot be assured and Evercore does not accept any liability for a=
+ny virus, malware or similar. If you do not wish to receive certain communi=
+cations from which you are entitled to unsubscribe under applicable law, pl=
+ease contact the sender of this email to unsubscribe.
+
+DISCLAIMER: Evercore does not provide tax advice and does not provide servi=
+ces to retail customers. Evercore reserves the right to monitor and record =
+electronic and telephone communications made by or to its personnel for reg=
+ulatory or operational purposes.
+
+PRIVACY: The personal information contained in this email and any attachmen=
+t, including the names and email address of any and all recipients, and any=
+ personal information provided in response to this email, is, to the extent=
+ applicable, handled by Evercore in accordance with its Privacy Notice whic=
+h can be found here<https://www.evercore.com/global-privacy-notice/>. Thank=
+ you.
+
+--_fa787157-56e1-4ce1-bcb0-e4309bf22f8d_
+Content-Type: message/rfc822
+
+X-MS-Exchange-Organization-InternalOrgSender: True
+Received: from DM6PR11CA0025.namprd11.prod.outlook.com (2603:10b6:5:190::38)
+ by SA2PR08MB6507.namprd08.prod.outlook.com (2603:10b6:806:114::6) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5293.13; Sun, 29 May
+ 2022 21:01:39 +0000
+Received: from DM6NAM10FT063.eop-nam10.prod.protection.outlook.com
+ (2603:10b6:5:190:cafe::ea) by DM6PR11CA0025.outlook.office365.com
+ (2603:10b6:5:190::38) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5293.13 via Frontend
+ Transport; Sun, 29 May 2022 21:01:39 +0000
+Authentication-Results: spf=temperror (sender IP is 38.125.21.55)
+ smtp.mailfrom=evercoreisi.com; dkim=none (message not signed)
+ header.d=none;dmarc=temperror action=none header.from=evercoreisi.com;
+Received-SPF: TempError (protection.outlook.com: error in processing during
+ lookup of evercoreisi.com: DNS Timeout)
+Received: from mail.evercore.com (38.125.21.55) by
+ DM6NAM10FT063.mail.protection.outlook.com (10.13.152.209) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5293.13 via Frontend Transport; Sun, 29 May 2022 21:01:37 +0000
+Received: from ecp-jc-exmbx1.evercore.local (10.170.4.18) by
+ ecp-jc-exmbx1.evercore.local (10.170.4.18) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.1.2375.17; Sun, 29 May 2022 17:01:36 -0400
+Received: from ecp-jc-exmbx1.evercore.local ([fe80::6c1d:cedc:19b4:ea9d]) by
+ ecp-jc-exmbx1.evercore.local ([fe80::6c1d:cedc:19b4:ea9d%6]) with mapi id
+ 15.01.2375.017; Sun, 29 May 2022 17:01:36 -0400
+From: "Hyman, Ed" <Ed.Hyman@evercoreisi.com>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: [EXTERNAL] THAT'S twelve-twelve, and probably about 58 to be
+ honest.
+Thread-Topic: [EXTERNAL] THAT'S twelve-twelve, and probably about 58 to be
+ honest.
+Thread-Index: AQHYc4nR4t4ISALVaUSxojOymUziag==
+Date: Sun, 29 May 2022 21:01:36 +0000
+Message-ID: <1b4f2db4de4841308453451d084d2948@evercoreisi.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+Content-Type: multipart/report;
+	boundary="_000_1b4f2db4de4841308453451d084d2948evercoreisicom_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+Return-Path: Ed.Hyman@evercoreisi.com
+X-MS-Exchange-Organization-OriginalArrivalTime: 29 May 2022 21:01:37.4727
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTime: 29 May 2022 21:01:37.5821
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ b59b6b98-26aa-4707-a255-08da41b66bdc
+X-MS-Exchange-Organization-OriginalClientIPAddress: 38.125.21.55
+X-MS-Exchange-Organization-OriginalServerIPAddress: 10.13.152.209
+X-MS-Exchange-Organization-MessageScope: 305baef7-5a88-48aa-95d6-a8049e3ebeb8
+X-EOPAttributedMessage: 0
+X-MS-Exchange-Organization-TargetResourceForest: namprd08.prod.outlook.com
+X-MS-Exchange-Organization-OrgEopForest: NAM10
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-Id: df2a9a6b-e42f-47b2-9ebd-6ce7a612e4f5
+X-MS-Exchange-Organization-MessageInboundConnectorType: OnPremises
+X-MS-Exchange-Organization-MessageInboundConnectorName: Inbound from
+ b95956a5-9e0d-4a31-9447-4d746258aa7d
+X-MS-Exchange-Organization-Base64-MessageInboundConnectorData:
+ TgBhAG0AZQA9AEkAbgBiAG8AdQBuAGQAIABmAHIAbwBtACAAYgA5ADUAOQA1ADYAYQA1AC0AOQBlADAAZAAtADQAYQAzADEALQA5ADQANAA3AC0ANABkADcANAA2ADIANQA4AGEAYQA3AGQAOwBDAG8AbgBuAGUAYwB0AG8AcgBUAHkAcABlAD0ATwBuAFAAcgBlAG0AaQBzAGUAcwA7AFQAZQBuAGEAbgB0AEkAZAA9AGQAZgAyAGEAOQBhADYAYgAtAGUANAAyAGYALQA0ADcAYgAyAC0AOQBlAGIAZAAtADYAYwBlADcAYQA2ADEAMgBlADQAZgA1AA==
+X-MS-Exchange-Organization-MessageInboundConnectorData: Name=Inbound from
+ b95956a5-9e0d-4a31-9447-4d746258aa7d;ConnectorType=OnPremises;TenantId=df2a9a6b-e42f-47b2-9ebd-6ce7a612e4f5
+X-MS-Exchange-Organization-InboundConnector-Attributes:
+ exoid=4a74a453-039d-45a5-9657-003f221476fe;id=8fc3796b-63b4-42bd-95f9-08d746259665;ty=1;idh=da598ae6-4762-805c-46c8-f3a50a22f9ab;Name=Inbound
+ from
+ b95956a5-9e0d-4a31-9447-4d746258aa7d;cr=971;whenCr=637054999540000000;ch=508;whenCh=637455308200000000;tl=1;mi=0;
+X-MS-Exchange-Organization-OriginalAttributedTenantConnectingIp:
+ TenantId=df2a9a6b-e42f-47b2-9ebd-6ce7a612e4f5;Ip=[38.125.21.55];Helo=[mail.evercore.com]
+X-MS-Exchange-Organization-SkipListedRecipientPilot: True
+X-MS-Exchange-Organization-Cross-Premises-Headers-Processed:
+ DM6NAM10FT063.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-Organization-ConnectingIP: 38.125.21.55
+X-MS-Exchange-Organization-ConnectingEHLO: mail.evercore.com
+X-MS-Exchange-Organization-AS-LastExternalIp: 38.125.21.55
+X-MS-Exchange-Organization-IsAtpTenant: true
+X-MS-Exchange-Organization-Originating-Country: US
+X-MS-Exchange-Organization-OriginalEnvelopeRecipients: ms60710444266@yahoo.com
+X-MS-Exchange-Organization-EhloAndPtrDomain: mail.evercore.com;
+X-MS-Exchange-Organization-MxPointsToUs: false
+X-MS-Exchange-Organization-RecipientMxInfo-PFAFD:
+ yahoo.com#mta5.am0.yahoodns.net;mta6.am0.yahoodns.net;mta7.am0.yahoodns.net
+X-MS-Exchange-Organization-Antispam-Routing-Category: 1
+X-MS-Exchange-Organization-HMATPModel-Spf: 6
+X-MS-Exchange-Organization-HMATPModel-Recipient:
+ <PII:H101(uOD7tntsrWbU2bAlwVIpMGhG04mE/yVGLTZnBPn6yj8=)>@yahoo.com
+X-MS-Exchange-Organization-TransportTrafficType: Email
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-OrderedPrecisionLatencyInProgress:
+ LSRV=DM6PR11CA0025.namprd11.prod.outlook.com:TOTAL-FE=0.015|;2022-05-29T21:01:39.137Z
+X-MS-Exchange-Organization-MessageLatency:
+ SRV=DM6NAM10FT063.eop-nam10.prod.protection.outlook.com:TOTAL-FE=1.660|SMR-PEN=1.660(RENV=0.097|REOH=1.549(SMREH=1.548(SMREH-Protocol
+ Filter Agent=1.546 )))
+X-MS-Exchange-Forest-ArrivalHubServer: SA2PR08MB6507.namprd08.prod.outlook.com
+X-MS-Exchange-Organization-AuthSource:
+ DM6NAM10FT063.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Forest-MessageScope: 305baef7-5a88-48aa-95d6-a8049e3ebeb8
+X-MS-Exchange-Organization-OriginatorOrganization: evercore.com
+X-OriginatorOrg: evercore.com
+X-MS-Exchange-Organization-Antispam-ProtocolFilterHub-ScanContext:
+ ProtocolFilterHub:SmtpOnEndOfData;
+X-MS-Exchange-Organization-KnownHighVolumeSender: True
+X-MS-Exchange-Organization-AcceptedDomain: True
+X-MS-Office365-Filtering-Correlation-Id: b59b6b98-26aa-4707-a255-08da41b66bdc
+X-MS-Exchange-Organization-P2SenderDisplayNamePII:
+ H101(aySJfL5YKfewW/LxEX9JyqCjUzQbgDbc6WGSkPIDeMg=)
+X-MS-Exchange-Organization-P2SenderPII:
+ <PII:H101(/tdDJPvp6DbUmJyemTgDWu3kgKO7J4wSQ+rLkJAsS3U=)>@evercoreisi.com
+X-MS-Exchange-Organization-PFAHub-Total-Message-Size: 10315
+X-MS-Exchange-Organization-OriginalSize: 10315
+X-MS-TrafficTypeDiagnostic: SA2PR08MB6507:EE_
+X-MS-Exchange-Organization-HygienePolicy: Premium
+X-MS-Exchange-Organization-ReplicationInfo:
+ ReplicaId=1e09b9da-fb3a-bee4-dfca-d46cb641da08;ReplicatingServerFqdn=CO1PR08MB6500.namprd08.prod.outlook.com
+X-MS-Exchange-Forest-Language: en
+X-MS-Exchange-Forest-IndexAgent-0:
+ AQ0CZW4BH+oBW3sNCiAgInN0cmVhbUF0dGFjaG1lbnQuSW5kZXgiOi
+ AwLA0KICAiQXR0YWNobWVudFByb3BlcnRpZXMiOiB7DQogICAgImF0
+ dGFjaG1lbnRFeHRlbnNpb24iOiAiVW5rbm93biIsDQogICAgImF0dG
+ FjaG1lbnRVcmxzIjogW10sDQogICAgImF0dGFjaG1lbnRJbm5lckZp
+ bGVzIjogW10sDQogICAgImRldGVjdGVkRm9ybWF0IjogInR4dCIsDQ
+ ogICAgImF0dGFjaG1lbnROYW1lIjogIlVua25vd24iDQogIH0NCn1d
+ AAFEAgAADwAAAx+LCAAAAAAABACdkd1q20AQhWdl/dhylBQKpZdz1T
+ bgdWy5iW2lKTG2Q0rrtMQKJJRerKV1oiJrE0lOqofpu3YkQaHQi1IY
+ VqudOd+cnf2pO/aN2qa4kVkmbqVj+8rD82Ijkg7OQ8deblffZZB7+H
+ V+7c8vLyafvqF/PvFfLzF/kvGj5PWngyIJ8T5VK7GKCxQrtc3xcIS5
+ wpXEO5XILO8STibEWm6TUBQdXIgC3XEH3Z7rouu5b73eGL8s8M2VP+
+ W9Q6/X28e5yHKZJuhHG0mJJb7CqUhEKPYd+0lkmEoRokr+ziRE3xsc
+ /TuTLJ5FiYh5KoPoPqrcXp5NR657TOPoVoM5lY8yDVQqoyzqBmrj2L
+ Mou1dZlEcq8VBsc7UReRRwEZQnB4vZBc+IxH9nRBwXxxiSKhaFpClf
+ 88Vy/iO441OVpjIWpY5/lIWHaq4mg4dhsL56SJbFwaN/uw1mk5MTx/
+ 6cRreV1UX9dPzDzMN349HRcLR2+3y9Dle8LwZDPh73BR8NZbAeSLfv
+ HorTQtwpVVp/X7ae1T74hdjIP97esUHTwbCgpYFugEWrBXYTbBMsk4
+ FDKzQboDehZTBTA9CgUYcJLR3MMstghwJ00urMsBhYQNGkX0qZTC9V
+ rFFpCd4klQYGyQlLrSvUf0Nsg8EemC1oE0Rj8BIaBpht2GmA0Qanxe
+ BZdReCvKjaObBHxays1Oi8rtyFPQvaTQbPoVU1NWjfLS9o1LEDDmEb
+ ZITBLmi1gXJcvwAp3p9CXQMAAA==
+X-MS-Exchange-Forest-IndexAgent: 1 829
+X-MS-Exchange-Forest-EmailMessageHash: C7149EA1,B0D6CBA0
+X-MS-Exchange-Organization-PhishSim-Rules-Execution-History:
+ 66deb8b3-01a4-4a17-8751-c64403a4546b
+X-MS-Exchange-Organization-Antispam-PreContentFilter-PolicyLoadTime:
+ PSOSUB:1;PSOSUBLOAD:0;PSOSUBRUN:0;PSOSUBCOUNT:1;SMORES:0;SMORESLOAD:0;SMORESRUN:0;SMORESCOUNT:0;SAORES:71;SAORESLOAD:23;SAORESRUN:0;SAORESCOUNT:1;SLORES:25;APORES:24;APORESLOAD:24;APORESRUN:0;APORESCOUNT:2;RSORES:23;SLORESLOAD:23;SLORESRUN:0;SLORESCOUNT:1;
+X-MS-Exchange-Organization-AttachmentDetailsHeaderStamp-Success: 1.0
+X-MS-Exchange-Organization-AttachmentDetails:
+ 0:m9A24pU5lq2whP6/k2rGac8gTwfRDRGZ6vf1RU6yfsQ=:U:Text:QVRUMDAwMDQ=::#:False:::N:::N::N:None:
+X-MS-Exchange-Organization-AttachmentDetailsInfo-ChunkCount: 1
+X-MS-Exchange-Organization-AttachmentDetailsInfo-0:
+ [{"ID":0,"FS":268,"HFH":"m9A24pU5lq2whP6/k2rGac8gTwfRDRGZ6vf1RU6yfsQ=","FE":"","CEXT":[],"CFT":[],"AF":0,"AFT":"{784:\"ATT00004\",789:\"text\"}"}]
+X-MS-Exchange-Organization-MessageFingerprint:
+ 3C10FD7F.1B969C9F.59D2BAFE.D6743AC3.2008A
+X-MS-Exchange-Organization-FeatureTable:
+ {758:"7CD0FD5C.1B961C9F.19D1B88E.F6F4FA03.20078",1010:0,1011:"5B53D5DE|16CC048C|"}
+X-MS-Exchange-Organization-Antispam-PreContentFilter-ScanContext:
+ CategorizerOnSubmitted;CategorizerOnResolved;
+X-MS-Exchange-Organization-AVScannedByV2: true
+X-MS-Exchange-Organization-AVScanComplete: true
+X-MS-Exchange-Organization-OffboxClassificationInfo:
+ {"EndpointId":"DCS","OperationIds":{},"OperationStates":{},"EndpointSettings":{},"Classifiers":[],"RuleInfos":[],"CorrelationId":"571a8cf6-61c3-4037-944e-f931d2dba1b0","ClassificationStartTime":"0001-01-01T00:00:00","OnSubmittedCompletedTime":"2022-05-29T21:01:40.2406349Z","CustomPipelineSubmittedTime":"0001-01-01T00:00:00","ClassificationResultsAccessedTime":"0001-01-01T00:00:00"}
+X-MS-Exchange-Organization-ExternalRoutingTopologyAnalysis:
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Organization-TotalRecipientCount: 1
+X-MS-Exchange-Organization-HVERecipientsForked: 1.0
+X-MS-Exchange-Organization-ASDirectionalityType: 2
+X-MS-Exchange-Organization-MetadataFeatureTable:
+ {756:0,757:0,1010:0,1011:"5B53D5DE|16CC048C|",1036:"46667"}
+X-Microsoft-Antispam-PRVS:
+ <SA2PR08MB65070B0CF9594494A8CA08A585DA9@SA2PR08MB6507.namprd08.prod.outlook.com>
+X-MS-Exchange-Organization-ConnectorAggregates-Last1Day:
+ up1em:105;p1p2em:749;ndrem:0;extem:1170;intem:0;up1rcpt:106;p1p2rcpt:750;ndrrcpt:0;extrcpt:1673;intrcpt:0
+X-MS-Exchange-Organization-ConnectorAggregates-Last8Day:
+ up1em:3716;p1p2em:9374;ndrem:0;extem:41107;intem:0;up1rcpt:3738;p1p2rcpt:9388;ndrrcpt:0;extrcpt:95035;intrcpt:0
+X-MS-Exchange-Organization-SkipAttachmentDetonation: DS:3
+X-MS-Exchange-Organization-Cross-Session-Cache:
+ =?us-ascii?Q?00CIP=3D38.125.21.55;EIPC0=3D2004,2055,950,951,2005,2006,200?=
+ =?us-ascii?Q?7,2008,2009,2010,2011,2012,2013,2014,2000,2050,2051,2052,952?=
+ =?us-ascii?Q?,902,2054,2016,903,901,905,2003,2001,3000,904,1773,2002,967,?=
+ =?us-ascii?Q?2058,2059,2060,531,2017,5080,5001,5057,5058,5056,5054,5051,5?=
+ =?us-ascii?Q?052,906,5010,5055,5053,5059,5011,5002,5003,5005,5070,1904,16?=
+ =?us-ascii?Q?07,1609,1803,1608,1903,1681,796;MIPC0=3D;REP=3D01,1,-9223372?=
+ =?us-ascii?Q?036854775808\;01,2,-9223372036854775808\;01,3,-9223372036854?=
+ =?us-ascii?Q?775808\;01,4,-9223372036854775808\;01,5,-9223372036854775808?=
+ =?us-ascii?Q?\;01,6,-9223372036854775808\;01,7,-9223372036854775808\;01,8?=
+ =?us-ascii?Q?,-9223372036854775808\;01,9,-9223372036854775808\;01,10,-922?=
+ =?us-ascii?Q?3372036854775808\;01,11,-9223372036854775808\;01,12,-9223372?=
+ =?us-ascii?Q?036854775808\;01,500,-9223372036854775808\;02,1,-92233720368?=
+ =?us-ascii?Q?54775808\;02,2,-9223372036854775808\;02,3,-92233720368547758?=
+ =?us-ascii?Q?08\;02,4,-9223372036854775808\;02,5,-9223372036854775808\;02?=
+ =?us-ascii?Q?,6,-9223372036854775808\;02,7,-9223372036854775808\;02,500,-?=
+ =?us-ascii?Q?9223372036854775808;SL=3D1;EMSL=3D1;SCL=3D0;BL=3D0;RL=3D1;PI?=
+ =?us-ascii?Q?D=3D0;EXPID=3D;TIP=3DNotListed;CIPCRY=3DUS;SAUTHOP=3D1;RMX?=
+ =?us-ascii?Q?=3D;A=3D00;MX=3D07;PTR=3D02;SPF=3Db0601RWQuSHltYW5AZXZlcmNvc?=
+ =?us-ascii?Q?mVpc2kuY29t;DKIM=3D;DMARC=3D07ZXZlcmNvcmVpc2kuY29t\;;AUTHRES?=
+ =?us-ascii?Q?=3D[mx.microsoft.com,1]{5,5,VABlAG0AcABFAHIAcgBvAHIA,cwBlAG4?=
+ =?us-ascii?Q?AZABlAHIAIABJAFAAIABpAHMAIAAzADgALgAxADIANQAuADIAMQAuADUANQA?=
+ =?us-ascii?Q?=3D,cwBtAHQAcAAuAHIAYwBwAHQAVABvAEQAbwBtAGEAaQBuAA=3D=3D|eQB?=
+ =?us-ascii?Q?hAGgAbwBvAC4AYwBvAG0A,cwBtAHQAcAAuAE0AYQBpAGwARgByAG8AbQA=3D?=
+ =?us-ascii?Q?|ZQB2AGUAcgBjAG8AcgBlAGkAcwBpAC4AYwBvAG0A}{9,5,VABlAG0AcABFA?=
+ =?us-ascii?Q?HIAcgBvAHIA,,YQBjAHQAaQBvAG4A|TgBvAG4AZQA=3D,aABlAGEAZABlAHI?=
+ =?us-ascii?Q?ALgBmAHIAbwBtAA=3D=3D|ZQB2AGUAcgBjAG8AcgBlAGkAcwBpAC4AYwBvAG?=
+ =?us-ascii?Q?0A}{2,7,TgBvAG4AZQA=3D,bQBlAHMAcwBhAGcAZQAgAG4AbwB0ACAAcwBpA?=
+ =?us-ascii?Q?GcAbgBlAGQA};EIPC2=3D1904,1607,1609,1803,1608,1903,1681,796;?=
+ =?us-ascii?Q?MIPC2=3D;SpfResult=3D6;DkimStatus=3D7;DkimSS=3D0;DmarcStatus?=
+ =?us-ascii?Q?=3D5;DmarcAction=3D0;PReRC=3D1;ATCHC=3D1;URLC=5FBE=3D0;URLC?=
+ =?us-ascii?Q?=5FBEC=3D0;URLC=5FAE=3D0;FC=5FDBG=3D256;FPR=3D3C10FD7F.1B969?=
+ =?us-ascii?Q?C9F.59D2BAFE.D6743AC3.2008A;TDNA=3D7CD0FD5C.1B961C9F.19D1B88?=
+ =?us-ascii?Q?E.F6F4FA03.20078;NoDLx=3D1;CGDLxSupported=3D1;DIR=3D2;ATCHF?=
+ =?us-ascii?Q?=5FDBG=3DDS:3?=
+x-internal-source: yes
+X-MS-Exchange-Organization-Rules-Execution-Log:
+ 6fb60478-b6b1-4baa-a7d1-0c8a3dac512e
+X-MS-Exchange-Organization-Rules-Execution-History:
+ =?us-ascii?Q?6fb60478-b6b1-4baa-a7d1-0c8a3dac512e%%%d2c90faf-6189-4de9-9f?=
+ =?us-ascii?Q?f4-dba6369d9718%%%f968b7d6-1a42-4ef2-b1b3-c690134393c4%%%4f3?=
+ =?us-ascii?Q?17a43-6955-4e7e-a97d-c85cd657b20b%%%8ceea97c-e3a7-4925-82de-?=
+ =?us-ascii?Q?591be4e951bd%%%c76367b8-d8a2-40ca-980e-18f3f27a11b3%%%f0c9ef?=
+ =?us-ascii?Q?57-b831-447d-b05e-2190b78bdf36%%%e2207ac0-cb20-488f-84f5-936?=
+ =?us-ascii?Q?772839c8c%%%1eb7ffd9-4cfc-492c-9d7c-cc1f8193b89a%%%cc943e38-?=
+ =?us-ascii?Q?bcc3-4b04-baf0-59178297ecde%%%86833a16-de41-468e-ab62-e2fa74?=
+ =?us-ascii?Q?2d4396%%%37bdb026-3386-401f-a083-04fccdc859e3%%%fae13ede-104?=
+ =?us-ascii?Q?e-43a8-be9d-b441845dff71%%%c6c2d0d5-456e-4c3a-9088-949a8cec2?=
+ =?us-ascii?Q?30a%%%c200b54e-9c0e-48d9-90ee-c54c68901459%%%4b81cffc-5d72-4?=
+ =?us-ascii?Q?e6f-9e8c-c5efa34d07e0%%%d29f9ce1-64d6-4795-b933-5c4d66a788d6?=
+ =?us-ascii?Q?%%%b2c9fef5-9776-451f-aa60-be7ca6f09c4c%%%2744e6af-4a1b-476e?=
+ =?us-ascii?Q?-bad8-6c6a070f010f%%%9b08786c-3372-4d3a-a6ca-cd83ca743ba9%%%?=
+ =?us-ascii?Q?60711e82-0d5d-43c6-918e-84ee6cba82ed%%%dfc43b09-a656-4c76-8c?=
+ =?us-ascii?Q?fa-e726058317d9%%%7c7c5a3d-dbb5-4318-a417-1a8e4b8f458e%%%80f?=
+ =?us-ascii?Q?84a85-245d-41fe-b7cf-8f5b2440463f%%%d4bb0129-fbce-4193-8021-?=
+ =?us-ascii?Q?c9f94232c92d?=
+X-MS-Exchange-Organization-Rules-Execution-History:
+ =?us-ascii?Q?7cc7f428-486a-4cd3-a060-7e62ab3857d9%%%ca45c675-8e5e-49d9-bb?=
+ =?us-ascii?Q?d4-6a9cf4b8c70c%%%dba0a9df-b659-4a2d-88ac-d6c9265f804c%%%42b?=
+ =?us-ascii?Q?7e0dc-f570-4a72-9eaa-bf64cfcc901e%%%232af07e-a381-4c39-aaef-?=
+ =?us-ascii?Q?cf7668867f90%%%1b7a1b43-8418-43cf-abf2-c09452c6bf56%%%2be7e1?=
+ =?us-ascii?Q?3c-e823-4a66-975e-1d1475c39a8f%%%3cfdbfb4-037c-48df-a00b-ead?=
+ =?us-ascii?Q?1d95d3e7d%%%7f956f8f-f166-45ee-a807-43d046658094%%%df0ea7f0-?=
+ =?us-ascii?Q?09a2-4668-93d3-68435ea297a8%%%2a521cfb-f555-4752-aaab-6988c5?=
+ =?us-ascii?Q?90104f%%%27ada27f-5c3d-4a9b-b7d8-2c4859204069%%%fdf18121-292?=
+ =?us-ascii?Q?5-4fb7-bac5-a4affeaddfaa%%%ebf067a4-b20d-461b-a9ce-820b0da14?=
+ =?us-ascii?Q?ff5%%%34f7fae2-ad20-402a-9f76-519fe66ee4ee%%%d7b78dfc-d62e-4?=
+ =?us-ascii?Q?512-a348-b241aea4f3e5%%%56ec00f9-bd96-4828-816d-33ee585ba324?=
+ =?us-ascii?Q?%%%ff90685e-07d8-4c83-8000-ac74cf18fffe%%%ca07d623-3bf7-4a90?=
+ =?us-ascii?Q?-8250-2869932ec998%%%0fcdbcf0-f0ee-4e41-a2cb-0cfd3bd269ab%%%?=
+ =?us-ascii?Q?ea696d76-f2ec-4b4b-80df-b54569eb3ff8%%%407b5645-0234-4caa-a0?=
+ =?us-ascii?Q?52-2d7d220af92b%%%b582c0b1-0e96-4aae-b481-9c8b3a857f07%%%6db?=
+ =?us-ascii?Q?6a6f5-6581-4057-9ee6-d314c619f730%%%4022f691-9941-47d5-904a-?=
+ =?us-ascii?Q?b4d976fe4f21?=
+X-MS-Exchange-Organization-Rules-Execution-History:
+ =?us-ascii?Q?b5be4bb1-2093-4eef-a2cf-09df8ffb7358%%%a8a8c8a1-692d-405b-b2?=
+ =?us-ascii?Q?09-07326f3d26aa%%%49f9839f-95e3-4dc0-91e1-4d1e99591e2e%%%4cf?=
+ =?us-ascii?Q?419c1-89a9-4fb9-a77d-f031eac41085%%%83fa17f1-1cfd-45af-8142-?=
+ =?us-ascii?Q?44fb93b3ed94%%%2f4a47e4-ebc8-40e1-9b5a-916709f723c9%%%28afba?=
+ =?us-ascii?Q?74-75ed-4670-9142-276d76d5f98b%%%0968cc74-db61-4165-a9bb-7b3?=
+ =?us-ascii?Q?80148de8e%%%546ce836-a0e1-4efa-8bde-4fbb6c412f6e%%%2b4c9bf9-?=
+ =?us-ascii?Q?f8e5-42c9-9b73-228971b35f23%%%ea8d0e41-b37d-4d32-bf46-de8d1f?=
+ =?us-ascii?Q?e51073%%%6626df04-0c73-484b-9f4c-9a56bf42018f%%%e56d5a05-546?=
+ =?us-ascii?Q?a-4257-bf5c-bbf7980cfb10%%%8546c63d-a7ce-476d-a28c-62406a836?=
+ =?us-ascii?Q?890%%%91adcdd0-6423-46ec-b9cf-4b4124bda0f5%%%f304bb00-0e82-4?=
+ =?us-ascii?Q?86a-976d-45d90e7b2098%%%fe6171a0-fb04-407a-baf9-d1eef8b56a05?=
+ =?us-ascii?Q?%%%dc718d4e-7eb7-4710-88c5-269957316067%%%294d3e04-85e0-446e?=
+ =?us-ascii?Q?-bfef-0fcf960ef4fc%%%a28afa7c-43b1-4944-b9ad-1b1d3bec1e38%%%?=
+ =?us-ascii?Q?8479d272-70d1-488b-9ce1-6ef4c805d784%%%6eeb53bc-a4f9-4d2b-89?=
+ =?us-ascii?Q?40-f5b2340f28bb%%%0e07e478-7dbd-46c0-9cdb-68cb0d8678cb%%%f3f?=
+ =?us-ascii?Q?0df28-91ef-47a8-b7a8-256eb77f18d1%%%83f19f7e-65e6-4915-b4d5-?=
+ =?us-ascii?Q?88c9fa22ce96?=
+X-MS-Exchange-Organization-Rules-Execution-History:
+ d0402454-3b8c-4188-b74c-e6248ec26eaa%%%70c7dab7-c0e7-4519-9f72-8c2e37b72991%%%cad10be9-8d49-43b8-8151-4cd13fbe919d%%%25a9ff06-1539-4667-8eb4-2d8e0aaeae43%%%bf962867-50a6-41b7-b91c-87e800402d27%%%3645a681-ca7e-49ae-8b8a-b82011f7a6fd%%%58dd8689-56ca-4e54-b5ac-658f1e1ae2cf
+
+--_000_1b4f2db4de4841308453451d084d2948evercoreisicom_
+Content-Type: multipart/alternative;
+	boundary="_002_1b4f2db4de4841308453451d084d2948evercoreisicom_"
+
+--_002_1b4f2db4de4841308453451d084d2948evercoreisicom_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Hyman, Ed
+   Subject: [EXTERNAL] THAT'S twelve-twelve, and probably about 58 to be ho=
+nest.
+   Sent: Sunday, May 29, 2022 2:24:09 PM (UTC-05:00) Eastern Time (US & Can=
+ada)
+
+ was read on Sunday, May 29, 2022 5:01:36 PM (UTC-05:00) Eastern Time (US &=
+ Canada).
+
+--_002_1b4f2db4de4841308453451d084d2948evercoreisicom_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:10pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Hyman, Ed<br>
+&nbsp;&nbsp; Subject: [EXTERNAL] THAT'S twelve-twelve, and probably about 5=
+8 to be honest.<br>
+&nbsp;&nbsp; Sent: Sunday, May 29, 2022 2:24:09 PM (UTC-05:00) Eastern Time=
+ (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Sunday, May 29, 2022 5:01:36 PM (UTC-05:00) Eastern Time =
+(US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_1b4f2db4de4841308453451d084d2948evercoreisicom_--
+
+--_000_1b4f2db4de4841308453451d084d2948evercoreisicom_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; Ed.Hyman@evercoreisi.com
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: oEoA3q7cfUqnSy/vTgucDA==
+Original-Message-ID: <98678f21-ffdb-1a37-991a-87ecf3e2125a@yahoo.com>
+X-Display-Name: Hyman, Ed
+
+
+--_000_1b4f2db4de4841308453451d084d2948evercoreisicom_--
+
+--_fa787157-56e1-4ce1-bcb0-e4309bf22f8d_--

@@ -1,0 +1,1193 @@
+From - Sun Apr 17 11:59:27 2022
+X-Account-Key: account1
+X-UIDL: AIQ9CcUYTPLXYlSyxwBOIP0Bt0Q
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.39.235
+ by atlas119.free.mail.bf1.yahoo.com with HTTPS; Mon, 11 Apr 2022 22:59:18 +0000
+Return-Path: <ms60710444266@yahoo.com>
+X-Originating-Ip: [74.6.131.108]
+Received-SPF: pass (domain of yahoo.com designates 74.6.131.108 as permitted sender)
+Authentication-Results: atlas119.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 11 Apr 2022 22:59:18 +0000
+X-YMailISG: .6e7nysWLDtGAtm7G4hm6Z3i98GbUvOh7PRalD.UhOEYvAa8
+ W4SgUeFuc7GOBPcvYwTqLFcDv9dUS7WaaAPq7.26GzNDEFszMsjRLWWsD1ij
+ c1THqp7H4TEjXZsFiGtfb_d_oXvF7m1EJqShIhNGbi7W5AKOZkLIiMgTfZfZ
+ MHzBF990gphtUMFDRceLtyvoMmJGWGnNicrpaGS.Ze3UO74vOTDaYf6eyrhu
+ sSFzBjdwJQqiVBmtn_0E8EeEIXMWbiI9eKjFRpyk6b5Xc7pzy.niChrxAQ_h
+ x5y6iZX5mlkJU3nVe1mjW1L8p4zzLQMCA3LNiNRQljo6F39e8kH7iIsiLr2N
+ D1hxMO5KKWLUsK7rUY5afqLCrRhSrJdx7R_3rC4wgywNrON_Lkve_sQAAGEl
+ LJPKBJ07EmG.6tNFYCoBGq9XB2vQJNF8VeUiBugqj0Ua1DWMGyRs.3YrnA7O
+ qBeDDTs9u3d0TvEmN0xjPcKElzj2fJRWOhBdG9CWRwaaR2Twx9VIOn9ryJws
+ iwLfCIrmY1ZFUArg8735SB.uQDNV.vQjm27KBIyEGW1ldUl03aPH8BO4ijvM
+ F1gJvsGJj5lKodxvDb2VGTO7oB_h9bN2VWP9TUoiz8MP2TfrgDWcR29duGfL
+ rH6UkZOUTYiU7QUGOYChM_anCQJxqj0ZgQoMUuhlW_bsZpA2wkBLBSgTG.io
+ q4VlqCJw5pmXPpKJct4cg5nUywLgRNKjpCSe.DHpH5MTFl7WRhKuwu5DW07z
+ ZRASGlUwMbYPGaT.aHWk_5YAYntok9oqVLdeFEPm5IQaug_3_ZgqCx6i1HTq
+ YJBjtbiWUrlkfkyxRW81dnI1mq351yKmWyWzvbH1oFZyIK0VHNvX1sEmJiWn
+ RiF6007uTE9AzykW7Qx5kfA_mp16ZEtyOyO5hXIrY94BKVEPbHp9p6pq4V04
+ LmYgdIOjCy84kPxlLZ_tx4AIkm4J8rP0FBRprX2IuB3aNEPy21B7vFFd1Mi6
+ uK2geuIllVuf8tPdyPCP5cOYd5Q6HxioYE9T6FhVtI4gEXSuTYRnqlBUdLHR
+ S8BHsq6Gq9cyAbU7CGKvnE6FEaJ6Xw_G6qfITbs6Wvc4B50U92sz1IkzZQTC
+ C6NOmq8lFMckRSaC7qf3bxtsFdYJxwmU.dIyP28qGJbf3Btq8Dlmzbb96Cwc
+ TAt0R8Hcsyo5fIWN2sAPnTBA9..qrB9wDUafOS8dxsHE_C6GO9s-
+Received: from 74.6.131.108 (EHLO sonic319-53.consmr.mail.bf2.yahoo.com)
+ by 10.197.39.235 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Mon, 11 Apr 2022 22:59:18 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1649717958; bh=e/P9PFNMx0VTORrrONgAgu6SgsTLwYvWO3OXT4FfdAg=; h=Date:From:To:Cc:In-Reply-To:References:Subject:From:Subject:Reply-To; b=rPml4yfyiTeh+/KKsU8MvZ7eb3zMZnn1oe4yLgrZ/ml0B5PFmN/OW4IZUCvcWONoDren98+o7ToG1QGHSGZDFYdtQN4xY058RDNvfs+evm+KMP6SiSO+D1qpSgNTpjPYhJzH28unmP3dlVr9qejOckZyPSuGHtN+NvZt8OECw3sv6QgqVn2dxWeBx9GXf1tphaZ67TMS76wAv/OZkAo5FUFQCXwVyaG1LJNxue2gYcLEG8V4VRh9Rqou+yk7j2ChepIKjlcjyM3UKqEQjX8rjRb2epUkbKCk2BF2fhr2RbbmlIc1ij58qxuMRxjMUwvHZJ0XBPJPyB0gQnyUe2t1mA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1649717958; bh=49ZDmpHHWDHIQxhiQuzhOs12pgakT//z+MHYlEX/pE9=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=oTW9nAJpzbALkY1SW24KSQvH7/1JbQbg5tftO9uqnFsOJcx8yN7d73xCnYlB9s6BMlSII2764C0diHauJXgGl0xXW0oz5v+qM3yQ5r87bVeNgjndalIwF45acv/dO2B/dDepC3hETkkiFQbLg6n1l1cVWYOjWOzC6V/9bb2b1nyta8gsE1iCmE8kX/VmelsehlYvxlvxL+NHkLPuxnSGCFmXfBJfhZgkE0jPsqQQGJdoXy0EQCFUGOWMIZZeyK8EzZjsAO5Uv0Ie++zQHpI65gtIoy3i+AGwV8y/8UYF4QtvDl5zKkjrd19tVi9/uIRfoU1YgKR48Sc5U/kl9BsHdA==
+X-YMail-OSG: KTOZnAoVM1kWvtHANCOpYtdt8eH478Turi0t70IKKLNwX0TDdtf5Q_Wm00SNjzx
+ hyXXtwwvhr4G4CmHuPjoMTe1cOJr0QEWmLW7rn6e5SqnlmHX4G1cWnbexMXx8ijO.Uzl0gCrviZ3
+ 5f_6U9XqS45p02fO3mh07kgXBrpEQw2T3Q4tk_E5v_Xsk7nOhFurNeXGSE7uorcq03p8e8aE_smR
+ EBIuAcpynM2tMDU3xb5J7xqC3Tf_pU7BHyNjyePgpyDzWLISIt3PNm16SUkRt8KHRKNf9RWcw1pc
+ PhF7tW4f5b99Gi8Xt8mKWWO9lnj4_6RHVC7Akk1Sms4nYxrQX6ig2KwwOIsV3itX.91QkXzWWK1T
+ CrQv349NqCNrbzTgD4KOl1KXE6Ui34ogz13ZUAaHHrkBiDM2_hhKpLCFilHeJMH6BdlZ3oe9vYnT
+ 2_1zP7nN8BbXp3gR8xaeLujfTLM2haG_OWmMRsGoVkph82b7gHShitXn9XjFyv6gh3cyzgMAGUHY
+ T_5E.BuWUrXcfoaaxf6NZziWN5_O0Uyq9AO5ZMoQerYzV1eF.GoLK4IrRaC93wPx26PeT5u61wXq
+ V7sWBV8wBBVBbo0v4U14uxdtdsaaQ1evaO_ig4L_L8AkcYHzjJ6QOpXX2MNVZ2_gzpFSgpPc0jTQ
+ t1l9iEfEwdnnM8BjNevfg.HqFdxtoRsm18eXQYL.hTEwp2GETsuNaFMXXeMBCeYZKkwhOLE8aIBb
+ MVgaT6VWb0y4daXstFk5s0eFTtnq2PS3E8ljGNwAeAkBzs2yNFr3uEI9SZWMeIiZmxG_mm0p.I5E
+ xct.EyhbsPEgbQQtvpxs7PSpEs3zREMJDNuShFSnAhL7pJa.FouMFIHbNXbnasUyuO7pclmXhG8w
+ U7s5w9C9_oeOG50Rlf7_jndzOyqCwTHCDtStoYCCHtsF6ngPOWPQdBYWtz8Zp8RlWLdZhYe4wSJN
+ a7rtGBDyhYVVpjE_gttlBmitq_9M3roSt3yhzOiDJAdyB3X7UYxX62grlrlCZlmYowZav8VajIt6
+ c98A5o.7m7QOKe6HHwC7tD6YiMGn3ATxNLL.UvbsnqD1rCxW7bd5UpwYNqrKqYi.oaHjv7MZr29S
+ aJUPXbhGBeGGc7JuNGeetypQGw6tMGWOJUfTY7YSqwOatkh6IWx0vx4jnZaeyZ43IEy2ma3D0QBU
+ 51za0jcawM2SjngVZtLUkTfUCR0a3n02XIMEvYdMNNyzGB1sp2hEXO7PxwjApX.NT1vnHFVDR7s6
+ nRWL8dFbH9vDMGjp0BftyhEZAz.8hkEWjCWDzCosK8gZG5ZNAaGZ7Po_oxV9_eUcyFWWH15W8_O1
+ XXsFcTgRGBP03A6QvQjbwFS2pBAs469kAjugDwEBuKv8Xo2WexA5xR4WdgScsfZXxJmt5KaZiy.2
+ mkRyEK_SAmfgqd8IpwdWOjX9Vs_3ZZIaRgqidWgnvpLaWG3mJIvbD1v27YXOsYtAWOZev3eOlIPM
+ JK78qHtXs69tgITVO1sd8nuR.Y51WX3JAJvaRyt5D.zVLl1VEpMI1mvFP.OajKcBs9odBYjgQ3tG
+ sTzuYr77S_0NaKuitmbIAn8JdjD29isDaI12kisi.YxbZa8ymFUSjpPmiodqExlrtwvfzWp76k4Z
+ VybSfPqdmRSveIZKBfJ97NZB9499fF.7ffcB_CIoIOvykF4Dc2mTWTnEhlocZ6z8eUur94KZ8gLH
+ NWpbpDBRIrtG83vctifXYwT.EcKhLxv4.GZwyRYMIWED.ao6S7.6fWBS6hvdBoqJnbwWvu2WShZ3
+ wwL_vJiSfIHwvO2USFbnPocY_zQdvNYvhbQKHHlsKlDhi_5KeLg6k0a8OIE1fBQo8rhOmSsQW4k5
+ CgQ.KzpBUIlr0SaufKz8EutO62jMpndAHCi_8OSo8CYi3KkxTO.cMWRfhMEqpJRvkURF5R7_8baC
+ tP2Sbrry5o2jYBCu6AnK6iTzwmJT55O3QuuL2ppOPRIZL5RH2xWCArlZMoJs8AE7ahP.PR24WCd4
+ 7tKV0DWsYqXWT5fJvXxvAnpb9uY8sjMqBI8LKFwYY1CYgjNY3QigUcw2M6rtSKK9mvPqzPQkBnf1
+ KEonB.Z2z6cy5pfk9FfD796x3xFd2W88ctlx_DoILQdzgmd1umZREXv5hcpw.F4KpELRSD7WGib7
+ F9xFeNBJFHpI38mLoEmw95CfQP8r4L21HrWG8mtQfp02PBUFOcJH3A9PXPGhe5Rki3Cgsc43lejW
+ 0EFnaQCU-
+X-Sonic-MF: <ms60710444266@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic319.consmr.mail.bf2.yahoo.com with HTTP; Mon, 11 Apr 2022 22:59:18 +0000
+Date: Mon, 11 Apr 2022 22:57:17 +0000 (UTC)
+From: MILTON MCKENZIE <ms60710444266@yahoo.com>
+To: "60710 BD. 153974" <bdincer66@icloud.com>, 
+	"dataprivacy@Point72.com" <dataprivacy@Point72.com>, 
+	dataprivacy@point72.com, Rule-Comments <rule-comments@sec.gov>, 
+	"kdarras@isda.org" <kdarras@isda.org>, 
+	"Inquiries@Point72.com" <Inquiries@Point72.com>, 
+	inquiries@point72.com, 
+	"jpmcinvestorrelations@jpmchase.com" <jpmcinvestorrelations@jpmchase.com>, 
+	"jennifer.vanoss@pwc.com" <jennifer.vanoss@pwc.com>, 
+	"jordana.strosberg@pwc.com" <jordana.strosberg@pwc.com>, 
+	"kivalena.starr@pwc.com" <kivalena.starr@pwc.com>, 
+	"larissa.vonlockner@pwc.com" <larissa.vonlockner@pwc.com>, 
+	"megan.disciullo@pwc.com" <megan.disciullo@pwc.com>, 
+	"ryan.a.cangialosi@pwc.com" <ryan.a.cangialosi@pwc.com>, 
+	"will.b.hodges@pwc.com" <will.b.hodges@pwc.com>, 
+	"atlanta@sec.gov" <atlanta@sec.gov>, 
+	"boston@sec.gov" <boston@sec.gov>, "CHAIR@SEC.GOV" <CHAIR@SEC.GOV>, 
+	chair@sec.gov, "CHICAGO@SEC.GOV" <CHICAGO@SEC.GOV>, chicago@sec.gov, 
+	"CommissionerCrenshaw@sec.gov" <CommissionerCrenshaw@sec.gov>, 
+	commissionercrenshaw@sec.gov, 
+	"CommissionerLee@sec.gov" <CommissionerLee@sec.gov>, 
+	commissionerlee@sec.gov, 
+	"CommissionerPeirce@sec.gov" <CommissionerPeirce@sec.gov>, 
+	commissionerpeirce@sec.gov, 
+	"CommissionerRoisman@sec.gov" <CommissionerRoisman@sec.gov>, 
+	commissionerroisman@sec.gov, 
+	"cshugg@usinfosec.com" <cshugg@usinfosec.com>
+Cc: "jennifer.vanoss@pwc.com" <jennifer.vanoss@pwc.com>, 
+	"jordana.strosberg@pwc.com" <jordana.strosberg@pwc.com>, 
+	"kivalena.starr@pwc.com" <kivalena.starr@pwc.com>, 
+	"larissa.vonlockner@pwc.com" <larissa.vonlockner@pwc.com>, 
+	"megan.disciullo@pwc.com" <megan.disciullo@pwc.com>, 
+	"ryan.a.cangialosi@pwc.com" <ryan.a.cangialosi@pwc.com>, 
+	"will.b.hodges@pwc.com" <will.b.hodges@pwc.com>, 
+	"atlanta@sec.gov" <atlanta@sec.gov>, 
+	"boston@sec.gov" <boston@sec.gov>, "CHAIR@SEC.GOV" <CHAIR@SEC.GOV>, 
+	chair@sec.gov, "CHICAGO@SEC.GOV" <CHICAGO@SEC.GOV>, chicago@sec.gov, 
+	"CommissionerCrenshaw@sec.gov" <CommissionerCrenshaw@sec.gov>, 
+	commissionercrenshaw@sec.gov, 
+	"CommissionerLee@sec.gov" <CommissionerLee@sec.gov>, 
+	commissionerlee@sec.gov, 
+	"CommissionerPeirce@sec.gov" <CommissionerPeirce@sec.gov>, 
+	commissionerpeirce@sec.gov, 
+	"CommissionerRoisman@sec.gov" <CommissionerRoisman@sec.gov>, 
+	commissionerroisman@sec.gov, 
+	"cshugg@usinfosec.com" <cshugg@usinfosec.com>, 
+	"dcaoletters@sec.gov" <dcaoletters@sec.gov>, 
+	"denver@sec.gov" <denver@sec.gov>, "dfw@sec.gov" <dfw@sec.gov>, 
+	"foiapa@sec.gov" <foiapa@sec.gov>, 
+	IMshareholderproposals <imshareholderproposals@sec.gov>, 
+	"losangeles@sec.gov" <losangeles@sec.gov>, Sec News <news@sec.gov>, 
+	Newyork <newyork@sec.gov>, 
+	"NYROBankruptcy@SEC.GOV" <NYROBankruptcy@SEC.GOV>, 
+	nyrobankruptcy@sec.gov, "oca@sec.gov" <oca@sec.gov>, 
+	"Carl Hoecker [SEC]" <oig@sec.gov>, 
+	"Ombudsman@sec.gov" <Ombudsman@sec.gov>, ombudsman@sec.gov, 
+	"Pamela Gibbs [SEC]" <omwi@sec.gov>, 
+	"philadelphia@sec.gov" <philadelphia@sec.gov>, 
+	"publicinfo@sec.gov" <publicinfo@sec.gov>, 
+	Rule-Comments <rule-comments@sec.gov>, 
+	"Secretarys-Office@sec.gov" <Secretarys-Office@sec.gov>, 
+	secretarys-office@sec.gov, 
+	"shareholderproposals@sec.gov" <shareholderproposals@sec.gov>, 
+	"texas@sec.gov" <texas@sec.gov>, Sec News <webmaster@sec.gov>, 
+	"dataprivacy@Point72.com" <dataprivacy@Point72.com>, 
+	dataprivacy@point72.com, "kdarras@isda.org" <kdarras@isda.org>, 
+	"Inquiries@Point72.com" <Inquiries@Point72.com>, 
+	inquiries@point72.com, 
+	"jpmcinvestorrelations@jpmchase.com" <jpmcinvestorrelations@jpmchase.com>, 
+	FINRA Corporate Notification <finracorporatenotification@finra.org>, 
+	Amy Hanrahan <amy.hanrahan@wilsonelser.com>, 
+	Champion Gears <cockarens@vouchersrus.org>, 
+	Ricki Roer <ricki.roer@wilsonelser.com>, 
+	Alan Rubin <alan.rubin@wilsonelser.com>, 
+	"Ashley V. Humphries" <ashley.humphries@wilsonelser.com>, 
+	"JAMES GORMAN [MORGAN STANLEY]" <james.gorman@morganstanley.com>, 
+	"amasters@boc.nyc.gov" <amasters@boc.nyc.gov>, 
+	"lzucker@mskyline.com" <lzucker@mskyline.com>, 
+	 <mvanalstyne@odeoncap.com>, 
+	"wmckenzie@nycourts.gov" <wmckenzie@nycourts.gov>, 
+	"isabel.zisselsberger@kpmg.com" <isabel.zisselsberger@kpmg.com>, 
+	"pressinquiries@point72.com" <pressinquiries@point72.com>, 
+	"suzanne.gamboa@nbcuni.com" <suzanne.gamboa@nbcuni.com>, 
+	"hillary.davis@latimes.com" <hillary.davis@latimes.com>, 
+	Dow Jones <wsjprosupport@dowjones.com>, 
+	Extellmanagement Info <info@extellmanagement.com>
+Message-ID: <931589739.488824.1649717837350@mail.yahoo.com>
+In-Reply-To: <895761875.485546.1649717189954@mail.yahoo.com>
+References: <895761875.485546.1649717189954.ref@mail.yahoo.com> <895761875.485546.1649717189954@mail.yahoo.com>
+Subject: Fw: LET me know if this email received, thank you. NYSE TICKER: MS
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_488823_786176008.1649717837341"
+X-Mailer: WebService/1.1.20048 YMailNorrin
+Content-Length: 65406
+
+------=_Part_488823_786176008.1649717837341
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+ Hey Miss Moore,=C2=A0
+
+Thank you for your response... you can call me anytime and thank you.
+Morgan Stanley (Ticker NYSE 'MS') is also a Publicly traded entity correct?
+=C2=A0 =C2=A0=C2=A0THOSE DAMAGES ARE REGISTERED...=C2=A0=C2=A0 =C2=A0 =C2=
+=A0 This promoting "brokers 'MS' HELD the inside information of the State F=
+arm Assurances INDENTURE ---- "
+locks in their gains after November 16, 2021... AND THEN all these other LO=
+SSES upon newly merging another UNIT of ADVISEMENT?=C2=A0 =C2=A0=C2=A0 =C2=
+=A0 =C2=A0 then LOCKS IN A COOL BILLION IN LOSSES FOR AN OMISSION AND FAILU=
+RE TO DISCLOSE A "MATERIALLY SUBSTANTIVE LAWSUIT" FOR ITS INVESTORS...=C2=
+=A0 =C2=A0I ANNEXED THE LOANS IN THE NY SUPREME COURT OF LAW... BELOW.... N=
+O NEED TO DISCLOSE THAT?
+=C2=A0 =C2=A0 =C2=A0I'm over here at the NY EXTENDED SUITES if you need my =
+help with anything else. thank you again for getting back to me on such sho=
+rt notice.
+=C2=A0 =C2=A0=C2=A0#GOCARDS
+
+$9000.00 set aside for the new FUND =3D Not Covered in the prior=C2=A0 =C2=
+=A0 January 1, 2022 =3D fell like a ROCK...
+
+
+MS as its promoting broker has apriori knowledge to the material substantiv=
+e risks as annexed in the NYSCEF matter of 153974/2020 with NO DISCLOSURES =
+IN THEIR CRD EITHER?
+they just smoked=C2=A0-852,029,489.38 of investors contributions in the sha=
+red farm of 4 tickers.
+ticker NYSE: MS. =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 >=C2=A0DID earn their $80,000.00 to promote the=
+ State Farm '93715'
+
+ =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 >=C2=A0INDENTURED ASSURANCES TRUST FILER, and probably made a fe=
+w million dollars, or a hundred million from November 16, 2021 - but what a=
+bout on their CDS desk for the underlying tickers on the annexed Loan, know=
+ing it was NOT COVERED by the LOAN I ANNEXED IN A NY SUPREME COURT - NOT DI=
+SCLOSED ON THEIR CRD FOR FAIR-COMPETITION EITHER?=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0 > DID NOT PERFOR=
+M THEIR DUTIES WHILE REGISTERED AS A PROMOTER.
+=C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0
+/s/ BO DINCER.
+=C2=A0 =C2=A0 646-256-3609
+
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/25
+
+
+HERE THIS NEW INFORMATION FOR YOU.https://github.com/BSCPGROUPHOLDINGSLLC/E=
+LSER-AND-DICKER/pull/10#issuecomment-1095658028
+
+
+
+
+
+
+
+   ----- Forwarded Message ----- From: MILTON MCKENZIE <ms60710444266@yahoo=
+.com>To: dataprivacy@Point72.com <dataprivacy@point72.com>; Rule-Comments <=
+rule-comments@sec.gov>; kdarras@isda.org <kdarras@isda.org>; Inquiries@Poin=
+t72.com <inquiries@point72.com>; jpmcinvestorrelations@jpmchase.com <jpmcin=
+vestorrelations@jpmchase.com>Cc: jennifer.vanoss@pwc.com <jennifer.vanoss@p=
+wc.com>; jordana.strosberg@pwc.com <jordana.strosberg@pwc.com>; kivalena.st=
+arr@pwc.com <kivalena.starr@pwc.com>; larissa.vonlockner@pwc.com <larissa.v=
+onlockner@pwc.com>; megan.disciullo@pwc.com <megan.disciullo@pwc.com>; ryan=
+.a.cangialosi@pwc.com <ryan.a.cangialosi@pwc.com>; will.b.hodges@pwc.com <w=
+ill.b.hodges@pwc.com>; atlanta@sec.gov <atlanta@sec.gov>; boston@sec.gov <b=
+oston@sec.gov>; CHAIR@SEC.GOV <chair@sec.gov>; CHICAGO@SEC.GOV <chicago@sec=
+.gov>; CommissionerCrenshaw@sec.gov <commissionercrenshaw@sec.gov>; Commiss=
+ionerLee@sec.gov <commissionerlee@sec.gov>; CommissionerPeirce@sec.gov <com=
+missionerpeirce@sec.gov>; CommissionerRoisman@sec.gov <commissionerroisman@=
+sec.gov>; cshugg@usinfosec.com <cshugg@usinfosec.com>; dcaoletters@sec.gov =
+<dcaoletters@sec.gov>; denver@sec.gov <denver@sec.gov>; dfw@sec.gov <dfw@se=
+c.gov>; foiapa@sec.gov <foiapa@sec.gov>; IMshareholderproposals <imsharehol=
+derproposals@sec.gov>; losangeles@sec.gov <losangeles@sec.gov>; Sec News <n=
+ews@sec.gov>; Newyork <newyork@sec.gov>; NYROBankruptcy@SEC.GOV <nyrobankru=
+ptcy@sec.gov>; oca@sec.gov <oca@sec.gov>; Carl Hoecker [SEC] <oig@sec.gov>;=
+ Ombudsman@sec.gov <ombudsman@sec.gov>; Pamela Gibbs [SEC] <omwi@sec.gov>; =
+philadelphia@sec.gov <philadelphia@sec.gov>; publicinfo@sec.gov <publicinfo=
+@sec.gov>; Rule-Comments <rule-comments@sec.gov>; Secretarys-Office@sec.gov=
+ <secretarys-office@sec.gov>; shareholderproposals@sec.gov <shareholderprop=
+osals@sec.gov>; texas@sec.gov <texas@sec.gov>; Sec News <webmaster@sec.gov>=
+Sent: Monday, April 11, 2022, 05:46:29 PM GMT-5Subject: LET me know if this=
+ email received, thank you. NYSE
+
+=C2=A0 =C2=A0=C2=A0
+
+NYSE: MS
+=C2=A0 =C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0I DON'T=
+ HAVE THE AUTHORITY TO LOCK-DOWN AND TAKE A LOOK AT THE BOOKS AT MORGAN STA=
+NLEY, BUT IF THERE'S NO DISCLOSURE OF A LEGAL MATTER... THEN YOU MUST AS TH=
+EY DID HAVE A MATERIAL "RELATIONSHIP" WITH STATE FARM ASSURANCES PRIOR TO T=
+HE COMPLETION OF THE MERGER AND THOSE LEGAL MATTERS WHICH HAVE SIMILAR WEIG=
+HT... BROUGHT DOWN ALL FOUR OF THE TICKERS IN THAT FAMILY OF FUNDS WHICH AR=
+E NOT COVERED FOR THE LOSSES SUFFERED FOR GROSS NEGLIGENCE AND BY ANY MEANS=
+ FOR ACCOUNTING AND OMISSIONS TRIED TO PUT ON LAYAWAY... WHICH THEY REPORT =
+IN THE NEW FUND.
+=C2=A0 =C2=A0 =C2=A0
+=C2=A0 =C2=A0 =C2=A0
+=C2=A0 =C2=A0 =C2=A0 MS locations vary, but they a HQ at 750 Seventh Avenue=
+, 1211 6th Avenue and other places as well in Manhattan.=C2=A0 =C2=A0 =C2=
+=A0=C2=A0
+They also have a HQ in Purchase where they keep most of their Advisers and =
+Investment Managers... but you should be handling all of that.=C2=A0=C2=A0=
+=C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0
+/S// BO DINCER.
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0I'm over here at the NY EXTENDED SUITE=
+S if you need my help with anything else. thank you again for getting back =
+to me on such short notice.
+=C2=A0 =C2=A0=C2=A0#GOCARDS
+
+----- Forwarded Message -----From:=C2=A0MILTON MCKENZIE <ms60710444266@yaho=
+o.com>To:=C2=A0prospectus@morganstanley.com <prospectus@morganstanley.com>;=
+ mediainquiries@morganstanley.com <mediainquiries@morganstanley.com>; Ricki=
+ Roer <ricki.roer@wilsonelser.com>Cc:=C2=A0esg@virtu.com <esg@virtu.com>; B=
+ D2022 <ms60710444266@yahoo.com>; 60710 BD. 153974 <bo.dincer@yahoo.com>; m=
+elaniemoore@kpmg.com <melaniemoore@kpmg.com>Sent:=C2=A0Monday, April 11, 20=
+22, 05:16:58 PM GMT-5Subject:=C2=A0Fw: NYSE: MS: [200] swaps | isda *** NOT=
+ARIZED on May 11, 2020. ||| STATE FARM TRUST FUND ##HQ 1212-58-58
+$9000.00 set aside for the new FUND =3D Not Covered in the prior=C2=A0 =C2=
+=A0 January 1, 2022 =3D fell like a ROCK...
+
+
+MS as its promoting broker has apriori knowledge to the material substantiv=
+e risks as annexed in the NYSCEF matter of 153974/2020 with NO DISCLOSURES =
+IN THEIR CRD EITHER?
+they just smoked=C2=A0-852,029,489.38 of investors contributions in the sha=
+red farm of 4 tickers.
+
+
+
+----- Forwarded Message -----From:=C2=A0MILTON MCKENZIE <ms60710444266@yaho=
+o.com>To:=C2=A0melaniemoore@kpmg.com <melaniemoore@kpmg.com>; 60710 BD. 153=
+974 <bo.dincer@yahoo.com>; atlanta@sec.gov <atlanta@sec.gov>; ANNA 00040gov=
+tIdx HOWELL <bids@fbisecurity.com>; boston@sec.gov <boston@sec.gov>; CHAIR@=
+SEC.GOV <chair@sec.gov>; CHICAGO@SEC.GOV <chicago@sec.gov>; BIANCA 00088gov=
+tIdx HARRIMON <citysecretary@mundaytexas.com>; CommissionerCrenshaw@sec.gov=
+ <commissionercrenshaw@sec.gov>; CommissionerLee@sec.gov <commissionerlee@s=
+ec.gov>; CommissionerPeirce@sec.gov <commissionerpeirce@sec.gov>; Commissio=
+nerRoisman@sec.gov <commissionerroisman@sec.gov>; cshugg@usinfosec.com <csh=
+ugg@usinfosec.com>; dcaoletters@sec.gov <dcaoletters@sec.gov>; denver@sec.g=
+ov <denver@sec.gov>; dfw@sec.gov <dfw@sec.gov>; EXAMSRegistrationsInquiries=
+@sec.gov <examsregistrationsinquiries@sec.gov>; SECTION OF 00004govtIdx FIN=
+ANCIAL SERVICES <finance.staff@stb.gov>; foiapa@sec.gov <foiapa@sec.gov>; F=
+ormPF@sec.gov <formpf@sec.gov>; Help@sec.gov <help@sec.gov>; Houseconnectio=
+nIR@buildings.nyc.gov <houseconnectionir@buildings.nyc.gov>; IARDLIVE@sec.g=
+ov <iardlive@sec.gov>; IARrules@sec.gov <iarrules@sec.gov>; IMOCA@sec.gov <=
+imoca@sec.gov>; IMshareholderproposals <imshareholderproposals@sec.gov>; lo=
+sangeles@sec.gov <losangeles@sec.gov>; Sec News <news@sec.gov>; Newyork <ne=
+wyork@sec.gov>; NYROBankruptcy@SEC.GOV <nyrobankruptcy@sec.gov>; oca@sec.go=
+v <oca@sec.gov>; OCARequest@sec.gov <ocarequest@sec.gov>; Carl Hoecker [SEC=
+] <oig@sec.gov>; Ombudsman@sec.gov <ombudsman@sec.gov>; Pamela Gibbs [SEC] =
+<omwi@sec.gov>; publicinfo@sec.gov <publicinfo@sec.gov>; Rule-Comments <rul=
+e-comments@sec.gov>; Secretarys-Office@sec.gov <secretarys-office@sec.gov>;=
+ Section508 <section508@ed.gov>; SecurityAdminUnit@nycourts.gov <securityad=
+minunit@nycourts.gov>; shareholderproposals@sec.gov <shareholderproposals@s=
+ec.gov>; SONIA 00040govtIdx STARR <sonia@fbisecurity.com>; texas@sec.gov <t=
+exas@sec.gov>; tmprosecutordocs@uspto.gov <tmprosecutordocs@uspto.gov>; Tra=
+dingandMarkets@sec.gov <tradingandmarkets@sec.gov>; Sec News <webmaster@sec=
+.gov>; ldobbs@isda.org <ldobbs@isda.org>Cc:=C2=A0Ricki Roer <ricki.roer@wil=
+sonelser.com>; Ashley V. Humphries <ashley.humphries@wilsonelser.com>; Jenn=
+ifer M. Provost <jennifer.provost@wilsonelser.com>; Kathleen A. Mullins <ka=
+thleen.mullins@wilsonelser.com>; Amy Hanrahan <amy.hanrahan@wilsonelser.com=
+>; Lori Semlies <lori.semlies@wilsonelser.com>; Lois K. Ottombrino <lois.ot=
+tombrino@wilsonelser.com>; Andrew Keller [FINRA] <akeller106@bloomberg.net>=
+; Andrew Korb [FINRA] <akorb1@bloomberg.net>; Austin McCrary [FINRA] <amccr=
+ary@bloomberg.net>; ASHLEY MEAD [FINRA] <amead11@bloomberg.net>; Andrew Smi=
+th [FINRA] <asmith1151@bloomberg.net>; Anthony Walker [FINRA] <awalker231@b=
+loomberg.net>; Cassandra Kirk [FINRA] <ckirk21@bloomberg.net>; Chris Gursky=
+ [FINRA] <csgursky@bloomberg.net>; Dian Zhu [FINRA] <dian.zhu@finra.org>; F=
+INRA Corporate Notification <finracorporatenotification@finra.org>; FINRA P=
+roduct Management <finraproductmanagement@finra.org>; finrawebmaster@finra.=
+org <finrawebmaster@finra.org>; FINRA CAT Helpdesk <help@finracat.com>; hes=
+ham.ibrahim@finra.org=C2=A0Sent:=C2=A0Monday, April 11, 2022, 05:11:26 PM G=
+MT-5Subject:=C2=A0Re: NYSE: MS: [200] swaps | isda *** NOTARIZED on May 11,=
+ 2020. ||| STATE FARM TRUST FUND ##HQ 1212-58-58
+Hey Miss Moore,=C2=A0
+Thank you for your response... you can call me anytime and thank you.
+Morgan Stanley (Ticker NYSE 'MS') is also a Publicly traded entity correct?
+=C2=A0 =C2=A0=C2=A0THOSE DAMAGES ARE REGISTERED...=C2=A0this promoting "bro=
+kers 'ms' holds the inside information of the State Farm Assurances INDENTU=
+RE ---- "locks in their gains after November 16, 2021...=C2=A0 =C2=A0=C2=A0=
+ =C2=A0 =C2=A0 then LOCKS IN A COOL BILLION IN LOSSES FOR AN OMISSION AND F=
+AILURE TO DISCLOSE A "MATERIALLY SUBSTANTIVE LAWSUIT" FOR ITS INVESTORS...=
+=C2=A0 =C2=A0I ANNEXED THE LOANS IN THE NY SUPREME COURT OF LAW... BELOW...=
+. NO NEED TO DISCLOSE THAT?
+
+ALSO PRIYA & MISS RAGHURAM...
+Here is the 40-17G from the prior year: January 1, 2020 - January 1, 2021.
+ATTN:    Tom Wipf
+                Morgan Stanley
+                Vice Chairman of Institutional Securities, ISDA
+
+NEW filer: 0001516523
+
+https://www.sec.gov/Archives/edgar/data/0001516523/000119312520320913/d8025=
+4d4017g.htm
+
+DOCKET 420.: NYSCEF 153974/2020
+*** omissions, avoidance to prosecution and for a failure to disclose the T=
+RUTH to investors and lose despite my warning letter on the 3rd of June 202=
+0.
+
+MSCO | VABD ---- MSCO \ TMCC [ ISN'T ICE NOW OWNING BOTH OF THOSE MPIDS ]
+-852,029,489.38
+  =20
+   -   =20
+#25
+
+   -   =20
+#11
+
+
+CREDIT DEFAULT SWAPS & INTEREST RATE SWAPS
+-- TWO DIFFERENT ANIMALS... MY APOLOGIES HAVE NOT BEEN ACCOUNTED FOR, BUT I=
+ CAN'T ACCESS THOSE RECORDS AND TRANSACTIONS OF THE INTRODUCING "PROMOTING =
+BROKER" MORGAN STANLEYS.
+
+CIK FILER NUMBER: 93715
+TICKER: STFGX --- FILED ON 2020.07.28
+_2020.07.28 - state farm associates trust filed for 2020.05.31 - STFGX - Jo=
+e Monk.pdf
+
+TICKER: SFITX---40-17G-FILED_2020.06.08 COVERS THE UMBRELLA OF COVERAGE FOR=
+ ALL 4 OF THE MUTUAL FUNDS UNDER THE: State Farm Associates Funds Trust, wi=
+th Mr. Ludwig as its Chief Compliance officer in both 2020 and 2021 at all =
+relevant times.
+
+Coverage Period 04-2020 through 04-2021___40-17G-FILED_2020.06.08 LUDWIG.pd=
+f
+        ATTN:    Shawn Davis, Assistant Director
+                      Division of Investment Management, Chief Counsel=E2=
+=80=99s Office
+                      100 F Street, NE, Washington, DC 20549-8010
+
+DID NOT ACCOUNT FOR THE LOSSES IN SWAP HOLDINGS OR THE GAINS OF THE SWAPS G=
+ETTING TIGHTER BY THE UNDERLYING SINGLE NAME SECURITY SWAPS HELD AS REPORTE=
+D FROM NOVEMBER 16, 2021 THROUGH DECEMBER 31, 2021
+
+NYSE: MS
+-=C2=A0LET ME KNOW OTHERWISE....
+=C2=A0- I DON'T HAVE THE AUTHORITY TO LOCK-DOWN AND TAKE A LOOK AT THE BOOK=
+S AT MORGAN STANLEY, BUT IF THERE'S NO DISCLOSURE OF A LEGAL MATTER... THEN=
+ YOU MUST.
+
+DID HAVE A MATERIAL "RELATIONSHIP" WITH STATE FARM ASSURANCES PRIOR TO THE =
+COMPLETION OF THE MERGER AND THOSE LEGAL MATTERS WHICH HAVE SIMILAR TO WEIG=
+HT, BROUGHT DOWN ALL FOUR OF THE TICKERS IN THAT FAMILY OF FUNDS.
+state farm:=C2=A0 =C2=A0 =C2=A0=C2=A0ONE STATE FARM PLAZA, BLOOMINGTON, IL,=
+ 61710
+
+/S// BO DINCER.
+
+On Monday, April 11, 2022, 04:18:34 PM GMT-5, B D2022 <ms60710444266@yahoo.=
+com> wrote:
+
+
+ALSO PRIYA & MISS RAGHURAM...
+
+
+=C2=A0=C2=A0=C2=A0 Here is the 40-17G from the prior year: January 1, 2020 =
+- January 1, 2021.
+=C2=A0=C2=A0=C2=A0 ATTN:=C2=A0=C2=A0=C2=A0 Tom Wipf
+=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=
+ =C2=A0=C2=A0=C2=A0 Morgan Stanley
+=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=
+ =C2=A0=C2=A0=C2=A0 Vice Chairman of Institutional Securities, ISDA
+
+=C2=A0=C2=A0=C2=A0=C2=A0NEW filer: 0001516523
+
+
+
+
+
+=C2=A0=C2=A0=C2=A0https://www.sec.gov/Archives/edgar/data/0001516523/000119=
+312520320913/d80254d4017g.htm
+
+DOCKET 420.: NYSCEF 153974/2020
+*** omissions, avoidance to prosecution and for a failure to disclose the T=
+RUTH to investors and lose despite my warning letter on the 3rd of June 202=
+0.
+=C2=A0
+
+MSCO | VABD ----=C2=A0 MSCO \ TMCC=C2=A0=C2=A0 [ ISN'T ICE NOW OWNING BOTH =
+OF THOSE MPIDS ]
+-852,029,489.38
++  =20
+   - 1212-58-58 by BSCPGROUPHOLDINGSLLC =C2=B7 Pull Request #25 =C2=B7 BSCP=
+GROUPHOLDINGSLLC/ELSER-AND-DICKER
+
+
+|=20
+|=20
+|=20
+|  |  |
+
+ |
+
+ |
+|=20
+|  |=20
+1212-58-58 by BSCPGROUPHOLDINGSLLC =C2=B7 Pull Request #25 =C2=B7 BSCPGROUP=
+HOLDING...
+
+[ SFBDX ] [ SFITX ] [ STFBX ] [STFGX ] =E2=80=94 CRD DISCLOSURES NONPLUSSED=
+.pdf Bond Period: from 12:01 a.m. on April 1,...
+ |
+
+ |
+
+ |
+
+
+
+
+
+
+  =20
+   - https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/11  =20
+
+
+
+- ALSO -=C2=A0SWAPS=C2=A0& INTEREST "rate" SWAPS -- TWO DIFFERENT ANIMALS..=
+.=C2=A0MY APOLOGIES PRIYA FOR THE TYPO.
+
+
+CIK FILER NUMBER: 93715
+
+TICKER: STFGX --- FILED ON 2020.07.28
+_2020.07.28 - state farm associates trust filed for 2020.05.31 - STFGX - Jo=
+e Monk.pdf
+
+TICKER: SFITX---40-17G-FILED_2020.06.08 COVERS THE UMBRELLA OF COVERAGE FOR=
+ ALL 4 OF THE MUTUAL FUNDS UNDER THE: State Farm Associates Funds Trust, wi=
+th Mr. Ludwig as its Chief Compliance officer in both 2020 and 2021 at all =
+relevant times.
+
+Coverage Period 04-2020 through 04-2021___40-17G-FILED_2020.06.08 LUDWIG.pd=
+f
+
+
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 ATTN:=C2=
+=A0=C2=A0=C2=A0 Shawn Davis, Assistant Director
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+ Division of Investment Management, Chief Counsel=E2=80=99s Office
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+ 100 F Street, NE, Washington, DC 20549-8010
+
+
+
+DID NOT ACCOUNT FOR THE LOSSES IN SWAP HOLDINGS OR THE GAINS OF THE SWAPS G=
+ETTING TIGHTER BY THE UNDERLYING=C2=A0SINGLE NAME SECURITY SWAPS HELD AS RE=
+PORTED FROM NOVEMBER 16, 2021 THROUGH DECEMBER 31, 2021
+
+
+
+- HENCE, YOU NEED SOMEONE TO TAKE AT THOSE GAINS AND LOSSES ON THE BOOKS AT=
+ MORGAN STANLEY..
+
+=C2=A0=C2=A0=C2=A0 -
+
+
+ARE TIED TO THE SINGLE NAME SECURITIES IN THE ANNEXED STATE FARM ASSOCIATES=
+ TRUST FUND HOLDING CORPORATE CREDIT, TREASURY BONDS, AND OTHER SINGLE NAME=
+ SECURITIES.... THEY SHOULD REQUIRE A "BABY SITTER" TO MONITOR THEIR MONITO=
+RS AT ALL THEIR BRANCHES, IN MY PURVIEW, BY THE PROMOTING=C2=A0 BROKER IN T=
+HIS MATTER, FAILED TO CONDUCT THEIR FIDUCIARY RESPONSIBILITIES AND WERE ALS=
+O PAID TO DO "BETTER" PROMOTE THE MUTUAL FUND AND ITS INVESTORS HAVE SUFFER=
+ED A TERRIBLE LOSS AS A FAILURE TO DISCLOSURE OF THIS MATTER BY ALL OF THEI=
+R REPRESENTATIVE..
+
+
+ =20
+------=_Part_488823_786176008.1649717837341
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office"><head><!--[=
+if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>=
+96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]--></head><bo=
+dy><div class=3D"ydpb16db203yahoo-style-wrap" style=3D"font-family:Helvetic=
+a Neue, Helvetica, Arial, sans-serif;font-size:16px;"><div></div>
+        <div dir=3D"ltr" data-setdir=3D"false"><div><div dir=3D"ltr" style=
+=3D"color: rgb(38, 40, 42); font-family: Helvetica, Arial, sans-serif; font=
+-size: 16px;">Hey Miss Moore,&nbsp;</div><div dir=3D"ltr" style=3D"color: r=
+gb(38, 40, 42); font-family: Helvetica, Arial, sans-serif; font-size: 16px;=
+"><br></div><div dir=3D"ltr" style=3D"color: rgb(38, 40, 42); font-family: =
+Helvetica, Arial, sans-serif; font-size: 16px;"><br clear=3D"none"></div><d=
+iv dir=3D"ltr" style=3D"color: rgb(38, 40, 42); font-family: Helvetica, Ari=
+al, sans-serif; font-size: 16px;">Thank you for your response... you can ca=
+ll me anytime and thank you.</div><div dir=3D"ltr" style=3D"color: rgb(38, =
+40, 42); font-family: Helvetica, Arial, sans-serif; font-size: 16px;"><br c=
+lear=3D"none"></div><div dir=3D"ltr" style=3D"color: rgb(38, 40, 42); font-=
+family: Helvetica, Arial, sans-serif; font-size: 16px;">Morgan Stanley (Tic=
+ker NYSE 'MS') is also a Publicly traded entity correct?<br clear=3D"none">=
+&nbsp; &nbsp;&nbsp;</div><div dir=3D"ltr" style=3D"color: rgb(38, 40, 42); =
+font-family: Helvetica, Arial, sans-serif; font-size: 16px;"><b>THOSE DAMAG=
+ES ARE REGISTERED...&nbsp;</b></div><div dir=3D"ltr" style=3D"color: rgb(38=
+, 40, 42); font-family: Helvetica, Arial, sans-serif; font-size: 16px;" dat=
+a-setdir=3D"false"><b>&nbsp; &nbsp; &nbsp; This promoting "brokers 'MS' HEL=
+D the inside information of the State Farm Assurances INDENTURE ---- "</b><=
+/div><div dir=3D"ltr" style=3D"color: rgb(38, 40, 42); font-family: Helveti=
+ca, Arial, sans-serif; font-size: 16px;" data-setdir=3D"false"><b><br></b><=
+/div><div dir=3D"ltr" style=3D"color: rgb(38, 40, 42); font-family: Helveti=
+ca, Arial, sans-serif; font-size: 16px;" data-setdir=3D"false"><b>locks in =
+their gains after November 16, 2021... AND THEN all these other LOSSES upon=
+ newly merging another UNIT of ADVISEMENT?</b></div><div dir=3D"ltr" style=
+=3D"color: rgb(38, 40, 42); font-family: Helvetica, Arial, sans-serif; font=
+-size: 16px;"><b>&nbsp; &nbsp;</b></div><div dir=3D"ltr" style=3D"color: rg=
+b(38, 40, 42); font-family: Helvetica, Arial, sans-serif; font-size: 16px;"=
+><b>&nbsp; &nbsp; &nbsp; then LOCKS IN A COOL BILLION IN LOSSES FOR AN OMIS=
+SION AND FAILURE TO DISCLOSE A "MATERIALLY SUBSTANTIVE LAWSUIT" FOR ITS INV=
+ESTORS...</b></div><div dir=3D"ltr" style=3D"color: rgb(38, 40, 42); font-f=
+amily: Helvetica, Arial, sans-serif; font-size: 16px;"><b>&nbsp; &nbsp;</b>=
+</div><div dir=3D"ltr" style=3D"color: rgb(38, 40, 42); font-family: Helvet=
+ica, Arial, sans-serif; font-size: 16px;"><b>I ANNEXED THE LOANS IN THE NY =
+SUPREME COURT OF LAW... BELOW.... NO NEED TO DISCLOSE THAT?</b></div></div>=
+<div dir=3D"ltr" style=3D"color: rgb(38, 40, 42); font-family: Helvetica, A=
+rial, sans-serif; font-size: 16px;"><b><br></b></div><div dir=3D"ltr" style=
+=3D"color: rgb(38, 40, 42); font-family: Helvetica, Arial, sans-serif; font=
+-size: 16px;" data-setdir=3D"false"><b><div><div dir=3D"ltr"><div><div dir=
+=3D"ltr">&nbsp; &nbsp; &nbsp;I'm over here at the NY EXTENDED SUITES if you=
+ need my help with anything else. thank you again for getting back to me on=
+ such short notice.<br></div></div>&nbsp; &nbsp;&nbsp;</div><div dir=3D"ltr=
+">#GOCARDS</div><div dir=3D"ltr"><br style=3D"color: rgb(38, 40, 42); font-=
+family: Helvetica, Arial, sans-serif; font-size: 16px;"></div></div><br></b=
+></div><div><div dir=3D"ltr" style=3D"color: rgb(38, 40, 42); font-family: =
+Helvetica, Arial, sans-serif; font-size: 16px;">$9000.00 set aside for the =
+new FUND =3D Not Covered in the prior</div><div dir=3D"ltr" style=3D"color:=
+ rgb(38, 40, 42); font-family: Helvetica, Arial, sans-serif; font-size: 16p=
+x;">&nbsp; &nbsp; January 1, 2022 =3D fell like a ROCK...<br clear=3D"none"=
+></div><div dir=3D"ltr" style=3D"color: rgb(38, 40, 42); font-family: Helve=
+tica, Arial, sans-serif; font-size: 16px;"><br clear=3D"none"></div><div di=
+r=3D"ltr" style=3D"color: rgb(38, 40, 42); font-family: Helvetica, Arial, s=
+ans-serif; font-size: 16px;"><br clear=3D"none"></div><div dir=3D"ltr" styl=
+e=3D"color: rgb(38, 40, 42); font-family: Helvetica, Arial, sans-serif; fon=
+t-size: 16px;">MS as its promoting broker has apriori knowledge to the mate=
+rial substantive risks as annexed in the NYSCEF matter of 153974/2020 with =
+NO DISCLOSURES IN THEIR CRD EITHER?</div><div dir=3D"ltr" style=3D"color: r=
+gb(38, 40, 42); font-family: Helvetica, Arial, sans-serif; font-size: 16px;=
+"><br clear=3D"none"></div><div dir=3D"ltr" style=3D"color: rgb(38, 40, 42)=
+; font-family: Helvetica, Arial, sans-serif; font-size: 16px;">they just sm=
+oked&nbsp;<b style=3D"font-family: New;"><font size=3D"4" face=3D"Courier N=
+ew" color=3D"#ff0000">-852,029,489.38 of investors contributions in the sha=
+red farm of 4 tickers.</font></b></div><div dir=3D"ltr" style=3D"color: rgb=
+(38, 40, 42); font-family: Helvetica, Arial, sans-serif; font-size: 16px;">=
+<b style=3D"font-family: New;"><font size=3D"4" face=3D"Courier New" color=
+=3D"#ff0000"><br clear=3D"none"></font></b></div></div><div dir=3D"ltr" sty=
+le=3D"color: rgb(38, 40, 42); font-family: Helvetica, Arial, sans-serif; fo=
+nt-size: 16px;" data-setdir=3D"false"><b style=3D"font-family: New;"><font =
+size=3D"4" face=3D"Courier New" color=3D"#ff0000">ticker NYSE: MS.</font></=
+b></div><div dir=3D"ltr" style=3D"color: rgb(38, 40, 42); font-family: Helv=
+etica, Arial, sans-serif; font-size: 16px;" data-setdir=3D"false"> <span><b=
+ style=3D"color: rgb(38, 40, 42); font-size: 16px; font-family: New;"><font=
+ size=3D"4" face=3D"Courier New" color=3D"#ff0000">&nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &gt;&nbsp;</fon=
+t></b></span><b style=3D"font-family: New;"><font size=3D"4" face=3D"Courie=
+r New" color=3D"#ff0000">DID earn their $80,000.00 to promote the State Far=
+m '93715'</font></b><br></div><div dir=3D"ltr" style=3D"color: rgb(38, 40, =
+42); font-family: Helvetica, Arial, sans-serif; font-size: 16px;" data-setd=
+ir=3D"false"><b style=3D"font-family: New;"><font size=3D"4" face=3D"Courie=
+r New" color=3D"#ff0000"><br></font></b></div><div dir=3D"ltr" style=3D"col=
+or: rgb(38, 40, 42); font-family: Helvetica, Arial, sans-serif; font-size: =
+16px;" data-setdir=3D"false"><b style=3D"font-family: New;"><font size=3D"4=
+" face=3D"Courier New" color=3D"#ff0000"> <span><b style=3D"color: rgb(38, =
+40, 42); font-size: 16px; font-family: New;"><font size=3D"4" face=3D"Couri=
+er New" color=3D"#ff0000">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &gt;&nbsp;</font></b></span>INDENTURED A=
+SSURANCES TRUST FILER, and probably made a few million dollars, or a hundre=
+d million from November 16, 2021 - but what about on their CDS desk for the=
+ underlying tickers on the annexed Loan, knowing it was NOT COVERED by the =
+LOAN I ANNEXED IN A NY SUPREME COURT - NOT DISCLOSED ON THEIR CRD FOR FAIR-=
+COMPETITION EITHER?&nbsp;</font></b></div><div dir=3D"ltr" style=3D"color: =
+rgb(38, 40, 42); font-family: Helvetica, Arial, sans-serif; font-size: 16px=
+;" data-setdir=3D"false"><b style=3D"font-family: New;"><font size=3D"4" fa=
+ce=3D"Courier New" color=3D"#ff0000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;<br></font></b></div><div dir=3D"ltr" style=3D"color: rgb(38, 40, 42=
+); font-family: Helvetica, Arial, sans-serif; font-size: 16px;" data-setdir=
+=3D"false"><b style=3D"font-family: New;"><font size=3D"4" face=3D"Courier =
+New" color=3D"#ff0000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =
+&nbsp; &gt; DID NOT PERFORM THEIR DUTIES WHILE REGISTERED AS A PROMOTER.<br=
+></font></b></div><div dir=3D"ltr" style=3D"color: rgb(38, 40, 42); font-fa=
+mily: Helvetica, Arial, sans-serif; font-size: 16px;" data-setdir=3D"false"=
+>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div dir=3D"ltr" style=3D"color: rg=
+b(38, 40, 42); font-family: Helvetica, Arial, sans-serif; font-size: 16px;"=
+ data-setdir=3D"false"><b style=3D"font-family: New;"><font size=3D"4" face=
+=3D"Courier New" color=3D"#ff0000"><br></font></b></div><div dir=3D"ltr" st=
+yle=3D"color: rgb(38, 40, 42); font-family: Helvetica, Arial, sans-serif; f=
+ont-size: 16px;" data-setdir=3D"false"><b style=3D"font-family: New;"><font=
+ size=3D"4" face=3D"Courier New" color=3D"#ff0000">/s/ BO DINCER.</font></b=
+><br></div><div dir=3D"ltr" style=3D"color: rgb(38, 40, 42); font-family: H=
+elvetica, Arial, sans-serif; font-size: 16px;" data-setdir=3D"false"><b sty=
+le=3D"font-family: New;"><font size=3D"4" face=3D"Courier New" color=3D"#ff=
+0000">&nbsp; &nbsp; 646-256-3609</font></b></div><br></div><div dir=3D"ltr"=
+ data-setdir=3D"false"><div><div><br></div><div><div dir=3D"ltr" data-setdi=
+r=3D"false" style=3D"color: rgb(38, 40, 42); font-family: Helvetica, Arial,=
+ sans-serif; font-size: 16px;"><a href=3D"https://github.com/BSCPGROUPHOLDI=
+NGSLLC/ELSER-AND-DICKER/pull/25" style=3D"color: rgb(25, 106, 212); text-de=
+coration-line: underline; font-family: Helvetica Neue, Helvetica, Arial, sa=
+ns-serif;" rel=3D"nofollow" target=3D"_blank">https://github.com/BSCPGROUPH=
+OLDINGSLLC/ELSER-AND-DICKER/pull/25</a><br></div><div dir=3D"ltr" data-setd=
+ir=3D"false" style=3D"color: rgb(38, 40, 42); font-family: Helvetica, Arial=
+, sans-serif; font-size: 16px;"><br></div><div dir=3D"ltr" data-setdir=3D"f=
+alse" style=3D"color: rgb(38, 40, 42); font-family: Helvetica, Arial, sans-=
+serif; font-size: 16px;"><b><br></b></div><div dir=3D"ltr" data-setdir=3D"f=
+alse" style=3D"color: rgb(38, 40, 42); font-family: Helvetica, Arial, sans-=
+serif; font-size: 16px;"><b>HERE THIS NEW INFORMATION FOR YOU.</b></div><di=
+v dir=3D"ltr" data-setdir=3D"false" style=3D"color: rgb(38, 40, 42); font-f=
+amily: Helvetica, Arial, sans-serif; font-size: 16px;"><a href=3D"https://g=
+ithub.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/10#issuecomment-109565=
+8028" style=3D"color: rgb(25, 106, 212); text-decoration-line: underline;" =
+rel=3D"nofollow" target=3D"_blank">https://github.com/BSCPGROUPHOLDINGSLLC/=
+ELSER-AND-DICKER/pull/10#issuecomment-1095658028</a><br></div><div><br></di=
+v><div dir=3D"ltr" data-setdir=3D"false"><br></div><div><br></div><div><br =
+style=3D"color: rgb(0, 0, 0); font-family: Helvetica Neue, Helvetica, Arial=
+, sans-serif; font-size: 16px;"></div></div></div><br></div><div dir=3D"ltr=
+" data-setdir=3D"false"><br></div><div><br></div>
+       =20
+        </div><div id=3D"ydp22457c44yahoo_quoted_0714101008" class=3D"ydp22=
+457c44yahoo_quoted">
+            <div style=3D"font-family:'Helvetica Neue', Helvetica, Arial, s=
+ans-serif;font-size:13px;color:#26282a;">
+                <div>----- Forwarded Message -----</div>
+                <div><b>From:</b> MILTON MCKENZIE &lt;ms60710444266@yahoo.c=
+om&gt;</div><div><b>To:</b> dataprivacy@Point72.com &lt;dataprivacy@point72=
+.com&gt;; Rule-Comments &lt;rule-comments@sec.gov&gt;; kdarras@isda.org &lt=
+;kdarras@isda.org&gt;; Inquiries@Point72.com &lt;inquiries@point72.com&gt;;=
+ jpmcinvestorrelations@jpmchase.com &lt;jpmcinvestorrelations@jpmchase.com&=
+gt;</div><div><b>Cc:</b> jennifer.vanoss@pwc.com &lt;jennifer.vanoss@pwc.co=
+m&gt;; jordana.strosberg@pwc.com &lt;jordana.strosberg@pwc.com&gt;; kivalen=
+a.starr@pwc.com &lt;kivalena.starr@pwc.com&gt;; larissa.vonlockner@pwc.com =
+&lt;larissa.vonlockner@pwc.com&gt;; megan.disciullo@pwc.com &lt;megan.disci=
+ullo@pwc.com&gt;; ryan.a.cangialosi@pwc.com &lt;ryan.a.cangialosi@pwc.com&g=
+t;; will.b.hodges@pwc.com &lt;will.b.hodges@pwc.com&gt;; atlanta@sec.gov &l=
+t;atlanta@sec.gov&gt;; boston@sec.gov &lt;boston@sec.gov&gt;; CHAIR@SEC.GOV=
+ &lt;chair@sec.gov&gt;; CHICAGO@SEC.GOV &lt;chicago@sec.gov&gt;; Commission=
+erCrenshaw@sec.gov &lt;commissionercrenshaw@sec.gov&gt;; CommissionerLee@se=
+c.gov &lt;commissionerlee@sec.gov&gt;; CommissionerPeirce@sec.gov &lt;commi=
+ssionerpeirce@sec.gov&gt;; CommissionerRoisman@sec.gov &lt;commissionerrois=
+man@sec.gov&gt;; cshugg@usinfosec.com &lt;cshugg@usinfosec.com&gt;; dcaolet=
+ters@sec.gov &lt;dcaoletters@sec.gov&gt;; denver@sec.gov &lt;denver@sec.gov=
+&gt;; dfw@sec.gov &lt;dfw@sec.gov&gt;; foiapa@sec.gov &lt;foiapa@sec.gov&gt=
+;; IMshareholderproposals &lt;imshareholderproposals@sec.gov&gt;; losangele=
+s@sec.gov &lt;losangeles@sec.gov&gt;; Sec News &lt;news@sec.gov&gt;; Newyor=
+k &lt;newyork@sec.gov&gt;; NYROBankruptcy@SEC.GOV &lt;nyrobankruptcy@sec.go=
+v&gt;; oca@sec.gov &lt;oca@sec.gov&gt;; Carl Hoecker [SEC] &lt;oig@sec.gov&=
+gt;; Ombudsman@sec.gov &lt;ombudsman@sec.gov&gt;; Pamela Gibbs [SEC] &lt;om=
+wi@sec.gov&gt;; philadelphia@sec.gov &lt;philadelphia@sec.gov&gt;; publicin=
+fo@sec.gov &lt;publicinfo@sec.gov&gt;; Rule-Comments &lt;rule-comments@sec.=
+gov&gt;; Secretarys-Office@sec.gov &lt;secretarys-office@sec.gov&gt;; share=
+holderproposals@sec.gov &lt;shareholderproposals@sec.gov&gt;; texas@sec.gov=
+ &lt;texas@sec.gov&gt;; Sec News &lt;webmaster@sec.gov&gt;</div><div><b>Sen=
+t:</b> Monday, April 11, 2022, 05:46:29 PM GMT-5</div><div><b>Subject:</b> =
+LET me know if this email received, thank you. NYSE</div><div><br></div><di=
+v><div id=3D"ydp22457c44yiv8531734481"><div><div style=3D"font-family:Helve=
+tica Neue, Helvetica, Arial, sans-serif;font-size:16px;" class=3D"ydp22457c=
+44yiv8531734481yahoo-style-wrap"><div dir=3D"ltr"><br></div><div dir=3D"ltr=
+">&nbsp; &nbsp;&nbsp;<br><br><div><div style=3D"font-family:Helvetica, Aria=
+l, sans-serif;font-size:16px;" class=3D"ydp22457c44yiv8531734481ydp3cf853f3=
+yiv5899356363ydpb7a452d5yahoo-style-wrap"><div dir=3D"ltr"><div><div dir=3D=
+"ltr"><b style=3D"color:rgb(0, 0, 0);">NYSE: MS</b><br clear=3D"none"></div=
+><div dir=3D"ltr"><b style=3D"color:rgb(0, 0, 0);">&nbsp; &nbsp; &nbsp;</b>=
+</div><div dir=3D"ltr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I DO=
+N'T HAVE THE AUTHORITY TO LOCK-DOWN AND TAKE A LOOK AT THE BOOKS AT MORGAN =
+STANLEY, BUT IF THERE'S NO DISCLOSURE OF A LEGAL MATTER... THEN YOU MUST AS=
+ THEY DID HAVE A MATERIAL "RELATIONSHIP" WITH STATE FARM ASSURANCES PRIOR T=
+O THE COMPLETION OF THE MERGER AND THOSE LEGAL MATTERS WHICH HAVE SIMILAR W=
+EIGHT... BROUGHT DOWN ALL FOUR OF THE TICKERS IN THAT FAMILY OF FUNDS WHICH=
+ ARE NOT COVERED FOR THE LOSSES SUFFERED FOR GROSS NEGLIGENCE AND BY ANY ME=
+ANS FOR ACCOUNTING AND OMISSIONS TRIED TO PUT ON LAYAWAY... WHICH THEY REPO=
+RT IN THE NEW FUND.<br></div><div dir=3D"ltr">&nbsp; &nbsp; &nbsp;<br></div=
+><div dir=3D"ltr">&nbsp; &nbsp; &nbsp;<br></div><div dir=3D"ltr"><b>&nbsp; =
+&nbsp; &nbsp; MS locations vary, but they a HQ at 750 Seventh Avenue, 1211 =
+6th Avenue and other places as well in Manhattan.</b></div><div dir=3D"ltr"=
+>&nbsp; &nbsp; &nbsp;&nbsp;</div><div dir=3D"ltr"><br></div><div dir=3D"ltr=
+"><b>They also have a HQ in Purchase where they keep most of their Advisers=
+ and Investment Managers... but you should be handling all of that.&nbsp;&n=
+bsp;</b></div><div dir=3D"ltr">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div =
+dir=3D"ltr">&nbsp; &nbsp;</div><div dir=3D"ltr"><br clear=3D"none"></div><d=
+iv dir=3D"ltr"><b>/S// BO DINCER.</b><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;=
+ &nbsp; &nbsp;&nbsp;</div><div dir=3D"ltr">&nbsp; &nbsp;&nbsp;</div><div di=
+r=3D"ltr">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;I'm over here at the NY EXTE=
+NDED SUITES if you need my help with anything else. thank you again for get=
+ting back to me on such short notice.<br></div></div>&nbsp; &nbsp;&nbsp;</d=
+iv><div dir=3D"ltr">#GOCARDS</div><div dir=3D"ltr"><br></div><div><br></div=
+></div><div id=3D"ydp22457c44yiv8531734481ydp3cf853f3yiv5899356363ydp3d90ab=
+60yahoo_quoted_9943618032" class=3D"ydp22457c44yiv8531734481ydp3cf853f3yiv5=
+899356363ydp3d90ab60yahoo_quoted"><div style=3D"font-family:Helvetica, Aria=
+l, sans-serif;color:rgb(38, 40, 42);"><div>----- Forwarded Message -----</d=
+iv><div><b>From:</b>&nbsp;MILTON MCKENZIE &lt;ms60710444266@yahoo.com&gt;</=
+div><div><b>To:</b>&nbsp;prospectus@morganstanley.com &lt;prospectus@morgan=
+stanley.com&gt;; mediainquiries@morganstanley.com &lt;mediainquiries@morgan=
+stanley.com&gt;; Ricki Roer &lt;ricki.roer@wilsonelser.com&gt;</div><div><b=
+>Cc:</b>&nbsp;esg@virtu.com &lt;esg@virtu.com&gt;; B D2022 &lt;ms6071044426=
+6@yahoo.com&gt;; 60710 BD. 153974 &lt;bo.dincer@yahoo.com&gt;; melaniemoore=
+@kpmg.com &lt;melaniemoore@kpmg.com&gt;</div><div><b>Sent:</b>&nbsp;Monday,=
+ April 11, 2022, 05:16:58 PM GMT-5</div><div><b>Subject:</b>&nbsp;Fw: NYSE:=
+ MS: [200] swaps | isda *** NOTARIZED on May 11, 2020. ||| STATE FARM TRUST=
+ FUND ##HQ 1212-58-58</div><div><br></div><div><div id=3D"ydp22457c44yiv853=
+1734481ydp3cf853f3yiv5899356363ydp3d90ab60yiv3246239905"><div style=3D"font=
+-size:16px;" class=3D"ydp22457c44yiv8531734481ydp3cf853f3yiv5899356363ydp3d=
+90ab60yiv3246239905ydp7f3d0056yahoo-style-wrap"><div></div><div dir=3D"ltr"=
+>$9000.00 set aside for the new FUND =3D Not Covered in the prior</div><div=
+ dir=3D"ltr">&nbsp; &nbsp; January 1, 2022 =3D fell like a ROCK...<br clear=
+=3D"none"></div><div dir=3D"ltr"><br clear=3D"none"></div><div dir=3D"ltr">=
+<br clear=3D"none"></div><div dir=3D"ltr">MS as its promoting broker has ap=
+riori knowledge to the material substantive risks as annexed in the NYSCEF =
+matter of 153974/2020 with NO DISCLOSURES IN THEIR CRD EITHER?</div><div di=
+r=3D"ltr"><br clear=3D"none"></div><div dir=3D"ltr">they just smoked&nbsp;<=
+b style=3D"font-family:New;"><font size=3D"4" face=3D"Courier New" color=3D=
+"#ff0000">-852,029,489.38 of investors contributions in the shared farm of =
+4 tickers.</font></b></div><div dir=3D"ltr"><b style=3D"font-family:New;"><=
+font size=3D"4" face=3D"Courier New" color=3D"#ff0000"><br clear=3D"none"><=
+/font></b></div><div dir=3D"ltr"><b style=3D"font-family:New;"><font size=
+=3D"4" face=3D"Courier New" color=3D"#ff0000"><br clear=3D"none"></font></b=
+></div><div dir=3D"ltr"><br clear=3D"none"></div><div><br clear=3D"none"></=
+div></div><div id=3D"ydp22457c44yiv8531734481ydp3cf853f3yiv5899356363ydp3d9=
+0ab60yiv3246239905yqt53574" class=3D"ydp22457c44yiv8531734481ydp3cf853f3yiv=
+5899356363ydp3d90ab60yiv3246239905yqt1819101228"><div id=3D"ydp22457c44yiv8=
+531734481ydp3cf853f3yiv5899356363ydp3d90ab60yiv3246239905ydp7c8b051dyahoo_q=
+uoted_0267227360" class=3D"ydp22457c44yiv8531734481ydp3cf853f3yiv5899356363=
+ydp3d90ab60yiv3246239905ydp7c8b051dyahoo_quoted"><div>----- Forwarded Messa=
+ge -----</div><div><b>From:</b>&nbsp;MILTON MCKENZIE &lt;ms60710444266@yaho=
+o.com&gt;</div><div><b>To:</b>&nbsp;melaniemoore@kpmg.com &lt;melaniemoore@=
+kpmg.com&gt;; 60710 BD. 153974 &lt;bo.dincer@yahoo.com&gt;; atlanta@sec.gov=
+ &lt;atlanta@sec.gov&gt;; ANNA 00040govtIdx HOWELL &lt;bids@fbisecurity.com=
+&gt;; boston@sec.gov &lt;boston@sec.gov&gt;; CHAIR@SEC.GOV &lt;chair@sec.go=
+v&gt;; CHICAGO@SEC.GOV &lt;chicago@sec.gov&gt;; BIANCA 00088govtIdx HARRIMO=
+N &lt;citysecretary@mundaytexas.com&gt;; CommissionerCrenshaw@sec.gov &lt;c=
+ommissionercrenshaw@sec.gov&gt;; CommissionerLee@sec.gov &lt;commissionerle=
+e@sec.gov&gt;; CommissionerPeirce@sec.gov &lt;commissionerpeirce@sec.gov&gt=
+;; CommissionerRoisman@sec.gov &lt;commissionerroisman@sec.gov&gt;; cshugg@=
+usinfosec.com &lt;cshugg@usinfosec.com&gt;; dcaoletters@sec.gov &lt;dcaolet=
+ters@sec.gov&gt;; denver@sec.gov &lt;denver@sec.gov&gt;; dfw@sec.gov &lt;df=
+w@sec.gov&gt;; EXAMSRegistrationsInquiries@sec.gov &lt;examsregistrationsin=
+quiries@sec.gov&gt;; SECTION OF 00004govtIdx FINANCIAL SERVICES &lt;finance=
+.staff@stb.gov&gt;; foiapa@sec.gov &lt;foiapa@sec.gov&gt;; FormPF@sec.gov &=
+lt;formpf@sec.gov&gt;; Help@sec.gov &lt;help@sec.gov&gt;; HouseconnectionIR=
+@buildings.nyc.gov &lt;houseconnectionir@buildings.nyc.gov&gt;; IARDLIVE@se=
+c.gov &lt;iardlive@sec.gov&gt;; IARrules@sec.gov &lt;iarrules@sec.gov&gt;; =
+IMOCA@sec.gov &lt;imoca@sec.gov&gt;; IMshareholderproposals &lt;imsharehold=
+erproposals@sec.gov&gt;; losangeles@sec.gov &lt;losangeles@sec.gov&gt;; Sec=
+ News &lt;news@sec.gov&gt;; Newyork &lt;newyork@sec.gov&gt;; NYROBankruptcy=
+@SEC.GOV &lt;nyrobankruptcy@sec.gov&gt;; oca@sec.gov &lt;oca@sec.gov&gt;; O=
+CARequest@sec.gov &lt;ocarequest@sec.gov&gt;; Carl Hoecker [SEC] &lt;oig@se=
+c.gov&gt;; Ombudsman@sec.gov &lt;ombudsman@sec.gov&gt;; Pamela Gibbs [SEC] =
+&lt;omwi@sec.gov&gt;; publicinfo@sec.gov &lt;publicinfo@sec.gov&gt;; Rule-C=
+omments &lt;rule-comments@sec.gov&gt;; Secretarys-Office@sec.gov &lt;secret=
+arys-office@sec.gov&gt;; Section508 &lt;section508@ed.gov&gt;; SecurityAdmi=
+nUnit@nycourts.gov &lt;securityadminunit@nycourts.gov&gt;; shareholderpropo=
+sals@sec.gov &lt;shareholderproposals@sec.gov&gt;; SONIA 00040govtIdx STARR=
+ &lt;sonia@fbisecurity.com&gt;; texas@sec.gov &lt;texas@sec.gov&gt;; tmpros=
+ecutordocs@uspto.gov &lt;tmprosecutordocs@uspto.gov&gt;; TradingandMarkets@=
+sec.gov &lt;tradingandmarkets@sec.gov&gt;; Sec News &lt;webmaster@sec.gov&g=
+t;; ldobbs@isda.org &lt;ldobbs@isda.org&gt;</div><div><b>Cc:</b>&nbsp;Ricki=
+ Roer &lt;ricki.roer@wilsonelser.com&gt;; Ashley V. Humphries &lt;ashley.hu=
+mphries@wilsonelser.com&gt;; Jennifer M. Provost &lt;jennifer.provost@wilso=
+nelser.com&gt;; Kathleen A. Mullins &lt;kathleen.mullins@wilsonelser.com&gt=
+;; Amy Hanrahan &lt;amy.hanrahan@wilsonelser.com&gt;; Lori Semlies &lt;lori=
+.semlies@wilsonelser.com&gt;; Lois K. Ottombrino &lt;lois.ottombrino@wilson=
+elser.com&gt;; Andrew Keller [FINRA] &lt;akeller106@bloomberg.net&gt;; Andr=
+ew Korb [FINRA] &lt;akorb1@bloomberg.net&gt;; Austin McCrary [FINRA] &lt;am=
+ccrary@bloomberg.net&gt;; ASHLEY MEAD [FINRA] &lt;amead11@bloomberg.net&gt;=
+; Andrew Smith [FINRA] &lt;asmith1151@bloomberg.net&gt;; Anthony Walker [FI=
+NRA] &lt;awalker231@bloomberg.net&gt;; Cassandra Kirk [FINRA] &lt;ckirk21@b=
+loomberg.net&gt;; Chris Gursky [FINRA] &lt;csgursky@bloomberg.net&gt;; Dian=
+ Zhu [FINRA] &lt;dian.zhu@finra.org&gt;; FINRA Corporate Notification &lt;f=
+inracorporatenotification@finra.org&gt;; FINRA Product Management &lt;finra=
+productmanagement@finra.org&gt;; finrawebmaster@finra.org &lt;finrawebmaste=
+r@finra.org&gt;; FINRA CAT Helpdesk &lt;help@finracat.com&gt;; hesham.ibrah=
+im@finra.org&nbsp;</div><div><b>Sent:</b>&nbsp;Monday, April 11, 2022, 05:1=
+1:26 PM GMT-5</div><div><b>Subject:</b>&nbsp;Re: NYSE: MS: [200] swaps | is=
+da *** NOTARIZED on May 11, 2020. ||| STATE FARM TRUST FUND ##HQ 1212-58-58=
+</div><div><br clear=3D"none"></div><div><div id=3D"ydp22457c44yiv853173448=
+1ydp3cf853f3yiv5899356363ydp3d90ab60yiv3246239905ydp7c8b051dyiv5846663862">=
+<div style=3D"font-size:16px;" class=3D"ydp22457c44yiv8531734481ydp3cf853f3=
+yiv5899356363ydp3d90ab60yiv3246239905ydp7c8b051dyiv5846663862ydpb4c294cbyah=
+oo-style-wrap"><div></div><div dir=3D"ltr">Hey Miss Moore,&nbsp;</div><div =
+dir=3D"ltr"><br clear=3D"none"></div><div dir=3D"ltr">Thank you for your re=
+sponse... you can call me anytime and thank you.</div><div dir=3D"ltr"><br =
+clear=3D"none"></div><div dir=3D"ltr">Morgan Stanley (Ticker NYSE 'MS') is =
+also a Publicly traded entity correct?<br clear=3D"none">&nbsp; &nbsp;&nbsp=
+;</div><div dir=3D"ltr"><b>THOSE DAMAGES ARE REGISTERED...&nbsp;</b></div><=
+div dir=3D"ltr"><b>this promoting "brokers 'ms' holds the inside informatio=
+n of the State Farm Assurances INDENTURE ---- "</b></div><div dir=3D"ltr"><=
+b>locks in their gains after November 16, 2021...</b></div><div dir=3D"ltr"=
+><b>&nbsp; &nbsp;</b></div><div dir=3D"ltr"><b>&nbsp; &nbsp; &nbsp; then LO=
+CKS IN A COOL BILLION IN LOSSES FOR AN OMISSION AND FAILURE TO DISCLOSE A "=
+MATERIALLY SUBSTANTIVE LAWSUIT" FOR ITS INVESTORS...</b></div><div dir=3D"l=
+tr"><b>&nbsp; &nbsp;</b></div><div dir=3D"ltr"><b>I ANNEXED THE LOANS IN TH=
+E NY SUPREME COURT OF LAW... BELOW.... NO NEED TO DISCLOSE THAT?</b></div><=
+div dir=3D"ltr"><br clear=3D"none"></div><div dir=3D"ltr"><div class=3D"ydp=
+22457c44yiv8531734481ydp3cf853f3yiv5899356363ydp3d90ab60yiv3246239905ydp7c8=
+b051dyiv5846663862ydp3ca4576byiv1954261995ydp6d6ee955yahoo-style-wrap"><div=
+ dir=3D"ltr"><div><p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(2=
+01, 209, 217);font-family:-apple-system, BlinkMacSystemFont, Helvetica, Ari=
+al, sans-serif, Color UI;font-size:14px;background-color:rgb(13, 17, 23);">=
+ALSO PRIYA &amp; MISS RAGHURAM...</p><div style=3D"color:rgb(201, 209, 217)=
+;font-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-seri=
+f, Color UI;font-size:14px;background-color:rgb(13, 17, 23);position:relati=
+ve !important;" class=3D"ydp22457c44yiv8531734481ydp3cf853f3yiv5899356363yd=
+p3d90ab60yiv3246239905ydp7c8b051dyiv5846663862ydp3ca4576byiv1954261995ydp71=
+f6670snippet-clipboard-content ydp22457c44yiv8531734481ydp3cf853f3yiv589935=
+6363ydp3d90ab60yiv3246239905ydp7c8b051dyiv5846663862ydp3ca4576byiv195426199=
+5ydp71f6670position-relative ydp22457c44yiv8531734481ydp3cf853f3yiv58993563=
+63ydp3d90ab60yiv3246239905ydp7c8b051dyiv5846663862ydp3ca4576byiv1954261995y=
+dp71f6670overflow-auto"><pre style=3D"white-space:pre-wrap;font-family:ui-m=
+onospace, SFMono-Regular, Menlo, Consolas, monospace;font-size:11.9px;margi=
+n-top:0px;margin-bottom:16px;padding:16px;line-height:1.45;border-radius:6p=
+x;"><code style=3D"font-family:ui-monospace, SFMono-Regular, Menlo, Consola=
+s, monospace;padding:0px;margin:0px;background:transparent;border-radius:6p=
+x;border:0px;display:inline;line-height:inherit;">Here is the 40-17G from t=
+he prior year: January 1, 2020 - January 1, 2021.
+ATTN:    Tom Wipf
+                Morgan Stanley
+                Vice Chairman of Institutional Securities, ISDA
+</code></pre></div><p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(=
+201, 209, 217);font-family:-apple-system, BlinkMacSystemFont, Helvetica, Ar=
+ial, sans-serif, Color UI;font-size:14px;background-color:rgb(13, 17, 23);"=
+>NEW filer: 0001516523</p><p style=3D"margin-top:0px;margin-bottom:16px;col=
+or:rgb(201, 209, 217);font-family:-apple-system, BlinkMacSystemFont, Helvet=
+ica, Arial, sans-serif, Color UI;font-size:14px;background-color:rgb(13, 17=
+, 23);"><a shape=3D"rect" href=3D"https://www.sec.gov/Archives/edgar/data/0=
+001516523/000119312520320913/d80254d4017g.htm" style=3D"color:rgb(25, 106, =
+212);text-decoration-line:underline;background-color:transparent;" rel=3D"n=
+ofollow" target=3D"_blank">https://www.sec.gov/Archives/edgar/data/00015165=
+23/000119312520320913/d80254d4017g.htm</a></p><p style=3D"margin-top:0px;ma=
+rgin-bottom:16px;color:rgb(201, 209, 217);font-family:-apple-system, BlinkM=
+acSystemFont, Helvetica, Arial, sans-serif, Color UI;font-size:14px;backgro=
+und-color:rgb(13, 17, 23);">DOCKET 420.: NYSCEF 153974/2020<br clear=3D"non=
+e">*** omissions, avoidance to prosecution and for a failure to disclose th=
+e TRUTH to investors and lose despite my warning letter on the 3rd of June =
+2020.</p><p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(201, 209, =
+217);font-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-=
+serif, Color UI;font-size:14px;background-color:rgb(13, 17, 23);">MSCO | VA=
+BD ---- MSCO \ TMCC [ ISN'T ICE NOW OWNING BOTH OF THOSE MPIDS ]<br clear=
+=3D"none">-852,029,489.38</p><ul style=3D"padding-left:2em;margin-top:0px;m=
+argin-bottom:16px;color:rgb(201, 209, 217);font-family:-apple-system, Blink=
+MacSystemFont, Helvetica, Arial, sans-serif, Color UI;font-size:14px;backgr=
+ound-color:rgb(13, 17, 23);"><li style=3D"margin-left:0px;"><p style=3D"mar=
+gin-top:16px;margin-bottom:16px;"><a shape=3D"rect" href=3D"https://github.=
+com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/25" style=3D"color:rgb(25, 1=
+06, 212);text-decoration-line:underline;background-color:transparent;" clas=
+s=3D"ydp22457c44yiv8531734481ydp3cf853f3yiv5899356363ydp3d90ab60yiv32462399=
+05ydp7c8b051dyiv5846663862ydp3ca4576byiv1954261995ydp71f6670issue-link ydp2=
+2457c44yiv8531734481ydp3cf853f3yiv5899356363ydp3d90ab60yiv3246239905ydp7c8b=
+051dyiv5846663862ydp3ca4576byiv1954261995ydp71f6670js-issue-link" rel=3D"no=
+follow" target=3D"_blank">#25</a></p></li><li style=3D"margin-top:0.25em;ma=
+rgin-left:0px;"><p style=3D"margin-top:16px;margin-bottom:16px;"><a shape=
+=3D"rect" href=3D"https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/=
+pull/11" style=3D"color:rgb(25, 106, 212);text-decoration-line:underline;ba=
+ckground-color:transparent;" class=3D"ydp22457c44yiv8531734481ydp3cf853f3yi=
+v5899356363ydp3d90ab60yiv3246239905ydp7c8b051dyiv5846663862ydp3ca4576byiv19=
+54261995ydp71f6670issue-link ydp22457c44yiv8531734481ydp3cf853f3yiv58993563=
+63ydp3d90ab60yiv3246239905ydp7c8b051dyiv5846663862ydp3ca4576byiv1954261995y=
+dp71f6670js-issue-link" rel=3D"nofollow" target=3D"_blank">#11</a></p></li>=
+</ul><p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(201, 209, 217)=
+;font-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-seri=
+f, Color UI;font-size:14px;background-color:rgb(13, 17, 23);">CREDIT DEFAUL=
+T SWAPS &amp; INTEREST RATE SWAPS<br clear=3D"none">-- TWO DIFFERENT ANIMAL=
+S... MY APOLOGIES HAVE NOT BEEN ACCOUNTED FOR, BUT I CAN'T ACCESS THOSE REC=
+ORDS AND TRANSACTIONS OF THE INTRODUCING "PROMOTING BROKER" MORGAN STANLEYS=
+.</p><p style=3D"margin-top:0px;margin-bottom:16px;color:rgb(201, 209, 217)=
+;font-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-seri=
+f, Color UI;font-size:14px;background-color:rgb(13, 17, 23);">CIK FILER NUM=
+BER: 93715<br clear=3D"none">TICKER: STFGX --- FILED ON 2020.07.28<br clear=
+=3D"none">_2020.07.28 - state farm associates trust filed for 2020.05.31 - =
+STFGX - Joe Monk.pdf</p><p style=3D"margin-top:0px;margin-bottom:16px;color=
+:rgb(201, 209, 217);font-family:-apple-system, BlinkMacSystemFont, Helvetic=
+a, Arial, sans-serif, Color UI;font-size:14px;background-color:rgb(13, 17, =
+23);">TICKER: SFITX---40-17G-FILED_2020.06.08 COVERS THE UMBRELLA OF COVERA=
+GE FOR ALL 4 OF THE MUTUAL FUNDS UNDER THE: State Farm Associates Funds Tru=
+st, with Mr. Ludwig as its Chief Compliance officer in both 2020 and 2021 a=
+t all relevant times.</p><p style=3D"margin-top:0px;margin-bottom:16px;colo=
+r:rgb(201, 209, 217);font-family:-apple-system, BlinkMacSystemFont, Helveti=
+ca, Arial, sans-serif, Color UI;font-size:14px;background-color:rgb(13, 17,=
+ 23);">Coverage Period 04-2020 through 04-2021___40-17G-FILED_2020.06.08 LU=
+DWIG.pdf</p><div style=3D"color:rgb(201, 209, 217);font-family:-apple-syste=
+m, BlinkMacSystemFont, Helvetica, Arial, sans-serif, Color UI;font-size:14p=
+x;background-color:rgb(13, 17, 23);position:relative !important;" class=3D"=
+ydp22457c44yiv8531734481ydp3cf853f3yiv5899356363ydp3d90ab60yiv3246239905ydp=
+7c8b051dyiv5846663862ydp3ca4576byiv1954261995ydp71f6670snippet-clipboard-co=
+ntent ydp22457c44yiv8531734481ydp3cf853f3yiv5899356363ydp3d90ab60yiv3246239=
+905ydp7c8b051dyiv5846663862ydp3ca4576byiv1954261995ydp71f6670position-relat=
+ive ydp22457c44yiv8531734481ydp3cf853f3yiv5899356363ydp3d90ab60yiv324623990=
+5ydp7c8b051dyiv5846663862ydp3ca4576byiv1954261995ydp71f6670overflow-auto"><=
+pre style=3D"white-space:pre-wrap;font-family:ui-monospace, SFMono-Regular,=
+ Menlo, Consolas, monospace;font-size:11.9px;margin-top:0px;margin-bottom:1=
+6px;padding:16px;line-height:1.45;border-radius:6px;"><code style=3D"font-f=
+amily:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;padding:0px;=
+margin:0px;background:transparent;border-radius:6px;border:0px;display:inli=
+ne;line-height:inherit;">        ATTN:    Shawn Davis, Assistant Director
+                      Division of Investment Management, Chief Counsel=E2=
+=80=99s Office
+                      100 F Street, NE, Washington, DC 20549-8010
+</code></pre></div><p style=3D"margin-top:0px;color:rgb(201, 209, 217);font=
+-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif, Co=
+lor UI;font-size:14px;background-color:rgb(13, 17, 23);margin-bottom:0px !i=
+mportant;">DID NOT ACCOUNT FOR THE LOSSES IN SWAP HOLDINGS OR THE GAINS OF =
+THE SWAPS GETTING TIGHTER BY THE UNDERLYING SINGLE NAME SECURITY SWAPS HELD=
+ AS REPORTED FROM NOVEMBER 16, 2021 THROUGH DECEMBER 31, 2021</p></div><br =
+clear=3D"none"></div><div dir=3D"ltr"><b style=3D"color:rgb(0, 0, 0);">NYSE=
+: MS</b><br clear=3D"none"></div><div dir=3D"ltr"><b style=3D"color:rgb(0, =
+0, 0);">-&nbsp;</b>LET ME KNOW OTHERWISE....</div><div dir=3D"ltr"><br clea=
+r=3D"none"></div><div dir=3D"ltr">&nbsp;- I DON'T HAVE THE AUTHORITY TO LOC=
+K-DOWN AND TAKE A LOOK AT THE BOOKS AT MORGAN STANLEY, BUT IF THERE'S NO DI=
+SCLOSURE OF A LEGAL MATTER... THEN YOU MUST.</div><div dir=3D"ltr"><br clea=
+r=3D"none"></div><div dir=3D"ltr"><br clear=3D"none"></div><div dir=3D"ltr"=
+>DID HAVE A MATERIAL "RELATIONSHIP" WITH STATE FARM ASSURANCES PRIOR TO THE=
+ COMPLETION OF THE MERGER AND THOSE LEGAL MATTERS WHICH HAVE SIMILAR TO WEI=
+GHT, BROUGHT DOWN ALL FOUR OF THE TICKERS IN THAT FAMILY OF FUNDS.</div><di=
+v dir=3D"ltr"><b><br clear=3D"none"></b></div><div dir=3D"ltr"><b>state far=
+m:&nbsp; &nbsp; &nbsp;&nbsp;</b>ONE STATE FARM PLAZA, BLOOMINGTON, IL, 6171=
+0</div><div dir=3D"ltr"><br clear=3D"none"></div><div dir=3D"ltr"><br clear=
+=3D"none"></div><div dir=3D"ltr">/S// BO DINCER.</div><div dir=3D"ltr"><br =
+clear=3D"none"></div><div dir=3D"ltr"><br></div></div><div id=3D"ydp22457c4=
+4yiv8531734481ydp3cf853f3yiv5899356363ydp3d90ab60yiv3246239905ydp7c8b051dyi=
+v5846663862ydp3ca4576byiv1954261995ydpaeca3a32yahoo_quoted_0568134887" clas=
+s=3D"ydp22457c44yiv8531734481ydp3cf853f3yiv5899356363ydp3d90ab60yiv32462399=
+05ydp7c8b051dyiv5846663862ydp3ca4576byiv1954261995ydpaeca3a32yahoo_quoted">=
+<div>On Monday, April 11, 2022, 04:18:34 PM GMT-5, B D2022 &lt;ms6071044426=
+6@yahoo.com&gt; wrote:</div><div><br clear=3D"none"></div><div><br clear=3D=
+"none"></div><div><div id=3D"ydp22457c44yiv8531734481ydp3cf853f3yiv58993563=
+63ydp3d90ab60yiv3246239905ydp7c8b051dyiv5846663862ydp3ca4576byiv1954261995y=
+dpaeca3a32yiv3793798794"><p><font face=3D"Times New Roman"><font color=3D"#=
+ff80ff"><b>ALSO PRIYA &amp; MISS RAGHURAM...<br clear=3D"none"></b></font><=
+/font></p><p><font face=3D"Times New Roman"><font color=3D"#ff80ff"><b>&nbs=
+p;&nbsp;&nbsp; Here is the 40-17G from the prior year: January 1, 2020 - Ja=
+nuary 1, 2021.<br clear=3D"none"><font color=3D"#ff0000">&nbsp;&nbsp;&nbsp;=
+ ATTN:&nbsp;&nbsp;&nbsp; Tom Wipf</font><br clear=3D"none"><font color=3D"#=
+ff0000">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbs=
+p;&nbsp; &nbsp;&nbsp;&nbsp; Morgan Stanley<br clear=3D"none">&nbsp;&nbsp;&n=
+bsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&=
+nbsp; Vice Chairman of Institutional Securities, ISDA<br clear=3D"none"><br=
+ clear=3D"none"><font color=3D"#008080">&nbsp;&nbsp;&nbsp;&nbsp;<u>NEW file=
+r: 0001516523</u></font><br clear=3D"none"></font></b></font></font></p><p>=
+<br clear=3D"none"></p><p><font face=3D"Times New Roman">&nbsp;&nbsp;&nbsp;=
+<a shape=3D"rect" href=3D"https://www.sec.gov/Archives/edgar/data/000151652=
+3/000119312520320913/d80254d4017g.htm" style=3D"color:rgb(25, 106, 212);tex=
+t-decoration-line:underline;" class=3D"ydp22457c44yiv8531734481ydp3cf853f3y=
+iv5899356363ydp3d90ab60yiv3246239905ydp7c8b051dyiv5846663862ydp3ca4576byiv1=
+954261995ydpaeca3a32yiv3793798794moz-txt-link-freetext" rel=3D"nofollow" ta=
+rget=3D"_blank">https://www.sec.gov/Archives/edgar/data/0001516523/00011931=
+2520320913/d80254d4017g.htm</a></font></p><p><font face=3D"Times New Roman"=
+>DOCKET 420.: NYSCEF 153974/2020<br clear=3D"none"><b>*** omissions, avoida=
+nce to prosecution and for a failure to disclose the TRUTH to investors and=
+ lose despite my warning letter on the 3rd of June 2020.</b><br clear=3D"no=
+ne">&nbsp;</font><br clear=3D"none"></p><div class=3D"ydp22457c44yiv8531734=
+481ydp3cf853f3yiv5899356363ydp3d90ab60yiv3246239905ydp7c8b051dyiv5846663862=
+ydp3ca4576byiv1954261995ydpaeca3a32yiv3793798794moz-forward-container"><fon=
+t face=3D"Times New Roman">MSCO | VABD ----&nbsp; MSCO \ TMCC&nbsp;&nbsp; [=
+ ISN'T ICE NOW OWNING BOTH OF THOSE MPIDS ]<br clear=3D"none"></font></div>=
+<font face=3D"Times New Roman"><b><font size=3D"4" face=3D"Courier New" col=
+or=3D"#ff0000">-852,029,489.38</font></b></font><div class=3D"ydp22457c44yi=
+v8531734481ydp3cf853f3yiv5899356363ydp3d90ab60yiv3246239905ydp7c8b051dyiv58=
+46663862ydp3ca4576byiv1954261995ydpaeca3a32yiv3793798794moz-forward-contain=
+er"><font face=3D"Times New Roman"><b><font size=3D"4" face=3D"Courier New"=
+ color=3D"#ff0000"><br clear=3D"none"></font></b></font></div>+<ul><li><a s=
+hape=3D"rect" href=3D"https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DIC=
+KER/pull/25" style=3D"color:rgb(25, 106, 212);text-decoration-line:underlin=
+e;" class=3D"ydp22457c44yiv8531734481ydp3cf853f3yiv5899356363ydp3d90ab60yiv=
+3246239905ydp7c8b051dyiv5846663862ydp3ca4576byiv1954261995ydpaeca3a32yiv379=
+3798794moz-txt-link-freetext enhancr_card_0287143195" rel=3D"nofollow" targ=
+et=3D"_blank">1212-58-58 by BSCPGROUPHOLDINGSLLC =C2=B7 Pull Request #25 =
+=C2=B7 BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER</a></li><div><br></div><div id=
+=3D"ydp2b76d8beenhancr_card_0287143195" class=3D"ydp2b76d8beyahoo-link-enha=
+ncr-card ydp2b76d8beymail-preserve-class ydp2b76d8beymail-preserve-style" s=
+tyle=3D"max-width:400px;font-family:YahooSans, Helvetica Neue, Segoe UI, He=
+lvetica, Arial, sans-serif" data-url=3D"https://github.com/BSCPGROUPHOLDING=
+SLLC/ELSER-AND-DICKER/pull/25" data-type=3D"YENHANCER" data-size=3D"MEDIUM"=
+ contenteditable=3D"false"><a href=3D"https://github.com/BSCPGROUPHOLDINGSL=
+LC/ELSER-AND-DICKER/pull/25" style=3D"text-decoration:none !important;color=
+:#000 !important" class=3D"ydp2b76d8beyahoo-enhancr-cardlink" rel=3D"nofoll=
+ow" target=3D"_blank"><table border=3D"0" class=3D"ydp2b76d8becard-wrapper =
+ydp2b76d8beyahoo-ignore-table" cellpadding=3D"0" cellspacing=3D"0" style=3D=
+"max-width:400px"><tbody><tr><td width=3D"400"><table border=3D"0" class=3D=
+"ydp2b76d8becard ydp2b76d8beyahoo-ignore-table" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"100%" style=3D"max-width:400px;border-width:1px;border-st=
+yle:solid;border-color:rgb(224, 228, 233);border-radius:2px"><tbody><tr><td=
+ class=3D"ydp2b76d8becard-primary-image-cell" background=3D"https://s.yimg.=
+com/lo/api/res/1.2/fu7VDywCx24b5R3OBrvkuw--~A/Zmk9ZmlsbDt3PTQwMDtoPTIwMDthc=
+HBpZD1pZXh0cmFjdA--/https://opengraph.githubassets.com/dd031d8dd2e64a2daa4b=
+5bdbc74c4222e6a80982ea3167f9f4ce6df993b79c04/BSCPGROUPHOLDINGSLLC/ELSER-AND=
+-DICKER/pull/25.cf.jpg" bgcolor=3D"#000000" valign=3D"top" height=3D"175" s=
+tyle=3D"background-color: rgb(0, 0, 0); background-size: cover; position: r=
+elative; border-radius: 2px 2px 0px 0px; min-height: 175px;"><!--[if gte ms=
+o 9]><v:rect fill=3D"true" stroke=3D"false" style=3D"width:396px;height:175=
+px;position:absolute;top:0;left:0;"><v:fill type=3D"frame" color=3D"#000000=
+" src=3D"https://s.yimg.com/lo/api/res/1.2/fu7VDywCx24b5R3OBrvkuw--~A/Zmk9Z=
+mlsbDt3PTQwMDtoPTIwMDthcHBpZD1pZXh0cmFjdA--/https://opengraph.githubassets.=
+com/dd031d8dd2e64a2daa4b5bdbc74c4222e6a80982ea3167f9f4ce6df993b79c04/BSCPGR=
+OUPHOLDINGSLLC/ELSER-AND-DICKER/pull/25.cf.jpg"/></v:rect><![endif]--><tabl=
+e border=3D"0" class=3D"ydp2b76d8becard-overlay-container-table ydp2b76d8be=
+yahoo-ignore-table" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:100%=
+"><tbody><tr><td class=3D"ydp2b76d8becard-overlay-cell" background=3D"https=
+://s.yimg.com/cv/ae/nq/storm/assets/enhancrV21/1/enhancr_gradient-400x175.p=
+ng" bgcolor=3D"transparent" valign=3D"top" style=3D"background-color: trans=
+parent; border-radius: 2px 2px 0px 0px; min-height: 175px;"><!--[if gte mso=
+ 9]><v:rect fill=3D"true" stroke=3D"false" style=3D"width:396px;height:175p=
+x;position:absolute;top:-18px;left:0;"><v:fill type=3D"pattern" color=3D"#0=
+00000" src=3D"https://s.yimg.com/cv/ae/nq/storm/assets/enhancrV21/1/enhancr=
+_gradient-400x175.png"/><v:textbox inset=3D"0,0,20px,0"><![endif]--><table =
+border=3D"0" class=3D"ydp2b76d8beyahoo-ignore-table" height=3D"175" style=
+=3D"width: 100%; min-height: 175px;"><tbody><tr><td class=3D"ydp2b76d8becar=
+d-richInfo2" style=3D"text-align:left;padding:15px 0 0 15px;vertical-align:=
+top"></td><td class=3D"ydp2b76d8becard-actions" style=3D"text-align:right;p=
+adding:15px 15px 0 0;vertical-align:top"><div class=3D"ydp2b76d8becard-shar=
+e-container"></div></td></tr></tbody></table><!--[if gte mso 9]></v:textbox=
+></v:rect><![endif]--></td></tr></tbody></table></td></tr><tr><td><table bo=
+rder=3D"0" align=3D"center" class=3D"ydp2b76d8becard-info ydp2b76d8beyahoo-=
+ignore-table" cellpadding=3D"0" cellspacing=3D"0" style=3D"background:#fff;=
+position:relative;z-index:2;width:100%;max-width:400px;border-radius:0 0 2p=
+x 2px;border-top:1px solid rgb(224, 228, 233)"><tbody><tr><td style=3D"back=
+ground-color:#ffffff;padding:16px 0 16px 12px;vertical-align:top;border-rad=
+ius:0 0 0 2px"><img class=3D"ydp2b76d8becard-object-1 ydp2b76d8beyahoo-igno=
+re-inline-image ydp2b76d8beymail-preserve-class" src=3D"https://s.yimg.com/=
+nq/storm/assets/enhancrV2/23/logos/github.png" height=3D"36" style=3D"min-w=
+idth:36px;margin-top:3px"></td><td style=3D"vertical-align:middle;padding:1=
+2px 24px 16px 12px;width:99%;font-family:YahooSans, Helvetica Neue, Segoe U=
+I, Helvetica, Arial, sans-serif;border-radius:0 0 2px 0"><h2 class=3D"ydp2b=
+76d8becard-title" style=3D"font-size: 14px; line-height: 19px; margin: 0px =
+0px 6px; font-family: YahooSans, Helvetica Neue, Segoe UI, Helvetica, Arial=
+, sans-serif; color: rgb(29, 34, 40); max-width: 314px;">1212-58-58 by BSCP=
+GROUPHOLDINGSLLC =C2=B7 Pull Request #25 =C2=B7 BSCPGROUPHOLDING...</h2><p =
+class=3D"ydp2b76d8becard-description" style=3D"font-size: 12px; line-height=
+: 16px; margin: 0px; color: rgb(151, 158, 168);">[ SFBDX ] [ SFITX ] [ STFB=
+X ] [STFGX ] =E2=80=94 CRD DISCLOSURES NONPLUSSED.pdf Bond Period: from 12:=
+01 a.m. on April 1,...</p></td></tr></tbody></table></td></tr></tbody></tab=
+le></td></tr></tbody></table></a></div><div><br></div><div><br></div></ul><=
+p><br clear=3D"none"></p><ul><li><a shape=3D"rect" href=3D"https://github.c=
+om/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/11" style=3D"color:rgb(25, 10=
+6, 212);text-decoration-line:underline;" class=3D"ydp22457c44yiv8531734481y=
+dp3cf853f3yiv5899356363ydp3d90ab60yiv3246239905ydp7c8b051dyiv5846663862ydp3=
+ca4576byiv1954261995ydpaeca3a32yiv3793798794moz-txt-link-freetext" rel=3D"n=
+ofollow" target=3D"_blank">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AN=
+D-DICKER/pull/11</a><br clear=3D"none"></li></ul><br clear=3D"none"><div cl=
+ass=3D"ydp22457c44yiv8531734481ydp3cf853f3yiv5899356363ydp3d90ab60yiv324623=
+9905ydp7c8b051dyiv5846663862ydp3ca4576byiv1954261995ydpaeca3a32yiv379379879=
+4moz-forward-container"><br clear=3D"none"><div class=3D"ydp22457c44yiv8531=
+734481ydp3cf853f3yiv5899356363ydp3d90ab60yiv3246239905ydp7c8b051dyiv5846663=
+862ydp3ca4576byiv1954261995ydpaeca3a32yiv3793798794moz-forward-container"><=
+font face=3D"Times New Roman">- ALSO -&nbsp;<b>SWAPS&nbsp;</b><b>&amp; INTE=
+REST "rate" SWAPS -- TWO DIFFERENT ANIMALS...&nbsp;<u><font color=3D"#ff000=
+0">MY APOLOGIES PRIYA FOR THE TYPO.</font></u></b></font></div><div class=
+=3D"ydp22457c44yiv8531734481ydp3cf853f3yiv5899356363ydp3d90ab60yiv324623990=
+5ydp7c8b051dyiv5846663862ydp3ca4576byiv1954261995ydpaeca3a32yiv3793798794mo=
+z-forward-container"><font face=3D"Times New Roman"><b><u><font color=3D"#f=
+f0000"><br clear=3D"none"></font></u></b></font></div><div class=3D"ydp2245=
+7c44yiv8531734481ydp3cf853f3yiv5899356363ydp3d90ab60yiv3246239905ydp7c8b051=
+dyiv5846663862ydp3ca4576byiv1954261995ydpaeca3a32yiv3793798794moz-forward-c=
+ontainer"><font face=3D"Times New Roman"><b><br clear=3D"none"></b></font><=
+/div></div><div class=3D"ydp22457c44yiv8531734481ydp3cf853f3yiv5899356363yd=
+p3d90ab60yiv3246239905ydp7c8b051dyiv5846663862ydp3ca4576byiv1954261995ydpae=
+ca3a32yiv3793798794moz-forward-container"><font face=3D"Times New Roman"><b=
+><font size=3D"4" face=3D"Courier New" color=3D"#ff0000"><br clear=3D"none"=
+></font></b></font></div><font face=3D"Times New Roman" color=3D"#8080c0"><=
+b>CIK FILER NUMBER: 93715</b></font><font color=3D"#8080c0"><br clear=3D"no=
+ne"></font><p><font face=3D"Times New Roman" color=3D"#8080c0"><b>TICKER: S=
+TFGX --- FILED ON 2020.07.28<br clear=3D"none">_2020.07.28 - state farm ass=
+ociates trust filed for 2020.05.31 - STFGX - Joe Monk.pdf<br clear=3D"none"=
+><br clear=3D"none">TICKER: SFITX---40-17G-FILED_2020.06.08 COVERS THE UMBR=
+ELLA OF COVERAGE FOR ALL 4 OF THE MUTUAL FUNDS UNDER THE: State Farm Associ=
+ates Funds Trust, with Mr. Ludwig as its Chief Compliance officer in both 2=
+020 and 2021 at all relevant times.<br clear=3D"none"><br clear=3D"none"><f=
+ont color=3D"#ff80ff">Coverage Period 04-2020 through 04-2021___40-17G-FILE=
+D_2020.06.08 LUDWIG.pdf</font><br clear=3D"none"><br clear=3D"none"><br cle=
+ar=3D"none">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp; ATTN:&nbsp;&nbsp;&nbsp; Shawn Davis, Assistant Director<br clear=3D"non=
+e">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp; Division of Investment Management, Chief Counsel=E2=80=99s Office<br cl=
+ear=3D"none">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp; 100 F Street, NE, Washington, DC 20549-8010</b></font></p><p>=
+<b><font face=3D"Times New Roman" color=3D"#8080c0"><br clear=3D"none"></fo=
+nt></b></p><div class=3D"ydp22457c44yiv8531734481ydp3cf853f3yiv5899356363yd=
+p3d90ab60yiv3246239905ydp7c8b051dyiv5846663862ydp3ca4576byiv1954261995ydpae=
+ca3a32yiv3793798794moz-forward-container"><b><font face=3D"Times New Roman"=
+><font size=3D"4" face=3D"Courier New" color=3D"#ff0000">DID NOT ACCOUNT FO=
+R THE LOSSES IN SWAP HOLDINGS OR THE GAINS OF THE SWAPS GETTING TIGHTER BY =
+THE UNDERLYING&nbsp;</font><font size=3D"4" face=3D"Courier New" color=3D"#=
+ff0000">SINGLE NAME SECURITY SWAPS HELD AS REPORTED FROM NOVEMBER 16, 2021 =
+THROUGH DECEMBER 31, 2021</font></font></b></div><b></b><div class=3D"ydp22=
+457c44yiv8531734481ydp3cf853f3yiv5899356363ydp3d90ab60yiv3246239905ydp7c8b0=
+51dyiv5846663862ydp3ca4576byiv1954261995ydpaeca3a32yiv3793798794moz-forward=
+-container"><font size=3D"1" face=3D"Times New         Roman" color=3D"#808=
+0c0"><b><font face=3D"Courier New"><br clear=3D"none"></font></b></font></d=
+iv><p><font face=3D"Times New Roman"><font color=3D"#ff80ff"><b><font color=
+=3D"#ff0000"><img alt=3D"" style=3D"width:600px;max-width:613px;" class=3D"=
+ydp22457c44yiv8531734481ydp3cf853f3yiv5899356363ydp3d90ab60yiv3246239905ydp=
+7c8b051dyiv5846663862ydp3ca4576byiv1954261995ydpe92d0d49yahoo-inline-image"=
+ data-inlineimagemanipulating=3D"true" draggable=3D"false" src=3D"" data-id=
+=3D"1649717228491"></font></b></font></font></p><p>- HENCE, YOU NEED SOMEON=
+E TO TAKE AT THOSE GAINS AND LOSSES ON THE BOOKS AT MORGAN STANLEY..</p><p>=
+&nbsp;&nbsp;&nbsp; -<br clear=3D"none"></p><p><b><font face=3D"Times New Ro=
+man">ARE TIED TO THE SINGLE NAME SECURITIES IN THE ANNEXED STATE FARM ASSOC=
+IATES TRUST FUND HOLDING CORPORATE CREDIT, TREASURY BONDS, AND OTHER SINGLE=
+ NAME SECURITIES.</font></b><b><font face=3D"Times New Roman">... THEY SHOU=
+LD REQUIRE A "BABY SITTER" TO MONITOR THEIR MONITORS AT ALL THEIR BRANCHES,=
+ IN MY PURVIEW, BY THE PROMOTING&nbsp; BROKER IN THIS MATTER, FAILED TO CON=
+DUCT THEIR FIDUCIARY RESPONSIBILITIES AND WERE ALSO PAID TO DO "BETTER" PRO=
+MOTE THE MUTUAL FUND AND ITS INVESTORS HAVE SUFFERED A TERRIBLE LOSS AS A F=
+AILURE TO DISCLOSURE OF THIS MATTER BY ALL OF THEIR REPRESENTATIVE..</font>=
+</b></p><div><b><font face=3D"Times New Roman"><br></font></b></div></div><=
+/div></div></div></div></div></div></div></div></div></div></div></div></di=
+v><br></div></div></div></div></div>
+            </div>
+        </div></body></html>
+------=_Part_488823_786176008.1649717837341--

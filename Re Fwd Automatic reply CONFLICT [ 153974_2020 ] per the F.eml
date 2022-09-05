@@ -1,0 +1,923 @@
+From - Tue May 31 08:18:06 2022
+X-Account-Key: account1
+X-UIDL: AO/ekR1wydB1YpX5aQafULrlkCY
+X-Mozilla-Status: 0011
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.151.75
+ by atlas221.free.mail.ne1.yahoo.com with HTTPS; Tue, 31 May 2022 11:18:42 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.68.82]
+Received-SPF: pass (domain of yahoo.com designates 98.137.68.82 as permitted sender)
+Authentication-Results: atlas221.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 31 May 2022 11:18:43 +0000
+X-YMailISG: h9ZvGJoWLDsUbhXw3DsSc3pyjqA6Ia0Uj6N3SeGfzw7zbccu
+ v_NuZyczpDJjaUTe.ImcDpxS.iwRGNV3ZZxYyxZb631HrxIvsQ2N4c7zCUP0
+ eX5tUbAMZMmPmAoUneMVcKSuAtt9KW03vlX8ylaTQYB8QgOyORGwZcko2jQD
+ cLZWMHxOvEFToGLedSzaNBK.m7NBtE_i_Gtn3n1Umw9ZxysTWPXCrcQ5OPQi
+ xly2lpDoMY0yHjZyFFW8UaF99._66qA92wJbiDcXa73X0iYoph7B3i8.kmpb
+ LvFj2.WzMbtO7_WzZmTh9Ol4Bb8N02ymrY8l4.CVMUQUaYwgnvo3WDw3kw_H
+ W1CGiFjHvlevWMLLUWHQ9Jm7HsrvDHCx8uG0Z4bTEmFaCsm1i0mPGbG3EZko
+ xbIN7NMbF7a2xyUXvfHF68zbhu6HZS4Zb3FTHDKhyMuQyQ4Y4ODiPN5.r4Qo
+ 8egEoEPnRSQFM3MD60JZYO_HKte4PqP70OkxVK9uQsRKYdtQWFoYnDFiKbm7
+ 1LC_HzqYTZHbbIET84kFQAFx4VLA6D6QL96LcGMLFRxFMsIEmoFc8uwtDnNm
+ P9KyPSYdk8Hq8KUJMBtz6AM6iGAUNTRp8DMwGpiZug.D.dCirpryHFpNh.Ov
+ Nev3a0.G27VFlPllnihB7Laf25JB4iGBd7ry_0C8vok_XyG.lZP0tqzmkME2
+ V7tAumza81ARQ0W2bB1bewdN9UZqStAA5UneLaTwKxsVYfEE09EAdAiljtKA
+ ZXf4QWUlWdNLZfi_6wkV2B7VdelzTVX0wwbxGoJsRQmsbH0zOOtSBFm3jsbq
+ KiooKJvasIiywPasj62o_YvD8PWJPBaFwJrIwpl_EZ2d5inm3GU0fxETmjB0
+ x8U_n3KhHArxuXbVONc6J4vQkRFLfxQq6nDnsCHGvyChshDON0mArjfOb0Xb
+ x46EHWAOT_SJs3hjMrKewyUTsNholeKyTIJV0gpfkYa.gaQfaDfUZt1yU7sL
+ T1QKqPbEGw0nTzt7bf_s6SXEFWvAjvpo_rFqyaylsU.X0ptxup1CBuAkyBFU
+ JvXPJNJIrZ6E7Q.j01UmbOnGPg4StZvDsoHY1xaJGRRBKByqyXuYBKE9kaMf
+ 3M1cTAzDVKuX4FJnleqhVUgQeQiL_kFztDPD_UStLVvetXcPgjRXISBF2VaE
+ 7F_TQeom4WU-
+Received: from 98.137.68.82 (EHLO sonic306-19.consmr.mail.gq1.yahoo.com)
+ by 10.217.151.75 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Tue, 31 May 2022 11:18:42 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653995921; bh=x2Ts7sGVlZdVjT3oC49vNB+1QcPdjSBNfaPAe67UhR4=; h=Date:From:Reply-To:To:Cc:In-Reply-To:References:Subject:From:Subject:Reply-To; b=W2fA0EwadfnDfqh/9sMpGK7zQJ+WoxSplembaIthQEW6YvsLC7gSXA1nlyxMd1oa42OLgOpcppSj2df2WQG0liwCeAoNC60k95zsK2UTelMt8LjpFqL2FDmr/qEuQZ2xjWGNmzcwCBNntCb5dRWCmc3l3gQve2kFQ8kU/yLUM2vH0cj/Ew5VFyTgdZGl077VLmLtL1Oqr1smJUcW8MD+DHdka2nuR2+EUv1dWvHTSZUITqHcAJmCEcu+79354XbOwSuYoWs2mTa5cI+Mc3bKw2Vo9T6Ca/jH2+X8hpf1XvMsZ4ueAJsBKkYHvxIu8bQA3lxLl4JRhiV8d2VJ3jpZ7Q==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653995921; bh=MlRGfxa3coFW8f9uN9TIN3T6/Narc7sONoxm+mmnwWJ=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=Ft60tWi+xehhN1kbA8F8uHID2DQjQaLcdN3kjZUXO48sXCwnQdBPZhp4v4u1tdaNwDPmK9uloTNslteF9y45WllihIik3b1Ai/+TAoR8D0FDZ98Y56SuBTHuinmGkBWxb3pcwTP6rewa32f2Fz/Hoi96ZkmV52mPC+SSxkPGarVdpvf4c8LiPhMxR0npSg9tTjzH5pOIQ0FUiIETuqPwvAX1PGvQPeaElUocBf4zYoruWR3r30TyPoY4hCWQEOWg5HifichAB8Pfjws6OW8U9f+6YYB61YSwljNmJwbZBzl5wa52pNctWx7llCwA/if7hnXMYOvHSh5j33xLiAjq4g==
+X-YMail-OSG: gHSpJjgVM1kmoOtMtLhXuR0hlIX7OcbvrFhEbWVHxEIHq0ZRpeNFRgqo4Q3yoZX
+ 0C6bsdFC7SLgEySiyRjRChhg_Hmkup1VzFHr4IiJbKBBrUx7Di_R36fO5pl5aGCQtDr6zF6y9EF8
+ l_LGWj5f.dNGxa5HLmET67tb7fwNp3Sr4GI3AaBBSxdalWTRaMCEj87hwtuALz_6rTW2f9I_Vro6
+ R1w.Dn2yI7Lhg8yR_oQ8Fk4Ygkq9c5HbOnIb29cDnWM6XMjHw2SdQ2mxZ6hcQWu0.FcgkEqouyuV
+ nreRbJwvRtHsLiI_bEKgbuGLSyjESNGCsHFEDpDAXoEI21RF.J1GFUVrnow_IEbeMF3Fu.Ni9MHk
+ x357Yq71fIQ.5FQRWtWg4LaJRfEhpqYr9P29PkfeUseRb.C3liGRy9nL8A_xF.O4ICjN7TXd9OY5
+ 0VxoncYZKVrhvvodE8vpyK7JrT0QtV7soHKl1L4edgDO5z1C9QEc4.lv0e5fVZ.gdTkE7qt4DziQ
+ baKRNr2_uQHePj.QnqBBvH5uKXoBNdISzaM7d87ZhBh16NJCRgfEDPB7iblTY4jqyP85CLRZIEp6
+ 18P2iGG2aQoZYgzkPwx18EUcOxIh_WF_Hn.5UJikaVrJRSd0Wq6PyDoqWlXCs37aYRHMHZwcfboc
+ t.tMoDB1qwqJAnEab06sZ8qEW3Kbx1MVThWlHOfPoZrKwYsF8p4hkSDzRmm1JbWq_Ikt5m1X9elr
+ Jc8lc4INRpKsbcWh_Xh52REqFO8K9wzcowS2MNf_qKhOXFL3l490rjrEIxibDr7H6YnGiWCdF8Jw
+ CRL9cytQENvEEXG82H.33VInjx6NMg2oBu5Y2oj0GZBKzReCAy9J1.d1ADHYA_K3pQMre0BAy36g
+ Q_qi9nbN1N9_L3N50to41iBKYr4fc9Fm.j05a12ySL_Rh3Z1N.4rEjU6Qp8UNf9gCM7iw6NaXPx.
+ FvadZ_wnYPqEHSYjnijb3JWSnbNBrj4Iow8LTKge9Nw7QUH1JPWIbORXDoqvo.icrdeelIGY4Ges
+ 9jeQjCTm7qFXdINVVcLP6Q.QPuEjy6NsajOSkzh4P0cGrvxZqhaWeSYoRns2dDke5nINaw4ZseOQ
+ kFuytCfwXrRksYydVyGxG9Tu4C7fPJughf.NT4gv34MdgCbg7sTfRlHYwspOu7nnEHtsW_ODVUO6
+ MGDhYwsI9n6uAGtwB.IheYrMRdBrAc5zPcOdOKVdw90h4mmdF6woCGCxQXXfXHPOg3HkPfBsEE5.
+ O8hztlr96QbyzrtgnLBN5WYh_RK1XEkGPT8Abswqm5S6XqynrxoddEZX8K6oe13kPDq_0xzIWose
+ _OgjlPGfWHURICZnDg3wJuB59gn59AsbsmLDfEhijAMhZtxQRCG.2pOkBsDvMb99KMshDNk.Trm2
+ EfcPUDs0mpBXSN8hqNBGjroj72wZONFSn1RdLYaz5x8LvyTgL.10wvtvWD33SSKnsROyFudC63BF
+ Ww4lTIimeWt5rELWriqpucdRfXxI.t_sUeUrATeYl_Mw8Ens60KPyCg.kdRYJxJPeDSpTjtJoXWp
+ vmyws_CWtFLYsLib6XjN2jhEtkHhPt4vPWBygSW_rSaSlxXLy2SKDHgzLY0x75zei0N09xUEMUsK
+ 1LUqEYSgtRlJS3DPhMxbASm.my5LsBnyG_sdC3BZgFmSa6VvIx6waVSisO9frB8EiGxoKPns4ldW
+ PzH5fBE.eB1vEw1tmmBMoRG7krOJH6I.P85blnVi1VzxfAPVM4op_ZpBwNaGcIMOIRaZ6JgVFRdl
+ NMaEnOCNRrTCQzOuQ3tTerYhrANJI.BOTk23U8LUoPdshzZCgIIBKvbpOUgjHrWukfxl7Pindl10
+ NKxTYAUVseA3Y0MF0srNbAspK8GEmnoZkwTOEVXJUoehPwb.l1XhRRxntGgdRTtJOk8Bf4qCjnU4
+ 2loIawnKF0YrVvGlVcydB26UitpUHPPJ9vZPLdh3NgD.zRKQQczEyER84kKIguC2pKoEg9kmxv67
+ x_IMHnoCZ9MaLHmMWP.ZplSV1y0hYbpcKbLdwZFZrTHUsFrlx36dIsvWSzQ94tKpyTZEB10OPqrs
+ 17BiM89NNyM7hzHw59ye5HkyMEzvUlXwIjEkQdGYRheLLL3hgSLdnxHkbcs8mI2OBXhBzUCjXCZc
+ iIsoG3V.TG4Cda1TVBaCob1AnB9Lbe9csQrctQH3FC97DXtNbG6Q29PnRjiD4EvSnM7yS4ARpQYy
+ tK6yGIUadP2jzHLN_DYeYq.Q7PCwFEq56gJOiEz6gdLXmj4AIYk4QmBz8rKgGOYiev1YMfhD1jTx
+ I5pz7GWiNvXwIDapZZg6UznJojhomYWJMl_UuoaINo3O1AMfHOzN5684f1MXz8wixri8xUwGzXTP
+ I_7Obs2PV436TCHbFiF_oTGb5.hPc53iLRy4nBHPgv3w8UngqkBAcRTTrnRU-
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic306.consmr.mail.gq1.yahoo.com with HTTP; Tue, 31 May 2022 11:18:41 +0000
+Date: Tue, 31 May 2022 11:18:39 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "bdincer66@icloud.com" <bdincer66@icloud.com>, 
+	"ksaperstein2@bloomberg.net" <ksaperstein2@bloomberg.net>, 
+	"23pctdvo@nypd.com" <23pctdvo@nypd.com>, 
+	"DCAOLetters@sec.gov" <DCAOLetters@sec.gov>, 
+	"1pctdvo@nypd.org" <1pctdvo@nypd.org>, 
+	"1pctyco@nypd.org" <1pctyco@nypd.org>, 
+	"Bloomberg L.P." <bbrief@bloomberg.net>, 
+	"cbrooks7@bloomberg.net" <cbrooks7@bloomberg.net>, 
+	"iceglobalnetwork-info@ice.com" <iceglobalnetwork-info@ice.com>, 
+	"JPMCinvestorrelations@jpmchase.com" <JPMCinvestorrelations@jpmchase.com>, 
+	"TEschmann@mskyline.com" <TEschmann@mskyline.com>, 
+	"23pctyco@nypd.org" <23pctyco@nypd.org>, Newyork <newyork@sec.gov>, 
+	MSKYLINE <ANNE@thehighlandpartners.com>, 
+	BD <bondstrt@protonmail.com>, Tennesse <sbarchenger@tennessean.com>, 
+	BBO 121 <ms60710444266@yahoo.com>, 
+	"dallas-reserve-mgmt@dal.frb.org" <dallas-reserve-mgmt@dal.frb.org>, 
+	"dion.gaspard@nypd.org" <dion.gaspard@nypd.org>, 
+	"blaw.content@bloomberg.net" <blaw.content@bloomberg.net>, 
+	"tips@latimes.com" <tips@latimes.com>, 
+	"INFO@ingramllp.com" <INFO@ingramllp.com>, 
+	"administrator@makyline.com" <administrator@makyline.com>, 
+	"blawre@bloomberg.net" <blawre@bloomberg.net>, 
+	"bofamarkets@baml.com" <bofamarkets@baml.com>, 
+	"bofamarkets@bofa.com" <bofamarkets@bofa.com>, 
+	"investor@annaly.com" <investor@annaly.com>, 
+	"jpetit@mccarter.com" <jpetit@mccarter.com>, 
+	"lzucker@mskyline.com" <lzucker@mskyline.com>, 
+	"mshyld@bloomberg.net" <mshyld@bloomberg.net>, 
+	"thermanson@northmarq.com" <thermanson@northmarq.com>, 
+	"tips@insider.com" <tips@insider.com>, 
+	"tips@vibe.com" <tips@vibe.com>, 
+	"thinkingforward@mit.edu" <thinkingforward@mit.edu>, 
+	Avril Haines <ah3774@columbia.edu>, 
+	Ricki Roer <ricki.roer@wilsonelser.com>, 
+	Shari Laskowitz <slaskowitz@ingramllp.com>, 
+	Solowresidential Info <info@solowresidential.com>, 
+	TRD REAL DEAL <ADVERTISING@therealdeal.com>, 
+	Alan Rubin <alan.rubin@wilsonelser.com>, 
+	UNITED ARTISTS MUSIC <INVESTORRELATIONS@umusic.com>, 
+	UNIVERSAL EDITORIAL <INVESTMENTNEWS@editorial.investmentnews.com>, 
+	Bressler Info <INFO@bressler.com>, 
+	Debra Tama <debra.tama@wilsonelser.com>, 
+	Extellmanagement Info <info@extellmanagement.com>, 
+	FINRA Corporate Notification <finracorporatenotification@finra.org>, 
+	JAMES GORMAN <james.gorman@morganstanley.com>, 
+	Joseph Giamboi <joseph.giamboi@brooklaw.edu>, 
+	LA TIMES NEWSLETTERS <NEWSLETTERS@latimes.com>, 
+	Lori Semlies <lori.semlies@wilsonelser.com>, 
+	MATT HARVEY <mharvey13@bloomberg.net>, 
+	ZUCKER ORGANIZATION <jgiamboi@mskyline.com>, 
+	Amy Hanrahan <amy.hanrahan@wilsonelser.com>, 
+	American Bar Association <abanews@americanbar.org>, 
+	Paul Regan <legal@mskyline.com>, 
+	"Jennifer M. Provost" <jennifer.provost@wilsonelser.com>, 
+	"executive_education@mailsvc.sloan.mit.edu" <executive_education@mailsvc.sloan.mit.edu>, 
+	"Kathleen A. Mullins" <kathleen.mullins@wilsonelser.com>, 
+	"magazine@nytimes.com" <magazine@nytimes.com>, 
+	"LLC. MANHATTAN SKYLINE" <ADMINISTRATOR@mskyline.com>, 
+	"foia@eeoc.gov" <foia@eeoc.gov>, 
+	"Lauren M. Zink" <lauren.zink@wilsonelser.com>, 
+	"Ashley V. Humphries" <ashley.humphries@wilsonelser.com>, 
+	Kpmg Info <info@kpmg.com>
+Cc: Governor Hochul <governor.hochul@exec.ny.gov>, 
+	Federal Reserve Bank of New York <general.info@ny.frb.org>, 
+	"tmc-corps@bloomberg.net" <tmc-corps@bloomberg.net>, 
+	The New York Times <letters@nytimes.com>, 
+	Yana Siegel <yana.siegel@wilsonelser.com>, 
+	"ashort@suncommunities.com" <ashort@suncommunities.com>, 
+	"assessments@fdic.gov" <assessments@fdic.gov>, 
+	"assetmarketing@fdic.gov" <assetmarketing@fdic.gov>, 
+	"abanews@americanbar.org" <abanews@americanbar.org>, 
+	Sec News <news@sec.gov>, "upton.au@lw.com" <upton.au@lw.com>, 
+	"tenant.portal@dukerealty.com" <tenant.portal@dukerealty.com>, 
+	"press@barrons.com" <press@barrons.com>
+Message-ID: <531399249.3904944.1653995919114@mail.yahoo.com>
+In-Reply-To: <726177E3-2C32-4974-8C26-11BF75C160FA@icloud.com>
+References: <EA596B5B-D915-4940-91AB-0C5D77A05FEC@icloud.com> <726177E3-2C32-4974-8C26-11BF75C160FA@icloud.com>
+Subject: Re: Fwd: Automatic reply: *** CONFLICT [ 153974/2020 ] per the F
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3904943_1992018760.1653995919106"
+X-Mailer: WebService/1.1.20225 YahooMailAndroidMobile
+Content-Length: 41087
+
+------=_Part_3904943_1992018760.1653995919106
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+They still are the Promoters, willfully=C2=A0=C2=A0 =C2=A0- of State Farm's=
+ Mutual Funds.=C2=A0
+
+
+The Omission may be due their representatives as "bereft" of a ti-84 calcul=
+ator or a pen and a noteoad, I'm not sure how many research analysts work a=
+t Morgan Stanley, but you can ask as many of them as you'd like; after all =
+=E2=80=94it's a free country, has a different definition if you ask a Zucke=
+r.
+/S/ BO DINCER
+
+=20
+=20
+  On Tue, May 31, 2022 at 7:01 AM, Bo Dincer<bdincer66@icloud.com> wrote:  =
+=20
+
+/BD
+
+Begin forwarded message:
+
+
+From: Bo Dincer <bdincer66@icloud.com>
+Date: May 31, 2022 at 2:47:31 AM EDT
+To: support@mtagservices.com, NYCTLservicing@tcmfund.com, BBO 121 <ms607104=
+44266@yahoo.com>, tips@latimes.com, newyork@sec.gov, tips@insider.com, LZUC=
+KER@mskyline.com, ricki.roer@wilsonelser.com, slaskowitz@ingramllp.com, "As=
+hley V. Humphries" <ashley.humphries@wilsonelser.com>, tips@nypost.com, esp=
+nfrontrow@espn.com, CustomerService@seahawks.com, Dow Jones <pronewsletter@=
+dowjones.com>, Watch Abc7 <autoreply@email.watchabc.com>, K Ripp <stationse=
+rvices@cbs2ny.com>, State Farm <mutualfunds@statefarm.com>, David Moore <da=
+vid.moore.ct95@statefarm.com>, Josephine Vella <josephine.vella@finra.org>,=
+ Joseph Giamboi <joseph.giamboi@brooklaw.edu>, jheegan@doi.nyc.gov, Extellm=
+anagement Info <info@extellmanagement.com>, investor@annaly.com, UNITED ART=
+ISTS MUSIC <investorrelations@umusic.com>, UNIVERSAL EDITORIAL <investmentn=
+ews@editorial.investmentnews.com>
+Cc: governor.hochul@exec.ny.gov, assetmarketing@fdic.gov, assessments@fdic.=
+gov, dcaoletters@sec.gov, endowmentadmin@columbia.edu
+Subject: Fwd: Automatic reply: *** CONFLICT [ 153974/2020 ] per the FDIC. *=
+** supplements attached for convenience.
+
+
+
+=EF=BB=BF 144 units Gross Valuation :=C2=A0$ 23.5 million. For the last 15 =
+years.=C2=A0
+Location: Block 803, lots transferred to State Farm.=C2=A0=E2=80=94 combine=
+d with the Fraud provision, is greater than $750,000,000.00 in back taxes f=
+or 6 properties and a six million dollar letter of credit issued by State F=
+arm.=C2=A0- promised to pay upon discovery of a required payment in the eve=
+nt of a discrepancy.=C2=A0
+LET me know where 144 apartments are for sale in zipcode in zipcode 10012 a=
+nd I will rest on this obstruction and omission of the risks implied to the=
+ investors of Advisers Investment Trust and/or State Farm Assurances Funds =
+Trust. Just because they changed their CIK ID doesn=E2=80=99t change their =
+tickers, their sub-manager, or their holdings reported, which do NOT includ=
+e the loan 50074 annexed in the matter below.=C2=A0
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc5b5=
+604ddb8f7ccd80a7a5a6e13b6e4b2#commitcomment-74792470
+/BD
+
+Begin forwarded message:
+
+
+From: Bo Dincer <bdincer66@icloud.com>
+Date: May 31, 2022 at 2:38:51 AM EDT
+To: Bo Dincer <bdincer66@icloud.com>, SOHO HOUSE <MEMBERSHIP@sohohouse.com>=
+, bk02@cb.nyc.gov, TRACE Data Services <tracedataservices@finra.org>, NYM-P=
+REAComplianceMgr-S@bop.gov, Help Nyscef <helpcenter@nycourts.gov>, privacyq=
+ueries@blackstone.com, whistleblowerprotection@doioig.gov, newyork@sec.gov,=
+ LZUCKER@mskyline.com, governor.hochul@exec.ny.gov, bk01@bk.gov, privacy@so=
+nymusic.com, CustomerService@seahawks.com, State Farm <mutualfunds@statefar=
+m.com>, tips@latimes.com, Traveler Resolutions <travelerresolutions@expedia=
+group.com>, info@kpmg.com, Dow Jones <pronewsletter@dowjones.com>, NYSCEF P=
+ROCESS HD <oca_hd_processor@nycourts.gov>, ricki.roer@wilsonelser.com, cwei=
+ss@ingramllp.com, "Ashley V. Humphries" <ashley.humphries@wilsonelser.com>,=
+ Bill Cassese <bcassese19@bloomberg.net>, "Laskowitz, Shari" <slaskowitz@in=
+gramllp.com>, David Moore <david.moore.ct95@statefarm.com>, tips@insider.co=
+m, crcomplaints@treasury.gov, CHSCommunications@nychhc.org, CNK-CCM@bop.gov=
+, cnbctips@nbcuni.com, inbox@livekelly.com, K Ripp <stationservices@cbs2ny.=
+com>, tips@nypost.com, LA TIMES NEWSLETTERS <newsletters@latimes.com>, losa=
+ngeles@sec.gov, miami@sec.gov, CHICAGO@sec.gov
+Cc: BRO-ExecAssistant-S@bop.gov, JPMCinvestorrelations@jpmchase.com, CHSCom=
+munications@nychhc.org, MediaRequests@fdic.gov, CNK-CCM@bop.gov, salam32@bl=
+oomberg.net, sadhikari2@bloomberg.net, 18pctdvo@nypd.org, QUEUED <askcuit@c=
+olumbia.edu>, Work <cockarens@vouchersrus.org>, BBO 121 <ms60710444266@yaho=
+o.com>, ACSInspectorGeneral@doi.nyc.gov, peter.merrill@us.pwc.com, michael.=
+bersten@au.pwc.com, HREmployeeServices@doc.nyc.gov, bop-ipp-publicaffairs@b=
+op.gov, BOP-RSD-PREACOORDINATOR@bop.gov, CBPINFOCENTER@cbp.dhs.gov, CRA@dfs=
+.ny.gov, Comments@dfs.ny.gov, Constituentservices@doc.nyc.gov, Karol.Sabodo=
+cha@nypd.org, OCMgmtGrp@fdic.gov, Randyc.wilson@usdoj.gov, Victimassistance=
+.fraud@usdoj.gov, amasters@boc.nyc.gov, boc@boc.nyc.gov, fed-mmkt-ops@bloom=
+berg.net, gcho@doi.nyc.gov, jheegan@doi.nyc.gov, tina.jeffery@usdoj.gov, as=
+bpolicy@fdic.gov, JAGDEEN 00069govtIdx PHANOR <JPHANOR@dycd.nyc.gov>, super=
+vision@fdic.gov, assetmarketing@fdic.gov, MICHAEL 00064govtIdx OSVER <mosve=
+r@doc.gov>, tmprosecutordocs@uspto.gov, Regs@fdic.gov, ANNETTE 00000govtIdx=
+ FORD <ANNETTE.R.FORD@usdoj.gov>, Depositorservices@fdic.gov, aguilarj@bloo=
+mberg.net, SARAH 00068govtIdx BARNHART <SarahB@doc.ks.gov>, gpradocorrea@bl=
+oomberg.net, careers@fdic.gov, assessments@fdic.gov, realestateforsale@fdic=
+.gov, asksipc@sipc.org, HEATHER 00030govtIdx BLEVINS <HBLEVINS@fs.fed.us>, =
+BO DINCER <bo.dincer@yahoo.com>, Baris Dincer <bondstrt@protonmail.com>, Br=
+ooklyn Tap House <tips@nypost.com>, Doc Webmaster <webmaster@doc.gov>, ELEC=
+TRONIC FILE <efoia@fdic.gov>, FDIC Public Information <publicinfo@fdic.gov>=
+, JAMES GORMAN <james.gorman@morganstanley.com>, Josephine Vella <josephine=
+.vella@finra.org>, KEVIN ROCK <krock5@bloomberg.net>, MATT LOWE <mlowe@fdic=
+.gov>, OIG Hotline <oighotline@fdicoig.gov>, Paul Regan <legal@mskyline.com=
+>
+Subject: Re: Automatic reply: *** CONFLICT [ 153974/2020 ] per the FDIC. **=
+* supplements attached for convenience.
+
+
+
+=EF=BB=BF
+If you need assistance calculating what State Farm is on the hook for tax e=
+vasion, the Dept of Finance has made a calculator available.=C2=A0
+You can use the DFS calculator, and understand the general liability and pa=
+yment terms available.=C2=A0
+Plug in 50 Million and LMK what number comes up.Just found this=E2=80=A6 yo=
+u think they can figure out how to use it?
+Plug in $50 million and lmk what number you get.
+
+
+
+https://webapps.nyc.gov/CICS/TXPA/TXPA001I
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For liens sold in=C2=A0December 2021.
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0the lien servicers are:
+
+MTAG Services
+(800) 750-9210
+support@MTAGServices.com
+
+Tower Capital Management
+(800) 970-8454
+
+
+
+
+/S/ BO DINCER
+
+
+
+
+
+
+
+/BD
+
+
+
+On May 31, 2022, at 2:34 AM, Bo Dincer <bdincer66@icloud.com> wrote:
+
+
+
+=EF=BB=BF
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc5b5=
+604ddb8f7ccd80a7a5a6e13b6e4b2#commitcomment-74792470
+
+
+
+
+I. =C2=A0=C2=A0=C2=A0 THEY MONITORED MY LAPTOP FROM OUTSIDE OF MY APARTMENT=
+.
+
+- ON A 24 HOUR BASIS, RECORDED MY EVERY STEP AND MOTION.
+
+  =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dc3iexO=
+lBwsgc1lnMJ2_PLUS_AqQ=3D=3D
+
+
+=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0
+
+--- ASHLEY HUMPHRIES,=C2=A0
+
+OF WILSON , ELSER & DICKER.
+
+
+" ... PLEASE CHECK THE SECURITY TAPES ... "
+  =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DHbnFLH=
+B3tyjhEWAYb6mOPw=3D=3D
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DYvkihz=
+M1cwANtAvbUwWX_PLUS_g=3D=3D
+
+II. =C2=A0=C2=A0=C2=A0 VIDEOTAPED ME "INSIDE OF MY APARTMENT".
+  =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4=
+RNLy/6V9gf1BkpTQ=3D=3D
+
+III. =C2=A0=C2=A0=C2=A0 DISTRIBUTED VIDEOS OF MYSELF IN MY APARTMENT -- THE=
+ INTERIOR.
+  =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DYGRsoO=
+yDJuc93MrOnwh5Jw=3D=3D
+  =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D84wdx4=
+RhX5LEi0sISXetBw=3D=3D
+
+IV. =C2=A0=C2=A0=C2=A0 ATTACHED VIDEO OF MYSELF DRILLING INSIDE OF MY APART=
+MENT.
+  =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D5uMb/O=
+RklCen4NaSEt6oFg=3D=3D
+
+
+V. =C2=A0=C2=A0=C2=A0 ATTACHED VIDEO OF MYSELF HAMMERING INSIDE OF MY APART=
+MENT.
+  =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DC4X_PL=
+US_6_PLUS_kgBxoElZyFgKxGEQ=3D=3D
+
+VI. =C2=A0=C2=A0=C2=A0 THEY ALSO ANNEX MY RECEIPT TO HELP BUY THEMSELVES MO=
+RE TIME AND TO DISTRACT
+THE JUDGE, CLERK AND INSTEAD OF DEALING WITH THEIR TAX-EVASIONS AND ILLEGAL=
+ CONDUCT. HTF DID THEY EVEN GET AN IMAGE OF MY RECEIPT?
+
+  =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUavl5N=
+RQV4YHKqWUf8fyVQ=3D=3D
+
+VII. =C2=A0=C2=A0=C2=A0 ALSO WILL SWEAR THAT THEY HAVE NO INVOLVEMENT, IN A=
+NYTHING...
+=C2=A0=C2=A0=C2=A0 - HAVE ALSO MONITORED ME FROM THE CORRIDOR, AND THROUGH =
+MY DOOR.
+=C2=A0=C2=A0=C2=A0 - BY ALL OF THE ATTORNEYS, COUNSELORS, AND STAFF OF SULL=
+IVAN PROPERTIES, LP.
+
+
+
+VIII. =C2=A0=C2=A0=C2=A0 HAVE ALSO ANNEXED AND SWORE UNDER OATH THEY SAW ME
+  =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQc/=
+WFihoyIKwEunaalQ=3D=3D
+
+=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0 =C2=A0=C2=A0=C2=A0
+
+"... BANGING ON A RADIATOR ... "
+  =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Doz2nfE=
+u9a94Y3U5/kpIt5g=3D=3D
+
+
+
+IX. =C2=A0=C2=A0=C2=A0 ALSO HAVE ANNEXED THEY "HOSTED" MY VIDEOS ON THE INT=
+ERNET --
+
+=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=
+ =C2=A0=C2=A0=C2=A0 -- USING ONE OF THEIR OWN TENANTS AS THE VIDEOGRAPHER.
+  =20
+   - https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQc/=
+WFihoyIKwEunaalQ=3D=3D
+
+
+
+
+=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0
+
+TRANSFERRED THE LEASES AND RENTS TO STATE FARM.
+
+/BD
+
+Begin forwarded message:
+
+
+From:=C2=A0Bo Dincer <bo.dincer@yahoo.com>
+Date:=C2=A0May 27, 2022 at 4:26:54 PM EDT
+To:=C2=A0Ombudsman's Office <ombuds@finra.org>,=C2=A0ombudsman@finra.org,=
+=C2=A0ombudsman@tdcj.texas.gov, "Pamela Gibbs [SEC]" <omwi@sec.gov>,=C2=A0O=
+mbudsman@sec.gov
+Cc:=C2=A0MILTON MCKENZIE <ms60710444266@yahoo.com>, Bo Dincer <bondstrt007@=
+gmail.com>, Baris Dincer <bdincer66@icloud.com>,=C2=A0pinkbookswap@yahoo.co=
+m
+Subject:=C2=A07900-3 153974/2020
+Reply-To:=C2=A0"bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+
+
+
+=EF=BB=BFAttached, undisclosed letter of credit.=C2=A0
+
+/S/ BO DINCER
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/BD
+
+
+On May 30, 2022, at 7:53 PM, Laskowitz, Shari <slaskowitz@ingramllp.com> wr=
+ote:
+
+
+
+=EF=BB=BF <!--#yiv3922443828 _filtered {} _filtered {} _filtered {}#yiv3922=
+443828 #yiv3922443828 p.yiv3922443828MsoNormal, #yiv3922443828 li.yiv392244=
+3828MsoNormal, #yiv3922443828 div.yiv3922443828MsoNormal {margin:0in;font-s=
+ize:11.0pt;font-family:"Calibri", sans-serif;}#yiv3922443828 span.yiv392244=
+3828EmailStyle17 {font-family:"Times New Roman", serif;}#yiv3922443828 .yiv=
+3922443828MsoChpDefault {font-family:"Calibri", sans-serif;} _filtered {}#y=
+iv3922443828 div.yiv3922443828WordSection1 {}-->
+I am currently out of the office, returning on Wednesday, June 1, 2022. For=
+ immediate assistance, please contact Cory Weiss at (212) 907-9626 or cweis=
+s@ingramllp.com or Michael Capozzi at (212) 907-9684 or mcapozzi@ingramllp.=
+com.
+=20
+
+
+
+ =20
+
+------=_Part_3904943_1992018760.1653995919106
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+They still are the Promoters, willfully&nbsp;<div id=3D"yMail_cursorElement=
+Tracker_1653995637945">&nbsp; &nbsp;- of State Farm's Mutual Funds.&nbsp;<d=
+iv id=3D"yMail_cursorElementTracker_1653995617618"><div id=3D"ymail_android=
+_signature"><br></div><div id=3D"yMail_cursorElementTracker_1653995646783">=
+<br></div><div id=3D"yMail_cursorElementTracker_1653995802889"><br></div><d=
+iv id=3D"yMail_cursorElementTracker_1653995646922">The Omission may be due =
+their representatives as "bereft" of a ti-84 calculator or a pen and a note=
+oad, I'm not sure how many research analysts work at Morgan Stanley, but yo=
+u can ask as many of them as you'd like; after all =E2=80=94it's a free cou=
+ntry, has a different definition if you ask a Zucker.</div><div id=3D"yMail=
+_cursorElementTracker_1653995800643"><br></div><div id=3D"yMail_cursorEleme=
+ntTracker_1653995800764">/S/ BO DINCER</div><div id=3D"yMail_cursorElementT=
+racker_1653995792584"><br></div><div id=3D"yMail_cursorElementTracker_16539=
+95792728"><br></div> <br> <blockquote style=3D"margin: 0 0 20px 0;"> <div s=
+tyle=3D"font-family:Roboto, sans-serif; color:#6D00F6;"> <div id=3D"yMail_c=
+ursorElementTracker_1653995644917">On Tue, May 31, 2022 at 7:01 AM, Bo Dinc=
+er</div><div>&lt;bdincer66@icloud.com&gt; wrote:</div> </div> <div style=3D=
+"padding: 10px 0 0 20px; margin: 10px 0 0 0; border-left: 1px solid #6D00F6=
+;"> <div id=3D"yiv3922443828"><div><br><br><div dir=3D"ltr">/BD<div><br></d=
+iv></div><div dir=3D"ltr"><br>Begin forwarded message:<br><br></div><blockq=
+uote type=3D"cite"><div dir=3D"ltr"><b>From:</b> Bo Dincer &lt;bdincer66@ic=
+loud.com&gt;<br><b>Date:</b> May 31, 2022 at 2:47:31 AM EDT<br><b>To:</b> s=
+upport@mtagservices.com, NYCTLservicing@tcmfund.com, BBO 121 &lt;ms60710444=
+266@yahoo.com&gt;, tips@latimes.com, newyork@sec.gov, tips@insider.com, LZU=
+CKER@mskyline.com, ricki.roer@wilsonelser.com, slaskowitz@ingramllp.com, "A=
+shley V. Humphries" &lt;ashley.humphries@wilsonelser.com&gt;, tips@nypost.c=
+om, espnfrontrow@espn.com, CustomerService@seahawks.com, Dow Jones &lt;pron=
+ewsletter@dowjones.com&gt;, Watch Abc7 &lt;autoreply@email.watchabc.com&gt;=
+, K Ripp &lt;stationservices@cbs2ny.com&gt;, State Farm &lt;mutualfunds@sta=
+tefarm.com&gt;, David Moore &lt;david.moore.ct95@statefarm.com&gt;, Josephi=
+ne Vella &lt;josephine.vella@finra.org&gt;, Joseph Giamboi &lt;joseph.giamb=
+oi@brooklaw.edu&gt;, jheegan@doi.nyc.gov, Extellmanagement Info &lt;info@ex=
+tellmanagement.com&gt;, investor@annaly.com, UNITED ARTISTS MUSIC &lt;inves=
+torrelations@umusic.com&gt;, UNIVERSAL EDITORIAL &lt;investmentnews@editori=
+al.investmentnews.com&gt;<br><b>Cc:</b> governor.hochul@exec.ny.gov, assetm=
+arketing@fdic.gov, assessments@fdic.gov, dcaoletters@sec.gov, endowmentadmi=
+n@columbia.edu<br><b>Subject:</b> <b>Fwd: Automatic reply: *** CONFLICT [ 1=
+53974/2020 ] per the FDIC. *** supplements attached for convenience.</b><br=
+><br></div></blockquote><blockquote type=3D"cite"><div dir=3D"ltr">=EF=BB=
+=BF 144 units Gross Valuation :&nbsp;<div>$ 23.5 million. For the last 15 y=
+ears.&nbsp;</div><div><br></div><div>Location: Block 803, lots transferred =
+to State Farm.&nbsp;</div><div>=E2=80=94 combined with the Fraud provision,=
+ is greater than $750,000,000.00 in back taxes for 6 properties and a six m=
+illion dollar letter of credit issued by State Farm.&nbsp;</div><div>- prom=
+ised to pay upon discovery of a required payment in the event of a discrepa=
+ncy.&nbsp;</div><div><br></div><div>LET me know where 144 apartments are fo=
+r sale in zipcode in zipcode 10012 and I will rest on this obstruction and =
+omission of the risks implied to the investors of Advisers Investment Trust=
+ and/or State Farm Assurances Funds Trust. Just because they changed their =
+CIK ID doesn=E2=80=99t change their tickers, their sub-manager, or their ho=
+ldings reported, which do NOT include the loan 50074 annexed in the matter =
+below.&nbsp;</div><div><br><a rel=3D"nofollow noopener noreferrer" target=
+=3D"_blank" href=3D"https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKE=
+R/commit/8db8d4cc5b5604ddb8f7ccd80a7a5a6e13b6e4b2#commitcomment-74792470" s=
+tyle=3D"font-family:Helvetica;font-size:12px;">https://github.com/BSCPGROUP=
+HOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc5b5604ddb8f7ccd80a7a5a6e13b6e4b=
+2#commitcomment-74792470</a></div><div><br></div><div><div dir=3D"ltr">/BD<=
+div><br></div></div><div dir=3D"ltr"><br>Begin forwarded message:<br><br></=
+div><blockquote type=3D"cite"><div dir=3D"ltr"><b>From:</b> Bo Dincer &lt;b=
+dincer66@icloud.com&gt;<br><b>Date:</b> May 31, 2022 at 2:38:51 AM EDT<br><=
+b>To:</b> Bo Dincer &lt;bdincer66@icloud.com&gt;, SOHO HOUSE &lt;MEMBERSHIP=
+@sohohouse.com&gt;, bk02@cb.nyc.gov, TRACE Data Services &lt;tracedataservi=
+ces@finra.org&gt;, NYM-PREAComplianceMgr-S@bop.gov, Help Nyscef &lt;helpcen=
+ter@nycourts.gov&gt;, privacyqueries@blackstone.com, whistleblowerprotectio=
+n@doioig.gov, newyork@sec.gov, LZUCKER@mskyline.com, governor.hochul@exec.n=
+y.gov, bk01@bk.gov, privacy@sonymusic.com, CustomerService@seahawks.com, St=
+ate Farm &lt;mutualfunds@statefarm.com&gt;, tips@latimes.com, Traveler Reso=
+lutions &lt;travelerresolutions@expediagroup.com&gt;, info@kpmg.com, Dow Jo=
+nes &lt;pronewsletter@dowjones.com&gt;, NYSCEF PROCESS HD &lt;oca_hd_proces=
+sor@nycourts.gov&gt;, ricki.roer@wilsonelser.com, cweiss@ingramllp.com, "As=
+hley V. Humphries" &lt;ashley.humphries@wilsonelser.com&gt;, Bill Cassese &=
+lt;bcassese19@bloomberg.net&gt;, "Laskowitz, Shari" &lt;slaskowitz@ingramll=
+p.com&gt;, David Moore &lt;david.moore.ct95@statefarm.com&gt;, tips@insider=
+.com, crcomplaints@treasury.gov, CHSCommunications@nychhc.org, CNK-CCM@bop.=
+gov, cnbctips@nbcuni.com, inbox@livekelly.com, K Ripp &lt;stationservices@c=
+bs2ny.com&gt;, tips@nypost.com, LA TIMES NEWSLETTERS &lt;newsletters@latime=
+s.com&gt;, losangeles@sec.gov, miami@sec.gov, CHICAGO@sec.gov<br><b>Cc:</b>=
+ BRO-ExecAssistant-S@bop.gov, JPMCinvestorrelations@jpmchase.com, CHSCommun=
+ications@nychhc.org, MediaRequests@fdic.gov, CNK-CCM@bop.gov, salam32@bloom=
+berg.net, sadhikari2@bloomberg.net, 18pctdvo@nypd.org, QUEUED &lt;askcuit@c=
+olumbia.edu&gt;, Work &lt;cockarens@vouchersrus.org&gt;, BBO 121 &lt;ms6071=
+0444266@yahoo.com&gt;, ACSInspectorGeneral@doi.nyc.gov, peter.merrill@us.pw=
+c.com, michael.bersten@au.pwc.com, HREmployeeServices@doc.nyc.gov, bop-ipp-=
+publicaffairs@bop.gov, BOP-RSD-PREACOORDINATOR@bop.gov, CBPINFOCENTER@cbp.d=
+hs.gov, CRA@dfs.ny.gov, Comments@dfs.ny.gov, Constituentservices@doc.nyc.go=
+v, Karol.Sabodocha@nypd.org, OCMgmtGrp@fdic.gov, Randyc.wilson@usdoj.gov, V=
+ictimassistance.fraud@usdoj.gov, amasters@boc.nyc.gov, boc@boc.nyc.gov, fed=
+-mmkt-ops@bloomberg.net, gcho@doi.nyc.gov, jheegan@doi.nyc.gov, tina.jeffer=
+y@usdoj.gov, asbpolicy@fdic.gov, JAGDEEN 00069govtIdx PHANOR &lt;JPHANOR@dy=
+cd.nyc.gov&gt;, supervision@fdic.gov, assetmarketing@fdic.gov, MICHAEL 0006=
+4govtIdx OSVER &lt;mosver@doc.gov&gt;, tmprosecutordocs@uspto.gov, Regs@fdi=
+c.gov, ANNETTE 00000govtIdx FORD &lt;ANNETTE.R.FORD@usdoj.gov&gt;, Deposito=
+rservices@fdic.gov, aguilarj@bloomberg.net, SARAH 00068govtIdx BARNHART &lt=
+;SarahB@doc.ks.gov&gt;, gpradocorrea@bloomberg.net, careers@fdic.gov, asses=
+sments@fdic.gov, realestateforsale@fdic.gov, asksipc@sipc.org, HEATHER 0003=
+0govtIdx BLEVINS &lt;HBLEVINS@fs.fed.us&gt;, BO DINCER &lt;bo.dincer@yahoo.=
+com&gt;, Baris Dincer &lt;bondstrt@protonmail.com&gt;, Brooklyn Tap House &=
+lt;tips@nypost.com&gt;, Doc Webmaster &lt;webmaster@doc.gov&gt;, ELECTRONIC=
+ FILE &lt;efoia@fdic.gov&gt;, FDIC Public Information &lt;publicinfo@fdic.g=
+ov&gt;, JAMES GORMAN &lt;james.gorman@morganstanley.com&gt;, Josephine Vell=
+a &lt;josephine.vella@finra.org&gt;, KEVIN ROCK &lt;krock5@bloomberg.net&gt=
+;, MATT LOWE &lt;mlowe@fdic.gov&gt;, OIG Hotline &lt;oighotline@fdicoig.gov=
+&gt;, Paul Regan &lt;legal@mskyline.com&gt;<br><b>Subject:</b> <b>Re: Autom=
+atic reply: *** CONFLICT [ 153974/2020 ] per the FDIC. *** supplements atta=
+ched for convenience.</b><br><br></div></blockquote><blockquote type=3D"cit=
+e"><div dir=3D"ltr">=EF=BB=BF<div dir=3D"ltr" id=3D"yMail_cursorElementTrac=
+ker_1653995859341"><br>If you need assistance calculating what State Farm i=
+s on the hook for tax evasion, the Dept of Finance has made a calculator av=
+ailable.&nbsp;<div><br></div><div><div dir=3D"ltr" style=3D"color:rgb(0, 0,=
+ 0);" id=3D"yMail_cursorElementTracker_1653995860351">You can use the DFS c=
+alculator, and understand the general liability and payment terms available=
+.&nbsp;</div><div dir=3D"ltr" style=3D"color:rgb(0, 0, 0);" id=3D"yMail_cur=
+sorElementTracker_1653995860460"><br></div><div dir=3D"ltr" style=3D"color:=
+rgb(0, 0, 0);" id=3D"yMail_cursorElementTracker_1653995860492">Plug in 50 M=
+illion and LMK what number comes up.</div><div dir=3D"ltr" style=3D"color:r=
+gb(0, 0, 0);" id=3D"yMail_cursorElementTracker_1653995860519">Just found th=
+is=E2=80=A6 you think they can figure out how to use it?</div><div dir=3D"l=
+tr" style=3D"color:rgb(0, 0, 0);" id=3D"yMail_cursorElementTracker_16539958=
+60545"><br></div><div dir=3D"ltr" style=3D"color:rgb(0, 0, 0);" id=3D"yMail=
+_cursorElementTracker_1653995860587">Plug in $50 million and lmk what numbe=
+r you get.</div><div dir=3D"ltr" style=3D"color:rgb(0, 0, 0);" id=3D"yMail_=
+cursorElementTracker_1653995860745"><br></div><div dir=3D"ltr" style=3D"col=
+or:rgb(0, 0, 0);" id=3D"yMail_cursorElementTracker_1653995860839"><br></div=
+><div dir=3D"ltr" style=3D"color:rgb(0, 0, 0);" id=3D"yMail_cursorElementTr=
+acker_1653995860871"><br></div><div dir=3D"ltr" style=3D"color:rgb(0, 0, 0)=
+;"><p style=3D"color:rgb(255, 255, 255);margin:0px;font-stretch:normal;font=
+-size:12px;line-height:normal;font-family:Helvetica;"><a rel=3D"nofollow no=
+opener noreferrer" target=3D"_blank" href=3D"https://webapps.nyc.gov/CICS/T=
+XPA/TXPA001I" id=3D"yMail_cursorElementTracker_1653995860916">https://webap=
+ps.nyc.gov/CICS/TXPA/TXPA001I</a></p><p style=3D"color:rgb(255, 255, 255);m=
+argin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-family=
+:Helvetica;" id=3D"yMail_cursorElementTracker_1653995860942"><br></p><p sty=
+le=3D"color:rgb(255, 255, 255);margin:0px;font-stretch:normal;font-size:12p=
+x;line-height:normal;font-family:Helvetica;" id=3D"yMail_cursorElementTrack=
+er_1653995860983"><br></p><p style=3D"color:rgb(255, 255, 255);margin:0px;f=
+ont-stretch:normal;font-size:12px;line-height:normal;font-family:Helvetica;=
+"></p></div></div></div></div></blockquote></div></div></blockquote></div><=
+/div><div id=3D"yMail_cursorElementTracker_1653995864650"><blockquote type=
+=3D"cite"><div dir=3D"ltr"><blockquote type=3D"cite"><div dir=3D"ltr"><div =
+dir=3D"ltr"><div id=3D"yMail_cursorElementTracker_1653995861225"><div dir=
+=3D"ltr" style=3D"color:rgb(0, 0, 0);"><p style=3D"color:rgb(255, 255, 255)=
+;margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-fami=
+ly:Helvetica;" id=3D"yMail_cursorElementTracker_1653995861007"><br></p><p s=
+tyle=3D"color:rgb(255, 255, 255);margin:0px;font-stretch:normal;font-size:1=
+2px;line-height:normal;font-family:Helvetica;" id=3D"yMail_cursorElementTra=
+cker_1653995861031"><br></p><div dir=3D"ltr" style=3D"color:rgb(255, 255, 2=
+55);"><p style=3D"font-size:16px;margin:0px 0px 11px;color:rgb(51, 51, 51);=
+font-family:Helvetica, Arial, sans-serif;" id=3D"yMail_cursorElementTracker=
+_1653995861044">For liens sold in&nbsp;December 2021.</p><p style=3D"font-s=
+ize:16px;margin:0px 0px 11px;color:rgb(51, 51, 51);font-family:Helvetica, A=
+rial, sans-serif;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;the lien servicers are=
+:</p><p style=3D"font-size:16px;margin:0px 0px 11px;color:rgb(51, 51, 51);f=
+ont-family:Helvetica, Arial, sans-serif;" id=3D"yMail_cursorElementTracker_=
+1653995861067">MTAG Services<br style=3D""><a rel=3D"nofollow noopener nore=
+ferrer" style=3D"color:rgb(23, 113, 183);text-decoration:none;outline:0px;"=
+ id=3D"yMail_cursorElementTracker_1653995861099">(800) 750-9210</a><br styl=
+e=3D""><a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:support@MT=
+AGServices.com" target=3D"_blank" href=3D"mailto:support@MTAGServices.com" =
+style=3D"color:rgb(23, 113, 183);text-decoration:none;outline:0px;" id=3D"y=
+Mail_cursorElementTracker_1653995861119">support@MTAGServices.com</a></p><p=
+ style=3D"font-size:16px;margin:0px 0px 11px;color:rgb(51, 51, 51);font-fam=
+ily:Helvetica, Arial, sans-serif;" id=3D"yMail_cursorElementTracker_1653995=
+861134">Tower Capital Management<br style=3D""><a rel=3D"nofollow noopener =
+noreferrer" style=3D"color:rgb(23, 113, 183);text-decoration:none;outline:0=
+px;" id=3D"yMail_cursorElementTracker_1653995861173">(800) 970-8454</a><br =
+style=3D""><br></p></div></div></div></div></div></blockquote></div></block=
+quote>/S/ BO DINCER<blockquote type=3D"cite"><div dir=3D"ltr"><blockquote t=
+ype=3D"cite"><div dir=3D"ltr"><div dir=3D"ltr"><div id=3D"yMail_cursorEleme=
+ntTracker_1653995861225"><br style=3D"color:rgb(0, 0, 0);" class=3D"yiv3922=
+443828Apple-interchange-newline"></div><div></div></div></div></blockquote>=
+</div></blockquote></div><div id=3D"yiv3922443828"><div><blockquote type=3D=
+"cite"><div dir=3D"ltr"><div><blockquote type=3D"cite"><div dir=3D"ltr"><di=
+v dir=3D"ltr"><div><br></div><div id=3D"yMail_cursorElementTracker_16539958=
+61255">/BD<br><div dir=3D"ltr"><div id=3D"yMail_cursorElementTracker_165399=
+5861266"><br></div></div><div dir=3D"ltr" id=3D"yMail_cursorElementTracker_=
+1653995861296"><br><blockquote type=3D"cite">On May 31, 2022, at 2:34 AM, B=
+o Dincer &lt;bdincer66@icloud.com&gt; wrote:<br><br></blockquote></div><blo=
+ckquote type=3D"cite"><div dir=3D"ltr">=EF=BB=BF<div dir=3D"ltr"><p style=
+=3D"margin:0px;font-stretch:normal;font-size:12px;line-height:normal;font-f=
+amily:Helvetica;"><a rel=3D"nofollow noopener noreferrer" target=3D"_blank"=
+ href=3D"https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8d=
+b8d4cc5b5604ddb8f7ccd80a7a5a6e13b6e4b2#commitcomment-74792470">https://gith=
+ub.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/8db8d4cc5b5604ddb8f7ccd=
+80a7a5a6e13b6e4b2#commitcomment-74792470</a></p><p style=3D"margin:0px;font=
+-stretch:normal;font-size:12px;line-height:normal;font-family:Helvetica;"><=
+br></p><div style=3D"color:rgb(0, 0, 0);font-family:HelveticaNeue-Regular, =
+Helvetica;word-wrap:break-word !important;" class=3D"yiv3922443828moz-forwa=
+rd-container"><h1 id=3D"yiv3922443828yMail_cursorElementTracker_16538238625=
+40" style=3D"word-wrap:break-word !important;">I. &nbsp;&nbsp;&nbsp; THEY M=
+ONITORED MY LAPTOP FROM OUTSIDE OF MY APARTMENT.</h1><br clear=3D"none" sty=
+le=3D"word-wrap:break-word !important;">- ON A 24 HOUR BASIS, RECORDED MY E=
+VERY STEP AND MOTION.<br clear=3D"none" style=3D"word-wrap:break-word !impo=
+rtant;"><br clear=3D"none" style=3D"word-wrap:break-word !important;"><ul s=
+tyle=3D"word-wrap:break-word !important;"><li style=3D"word-wrap:break-word=
+ !important;"><a rel=3D"nofollow noopener noreferrer" shape=3D"rect" target=
+=3D"_blank" href=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?do=
+cIndex=3Dc3iexOlBwsgc1lnMJ2_PLUS_AqQ=3D=3D" style=3D"text-decoration:none;w=
+ord-wrap:break-word !important;" class=3D"yiv3922443828moz-txt-link-freetex=
+t">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dc3iexOlB=
+wsgc1lnMJ2_PLUS_AqQ=3D=3D</a></li></ul><br clear=3D"none" style=3D"word-wra=
+p:break-word !important;"><h3 style=3D"word-wrap:break-word !important;"><b=
+ style=3D"word-wrap:break-word !important;">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;=
+&nbsp;&nbsp;</b></h3><h3 style=3D"word-wrap:break-word !important;"><b styl=
+e=3D"word-wrap:break-word !important;">--- ASHLEY HUMPHRIES,&nbsp;</b></h3>=
+<h3 style=3D"word-wrap:break-word !important;"><b style=3D"word-wrap:break-=
+word !important;">OF WILSON , ELSER &amp; DICKER.</b></h3><br clear=3D"none=
+" style=3D"word-wrap:break-word !important;"><h1 style=3D"word-wrap:break-w=
+ord !important;">" ... PLEASE CHECK THE SECURITY TAPES ... "</h1><ul style=
+=3D"word-wrap:break-word !important;"><li style=3D"word-wrap:break-word !im=
+portant;"><a rel=3D"nofollow noopener noreferrer" shape=3D"rect" target=3D"=
+_blank" href=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docInd=
+ex=3DHbnFLHB3tyjhEWAYb6mOPw=3D=3D" style=3D"text-decoration:none;word-wrap:=
+break-word !important;" class=3D"yiv3922443828moz-txt-link-freetext">https:=
+//iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DHbnFLHB3tyjhEWAYb=
+6mOPw=3D=3D</a></li><li style=3D"word-wrap:break-word !important;"><a rel=
+=3D"nofollow noopener noreferrer" shape=3D"rect" target=3D"_blank" href=3D"=
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DYvkihzM1cwA=
+NtAvbUwWX_PLUS_g=3D=3D" style=3D"text-decoration:none;word-wrap:break-word =
+!important;" class=3D"yiv3922443828moz-txt-link-freetext">https://iapps.cou=
+rts.state.ny.us/nyscef/ViewDocument?docIndex=3DYvkihzM1cwANtAvbUwWX_PLUS_g=
+=3D=3D</a></li></ul><h1 style=3D"word-wrap:break-word !important;">II. &nbs=
+p;&nbsp;&nbsp; VIDEOTAPED ME "INSIDE OF MY APARTMENT".</h1><ul style=3D"wor=
+d-wrap:break-word !important;"><li style=3D"word-wrap:break-word !important=
+;"><a rel=3D"nofollow noopener noreferrer" shape=3D"rect" target=3D"_blank"=
+ href=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUZ=
+sCx4RNLy/6V9gf1BkpTQ=3D=3D" style=3D"text-decoration:none;word-wrap:break-w=
+ord !important;" class=3D"yiv3922443828moz-txt-link-freetext">https://iapps=
+.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4RNLy/6V9gf1BkpTQ=
+=3D=3D</a></li></ul><h1 style=3D"word-wrap:break-word !important;">III. &nb=
+sp;&nbsp;&nbsp; DISTRIBUTED VIDEOS OF MYSELF IN MY APARTMENT -- THE INTERIO=
+R.</h1><ul style=3D"word-wrap:break-word !important;"><li style=3D"word-wra=
+p:break-word !important;"><a rel=3D"nofollow noopener noreferrer" shape=3D"=
+rect" target=3D"_blank" href=3D"https://iapps.courts.state.ny.us/nyscef/Vie=
+wDocument?docIndex=3DYGRsoOyDJuc93MrOnwh5Jw=3D=3D" style=3D"text-decoration=
+:none;word-wrap:break-word !important;" class=3D"yiv3922443828moz-txt-link-=
+freetext">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DY=
+GRsoOyDJuc93MrOnwh5Jw=3D=3D</a></li></ul><ul style=3D"word-wrap:break-word =
+!important;"><li style=3D"word-wrap:break-word !important;"><a rel=3D"nofol=
+low noopener noreferrer" shape=3D"rect" target=3D"_blank" href=3D"https://i=
+apps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D84wdx4RhX5LEi0sISXet=
+Bw=3D=3D" style=3D"text-decoration:none;word-wrap:break-word !important;" c=
+lass=3D"yiv3922443828moz-txt-link-freetext">https://iapps.courts.state.ny.u=
+s/nyscef/ViewDocument?docIndex=3D84wdx4RhX5LEi0sISXetBw=3D=3D</a></li></ul>=
+<h1 style=3D"word-wrap:break-word !important;">IV. &nbsp;&nbsp;&nbsp; ATTAC=
+HED VIDEO OF MYSELF DRILLING INSIDE OF MY APARTMENT.</h1><ul style=3D"word-=
+wrap:break-word !important;"><li style=3D"word-wrap:break-word !important;"=
+><a rel=3D"nofollow noopener noreferrer" shape=3D"rect" target=3D"_blank" h=
+ref=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D5uMb=
+/ORklCen4NaSEt6oFg=3D=3D" style=3D"text-decoration:none;word-wrap:break-wor=
+d !important;" class=3D"yiv3922443828moz-txt-link-freetext">https://iapps.c=
+ourts.state.ny.us/nyscef/ViewDocument?docIndex=3D5uMb/ORklCen4NaSEt6oFg=3D=
+=3D</a></li></ul><br clear=3D"none" style=3D"word-wrap:break-word !importan=
+t;"><h1 style=3D"word-wrap:break-word !important;">V. &nbsp;&nbsp;&nbsp; AT=
+TACHED VIDEO OF MYSELF HAMMERING INSIDE OF MY APARTMENT.</h1><ul style=3D"w=
+ord-wrap:break-word !important;"><li style=3D"word-wrap:break-word !importa=
+nt;"><a rel=3D"nofollow noopener noreferrer" shape=3D"rect" target=3D"_blan=
+k" href=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+C4X_PLUS_6_PLUS_kgBxoElZyFgKxGEQ=3D=3D" style=3D"text-decoration:none;word-=
+wrap:break-word !important;" class=3D"yiv3922443828moz-txt-link-freetext">h=
+ttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DC4X_PLUS_6_P=
+LUS_kgBxoElZyFgKxGEQ=3D=3D</a></li></ul><h1 style=3D"word-wrap:break-word !=
+important;">VI. &nbsp;&nbsp;&nbsp; THEY ALSO ANNEX MY RECEIPT TO HELP BUY T=
+HEMSELVES MORE TIME AND TO DISTRACT</h1><b style=3D"word-wrap:break-word !i=
+mportant;">THE JUDGE, CLERK AND INSTEAD OF DEALING WITH THEIR TAX-EVASIONS =
+AND ILLEGAL CONDUCT. HTF DID THEY EVEN GET AN IMAGE OF MY RECEIPT?</b><br c=
+lear=3D"none" style=3D"word-wrap:break-word !important;"><br clear=3D"none"=
+ style=3D"word-wrap:break-word !important;"><ul style=3D"word-wrap:break-wo=
+rd !important;"><li style=3D"word-wrap:break-word !important;"><a rel=3D"no=
+follow noopener noreferrer" shape=3D"rect" target=3D"_blank" href=3D"https:=
+//iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUavl5NRQV4YHKqWUf=
+8fyVQ=3D=3D" style=3D"text-decoration:none;word-wrap:break-word !important;=
+" class=3D"yiv3922443828moz-txt-link-freetext">https://iapps.courts.state.n=
+y.us/nyscef/ViewDocument?docIndex=3DUavl5NRQV4YHKqWUf8fyVQ=3D=3D</a></li></=
+ul><h1 style=3D"word-wrap:break-word !important;">VII. &nbsp;&nbsp;&nbsp; A=
+LSO WILL SWEAR THAT THEY HAVE NO INVOLVEMENT, IN ANYTHING...</h1>&nbsp;&nbs=
+p;&nbsp; - HAVE ALSO MONITORED ME FROM THE CORRIDOR, AND THROUGH MY DOOR.<b=
+r clear=3D"none" style=3D"word-wrap:break-word !important;">&nbsp;&nbsp;&nb=
+sp; - BY ALL OF THE ATTORNEYS, COUNSELORS, AND STAFF OF SULLIVAN PROPERTIES=
+, LP.<br clear=3D"none" style=3D"word-wrap:break-word !important;"></div><d=
+iv style=3D"color:rgb(0, 0, 0);font-family:HelveticaNeue-Regular, Helvetica=
+;word-wrap:break-word !important;" class=3D"yiv3922443828moz-forward-contai=
+ner"><br clear=3D"none" style=3D"word-wrap:break-word !important;"></div><d=
+iv style=3D"color:rgb(0, 0, 0);font-family:HelveticaNeue-Regular, Helvetica=
+;word-wrap:break-word !important;" class=3D"yiv3922443828moz-forward-contai=
+ner"><br clear=3D"none" style=3D"word-wrap:break-word !important;"></div><d=
+iv style=3D"color:rgb(0, 0, 0);font-family:HelveticaNeue-Regular, Helvetica=
+;word-wrap:break-word !important;" class=3D"yiv3922443828moz-forward-contai=
+ner"><h1 style=3D"word-wrap:break-word !important;">VIII. &nbsp;&nbsp;&nbsp=
+; HAVE ALSO ANNEXED AND SWORE UNDER OATH THEY SAW ME</h1><ul style=3D"word-=
+wrap:break-word !important;"><li style=3D"word-wrap:break-word !important;"=
+><a rel=3D"nofollow noopener noreferrer" shape=3D"rect" target=3D"_blank" h=
+ref=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQ=
+c/WFihoyIKwEunaalQ=3D=3D" style=3D"text-decoration:none;word-wrap:break-wor=
+d !important;" class=3D"yiv3922443828moz-txt-link-freetext">https://iapps.c=
+ourts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQc/WFihoyIKwEunaalQ=3D=
+=3D</a></li></ul><h1 style=3D"word-wrap:break-word !important;">&nbsp;&nbsp=
+; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;</h1><h1 style=3D"word-wrap:b=
+reak-word !important;">"... BANGING ON A RADIATOR ... "</h1><ul style=3D"wo=
+rd-wrap:break-word !important;"><li style=3D"word-wrap:break-word !importan=
+t;"><a rel=3D"nofollow noopener noreferrer" shape=3D"rect" target=3D"_blank=
+" href=3D"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Do=
+z2nfEu9a94Y3U5/kpIt5g=3D=3D" style=3D"text-decoration:none;word-wrap:break-=
+word !important;" class=3D"yiv3922443828moz-txt-link-freetext">https://iapp=
+s.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Doz2nfEu9a94Y3U5/kpIt5g=
+=3D=3D</a></li></ul><br clear=3D"none" style=3D"word-wrap:break-word !impor=
+tant;"><br clear=3D"none" style=3D"word-wrap:break-word !important;"><h1 st=
+yle=3D"word-wrap:break-word !important;">IX. &nbsp;&nbsp;&nbsp; ALSO HAVE A=
+NNEXED THEY "HOSTED" MY VIDEOS ON THE INTERNET --</h1><h3 style=3D"word-wra=
+p:break-word !important;">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp=
+;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; -- USING ONE OF THEIR OWN TEN=
+ANTS AS THE VIDEOGRAPHER.</h3><ul style=3D"word-wrap:break-word !important;=
+"><li style=3D"word-wrap:break-word !important;"><a rel=3D"nofollow noopene=
+r noreferrer" shape=3D"rect" target=3D"_blank" href=3D"https://iapps.courts=
+.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQc/WFihoyIKwEunaalQ=3D=3D" s=
+tyle=3D"text-decoration:none;word-wrap:break-word !important;" class=3D"yiv=
+3922443828moz-txt-link-freetext">https://iapps.courts.state.ny.us/nyscef/Vi=
+ewDocument?docIndex=3DPWFQc/WFihoyIKwEunaalQ=3D=3D</a></li></ul><br clear=
+=3D"none" style=3D"word-wrap:break-word !important;"></div><div style=3D"co=
+lor:rgb(0, 0, 0);font-family:HelveticaNeue-Regular, Helvetica;word-wrap:bre=
+ak-word !important;" class=3D"yiv3922443828moz-forward-container"><br clear=
+=3D"none" style=3D"word-wrap:break-word !important;"></div><div style=3D"co=
+lor:rgb(0, 0, 0);font-family:HelveticaNeue-Regular, Helvetica;word-wrap:bre=
+ak-word !important;" class=3D"yiv3922443828moz-forward-container"><br clear=
+=3D"none" style=3D"word-wrap:break-word !important;"></div><div style=3D"co=
+lor:rgb(0, 0, 0);font-family:HelveticaNeue-Regular, Helvetica;word-wrap:bre=
+ak-word !important;" class=3D"yiv3922443828moz-forward-container"><h1 style=
+=3D"word-wrap:break-word !important;">&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;=
+ &nbsp;&nbsp;&nbsp;&nbsp;</h1><h1 style=3D"word-wrap:break-word !important;=
+">TRANSFERRED THE LEASES AND RENTS TO STATE FARM.</h1></div><br style=3D"">=
+<div dir=3D"ltr" style=3D"">/BD<div><br></div></div><div dir=3D"ltr" style=
+=3D""><br>Begin forwarded message:<br><br></div><blockquote type=3D"cite" s=
+tyle=3D"color:rgb(0, 0, 0);"><div dir=3D"ltr"><b>From:</b>&nbsp;Bo Dincer &=
+lt;<span dir=3D"ltr">bo.dincer@yahoo.com</span>&gt;<br><b>Date:</b>&nbsp;Ma=
+y 27, 2022 at 4:26:54 PM EDT<br><b>To:</b>&nbsp;Ombudsman's Office &lt;<spa=
+n dir=3D"ltr">ombuds@finra.org</span>&gt;,&nbsp;<span dir=3D"ltr">ombudsman=
+@finra.org</span>,&nbsp;<span dir=3D"ltr">ombudsman@tdcj.texas.gov</span>, =
+"Pamela Gibbs [SEC]" &lt;<span dir=3D"ltr">omwi@sec.gov</span>&gt;,&nbsp;<s=
+pan dir=3D"ltr">Ombudsman@sec.gov</span><br><b>Cc:</b>&nbsp;MILTON MCKENZIE=
+ &lt;<span dir=3D"ltr">ms60710444266@yahoo.com</span>&gt;, Bo Dincer &lt;<s=
+pan dir=3D"ltr">bondstrt007@gmail.com</span>&gt;, Baris Dincer &lt;<span di=
+r=3D"ltr">bdincer66@icloud.com</span>&gt;,&nbsp;<span dir=3D"ltr">pinkbooks=
+wap@yahoo.com</span><br><b>Subject:</b>&nbsp;<b><span dir=3D"ltr">7900-3 15=
+3974</span>/2020</b><br><b>Reply-To:</b>&nbsp;"<span dir=3D"ltr">bo.dincer@=
+yahoo.com</span>" &lt;<span dir=3D"ltr">bo.dincer@yahoo.com</span>&gt;<br><=
+br></div></blockquote><blockquote type=3D"cite" style=3D"color:rgb(0, 0, 0)=
+;"><div dir=3D"ltr">=EF=BB=BFAttached, undisclosed letter of credit.&nbsp;<=
+br><br><div id=3D"yiv3922443828ymail_android_signature">/S/ BO DINCER</div>=
+</div></blockquote></div></div></blockquote></div></div><div dir=3D"ltr"></=
+div></div></blockquote></div></div></blockquote></div></div><div id=3D"yiv3=
+922443828"><div><blockquote type=3D"cite"><div dir=3D"ltr"><div><blockquote=
+ type=3D"cite"><div dir=3D"ltr"><div dir=3D"ltr"></div><div dir=3D"ltr"><di=
+v><blockquote type=3D"cite"><div dir=3D"ltr"><div dir=3D"ltr"><blockquote t=
+ype=3D"cite" style=3D"color:rgb(0, 0, 0);"><div dir=3D"ltr"></div></blockqu=
+ote></div></div></blockquote></div></div><div dir=3D"ltr"></div></div></blo=
+ckquote></div></div></blockquote></div></div><div id=3D"yiv3922443828"><div=
+><blockquote type=3D"cite"><div dir=3D"ltr"><div><blockquote type=3D"cite">=
+<div dir=3D"ltr"><div dir=3D"ltr"></div><div dir=3D"ltr"><div><blockquote t=
+ype=3D"cite"><div dir=3D"ltr"><div dir=3D"ltr"><blockquote type=3D"cite" st=
+yle=3D"color:rgb(0, 0, 0);"><div dir=3D"ltr"></div></blockquote></div></div=
+></blockquote></div></div><div dir=3D"ltr"></div></div></blockquote></div><=
+/div></blockquote></div></div><div id=3D"yiv3922443828"><div><blockquote ty=
+pe=3D"cite"><div dir=3D"ltr"><div><blockquote type=3D"cite"><div dir=3D"ltr=
+"><div dir=3D"ltr"></div><div dir=3D"ltr"><div><blockquote type=3D"cite"><d=
+iv dir=3D"ltr"><div dir=3D"ltr"><br><br><div dir=3D"ltr">/BD<div><br></div>=
+</div><div dir=3D"ltr"><br><blockquote type=3D"cite">On May 30, 2022, at 7:=
+53 PM, Laskowitz, Shari &lt;slaskowitz@ingramllp.com&gt; wrote:<br><br></bl=
+ockquote></div><blockquote type=3D"cite"><div dir=3D"ltr">=EF=BB=BF
+
+=20
+=20
+<style><!--
+#yiv3922443828 =20
+ _filtered {}
+ _filtered {}
+ _filtered {}
+#yiv3922443828 =20
+#yiv3922443828 p.yiv3922443828MsoNormal, #yiv3922443828 li.yiv3922443828Mso=
+Normal, #yiv3922443828 div.yiv3922443828MsoNormal
+=09{margin:0in;font-size:11.0pt;font-family:"Calibri", sans-serif;}
+#yiv3922443828 span.yiv3922443828EmailStyle17
+=09{font-family:"Times New Roman", serif;}
+#yiv3922443828 .yiv3922443828MsoChpDefault
+=09{font-family:"Calibri", sans-serif;}
+ _filtered {}
+#yiv3922443828 div.yiv3922443828WordSection1
+=09{}
+--></style>
+
+
+<div class=3D"yiv3922443828WordSection1">
+<p style=3D"" class=3D"yiv3922443828MsoNormal"><span style=3D"font-size:14.=
+0pt;font-family:New serif;">I am currently out of the office, returning on =
+Wednesday, June 1, 2022. For immediate assistance, please contact Cory Weis=
+s at (212) 907-9626
+ or cweiss@ingramllp.com or Michael Capozzi at (212) 907-9684 or mcapozzi@i=
+ngramllp.com.</span><span style=3D"font-size:8.5pt;font-family:sans-serif;"=
+></span></p>=20
+</div>
+
+
+</div></blockquote></div></div></blockquote></div></div></div></blockquote>=
+</div></div></blockquote></div></div> </div> </blockquote></div></div>
+------=_Part_3904943_1992018760.1653995919106--

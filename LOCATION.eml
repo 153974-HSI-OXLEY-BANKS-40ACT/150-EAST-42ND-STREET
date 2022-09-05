@@ -1,0 +1,364 @@
+From - Wed Jul  6 14:51:44 2022
+X-Account-Key: account1
+X-UIDL: AGuUIMJ7sh4lYsXjYAX/KFgloKs
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.152.9
+ by atlas325.free.mail.ne1.yahoo.com with HTTPS; Wed, 6 Jul 2022 19:32:47 +0000
+Return-Path: <ms60710444266@yahoo.com>
+X-Originating-Ip: [74.6.132.124]
+Received-SPF: pass (domain of yahoo.com designates 74.6.132.124 as permitted sender)
+Authentication-Results: atlas325.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Wed, 6 Jul 2022 19:32:48 +0000
+X-YMailAVSC: 9ZTqL643bBvDgMMdylBzwKQzfTduXQo22hu4YILqAMtdixp
+ mWE5qxfLGt3xqDlhNQuKdpBASrH9qEw_JCD_HgdL5dTsE5Kkl9.6UZ7NCDrg
+ GpsHg1dxso..2s7nQ1quaonmWLoFKB5LLqtRiVqEMC4r5fNjU1S8p3PQ9guF
+ _RAVRL0kWTj8jTnIF16_OYWKQ5aPAYI7vSlMnUHX4_IkKnNpbgeTCErAHHgD
+ enam0klJajunMi3jXMXMrxBALayTW1inL6B1KwXIlPtO5pcaPbgCoyI.MZ_7
+ DurmApMRjSVpRw06min26PN5AWKhhrYTVBpyP04cEB7HpbuJKlhwaIU2zaRG
+ rv8bY.qhjZQqY6y3kNtHA_yqXF4h4iGyK.5D_RjzU
+X-YMailISG: qN78Bd4WLDur2L90EBQJu1KZNt3WyqIkbNlZ4kpxzwQOvMwj
+ cvxp2zOnxQv9VgGkyL17Nm6GMUIKF4gXXxXNNYRPyVh30QX5Slpfd0zdjzKt
+ CJBnnphiiZn8Gk7a5jgfxNjBJmmVarXXjLWxqXYVNP2et_R2bJLzO5iHXXo_
+ U0O1utEXY38b0hzdOZw05xzg3M4NQRrnqybL9E4qJvTECHbBsrpLgBqaKIsy
+ ERN3UoOPGcCi0M_DIZm7YBOQ2.CYpwrDsRY9GRgk25CBrgTt5Sp2AkgLa5jx
+ TfsVWomcomKlFEJHbuBRLEVnOQuADVxukM0DKJI01o_J6Y8j14W0JF7WlmwU
+ 7WcTMLSwvOsMU83LSfVaDzFbTqhsAf.rYVDWG0gGEKx4zE3boSe7hpTWHBWr
+ oZmamdw6zzTsM8kRUfUck1nqsixKf1kgO_Pr_fRregS1KvzlUJ13X5mc1.Eu
+ s6SF7MeQEkonW9pmn0C2vSyqMU5_VymK16rT7fJF.SexxnxPY0U0k5cFdnoc
+ zZ9HDbMeUDA71O6FalGEY_T7TuEoz1Hx9.S386NWlt7YI_sE.cQYqgQRsASY
+ 6AkxD1HTaiOb9DWGm6a.vB2pmGPZxVgUbVgnP34l5FbBKhUbq.kxft09el2d
+ YDJDr5gxMAJY4jsTHieH3Z0zfiRmybTGVd9YoHIow9D_rUeSdBsQdDxc1Y.E
+ VUzeO1bxllw48hQMdKwdjklidp32ho.NI3JQUiGnllHNH82aep7vjBa82HWb
+ IMvcUiK2_BdAg3T9b8u_n.l9PlAVD5Z4tLl4q_4KF1kKq50Lnvq4nLD4izLq
+ kplDuKSbdJtfVeIV1KUzkq7k7WSCXwMTIBEQYvCN.N5qhuY0JonTvX47ahPq
+ uTEySw_EEGUkdbgq2r8in70xcxR42HmwcMyw4k1rzrFsR4xurZP3egfvr3fc
+ VgERzAqhzLR.U3RamWxU.QPJ7vi04JYF_C83AQ4ahEzKxQi3omRweWosg3VT
+ 3XW2sLIkrPk_nm4fwJzD.QwwQS.PaUGBIZphC1Wx5jmAu.uwOcu0.xhqxf1V
+ V2Khx5933DcToGMNOpTNQVcUcN76nSVfPrrDjnvxYfWYQYp6a0dNnI5owIzR
+ 6dzoAI7DA31pnzXTwiUNUWEz5D.TodonTk2qw0cEaoxrQ5IiISRiT6NlArmQ
+ biThyKzFIDEAaunopdmnUcLNnSUTFe0PR2_p
+Received: from 74.6.132.124 (EHLO sonic314-14.consmr.mail.bf2.yahoo.com)
+ by 10.217.152.9 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Wed, 06 Jul 2022 19:32:47 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657135967; bh=kRtTKsVwmwEneKnYS7GnTTKEAOUNbvaNHtkVDauqLvY=; h=Date:To:From:Subject:References:From:Subject:Reply-To; b=kpZp8YFhCYTNq/fO81vjie0zAXdp9jcqojPCHH/C2Gwi5uVr8dqiPoN+yWNsQVrYjX5ZraDYAtDUQAR3WR/wl2z6JLZIkV1SfRrirQJxQ+ATKW5n6N+9knIobnRNI86Gn+CTeoazwS4E44S+fpaK658KNYwPiMzJEv/Ewmr9zAyMVmcH/+dX0tEXhd4J5/C6KYeaS0uBf+zk4o0u9FqKSLvFOlgY+DykY/i6xS8Fv+WjwYX+a3dririkk3FYbKkvZeh4NlUL4h+EWKXTi7AfXSZY7pOGP2lF1iz1tGDm5CAISyJNphLh6nmq/Z/ffOtPpZN+BlKmp4MkSzqJcrYjkQ==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1657135967; bh=9a8hdba7vRXOSyruyt8PutDsxKSqVVDZ38xV6b9XS1b=; h=X-Sonic-MF:Date:To:From:Subject:From:Subject; b=Ndui2uPIf4tJZc+8VX8cPXxnCF3coUcljTfih+zxRzJOyx9s4AvpHqPzzK7tiPgsoTPtZDhxG9snPm6xt1wpJTEDdLBo0A7NZcVgwmtTkJxigrP1COpkMHaSXjOKnJYpIptumr6Y0ZO6fsbNu7bkiwY0hY6FJpl0PKbSyavJ1E0nmGuENNEgTh+u/PEgTqXfn1KgIgD4CJEejOcikzCbZpsaWfB+Ojv9A0RDk93ecUlMyngT4Oq0zOSZh5xBOa/M29Sa3h5Iyw/2xTzljnoL157NI7GOGtLXjDV2HrrQLcov7oTkhLZsxosMf/DHgQWN8JG7L58oWBVPBH2TpJaJtA==
+X-YMail-OSG: cOhzBAoVM1nXIqWlG3ZNWbBuIp7MchzYeAA1H8sfFB.7ndqFpJBMSm.ZPcReJ83
+ upfp5_Ot5Rus3Gy6SsFazQn77.VXNW_5sRIk7xdIh4bbCkchyRidLhXAn8ZPUBWBkPU1hRun1H8b
+ B28gxOHnepNEUQOGsqSeEaFhQJTlpBPwi3KiLyr0xEalB7H7Wle.e02PZkOgVi_gJUL.SVSeSZI_
+ uKaJNVAZwGeWyRrSehRMcNMSYYS6kKkoUHJVYoQVNM2bQeC56ON71qhxhVgt1m6E_tBk8vBlraxN
+ Zmm2fzkeoafFGpe5vQjosnLRyu_i2A1pMt4M.6vUa3GyIk9VMplViO2h0BFfFz3fMImfZEeATHAX
+ EQ8A8GOS_rJcIc8BgyIUkmy_jNCvdqz4dcDyAkEIvhcAYujh7PK1tDn3jVclyZH7g4nZoRRQV.2b
+ .uRR.aRb86hWwCSFI1wcpe2UeOJFbf2wgT10GkyZ0cGx4BbYt.PxRsj2Is3TyzeVCNnSZ9UzVeLV
+ wvWtZy8DudICLMt6_f9.eKx4MAm4CDBhUYZvHLsbCewKUcIqPutkL4qpC59cLUdhn1NA6eJkzRH4
+ a.OiEHHEBPiHcOjwoa7B7lxFJ7foVdU2oRigxa8QdTuDyMIyZvKQUZ8n_il8CUKb7G5DqJiZsxXT
+ hvYCHb1OiR5KjBk1F1lMMOoi718VfGzLrTNe0wNT2lLLeKvEJa7SsNP8qac4dL95lK8xrqUUtSdC
+ jOgPfqfFu3JkTh95k7XPit7GK_.GGRcefUT2spy1ejKm7LZNF.oUIbsHZ6h6_OqoHxT5KZsjzaBe
+ 42zQV1LCbfuE.s4vsQIaCpIJlkaM_ltUmqSqJ0iNjPNnN4McKbCGMKQeI9bYp7RhmEPF77KXluK.
+ HsmRRcBo.Ja.I3hwz59KheikXdAjUDMKgrQyIIMXP3mNAQda22dfhO6uvGhh8DPjfDiQkfevEyBZ
+ cYlCowBt74nZNLgGXFJOYgoKr7_rkp.NDjItkDCKcHG7ZZTv532dU3lAI0NbRzo1Rjm2TLr6lTJc
+ TUr97MODqqzTCRg56HBG995v_gAdmgahPvp3BAKIZkUiAaMoBHvNZ4cRdl8HqNOmO_tU01d08338
+ 3JnIUoOgBxz2rYFD8PDlti7GwVqccnmGRkPYF1Yw6CNvwyBrkoQW_jHFpclxAAvxoyHhtz7xTEHI
+ 0FoqnY4.dw28FRWSJ3qn8VMCpbsNV9rO9OtjgQhNo5sm90PUdlJBzBnCBvU6lSwUj9r8KwQEWXU9
+ YrTqnjF0g3c3mUuXwGrhZMKPFYvFPIvd_5xRz4gV0y.4MAOLt_C.B77SjTREvTgJAH.aAGEtWsH.
+ xJzc4MGRFBJsElpVqzrdinFlZXa2styFFil6ppCEg6TqwsglGojI6XGLIrYyHCfQPlY7b1jCwp_L
+ isFaL9FpdsmrIXjFE9hrBZD5TlYuxhgpjcMCyIoOXkOhYamfEywKjaBbABM78RKqsk.l5j0ZRhmQ
+ 1mGpZ_JSOJspxLvM_3hw4BVOMdABDxUEjEouTT8ueNhipJYvNjxzbpiI66Lw_uSWEKizW1qy2bw2
+ UM7ffNxkIcG.143Pzyhb32QeQ3ZJ0x3oviBI5Y1LHtpRPLeNs53tR9Zwz.31YyUtP3cGn9fFGawx
+ BSDsFVT86zGJj7.ewpdOl.AbVwYhzCO.KxioEJ60aACBlPET5fwcyqT.3dANEleVqvnfEqVKMkP_
+ oUIr6NyOce28LCOkimLmMrKLmDtxoS_1pKlEJPG5biR8rQAmPFZ0IP_G5VIXpZACSQLh0lQpfpJa
+ 8Q_iP_oDgb2KhZbntYuwFWLnaLLVz2A8Vdr7R7.e6JlVBqbYqE1KwW3p90WMso4U5aTKe_UUOJvN
+ V5_yS2vwEH8Ze.Wq4euXpkIrcS3Om3wK8vVGl7DaKxeYax2FO.l.OiQ9WMkDogQNkyBN6sKLTsvX
+ ZGlUnFWNBvfeYjGH__6gOinrXMeUdRfxeA5kn0QMwQL3M1IAnc8BGpWkcobYvxQjEHiYPQPuXVNr
+ tcUqC6vwR_.k9nPnNf80khA4b8hRlCDwr1ZREPq9BNq61hioyS7VDgnwJK1rH1oKq7xah1KgJ4Yd
+ v9msKM8_xKnZLmNcnBf47JYZ8gC2_aLXDIz5bs80xgwvbxj1KgAL.s7Yb6uaN5.i9t_.JD.JQi5l
+ LfyDO_ZYcZaD_SCqJVisrVNFijPGSSU7xP.jufIlOF.JWMYTl0lYHpnZfld5Uzi0yBIIzmElvQn5
+ lDhoKZ2f4Oi8fPg--
+X-Sonic-MF: <ms60710444266@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic314.consmr.mail.bf2.yahoo.com with HTTP; Wed, 6 Jul 2022 19:32:47 +0000
+Received: by hermes--production-bf1-58957fb66f-7gxpp (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID e819806c793ee0664db0fdb65a6ca1d7;
+          Wed, 06 Jul 2022 19:32:43 +0000 (UTC)
+Content-Type: multipart/alternative;
+ boundary="------------o09bFKE8Q7oVTd88ooBx6Jt9"
+Message-ID: <3b424d94-9644-c101-efe6-0b6c99f97f41@yahoo.com>
+Date: Wed, 6 Jul 2022 14:32:23 -0500
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:91.0) Gecko/20100101
+ Thunderbird/91.9.1
+Content-Language: en-US
+To: "ms60710444266@yahoo.com" <MS60710444266@YAHOO.COM>
+From: B D2022 <ms60710444266@yahoo.com>
+Subject: LOCATION
+Disposition-Notification-To: B D2022 <ms60710444266@yahoo.com>
+References: <3b424d94-9644-c101-efe6-0b6c99f97f41.ref@yahoo.com>
+X-Mailer: WebService/1.1.20381 mail.backend.jedi.jws.acl:role.jedi.acl.token.atz.jws.hermes.yahoo
+Content-Length: 13976
+
+This is a multi-part message in MIME format.
+--------------o09bFKE8Q7oVTd88ooBx6Jt9
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+
+      *Days Inn
+      Terms of Use of Internet*
+
+      TERMS, CONDITIONS AND NOTICES
+
+
+        *AGREEMENT BETWEEN CUSTOMER AND Active Telephones, LLC*
+
+The Service consists of providing a wireless or high speed internet 
+connection to authorized users. This Service is offered to you, the 
+customer, conditioned on your acceptance without modification of the 
+terms, conditions, and notices contained herein.
+Your use of this Service constitutes your agreement to all such terms, 
+conditions, and notices.
+
+
+        *SECURITY OF YOUR ACCESS AND USE*
+
+Due to the nature of wireless LAN and High Speed Internet Access, 
+control of physical access to the network cannot be ensured. In the case 
+of wireless networks, unlike a wired network where a physical connection 
+is required, anyone within range of a wireless access point can 
+conceivably send and receive frames as well as listen for other frames 
+being sent, making eavesdropping and remote sniffing of wireless LAN 
+frames very easy. In addition, under certain circumstances, third 
+parties could access your computer without your permission while it is 
+connected to the network.
+
+
+        *PERSONAL AND NONCOMMERCIAL USE LIMITATION*
+
+This Service is for your personal, noncommercial use. You may not 
+modify, copy, distribute, transmit, display, perform, reproduce, 
+publish, license, create derivative works from, transfer, or sell any 
+information, software, products or services found on, or obtained from, 
+this Web site.
+
+
+        *LIABILITY DISCLAIMER*
+
+THESE SERVICES AND THE MATERIALS FOUND ON THIS WEBSITE ARE PROVIDED "AS 
+IS" WITHOUT ANY WARRANTY, REPRESENTATION, CONDITION, UNDERTAKING OR TERM 
+OF ANY KIND, EXPRESS OR IMPLIED, STATUTORY OR OTHERWISE, INCLUDING 
+WITHOUT LIMITATION, THE WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT 
+OF INTELLECTUAL PROPERTY, OR FITNESS FOR A PARTICULAR PURPOSE. BECAUSE 
+SOME JURISDICTIONS PROHIBIT THE EXCLUSION OF IMPLIED WARRANTIES, THE 
+ABOVE EXCLUSIONS MAY NOT APPLY TO YOU. Active Telephones, LLC FURTHER 
+DOES NOT WARRANT THE ACCURACY OR COMPLETENESS OF THE INFORMATION, TEXT, 
+GRAPHICS, LINKS OR OTHER ITEMS ACCESSIBLE HEREBY OR CONTAINED WITHIN THE 
+MATERIALS, OR SECURITY OF THE ACCESS OR SERVICE. Active Telephones, LLC 
+MAY MAKE CHANGES TO THE SERVICE, MATERIALS, OR THE PROGRAMS, POLICIES OR 
+OTHER INFORMATION DESCRIBED HEREIN, AT ANY TIME WITHOUT NOTICE. Active 
+Telephones, LLC MAKES NO COMMITMENT TO UPDATE THE MATERIALS, MAINTAIN 
+THE SERVICE, OR ITS QUALITY. IN NO EVENT SHALL Active Telephones, LLC 
+AND/OR ITS SUBSIDIARIES OR AFFILIATES BE LIABLE FOR ANY SPECIAL, 
+INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER, INCLUDING 
+LOSS OF PROFITS OR DATA, WHETHER IN AN ACTION IN CONTRACT OR TORT, 
+ARISING OUT OF THE USE OR PERFORMANCE OF THE SERVICE, EVEN IF Active 
+Telephones, LLC HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. 
+BECAUSE SOME JURISDICTIONS PROHIBIT THE EXCLUSION OR LIMITATION OF 
+LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION 
+MAY PRESENTLY NOT APPLY TO YOU.
+
+
+        *NO UNLAWFUL OR PROHIBITED USE*
+
+As a condition of your use of the Service, you warrant to Active 
+Telephones, LLC that you will not use this Service for any purpose that 
+is unlawful or prohibited by these terms, conditions, and notices.
+
+
+        *LINKS TO THIRD-PARTY SITES*
+
+Web sites may contain hyperlinks to Web sites operated by parties other 
+than Active Telephones, LLC Such hyperlinks are provided for your 
+reference only. Active Telephones, LLC does not control such Web sites 
+and is not responsible for their contents. The inclusion of hyperlinks 
+to such Web sites does not imply any endorsement of the material on such 
+Web sites or any association with their operators.
+
+
+        *CHANGES TO THIS AGREEMENT*
+
+Active Telephones, LLC may at any time in its sole discretion modify the 
+Service or the terms of access to this Site. Your continued use of the 
+Site following any such modification, shall be deemed acceptance of such 
+modification.
+
+
+        *GENERAL*
+
+Any claim relating to this Agreement, the Materials, or the Service 
+shall by governed by the laws of the State of New York, United States of 
+America, exclusive of the choice of law rules thereof. This Agreement 
+constitutes the entire agreement of the parties with respect to the 
+subject matter hereof and supersedes all prior oral and written 
+agreements. No failure or delay on the part of Active Telephones, LLC in 
+exercising any right or remedy hereunder or enforcing the terms and 
+conditions of this Agreement will operate as a waiver thereof. If any 
+part or provision of this Agreement is found to be invalid, 
+unenforceable or void, then the remaining portion shall remain in full 
+force and effect. Headings are for convenience only and not for use in 
+interpretation of this Agreement. You agree that no joint venture, 
+partnership, employment, or agency relationship exists between you and 
+Active Telephones, LLC as a result of this agreement or use of the 
+Service. Fictitious names of companies, products, people, characters, 
+and/or data mentioned herein are not intended to represent any real 
+individual, company, product, or event. Any rights not expressly granted 
+herein are reserved.
+
+
+        *USE OF THE SERVICE AND ACCESS TO THE WEB SITE*
+
+The Service is provided solely for you to make legitimate, personal use 
+of the internet and for no other purposes. You warrant that you are at 
+least 18 years of age and possess the legal authority to enter into this 
+agreement and to use the Service in accordance with all terms and 
+conditions herein. You agree to be financially responsible for all of 
+your use (as well as for authorized use of your account by others). You 
+agree to supervise all usage by minors of this site under your name or 
+account. You also warrant that all information supplied by you in using 
+this Service is true and accurate. You agree to abide by the terms or 
+conditions of purchase imposed, including, but not limited to, payment 
+of all amounts when due and compliance with all rules and restrictions 
+regarding availability of rates, products, or services. You shall be 
+completely responsible for all charges, fees, duties, taxes, and 
+assessments arising out of the use of this Service or accessing any Web 
+site by way of the Service.
+
+--------------o09bFKE8Q7oVTd88ooBx6Jt9
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html data-lt-installed="true">
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <h3><b>Days Inn<br>
+        Terms of Use of Internet</b><br>
+      <br>
+      TERMS, CONDITIONS AND NOTICES<br>
+      <br>
+    </h3>
+    <h4 class="center"><strong>AGREEMENT BETWEEN CUSTOMER AND Active
+        Telephones, LLC</strong></h4>
+    <p class="center">The Service consists of providing a wireless or
+      high speed internet connection to authorized users. This Service
+      is offered to you, the customer, conditioned on your acceptance
+      without modification of the terms, conditions, and notices
+      contained herein.<br>
+      Your use of this Service constitutes your agreement to all such
+      terms, conditions, and notices.</p>
+    <h4><strong>SECURITY OF YOUR ACCESS AND USE</strong></h4>
+    <p>Due to the nature of wireless LAN and High Speed Internet Access,
+      control of physical access to the network cannot be ensured. In
+      the case of wireless networks, unlike a wired network where a
+      physical connection is required, anyone within range of a wireless
+      access point can conceivably send and receive frames as well as
+      listen for other frames being sent, making eavesdropping and
+      remote sniffing of wireless LAN frames very easy. In addition,
+      under certain circumstances, third parties could access your
+      computer without your permission while it is connected to the
+      network.</p>
+    <h4><strong>PERSONAL AND NONCOMMERCIAL USE LIMITATION</strong></h4>
+    <p>This Service is for your personal, noncommercial use. You may not
+      modify, copy, distribute, transmit, display, perform, reproduce,
+      publish, license, create derivative works from, transfer, or sell
+      any information, software, products or services found on, or
+      obtained from, this Web site.</p>
+    <h4><strong>LIABILITY DISCLAIMER</strong></h4>
+    <p>THESE SERVICES AND THE MATERIALS FOUND ON THIS WEBSITE ARE
+      PROVIDED "AS IS" WITHOUT ANY WARRANTY, REPRESENTATION, CONDITION,
+      UNDERTAKING OR TERM OF ANY KIND, EXPRESS OR IMPLIED, STATUTORY OR
+      OTHERWISE, INCLUDING WITHOUT LIMITATION, THE WARRANTIES OF
+      MERCHANTABILITY, NON-INFRINGEMENT OF INTELLECTUAL PROPERTY, OR
+      FITNESS FOR A PARTICULAR PURPOSE. BECAUSE SOME JURISDICTIONS
+      PROHIBIT THE EXCLUSION OF IMPLIED WARRANTIES, THE ABOVE EXCLUSIONS
+      MAY NOT APPLY TO YOU. Active Telephones, LLC FURTHER DOES NOT
+      WARRANT THE ACCURACY OR COMPLETENESS OF THE INFORMATION, TEXT,
+      GRAPHICS, LINKS OR OTHER ITEMS ACCESSIBLE HEREBY OR CONTAINED
+      WITHIN THE MATERIALS, OR SECURITY OF THE ACCESS OR SERVICE. Active
+      Telephones, LLC MAY MAKE CHANGES TO THE SERVICE, MATERIALS, OR THE
+      PROGRAMS, POLICIES OR OTHER INFORMATION DESCRIBED HEREIN, AT ANY
+      TIME WITHOUT NOTICE. Active Telephones, LLC MAKES NO COMMITMENT TO
+      UPDATE THE MATERIALS, MAINTAIN THE SERVICE, OR ITS QUALITY. IN NO
+      EVENT SHALL Active Telephones, LLC AND/OR ITS SUBSIDIARIES OR
+      AFFILIATES BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL
+      DAMAGES OR ANY DAMAGES WHATSOEVER, INCLUDING LOSS OF PROFITS OR
+      DATA, WHETHER IN AN ACTION IN CONTRACT OR TORT, ARISING OUT OF THE
+      USE OR PERFORMANCE OF THE SERVICE, EVEN IF Active Telephones, LLC
+      HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. BECAUSE SOME
+      JURISDICTIONS PROHIBIT THE EXCLUSION OR LIMITATION OF LIABILITY
+      FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY
+      PRESENTLY NOT APPLY TO YOU.</p>
+    <h4><strong>NO UNLAWFUL OR PROHIBITED USE</strong></h4>
+    <p>As a condition of your use of the Service, you warrant to Active
+      Telephones, LLC that you will not use this Service for any purpose
+      that is unlawful or prohibited by these terms, conditions, and
+      notices.</p>
+    <h4><strong>LINKS TO THIRD-PARTY SITES</strong></h4>
+    <p>Web sites may contain hyperlinks to Web sites operated by parties
+      other than Active Telephones, LLC Such hyperlinks are provided for
+      your reference only. Active Telephones, LLC does not control such
+      Web sites and is not responsible for their contents. The inclusion
+      of hyperlinks to such Web sites does not imply any endorsement of
+      the material on such Web sites or any association with their
+      operators.</p>
+    <h4><strong>CHANGES TO THIS AGREEMENT</strong></h4>
+    <p>Active Telephones, LLC may at any time in its sole discretion
+      modify the Service or the terms of access to this Site. Your
+      continued use of the Site following any such modification, shall
+      be deemed acceptance of such modification.</p>
+    <h4><strong>GENERAL</strong></h4>
+    <p>Any claim relating to this Agreement, the Materials, or the
+      Service shall by governed by the laws of the State of New York,
+      United States of America, exclusive of the choice of law rules
+      thereof. This Agreement constitutes the entire agreement of the
+      parties with respect to the subject matter hereof and supersedes
+      all prior oral and written agreements. No failure or delay on the
+      part of Active Telephones, LLC in exercising any right or remedy
+      hereunder or enforcing the terms and conditions of this Agreement
+      will operate as a waiver thereof. If any part or provision of this
+      Agreement is found to be invalid, unenforceable or void, then the
+      remaining portion shall remain in full force and effect. Headings
+      are for convenience only and not for use in interpretation of this
+      Agreement. You agree that no joint venture, partnership,
+      employment, or agency relationship exists between you and Active
+      Telephones, LLC as a result of this agreement or use of the
+      Service. Fictitious names of companies, products, people,
+      characters, and/or data mentioned herein are not intended to
+      represent any real individual, company, product, or event. Any
+      rights not expressly granted herein are reserved.</p>
+    <h4><strong>USE OF THE SERVICE AND ACCESS TO THE WEB SITE</strong></h4>
+    <p>The Service is provided solely for you to make legitimate,
+      personal use of the internet and for no other purposes. You
+      warrant that you are at least 18 years of age and possess the
+      legal authority to enter into this agreement and to use the
+      Service in accordance with all terms and conditions herein. You
+      agree to be financially responsible for all of your use (as well
+      as for authorized use of your account by others). You agree to
+      supervise all usage by minors of this site under your name or
+      account. You also warrant that all information supplied by you in
+      using this Service is true and accurate. You agree to abide by the
+      terms or conditions of purchase imposed, including, but not
+      limited to, payment of all amounts when due and compliance with
+      all rules and restrictions regarding availability of rates,
+      products, or services. You shall be completely responsible for all
+      charges, fees, duties, taxes, and assessments arising out of the
+      use of this Service or accessing any Web site by way of the
+      Service.</p>
+  </body>
+  <lt-container></lt-container>
+</html>
+
+--------------o09bFKE8Q7oVTd88ooBx6Jt9--

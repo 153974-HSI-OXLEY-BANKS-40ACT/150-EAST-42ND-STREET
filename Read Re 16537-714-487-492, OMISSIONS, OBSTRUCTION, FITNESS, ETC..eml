@@ -1,0 +1,374 @@
+From - Tue May 31 14:20:32 2022
+X-Account-Key: account1
+X-UIDL: ACw5JbUAwTnnYpZFfApv4GjZk1o
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.206.155.40
+ by atlas302.free.mail.gq1.yahoo.com with HTTPS; Tue, 31 May 2022 16:42:36 +0000
+Return-Path: <AModesto@marketaxess.com>
+X-Originating-Ip: [68.232.129.219]
+Received-SPF: pass (domain of marketaxess.com designates 68.232.129.219 as permitted sender)
+Authentication-Results: atlas302.free.mail.gq1.yahoo.com;
+ dkim=perm_fail header.i=@marketaxesscorp.onmicrosoft.com header.s=selector1-marketaxesscorp-onmicrosoft-com;
+ spf=pass smtp.mailfrom=marketaxess.com;
+ dmarc=unknown header.from=marketaxess.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 31 May 2022 16:42:36 +0000
+X-YMailAVSC: dFGHjTk3bBu58rs4EhRrnmhNHIo8r7B04zuveIaqrtuc.g9
+ ygsB8ztpYKpRg4C8Mif_vWG.JH5z_ZR3_KHXtcq0yu.axHRB9m0OAGX6L9VK
+ N6dxNkCDjSWi7zE9I40E.YIJpAeMPMMg2IAczFHOubAS_PR87qGmg6KJNDtN
+ 0Zc_yHA5qE0e5znL9Ee6hgLyN1T6hKIz.SRrD2uLy34WT1Ne4PqMVmodEJbF
+ g1K_dAK27LWXoJ.clLD5.UXyke_CYlxrWucn5XtJ8Uo2jPEv_sSpkOBRDiD5
+ vLSchmY0LHMoAfat3UtDk9bQk.X_jHqXBK2c1DfvwMORlMPLTudjHUFQUXVy
+ n1IVeSCD3uAiXJziQHpbMhERGEgQcmZhldamkvLdJo5ykV5zPfQ46JW71ySj
+ V79b2iambDe5c4pIwXXuAB.CSe4Qfbdk-
+X-YMailISG: Ljer23cWLDvNs7u8Htan6SqPb_tt8ThLIVWviQxdiBqAo4ND
+ SK65Fp5jk5.Ew0HmIn9.0jZm_R3x2gNFJNmK346QkcF5_eYbcX5R9FdzIYWS
+ 04gv9ZUUQf8opwOMuaTh4zuKp87VOY2mI4aZcjHLO92dVRBSz5gA3bMPOOi3
+ 7y0P5.MUG49ibnEfqC5EM1hOaG1sTc0kJlCYYYdFlitRLZmruRNxMO.fE2Bu
+ lo2DpkY9kdkygvgSA0Uj2yrynVgophxk4knfrURNn7vag13I2ezjdXnbVyvP
+ lc_.3pYZ1x_E.xGdpcQbbvDWE8gjBO5VkgcCckjIV3p1lgT4b.n.9gtttENu
+ B2EiHVCNFyt2g8RPXav9jL1GqeDoMxqZYVZQyeNQUpZT5d8u7zDSIHhrq54Y
+ f6lT9uFqcoDDumZy4Ku7EYUO4ft1tHwnN2lNioGQemd8xopYNl0x3.YC_CeH
+ Y4BEhId6xqFFcRzZv2MiGaqSDshbv35pb9FdsKU7Bv4B2v3A6lzw3pvRl7mI
+ BHF1lYAMHfW7ENcs0UFgpY803e7zfC46PJjsLYYrHEFD1ghOTc9ZTqmTqKkc
+ _ac791UwFj6ed1Jnmp9GsLCuOGwbdXksSOkM7fcCqlgUO_rHtrMW7iEy0tJz
+ t9WF6UfQohj3mpKKBVIMgmacFTOk_634E3HcisezW18XM0UkhqOi95WAtEs0
+ BLnbGtpMdDbFHt.JpXsyCME.bJ50kyvYPLnmyMcnFHD99Vo_mW_731X.feDP
+ U_wrsy60W18FaKWgeklJGfprCe5aao_t1di1zXmZx_QCAsvzDSVs7SdtZGVZ
+ O2mgyQLlZILTQ17tzt8Arl7fjacz5.OK9NoHlI9OnzXLZb5zTuCew5ArZUbD
+ M98wdvMbT5CEUIa_JRL06KtxQCHXkOdQ2yttanLwBcEYX8LWnngL9y5CWi3D
+ CH60i3YSYSL7TUgfWvxR29UCOrH4yyS.lE.lb.PiDLQWBBRtxMsSVD0Jobm3
+ BRjanFTcMOTzigKjC.R6fHocklX10BXexlhJvUVnUx_JK5iF3B5NQIj.xUwX
+ 5wu2pegDxDH1tdqE_c_xwopjr47Y7aSLky8oXTIPqfBD56h0VqofCOH_C5uD
+ .iwWEaRCEjt7MCBqDScH6Q--
+Received: from 68.232.129.219 (EHLO esa1.marketaxess.iphmx.com)
+ by 10.206.155.40 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 31 May 2022 16:42:36 +0000
+X-IronPort-SPF: NONEFAIL
+X-IronPort-FromHeader: FROMFAIL
+X-IronPort-AV: E=Sophos;i="5.91,265,1647320400"; 
+   d="scan'208,217";a="99121193"
+Received: from unknown (HELO mail.marketaxess.com) ([192.69.224.0])
+  by esa1.marketaxess.iphmx.com with ESMTP/TLS/ECDHE-RSA-AES128-GCM-SHA256; 31 May 2022 11:42:34 -0500
+Received: from crpnbgexmbox02.CORPORATE.LOCAL (10.80.10.214) by
+ crpnbgexmbox01.CORPORATE.LOCAL (10.80.10.213) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2176.14; Tue, 31 May 2022 12:42:33 -0400
+Received: from NAM12-DM6-obe.outbound.protection.outlook.com (10.80.253.130)
+ by crpnbgexmbox02.CORPORATE.LOCAL (10.80.10.214) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2176.14 via Frontend Transport; Tue, 31 May 2022 12:42:33 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=XLqz82oceELyVov0sXuX2a1VrYcHgBj1h2QuznJMvfBPDf69aqaBpN5lAE87C9GlmfZTtKmqRmwSKTOZeTVVsz/wDC7HEG2W+nm+unBLzdG2b38H87V4JsCWkgYdZIgLgJaof3bue8iD4qzoQ0m7s7ZkZs1yVqWa2XXFk2QZtDhF6tQbqz076iDdazMkCE8vJEhG526dC1EbEiFBzgiJlDRdjze41sWIFgrW+ShwXl+2dgtXRlDb6htpPZybdoFvHvXXP/7o+SQFc/WK+vWmZpMUK2/fpQQnaFHv0eH3DSyX6ZMd13PmHrSkgGluIEJ8HJaBfkpfGBEvSsoZ07awgg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=IorQ6RccQJY5/JUE1/vZFJIKg9X5vNVolJC715mPQYk=;
+ b=LkBf4EtVbxrgtDVfw5i4fDSOsgs5KMn14Vy0reED/w3hl0wCFckfepeW+VrI/gd0MoDGgxAawpKpW4OJUnAyJmWQwg3kHdGSb++jc/K8sdEg+w5N99+oHmwh+6ayiCGAUQiyWyL4Fpc+Uc1DTzRQCa1kUTAQxzd97b7UFnMn5h276usco9GQXmIm5hYoV1+TZ4XI3HbuP9z+IGDQZj9SZ0CiOmQAQAkO6A8wrwgUTL4AIR+FF7QU60ihDQzmRPXNtHGikF+8vG4L3DynNL11rwc/drCusHus77PIubk9Mk7CKAUWk0rgk6YG182JO+2TJIiRF2yBZw14FwZQKpQMAg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=marketaxess.com; dmarc=pass action=none
+ header.from=marketaxess.com; dkim=pass header.d=marketaxess.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=marketaxesscorp.onmicrosoft.com;
+ s=selector1-marketaxesscorp-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=IorQ6RccQJY5/JUE1/vZFJIKg9X5vNVolJC715mPQYk=;
+ b=P/pm59WQ8flSTQn7Jg8RFzPlZrP8EJtj9ONz0fbBDwAjK399rUaDM9HTizfhbCxkiNxYDqhgiCv4fxMPiKrOtdBNr6ksA7mnsILJqPR+njIU4WxCuzG/HKzE8FEuxYBgi+L2vE7r1SlfOXce3wE6ZZ96duRKg1ufgsxglfUA434=
+Received: from MN2PR20MB3040.namprd20.prod.outlook.com (2603:10b6:208:1b5::33)
+ by BL1PR20MB4562.namprd20.prod.outlook.com (2603:10b6:208:385::5) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5293.19; Tue, 31 May
+ 2022 16:42:31 +0000
+Received: from MN2PR20MB3040.namprd20.prod.outlook.com
+ ([fe80::34bd:2494:54ea:f30e]) by MN2PR20MB3040.namprd20.prod.outlook.com
+ ([fe80::34bd:2494:54ea:f30e%6]) with mapi id 15.20.5293.019; Tue, 31 May 2022
+ 16:42:31 +0000
+From: Art Modesto <AModesto@marketaxess.com>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: **** Re: 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS,
+ ETC.
+Thread-Topic: **** Re: 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS,
+ ETC.
+Thread-Index: AQHYdPV6zX27JUFKhkmEEUK+WGwqh605IoUAgAAOY1g=
+Date: Tue, 31 May 2022 16:42:31 +0000
+Message-ID: <MN2PR20MB30408511BA64B8D7D57C1FCDC7DC9@MN2PR20MB3040.namprd20.prod.outlook.com>
+In-Reply-To: <d3a24496-a368-481f-a490-30bef801ccf3@yahoo.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 08245c55-e2f4-4964-bd1b-08da43248ea1
+x-ms-traffictypediagnostic: BL1PR20MB4562:EE_
+x-microsoft-antispam-prvs: <BL1PR20MB45623FAE4CC602F8FB3E7C94C7DC9@BL1PR20MB4562.namprd20.prod.outlook.com>
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: wsteGIx6E5kNdHq0FpLGAXg8ph5aj0F+733x/XSzF6CwBqD08tp/gqgMiDnZenrb6bSi6tjRCe9E6bNTndYZoNK7IByEYybYreAscJumQBs71viMOZB9mnPwzhdXicld/+kLC6l52aMv8qYU6pqX74p4YDfMf2lcJfcDcSr8xYkf2iGJ73FrCZDqrXiHnq5bK70q4WGLKxgLSU/rgTum/I6inOII8tCLoWoIct59iDoa+RA+EgK+AwPYYO53mr9b5BJRScZx6gezhJuBIxMcH39n+1CLB760OVPsV+GaWFRrfrKlYEBwMydFv8pAbRy+Q0EB8sKZOibXVgfohTZgRY6IJZAJNfLpM7A7uaSPUubAtm7T2v4pvfntChysUailnzMlkRxjXpfItMUQxkbX5Xa+0HWPN4UcpIxJL2ZVQufLSRAFpsCTFYdxCB0RDEO/+MesL1ae93Uc/TrFxnkriw==
+x-forefront-antispam-report: CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:MN2PR20MB3040.namprd20.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230001)(4636009)(366004)(66946007)(52536014)(64756008)(66446008)(66476007)(66556008)(6916009)(8676002)(33656002)(8936002)(76116006)(26005)(316002)(6506007)(9686003)(621065003)(73894004)(86362001)(122000001)(4270600006)(55016003)(71200400001)(508600001)(38070700005)(186003)(38100700002)(7696005)(2906002);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: =?us-ascii?Q?Y8N/T0SkceH9dyBH1M9VErhCuQxomPrrRFeWuRlODYjs4FjkONJuKvYCfTTl?=
+ =?us-ascii?Q?6zkszUa7YmvSAvIl8mAwaajmBr+/vCk7oUrIWGSsj4ikdUYxcwBB5H2rOtD0?=
+ =?us-ascii?Q?IDWL4Iva+I4WH40e/vyLnqu7HRqdIjDZLw4hoFhqHg7+iYHtRjnVDgKwD9rT?=
+ =?us-ascii?Q?Z9/3oh38CNrCPEwTEHngUA0UerpqiScHxT6JDwhyAa8Qb205g8tpUcZ/CoPY?=
+ =?us-ascii?Q?kFIuxP99xFNl5d0nCT9qdvJViDMAFJSh5LPv6UFAuY5clZ0oCPnmXLN7Vgxf?=
+ =?us-ascii?Q?+nr88FiRATlm41lWPVGXWS9ReVv0nyVQO0Ej2alfJk6vrKVpHo3rAIrWLul+?=
+ =?us-ascii?Q?MuUYIgqmU0NBJLvpkyda0LnDDoceP4WHZp2v5B/WMi7PmQVhdSiTOJJLXo3O?=
+ =?us-ascii?Q?6Hu90LfFvXFZZQy/3tVi/tU03OHone+JNR6cA7tu/7DMnWSv0fE3YlWxyyU7?=
+ =?us-ascii?Q?d4nNkLxajQR8z5fRPRFwxm1nYGbJ3IIaHS+0yOcFqCIEvRYUrDshDdtMhxP+?=
+ =?us-ascii?Q?zqOJQ7mYrxrf4JupAoyEX1jkx5VAKeMiuyxXOmKo/AvsIH2nJ/yCRk//fP/k?=
+ =?us-ascii?Q?bszTjlcHbzO7K+Cf9sSdsiyAp4cbTkY6WcP9v/VI99xvsdAhKVSz1KECPw56?=
+ =?us-ascii?Q?Xe/FMmF6AdbF1VKD2uM4eRaT2skzRat5AviQ7P1tPJMUBf8/D4eAzgFUzi0N?=
+ =?us-ascii?Q?SoYTMm0k9+1ZqXctxmHGEVx6FjJNwa7jX0axnEdb6lB1MPDJj0wKVw4fbVC7?=
+ =?us-ascii?Q?dxTqc5Y+YKGEdM+BadzM8Rmwm04cn8QDhyUnYZrmdV1sCgFm2QbAN8KHbhqf?=
+ =?us-ascii?Q?xfxx0sGo7qUIAEC3HbXTtzR0Ym7xEWbP0pWGbKj29XFjp7xZr3G8AyShCLXX?=
+ =?us-ascii?Q?Aq0099JqY1xXuuICL8PrfqC0cCG7+Szfvz65/B8kuC8yU0fMLJVHUQVvpqNG?=
+ =?us-ascii?Q?WjKp2/B5dIEynKooVUZxbEZVVF+0vMBLT5v8AJp5CgT4tSeG5srxIMNfTJEL?=
+ =?us-ascii?Q?12oicM+9XX0w5URFLxwpOlugOREgm9BAOXIE5rIvhq8iSmb5JUV1otxKJWl1?=
+ =?us-ascii?Q?aJtutusXug3fMx9Aq0KI0cG/osaRjF56yjLq8YJw1/mHVRSAP5D/5rH3RwOr?=
+ =?us-ascii?Q?k0OABztmz+X8+yNN31V2Oxc235Ukub3Hfo/SEKxf+XWk1Q3FdTX/TzIehzCt?=
+ =?us-ascii?Q?a2yTtLU9NDV2LIyM7C+LKPz3uZc/wS59xM9uZmEO8nfyaCw0Iat6xNi/7BqE?=
+ =?us-ascii?Q?UBA0XnMVAaEUN33nfmuaNFsN5+AuRDiA7tBnxbK7/IgvqxsPom9PwMEC+Ckj?=
+ =?us-ascii?Q?ATl/WyyVgPQQnz78TpA5PDvzYSc8tgahdU9BvMh5qWglIEyNvyfpAC/wHyZK?=
+ =?us-ascii?Q?x3kWsFt5uSUVsCdPG0AItUQ18nYxWXdrXaSWQ5KdR2qPdQsZmywBOKUcC+yr?=
+ =?us-ascii?Q?TWSvgva9EHtWFwiTIxaZXDQ1n8JMuNxLVJqItoFC6CeNnBClQ/S6IG0r8vEa?=
+ =?us-ascii?Q?UtjDS1xXa6lUfEIwSuYcwUsXZFkXzPUBfz5QGRvQlpUkZ0WXlpQ+/fUtvTKZ?=
+ =?us-ascii?Q?ZZulU/b6rVH/sFpaegTcCHL9woIx+/JnUo+Sq9zpyLFGLi4hGxDhe87scvKx?=
+ =?us-ascii?Q?lz6rz3SeEmVieNtWGj14oc/VRYY+Vm6vrg8E6xpkBTpAbxxkBgDkkYvyclj/?=
+ =?us-ascii?Q?oPjjKTJr38SxxT3beSwfw2bjNvxyvN6u/pazDG6ei6QsfALu/CJ3e0/0igD9?=
+ =?us-ascii?Q?0tN8fafTUg=3D=3D?=
+MIME-Version: 1.0
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: MN2PR20MB3040.namprd20.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 08245c55-e2f4-4964-bd1b-08da43248ea1
+X-MS-Exchange-CrossTenant-originalarrivaltime: 31 May 2022 16:42:31.5475
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: da329765-dc0c-47de-a0a1-582aaa49faf7
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: 8shNtcztpfAPXtWXUxmzIlJ8R00ogeF1mrlUg1oE7/zjvTsR5B21034ow9wHHYOW9ofnIc6g0jNZDf70RfzSmqpMKcsLeuoliqmmHITOHLU=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BL1PR20MB4562
+X-OriginatorOrg: marketaxess.com
+Content-Type: multipart/mixed;
+	boundary="_4c6c1a13-425c-4253-b625-781a764adb3a_"
+Content-Length: 13779
+
+--_4c6c1a13-425c-4253-b625-781a764adb3a_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+=A92022 MarketAxess Holding Inc. (the "Company"). MarketAxess Corporation i=
+s a member of FINRA and SIPC. MarketAxess Canada Company is a member of IIR=
+OC. MarketAxess Europe Limited (04017160), MarketAxess Capital Limited (097=
+77893), and MarketAxess Post-Trade Limited (01917944) are incorporated in E=
+ngland and Wales, and are each authorised and regulated by the Financial Co=
+nduct Authority. MarketAxess NL B.V. (69592888) is incorporated in the Neth=
+erlands and is licensed by the Netherlands Authority for the Financial Mark=
+ets (=93AFM=94). MarketAxess Post-Trade B.V. (69597774) is incorporated in =
+the Netherlands and is authorised by the AFM and supervised by the European=
+ Securities and Markets Authority. For the purposes of EU27 countries, serv=
+ices are provided by MarketAxess NL B.V. and MarketAxess Post-Trade B.V. Ma=
+rketAxess Singapore Pte. Limited is recognised by the Monetary Authority of=
+ Singapore. MarketAxess is a trading name of the aforementioned entities. T=
+he information contained in and accompanying this communication is strictly=
+ confidential and intended solely for the use of the intended recipient(s).=
+ This information is for institutional investor use only and may not be red=
+istributed without the prior written consent of the Company or its subsidia=
+ries. Under no circumstances may this information be distributed to retail =
+investors. If you have received it by mistake, please let us know by reply =
+and then delete it from your system; you should not copy the message or dis=
+close its content to anyone. MarketAxess reserves the right to monitor the =
+content of emails sent to or from its systems. Any comments or statements m=
+ade are not necessarily those of MarketAxess. For more information on Marke=
+tAxess, please visit our website at marketaxess.com.
+
+--_4c6c1a13-425c-4253-b625-781a764adb3a_
+Content-Type: message/rfc822
+
+Received: from crpnbgexmbox02.CORPORATE.LOCAL (10.80.10.214) by
+ crpnbgexmbox01.CORPORATE.LOCAL (10.80.10.213) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2176.14; Tue, 31 May 2022 12:42:33 -0400
+Received: from NAM12-DM6-obe.outbound.protection.outlook.com (10.80.253.130)
+ by crpnbgexmbox02.CORPORATE.LOCAL (10.80.10.214) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2176.14 via Frontend Transport; Tue, 31 May 2022 12:42:33 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=XLqz82oceELyVov0sXuX2a1VrYcHgBj1h2QuznJMvfBPDf69aqaBpN5lAE87C9GlmfZTtKmqRmwSKTOZeTVVsz/wDC7HEG2W+nm+unBLzdG2b38H87V4JsCWkgYdZIgLgJaof3bue8iD4qzoQ0m7s7ZkZs1yVqWa2XXFk2QZtDhF6tQbqz076iDdazMkCE8vJEhG526dC1EbEiFBzgiJlDRdjze41sWIFgrW+ShwXl+2dgtXRlDb6htpPZybdoFvHvXXP/7o+SQFc/WK+vWmZpMUK2/fpQQnaFHv0eH3DSyX6ZMd13PmHrSkgGluIEJ8HJaBfkpfGBEvSsoZ07awgg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=IorQ6RccQJY5/JUE1/vZFJIKg9X5vNVolJC715mPQYk=;
+ b=LkBf4EtVbxrgtDVfw5i4fDSOsgs5KMn14Vy0reED/w3hl0wCFckfepeW+VrI/gd0MoDGgxAawpKpW4OJUnAyJmWQwg3kHdGSb++jc/K8sdEg+w5N99+oHmwh+6ayiCGAUQiyWyL4Fpc+Uc1DTzRQCa1kUTAQxzd97b7UFnMn5h276usco9GQXmIm5hYoV1+TZ4XI3HbuP9z+IGDQZj9SZ0CiOmQAQAkO6A8wrwgUTL4AIR+FF7QU60ihDQzmRPXNtHGikF+8vG4L3DynNL11rwc/drCusHus77PIubk9Mk7CKAUWk0rgk6YG182JO+2TJIiRF2yBZw14FwZQKpQMAg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=marketaxess.com; dmarc=pass action=none
+ header.from=marketaxess.com; dkim=pass header.d=marketaxess.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=marketaxesscorp.onmicrosoft.com;
+ s=selector1-marketaxesscorp-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=IorQ6RccQJY5/JUE1/vZFJIKg9X5vNVolJC715mPQYk=;
+ b=P/pm59WQ8flSTQn7Jg8RFzPlZrP8EJtj9ONz0fbBDwAjK399rUaDM9HTizfhbCxkiNxYDqhgiCv4fxMPiKrOtdBNr6ksA7mnsILJqPR+njIU4WxCuzG/HKzE8FEuxYBgi+L2vE7r1SlfOXce3wE6ZZ96duRKg1ufgsxglfUA434=
+Received: from MN2PR20MB3040.namprd20.prod.outlook.com (2603:10b6:208:1b5::33)
+ by BL1PR20MB4562.namprd20.prod.outlook.com (2603:10b6:208:385::5) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5293.19; Tue, 31 May
+ 2022 16:42:31 +0000
+Received: from MN2PR20MB3040.namprd20.prod.outlook.com
+ ([fe80::34bd:2494:54ea:f30e]) by MN2PR20MB3040.namprd20.prod.outlook.com
+ ([fe80::34bd:2494:54ea:f30e%6]) with mapi id 15.20.5293.019; Tue, 31 May 2022
+ 16:42:31 +0000
+From: Art Modesto <AModesto@marketaxess.com>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: **** Re: 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS,
+ ETC.
+Thread-Topic: **** Re: 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS,
+ ETC.
+Thread-Index: AQHYdPV6zX27JUFKhkmEEUK+WGwqh605IoUAgAAOY1g=
+Date: Tue, 31 May 2022 16:42:31 +0000
+Message-ID: <MN2PR20MB30408511BA64B8D7D57C1FCDC7DC9@MN2PR20MB3040.namprd20.prod.outlook.com>
+In-Reply-To: <d3a24496-a368-481f-a490-30bef801ccf3@yahoo.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=marketaxess.com;
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 08245c55-e2f4-4964-bd1b-08da43248ea1
+x-ms-traffictypediagnostic: BL1PR20MB4562:EE_
+x-microsoft-antispam-prvs: <BL1PR20MB45623FAE4CC602F8FB3E7C94C7DC9@BL1PR20MB4562.namprd20.prod.outlook.com>
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: wsteGIx6E5kNdHq0FpLGAXg8ph5aj0F+733x/XSzF6CwBqD08tp/gqgMiDnZenrb6bSi6tjRCe9E6bNTndYZoNK7IByEYybYreAscJumQBs71viMOZB9mnPwzhdXicld/+kLC6l52aMv8qYU6pqX74p4YDfMf2lcJfcDcSr8xYkf2iGJ73FrCZDqrXiHnq5bK70q4WGLKxgLSU/rgTum/I6inOII8tCLoWoIct59iDoa+RA+EgK+AwPYYO53mr9b5BJRScZx6gezhJuBIxMcH39n+1CLB760OVPsV+GaWFRrfrKlYEBwMydFv8pAbRy+Q0EB8sKZOibXVgfohTZgRY6IJZAJNfLpM7A7uaSPUubAtm7T2v4pvfntChysUailnzMlkRxjXpfItMUQxkbX5Xa+0HWPN4UcpIxJL2ZVQufLSRAFpsCTFYdxCB0RDEO/+MesL1ae93Uc/TrFxnkriw==
+x-forefront-antispam-report: CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:MN2PR20MB3040.namprd20.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230001)(4636009)(366004)(66946007)(52536014)(64756008)(66446008)(66476007)(66556008)(6916009)(8676002)(33656002)(8936002)(76116006)(26005)(316002)(6506007)(9686003)(621065003)(73894004)(86362001)(122000001)(4270600006)(55016003)(71200400001)(508600001)(38070700005)(186003)(38100700002)(7696005)(2906002);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: =?us-ascii?Q?Y8N/T0SkceH9dyBH1M9VErhCuQxomPrrRFeWuRlODYjs4FjkONJuKvYCfTTl?=
+ =?us-ascii?Q?6zkszUa7YmvSAvIl8mAwaajmBr+/vCk7oUrIWGSsj4ikdUYxcwBB5H2rOtD0?=
+ =?us-ascii?Q?IDWL4Iva+I4WH40e/vyLnqu7HRqdIjDZLw4hoFhqHg7+iYHtRjnVDgKwD9rT?=
+ =?us-ascii?Q?Z9/3oh38CNrCPEwTEHngUA0UerpqiScHxT6JDwhyAa8Qb205g8tpUcZ/CoPY?=
+ =?us-ascii?Q?kFIuxP99xFNl5d0nCT9qdvJViDMAFJSh5LPv6UFAuY5clZ0oCPnmXLN7Vgxf?=
+ =?us-ascii?Q?+nr88FiRATlm41lWPVGXWS9ReVv0nyVQO0Ej2alfJk6vrKVpHo3rAIrWLul+?=
+ =?us-ascii?Q?MuUYIgqmU0NBJLvpkyda0LnDDoceP4WHZp2v5B/WMi7PmQVhdSiTOJJLXo3O?=
+ =?us-ascii?Q?6Hu90LfFvXFZZQy/3tVi/tU03OHone+JNR6cA7tu/7DMnWSv0fE3YlWxyyU7?=
+ =?us-ascii?Q?d4nNkLxajQR8z5fRPRFwxm1nYGbJ3IIaHS+0yOcFqCIEvRYUrDshDdtMhxP+?=
+ =?us-ascii?Q?zqOJQ7mYrxrf4JupAoyEX1jkx5VAKeMiuyxXOmKo/AvsIH2nJ/yCRk//fP/k?=
+ =?us-ascii?Q?bszTjlcHbzO7K+Cf9sSdsiyAp4cbTkY6WcP9v/VI99xvsdAhKVSz1KECPw56?=
+ =?us-ascii?Q?Xe/FMmF6AdbF1VKD2uM4eRaT2skzRat5AviQ7P1tPJMUBf8/D4eAzgFUzi0N?=
+ =?us-ascii?Q?SoYTMm0k9+1ZqXctxmHGEVx6FjJNwa7jX0axnEdb6lB1MPDJj0wKVw4fbVC7?=
+ =?us-ascii?Q?dxTqc5Y+YKGEdM+BadzM8Rmwm04cn8QDhyUnYZrmdV1sCgFm2QbAN8KHbhqf?=
+ =?us-ascii?Q?xfxx0sGo7qUIAEC3HbXTtzR0Ym7xEWbP0pWGbKj29XFjp7xZr3G8AyShCLXX?=
+ =?us-ascii?Q?Aq0099JqY1xXuuICL8PrfqC0cCG7+Szfvz65/B8kuC8yU0fMLJVHUQVvpqNG?=
+ =?us-ascii?Q?WjKp2/B5dIEynKooVUZxbEZVVF+0vMBLT5v8AJp5CgT4tSeG5srxIMNfTJEL?=
+ =?us-ascii?Q?12oicM+9XX0w5URFLxwpOlugOREgm9BAOXIE5rIvhq8iSmb5JUV1otxKJWl1?=
+ =?us-ascii?Q?aJtutusXug3fMx9Aq0KI0cG/osaRjF56yjLq8YJw1/mHVRSAP5D/5rH3RwOr?=
+ =?us-ascii?Q?k0OABztmz+X8+yNN31V2Oxc235Ukub3Hfo/SEKxf+XWk1Q3FdTX/TzIehzCt?=
+ =?us-ascii?Q?a2yTtLU9NDV2LIyM7C+LKPz3uZc/wS59xM9uZmEO8nfyaCw0Iat6xNi/7BqE?=
+ =?us-ascii?Q?UBA0XnMVAaEUN33nfmuaNFsN5+AuRDiA7tBnxbK7/IgvqxsPom9PwMEC+Ckj?=
+ =?us-ascii?Q?ATl/WyyVgPQQnz78TpA5PDvzYSc8tgahdU9BvMh5qWglIEyNvyfpAC/wHyZK?=
+ =?us-ascii?Q?x3kWsFt5uSUVsCdPG0AItUQ18nYxWXdrXaSWQ5KdR2qPdQsZmywBOKUcC+yr?=
+ =?us-ascii?Q?TWSvgva9EHtWFwiTIxaZXDQ1n8JMuNxLVJqItoFC6CeNnBClQ/S6IG0r8vEa?=
+ =?us-ascii?Q?UtjDS1xXa6lUfEIwSuYcwUsXZFkXzPUBfz5QGRvQlpUkZ0WXlpQ+/fUtvTKZ?=
+ =?us-ascii?Q?ZZulU/b6rVH/sFpaegTcCHL9woIx+/JnUo+Sq9zpyLFGLi4hGxDhe87scvKx?=
+ =?us-ascii?Q?lz6rz3SeEmVieNtWGj14oc/VRYY+Vm6vrg8E6xpkBTpAbxxkBgDkkYvyclj/?=
+ =?us-ascii?Q?oPjjKTJr38SxxT3beSwfw2bjNvxyvN6u/pazDG6ei6QsfALu/CJ3e0/0igD9?=
+ =?us-ascii?Q?0tN8fafTUg=3D=3D?=
+Content-Type: multipart/report;
+	boundary="_000_MN2PR20MB30408511BA64B8D7D57C1FCDC7DC9MN2PR20MB3040namp_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: MN2PR20MB3040.namprd20.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 08245c55-e2f4-4964-bd1b-08da43248ea1
+X-MS-Exchange-CrossTenant-originalarrivaltime: 31 May 2022 16:42:31.5475
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: da329765-dc0c-47de-a0a1-582aaa49faf7
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: 8shNtcztpfAPXtWXUxmzIlJ8R00ogeF1mrlUg1oE7/zjvTsR5B21034ow9wHHYOW9ofnIc6g0jNZDf70RfzSmqpMKcsLeuoliqmmHITOHLU=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BL1PR20MB4562
+Return-Path: AModesto@marketaxess.com
+X-MS-Exchange-Organization-OriginalArrivalTime: 31 May 2022 16:42:33.4873
+ (UTC)
+X-MS-Exchange-Organization-Network-Message-Id: af95aa77-375d-4041-f423-08da43248fb8
+X-MS-Exchange-Organization-OriginalClientIPAddress: 10.80.253.130
+X-MS-Exchange-Organization-OriginalServerIPAddress: 10.80.10.214
+X-MS-Exchange-Organization-Cross-Premises-Headers-Processed: crpnbgexmbox02.CORPORATE.LOCAL
+X-MS-Exchange-Organization-OrderedPrecisionLatencyInProgress: LSRV=crpnbgexmbox02.CORPORATE.LOCAL:TOTAL-FE=0.064|SMR=0.063(SMRPI=0.001(SMRPI-FrontendProxyAgent=0.001));2022-05-31T16:42:33.551Z
+X-MS-Exchange-Forest-ArrivalHubServer: crpnbgexmbox01.CORPORATE.LOCAL
+X-MS-Exchange-Organization-AuthSource: crpnbgexmbox02.CORPORATE.LOCAL
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-FromEntityHeader: Internet
+X-MS-Exchange-Organization-OriginatorOrganization: marketaxess.com
+X-OriginatorOrg: marketaxess.com
+X-MS-Exchange-Organization-OriginalSize: 10779
+X-MS-Exchange-Organization-HygienePolicy: Standard
+X-MS-Exchange-Organization-MessageLatency: SRV=crpnbgexmbox02.CORPORATE.LOCAL:TOTAL-FE=0.068|SMR=0.063(SMRPI=0.001(SMRPI-FrontendProxyAgent=0.001))|SMS=0.004
+X-MS-Exchange-Organization-Recipient-Limit-Verified: True
+X-MS-Exchange-Organization-TotalRecipientCount: 1
+X-MS-Exchange-Organization-Rules-Execution-History: 963ce414-92e8-4e74-957e-82e4eef1665c%%%00df3d78-03b0-43f4-b59c-0d67452e7299%%%b292d341-fe3b-40bd-9ad9-23f73512cb09%%%d44377ae-ef65-4116-838b-78d385287d36%%%e52b1773-9a3e-4fdb-8f3c-2b562b70748d%%%b9df076e-7e9f-4be2-a0b4-b03bfbdf1581%%%1904c0b6-8b5e-4cd4-aa4d-3aa882390ce1%%%90cfcb58-8b3c-4297-a34f-cfa5fa9fe32a
+
+--_000_MN2PR20MB30408511BA64B8D7D57C1FCDC7DC9MN2PR20MB3040namp_
+Content-Type: multipart/alternative;
+	boundary="_002_MN2PR20MB30408511BA64B8D7D57C1FCDC7DC9MN2PR20MB3040namp_"
+
+--_002_MN2PR20MB30408511BA64B8D7D57C1FCDC7DC9MN2PR20MB3040namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Art Modesto
+   Subject: Re: **** Re: 16537-714-487-492, OMISSIONS, OBSTRUCTION, FITNESS=
+, ETC.
+   Sent: Tuesday, May 31, 2022 11:50:58 AM (UTC-05:00) Eastern Time (US & C=
+anada)
+
+ was read on Tuesday, May 31, 2022 12:42:27 PM (UTC-05:00) Eastern Time (US=
+ & Canada).
+
+--_002_MN2PR20MB30408511BA64B8D7D57C1FCDC7DC9MN2PR20MB3040namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Art Modesto<br>
+&nbsp;&nbsp; Subject: Re: **** Re: 16537-714-487-492, OMISSIONS, OBSTRUCTIO=
+N, FITNESS, ETC.<br>
+&nbsp;&nbsp; Sent: Tuesday, May 31, 2022 11:50:58 AM (UTC-05:00) Eastern Ti=
+me (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Tuesday, May 31, 2022 12:42:27 PM (UTC-05:00) Eastern Tim=
+e (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_MN2PR20MB30408511BA64B8D7D57C1FCDC7DC9MN2PR20MB3040namp_--
+
+--_000_MN2PR20MB30408511BA64B8D7D57C1FCDC7DC9MN2PR20MB3040namp_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; AModesto@marketaxess.com
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: 4SyTqi2VwE+vfOF+ZRc8tA==
+X-Display-Name: Art Modesto
+
+
+--_000_MN2PR20MB30408511BA64B8D7D57C1FCDC7DC9MN2PR20MB3040namp_--
+
+--_4c6c1a13-425c-4253-b625-781a764adb3a_--

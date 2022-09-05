@@ -1,0 +1,950 @@
+From - Sat May  7 02:56:34 2022
+X-Account-Key: account1
+X-UIDL: AAYLw4QP1Gg3YnYPFgDyMIlls5Y
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.33.76
+ by atlas124.free.mail.bf1.yahoo.com with HTTPS; Sat, 7 May 2022 06:17:57 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.65.148]
+Received-SPF: pass (domain of yahoo.com designates 98.137.65.148 as permitted sender)
+Authentication-Results: atlas124.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 7 May 2022 06:17:57 +0000
+X-YMailAVSC: Bs6ap4o3bBtI9_RYjPcuRsPC8MSpZMtwn6oYrAxe_4uHgS3
+ murUomaAoyEblFBjGR3ybX8pzN3y_tpns5IqJUuEcI.PWX4d7NcsXNMpFNlB
+ OeT_OSDORLUG3anq8EjEl75744yGtz9KT_Uu0d_25WBr5gwn4p9yLLj6XH0O
+ 1cwAqxzqbXkk6ja5GBl1.bO1zxiSDVKUXmlJOlRdLnFd9aGLRxfpp8GsYFJV
+ sJpqQ7ndxzM6ca2HC7TXuPFfBu2mIXZzeRmy6NsLTXDdi8Et9rb00DArIPbo
+ iA9fn3SyI3qgnQGBotEb0eDH7s9H1svoNFshtpyyd_cadcUPncZRYDyzHJ4O
+ lSUnN49RGH_7gs2s0KPoGn7nbMCl_m91kMx5_izg6LMhoAj_Z44jzZQ--
+X-YMailISG: pQEt2k0WLDvcdk3TC7NeBILZXpWObpO6puj_ELIiE2SYO9R_
+ WdycxLXotOjsgShFTQcGmDbuRRlaeBFjcXmCrAA6IMai9ZOo8mMbDI_MTbyQ
+ LGn150gytnCTLyOyhrOkwClB5odC5WCF2NOYrzkKp7uNbHJEJGp0A0j1tn.O
+ shgX0oHYXD4Rmm2dCzvvpKztaT1JBeaF.apo1QbBZ8fnQwdMsupTrT4b9jdn
+ 3_4Sf1MNUH0NpdhpZe4.TMkjysL1wozU78eaUFWwuDOQsdNz3cgTK9Ys7rzP
+ LNSFPUD9uxh58AulqCJQu5_Aekq1w9QL8fc.plgMwtIzMIav._85FfQPjvOD
+ zQB9DZmsbUAnwDkSqluFs.YvYmbnj0uecle8QjCxfy27GAXLu1VGvFyVhdUX
+ NOUKJLy3LdulnOe6RsxLVWGvyJ4p_RAiojQgu1nZbTBgJXZHN5Jl1W8iBx46
+ PJGS9tjM7vipwJ.9iqByqfbapAPEjGkVFaPjrf3GSzY0Io9zc7qUZnb0yN3G
+ .MXDqt_B.SZIDv7swVyPjzHMCaH4Vcw5l3gFzlnTpytJV9C0J6qlEHUpXpMA
+ Fz_UUfZlcwgjw7Ajh2eW5ceYucrj7rXg6yxg2mFbXzTGo5r0xWDxqi3CuWlh
+ zN_12qV90BQtVbvai6hstV3_hOLgmDSpjqGIOuP1DJ60anYeUpVAHbLsw8Dn
+ AMrCH8mJPYbzDaWCwIdVT5b8U8QNz.vMLtAlDeMUTGm8VtavzcM91NaqhDKq
+ d8QQK2wUZiOb9zBfGBrAuUgXtlHo9GN6g59f2fasgh1t.uEoZshn7c._7DJO
+ L53Eh7IepjqhFrmkKG.tFolcgjNaIxm7efM4r5NqIwDwaAF89FxH7CYDppkI
+ k8gO3XpVxvl2TAs5J5dU9_BR4aW0Dqkp4uWip._Dvxckr1S7wvgAZRP74IBt
+ Y3kUTiPb.RlfROnIkrb29bJP3Jo_yyXRicBHIjFw0T3bW3Kpp4aVt6fP3Adw
+ CRAeoLCDnx3jREmJ0WjMlF0lFpd524fdRJ41tSyZr7.jl4MWJaNvqjASXQm8
+ TT8gzgMIqwrGMBymxTf.i4lK9tu8j9fTaVwKXSFMe6iSuIfyIcw7dketGV8e
+ srgaOd0zZjuTDbMkWbvgg.NzdyBg5J_0KItbDclOP_EtCsZee3vHDS2aM9.D
+ I.13MQ--
+Received: from 98.137.65.148 (EHLO sonic309-22.consmr.mail.gq1.yahoo.com)
+ by 10.197.33.76 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sat, 07 May 2022 06:17:57 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1651904276; bh=UUSsJqgf4fWATzd0Ah/F/KX8EHaD3ZyLY2Ed75tA5e0=; h=Date:From:Reply-To:To:In-Reply-To:References:Subject:From:Subject:Reply-To; b=AkvRIIPPh109t6PKxfznKpFxI0hUbNraA3gfCCPLCpgNSWWjjsHXIpeHrfVMoGHDbwGiFWWpSlkqmedethRyJ2clAyBEdmC2ChphRpOr9KRKte990Wctr+FL6BUAOqLVNvlvB1P7ZiOMW4MvRF3J75F3cY5cHImPpz8BMSjy6MsXYXWDPHwFOaA3/tUMeo/jcGsbpqDaRLcWEUe6MAUcZYWNuE4t6M4TQ7oh+jAA1wDPW73XOJyPhJNdCFWIFIBIIPIbBdPVJy1HErQRlIY6nTTJOwkmIJFx7RbdRYoadw39WDxyU6F4om94dwDkzk5FPqFQRl3SxlUXR5QKH9nktw==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1651904276; bh=z0BYOnWnPwX4eY9oBvac5l5QBhKfgfNF5qTzEsCmfxV=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=IRJCRt/RNzmRC6Xhwcc+UVijhNJyJeae+NLBMN/L/vc69uA+FcosdJLf2E34QKYdORBPJC4iaIg7A6V8jjFIoJtKVd1n9ljXJGP+Q3PD9ePM4YbjxTUTGDaj6QAyrVTa1/zfDTk/7vixCtETq1saT3adhITJyUv/o8w46D9JPYfpE/GmlVeRQGg0Il9CMWyk7wbrsuFmZbiGD5zLzcjt4mpv+i/fQWWwQ+CEBqVeG0TzFtzYxPQSeFOKsb3l5GSWPTol0LBWpA908RnAqMHsIxAQqC/3YkcQG5vqy5+ylna79yXWirVkjHWnY0oufSB0IPloQdFfGLadnTebPRK05g==
+X-YMail-OSG: Xr7VjDYVM1nRaDEt79.HFRMsoo2CJilElr33mjr59vIc1NdjfbZVOebUc90YSae
+ 48M5cTO2uf5cexhnUs_1C6AaJBJM6geiblXIcGsGJ4JS1MjYtCM9BldKU0s9XGErXpqZolVAuOsX
+ cb5p5nEiS1Ro_C_NkzcbCweH84b4QAlwpi9CgSaX17Q6t2YB.I1ckBjCcDenQz9t3bbLZBBIRhJJ
+ aJQTNpeaVAEFcKtiiz40jfK3lGfGe9llixJI8FSi3GpgwBhE2oi250N7VxD6eUqMOZMVNH7cTNfg
+ nPf.aGv4jGSgMPY0ZZneFcslbp4lSfB7oGiOLjmb.FtZJG9AzFSexJJPp8XzVIqMCtmG00aT7gCQ
+ Hr1Ef7Pu8j4C1n4rf_6V7yp.2Cb2EUe8F9d6JppkyCxp37y7VynhxuwztyIF6SzWJssrzGS8cHGi
+ 4zxRnYVGaHVz9mCwsznZKyRopDmrOzP5PdXdhLcElDJEoTu2mve023w.27TXx3UBmzxcnKivtLXo
+ gvSqjO.y5lb7HdkJR0er0dbAf5J4OzLd5Pqv9zUplyFu1Kvip7G7Dt.zTzLk4TmCpF_NNmqhn1Jy
+ KBYl_99LOTNas4Jn9_mqJJYAikUG3_pLwx0GW2I8dZn9vLlgxS8_9Tt22cSk_BOm0261O.ynYqGY
+ SoOVCQdnxyzUCp0FwGxuZ1W_WXawB7QDr8Bc0EzOiPVL0H2bRgz26caFPEbppbGv4oYVUoYU2tRn
+ NWPGMi4Ura7awOwVFVonZN6CPrbOt.67.j3Crw2hqx565Qi7VoPar5_0fQri71UeHYqc1OtI2BVW
+ r2gs_2oytXFTyuMPLkJehfL_GlN1A4swBon21ite8jvRg.v3yKRt91ks8ZJnWD21F769h0YS1L2V
+ clzXpcU2welDBumThAc6gS8kycIL4RIDxN4LJy509d0BVvvRpLATCBCm_Vgfi6Hb2I2O7BEjzreP
+ 9VHxOTkYBvWdZfOQVnJ0DeTq.3HcajTbS5dwqmcVyHQkvndVXE7l5_lqtE10WRCY2ugMXtyTc4zK
+ R8JxbDmTCjj56NSZGBFe5eDdZ4t0t0rB634fd2.ti8c67KqFk3prNlSJvcA5dGfCII7HwvWZXfJO
+ bm4IkgRE5FpxFDrlfOVz_SV9FxykI97VYG_G_cxbIn0gP4dF_eL3B3ztHVFWOz43oEyJH19ixMem
+ EI1rt61oMD4K6MsQ1fp0LiGdZOv685PpZESG0aHluG3bhNz74j5K0BcVMBi8MX.pWextviYKYf6E
+ UJe77vFKoYsSm.bGuvNI.e9ziZMCmbYiiDiI4rKpWe4lGphFPl7i9QCsxqj1UPsguTjvepc0nMNz
+ Sc36NW9JMqj98LGjktsakeJKl9pxZicKQqHJ3TKSRlQujpMuwRJxuLXI.pyMwJ7QERzvBjYRPjNa
+ dlXW0iKP5InYw2XAz_r7WbTt4NutxEkLZ_EMQj8eBSHKwfbLcYCnhbBmBq.22_X9_i5GsqRBCKhF
+ mMJ.bgsnbdANvDVpdrlYlhCeFGYfRwFfL47wBvk79.cil_INDeK6SHeoVqftzVQMjomUEno4uO0u
+ AK_vOfGN3aFFpEbM8jb4xBFYLdjGg.EZytHNTiLFV8562fbe2fqTrlMrirTMYB53CbeX7_uPu2oy
+ lenuwNeaswnUR0jhv_kMAPevo8I.eP7rrj2eghy55xDrLh_K76Z86MPFxGyYRCoHDb.oHk2qZVvP
+ 5it8EAuoCzWIOFDEVGrxj23o2c0nHqCAcLqmWX2DGDIeUiO5bSCXRD3t0VwcaAljEaHL8Pj.lMS0
+ aDxTjk3g7oMAkYlOwem1zo79iE7lkTbtsgvfWhAl2xeCFQaATw7SSsm.ycq16TZ4B80ayI.TfXlX
+ qOalMBiHjNVrjqfcf_8T4lKqAaGAfetNvKBoMAlQITWjJlES.oyZ76lgHN.D.cEUEjW2AWgd2zkX
+ YY3d.fgKbZt63bW6JHhx.aimTvLPee3O59hIngbP0qtIBL6HPD1TcNDZQxIw0R0JJb1GFBwWaCL.
+ 3wWW50XW0znVsi1_JV4gdGmFYdYbs_yFubxj7.AW_U7NpNjgWQP8NZI2FTRgTTjkEDftB2W3C7Q.
+ qOyXeQMBoWuUusI70DcVI2ITx6AlZ9cQ0O7UtqxEPl4pIxp2BujVO5ZQwzNMjMEApV7NGlc2581a
+ AJlfjjKymIediRW2DEM_OIReApY9OkvjbSf5tkGoZjbvGecPBo9s1ASd97CgSkf_9.0ecPt2tic2
+ 0Uup2MwpEPJEes_rnkFjzPjpZ3g4SmIZTrpeh6YQBvt5PWJXfS_6EG2BZ4VZRHAdZSwv2pYTsVOO
+ KirKM_hXbiwV_37tx66jvVvPA08V9kBXV6lI1hLUvJ00JkchpKRy3Ly2VdDRhFF1cwvIwVxLQY53
+ _ck6uW7UOtkeA1yN7Xvfb6uYzHP8gNsnAOe_T2T35mm9lEimka1JN6ycNNe4TjRo-
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic309.consmr.mail.gq1.yahoo.com with HTTP; Sat, 7 May 2022 06:17:56 +0000
+Date: Sat, 7 May 2022 06:17:50 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: MILTON MCKENZIE <ms60710444266@yahoo.com>
+Message-ID: <701844423.412631.1651904270414@mail.yahoo.com>
+In-Reply-To: <1a903cca-1ee9-426e-ba45-f3c6ae76221c@ind1s06mta1368.xt.local>
+References: <1a903cca-1ee9-426e-ba45-f3c6ae76221c@ind1s06mta1368.xt.local>
+Subject: Fw: Will you sign a letter of support for your library?
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_412630_2015858022.1651904270410"
+X-Mailer: WebService/1.1.20188 YahooMailAndroidMobile
+Content-Length: 41516
+
+------=_Part_412630_2015858022.1651904270410
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Sent from Yahoo Mail on Android=20
+=20
+   ----- Forwarded Message ----- From: "Tony Marx, NYPL" <presidentmarx@ema=
+il.nypl.org> To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com> Cc:  Sent: Wed=
+, May 4, 2022 at 3:38 PM Subject: Will you sign a letter of support for you=
+r library?   #yiv5381154486 ReadMsgBody{width:100%;}#yiv5381154486 .yiv5381=
+154486ExternalClass {width:100%;}#yiv5381154486 .yiv5381154486ExternalClass=
+, #yiv5381154486 .yiv5381154486ExternalClass p, #yiv5381154486 .yiv53811544=
+86ExternalClass span, #yiv5381154486 .yiv5381154486ExternalClass font, #yiv=
+5381154486 .yiv5381154486ExternalClass td, #yiv5381154486 .yiv5381154486Ext=
+ernalClass div {line-height:100%;}#yiv5381154486 body {margin:0 !important;=
+}#yiv5381154486 p {margin:1em 0;}#yiv5381154486 table td {border-collapse:c=
+ollapse;}#yiv5381154486 img {outline:0;}#yiv5381154486 a img {border:none;}=
+#yiv5381154486 p {margin:1em 0;} _filtered {} @media only screen and (max-w=
+idth:480px) {#yiv5381154486 .yiv5381154486container {width:100% !important;=
+}#yiv5381154486 .yiv5381154486footer {width:auto !important;margin-left:0;}=
+#yiv5381154486 .yiv5381154486content-padding{padding:4px !important;}#yiv53=
+81154486 .yiv5381154486mobile-hidden {display:none !important;}#yiv53811544=
+86 .yiv5381154486logo {display:block !important;padding:0 !important;}#yiv5=
+381154486 img {max-width:100% !important;height:auto !important;}#yiv538115=
+4486 .yiv5381154486header img{max-width:100% !important;height:auto !import=
+ant;}#yiv5381154486 .yiv5381154486photo img {width:100% !important;max-widt=
+h:100% !important;height:auto !important;}#yiv5381154486 .yiv5381154486drop=
+ {display:block !important;width:100% !important;float:left;clear:both;}#yi=
+v5381154486 .yiv5381154486footerlogo {display:block !important;width:100% !=
+important;padding-top:15px;float:left;clear:both;}#yiv5381154486 .yiv538115=
+4486nav4, #yiv5381154486 .yiv5381154486nav5, #yiv5381154486 .yiv5381154486n=
+av6 {display:none !important;}#yiv5381154486 .yiv5381154486tableBlock {widt=
+h:100% !important;}#yiv5381154486 .yiv5381154486responsive-td {width:100% !=
+important;display:block !important;padding:0 !important;}#yiv5381154486 .yi=
+v5381154486fluid, #yiv5381154486 .yiv5381154486fluid-centered {width:100% !=
+important;max-width:100% !important;height:auto !important;margin-left:auto=
+ !important;margin-right:auto !important;}#yiv5381154486 .yiv5381154486flui=
+d-centered {margin-left:auto !important;margin-right:auto !important;}#yiv5=
+381154486 #yiv5381154486 body, #yiv5381154486 .yiv5381154486tb_properties{f=
+ont-family:Arial !important;font-size:16px !important;color:#000000 !import=
+ant;line-height:1.15 !important;padding-top:0px !important;padding-right:0p=
+x !important;padding-bottom:0px !important;padding-left:0px !important;}#yi=
+v5381154486 .yiv5381154486buttonstyles{font-family:Arial, Helvetica, sans-s=
+erif !important;font-size:16px !important;color:#FFFFFF !important;padding-=
+top:10px !important;padding-right:10px !important;padding-bottom:10px !impo=
+rtant;padding-left:10px !important;}#yiv5381154486 h1{font-family:Arial !im=
+portant;font-size:25px !important;color:#000000 !important;line-height:1.15=
+ !important;}#yiv5381154486 h2{font-family:Arial !important;font-size:20px =
+!important;color:#000000 !important;line-height:1.15 !important;}#yiv538115=
+4486 h3{font-family:Arial !important;font-size:18px !important;color:#00000=
+0 !important;line-height:1.15 !important;}#yiv5381154486 a:not{line-height:=
+1.15 !important;}#yiv5381154486 .yiv5381154486mobile-hidden{display:none !i=
+mportant;}#yiv5381154486 }@media only screen and (max-width:640px) {#yiv538=
+1154486 .yiv5381154486container {width:100% !important;}#yiv5381154486 .yiv=
+5381154486mobile-hidden {display:none !important;}#yiv5381154486 .yiv538115=
+4486logo {display:block !important;padding:0 !important;}#yiv5381154486 .yi=
+v5381154486photo img {width:100% !important;height:auto !important;}#yiv538=
+1154486 .yiv5381154486nav5, #yiv5381154486 .yiv5381154486nav6 {display:none=
+ !important;}#yiv5381154486 .yiv5381154486fluid, #yiv5381154486 .yiv5381154=
+486fluid-centered {width:100% !important;max-width:100% !important;height:a=
+uto !important;margin-left:auto !important;margin-right:auto !important;}#y=
+iv5381154486 .yiv5381154486fluid-centered {margin-left:auto !important;marg=
+in-right:auto !important;}} #yiv5381154486 div.yiv5381154486preheader {disp=
+lay:none !important;}Take 30 seconds to let City leaders know that public l=
+ibraries are important to you.=20
+| =20
+|  |
+
+  |
+| =20
+|  =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=
+=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=
+=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =
+=C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =
+=E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=
+=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=
+=A0 =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=
+=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=
+=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =
+=C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =
+=E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=
+=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=
+=A0 =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=
+=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=
+=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =
+=C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =
+=E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=
+=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=A0 =E2=80=8C =C2=
+=A0
+|  View in browser |   |
+
+ |
+
+  |
+| =20
+| =20
+| =20
+| =20
+| =20
+| =20
+| =20
+|=20
+|=20
+|  |
+
+ |
+
+ |
+
+  |
+
+  |
+
+  |
+| =20
+| =20
+| =20
+|=20
+|   Our public libraries unite New Yorkers in safe and welcoming spaces to =
+learn important skills, discover a lifelong love of reading, and engage wit=
+h their communities and fellow citizens.=C2=A0Today, I'm asking you to sign=
+ a letter and remind our Mayor and City Council how important libraries are=
+ to the present=E2=80=94and the future!=E2=80=94of our city.=20
+=20
+ Show your support for your local library and send a message to City leader=
+s!=C2=A0Sign a letter today!  |
+
+
+|=20
+|=20
+|  |
+
+ |
+|=20
+|=20
+|=20
+|  |
+
+ |
+
+ |
+
+ |
+
+ |
+
+
+|  As New Yorkers work together to recover from the past few years, the Lib=
+rary will continue to be an important partner. Not only do we provide milli=
+ons of books to borrow, we've also eliminated late fines and removed a cost=
+ly barrier to better serve our patrons. In addition, we provide resources i=
+ncluding programs for all ages, job search and career help, technology trai=
+ning, computer and Wi-Fi access, and summer enrichment activities for schoo=
+l-age=C2=A0kids=E2=80=94all for free. |
+
+
+|=20
+|=20
+|  |
+
+ |
+|=20
+|=20
+|=20
+|=20
+| Sign a Letter |
+
+ |
+
+ |
+
+ |
+
+ |
+
+ |
+
+
+|  Libraries, and the mission to provide free and open access to knowledge =
+and information, will=C2=A0only be more critical parts of our society. Sign=
+ a letter to your Council Member today and remind our leaders that librarie=
+s are for everyone.
+=20
+ Yours,
+=20
+ Tony
+ Anthony W. Marx
+ President, The New York Public Library |
+
+
+|=20
+|=20
+|=20
+|  |
+
+ |
+
+ |
+
+ |
+
+
+|=20
+|=20
+|=20
+|  |
+
+
+|  |
+
+
+|  |
+
+
+|  |
+
+ |
+
+ |
+
+ |
+
+ |
+
+  |
+
+  |
+
+  |
+| =20
+| =20
+|   |
+
+  |
+
+  |
+| =20
+| =20
+|   |
+
+  |
+
+  |
+
+  |
+
+  |
+
+  |
+
+  |
+| =20
+|=20
+|=20
+| =20
+ This email was sent to bo.dincer@yahoo.com by The New York Public Library.
+=20
+ Donate | NYPL Website |=C2=A0Update Profile & Preferred Location | 1-Click=
+ Unsubscribe | Privacy Policy=C2=A0| Contact Us
+=20
+ The New York Public Library | Stephen A. Schwarzman Building | Fifth Avenu=
+e and 42nd Street | New York, NY 10018
+ |
+
+ |
+
+ |
+
+  |
+
+   =20
+
+------=_Part_412630_2015858022.1651904270410
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div id=3D"ymail_android_signature"><a id=3D"ymail_android_signatur=
+e_link" href=3D"https://go.onelink.me/107872968?pid=3DInProduct&amp;c=3DGlo=
+bal_Internal_YGrowth_AndroidEmailSig__AndroidUsers&amp;af_wl=3Dym&amp;af_su=
+b1=3DInternal&amp;af_sub2=3DGlobal_YGrowth&amp;af_sub3=3DEmailSignature" ta=
+rget=3D"_blank" rel=3D"noreferrer noopener">Sent from Yahoo Mail on Android=
+</a></div> <br> <blockquote style=3D"margin: 0 0 20px 0;"> <div style=3D"pa=
+dding: 10px 0 0 20px; margin: 10px 0 0 0; border-left: 1px solid #6D00F6;">=
+ <div style=3D"font-family:Roboto, sans-serif; color:#6D00F6;"> <div>----- =
+Forwarded Message -----</div> <div><b>From:</b> "Tony Marx, NYPL" &lt;presi=
+dentmarx@email.nypl.org&gt;</div> <div><b>To:</b> "bo.dincer@yahoo.com" &lt=
+;bo.dincer@yahoo.com&gt;</div> <div style=3D"display:none"><b>Cc:</b> </div=
+> <div><b>Sent:</b> Wed, May 4, 2022 at 3:38 PM</div> <div><b>Subject:</b> =
+Will you sign a letter of support for your library?</div> </div>  <div id=
+=3D"yiv5381154486">
+
+ =20
+   =20
+   =20
+    <style type=3D"text/css">
+#yiv5381154486 ReadMsgBody{
+width:100%;}
+#yiv5381154486 .yiv5381154486ExternalClass {
+width:100%;}
+#yiv5381154486 .yiv5381154486ExternalClass, #yiv5381154486 .yiv5381154486Ex=
+ternalClass p, #yiv5381154486 .yiv5381154486ExternalClass span, #yiv5381154=
+486 .yiv5381154486ExternalClass font, #yiv5381154486 .yiv5381154486External=
+Class td, #yiv5381154486 .yiv5381154486ExternalClass div {
+line-height:100%;}
+#yiv5381154486 body {
+margin:0 !important;}
+#yiv5381154486 p {
+margin:1em 0;}
+#yiv5381154486 table td {
+border-collapse:collapse;}
+#yiv5381154486 img {
+outline:0;}
+#yiv5381154486 a img {
+border:none;}
+#yiv5381154486 p {
+margin:1em 0;}
+ _filtered {}
+</style>
+    <style type=3D"text/css">
+@media only screen and (max-width:480px) {
+#yiv5381154486 .yiv5381154486container {
+width:100% !important;}
+#yiv5381154486 .yiv5381154486footer {
+width:auto !important;margin-left:0;}
+#yiv5381154486 .yiv5381154486content-padding{
+padding:4px !important;}
+#yiv5381154486 .yiv5381154486mobile-hidden {
+display:none !important;}
+#yiv5381154486 .yiv5381154486logo {
+display:block !important;padding:0 !important;}
+#yiv5381154486 img {
+max-width:100% !important;height:auto !important;}
+#yiv5381154486 .yiv5381154486header img{
+max-width:100% !important;height:auto !important;}
+#yiv5381154486 .yiv5381154486photo img {
+width:100% !important;max-width:100% !important;height:auto !important;}
+#yiv5381154486 .yiv5381154486drop {
+display:block !important;width:100% !important;float:left;clear:both;}
+#yiv5381154486 .yiv5381154486footerlogo {
+display:block !important;width:100% !important;padding-top:15px;float:left;=
+clear:both;}
+#yiv5381154486 .yiv5381154486nav4, #yiv5381154486 .yiv5381154486nav5, #yiv5=
+381154486 .yiv5381154486nav6 {
+display:none !important;}
+#yiv5381154486 .yiv5381154486tableBlock {
+width:100% !important;}
+#yiv5381154486 .yiv5381154486responsive-td {
+width:100% !important;display:block !important;padding:0 !important;}
+#yiv5381154486 .yiv5381154486fluid, #yiv5381154486 .yiv5381154486fluid-cent=
+ered {
+width:100% !important;max-width:100% !important;height:auto !important;marg=
+in-left:auto !important;margin-right:auto !important;}
+#yiv5381154486 .yiv5381154486fluid-centered {
+margin-left:auto !important;margin-right:auto !important;}
+#yiv5381154486 =20
+#yiv5381154486 body, #yiv5381154486 .yiv5381154486tb_properties{font-family=
+:Arial !important;font-size:16px !important;color:#000000 !important;line-h=
+eight:1.15 !important;padding-top:0px !important;padding-right:0px !importa=
+nt;padding-bottom:0px !important;padding-left:0px !important;}#yiv538115448=
+6 .yiv5381154486buttonstyles{font-family:Arial, Helvetica, sans-serif !impo=
+rtant;font-size:16px !important;color:#FFFFFF !important;padding-top:10px !=
+important;padding-right:10px !important;padding-bottom:10px !important;padd=
+ing-left:10px !important;}#yiv5381154486 h1{font-family:Arial !important;fo=
+nt-size:25px !important;color:#000000 !important;line-height:1.15 !importan=
+t;}#yiv5381154486 h2{font-family:Arial !important;font-size:20px !important=
+;color:#000000 !important;line-height:1.15 !important;}#yiv5381154486 h3{fo=
+nt-family:Arial !important;font-size:18px !important;color:#000000 !importa=
+nt;line-height:1.15 !important;}#yiv5381154486 a:not{line-height:1.15 !impo=
+rtant;}#yiv5381154486 .yiv5381154486mobile-hidden{display:none !important;}
+#yiv5381154486 =20
+}
+@media only screen and (max-width:640px) {
+#yiv5381154486 .yiv5381154486container {
+width:100% !important;}
+#yiv5381154486 .yiv5381154486mobile-hidden {
+display:none !important;}
+#yiv5381154486 .yiv5381154486logo {
+display:block !important;padding:0 !important;}
+#yiv5381154486 .yiv5381154486photo img {
+width:100% !important;height:auto !important;}
+#yiv5381154486 .yiv5381154486nav5, #yiv5381154486 .yiv5381154486nav6 {
+display:none !important;}
+#yiv5381154486 .yiv5381154486fluid, #yiv5381154486 .yiv5381154486fluid-cent=
+ered {
+width:100% !important;max-width:100% !important;height:auto !important;marg=
+in-left:auto !important;margin-right:auto !important;}
+#yiv5381154486 .yiv5381154486fluid-centered {
+margin-left:auto !important;margin-right:auto !important;}
+}
+</style>
+   =20
+ =20
+  <div><style type=3D"text/css">
+#yiv5381154486 div.yiv5381154486preheader=20
+{display:none !important;}
+</style>
+<div style=3D"font-size:1px;display:none !important;" class=3D"yiv538115448=
+6preheader">Take 30 seconds to let City leaders know that public libraries =
+are important to you.</div>
+    <table width=3D"600" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" a=
+lign=3D"center" class=3D"yiv5381154486fluid-centered">
+      <tbody><tr>
+        <td align=3D"center" valign=3D"top">
+          <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D=
+"presentation" style=3D"min-width:100%;" class=3D"yiv5381154486stylingblock=
+-content-wrapper"><tbody><tr><td class=3D"yiv5381154486stylingblock-content=
+-wrapper yiv5381154486camarker-inner"></td></tr></tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td align=3D"center" valign=3D"top">
+          <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D=
+"presentation" style=3D"min-width:100%;" class=3D"yiv5381154486stylingblock=
+-content-wrapper yiv5381154486mobile-hidden"><tbody><tr><td style=3D"paddin=
+g:10px 0px;" class=3D"yiv5381154486stylingblock-content-wrapper yiv53811544=
+86mobile-hidden yiv5381154486camarker-inner"><div style=3D"display:none;max=
+-height:0;overflow:hidden;">
+=09&nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbs=
+p; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=
+=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C =
+&nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =
+=E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=
+=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nb=
+sp; &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nb=
+sp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=
+=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C =
+&nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =
+=E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=
+=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nb=
+sp; &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C
+ &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp;=
+ =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=
+=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nb=
+sp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=
+=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C &nbsp; =E2=80=8C =
+&nbsp;</div><table align=3D"right" border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0">
+=09
+=09=09<tbody><tr>
+=09=09=09<td style=3D"padding-right:10px;">
+=09=09=09=09<span style=3D"font-size:12px;"><a href=3D"https://view.email.n=
+ypl.org/?qs=3Dc8370996bd5f57666f4c8044efd980c667d83460463de7fcc92660abff04b=
+2e08f05f19df3552b0e12dd5ec4c6ac2db30179bbcf3f8d086e7416f4f39204b1875cbfe505=
+32d46dde07b423898575dd0cc2c57b7f2e352697" style=3D"color:#333333;text-decor=
+ation:underline;font-weight:normal;" title=3D"Open this email on your web b=
+rowser if it does not display correctly." target=3D"_blank" rel=3D"noreferr=
+er noopener">View in browser</a></span></td><td style=3D"padding-right:10px=
+;">
+=09=09=09</td></tr></tbody></table></td></tr></tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td align=3D"center">
+          <table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" width=3D"=
+600" align=3D"center" class=3D"yiv5381154486container">
+            <tbody><tr>
+              <td>
+                <table style=3D"background-color:#FFFFFF;font-size:14px;fon=
+t-family:Arial, Helvetica, sans-serif;line-height:150%;color:#000000;" cell=
+spacing=3D"0" cellpadding=3D"0" bgcolor=3D"#FFFFFF" width=3D"100%" class=3D=
+"yiv5381154486tb_properties yiv5381154486border_style">
+                  <tbody><tr>
+                    <td align=3D"center" valign=3D"top">
+                      <table align=3D"left" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%">
+                        <tbody><tr>
+                         =20
+                          <td style=3D"padding-top:0px;padding-right:0px;pa=
+dding-bottom:0px;padding-left:0px;padding:0px;" class=3D"yiv5381154486conte=
+nt_padding">
+                           =20
+                            <table border=3D"0" cellpadding=3D"0" cellspaci=
+ng=3D"0" width=3D"100%">
+                              <tbody><tr>=20
+                               =20
+                                <td align=3D"center" valign=3D"top" class=
+=3D"yiv5381154486header">
+                                  <table align=3D"left" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align=3D"left" valign=3D"top">
+                                          <table cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"width:100%;">
+                                            <tbody>
+                                              <tr>
+                                                <td valign=3D"top" style=3D=
+"width:100%;" class=3D"yiv5381154486responsive-td">
+                                                  <table cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%" role=3D"presentation" style=3D"background-=
+color:transparent;min-width:100%;" class=3D"yiv5381154486slot-styling"><tbo=
+dy><tr><td style=3D"padding:0px 10px;" class=3D"yiv5381154486slot-styling y=
+iv5381154486camarker-inner"><table cellpadding=3D"0" cellspacing=3D"0" widt=
+h=3D"100%" role=3D"presentation" style=3D"background-color:#000000;min-widt=
+h:100%;" class=3D"yiv5381154486stylingblock-content-wrapper"><tbody><tr><td=
+ style=3D"padding:10px 0px;" class=3D"yiv5381154486stylingblock-content-wra=
+pper yiv5381154486camarker-inner"><table width=3D"100%" cellspacing=3D"0" c=
+ellpadding=3D"0" role=3D"presentation"><tbody><tr><td align=3D"center"><a h=
+ref=3D"https://click.email.nypl.org/?qs=3Dd6a0a5f41f30e78ba4fdc1087875b8d2f=
+13207561075515181640d522818b017f3bb8bf771e762cd7f5af608acfd2ab2f90fe7fee4f6=
+ff29" title=3D"Sign a Letter" target=3D"_blank" rel=3D"noreferrer noopener"=
+>
+<img src=3D"https://image.email.nypl.org/lib/fea013707564007c76/m/26/bcb152=
+de-36cd-4174-aa90-5be63a539b50.png" alt=3D"Black banner that reads: Librari=
+es Are For Everyone, Sign a Letter. Take Action. It features NYPL's library=
+ logo and name." width=3D"600" style=3D"display:block;padding:0px;text-alig=
+n:center;height:auto;width:100%;border:0px none transparent;" id=3D"ymail_c=
+tr_id_-988529-40"></a></td></tr></tbody></table></td></tr></tbody></table><=
+/td></tr></tbody></table>
+                                                 =20
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>=20
+                               =20
+                                <td align=3D"center" valign=3D"top" class=
+=3D"yiv5381154486header">
+                                  <table align=3D"left" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align=3D"left" valign=3D"top">
+                                          <table cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"width:100%;">
+                                            <tbody>
+                                              <tr>
+                                                <td valign=3D"top" style=3D=
+"width:100%;" class=3D"yiv5381154486responsive-td">
+                                                  <table cellpadding=3D"0" =
+cellspacing=3D"0" width=3D"100%" role=3D"presentation" style=3D"background-=
+color:transparent;min-width:100%;" class=3D"yiv5381154486slot-styling"><tbo=
+dy><tr><td style=3D"padding:0px 10px;" class=3D"yiv5381154486slot-styling y=
+iv5381154486camarker-inner"><table cellpadding=3D"0" cellspacing=3D"0" widt=
+h=3D"100%" role=3D"presentation" style=3D"background-color:transparent;min-=
+width:100%;" class=3D"yiv5381154486stylingblock-content-wrapper"><tbody><tr=
+><td style=3D"padding:20px 0px 0px;" class=3D"yiv5381154486stylingblock-con=
+tent-wrapper yiv5381154486camarker-inner"><div style=3D"line-height:150%;">
+=09<span style=3D"font-size:16px;"> Our public libraries unite New Yorkers =
+in safe and welcoming spaces to learn important skills, discover a lifelong=
+ love of reading, and engage with their communities and fellow citizens.&nb=
+sp;<b>Today, I'm asking you to <a href=3D"https://click.email.nypl.org/?qs=
+=3Dd6a0a5f41f30e78b6470d3457c755bb2e83f7ade46320b4b20c6773ce0543e2e3e971b40=
+a74ad4882ef14555b8df9edd80af2c8f23aa4b69" style=3D"color:#FF4713;text-decor=
+ation:underline;" title=3D"sign a letter" target=3D"_blank" rel=3D"noreferr=
+er noopener">sign a letter</a> and remind our Mayor and City Council how im=
+portant libraries are to the present=E2=80=94and the future!=E2=80=94of our=
+ city. </b></span><br>
+=09<br>
+=09<span style=3D"font-size:18px;"><b>Show your support for your local libr=
+ary and send a message to City leaders!&nbsp;<a href=3D"https://click.email=
+.nypl.org/?qs=3Dd6a0a5f41f30e78bcf7cdeda573867afc04235d18cdc66e27fd71a33147=
+e3f23ff39c2a8e11a41c4b24198017cbc4925c64bd3c1fe701c76" style=3D"color:#FF47=
+13;text-decoration:underline;" title=3D"Sign a letter today!" target=3D"_bl=
+ank" rel=3D"noreferrer noopener">Sign a letter today!</a></b> </span><span =
+style=3D"font-size:16px;"></span></div></td></tr></tbody></table><table cel=
+lpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presentation" style=
+=3D"background-color:transparent;min-width:100%;" class=3D"yiv5381154486sty=
+lingblock-content-wrapper"><tbody><tr><td style=3D"padding:10px 0px;" class=
+=3D"yiv5381154486stylingblock-content-wrapper yiv5381154486camarker-inner">=
+<table style=3D"width:100%;" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr=
+><td><table style=3D"width:100%;" cellspacing=3D"0" cellpadding=3D"0"><tbod=
+y><tr><td style=3D"width:100%;padding-bottom:3px;" valign=3D"top" class=3D"=
+yiv5381154486responsive-td"></td></tr></tbody></table></td></tr><tr><td>
+<table style=3D"width:100%;" cellspacing=3D"0" cellpadding=3D"0"><tbody><tr=
+><td style=3D"width:100%;padding-top:3px;" valign=3D"top" class=3D"yiv53811=
+54486responsive-td"><table cellpadding=3D"0" cellspacing=3D"0" width=3D"100=
+%" role=3D"presentation" style=3D"background-color:transparent;min-width:10=
+0%;" class=3D"yiv5381154486stylingblock-content-wrapper"><tbody><tr><td sty=
+le=3D"padding:10px 0px;" class=3D"yiv5381154486stylingblock-content-wrapper=
+ yiv5381154486camarker-inner"><table width=3D"100%" cellspacing=3D"0" cellp=
+adding=3D"0" role=3D"presentation"><tbody><tr><td align=3D"center"><a href=
+=3D"https://click.email.nypl.org/?qs=3Dd6a0a5f41f30e78b0b18314d9e9a71289c4d=
+9350fe4080916ce7d3c673db35db89c95e5480957bf211b564d6501baf317c92bcf4bbbe715=
+c" title=3D"Libraries need your signature by May 10. Sign a Letter" target=
+=3D"_blank" rel=3D"noreferrer noopener">
+<img src=3D"https://image.email.nypl.org/lib/fea013707564007c76/m/26/cd98c6=
+c3-d37f-4e2c-8683-9a887bf62dfc.gif" alt=3D"Animated graphic featuring pile =
+of envelopes and reads: Libraries Need Your Signature Sign a Letter." width=
+=3D"600" style=3D"display:block;padding:0px;text-align:center;height:auto;w=
+idth:100%;border:0px none transparent;" id=3D"ymail_ctr_id_-289533-41"></a>=
+</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tab=
+le></td></tr></tbody></table></td></tr></tbody></table><table cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presentation" style=3D"back=
+ground-color:transparent;min-width:100%;" class=3D"yiv5381154486stylingbloc=
+k-content-wrapper"><tbody><tr><td style=3D"padding:10px 0px 0px;" class=3D"=
+yiv5381154486stylingblock-content-wrapper yiv5381154486camarker-inner"><div=
+ style=3D"line-height:150%;">
+=09<span style=3D"font-size:16px;">As New Yorkers work together to recover =
+from the past few years, the Library will continue to be an important partn=
+er. Not only do we provide <b>millions of books to borrow</b>, we've also <=
+b>eliminated late fines</b> and removed a costly barrier to better serve ou=
+r patrons. <b>In addition, we provide resources including programs for all =
+ages, job search and career help, technology training, computer and Wi-Fi a=
+ccess, and summer enrichment activities for school-age&nbsp;kids=E2=80=94al=
+l for free.</b></span></div></td></tr></tbody></table><table cellpadding=3D=
+"0" cellspacing=3D"0" width=3D"100%" role=3D"presentation" style=3D"backgro=
+und-color:transparent;min-width:100%;" class=3D"yiv5381154486stylingblock-c=
+ontent-wrapper"><tbody><tr><td style=3D"padding:0px 0px 10px;" class=3D"yiv=
+5381154486stylingblock-content-wrapper yiv5381154486camarker-inner"><table =
+cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" style=3D"width:10=
+0%;"><tbody><tr><td>
+<table cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" style=3D"w=
+idth:100%;"><tbody><tr><td valign=3D"top" style=3D"width:100%;padding-botto=
+m:3px;" class=3D"yiv5381154486responsive-td"></td></tr></tbody></table></td=
+></tr><tr><td><table cellspacing=3D"0" cellpadding=3D"0" role=3D"presentati=
+on" style=3D"width:100%;"><tbody><tr>
+<td valign=3D"top" style=3D"width:100%;padding-top:3px;" class=3D"yiv538115=
+4486responsive-td"><table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%=
+" role=3D"presentation" style=3D"background-color:transparent;min-width:100=
+%;" class=3D"yiv5381154486stylingblock-content-wrapper"><tbody><tr><td styl=
+e=3D"padding:10px;" class=3D"yiv5381154486stylingblock-content-wrapper yiv5=
+381154486camarker-inner"><table width=3D"100%" border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0" role=3D"presentation"><tbody><tr><td align=3D"center">=
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentatio=
+n"><tbody><tr><td bgcolor=3D"#FF4713" style=3D"border-radius:5px;background=
+-color:#FF4713;" class=3D"yiv5381154486innertd yiv5381154486buttonblock">
+<a style=3D"font-size:18px;font-family:arial, helvetica, sans-serif;color:#=
+FFFFFF;text-align:center;text-decoration:none;display:block;background-colo=
+r:#FF4713;border:1px solid #FF4713;padding:10px;border-radius:5px;" href=3D=
+"https://click.email.nypl.org/?qs=3Dd6a0a5f41f30e78bc97f5882336c0bec079a708=
+6aae0957bfb3483c6cf10b131aa291dbf395c830a0530102482b38ca69d73b5e090305e3b" =
+title=3D"Sign a Letter" class=3D"yiv5381154486buttonstyles" target=3D"_blan=
+k" rel=3D"noreferrer noopener">Sign a Letter</a></td></tr></tbody></table><=
+/td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tabl=
+e></td></tr></tbody></table></td></tr></tbody></table><table cellpadding=3D=
+"0" cellspacing=3D"0" width=3D"100%" role=3D"presentation" style=3D"backgro=
+und-color:transparent;min-width:100%;" class=3D"yiv5381154486stylingblock-c=
+ontent-wrapper"><tbody><tr><td style=3D"padding:0px 0px 10px;" class=3D"yiv=
+5381154486stylingblock-content-wrapper yiv5381154486camarker-inner"><div st=
+yle=3D"line-height:150%;">
+=09<span style=3D"font-size:16px;">Libraries, and the mission to provide fr=
+ee and open access to knowledge and information, will&nbsp;only be more cri=
+tical parts of our society. <b><a href=3D"https://click.email.nypl.org/?qs=
+=3Dfac22f754df22bdbd6cd9ad8fb84a6e7ed1d2e211c10dc2971bdf6a3c571df9ad589dd62=
+563ba60d2839f66f7de0470ea3b43e2fda36762a" style=3D"color:#FF4713;text-decor=
+ation:underline;" title=3D"Sign a letter to your Council Member today" targ=
+et=3D"_blank" rel=3D"noreferrer noopener">Sign a letter to your Council Mem=
+ber today</a> and remind our leaders that libraries are for everyone.</b><b=
+r>
+=09<br>
+=09Yours,<br>
+=09<br>
+=09Tony<br>
+=09Anthony W. Marx<br>
+=09President, The New York Public Library</span></div></td></tr></tbody></t=
+able><table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"pres=
+entation" style=3D"background-color:transparent;min-width:100%;" class=3D"y=
+iv5381154486stylingblock-content-wrapper"><tbody><tr><td style=3D"padding:1=
+0px 0px 0px;" class=3D"yiv5381154486stylingblock-content-wrapper yiv5381154=
+486camarker-inner"><table style=3D"width:100%;" cellspacing=3D"0" cellpaddi=
+ng=3D"0"><tbody><tr><td><table style=3D"width:100%;" cellspacing=3D"0" cell=
+padding=3D"0"><tbody><tr><td style=3D"width:100%;" valign=3D"top" class=3D"=
+yiv5381154486responsive-td"><table cellpadding=3D"0" cellspacing=3D"0" widt=
+h=3D"100%" role=3D"presentation" style=3D"min-width:100%;" class=3D"yiv5381=
+154486stylingblock-content-wrapper"><tbody><tr><td class=3D"yiv5381154486st=
+ylingblock-content-wrapper yiv5381154486camarker-inner"><hr style=3D"color:=
+#000000;width:100%;" width=3D"100%" size=3D"1" color=3D"#000000" class=3D"y=
+iv5381154486mobile-fluid"></td></tr></tbody></table></td></tr></tbody></tab=
+le></td></tr></tbody></table></td></tr></tbody></table>
+<table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presentat=
+ion" style=3D"background-color:transparent;min-width:100%;" class=3D"yiv538=
+1154486stylingblock-content-wrapper"><tbody><tr><td style=3D"padding:10px;"=
+ class=3D"yiv5381154486stylingblock-content-wrapper yiv5381154486camarker-i=
+nner"><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" class=3D"yi=
+v5381154486socialshare-wrapper"><tbody><tr><td align=3D"center"><table cell=
+spacing=3D"0" cellpadding=3D"0" align=3D"center"><tbody><tr><td align=3D"ce=
+nter"><table style=3D"display:inline-block;" class=3D"yiv5381154486socialsh=
+are-innertable"><tbody><tr><td style=3D"padding:5px 10px;"><a href=3D"https=
+://click.email.nypl.org/?qs=3Dfac22f754df22bdb2bc77a3b41edc7d565c948ab1bd30=
+4b34fb16472cb18b52d9756671da14cd59c730101dec34dc445645b8e68c0883d3a" target=
+=3D"_blank" rel=3D"noreferrer noopener">
+<img src=3D"https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/7f9128b1-5=
+e37-4682-bded-9ab99b2ce29b.png" alt=3D"Facebook" style=3D"display:block;wid=
+th:24px !important;min-height:24px !important;" width=3D"24" height=3D"24" =
+id=3D"ymail_ctr_id_-44583-42"></a></td></tr></tbody></table><table style=3D=
+"display:inline-block;" class=3D"yiv5381154486socialshare-innertable"><tbod=
+y><tr><td style=3D"padding:5px 10px;"><a href=3D"https://click.email.nypl.o=
+rg/?qs=3Dfac22f754df22bdb1f6dcf06e95bd599ea86a0ef7884aa53bf71644762f117c978=
+9de57f8150284f3505e92d399d9285c1c1b5e52b40634c" target=3D"_blank" rel=3D"no=
+referrer noopener"><img src=3D"https://image.s4.exct.net/lib/fe911573736c00=
+7d7d/m/2/f1e53799-e6b9-49da-a534-c1aa59f5a978.png" alt=3D"Twitter" style=3D=
+"display:block;width:24px !important;min-height:24px !important;" width=3D"=
+24" height=3D"24" id=3D"ymail_ctr_id_-929855-43"></a></td></tr></tbody></ta=
+ble>
+<table style=3D"display:inline-block;" class=3D"yiv5381154486socialshare-in=
+nertable"><tbody><tr><td style=3D"padding:5px 10px;"><a href=3D"https://cli=
+ck.email.nypl.org/?qs=3Dfac22f754df22bdbdbf40f74cc13c48a747ccf2da97ebc0443a=
+2573939ebb8f68633eec8eef47bbbfbfad38aa46aa85174e4b2e1278e9580" target=3D"_b=
+lank" rel=3D"noreferrer noopener"><img src=3D"https://image.s4.exct.net/lib=
+/fe911573736c007d7d/m/2/54f969ec-7ae6-4bd9-97c3-f1a8419378b0.png" alt=3D"In=
+stagram" style=3D"display:block;width:24px !important;min-height:24px !impo=
+rtant;" width=3D"24" height=3D"24" id=3D"ymail_ctr_id_-807287-44"></a></td>=
+</tr></tbody></table><table style=3D"display:inline-block;" class=3D"yiv538=
+1154486socialshare-innertable"><tbody><tr><td style=3D"padding:5px 10px;"><=
+a href=3D"https://click.email.nypl.org/?qs=3Dfac22f754df22bdb236cd9421df060=
+64a068548fe7081adc222a8e52a942594eb96d9c27bdd8438ae4756bd5e657823580666b90e=
+3626967" target=3D"_blank" rel=3D"noreferrer noopener">
+<img src=3D"https://image.s4.exct.net/lib/fe911573736c007d7d/m/2/953ce0cf-e=
+205-47e4-97e1-09ee03c2dab5.png" alt=3D"LinkedIn" style=3D"display:block;wid=
+th:24px !important;min-height:24px !important;" width=3D"24" height=3D"24" =
+id=3D"ymail_ctr_id_-677589-45"></a></td></tr></tbody></table></td></tr></tb=
+ody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr><=
+/tbody></table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                              <tr>=20
+                               =20
+                                <td align=3D"center" valign=3D"top" class=
+=3D"yiv5381154486header">
+                                  <table align=3D"left" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align=3D"left" valign=3D"top">
+                                          <table cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"width:100%;">
+                                            <tbody>
+                                              <tr>
+                                                <td valign=3D"top" style=3D=
+"width:100%;" class=3D"yiv5381154486responsive-td">
+                                                 =20
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                               <tr>=20
+                               =20
+                                <td align=3D"center" valign=3D"top" class=
+=3D"yiv5381154486header">
+                                  <table align=3D"left" border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                    <tbody>
+                                      <tr>
+                                        <td align=3D"left" valign=3D"top">
+                                          <table cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"width:100%;">
+                                            <tbody>
+                                              <tr>
+                                                <td valign=3D"top" style=3D=
+"width:100%;" class=3D"yiv5381154486responsive-td">
+                                                 =20
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody></table>
+                          </td>
+                        </tr>
+                      </tbody></table>
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+      <tr>
+        <td valign=3D"top">
+           <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=
+=3D"presentation" style=3D"background-color:transparent;min-width:100%;" cl=
+ass=3D"yiv5381154486slot-styling"><tbody><tr><td style=3D"padding:0px 10px;=
+" class=3D"yiv5381154486slot-styling yiv5381154486camarker-inner"><table ce=
+llpadding=3D"0" cellspacing=3D"0" width=3D"100%" role=3D"presentation" styl=
+e=3D"background-color:transparent;min-width:100%;" class=3D"yiv5381154486st=
+ylingblock-content-wrapper"><tbody><tr><td style=3D"padding:10px 0px;" clas=
+s=3D"yiv5381154486stylingblock-content-wrapper yiv5381154486camarker-inner"=
+><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+=09
+=09=09<tbody><tr>
+=09=09=09<td style=3D"padding:0px;background-color:#ffffff;" valign=3D"top"=
+>
+=09=09=09=09<p style=3D"font-family:Arial, sans-serif;color:#000000;font-si=
+ze:11px;" class=3D"yiv5381154486footertext">
+=09=09=09=09=09This email was sent to bo.dincer@yahoo.com by The New York P=
+ublic Library.<br>
+=09=09=09=09=09<br>
+=09=09=09=09=09<a href=3D"https://click.email.nypl.org/?qs=3Dfac22f754df22b=
+db1d59ffc1e381a6d08c8f2d19a729037cd863689420d57e5487f15bd46cc7bf2d5564212ea=
+05a5beff56482ca991856a3" style=3D"color:#000000;text-decoration:underline;"=
+ title=3D"Support the Library" target=3D"_blank" rel=3D"noreferrer noopener=
+">Donate</a> | <a href=3D"https://click.email.nypl.org/?qs=3Dfac22f754df22b=
+db8f1286b743509361a36dc1ad5289d171857e8a6d9ae71a77374261d9dc17ffa9c7ecdb595=
+8ea8ed0c2d5235bd3c20729" style=3D"color:#000000;text-decoration:underline;"=
+ title=3D"NYPL Website" target=3D"_blank" rel=3D"noreferrer noopener">NYPL =
+Website</a> |&nbsp;<a href=3D"https://pages.email.nypl.org/page.aspx?qs=3D4=
+72529ec60bdf32a24de8a223d04be79a7eb32ece5f01388d090f9a889c12c1c037e62fcbb62=
+853fb4555be2de0fb2469db9efd43fe5b4f19da64413232590884b574bccdee43086&amp;" =
+style=3D"color:#000000;text-decoration:underline;" title=3D"Make changes to=
+ your name, update your preferred branch location, and more" target=3D"_bla=
+nk" rel=3D"noreferrer noopener">Update Profile &amp; Preferred Location</a>=
+ |=20
+<a href=3D"https://pages.email.nypl.org/page.aspx?qs=3D472529ec60bdf32aaa4c=
+b266eb7b11f486128b8325d284bda6910676053015cecdf6c1b66672e0784da3b83a4fec7b3=
+c7039399f5fb5c39bdd7fe2b5a1538c42fc8f1c106defd7b8&amp;" style=3D"color:#000=
+000;text-decoration:underline;" title=3D"Remove your email address from rec=
+eiving these types of messages" target=3D"_blank" rel=3D"noreferrer noopene=
+r">1-Click Unsubscribe</a> | <a href=3D"https://click.email.nypl.org/?qs=3D=
+fac22f754df22bdb75bebe81c55c1532b91ec41c647f69a9abb8e932e1aeeb3e64847247f9d=
+0d8f90747f2e2d64642e163e19ebeb1ee7e95" style=3D"color:#000000;text-decorati=
+on:underline;" title=3D"Learn more about The New York Public Library Privac=
+y Policy" target=3D"_blank" rel=3D"noreferrer noopener">Privacy Policy</a>&=
+nbsp;| <a href=3D"https://click.email.nypl.org/?qs=3Dc03718225541846aa7f23b=
+1de3be1e931e48b70a1a4244204b63170ac853a0e5a853d6976e6881b8aba738f935874a88e=
+01c11ac50bd3038" style=3D"color:#000000;text-decoration:underline;" title=
+=3D"Get help" target=3D"_blank" rel=3D"noreferrer noopener">Contact Us</a><=
+br>
+=09=09=09=09=09<br>
+=09=09=09=09=09The New York Public Library | Stephen A. Schwarzman Building=
+ | Fifth Avenue and 42nd Street | New York, NY 10018</p></td></tr></tbody><=
+/table></td></tr></tbody></table></td></tr></tbody></table>
+        </td>
+      </tr>
+    </tbody></table>
+    <img src=3D"https://click.email.nypl.org/open.aspx?ffcb10-fe7f1c787c6d0=
+37877-fdf815767663037e76177477-fea013707564007c76-feb517797d610c74-fe2d1673=
+7266047a731477-ff3216767767&amp;d=3D60188&amp;bmt=3D0" width=3D"1" height=
+=3D"1" alt=3D"" id=3D"ymail_ctr_id_-871185-46">
+  </div>
+
+</div> </div> </blockquote>
+------=_Part_412630_2015858022.1651904270410--

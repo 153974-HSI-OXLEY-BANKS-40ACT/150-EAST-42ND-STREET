@@ -1,0 +1,638 @@
+From - Sun May  1 03:25:34 2022
+X-Account-Key: account8
+X-UIDL: 1645857828.682
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <ms60710444266@yahoo.com>
+Received: from compute4.internal (compute4.nyi.internal [10.202.2.44])
+	 by sloti52n19 (Cyrus 3.7.0-alpha0-591-gfe6c3a2700-fm-20220427.001-gfe6c3a27) with LMTPA;
+	 Sun, 01 May 2022 04:22:33 -0400
+X-Cyrus-Session-Id: sloti52n19-1651393353-3599310-2-9053623255371098247
+X-Sieve: CMU Sieve 3.0
+X-Spam-known-sender: yes ("Address ms60710444266@yahoo.com in From header is in addressbook");
+ in-addressbook; bba2db8d-33a3-40c2-87e0-df67be267777 ("Autosaved")
+X-Spam-charsets: plain='UTF-8', html='UTF-8'
+X-Resolved-to: cockarens@vouchersrus.org
+X-Delivered-to: COCKARENS@VOUCHERSRUS.ORG
+X-Mail-from: ms60710444266@yahoo.com
+Received: from mx5 ([10.202.2.204])
+  by compute4.internal (LMTPProxy); Sun, 01 May 2022 04:22:33 -0400
+Received: from mx5.messagingengine.com (localhost [127.0.0.1])
+	by mailmx.nyi.internal (Postfix) with ESMTP id 5D5152720139
+	for <COCKARENS@VOUCHERSRUS.ORG>; Sun,  1 May 2022 04:22:33 -0400 (EDT)
+Received: from mx5.messagingengine.com (localhost [127.0.0.1])
+    by mx5.messagingengine.com (Authentication Milter) with ESMTP
+    id 9DFDFA4005B;
+    Sun, 1 May 2022 04:22:33 -0400
+ARC-Seal: i=1; a=rsa-sha256; cv=none; d=messagingengine.com; s=fm3; t=
+    1651393353; b=PT5PrHLkqwTjmL65wkYbbJEyMJ6tM6NJC86RFbllYARxXY/Fm2
+    C/2SMsM9qiPDh/ZkxtS76RCKIuzYED2aURfBddHN0ymAFmg7ImP8f8HoPHs0qbfX
+    8hwRxtxCpEPfC1aIM+2OTJDni04yZocaVz3sC51DNgNADXZ6WElhfwvcHcb7C23J
+    sAksIt7LZwLQPQwHYxF1bQF168Jz2A4kanzLY/a5Qm48tHESpbX/bNQ1WimHxwOo
+    z1jv0Rz7pmMCrE2JhDy2FenVMmfhY5G3zUFhgUXjfuIBF8hi/d8IMBL14+tzD99i
+    TD0n6vAxTMDZGsbGcVI1QKiXanRnRnE6lalg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=
+    messagingengine.com; h=content-type:message-id:date:mime-version
+    :from:subject:to:references; s=fm3; t=1651393353; bh=+HUd+6gMoa0
+    CqzcwhOw9iK8McbRsO20VWnKDJuluncc=; b=ak923rKJZt35dffrJqv6rMppVCU
+    9pgM+0DQXSf5bh6qchdtn7D+oEJK7LGFlgOi6R+gX6kpVz2t76zOm6OQzuXuW3mW
+    BKQIEhvA1vsRvql1KDGWNK1Fjhr1cMhmLIX5WKAOwYAkRUXI34NzrKjtYhA4dVFS
+    lMFWbY387FA/s/mBaAhszQaLLU2m1f3fOZEtHlR9NaluKML66BOdXUyXkIDUReBj
+    ZfR6yFy9tCXVht5Svl06at6gT+jdQnDD1ISvcs/J7nkIg2pGonpdk6tZHNMSvA+y
+    Q6ZuxLofNaKUDmELEApC0Ndl1Di0CN5JvEUrtKeMO5ZzsnUqWINasTSKhWg==
+ARC-Authentication-Results: i=1; mx5.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=sonic312-47.consmr.mail.bf2.yahoo.com
+    policy.ptr=sonic312-47.consmr.mail.bf2.yahoo.com;
+    bimi=none (No BIMI records found);
+    arc=none (no signatures found);
+    dkim=pass (2048-bit rsa key sha256) header.d=yahoo.com
+    header.i=@yahoo.com header.b=F6jzAxJ+ header.a=rsa-sha256
+    header.s=s2048 x-bits=2048;
+    dmarc=pass policy.published-domain-policy=reject
+    policy.applied-disposition=none policy.evaluated-disposition=none
+    (p=reject,d=none,d.eval=none) policy.policy-from=p
+    header.from=yahoo.com;
+    iprev=pass smtp.remote-ip=74.6.128.109
+    (sonic312-47.consmr.mail.bf2.yahoo.com);
+    spf=pass smtp.mailfrom=ms60710444266@yahoo.com
+    smtp.helo=sonic312-47.consmr.mail.bf2.yahoo.com
+X-ME-Authentication-Results: mx5.messagingengine.com;
+    x-aligned-from=pass (Address match);
+    x-return-mx=pass header.domain=yahoo.com policy.is_org=yes
+      (MX Records found: mta6.am0.yahoodns.net,mta5.am0.yahoodns.net,mta7.am0.yahoodns.net);
+    x-return-mx=pass smtp.domain=yahoo.com policy.is_org=yes
+      (MX Records found: mta5.am0.yahoodns.net,mta7.am0.yahoodns.net,mta6.am0.yahoodns.net);
+    x-tls=pass smtp.version=TLSv1.3 smtp.cipher=TLS_AES_256_GCM_SHA384
+      smtp.bits=256/256;
+    x-vs=clean score=-37 state=0
+Authentication-Results: mx5.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=sonic312-47.consmr.mail.bf2.yahoo.com
+      policy.ptr=sonic312-47.consmr.mail.bf2.yahoo.com
+Authentication-Results: mx5.messagingengine.com;
+    bimi=none (No BIMI records found)
+Authentication-Results: mx5.messagingengine.com;
+    arc=none (no signatures found)
+Authentication-Results: mx5.messagingengine.com;
+    dkim=pass (2048-bit rsa key sha256) header.d=yahoo.com
+      header.i=@yahoo.com header.b=F6jzAxJ+ header.a=rsa-sha256
+      header.s=s2048 x-bits=2048;
+    dmarc=pass policy.published-domain-policy=reject
+      policy.applied-disposition=none policy.evaluated-disposition=none
+      (p=reject,d=none,d.eval=none) policy.policy-from=p
+      header.from=yahoo.com;
+    iprev=pass smtp.remote-ip=74.6.128.109
+      (sonic312-47.consmr.mail.bf2.yahoo.com);
+    spf=pass smtp.mailfrom=ms60710444266@yahoo.com
+      smtp.helo=sonic312-47.consmr.mail.bf2.yahoo.com
+X-ME-VSCause: gggruggvucftvghtrhhoucdtuddrgedvfedrvdefgddtfecutefuodetggdotefrodftvf
+    curfhrohhfihhlvgemucfhrghsthforghilhdpggftfghnshhusghstghrihgsvgdpuffr
+    tefokffrpgfnqfghnecuuegrihhlohhuthemuceftddtnecusecvtfgvtghiphhivghnth
+    hsucdlqddutddtmdenogfuuhhsphgvtghtffhomhgrihhnucdlgeelmdenfghrlhcuvffn
+    ffculddqiedmnegojggrhhhoohdqqdetfeeiuddqtdduucdlvddtmdenucfjughrpegtkf
+    ffgggfhffuvffpfhfosegrtderreerfeejnecuhfhrohhmpeeuucffvddtvddvuceomhhs
+    iedtjedutdeggeegvdeiieeshigrhhhoohdrtghomheqnecuggftrfgrthhtvghrnhepje
+    fguddvffffgffftddtvefhfeeffefgjedvhfefudeludffkeeiueetheehhfegnecuffho
+    mhgrihhnpehsthgrthgvrdhnhidruhhspdhsvggtrdhgohhvpdhgihhthhhusgdrtghomh
+    dpqhhurghlthhrihgtshdrtghomhdpihhnthgvrhhnvghtrdgsrhdpsggvlhhofidrsghr
+    pdifvghllhdrsghrnecukfhppeejgedriedruddvkedruddtleenucevlhhushhtvghruf
+    hiiigvpedtnecurfgrrhgrmhepihhnvghtpeejgedriedruddvkedruddtledphhgvlhho
+    pehsohhnihgtfeduvddqgeejrdgtohhnshhmrhdrmhgrihhlrdgsfhdvrdihrghhohhord
+    gtohhmpdhmrghilhhfrhhomhepoehmsheitdejuddtgeeggedvieeiseihrghhohhordgt
+    ohhmqe
+X-ME-VSScore: -37
+X-ME-VSCategory: clean
+X-ME-CSA: none
+Received-SPF: pass
+    (yahoo.com ... _spf.mail.yahoo.com: 74.6.128.109 is authorized to use 'ms60710444266@yahoo.com' in 'mfrom' identity (mechanism 'ptr:yahoo.com' matched))
+    receiver=mx5.messagingengine.com;
+    identity=mailfrom;
+    envelope-from="ms60710444266@yahoo.com";
+    helo=sonic312-47.consmr.mail.bf2.yahoo.com;
+    client-ip=74.6.128.109
+Received: from sonic312-47.consmr.mail.bf2.yahoo.com (sonic312-47.consmr.mail.bf2.yahoo.com [74.6.128.109])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange ECDHE (P-256) server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mx5.messagingengine.com (Postfix) with ESMTPS
+	for <COCKARENS@VOUCHERSRUS.ORG>; Sun,  1 May 2022 04:22:33 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1651393351; bh=+HUd+6gMoa0CqzcwhOw9iK8McbRsO20VWnKDJuluncc=; h=Date:From:Subject:To:References:From:Subject:Reply-To; b=F6jzAxJ+9q9CsmYPQ5grcA1jbWO3S/kt8jJegxF0ATMSRBP4YHnFiflIyNj5f639iYHMzT768PuWod5MCFqUbdCx9PYqYFBVXTGT4i07DHe7Iwztgl7UamjJkupTKC3Ts9Ooru8f5mCNTIc+UoNdZuYp1rJK0AXePkhmjeeqHjhcx2cUUA/e125FuB7DrkenjSIN/c9ssoTDxRjEcqOHkup6AGR3C2ITLVFexcGZGEVz7850ep8R1/SgBQwfa9uvWbPVlpxy6z8QPWHAo+A7A0rTs6uTqFAoQOvWjCnekZcprivZsEs83ykUCVexrHdXfcG65YVGDFNvkwnBRSJIsA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1651393351; bh=dhnslJx3IOxeiID8ciPrFBNPs5Ia5DGDEJ2pjnhet3G=; h=X-Sonic-MF:Date:From:Subject:To:From:Subject; b=OLl0TN/yBD0tyKSLal45s4JtfTp9e8wPu2wt5IL78SVLNDLvUdeX2jVtBRXg5fcN8WAwqgfccnGnuH1I2lW2a0Nx3+7pNYE1bMXM7Rd8NqkwiYJY+iZLpZALxfxbwyz/VeDyHdv/WvdOnkb3+kqyivvfjGb0kKpyPcMnvyRsfvT++W6n9mkgqn8WR+ZdLVe3azvk6PMgBIoxpBeSwLnYJjbExMQxOUK6ma9vWx+m0ur5Xozj4cNlsW+6OkgtqvfoWnzqu2HC5XL5krBx7KfwTzGw9tANaZFyG0zMzNqXm0jrjg07bbxIIEJ1x7Ebh/pDydlGy+1daPkVSADTHFcsRw==
+X-YMail-OSG: aqUloI4VM1leWYjro2lTC.gvcstJ_Wi1_gUU7EQ.9OZGMHI4z3fEeNe693drBKJ
+ sFeayPf1jFJDcWtwDXIUkvL7QbZROBGY4RvWE2u6tSKICuWdgEbTZpWUKab1vhX7MMZ7yYqRlmgg
+ XYLHjKmBs06WEvfuDCSn.6AuClLFlP8tGjgWBCL3h7hS101UEj24HsDA8mp4U6pjGPPXePifbUqs
+ Znm4Bn4Nc2VXw9KmBiT2bFbxMXqPEJO8v.CNrYxVncN1W7VoDGZvln_mIIwQ3gYr4NUVFG9k1lCw
+ bPhqJmSzu6oRDGBWo_TdJuSeViy.J4g5DUSdEDhthzplq.KrqWRKHu5ABdvX.2zQ7iov8ar.OHoJ
+ 3RS8n5iLKXqlMXdJSduHESlKAjfIBaCrwwIKj94Aheij7fcp0IbXvOPFhVd1eJV8gDHBfictrbTD
+ MQsqKSMt8falyDnLQpUGbsK2FcciFDZ_sk5oJGfc4vwOTzsm7z8n7iERwpgcrvn7YgtDZ1pT8YE2
+ sPt3xP3mhIwGSHdZ.x2SfgBcgrY07OrIDr6lAZQys0uUALQR2iJ1SGgQoKb6xWOVfW9SbF_z1QM0
+ JPAg2UgpGLVf1karROU6BpxqZMQNFNPrEq5CGa43seLvk0vO8Fk9nbh6D8XEeP2xjr3oB4GD0YxB
+ MlPNtx2V.hAdIe0_uOxIm3mmwvNBaio.tCIbl1zbWZBezDkvzNK4R8XGUt4FidfklOEQaTwHN43E
+ YhWrioaKgyHdGwI1pUgkRSdVwUnjFJP8WcrR0.Uc.undQPQjIam5V_pjIoojwrUMAVQcc69gjgVR
+ 3EvhGORzRo7e.iAmgjYjqB12TSLhNNifi0sYMtRDhalz8V8lnGARv3phZ3V5qRqzqJv3GG323_Ze
+ xYm4swA_zNf6YoPSL60rfCF5nE9ROdAfgKVIoi37l8VUqumLBIqJ308TYmB9zxB1ZLzTielyXvsf
+ wFTu9zMfY5FoprAcW8JzGik6OrcmeO5PnGIq1I1P4g3Z17zx0z6X47VE7pvzjZSGD0r_I9irkzAg
+ uA64cJsInu_pwNQgwfgNSG0K9rkPWypj.5ly0q2HLBRYWTkA_uvjWR6ACxPmR2ZN0G98.AszlXHT
+ zyLfcQbs_AEy5pPtJNoxgCKkicrqpgOh8c37z2Uz4j2KZ32wteZmVpJEAdz3.6zJ3KqfR_PR3Zxm
+ GCdsj9ump70Cndq9_YWXHyGj9S1u2q8HolOsBDbx12ramhz10C1ZVZIjhxrxsc35m7okGWNwv.V3
+ uaRbfRTed.NRPMk6svr0QjEindMic8tSsNiWXPodK31eeCcKvShxist2RH7kgsXfdhvH11bxoaMU
+ 4vpxH1gtLksoH_iVwFf2i5k35EdDa4dm9AheZTLku8RkqcCHPJG82VxsYiUzYaeJ.1RgLXA1axux
+ BxnMeaN9EIk3IYmeurPjJhvjvKmLqqjwcTWHtF_Ea8rXiNPKaNoYUX0lLYrkhmA0UdYXTKKTQZz.
+ 1YdjNnEWZESj_INWWrkXUMyf9fMcLEfhCwu_XAJ0DZ9MrXlwV5dfqziwYmirzG18Bezo_fwS4fQv
+ QsDa5jqgh7.H9v3Q66izFtPfOmQ_2CQUIajqRIvzSxAK3_X1hRmwj02XJADLhn249JcLnFxhLe8C
+ EQ6JSKhp2EHONB5AzqXBLa_DuO71NKkJzNHMpdCaistr.kfAFnL55IN1xrvQzW6Gl.Y73zGwotDh
+ cElg0WffQDPInoNQHyhzltNetXDlH80BxOXdF1QvfL0__OzYBIJIgCl7JRisYlVUVlujBC.BIVl.
+ dhYESKHv98n4as1e3yeE03.V8C7sslJrUx2zX9C4ijlKMiHgQMMKwnJOztAxuu2odR.JlWybTeG6
+ fGqhyxOZKQt85eDV5efJ70Sg_4w9Fd1rF7INq72wyfy3Fu_cPQoa_4rcyoD2slY.GPQtLHsL6Es_
+ ZKImbRfvu3g3twJuo8srdDnIYwKmctV2Ircf6CeutLN65WMN.Zv8zjklnsXH4YFjuiNXIIVxm2p4
+ crdrGgG2KAJfJ_TcWwL11BkobwmnkoyZkOeVsCC.qy5s7abwKTEJsoGW7MIIzX0xH89HXgPJKEWP
+ cCctfPPBLXJJmOvrv.UJPlgg92PLbXvplWuKod7xdtxpHHyLXvyjJgKgsRSfQtyP5uULOORI7QlV
+ .D9YmvhVbRKLc1Ur27PkfJtH9eKsJSZjP6W0nuaVNPP0FS13qCBGshCBKv1AvNw5IhlvY58TYNnw
+ q3u5vGfcQlFUGDYGdmCd9gGAn0yqGS9OeposXhVfGJ7LjzJ3RRos3_GVPZQrhVPT_xwh2zMb_VPx
+ xL7tehd1kJrZP6L5zzLZ422A-
+X-Sonic-MF: <ms60710444266@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic312.consmr.mail.bf2.yahoo.com with HTTP; Sun, 1 May 2022 08:22:31 +0000
+Received: by hermes--canary-production-bf1-5f4c6455f8-4trpj (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID 76bc0585b78a3b0387a44738e1cde5b2;
+          Sun, 01 May 2022 08:20:30 +0000 (UTC)
+Content-Type: multipart/alternative;
+ boundary="------------0ge0qR9MuzWOYJl3VN6VJ8ZF"
+Message-ID: <a012b19e-b5e0-b499-6b72-77943885909c@yahoo.com>
+Date: Sun, 1 May 2022 03:20:20 -0500
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:91.0) Gecko/20100101
+ Thunderbird/91.6.1
+From: B D2022 <ms60710444266@yahoo.com>
+Subject: "https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=BHKQCNuN0DHZNk5LD/32Lg=="[
+ kids ]
+To: "slaskowitz@inngramllp.com" <slaskowitz@ingramllp.com>,
+ "administrator@mskyline.com" <administrator@mskyline.com>,
+ Yana Siegel <yana.siegel@wilsonelser.com>,
+ WILLIAM BEHR <william.behr@wilsonelser.com>,
+ Urvashi Sinha <urvashi.sinha@wilsonelser.com>,
+ "Thomas R. Manisero" <thomas.manisero@wilsonelser.com>,
+ "Suzanne S. Swanson" <suzanne.swanson@wilsonelser.com>,
+ "Stephen J. Barrett" <stephen.barrett@wilsonelser.com>,
+ "Stacey L. Seltzer" <stacey.seltzer@wilsonelser.com>,
+ Sean Wagner <sean.wagner@wilsonelser.com>,
+ "Roger R. Gottilla" <roger.gottilla@wilsonelser.com>,
+ Ricki Roer <ricki.roer@wilsonelser.com>,
+ Ricki Roer <ricki.roer@wilsonanddicker.com>,
+ "ricki.raared@wilsonsdickers.com" <ricki.raared@wilsonsdickers.com>,
+ "Randyc.wilson@usdoj.gov" <Randyc.wilson@usdoj.gov>,
+ patricia.wik@wilsonelser.com, meghan.rigney@wilsonelser.com,
+ Lori Semlies <lori.semlies@wilsonelser.com>,
+ "Lois K. Ottombrino" <lois.ottombrino@wilsonelser.com>,
+ "Lauren M. Zink" <lauren.zink@wilsonelser.com>,
+ "Kathleen A. Mullins" <kathleen.mullins@wilsonelser.com>,
+ jwilson578@bloomberg.net, judy.selmeci@wilsonelser.com,
+ "Jennifer L. Sciales" <jennifer.sciales@wilsonelser.com>,
+ "Jennifer M. Provost" <jennifer.provost@wilsonelser.com>,
+ info@wilsonelser.com, Hannah.King@WILSONELSER.COM,
+ grace.song@wilsonelser.com, erin.zecca@wilsonelser.com,
+ ellyn.wilder@wilsonelser.com, elizabeth.scoditti@wilsonelser.com,
+ Debra Tama <debra.tama@wilsonelser.com>,
+ "Daniel F. Flores" <daniel.flores@wilsonelser.com>,
+ curt.schlom@wilsonelser.com, craig.hunter@wilsonelser.com,
+ craig.brinker@wilsonelser.com, Corrine Shea <corrine.shea@wilsonelser.com>,
+ carole.nimaroff@wilsonelser.com, aviva.stein@wilsonelser.com,
+ "Ashley V. Humphries" <ashley.humphries@wilsonelser.com>,
+ Angelique Sabia-Candero <angelique.sabia-candero@wilsonelser.com>,
+ angel.vitiello@wilsonelser.com,
+ Andrea Shiffman <andrea.shiffman@wilsonelser.com>,
+ Amy Hanrahan <amy.hanrahan@wilsonelser.com>, alex.kress@wilsonelser.com,
+ ALDEN 00066govtIdx WILSON <alden.wilson@maine.gov>,
+ Alan Rubin <alan.rubin@wilsonelser.com>
+Content-Language: en-US
+Disposition-Notification-To: B D2022 <ms60710444266@yahoo.com>
+References: <a012b19e-b5e0-b499-6b72-77943885909c.ref@yahoo.com>
+X-Mailer: WebService/1.1.20118 mail.backend.jedi.jws.acl:role.jedi.acl.token.atz.jws.hermes.yahoo
+
+This is a multi-part message in MIME format.
+--------------0ge0qR9MuzWOYJl3VN6VJ8ZF
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+DOCKET 230 = NO CERTIFICATE OF OCCUPANCY.
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=JjKiWNUTBeipcESQfFiwVQ==
+
+
+*            /s/ BARIS DINCER.*
+*
+*
+
+
+*NYSCEF DOC. NO. 348          AUGUST 9 2021*
+
+
+Wed, Jun 3, 2020, 2:20 PM *RECEIVED NYSCEF: 08/09/2020
+*
+
+*        "... **Why don't you just tack on the 9 billion dollars NYC is 
+in the hole while you're at it? ..." *
+
+  * https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=TxAa7cNVIHKtnJU/ni/zvg==
+
+
+***** SEMI-ANNUAL HOLDING REPORT*
+
+
+         ** State Farm Associates' Funds Trust
+
+
+
+         ** [N-CSRS] 0001193125-20-200810
+
+
+         ** REPORT DATE: 2020-05-31
+
+
+         ** FILING DATE: 2020-07-28
+
+  * https://www.sec.gov/Archives/edgar/data/0000093715/000119312520200810/d913497dncsrs.htm
+
+
+
+*21 JULY 2020 NYSCEF DOC. NO. 53 **//**RECEIVED NYSCEF:     07/21/2020 *
+
+*    "...REPRESENTATIVES SHOULD BE DISBARRED..."*
+
+  * https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=LMUE9g_PLUS_k6vCmKgfCSJEzuQ==
+
+  * https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=TxAa7cNVIHKtnJU/ni/zvg==
+
+
+FTC REPORT FILED/// SEE ALSO DOCKET 399
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=BHKQCNuN0DHZNk5LD/32Lg==
+
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/dfa80d71fad5f1dd846fc6b1d8251061255c7b84
+
+
+
+------------------------------------------------------------------------
+these firms thought it would be funny to videotape me inside of my 
+apartment without consent... I just found all of this information on the 
+internet.
+</BR>
+</BR>
+</BR>
+In case they are your competitors... please. <b>TAKE A CLOSER LOOK</b>
+</BR>
+</BR>
+</BR>
+<a 
+href=">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=sSgAlMmBVrLavunD39Psvg==</a>
+       </br>
+       </br>
+       </br>
+
+       </BR>
+</BR>
+<b>-- THE ZUCKER ORGANIZATION 
+---</b></br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+LOCATED AT: 101 WEST 55TH STREET, NY, NY 10019
+</BR>
+</BR>
+</BR>
+<b>--- THE WILSON ELSER & DICKER LAW FIRM --- </b> 
+</br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;150 EAST 
+42ND STREET, NY, NY 10018
+</br>
+</BR>
+</BR>
+</BR>
+Enjoy the distribution of my films by and between these child molesters 
+USING THE LINK BELOW.
+</BR> </BR> IN CASE YOU LIVE IN ONE OF THEIR BUILDINGS... COULD BE 
+FILMING YOU AS WELL.
+</BR>
+</BR> <b>NO. STILL THEY HAVEN'T RETURNED ANY OF THEM TO ME, THE ONES 
+THEY ENTERED IN COURT ARE NEWS TO ME... </b>
+
+
+</BR>
+</BR>
+</BR>
+<b>--- AND PLAY WITH THEMSELVES ON THEIR MOBILE DEVICES "AT-WILL" LIKE 
+THEY HAVE RIGHTS TO THIS...
+</b>
+
+</BR>
+</BR>
+<a 
+href=">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=sSgAlMmBVrLavunD39Psvg==</a>
+       </br>
+       </br>
+       </br>
+       </br>
+</br>
+<a 
+href=">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/9">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=/tuOF70i90/shuNcCMI9Jg==</a>
+</br>
+</br>
+</br>
+i provided them a chance to come clean, they want to now "hoard" these 
+videos from me.
+</BR>
+</BR>
+</BR>
+-- FILMED, DISTRIBUTED, TAMPERED WITH, AND MAYBE OTHER THINGS WHICH ARE 
+NONE OF MY BUSINESS.
+</br>
+</BR>..... AND NOW ARE BEING HOARDED -  UNABLE TO ACCESS EMAILS??? I 
+EVEN MADE AN APPOINTMENT ON-LINE AND A HUMAN RESPONDED, INITIALLY...
+
+
+
+https://qfreeaccountssjc1.az1.qualtrics.com/jfe/form/SV_eJLEMrjfbmcqt9kVERY 
+VERY SICK PEOPLE .... 100%  ++++  without consent...
+        FILMED THE INTERIOR OF MY APARTMENT ++++++
+
+
+EVEN GAVE THEM A CHANCE TO COME CLEAN.
+
+     laptop also >> 
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/9
+
+Now they just distribute them without my consent... AND don't respond to 
+me...
+  >>  >>
+                         THEY PROBABLY ROBBED THEY CLIENTS TOO…
+
+  >>  >> https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5
+
+
+i provided them a chance to come clean, they want to now "hoard" these 
+videos from me.
+
+-- all chronicled without consent.
+
+
+  VERY VERY SICK PEOPLE .... 100%  ++++  without consent...
+        FILMED THE INTERIOR OF MY APARTMENT ++++++
+
+
+EVEN GAVE THEM A CHANCE TO COME CLEAN.
+
+     laptop also >> 
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/9
+
+Now they just distribute them without my consent... AND don't respond to 
+me...
+  >>  >>
+                         THEY PROBABLY ROBBED THEY CLIENTS TOO…
+  >>  >> https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5
+
+
+i provided them a chance to come clean, they want to now "hoard" these 
+videos from me.
+
+-- all chronicled without consent.
+
+
+--------------0ge0qR9MuzWOYJl3VN6VJ8ZF
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html data-lt-installed="true">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body spellcheck="false" data-gramm="false">
+    <p>DOCKET 230 = NO CERTIFICATE OF OCCUPANCY.</p>
+    <p><a moz-do-not-send="true"
+href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=JjKiWNUTBeipcESQfFiwVQ=="
+        class="moz-txt-link-freetext">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=JjKiWNUTBeipcESQfFiwVQ==</a><br>
+    </p>
+    <br>
+    <div class="moz-forward-container"><font size="1" face="monospace"><b>   
+                      /s/ BARIS DINCER.</b></font></div>
+    <font size="1" face="monospace"> </font>
+    <div class="moz-forward-container"><font size="1" face="monospace"><b>   
+          <br>
+        </b></font></div>
+    <font size="1" face="monospace"> </font> <font size="1"
+      face="monospace"><br>
+    </font> <font size="1"><br>
+      <font face="monospace" color="#0080ff"><b>NYSCEF DOC. NO. 348  
+                   AUGUST 9 2021</b></font><font face="monospace"
+        color="#0080ff"><br>
+      </font><br>
+    </font> <font size="1"><br>
+      <font face="monospace" color="#0080ff">Wed, Jun 3, 2020, 2:20 PM  
+             </font><font face="monospace" color="#0080ff"><b>RECEIVED
+          NYSCEF: 08/09/2020    <br>
+        </b></font><br>
+    </font> <font size="1"><br>
+      <font face="monospace"><b><font color="#ff0000">        "... </font></b><b><font
+            color="#ff0000">Why don't you just tack on the 9 billion
+            dollars NYC is in the hole while you're at it? ..." </font></b></font><br>
+    </font> <font size="1" face="monospace" color="#0080ff"> </font>
+    <ul>
+      <li><font size="1" face="monospace" color="#0080ff"><a
+href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=TxAa7cNVIHKtnJU/ni/zvg=="
+            class="moz-txt-link-freetext">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=TxAa7cNVIHKtnJU/ni/zvg==</a><br>
+        </font></li>
+    </ul>
+    <font size="1"><br>
+    </font>
+    <p><font size="1"> </font><font size="1"><font face="monospace"
+          color="#0080ff"><b>**** SEMI-ANNUAL HOLDING REPORT</b></font></font><font
+        size="1"></font><font size="1"><font face="monospace"><br>
+        </font></font></p>
+    <p><font size="1"><font face="monospace">    <br>
+        </font></font></p>
+    <p><font size="1"><font face="monospace">        ** State Farm
+          Associates' Funds Trust</font></font></p>
+    <blockquote><font size="1"><font face="monospace"> </font><br>
+      </font> <font size="1" face="monospace"> </font> <font size="1"><br>
+        <font face="monospace">    ** [N-CSRS]       
+          0001193125-20-200810<br>
+        </font><br>
+      </font> <font size="1" face="monospace"> </font> <font size="1"><br>
+        <font face="monospace">    ** REPORT DATE:             
+          2020-05-31<br>
+        </font><br>
+      </font> <font size="1" face="monospace"> </font> <font size="1"><br>
+        <font face="monospace">    ** FILING DATE:               
+          2020-07-28<br>
+        </font></font> <font size="1"><br>
+      </font> </blockquote>
+    <font size="1" face="monospace"> </font>
+    <ul>
+      <li><font size="1" face="monospace"><a
+href="https://www.sec.gov/Archives/edgar/data/0000093715/000119312520200810/d913497dncsrs.htm"
+            class="moz-txt-link-freetext">https://www.sec.gov/Archives/edgar/data/0000093715/000119312520200810/d913497dncsrs.htm</a><br>
+        </font></li>
+    </ul>
+    <font size="1" face="monospace"> </font> <font size="1"><br>
+      <font face="monospace"><br>
+      </font><font face="monospace" color="#0080ff"><b>21 JULY 2020   
+          NYSCEF DOC. NO. 53   </b><b><i>          </i></b><b>RECEIVED
+          NYSCEF:     07/21/2020 </b></font><br>
+    </font> <font size="1" face="monospace"> </font> <font size="1"><br>
+      <font face="monospace" color="#0080ff"><b><font color="#ff0000">   
+                "...REPRESENTATIVES SHOULD BE DISBARRED..."</font></b></font><font
+        face="monospace" color="#0080ff"><br>
+      </font></font> <font size="1"><br>
+    </font> <font size="1" face="monospace" color="#0080ff"> </font><font
+      size="1" face="monospace"> </font>
+    <ul>
+      <li><font size="1" face="monospace"><a
+href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=LMUE9g_PLUS_k6vCmKgfCSJEzuQ=="
+            class="moz-txt-link-freetext">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=LMUE9g_PLUS_k6vCmKgfCSJEzuQ==</a></font></li>
+    </ul>
+    <ul>
+      <li><font size="1" face="monospace"><a
+href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=TxAa7cNVIHKtnJU/ni/zvg=="
+            class="moz-txt-link-freetext">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=TxAa7cNVIHKtnJU/ni/zvg==</a></font></li>
+    </ul>
+    <p><br>
+    </p>
+    <p><font size="1"><font face="monospace">FTC REPORT FILED/// SEE
+          ALSO DOCKET 399</font></font></p>
+    <p><a moz-do-not-send="true"
+href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=BHKQCNuN0DHZNk5LD/32Lg=="
+        class="moz-txt-link-freetext">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=BHKQCNuN0DHZNk5LD/32Lg==</a></p>
+    <p><a moz-do-not-send="true"
+href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/dfa80d71fad5f1dd846fc6b1d8251061255c7b84"
+        class="moz-txt-link-freetext">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/dfa80d71fad5f1dd846fc6b1d8251061255c7b84</a></p>
+    <p><br>
+    </p>
+    <p><br>
+    </p>
+    <hr width="100%" size="2">these firms thought it would be funny to
+    videotape me inside of my apartment without consent... I just found
+    all of this information on the internet.<br>
+    &lt;/BR&gt;<br>
+    &lt;/BR&gt;<br>
+    &lt;/BR&gt;<br>
+    In case they are your competitors... please. &lt;b&gt;TAKE A CLOSER
+    LOOK&lt;/b&gt;<br>
+    &lt;/BR&gt;<br>
+    &lt;/BR&gt;<br>
+    &lt;/BR&gt;<br>
+    &lt;a
+href="&gt;<a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5</a>"&gt;<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=sSgAlMmBVrLavunD39Psvg==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=sSgAlMmBVrLavunD39Psvg==</a>&lt;/a&gt;<br>
+          &lt;/br&gt;<br>
+          &lt;/br&gt;<br>
+          &lt;/br&gt;     <br>
+    <br>
+          &lt;/BR&gt;<br>
+    &lt;/BR&gt;<br>
+    &lt;b&gt;-- THE ZUCKER ORGANIZATION
+---&lt;/b&gt;&lt;/br&gt;&lt;/br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+    LOCATED AT: 101 WEST 55TH STREET, NY, NY 10019<br>
+    &lt;/BR&gt;<br>
+    &lt;/BR&gt;<br>
+    &lt;/BR&gt;<br>
+    &lt;b&gt;--- THE WILSON ELSER &amp; DICKER LAW FIRM --- &lt;/b&gt;
+&lt;/br&gt;&lt;/br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;150
+    EAST 42ND STREET, NY, NY 10018<br>
+    &lt;/br&gt;<br>
+    &lt;/BR&gt;<br>
+    &lt;/BR&gt;<br>
+    &lt;/BR&gt;<br>
+    Enjoy the distribution of my films by and between these child
+    molesters USING THE LINK BELOW.<br>
+    &lt;/BR&gt; &lt;/BR&gt; IN CASE YOU LIVE IN ONE OF THEIR
+    BUILDINGS... COULD BE FILMING YOU AS WELL.<br>
+    &lt;/BR&gt;<br>
+    &lt;/BR&gt; &lt;b&gt;NO. STILL THEY HAVEN'T RETURNED ANY OF THEM TO
+    ME, THE ONES THEY ENTERED IN COURT ARE NEWS TO ME... &lt;/b&gt;<br>
+    <br>
+    <br>
+    &lt;/BR&gt;<br>
+    &lt;/BR&gt;<br>
+    &lt;/BR&gt;<br>
+    &lt;b&gt;--- AND PLAY WITH THEMSELVES ON THEIR MOBILE DEVICES
+    "AT-WILL" LIKE THEY HAVE RIGHTS TO THIS...<br>
+    &lt;/b&gt;<br>
+    <br>
+    &lt;/BR&gt;<br>
+    &lt;/BR&gt;<br>
+    &lt;a
+href="&gt;<a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5</a>"&gt;<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=sSgAlMmBVrLavunD39Psvg==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=sSgAlMmBVrLavunD39Psvg==</a>&lt;/a&gt;<br>
+          &lt;/br&gt;<br>
+          &lt;/br&gt;<br>
+          &lt;/br&gt;     <br>
+          &lt;/br&gt;<br>
+    &lt;/br&gt;<br>
+    &lt;a
+href="&gt;<a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/9">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/9</a>"&gt;<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=/tuOF70i90/shuNcCMI9Jg==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=/tuOF70i90/shuNcCMI9Jg==</a>&lt;/a&gt;<br>
+    &lt;/br&gt;<br>
+    &lt;/br&gt;<br>
+    &lt;/br&gt;<br>
+    i provided them a chance to come clean, they want to now "hoard"
+    these videos from me.<br>
+    &lt;/BR&gt;<br>
+    &lt;/BR&gt;<br>
+    &lt;/BR&gt;<br>
+    -- FILMED, DISTRIBUTED, TAMPERED WITH, AND MAYBE OTHER THINGS WHICH
+    ARE NONE OF MY BUSINESS.<br>
+    &lt;/br&gt;<br>
+    &lt;/BR&gt;..... AND NOW ARE BEING HOARDED -  UNABLE TO ACCESS
+    EMAILS??? I EVEN MADE AN APPOINTMENT ON-LINE AND A HUMAN RESPONDED,
+    INITIALLY... <br>
+    <br>
+    <br>
+    <br>
+<a class="moz-txt-link-freetext" href="https://qfreeaccountssjc1.az1.qualtrics.com/jfe/form/SV_eJLEMrjfbmcqt9kVERY">https://qfreeaccountssjc1.az1.qualtrics.com/jfe/form/SV_eJLEMrjfbmcqt9kVERY</a>
+    VERY SICK PEOPLE .... 100%  ++++  without consent...  <br>
+           FILMED THE INTERIOR OF MY APARTMENT ++++++<br>
+    <br>
+          <br>
+    EVEN GAVE THEM A CHANCE TO COME CLEAN.<br>
+          <br>
+        laptop also &gt;&gt;  
+    <a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/9">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/9</a><br>
+           <br>
+    Now they just distribute them without my consent... AND don't
+    respond to me...<br>
+     &gt;&gt;  &gt;&gt;<br>
+                            THEY PROBABLY ROBBED THEY CLIENTS TOO…     <br>
+                                                                           
+     <br>
+     &gt;&gt;  &gt;&gt; 
+    <a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5</a><br>
+    <br>
+    <br>
+    i provided them a chance to come clean, they want to now "hoard"
+    these videos from me.<br>
+    <br>
+    -- all chronicled without consent.<br>
+     <br>
+     <br>
+     VERY VERY SICK PEOPLE .... 100%  ++++  without consent...  <br>
+           FILMED THE INTERIOR OF MY APARTMENT ++++++<br>
+    <br>
+          <br>
+    EVEN GAVE THEM A CHANCE TO COME CLEAN.<br>
+          <br>
+        laptop also &gt;&gt;  
+    <a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/9">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/9</a><br>
+           <br>
+    Now they just distribute them without my consent... AND don't
+    respond to me...<br>
+     &gt;&gt;  &gt;&gt;<br>
+                            THEY PROBABLY ROBBED THEY CLIENTS
+    TOO…                                                     <br>
+     &gt;&gt;  &gt;&gt; 
+    <a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5</a><br>
+    <br>
+    <br>
+    i provided them a chance to come clean, they want to now "hoard"
+    these videos from me.<br>
+    <br>
+    -- all chronicled without consent.
+    <p><br>
+    </p>
+  </body>
+</html>
+
+--------------0ge0qR9MuzWOYJl3VN6VJ8ZF--

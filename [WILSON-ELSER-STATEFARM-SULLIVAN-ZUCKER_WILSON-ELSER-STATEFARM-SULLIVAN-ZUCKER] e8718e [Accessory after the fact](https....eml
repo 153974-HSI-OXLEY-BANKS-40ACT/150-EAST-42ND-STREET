@@ -1,0 +1,706 @@
+From - Sun Jun 26 04:39:53 2022
+X-Account-Key: account1
+X-UIDL: ANbmj5h4bLuvYrgo1g0AIFmqU8w
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.130.146
+ by atlas118.free.mail.ne1.yahoo.com with HTTPS; Sun, 26 Jun 2022 09:37:26 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.204]
+Received-SPF: pass (domain of github.com designates 192.30.252.204 as permitted sender)
+Authentication-Results: atlas118.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 09:37:26 +0000
+X-YMailISG: rxOMQKsWLDsCFg9V2VtPUGlVa.nKTTIffX8MHoAT3xENolre
+ kTq72OKYIdjgP1rrBsOTgNvx0AHVAyi_rEF.gUbv2P0IVzVP5X9j3U3F3uVH
+ kbujawz7tDugzi3QapvGHuOGOtE0bRheV9tQ4NYipjTVCXk5TkT0udHJJ4zk
+ mC29sVfnXeSIXejreOhU_G_7M8IUEg7CrjjAo3JsMpEc6Qx_MkiXo_VO0Csz
+ P3QFw1.Od2xX_brWhXtIKHr6zOI0cbCK4l3MHxPkjW2FtQX0G0b.XSWGoViA
+ rdzlMc47IP17kl_sI2lEIU1M.LLN5Anwwt0qsgK4TcFDnRB2FauZeAGrHMlr
+ uLq_x7dsibkVCVjiaY1ZHUwx8JgkspIyU414snlTSS2fw.NNPeXKULA.55Dp
+ 0dkQlxXe_69vSMzuJQlYLvpKI.oXA9xV1S5wGSmEVTGLs6YykpLsks4zqBOK
+ p34.EDtWvCuQ9D1EgpKFl7vU27KjakgVJPnTKNASyjM1UyQ0QpfxGQFTndg7
+ UlrJF6_odRDbHK4eckAamqElacwGZdR0ISyBTIh4JWlActLuXKagycUxxb9S
+ NAzSOChfX5ARbLE6FSgQ1dunR2wn.o94b4wE0jLdSuzLJKNyLZy6GnV3E3aV
+ ApH9Bjvwm03O18w4LHfwr_YnG_Pyj9aUHmC43cI2As01ZiREz.XQe9Jyw2Xz
+ 0JmKoVyDlCwSc2Zeppz5Vw.DF1_VgPrE.tYCPwaH.GrTd4aw8fsqMADSRolV
+ SzUrqIuUDRbn2P1bVZtHWmA65P_Qqns56GZsSdtNQ2uhbMTcV0bWqLZkWvqC
+ 4jB1kd02s1AQbIf9fT93C6zX.5Y.KWnM36k.koDy8Ld5AKKI93_2IFrxTO7J
+ HhTOoCqz6AB48ANOu8ev4rrAAyfQqALVUa7ieDkbA9Mwrqvv509ffanEZUIy
+ iZQE3zVZwNFQEtjAv9LoS0XVxBtPqB2Kk_Q2cHN0ZFgQPCyKkpvrVXei4P07
+ zqIokmQMW.jzQ29WSGuWBw8Dmu2CTqTvYhA4IhuIEf8JWqZqtvnzRBu2MGOg
+ YMp7UD9PUUgjcvbq_cLRUqRhEuWlyh3OxcXFKnL5oHoXjA1SE475sXJBEK67
+ mDwWPGfSexiKoE3ac5BHhsgFY7M8RQI_P4JRjoslZUs6A_1.AxZ7KvHpkpI8
+ P1p6OtdDXCPVPMTpcIizUYJwIAcaJwcSVbOF7qU-
+Received: from 192.30.252.204 (EHLO smtp.github.com)
+ by 10.217.130.146 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 09:37:26 +0000
+Received: from github.com (hubbernetes-node-77c3ba1.ac4-iad.github.net [10.52.125.21])
+	by smtp.github.com (Postfix) with ESMTPA id 18F6E5201F8;
+	Sun, 26 Jun 2022 02:37:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656236246;
+	bh=BOzwD3fg6xDCG67sgblhR5SKvcGvNG1UHFG0MTP39lY=;
+	h=Date:From:To:Subject:From;
+	b=riTwyKpZJugqta7C5LlYaxQQkDUHoPDVfS57rFbXtFiDtWK+qBH1nMAMfpZKto3vz
+	 TdOu5bxA99stD2gJCRf+oUh9GQqKqH4PBxT+nBvx5wb4LOfnRJqLCH6zQdtM2fG6co
+	 /IfV83XFkk8l4zhp5P4GxcZOU+VkoL5kGQL5vWeg=
+Date: Sun, 26 Jun 2022 02:37:26 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/711544-e8718e@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ e8718e:  [Accessory after the fact](https://github.com/WIL...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 29483
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: e8718ee67ce8cdedc558ceee0352fae3ea7ac2ee=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/e8718ee67ce8cdedc558ceee0352fae3ea7a=
+c2ee=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-26 (Sun, 26 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+   [Accessory after the fact](https://github.com/WILSON-ELSER-STATEFARM-S=
+ULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8986215/NYC.D=
+EPT.OF.FINANCE.-.PUBLIC.RECORD.pdf)=0D
+=0D
+## USC 18. VIOLATIONS ANNEXED IN NYSCEF 153974/2020 [ LOAN 50074 ] =0D
+=0D
+=C2=A72. - Principals=0D
+		(a) Whoever commits an offense against the United States or aids, abets=
+, counsels, commands, induces or procures its commission, is punishable a=
+s a principal.=0D
+		(b) Whoever willfully causes an act to be done which if directly perfor=
+med by him or another would be an offense against the United States, is p=
+unishable as a principal.=0D
+=0D
+=C2=A73. - [Accessory after the fact](https://github.com/WILSON-ELSER-STA=
+TEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/89862=
+15/NYC.DEPT.OF.FINANCE.-.PUBLIC.RECORD.pdf)=0D
+		Whoever, knowing that an offense against the United States has been com=
+mitted, receives, relieves, comforts or assists the offender in order to =
+hinder or prevent his apprehension, trial or punishment, is an accessory =
+after the fact. Except as otherwise expressly provided by any Act of Cong=
+ress, an accessory after the fact shall be imprisoned not more than one-h=
+alf the maximum term of imprisonment or (notwithstanding section 3571) fi=
+ned not more than one-half the maximum fine prescribed for the punishment=
+ of the principal, or both; or if the principal is punishable by life imp=
+risonment or death, the accessory shall be imprisoned not more than 15 ye=
+ars.=0D
+=0D
+=C2=A74. Misprision of felony=0D
+		Whoever, having knowledge of the actual commission of a felony cognizab=
+le by a court of the United States, conceals and does not as soon as poss=
+ible make known the same to some judge or other person in civil or milita=
+ry authority under the United States, shall be fined under this title or =
+imprisoned not more than three years, or both.	=0D
+=0D
+Filing User Shari Laskowitz | slaskowitz@ingramllp.com | 2129079600=0D
+=0D
+150 East 42nd Street 19th Floor, New York, NY 10017=0D
+Filed: 07/21/2020=0D
+    =0D
+[NYSCEF INDEX NO. 153974/2020]=0D
+=0D
+# VIOLATION OF PRIVACY AND BREACH OF DUTIES=0D
+FILED: NEW YORK COUNTY CLERK 07/21/2020 04:17 AM &nbsp;&nbsp;&nbsp;&nbsp;=
+* * * * * NYSCEF CASE: 153974/2020 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *=
+ * * * * &nbsp;&nbsp;&nbsp;&nbsp; DOC. NO. 77=0D
+<br> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DE0CK=
+xALt/dD_PLUS_Wk3Z8vuaXQ=3D=3D=0D
+=0D
+<br> Confirmation Notice to all Material Parties ( was redistributed ) by=
+ and between the counselors as seen in the circulation of <Video.mov> fil=
+es without consent.=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=3DE0CKxA=
+Lt/dD_PLUS_Wk3Z8vuaXQ=3D=3D=0D
+=0D
+[2/16/2022 11:57 PM](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DI=
+CKER/files/8608620/000000000000000000000000000000000000000000000.pdf)=0D
+=0D
+*** SOMEONE ALSO HAD A PROBLEM WITH THE EMAIL ADDRESS  --- AND HAD IT DEA=
+CTIVATED.=0D
+=0D
+[ASHLEY.HUMPHRIES@WILSONELSER.COM](https://github.com/BSCPGROUPHOLDINGSLL=
+C/ELSER-AND-DICKER/files/8608609/24.JAN.2022.-.ASHLEY.HUMPHRIES.YUZERS.pd=
+f)=0D
+=0D
+FILED IN NYSCEF MATTER 153974/2020=0D
+=0D
+=0D
+[DOCKET NO. 225](https://iapps.courts.state.ny.us/nyscef/ViewDocument?doc=
+Index=3DxBYJ69pjIuDxBegralE8Uw=3D=3D)<br>=0D
+[DOCKET NO. 231](https://iapps.courts.state.ny.us/nyscef/ViewDocument?doc=
+Index=3D1Wx2R9sKfno_PLUS_ol5jFakV9g=3D=3D)<br>=0D
+[DOCKET NO. 232](https://iapps.courts.state.ny.us/nyscef/ViewDocument?doc=
+Index=3D72GIYXnN1f/CSjCYtDxKUw=3D=3D)<br>=0D
+[DOCKET NO. 233](https://iapps.courts.state.ny.us/nyscef/ViewDocument?doc=
+Index=3DG5D0bfOIy4SeSXS47aSWbw=3D=3D)<br>=0D
+[DOCKET NO. 234](https://iapps.courts.state.ny.us/nyscef/ViewDocument?doc=
+Index=3DAgwH2omenQPCvT0OYOE3Rg=3D=3D)<br>=0D
+[DOCKET NO. 235](https://iapps.courts.state.ny.us/nyscef/ViewDocument?doc=
+Index=3DOioy2FAQ_PLUS_uuEatGhmc4JnA=3D=3D)<br>=0D
+=0D
+[GIS TAX-LOT 508, LOT 11](http://gis.nyc.gov/taxmap/map.htm?z=3D11&p=3D98=
+3515,203704&a=3DDTM&c=3Ddtm&f=3DBUILDING,CONDO_RANGE,LOT_FACE_SMALL,PARK_=
+PROPERTY,ZIP_CODE&s=3Dl:MANHATTAN,503,8,EVERY_BBL)=0D
+=0D
+[DOCKET NO. 307](https://iapps.courts.state.ny.us/nyscef/ViewDocument?doc=
+Index=3DrjL6yoW3Mt2U6UigWCM9XQ=3D=3D)<br>=0D
+[DOCKET NO. 308](https://iapps.courts.state.ny.us/nyscef/ViewDocument?doc=
+Index=3DSgjFfExxNV4Y4DTX6pANaA=3D=3D)<br>=0D
+[DOCKET NO. 309](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER=
+/files/8608700/153974_2020_S__309.pdf)<br>=0D
+[DOCKET NO. 315](https://iapps.courts.state.ny.us/nyscef/ConfirmationNoti=
+ce?docId=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D)<br>=0D
+[DOCKET NO. 382](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER=
+/files/8608665/153974_2020_382.6MM.AGREEMENT.pdf)<br>=0D
+=0D
+## NO CERTIFICATE OF OCCUPANCY IN AUGUST, 2020=0D
+FILED: NEW YORK COUNTY CLERK 08/04/2020 09:10 AM &nbsp;&nbsp;&nbsp;&nbsp;=
+* * * * * NYSCEF CASE: 153974/2020 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *=
+ * * * * &nbsp;&nbsp;&nbsp;&nbsp; DOC. NO. 230=0D
+<br> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DAgwH=
+2omenQPCvT0OYOE3Rg=3D=3D=0D
+=0D
+<br>PROCESSED=0D
+<br>=0D
+https://iapps.courts.state.ny.us/nyscef/FilingUserInfo?filerId=3DSVnk_PLU=
+S_wwn_PLUS_akZLr2HagUrng=3D=3D&ret=3DD&docketId=3DrbJs1u78EZo22UbkaVdrZg=3D=
+=3D=0D
+<br> CONFIRMATION PROCESSED BY THE EXECUTIVES AND COUNSELORS OF <br><BR>*=
+ SULLIVAN PROPERTIES, LP<br>* SULLIVAN GP, LLC<br>* MANHATTAN SKYLINE MAN=
+AGEMENT CORP.<br>=0D
+<br> https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=3DU=
+ZsCx4RNLy/6V9gf1BkpTQ=3D=3D=0D
+=0D
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * * * * * THEN DISTRIBUTED BY AND BET=
+WEEN THE MATERIAL PARTIES [ MULE 1 ]<br>=0D
+=0D
+TO SATISFY USC 18.2, 18.225, AND UNDER 18.21 - WILLFULLY AND KNOWINGLY TR=
+IED TO OBSTRUCT THE MATERIAL FACTS FROM BEING KNOWN BY THE PUBLIC=0D
+=0D
+DOKCET 399=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DD9Td7IfWX=
+yajw1tBNCFb9g=3D=3D=0D
+=0D
+<br> "The NYSCEF website has received an electronic filing on 08/04/2020 =
+02:32 PM"<br>=0D
+<br><br>=0D
+E-mail Notifications: An email regarding this filing has been sent to the=
+ following on 08/04/2020 02:32 PM<br>=0D
+SHARI LASKOWITZ - slaskowitz@ingramllp.com=0D
+=0D
+---=0D
+=0D
+<MOV DISTRIBUTION>=0D
+BY AND BETWEEN THE WILSON ELSER LAW FIRM, AND ITS REPRESENTATIVES.=0D
+<br><br> PARTICPATED AND ALSO NOTARIZED SEVERAL AFFIDAVITS THROUGHOUT THE=
+ PROCEEDINGS OF NYSCEF 153974/2020<br>=0D
+<br><br>=0D
+=0D
+Counselor: Ashley Humphries | ASHLEY.HUMPHRIES@WILSONELSER.COM | 90843374=
+63=0D
+=0D
+## FILED: NEW YORK COUNTY CLERK 08/04/2020 02:32 PM=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DxBYJ69pjI=
+uDxBegralE8Uw=3D=3D=0D
+=0D
+NYSCEF DOC. NO. 225=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4RNL=
+y/6V9gf1BkpTQ=3D=3D=0D
+=0D
+## FILED: NEW YORK COUNTY CLERK 08/04/2020 09:10 AM INDEX NO. 153974/2020=
+=0D
+	=0D
+NYSCEF DOC. NO. 230=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DJjKiWNUTB=
+eipcESQfFiwVQ=3D=3D=0D
+=0D
+=0D
+E-mail Notifications An email regarding this filing has been sent to the =
+following on 08/04/2020 02:32 PM:=0D
+    SHARI LASKOWITZ - slaskowitz@ingramllp.com=0D
+	=0D
+249 AFFIDAVIT OR AFFIRMATION IN REPLY TO ORDER TO SHOW CAUSE, Motion #001=
+ 250 EXHIBIT(S) 1, Motion #001 251 EXHIBIT(S) 2, Motion #001 252 EXHIBIT(=
+S) 3, Motion #001 253 EXHIBIT(S) 4, Motion #001 254 EXHIBIT(S) 5, Motion =
+#001 255 EXHIBIT(S) 6, Motion #001 256 EXHIBIT(S) 7, Motion #001 257 EXHI=
+BIT(S) 8, Motion #001 258 EXHIBIT(S) 9, Motion #001 260 EXHIBIT(S) 1, Mot=
+ion #001 261 EXHIBIT(S) 2, Motion #001 262 EXHIBIT(S) 3, Motion #001 263 =
+EXHIBIT(S) 4, Motion #001 264 EXHIBIT(S) 5, Motion #001 265 EXHIBIT(S) 6,=
+ Motion #001 266 EXHIBIT(S) 7, Motion #001 267 EXHIBIT(S) 8, Motion #001 =
+268 EXHIBIT(S) 9, Motion #001 269 EXHIBIT(S) 10, Motion #001 270 EXHIBIT(=
+S) 11, Motion #001 271 EXHIBIT(S) 12, Motion #001 272 EXHIBIT(S) 13, Moti=
+on #001 273 EXHIBIT(S) 14, Motion #001 274 EXHIBIT(S) 15, Motion #001 275=
+ EXHIBIT(S) 16, Motion #001 276 EXHIBIT(S) 17, Motion #001 277 EXHIBIT(S)=
+ 18, Motion #001 278 EXHIBIT(S) 19, Motion #001 279 EXHIBIT(S) 20, Motion=
+ #001 280 EXHIBIT(S) 21, Motion #001 281 EXHIBIT(S) 22, Motion #001 282 E=
+XHIBIT(S) 23, Motion #001 283 EXHIBIT(S) 24, Motion #001 284 EXHIBIT(S) 2=
+5, Motion #001 285 EXHIBIT(S) 26, Motion #001 286 EXHIBIT(S) 27, Motion #=
+001 287 EXHIBIT(S) 28, Motion #001 288 EXHIBIT(S) 29, Motion #001 289 EXH=
+IBIT(S) 30, Motion #001 290 EXHIBIT(S) 31, Motion #001 291 EXHIBIT(S) 32,=
+ Motion #001 292 EXHIBIT(S) 33, Motion #001 293 EXHIBIT(S) 34, Motion #00=
+1 294 EXHIBIT(S) 35, Motion #001=0D
+=0D
+Filing User Shari Laskowitz | slaskowitz@ingramllp.com | 2129079600 150 E=
+ast 42nd Street 19th Floor, New York, NY 10017=0D
+=0D
+Hon. Milton A. Tingling, New York County Clerk and Clerk of the Supreme C=
+ourt NYSCEF Resource Center, nyscef@nycourts.gov Phone: 646-386-5956 Webs=
+ite: http://www.nycourts.gov/courts/1jd/supctmanh/county_clerk_operations=
+.shtml =0D
+=0D
+Phone: (646) 386-3033 | Fax: (212) 401-9146 | Website: www.nycourts.gov/e=
+file=0D
+	=0D
+### USC 18.21, USC 18.225, USC 18.2 : UNLAWFUL RENTS AND LEASES TRANSFERR=
+ED TO STATE FARM=0D
+ANNEXED IN THE LOAN DOCKETS AND IN NYSCEF 153974/2020<br><br>=0D
+[USC 18.=C2=A721, USC 18=C2=A7225,  USC 18=C2=A72, USC 18=C2=A71962, USC =
+18=C2=A71963 ----<NYC DEPT OF FINANCE - PUBLIC RECORDS>](https://github.c=
+om/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN=
+-ZUCKER/files/8986215/NYC.DEPT.OF.FINANCE.-.PUBLIC.RECORD.pdf)=0D
+=0D
+=0D
+USC 18=0D
+=C2=A721. Stolen or counterfeit nature of property for certain crimes def=
+ined=0D
+<p>=0D
+(a) Wherever in this title it is an element of an offense that-=0D
+  (1) any property was embezzled, robbed, stolen, converted, taken, alter=
+ed, counterfeited, falsely made, forged, or obliterated; and=0D
+  (2) the defendant knew that the property was of such character;=0D
+  -such element may be established by proof that the defendant, after or =
+as a result of an official representation as to the nature of the propert=
+y, believed the property to be embezzled, robbed, stolen, converted, take=
+n, altered, counterfeited, falsely made, forged, or obliterated.=0D
+</p>=0D
+	=0D
+USC 18=0D
+=C2=A7225. Continuing financial crimes enterprise=0D
+<p>=0D
+	(a) Whoever-=0D
+		(1) organizes, manages, or supervises a continuing financial crimes ent=
+erprise; and=0D
+		(2) receives $5,000,000 or more in gross receipts from such enterprise =
+during any 24-month period=0D
+	-shall be fined not more than $10,000,000 if an individual, or $20,000,0=
+00 if an organization, and imprisoned for a term of not less than 10 year=
+s and which may be life.=0D
+	(b) For purposes of subsection (a), the term "continuing financial crime=
+s enterprise" means a series of violations under section 215, 656, 657, 1=
+005, 1006, 1007, 1014, 1032, or 1344 of this title, or section 1341 or 13=
+43 affecting a financial institution, committed by at least 4 persons act=
+ing in concert.=0D
+</p>=0D
+=0D
+USC 18	=0D
+=C2=A71962. Prohibited activities=0D
+<p>=0D
+(a) It shall be unlawful for any person who has received any income deriv=
+ed, directly or indirectly, from a pattern of racketeering activity or th=
+rough collection of an unlawful debt in which such person has participate=
+d as a principal within the meaning of section 2, title 18, United States=
+ Code, to use or invest, directly or indirectly, any part of such income,=
+ or the proceeds of such income, in acquisition of any interest in, or th=
+e establishment or operation of, any enterprise which is engaged in, or t=
+he activities of which affect, interstate or foreign commerce. A purchase=
+ of securities on the open market for purposes of investment, and without=
+ the intention of controlling or participating in the control of the issu=
+er, or of assisting another to do so, shall not be unlawful under this su=
+bsection if the securities of the issuer held by the purchaser, the membe=
+rs of his immediate family, and his or their accomplices in any pattern o=
+r racketeering activity or the collection of an unlawful debt after such =
+purchase do not amount in the aggregate to one percent of the outstanding=
+ securities of any one class, and do not confer, either in law or in fact=
+, the power to elect one or more directors of the issuer.=0D
+=0D
+(b) It shall be unlawful for any person through a pattern of racketeering=
+ activity or through collection of an unlawful debt to acquire or maintai=
+n, directly or indirectly, any interest in or control of any enterprise w=
+hich is engaged in, or the activities of which affect, interstate or fore=
+ign commerce.=0D
+=0D
+(c) It shall be unlawful for any person employed by or associated with an=
+y enterprise engaged in, or the activities of which affect, interstate or=
+ foreign commerce, to conduct or participate, directly or indirectly, in =
+the conduct of such enterprise's affairs through a pattern of racketeerin=
+g activity or collection of unlawful debt.=0D
+=0D
+(d) It shall be unlawful for any person to conspire to violate any of the=
+ provisions of subsection (a), (b), or (c) of this section.=0D
+</p>=0D
+=0D
+=C2=A71963. Criminal penalties=0D
+<p>=0D
+	=0D
+(a) Whoever violates any provision of section 1962 of this chapter shall =
+be fined under this title or imprisoned not more than 20 years (or for li=
+fe if the violation is based on a racketeering activity for which the max=
+imum penalty includes life imprisonment), or both, and shall forfeit to t=
+he United States, irrespective of any provision of State law-=0D
+(1) any interest the person has acquired or maintained in violation of se=
+ction 1962;=0D
+(2) any-=0D
+(A) interest in;=0D
+(B) security of;=0D
+(C) claim against; or=0D
+(D) property or contractual right of any kind affording a source of influ=
+ence over;=0D
+any enterprise which the person has established, operated, controlled, co=
+nducted, or participated in the conduct of, in violation of section 1962;=
+ and=0D
+(3) any property constituting, or derived from, any proceeds which the pe=
+rson obtained, directly or indirectly, from racketeering activity or unla=
+wful debt collection in violation of section 1962.=0D
+The court, in imposing sentence on such person shall order, in addition t=
+o any other sentence imposed pursuant to this section, that the person fo=
+rfeit to the United States all property described in this subsection. In =
+lieu of a fine otherwise authorized by this section, a defendant who deri=
+ves profits or other proceeds from an offense may be fined not more than =
+twice the gross profits or other proceeds.=0D
+(b) Property subject to criminal forfeiture under this section includes-=0D=
+
+(1) real property, including things growing on, affixed to, and found in =
+land; and=0D
+(2) tangible and intangible personal property, including rights, privileg=
+es, interests, claims, and securities.=0D
+</P>=0D
+=0D
+---=0D
+PROPERTY REPORT (see also: Miwa and Teschman) 	Assignment to Zucker 05/26=
+/2020 	=0D
+	Filed: 08/04/2020 			Confirmation Notice=0D
+ 307  	EXHIBIT(S)  - OPP  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+PLAINTIFF DOES NOT HAVE A CERTIFICATE OF OCCUPANCY FOR THIS PROPERTY 	Fil=
+ed: 08/09/2020 	=0D
+	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DrjL6yoW3M=
+t2U6UigWCM9XQ=3D=3D 	=0D
+	Received: 08/09/2020 	 =0D
+ 308  	EXHIBIT(S)  - 503  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+TAX MAP BLOCK 503 - LOT 8 [GIS.NYC.GOV] 	Filed: 08/09/2020 	=0D
+	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DSgjFfExxN=
+V4Y4DTX6pANaA=3D=3D 	=0D
+	Received: 08/09/2020 	 =0D
+ 309  	EXHIBIT(S)  - no1  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+PLAINTIFF ASSIGNED LEASES AND RENTS ON MAY 15TH  	Filed: 08/09/2020 	=0D
+	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0=
+G0QvnmRLGpYIQ=3D=3D 	=0D
+	Received: 08/09/2020 	 =0D
+ 310  	EXHIBIT(S)  - AC0  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+ACRIS Detailed Document Information (2019000021408)2019010800475001 	File=
+d: 08/09/2020 	=0D
+	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dze6a1KA9a=
+kRV9TGfXXJT/g=3D=3D 	=0D
+	Received: 08/09/2020 	 =0D
+ 311  	EXHIBIT(S)  - AC1  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+ACRIS Detailed Document Information (2020000155422)2020052000291003 	File=
+d: 08/09/2020 	=0D
+	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DbVk8sIt7n=
+3kGwHqebPg0fw=3D=3D 	=0D
+	Received: 08/09/2020 	 =0D
+ 312  	EXHIBIT(S)  - AC2  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+ACRIS Detailed Document Information (2020000155421)2020052000291002 	File=
+d: 08/09/2020 	=0D
+	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DwTG2YD2Pq=
+XuxmoKqFiESrw=3D=3D 	=0D
+	Received: 08/09/2020 	 =0D
+ 313  	EXHIBIT(S)  - AC3  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+ACRIS Detailed Document Information (2020000155422)2020052000291003 	File=
+d: 08/09/2020 	=0D
+	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn6=
+6hrVmJ9DX_PLUS_bdg=3D=3D 	=0D
+	Received: 08/09/2020 	 =0D
+ 314  	EXHIBIT(S)  - AC4  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+ACRIS Detailed Document Information (2020000155423)2020052000291004 	File=
+d: 08/09/2020 	=0D
+	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiKJ=
+0BGv2DF/MOn4g=3D=3D 	=0D
+	Received: 08/09/2020 	 =0D
+ 315  	EXHIBIT(S)  - ACR  (Motion #002) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+ACRIS.NYC.GOV >> ASSIGNMENT OF LEASE AND RENTS ON FILED ON MAY 26TH - htt=
+ps://a836-acris.nyc.gov/ 	=0D
+	Filed: 08/09/2020 	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm=
+0ynPeXZKSHgLQ=3D=3D 	=0D
+	Received: 08/09/2020 	 =0D
+ 316  	EXHIBIT(S)  - Bu0 	Dincer, B. (Pro Hac / Pro Se) 	Processed=0D
+COMPLAINT #14585819 (7/25/2020) @BBB 	Filed: 08/09/2020 	Confirmation Not=
+ice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D7Ry3LAoVf=
+WOLjSXhyJZ94A=3D=3D 	=0D
+	Received: 08/09/2020 	 =0D
+=0D
+=0D
+#### CERTIFICATES OF OCCUPANCY AT ALL RELEVANT TIMES. FOR THE LOAN 50074 =
+(ALSO FILED IN NYSCEF 153974/2020)=0D
+=0D
+ 230  	EXHIBIT(S)  - COr 	Dincer, B. (Pro Hac / Pro Se) 	Processed=0D
+CERTIFICATE OF OCCUPANCY FOR 111 SULLIVAN STREET REAR, NEW YORK, NEW YORK=
+ 10012 	=0D
+	Filed: 08/04/2020 	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DJjKiWNUTB=
+eipcESQfFiwVQ=3D=3D 	=0D
+	Received: 08/04/2020 	 =0D
+ 231  	EXHIBIT(S)  - COf 	Dincer, B. (Pro Hac / Pro Se) 	Processed=0D
+CERTIFICATE OF OCCUPANCY FOR 111 SULLIVAN STREET, NEW YORK, NEW YORK 1001=
+2 	=0D
+	Filed: 08/04/2020 	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D1Wx2R9sKf=
+no_PLUS_ol5jFakV9g=3D=3D 	=0D
+	Received: 08/04/2020 	 =0D
+ 232  	EXHIBIT(S)  - MEW  (Motion #002) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+Miwako Messer (AFFIDAVIT) IS REPORTED AS A 25 YEAR AFFILIATE OF THE PLAIN=
+TIFF 	=0D
+	Filed: 08/04/2020 	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D72GIYXnN1=
+f/CSjCYtDxKUw=3D=3D 	=0D
+	Received: 08/04/2020 	=0D
+=0D
+ 233  	EXHIBIT(S)  - MW1  (Motion #001) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+Affidavit of Miwako Messer SHOULD BE CONSIDERED AS WELL ORCHESTRATED 	=0D=
+
+	Filed: 08/04/2020 		Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DG5D0bfOIy=
+4SeSXS47aSWbw=3D=3D 	=0D
+	Received: 08/04/2020 	 =0D
+ 234  	EXHIBIT(S)  - VER 	Dincer, B. (Pro Hac / Pro Se) 	Processed=0D
+NO COMPLAINTS HAVE BEEN FILED IN MY BUILDING - PER DEPARTMENT OF BUILDING=
+S RECORDS. 	=0D
+	Filed: 08/04/2020 	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D1Wx2R9sKf=
+no_PLUS_ol5jFakV9g=3D=3D 	=0D
+	Received: 08/04/2020 	 =0D
+ 235  	EXHIBIT(S)  - 804  (Motion #002) 	Dincer, B. (Pro Hac / Pro Se) 	P=
+rocessed=0D
+property report (see also: Miwa and Teschman) Assignment to Zucker 0526 	=
+=0D
+	Filed: 08/04/2020 	Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DOioy2FAQ_=
+PLUS_uuEatGhmc4JnA=3D=3D 	=0D
+	Received: 08/04/2020 	 =0D
+=0D
+<MOV DISTRIBUTION WITHOUT CONSENT>=0D
+[Read:SLASKOWITZINGRAMLLP.COM---WILSONELSER---ZUCKER--SCCS--XXXX@COLUMBIA=
+.EDU CONFIRMED](https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER=
+/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8985954/Read-.SLASKOWITZING=
+RAMLLP.COM---WILSONELSER---ZUCKER--SCCS--SGO%40COLUMBIA.EDU.CONFIRMED.zip=
+)=0D
+	=0D
+## FAXED THE PRIOR MSG TO NY SUPREME COURTS, CIVIL BRANCH.=0D
+https://faxzero.com/status/31316917/6b34c3ad9620003256df358c638765fc2ae38=
+7cc=0D
+	*** 	***	***=0D
+Your fax (ID: #31316917) to VARIOUS at 212-401-9146 =0D
+	has been delivered successfully at 12:12 AM =0D
+	Eastern Daylight Time on June 26th, 2022=0D
+	[ 50074 EAST ++ ]=0D
+=0D
+The content of your fax included 1 page of coversheet with your text and =
+3 pages of attached documents.=0D
+=0D
+Be sure to follow up with the recipient to make sure that the fax is legi=
+ble and is delivered to the right person in the office. Thank you for usi=
+ng FaxZero.com=0D
+	=0D
+# CASE FILE INFORMATION DISTRIBUTED - BY AND BETWEEN ALL RELEVANT PARTIES=
+=0D
+*** FDIC-01413744, LOCATION 1=0D
+	=0D
+FILE 1: [_30--FDIC-01413744 [ 50074 EST ++ ].pdf](https://github.com/WILS=
+ON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER=
+/files/8985964/_30--FDIC-01413744.50074.EST.%2B%2B.pdf)=0D
+    =0D
+FILE 2: [_30--FDIC-01413744 [ 50074 EST ++ ] 999.pdf](https://github.com/=
+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZU=
+CKER/files/8985960/_30--FDIC-01413744.50074.EST.%2B%2B.999.pdf)=0D
+=0D
+FILE 3: [_30--FDIC-01413744 [ 50074 EST ++ ] 999-3.pdf](https://github.co=
+m/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-=
+ZUCKER/files/8985961/_30--FDIC-01413744.50074.EST.%2B%2B.999-3.pdf)=0D
+=0D
+	=0D
+FILE 4: [_30--FDIC-01413744 [ 50074 EST ++ ] 999-12.pdf](https://github.c=
+om/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN=
+-ZUCKER/files/8985962/_30--FDIC-01413744.50074.EST.%2B%2B.999-12.pdf)=0D
+	=0D
+FILE 5: [_30--FDIC-01413744 [ 50074 EST ++ ] 999-76.pdf](https://github.c=
+om/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN=
+-ZUCKER/files/8985963/_30--FDIC-01413744.50074.EST.%2B%2B.999-76.pdf)=0D
+=0D
+FILED: NEW YORK COUNTY CLERK 08/09/2020 02:24 AM INDEX NO. 153974/2020=0D=
+
+NYSCEF DOC. NO. 314 RECEIVED NYSCEF: 08/09/2020=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiKJ=
+0BGv2DF/MOn4g=3D=3D=0D
+=0D
+	=0D
+# VIDEO.MOV DISTRIBUTION BY AND BETWEEN [@INGRAMLLP.COM] AND [@WILSONELSE=
+R.COM]=0D
+	=0D
+[ MULE 1 ] [ MULE 2 ]=0D
+FILED: NEW YORK COUNTY CLERK 08/04/2020 02:32 PM INDEX NO. 153974/2020=0D=
+
+NYSCEF DOC. NO. 287 RECEIVED NYSCEF: 08/04/2020=0D
+Sent: Sunday, July 19, 2020 5:49 PM=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4RNL=
+y/6V9gf1BkpTQ=3D=3D=0D
+=0D
+---=0D
+## Consumer Response Unit ( THANK YOU VERY MUCH FOR YOUR ASSISTANCE)=0D
+** National Center for Consumer and Depositor Assistance=0D
+** Federal Deposit Insurance Corporation =0D
+=0D
+### USC 18. =C2=A7208. Acts affecting a personal financial interest=0D
+=0D
+=0D
+(a) Except as permitted by subsection (b) hereof, whoever, being an offic=
+er or employee of the executive branch of the United States Government, o=
+r of any independent agency of the United States, a Federal Reserve bank =
+director, officer, or employee, or an officer or employee of the District=
+ of Columbia, including a special Government employee, participates perso=
+nally and substantially as a Government officer or employee, through deci=
+sion, approval, disapproval, recommendation, the rendering of advice, inv=
+estigation, or otherwise, in a judicial or other proceeding, application,=
+ request for a ruling or other determination, contract, claim, controvers=
+y, charge, accusation, arrest, or other particular matter in which, to hi=
+s knowledge, he, his spouse, minor child, general partner, organization i=
+n which he is serving as officer, director, trustee, general partner or e=
+mployee, or any person or organization with whom he is negotiating or has=
+ any arrangement concerning prospective employment, has a financial inter=
+est-Shall be subject to the penalties set forth in section 216 of this ti=
+tle.=0D
+(b) Subsection (a) shall not apply-=0D
+(1) if the officer or employee first advises the Government official resp=
+onsible for appointment to his or her position of the nature and circumst=
+ances of the judicial or other proceeding, application, request for a rul=
+ing or other determination, contract, claim, controversy, charge, accusat=
+ion, arrest, or other particular matter and makes full disclosure of the =
+financial interest and receives in advance a written determination made b=
+y such official that the interest is not so substantial as to be deemed l=
+ikely to affect the integrity of the services which the Government may ex=
+pect from such officer or employee;=0D
+(2) if, by regulation issued by the Director of the Office of Government =
+Ethics, applicable to all or a portion of all officers and employees cove=
+red by this section, and published in the Federal Register, the financial=
+ interest has been exempted from the requirements of subsection (a) as be=
+ing too remote or too inconsequential to affect the integrity of the serv=
+ices of the Government officers or employees to which such regulation app=
+lies;=0D
+(3) in the case of a special Government employee serving on an advisory c=
+ommittee within the meaning of the Federal Advisory Committee Act (includ=
+ing an individual being considered for an appointment to such a position)=
+, the official responsible for the employee's appointment, after review o=
+f the financial disclosure report filed by the individual pursuant to the=
+ Ethics in Government Act of 1978, certifies in writing that the need for=
+ the individual's services outweighs the potential for a conflict of inte=
+rest created by the financial interest involved...=0D
+=0D
+=0D
+---=0D
+ALL FILES FOLLOWED THE FOLLOWING PROCEDURE / UPON BEING ADMITTED OF DENIE=
+D.=0D
+STEP 1: COMMUNICATIONS BETWEEN LOCATION 1 & LOCATION 2 [ LOGGED ] EX-POST=
+ IN 2021=0D
+---=0D
+*** E-mail Notifications ***=0D
+An email regarding this filing has been sent to the following on 08/09/20=
+20 02:31 AM=0D
+#### SHARI LASKOWITZ - slaskowitz@ingramllp.com [ MULE ]=0D
+*** [ MULE NUMBER 1: slaskowitz@ingramllp.com] ***=0D
+*** [ MULE NUMBER 2: ASHLEY.HUMPHRIES@WILSONELSER.COM] ***=0D
+*** [ MULE NUMBER 3: CWEISS@INGRAMLLP.COM] ***=0D
+RE: MULE NUMBER 3, I AM NOT POSITIVE IF IT IS A REAL PERSON.=0D
+*** THESE ARE LIST SERV ADDRESSED MONITORED BY WHOEVER MAY OR MAY NOT BE =
+AVAILABLE, DEPENDING ON WHEN AND WHAT IS BEING DEALT WITH.=0D
+ADMINISTRATION@MSKYLINE.COM; LZUCKER@MSKYLINE.COM; ADMINISTRATOR@MSKYLINE=
+.COM; LEGAL@MSKYLINE.COM; LEGALASST@MSKYLINE.COM; SGO@COLUMBIA.EDU; SCCS@=
+COLUMBIA.EDU...=0D
+[ LOCATION 1 - FLOOR 4 ] BOOKS AND RECORDS, EMAILS BY AND BETWEEN THE DOM=
+AINS=0D
+---=0D
+[LOCATION 3] @MSKYLINE.COM=0D
+[LOCATION 2] @WILSONELSER.COM, @INGRAMLLP.COM=0D
+[LOCATION 1] @COLUMBIA.EDU=0D
+---=0D
+WITHOUT CONSENT, PHOTOGRAPHED AND VIDEOTAPED THE INTERIOR OF MY APARTMENT=
+ - THEN HOSTED THEM ON THE INTERNET AS WELL.=0D
+*** NOTWITHSTANDING THE INDETERMINATE NUMBER OF <VIDEO.MOV> FILES BY AND =
+BETWEEN ALL THREE LOCATIONS ABOVE.=0D
+	=0D
+---=0D
+### [ LOAN DOCKETS FOR 50074 EST ++ ] $6,000,000.00 AND UNDER USC 18.225=0D=
+
+LOAN DOCKETS, ASSIGNMENT OF UNLAWFULLY REPRESENTED INCOME (USC 18.21)=0D
+* LEASES AND RENTS TO STATE FARM IN EXCHANGE FOR $6,000,000.00=0D
+=0D
+<br><br>=0D
+[LOCATION 3]  @MSKYLINE.COM<br>=0D
+* 101 WEST 55TH STREET, NEW YORK, NY, 10019=0D
+<br><br>=0D
+=0D
+[LOCATION 2]  @WILSONELSER.COM<br>=0D
+* 150 EAST 42ND STREET, NEW YORK, NY, 10017=0D
+<br><br>=0D
+=0D
+[LOCATION 1]  @COLUMBIA.EDU<br>=0D
+* Lewisohn Hall, 2970 Broadway, 4TH FLOOR, New York, NY 10027=0D
+=0D
+STATE FARM=0D
+FILED THEIR OWN PAYMENTS TO SATISFY THE UMBRELLA OF CHARGES UNDER USC 18.=
+215=0D
+![image](https://user-images.githubusercontent.com/108204659/175807560-b2=
+7733c2-c934-4c33-b580-43a5b123d300.png)=0D
+=0D
+![image](https://user-images.githubusercontent.com/108204659/175807575-0f=
+6343e2-80e8-42d5-9b9b-52bf35010c0f.png)=0D
+=0D
+respectfully, FILED [ by yours truly]=0D
+[docket 315](https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?d=
+ocId=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D)=0D
+=0D
+-BO.=0D
+=0D
+=0D

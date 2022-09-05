@@ -1,0 +1,925 @@
+From - Sat Jun  4 11:43:55 2022
+X-Account-Key: account1
+X-UIDL: AGb2nnRcC1uLYpuKrwVquLEmFO8
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.234.155
+ by atlas103.free.mail.gq1.yahoo.com with HTTPS; Sat, 4 Jun 2022 16:39:10 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.206]
+Received-SPF: pass (domain of github.com designates 192.30.252.206 as permitted sender)
+Authentication-Results: atlas103.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 4 Jun 2022 16:39:11 +0000
+X-YMailAVSC: 9ts935E3bBvwCDYiw4ptEr8AWgjRCCrqKAq5Q1kbSKmpHJR
+ 0sY2Yykup_DJ75QUf9f6JC25l1jKp0DK3CLzYXy3mdIFyFHUbIm3746M5Vxg
+ J5b0Qrd8zIVQmmb7jtlqU8TFIYpq2JZKniEO_y248dTY6MHycVX0ZEK2mxCC
+ AgwH7kRf141hgYnvmxcmD64yt1Ugeh73MZm10Wm.4wOMNTVECyoFHeEHnPa0
+ BNzo0tccBuimz9jB0kmxnq2RbCCdoMaqP.4BEhgJY.jNrtC1mkGkjOMF6h_s
+ YDUr_ja13IltZgXrDXf3wEEO2nk77rpDhCw8o7FiLpch7bV1HUP_4Vw4jVMo
+ 1.OGhjVHXf8yi79bS8xq2K8l_E8Gh5sty_Hs-
+X-YMailISG: .1Q1gYMWLDsKk92QEIlfAv9Ce2yCv4TGaAUBe.lbO1Jn7FIG
+ xd3hNG4DPJ1ojsz5wAKEf2I7hbRnBaEHi9crrMOx5UGjSiages87_lwJBccS
+ GzniK6fFj7IoDl0omjGNRy7OrwTKHh_mtd0nnIQxRC0A4nHTFybAhNLSw3qM
+ cqHKLdggVULziYP17yVIVoKgfYtvdQ8EwNagGfA66dlEzUQLGIcU1EH9iKs.
+ qKSXCeyCcT1kdkuBvKkbvFxq986j2VLJSrvlQJzqNS67RX0m1bFqAXW2khOL
+ OqR2kG8GzjgzViLT0TNvrRuhj4NsxyYZV9xMq78ycTix8iGO8Y0Wh_kLqI7k
+ 7AzYMiEKH23NiPzAdrKWZhXcpxyKu53_GxiE2bhEGGHxo3TqVYn0SOH7g_tK
+ qvdragZ62bIGqNThEsH5xBS33hKzvdGHjb_GC6ZCBgZPV1ubY6ghrl3FmXlq
+ OvUii7dwWmWpH83VP7nad_fhC.4xIPARJvX0PytR7KEJMxXIpY5uKMcxldGK
+ k1rjcGCZqwKymSldCVTgAzrtLhxvuK4AjhxiN7o9oTMO60B0B.9f05s9HtU7
+ Fzd9fd1Bjxq4iG0ImsSHdXjaj_67QMjbpmLQnm7OeJJt0U8CzfATxZJHU96u
+ NW.FMzgAxQCzyLuR3xJn6DtxOkPRcIqKRnned7moTFBtiDC9urVcy2c3VUHW
+ I51zDfSE3wNwfQPyd4lZYUGEb9DsbYftGa97nu4seQscz5E4hF9K.B.f7IY_
+ qgy9M1HQACf2RkupTX9PymWO_0xIKXqK6xxI67kQF..Ma4ojmHqgeQxUE_jB
+ ASUBOJylc0q_HTcTQHTID4IMXNeW18ZpT0hCaaZXbRw7vM94FiJr2KoxLDdX
+ 5nspk7vSjkkIZs.hhPFsT8nlkHzX_EESSkgfQpLMImutY0hdG5aXw75aZPl2
+ 5Pv4oSWrobZS0kBJnkxjwyObC9v2ru8n5S1Ci4NxxPeOJ_4eUfH7S_VIS.qq
+ mpn8Zh2kpTLtYDWYWkAAMcsIu6rViCBtc5HDK.Ra8crATGJK6iFmZ3DDaa9R
+ FPWgyyDUeqbGGg27rBJuu1aBvaZbKV.o51bLf3ty6NqfUHw7oJYva3JY_fuJ
+ JkwGPQviRDbnIFgTloxkzT608H0rZFj9viWcOaE24OjBRG8cx.mbIckvev83
+ WrKE_nZjRaCl_2Ej6uWfsLT0kglcUFgQnHEV.SwK1t.9ig--
+Received: from 192.30.252.206 (EHLO out-23.smtp.github.com)
+ by 10.253.234.155 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sat, 04 Jun 2022 16:39:10 +0000
+Received: from github.com (hubbernetes-node-704f2ac.ac4-iad.github.net [10.52.200.17])
+	by smtp.github.com (Postfix) with ESMTPA id 38CC660045D;
+	Sat,  4 Jun 2022 09:39:10 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1654360750;
+	bh=0v+AOJFXM6mtcRwdxzBoAlL+0LknP+BFjwJDfWUkpdA=;
+	h=Date:From:To:Subject:From;
+	b=04O77G4pYXYNMaKkecBR+2+xdgCuwqH19oUUoJITBCIKG9ZMQbUny9fN5nIf8mbiR
+	 HdgjaOzj2lkjjPw7n+LIrvEnxzMxT6zgV6W0Rm0VkCJReVsnlA47eyi5KoMk669LKV
+	 Tn441kQha5iLDYDOB0T1rSJtALSREnu3vA8fYxE0=
+Date: Sat, 04 Jun 2022 09:39:10 -0700
+From: 1212-5858 <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ fed-mmkt-ops@bloomberg.net
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/93715-CS16-93715-153974/ad35a2-4bb227@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] 4bb227:
+ STFGX-STFBX-SEMIANNUAL-2021-REPORTED
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,fed-mmkt-ops@bloomberg.net
+X-Auto-Response-Suppress: All
+Content-Length: 36424
+
+  Branch: refs/heads/93715-CS16-93715-153974=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER=0D
+  Commit: 4bb2275cda9a71303eed6c4e1fbfc61f5039733b=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/4bb=
+2275cda9a71303eed6c4e1fbfc61f5039733b=0D
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.c=
+om>=0D
+  Date:   2022-06-04 (Sat, 04 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    A STFGX-STFBX-SEMIANNUAL-2021-REPORTED=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  STFGX-STFBX-SEMIANNUAL-2021-REPORTED=0D
+=0D
+=0D
+=0D
+=0D
+-------- Forwarded Message --------=0D
+Subject: 	Fwd: Fwd: STATE FARM LIFE INSURANCE COMPANY AS A 'FIDELITY'UNDE=
+R THE 40-17G=0D
+Date: 	Sat, 4 Jun 2022 11:28:30 -0500=0D
+From: 	B D2022 <ms60710444266@yahoo.com>=0D
+To: 	Sec News <webmaster@sec.gov>, texas@sec.gov, shareholderproposals@se=
+c.gov <shareholderproposals@sec.gov>, Secretarys-Office@sec.gov, Rule-Com=
+ments <rule-comments@sec.gov>, publicinfo@sec.gov <publicinfo@sec.gov>, p=
+hiladelphia@sec.gov, Pamela Gibbs [SEC] <OMWI@sec.gov>, Ombudsman@sec.gov=
+, Carl Hoecker [SEC] <OIG@sec.gov>, oca@sec.gov <oca@sec.gov>, NYROBankru=
+ptcy@SEC.GOV, newyork@sec.gov <newyork@sec.gov>, losangeles@sec.gov <losa=
+ngeles@sec.gov>, IMshareholderproposals <IMShareholderProposals@sec.gov>,=
+ foiapa@sec.gov, dfw@sec.gov <dfw@sec.gov>, denver@sec.gov, dcaoletters@s=
+ec.gov <dcaoletters@sec.gov>, cshugg@usinfosec.com, CHICAGO@SEC.GOV <CHIC=
+AGO@SEC.GOV>, LORI SCHOCK <CHAIR@SEC.GOV>, boston@sec.gov <boston@sec.gov=
+>, atlanta@sec.gov=0D
+CC: 	Josephine.Vella@finra.org <Josephine.Vella@finra.org>, Doc Webmaster=
+ <webmaster@doc.gov>, tmprosecutordocs@uspto.gov <tmprosecutordocs@uspto.=
+gov>, SARAH 00068govtIdx BARNHART <SarahB@doc.ks.gov>, MICHAEL 00064govtI=
+dx OSVER <mosver@doc.gov>, Karol.Sabodocha@nypd.org <Karol.Sabodocha@nypd=
+.org>, HREmployeeServices@doc.nyc.gov <HREmployeeServices@doc.nyc.gov>, d=
+oc@dc.gov, doc-del@libraries.cul.columbia.edu, Constituentservices@doc.ny=
+c.gov <Constituentservices@doc.nyc.gov>, CHERYL 00068govtIdx CADUE <Chery=
+lCa@doc.ks.gov>, bdocs2019@gmail.com, support@nicic.gov, NYM-PREAComplian=
+ceMgr-S@bop.gov <NYM-PREAComplianceMgr-S@bop.gov>, Bop Info <info@bop.gov=
+>, CNK-CCM@bop.gov <CNK-CCM@bop.gov>, BRO-ExecAssistant-S@bop.gov <BRO-Ex=
+ecAssistant-S@bop.gov>, BOP-RSD-PREACOORDINATOR@bop.gov <BOP-RSD-PREACOOR=
+DINATOR@bop.gov>, BOP-IPP-PublicAffairs@bop.gov <BOP-IPP-PublicAffairs@bo=
+p.gov>, acjic@alacop.gov, ANNETTE 00000govtIdx FORD <ANNETTE.R.FORD@USDOJ=
+.GOV>, CAROL 00000govtIdx BURGER <CAROL.S.BURGER@USDOJ.GOV>, dojfax@bops.=
+gov, Randyc.wilson@usdoj.gov <Randyc.wilson@usdoj.gov>, tina.jeffery@usdo=
+j.gov <tina.jeffery@usdoj.gov>, Victimassistance.fraud@usdoj.gov <Victima=
+ssistance.fraud@usdoj.gov>, 4audit@bloomberg.net <4audit@bloomberg.net>, =
+CRC FTC REPORTS <CRCMESSAGES@ftc.gov>, crcomplaints@treasury.gov <crcompl=
+aints@treasury.gov>, TheBronxBBJccl@gmail.com, QueensBBJccl@gmail.com, Br=
+ooklynBBJccl@gmail.com=0D
+=0D
+=0D
+-------- Forwarded Message --------=0D
+Subject: 	Fwd: STATE FARM LIFE INSURANCE COMPANY AS A 'FIDELITY'UNDER THE=
+ 40-17G=0D
+Date: 	Sat, 4 Jun 2022 11:27:30 -0500=0D
+To: 	BILLING@CRYSTALCO.COM, info@crystalco.com, Aileen.Morris@alliant.com=
+, dkiehl@alliant.com, hr@alliant.com, jbaumann@alliant.com, jmannino@alli=
+ant.com, jmartin@alliant.com, ssampiere@alliant.com, tfilley@alliant.com,=
+ mshy1@bloomberg.net <mshy1@bloomberg.net>, Ms Hyld (MORGAN STANLEY ) <ms=
+hyld@bloomberg.net>, Morgan Stanley15 (MORGAN STANLEY ADVTG ) <mstanley15=
+3@bloomberg.net>, Morgan32 Stanley (MORGAN STANLEY ADVTG ) Morgan32 Stanl=
+ey (MORGAN STANLEY ADVTG ) <mstanley321@bloomberg.net>, Morgan Stanley154=
+ (MORGAN STANLEY ADVTG ) Morgan Stanley154 (MORGAN STANLEY ADVTG ) <mstan=
+ley1541@bloomberg.net>, amodesto@marketaxess.com <amodesto@marketaxess.co=
+m>, james.morrison@suntrust.com <james.morrison@suntrust.com>, lee.nalley=
+@suntrust.com <lee.nalley@suntrust.com>, paul.elizondo@suntrust.com <paul=
+.elizondo@suntrust.com>, Yuuji.Anderson@morganstanley.com, Tom.Mao@morgan=
+stanley.com, THOMAS.SMALLMAN@MORGANSTANLEY.COM, Spencer.Chang@morganstanl=
+ey.com <Spencer.Chang@morganstanley.com>, Sarah.Roberts1@morganstanley.co=
+m, Sanjit.Singh@morganstanley.com, priya.raghuram@morganstanleys.com <pri=
+ya.raghuram@morganstanleys.com>, PRIYA.RAGHURAM@MORGANSTANLEY.COM, Patric=
+k.Grady@morganstanley.com, Nick.Savone@morganstanley.com, MSHY15@MORGANST=
+ANLEY.COM, mscampusrecruiting@morganstanley.com, ms-etf-am@morganstanley.=
+com <ms-etf-am@morganstanley.com>, morgan.nelson@tudor.com, Michael.Zezas=
+@morganstanley.com <Michael.Zezas@morganstanley.com>, Meta.Marshall@morga=
+nstanley.com, Melissa.A.Gorham@morganstanley.com, mediainquiries@morganst=
+anley.com <mediainquiries@morganstanley.com>, matrix@morganstanley.com, M=
+artijn.Rats@morganstanley.com <Martijn.Rats@morganstanley.com>, Mark.Schm=
+idt1@morganstanley.com <Mark.Schmidt1@morganstanley.com>, LASEK@MORGANSTA=
+NLEY.COM, kerri.saperstein@morganstanley.com <kerri.saperstein@morganstan=
+ley.com>, Keith.Weiss@morganstanley.com, Josh.Baer@morganstanley.com, joh=
+n.varriano@morganstanley.com <john.varriano@morganstanley.com>, jmorgan27=
+4@bloomberg.net <jmorgan274@bloomberg.net>, Jessica.Colpani@morganstanley=
+.com, Jeen.Ng@morganstanley.com <Jeen.Ng@morganstanley.com>, JAMES GORMAN=
+ [MORGAN STANLEY] <james.gorman@morganstanley.com>, James.Faucette@morgan=
+stanley.com, james.f.egan@morganstanley.com <james.f.egan@morganstanley.c=
+om>, hketf@morganstanley.com <hketf@morganstanley.com>, Harald.Hendrikse@=
+morganstanley.com <Harald.Hendrikse@morganstanley.com>, europeanetf@morga=
+nstanley.com <europeanetf@morganstanley.com>, Emma.Bennett@morganstanley.=
+com, edelivery@morganstanley.com, David.Hamburger@morganstanley.com <Davi=
+d.Hamburger@morganstanley.com>, colin.brooks@morganstanley.com <colin.bro=
+oks@morganstanley.com>, Chris.Manners@morganstanley.com <Chris.Manners@mo=
+rganstanley.com>, Brad.Roche@morganstanley.com <Brad.Roche@morganstanley.=
+com>, Adam.Jonas@morganstanley.com <Adam.Jonas@morganstanley.com>, rebecc=
+a.hammer@evercoreisi.com <rebecca.hammer@evercoreisi.com>, melissa.pumphr=
+ey@evercoreisi.com <melissa.pumphrey@evercoreisi.com>, lydia.boussour@eve=
+rcoreisi.com <lydia.boussour@evercoreisi.com>, jaewoo.nakajima@evercoreis=
+i.com <jaewoo.nakajima@evercoreisi.com>, ed.hyman@evercoreisi.com <ed.hym=
+an@evercoreisi.com>, dick.rippe@evercoreisi.com <dick.rippe@evercoreisi.c=
+om>, replacementprogram@statefarm.com, njtsy1@bloomberg.net, _Legal, K-C =
+Privacy Team <privacy@kcc.com>, BUSDEV@FORESIDE.COM <BUSDEV@FORESIDE.COM>=
+, judcraig@fdic.gov <judcraig@fdic.gov>=0D
+CC: 	Andrew Keller [FINRA] <akeller106@bloomberg.net>, Andrew Korb [FINRA=
+] <akorb1@bloomberg.net>, Austin McCrary [FINRA] <amccrary@bloomberg.net>=
+, ASHLEY MEAD [FINRA] <amead11@bloomberg.net>, Andrew Smith [FINRA] <asmi=
+th1151@bloomberg.net>, Anthony Walker [FINRA] <awalker231@bloomberg.net>,=
+ Cassandra Kirk [FINRA] <ckirk21@bloomberg.net>, Chris Gursky [FINRA] <cs=
+gursky@bloomberg.net>, Dian Zhu [FINRA] <dian.zhu@finra.org>, FINRA Corpo=
+rate Notification <finracorporatenotification@finra.org>, FINRA Product M=
+anagement <finraproductmanagement@finra.org>, finrawebmaster@finra.org <f=
+inrawebmaster@finra.org>, FINRA CAT Helpdesk <help@finracat.com>, hesham.=
+ibrahim@finra.org, iard@finra.org, Jessica.Brach@finra.org, Josephine.Vel=
+la@finra.org <Josephine.Vella@finra.org>, John Sagan [FINRA] <jsagan8@blo=
+omberg.net>, Joshua Wong [FINRA] <jwong554@bloomberg.net>, Kimberly Berry=
+ [FINRA] <k28826@bloomberg.net>, Kenneth Thompson [FINRA] <kthompson84@bl=
+oomberg.net>, michelle.ong@finra.org, nancy.condon@finra.org, pfrdsupport=
+@finra.org, Finra Webmaster <postmaster@finra.org>, ray.pellecchia@finra.=
+org, rosalyn.marcus@finra.org <rosalyn.marcus@finra.org>, Rosinna Rivera =
+[FINRA] <rrivera88@bloomberg.net>, TRACE Data Services <tracedataservices=
+@finra.org>, Finra Webmaster <webmaster@finra.org>, assessments@fdic.gov =
+<assessments@fdic.gov>=0D
+=0D
+=0D
+-------- Forwarded Message --------=0D
+Subject: 	RE: STATE FARM LIFE INSURANCE COMPANY AS A 'FIDELITY'UNDER THE =
+40-17G=0D
+Date: 	Sat, 4 Jun 2022 11:23:49 -0500=0D
+From: 	B D2022 <ms60710444266@yahoo.com>=0D
+=0D
+=0D
+"NOT COVERED" FOR OMISSIONS.=0D
+=0D
+THE LINKS IN THIS ATTACHMENT ARE EASIER TO CLICK AND REVIEW AS WELL.=0D
+=0D
+ALL REFERENCES ARE PRIMARILY FILED IN THE MATTER OF NYSCEF 153974/2020, A=
+ND ALSO WITH THE DEPT. OF BUILDINGS.=0D
+- REGARDING THE UNLAWFUL RENTS AND LEASES TRANSFERRED TO STATE FARM IN MA=
+Y OF 2020, WERE ALL ANNEXED IN THE OMISSIONS AS SEEN IN THOSE SEC FILINGS=
+, WHERE APPLICABLE.=0D
+=0D
+   =0D
+MY APOLOGIES FOR THE TYPOGRAPHICAL ERRORS AS WELL.=0D
+=0D
+   =0D
+=0D
+MOST RESPECTFULLY,=0D
+=0D
+        =0D
+/S/ BARIS DINCER=0D
+    RESPONDENT IN THE MATTER OF NYSCEF 153974/2020=0D
+=0D
+   =0D
+=0D
+SEE ALSO: NOTICE THE CEO OF MORGAN STANLEY AND ON NOVEMBER OF 2021.=0D
+    A GENTLEMAN I AM FAMILIAR WITH SINCE 2010.=0D
+=0D
+    =0D
+THANK YOU GOVERNOR HOCHUL, THE SMALLER FILE HAS LINKS THAT ARE EASIER TO =
+HIT THAN PAR TWO AT AN EXECUTIVE 9.=0D
+=0D
+<https://www.dfs.ny.gov/system/files/documents/2020/05/inst_hist_list_202=
+00520.txt>=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/0363e59f23d6ec11a7b5=
+000d3a1afadb/BB-117taxFiles.pdf>=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/598c8e2d1ed6ec11a7b5=
+002248307aa9/2022-03-08-CertificateOfOccupany117.PDF>=0D
+=0D
+2021-11-16 13:53=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/74a81fd21dd6ec11a7b5=
+002248307f33/2021-11-16-483docNotice.png>=0D
+BIS   =0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/04f8a7b21dd6ec11a7b5=
+000d3a1afadb/03.07.2022.BIN.CODE.1007779.BIS.PDF>=0D
+40-17G  =0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/947fe7e276d5ec11a7b5=
+000d3a1af965/40-17GA.FIDELITY-SFITX-Terrance.LifeInsurance.PDF>=0D
+=0D
+=0D
+Wilson Elser   =0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/792d8e5c77d5ec11a7b5=
+002248307b90/2020-05-05-MIFID-WilsonElser.PDF>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/8aa4bc1e1ed6ec11a7b5=
+002248307aa9/2021-12-18-BillCassesePriya.png>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/b580536bccd7ec11a7b5=
+0022483079c1/34-92237-GUGGENHEIM.pdf>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/6cf3b518ccd7ec11a7b5=
+002248307b90/33-10979-CEASE-AND-%20DESIST%20PROCEEDINGS.pdf>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/1bce022bccd7ec11a7b5=
+002248307aa9/34-91853-SECTION15(b)21C-SECURITIES%20EXCHANGE%20ACT%20OF%20=
+1934.pdf>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/5c27f21fccd7ec11a7b5=
+000d3a1af965/34-90875-BD-ORDER%20INSTITUTINGCEASE-AND-DESIST%20PROCEEDING=
+S.pdf>=0D
+=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/abb106a7c7d7ec11a7b5=
+002248307b90/2022-05-10-117SullivanStreetblock503-lot11.PDF>=0D
+=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/9afb6dafc7d7ec11a7b5=
+002248307f33/2022-05-13-PeepingToms.PDF>=0D
+=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/b01d271dc7d7ec11a7b5=
+002248307b90/2021-11-22-ColumbiaCounselors.PDF>=0D
+=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/8661f257c7d7ec11a7b5=
+000d3a1afadb/2022-05-07%20UnlawfulCustodys-ViolationofPrivacy-Scott.PDF>=0D=
+
+<https://saaze2311prdsra.blob.core.windows.net/clean/f6c274f5c4d7ec11a7b5=
+000d3a1afadb/GrossUndervaluation.png>=0D
+=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/18e26ad2c4d7ec11a7b5=
+000d3a1afadb/email.20201005-wilsonElser-Quash.pdf>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/9e4f5505c3d7ec11a7b5=
+000d3a1956dd/Nov%2018-2021-Northern%20Trust%20SAPS.PDF>=0D
+=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/43aef9f5c2d7ec11a7b5=
+000d3a1af965/F1-MultiSF-Zucker.png>=0D
+=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/0f5f80b2c2d7ec11a7b5=
+000d3a1afadb/aml-risk-alert-Bank%20Secrecy%20Act%20.pdf>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/4924a6aec1d7ec11a7b5=
+000d3a1956dd/2022-05-05-TMC-CORPS-Standards.PDF>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/d67f1ea1c1d7ec11a7b5=
+002248307b90/2022-5-05-TaxEvasion-Obstructions.PDF>   =0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/5ce9008cc1d7ec11a7b5=
+002248307b90/2022-03-27-ColinBrooks.png>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/f0fe07ffbfd7ec11a7b5=
+002248307b90/05-10-2022%20-%20117AssessmentReceipts%202022-05-16%20at%203=
+.50.29%20PM.pdf>  =0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/417a528cbfd7ec11a7b5=
+002248307aa9/05-10-2022-117%20Property%20Assessment.pdf>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/1e832e5dbfd7ec11a7b5=
+000d3a1956dd/StatementSearch117-taxBill.pdf>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/2ddcc0a5bed7ec11a7b5=
+000d3a1956dd/05-10-2022%20-%20117AssessmentReceipts%202022-05-16%20at%203=
+.50.29%20PM.pdf>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/9181a98abcd7ec11a7b5=
+002248307f33/august%208th%202020-6MM%20no%20CofO.PDF>   =0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/a54d114ebcd7ec11a7b5=
+002248307f33/117.BLOCK.503.lot.11-noLegalGroundsToclectRent-uninhabitable=
+%20.pdf>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/36c5b6a4bad7ec11a7b5=
+000d3a1af965/2022-5-05-TaxEvasion-Obstructions.PDF>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/22847c5cbad7ec11a7b5=
+002248307f33/2022-03-07.NO%20CERTIFICATE%20of%20occupancy%20117.png>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/bab7741fbad7ec11a7b5=
+002248307b90/2020-08-09.NYSCEF.png>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/ea2fe2f1acd7ec11a7b5=
+002248307b90/2020-08-11%20DOB-MTxx3415.png>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/732fabe9acd7ec11a7b5=
+0022483079c1/2020-08-09-67PP-50074.png>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/231090fcacd7ec11a7b5=
+002248307aa9/2021-12-19-ColumbiaCounselors.PDF>=0D
+=0D
+#311-10349895   2022-03-07.legal use 117.png   =0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/8f2f6058aed7ec11a7b5=
+000d3a1956dd/2022-03-07.LEGAL%20USE%20117.png>=0D
+2022-05-11-noticetoparties.pdf   =0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/2b44ec70aed7ec11a7b5=
+002248307aa9/2022-05-11-NOTICETOPARTIES.PDF>=0D
+2022-05-07-jpmorgan-93715   =0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/f7129668aed7ec11a7b5=
+0022483079c1/2022-05-07-JPMORGAN-93715.PDF>=0D
+dincermot212.pdf=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/19997802b0d7ec11a7b5=
+0022483079c1/DincerMOT212.pdf>=0D
+aa-pr2022-55-disgorgeill-gotten-gains=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/deff13f5afd7ec11a7b5=
+002248307b90/AA-pr2022-55-disgorgeill-gotten-gains%20.pdf>=0D
+Notice to Gorman  =0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/d83e3b0ab0d7ec11a7b5=
+002248307b90/Fwd%20Folder%201.png>=0D
+Notice Nov 16, 2021=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/f4a3b0f5b1d7ec11a7b5=
+0022483079c1/Nov16-JamesGorman.png>=0D
+August 8, 2020=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/7c586100b2d7ec11a7b5=
+002248307aa9/MotherCOMPANY.png>=0D
+Docket 420=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/b53cd2e8b1d7ec11a7b5=
+0022483079c1/Random%20selections.png>=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/deff13f5afd7ec11a7b5=
+002248307b90/AA-pr2022-55-disgorgeill-gotten-gains%20.pdf>=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/ea2fe2f1acd7ec11a7b5=
+002248307b90/2020-08-11%20DOB-MTxx3415.png>=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/732fabe9acd7ec11a7b5=
+0022483079c1/2020-08-09-67PP-50074.png>=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/231090fcacd7ec11a7b5=
+002248307aa9/2021-12-19-ColumbiaCounselors.PDF>=0D
+=0D
+DATE: May 17, 2022 at 9:26:39 PM EDT      =0D
+FROM:         Bo Dincer <bdincer66@icloud.com> =0D
+TO:         CRC FTC REPORTS <crcmessages@ftc.gov>, <crcomplaints@treasury=
+.gov> =0D
+CC:         BBO 121 <ms60710444266@yahoo.com>, <governor.hochul@exec.ny.g=
+ov>, Jenny Roche <jennyroche@kpmg.com.au> =0D
+SUBJECT:     7398=0D
+=EF=BB=BF<https://saaze2311prdsra.blob.core.windows.net/clean/0f198ce646d=
+6ec11a7b5002248307f33/2022-05-04-EstoppelDENIED.PDF>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/30ae18d746d6ec11a7b5=
+000d3a1afadb/2022-03-18-WilsonElser%20Firm.PDF>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/0e0bc9b146d6ec11a7b5=
+002248307b90/2020-11-30-0000093715-Properties10012.PDF>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/95a1de3254d6ec11a7b5=
+002248307aa9/merger%20FORM%20N-8F%20application.pdf>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/df1109e153d6ec11a7b5=
+002248307aa9/IMG_7398-1.jpg>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/a39926c853d6ec11a7b5=
+000d3a1afadb/IMG_7396.jpg>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/8bc8ded653d6ec11a7b5=
+002248307b90/IMG_7397.jpg>   =0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/63ad67a052d6ec11a7b5=
+000d3a1956dd/IMG_7393.jpg>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/a3fd060453d6ec11a7b5=
+000d3a1af965/IMG_7395.jpg>=0D
+   =0D
+INSIDER TRADING AND OBSTRUCTION=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/80832e9f4ad6ec11a7b5=
+000d3a1956dd/2022-05-08-TAX%20EVASION-InsiderOBSTRUCTIONS.PDF>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/cd7272864ad6ec11a7b5=
+000d3a1956dd/Nov%2016%202021-10%20attachments.png>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/3e980ca54ad6ec11a7b5=
+000d3a1afadb/BMW-MOTORSPORTS.png>=0D
+=EF=BB=BF=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/0f198ce646d6ec11a7b5=
+002248307f33/2022-05-04-EstoppelDENIED.PDF>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/30ae18d746d6ec11a7b5=
+000d3a1afadb/2022-03-18-WilsonElser%20Firm.PDF>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/0e0bc9b146d6ec11a7b5=
+002248307b90/2020-11-30-0000093715-Properties10012.PDF>=0D
+=0D
+November 16, 2021=0D
+NOTICE:         Pricewaterhouse coopers and state farm.=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/c31213993cd6ec11a7b5=
+000d3a1956dd/STATE%20FARM%20-%20PWC%20-%20%20INFO%20-%20nov16-2021.pdf>=0D=
+
+=0D
+November 17, 2021=0D
+NOTICE:         Ingram, and the Zucker Organizations=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/0d16940d3dd6ec11a7b5=
+0022483079c1/Nov17-2021-IngramZuckers.PDF>=0D
+=0D
+May 9, 2022=0D
+NOTICE:            ALL MATERIAL PARTIES THEREAFTER.=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/847789e43cd6ec11a7b5=
+000d3a1af965/TAX%20EVASIONLoan50075.PDF>=0D
+=0D
+SECURITY DEPOSIT(S) ARE HELD IN CUSTODY AT JP MORGAN CHASE BANK, N/A=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DR9aac7D6=
+DBJZ1wsiq0b38A=3D=3D>=0D
+=0D
+--- SULLIVAN PROPERTIES LP=0D
+      101 WEST 55TH STREET, NEW YORK, NY, 10019=0D
+      103 WEST 55TH STREET, NEW YORK, NY, 10019=0D
+    - DID NOT AND DO NOT HAVE A CERTIFICATE OF OCCUPANCY FOR ANY OF THE F=
+OLLOWING PROPERTIES.=0D
+---  ALL ARE LOCATED IN NEW YORK, NY, AND ZIP CODE 10012.=0D
+=0D
+    A.     111 REAR SULLIVAN STREET;=0D
+    B.    113 REAR SULLIVAN STREET;=0D
+    C.    115 REAR SULLIVAN STREET;=0D
+    D.    117 SULLIVAN STREET;=0D
+    E.    119 SULLIVAN STREET;=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DSgjFfExx=
+NV4Y4DTX6pANaA=3D=3D>=0D
+=0D
+THERE WERE NO CERTIFICATES OF OCCUPANCY ON FILE FOR MY APARTMENT.=0D
+    A.     111 REAR SULLIVAN STREET=0D
+        NEW YORK, NY, 10012=0D
+        AT ANY POINT IN TIME DURING MY RESIDENCY THERE, AND WHILE MY PRIV=
+ACY WAS GROSSLY VIOLATED.=0D
+        - NOTWITHSTANDING THE PROCEDURES IN THE MATTER WHICH WERE "OBSTRU=
+CTED" AND "OVERLOOKED"=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DIJ47OvVz=
+sLObNsXt0u8trg=3D=3D>=0D
+2020-08-04    =0D
+    111 SULLIVAN STREET CERTIFICATE OF OCCUPANCY WAS ANNEXED IN THE MATTE=
+R OF 153974/2020=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DzXega0sL=
+ahw5fVuBTVtpnw=3D=3D>=0D
+111 REAR SULLIVAN STREET    =0D
+    LEGAL ADULT USE: NO=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D9zQd7Hu3=
+cy9vp6I960WGNQ=3D=3D>=0D
+RENT PAYMENTS  2020_07_25=0D
+HAVE NOT BEEN REFUNDED AS OF CURRENT.   NOTWITHSTANDING MY DEMANDS, A DEF=
+AULT " NON-JOINDER " IN THE MATTER OF 153974/2020.=0D
+    1.    MY SECURITY DEPOSIT ALSO WAS NOT RETURNED;=0D
+    2.    THE GREATER AMOUNTS OF RENTS AND SECURITY ARE "PURPORTED" AS IN=
+COME FOR LAWFUL RENT PAYMENT(S);=0D
+    3.    HELD IN CUSTODY AT JP MORGAN CHASE, N/A;=0D
+    4.     THE INITIAL FINANCING / MORTGAGE TO PURCHASE THE PROPERTIES IN=
+ QUESTION WERE ALSO PROVIDED BY JP MORGAN CHASE IN 1989.=0D
+    <https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?doc_i=
+d=3DFT_1000000324600>=0D
+    <https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?doc_i=
+d=3DFT_1350000324035>=0D
+    <https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentDetail?doc_id=3D=
+FT_1350000324035>=0D
+=0D
+=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+THE LOAN DOCKETS AND TAX RECEIPTS WERE ANNEXED IN THE MATTER OF 153974/20=
+20.=0D
+- THE ACCOUNT ADDRESS YOU SHOULD HAVE FOR THE ENTITIES BELOW SHOULD BE:  =
+  =0D
+    101 WEST 55TH STREET, NEW YORK, NY, 10019; or=0D
+    103 WEST 55TH STREET, NEW YORK, NY, 10019=0D
+=0D
+- UNDER THE CORPORATE NAMES, OR INDIVIDUALS=0D
+[ DONALD ZUCKER, LAURIE ZUCKER, ANDRES REYNOSO, OR ONE OF THEIR OTHER DIR=
+ECTORS UNDER THESE ENTITIES ]=0D
+    A. SULLIVAN PROPERTIES LP;=0D
+    B. SULLIVAN GP LLC; or=0D
+    C. MANHATTAN SKYLINE MANAGEMENT CORP.=0D
+=0D
+AND UNDER OF THOSE ADDRESSES IN ZIPCODE "10019" NOT "10018" AS SWORN TO U=
+NDER OATH=0D
+THROUGHOUT THE PROCEEDINGS IN NYSECEF MATTER 153974/2020 AND TO AVOID PRO=
+SECUTION.=0D
+--- IN AND OR ITSELF IS A DEMONSTRATION OF AN "OBSTRUCTION" OF JUSTICE.=0D=
+
+        a.    101 WEST 55TH STREET, NEW YORK, NY, 10019=0D
+        b. 103 WEST 55TH STREET, NEW YORK, NY, 10019=0D
+    =0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DMjxo9_PL=
+US_FdCN/p2Jrgw4MkIQ=3D=3D>=0D
+PER THE NEW YORK SUPREME COURT DOCKETS=0D
+- CUSTODY OF THOSE ASSETS ARE HELD AT:     JP MORGAN CHASE, N/A=0D
+=0D
+Please understand that BEYOND the RENT and SECURITY which was stolen=0D
+ from one of the three, initially -  was a responsibility that was handed=
+ off to State Farm in May of 2020.=0D
+     A. SULLIVAN PROPERTIES LP;=0D
+    B. SULLIVAN GP LLC; or=0D
+    C. MANHATTAN SKYLINE MANAGEMENT CORP.=0D
+=0D
+[ as discussed at your branch on 2022-05-13, have mysteriously disappeare=
+d ]=0D
+=0D
+Are also liable for other default provisions under a certain " non-joinde=
+r " and beyond the unlawful rents=0D
+ and security deposits which are in your custody as of current - are not =
+permitted as accessible per the FDIC=0D
+ and at any US depository institution. This was all Filed and in New York=
+ State Supreme Matter 153974/2020=0D
+ and under the Honorable Schlomo Haggler, J.S.C., for reference.  =0D
+ =0D
+ 2020-06-15=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DR9aac7D6=
+DBJZ1wsiq0b38A=3D=3D>=0D
+=0D
+1.    2020-08-04  NO COMPLAINTS FILED IN MY RESIDENCE OR BUILDING, EVER.=0D=
+
+2.    NO GROUNDS TO LEGALLY COLLECT RENT AND/OR SECURITY DEPOSITS FOR ANY=
+ OF THOSE PROPERTIES.=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DDnmjCPN_=
+PLUS_DIIELjZFua7gWQ=3D=3D>=0D
+=0D
+Notice to Parties named sent via email:    WITH ENCLOSURES TO AMEND CAPTI=
+ON.=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DyMXQNekW=
+7te0QA5jjAvP2w=3D=3D>=0D
+=0D
+DOB RECORDS.        =0D
+ADDRESS INFORMATION FROM THE NEW YORK CITY DEPARTMENT OF BUILDINGS.  =0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DCeL5zAaU=
+K8tfWrX9kp/QdA=3D=3D>=0D
+=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DupAzS2FC=
+6bICOGxa73ptdg=3D=3D>=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+RENT STATEMENTS AND RECEIPTS OF PAYMENTS.  =0D
+=0D
+RENT STATEMENT         =0D
+2020, FEBRUARY  =0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D4PiwGksC=
+Jul/AGvyopmH8g=3D=3D>=0D
+=0D
+RENT STATEMENT           =0D
+2020, MAY=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DvMB0J4qa=
+YgauPBeEMLIOXA=3D=3D>=0D
+=0D
+RENT PAYMENT            =0D
+2020, MAY  =0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DwCwqZV3k=
+3dKPIhAESd/oag=3D=3D>=0D
+=0D
+STATEMENT:        REQUESTED A REFUND OF ALL UNLAWFUL FEES.    =0D
+[ NO RESPONSE ]    =0D
+06-03-2020,=0D
+07-31-2020  =0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dvd54Sn1R=
+LwYlVxoKhGh0xg=3D=3D>=0D
+=0D
+RENT PAYMENT RECEIPT AND MONTHLY STATEMENT  =0D
+07-31-2020  $3106     =0D
+[ 25% INCREASE:  WITHOUT LEGAL GROUNDS OR REASONABLE CAUSE WAS PAID ]  =0D=
+
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D4WL76ylX=
+Ctw_PLUS_H5zwmPPkZw=3D=3D>=0D
+=0D
+RENT PAYMENT RECEIPT AND MONTHLY STATEMENT  =0D
+05-31-2020  =0D
+$600 IN PENALTIES ARBITRARILY INVOICED=0D
+- PAID, AND HAS NOT BEEN RE-FUNDED, IS IN FACT AN UNLAW HOLDING DEPOSITED=
+ AT JP MORGAN CHASE BANK.=0D
+=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DhSVGBDz7=
+FlXskw5BZ_PLUS_e_PLUS_ZA=3D=3D>=0D
+=0D
+=0D
+RENT PAYMENT RECEIPT AND REQUEST FOR REFUND=0D
+06-03-2020=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DEJfqnPTV=
+v0u9BQ/iFgKRew=3D=3D>=0D
+=0D
+PLAINTIFF DID NOT HAVE A CERTIFICATE OF OCCUPANCY FOR THIS PROPERTY=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DSgjFfExx=
+NV4Y4DTX6pANaA=3D=3D>=0D
+=0D
+JULY RENT IS REFUSED BY LANDLORD, AND SO ARE ANY OTHER DEMANDS=0D
+- AND A CHANGE IN CAPTION WAS OBSTRUCTED AND ALSO REFUSED ( "NON-JOINDER"=
+ ) BY DEFAULT.=0D
+- A VICTORY, NOTTWITHSTANDING A FAILURE TO FILE AN "RJI" DOCKET 36 WITH T=
+HE CORRECT ADDRESS.=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dewwxg8z5=
+wECGtkuHHm8O9A=3D=3D>=0D
+=0D
+EXHIBITS ANNEXED IN NYSCEF MATTER 153974/2020=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DrjL6yoW3=
+Mt2U6UigWCM9XQ=3D=3D>=0D
+=0D
+TAX MAP BLOCK 503=0D
+- LOT 8  =0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy=
+0G0QvnmRLGpYIQ=3D=3D>=0D
+=0D
+PLAINTIFF ASSIGNED LEASES AND RENTS TO STATE FARM ON MAY 15TH=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dze6a1KA9=
+akRV9TGfXXJT/g=3D=3D>=0D
+=0D
+ACRIS Detailed  Document Information (2019000021408)2019010800475001=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DbVk8sIt7=
+n3kGwHqebPg0fw=3D=3D>=0D
+=0D
+=0D
+=0D
+=0D
+CONT. Detailed information of the Block 503 and LOTS transffered.=0D
+=0D
+=0D
+ACRIS Detailed Document Information (2020000155422)2020052000291003  =0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DwTG2YD2P=
+qXuxmoKqFiESrw=3D=3D>=0D
+=0D
+ACRIS Detailed Document Information (2020000155421)2020052000291002=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn=
+66hrVmJ9DX_PLUS_bdg=3D=3D>=0D
+=0D
+ACRIS Detailed Document Information (2020000155422)2020052000291003=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiK=
+J0BGv2DF/MOn4g=3D=3D>=0D
+=0D
+ACRIS Detailed Document Information (2020000155423)2020052000291004  =0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFz=
+m0ynPeXZKSHgLQ=3D=3D>=0D
+=0D
+ASSIGNMENT OF LEASE AND RENTS ON FILED ON MAY 26TH=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D7Ry3LAoV=
+fWOLjSXhyJZ94A=3D=3D>=0D
+=0D
+NOTICE to State Farm   =0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DK9sgXcwe=
+C7esRoSPO8MNtA=3D=3D>=0D
+=0D
+NOTICE from Sullivan Properties LP=0D
+101 west 55th Street, New York, NY, 10019=0D
+=0D
+COMPLAINT FILED WITH THE BETTER BUSINESS BUREAU FOR EXCESSIVE RENTS ARBIT=
+RARILY INVOICED.=0D
+COMPLAINT #14585819 (7/25/2020) FILED WITH THE BETTER BUSINESS BUREAU=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DEJfqnPTV=
+v0u9BQ/iFgKRew=3D=3D>=0D
+=0D
+NO CERTIFICATE OF OCCUPANCY  AUGUST 4TH, 2020=0D
+- RENT PAYMENT RECEIPT AND MONTHLY STATEMENT=0D
+- 07_31_2020 WITH 8,106.21 IN LEGAL FEES, PER THEIR BOOKS AND RECRODS.=0D=
+
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dlq9Z3VE3=
+sO4pTEk1UrHB2Q=3D=3D>=0D
+=0D
+RENT PAYMENT RECEIPT AND MONTHLY STATEMENT 07_21_2020=0D
+- CLICK PAY IS NO LONGER ACCEPTING PAYMENTS, FOLLOWING THE TRANSFER OF LE=
+ASES TO STATE FARM.=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DiK7ZjdNL=
+Vty6kLSL4SjeoA=3D=3D>=0D
+=0D
+RENT PAYMENT RECEIPT AND MONTHLY STATEMENT 04_30_2020=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D_PLUS_Tl=
+rEGCsUUcCcvtJ8O/dfg=3D=3D>=0D
+=0D
+PLAINTIFFS POLICIES AND PROCEDURES FOR INSURANCE=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DmzFuOKAU=
+p7O4ARBxH4uCDA=3D=3D>=0D
+=0D
+00002_LANDLORD_REFUSES_PAYMENT=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D2lQuDSfP=
+u51L3OhNqqRGvg=3D=3D>=0D
+=0D
+PROPERTY RECORDS: PROPERTY SHARK=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUAXjpRh1=
+KO2_PLUS_8KsdF1TuQA=3D=3D>=0D
+=0D
+NOTICE TO CHANGE CAPTION IN THIS MATTER, WITH ATTACHED PROPERTY SHARK REC=
+ORDS.  =0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DXkdNmKBg=
+hAAqMUItDdrwxA=3D=3D>=0D
+=0D
+NOTICE TO CHANGE CAPTION IN THIS MATTER, WITH ATTACHED PROPERTY SHARK REC=
+ORDS.=0D
+2020-08-04,FOLLOWING THE TRANSFER OF LEASES AND RENTS TO STATE FARM ( ITS=
+ 'FIDELITY' )=0D
+- THEN DEFINED.  =0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DcWLErrXb=
+Ew5qtOLVeWU/7g=3D=3D>=0D
+=0D
+NOTICE TO CHANGE CAPTION IN THIS MATTER, TO ADD STATE FARM AS A RESPONDEN=
+T=0D
+NOTICE FAXED TO STATE FARM ON 2020-08-08, AND ANNEXED IN NYSCEF 153974/20=
+20  =0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DXjn0/e1N=
+cBADqRc_PLUS_g11P4g=3D=3D>=0D
+=0D
+--- CAUSE TO INVOICE BEYOND BANDS OF $3000.00 [J-51]=0D
+--- SOLELY FOR ECONOMIC INTERESTS OF STATE FARM & SULLIVAN PROPERTIES LP;=
+=0D
+    AND ITS AFFILIATED COMPANIES, AND INDIVIDUALS.=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dd7t3ED/Z=
+4rcggm8dkQ0Jlg=3D=3D>=0D
+=0D
+SUPPLEMENTS FOR CONVENIENCE.=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5=
+000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/8de5f89e10d3ec11a7b5=
+002248286421/CE48526B-6A0E-4B2A-89B9-93BD202498A9.jpeg>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/a463845010d3ec11a7b5=
+000d3a1326fe/0F6C27D5-69BD-4971-91F6-A5A40317CC63.jpeg>=0D
+=0D
+=0D
+ADVISERS INVESTMENT TRUST=0D
+CIK 1516523=0D
+-    JOE MONK=0D
+-    CRD#1357149=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b5=
+00224828654e/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[=
+$CIK%201516523]%20MONK[CRD%201357149].pdf>=0D
+=0D
+=0D
+=0D
+STATE FARM VP MANAGEMENT CORP.=0D
+CRD# 43036=0D
+-    JOE MONK=0D
+-    CRD#1357149=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/5380dd8997d3ec11a7b5=
+000d3a132789/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[=
+$CIK%201516523]%20MONK[CRD%201357149].pdf>=0D
+=0D
+STATE FARM VP MANAGEMENT CORP.=0D
+CRD# 43036=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5=
+000d3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf>=0D
+=0D
+ADVISERS INVESTMENT TRUST=0D
+CIK 1516523=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/25aff4b997d3ec11a7b5=
+00224828654e/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Trust%20[=
+$CIK%201516523]%20MONK[CRD%201357149].pdf>=0D
+=0D
+THE REFERENCE TO STATE FARM REALTY INSURANCE=0D
+- ANNEXED IN DOCKET 399 DATED 08/10/2020=0D
+- IS AN OBSTRUCTION TO THE CORRECT ENTITY, AND ALLUDES TO THE FACT=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/3bb9011795d3ec11a7b5=
+000d3a132789/153974-2020.Docket399.FTC.StateFarmRealtyInsuranceLLC.pdf>=0D=
+
+=0D
+THE CORRECT ENTITY IS STATE FARM REALTY MORTGAGE LLC=0D
+- WHICH IS A SUBSIDIARY OF " STATE FARM LIFE INSURANCE COMPANY "=0D
+=0D
+-- THE STATE FARM LIFE INSURANCE COMPANY IS A DISCLOSED BUSINESS OF MATER=
+IAL INTEREST OF THE INVESTMENT ADVISER [ 3487 ]=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/ff91792a95d3ec11a7b5=
+0022482864f0/[sfVP43036]%20$2876793%20-%20david.moore%20$3487%20-%20IA%20=
+8018184.pdf>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/af081f4095d3ec11a7b5=
+0022482864f0/[STATE%20FARM%20VP%2043036]%20$3231040-2004555.pdf>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b5=
+002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdf>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/d88e25ae5fd3ec11a7b5=
+002248286997/StateFarmVP%20Management%20Corp-CRD%2343036.pdf>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5=
+000d3a1326fe/TAX%20EVASION%20%20attachments%20%252F%20Omissions.%20.pdf>=0D=
+
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11a7b5=
+000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/172de37992d3ec11a7b5=
+00224828654e/[sfVP%2043036]%204971235-%20$SMITH%20-%20SEMI.pdf>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11a7b5=
+002248286997/[SF.VP%2043036]%202876793%20-%20$david%20moore%20$3487%20-%2=
+0IA%208018184.pdf>=0D
+=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/9194266492d3ec11a7b5=
+00224828654e/[sf%20VP%2043036-$3487]%201943922-%20$%20tipsord%20$%20STATE=
+%20FARM%20mutual%20automobile%20insurance%20company-$3487.pdf>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/172de37992d3ec11a7b5=
+00224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20SEMI.pdf>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11a7b5=
+002248286997/[SF.VP%2043036]%202876793%20-%20$david%20moore%20$3487%20-%2=
+0IA%208018184.pdf>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/9194266492d3ec11a7b5=
+00224828654e/[sf%20VP%2043036-$3487]%201943922-%20$%20tipsord%20$%20STATE=
+%20FARM%20mutual%20automobile%20insurance%20company-$3487.pdf>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5=
+000d3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf>=0D
+=0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5=
+000d3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf>=0D
+=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DTxAa7cNV=
+IHKtnJU/ni/zvg=3D=3D>=0D
+=0D
+<https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?doc_id=3D=
+2020052000291003>=0D
+=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D_PLUS_Tl=
+rEGCsUUcCcvtJ8O/dfg=3D=3D>=0D
+=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy=
+0G0QvnmRLGpYIQ=3D=3D>=0D
+=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy=
+0G0QvnmRLGpYIQ=3D=3D>=0D
+=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFz=
+m0ynPeXZKSHgLQ=3D=3D>=0D
+=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn=
+66hrVmJ9DX_PLUS_bdg=3D=3D>=0D
+=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFz=
+m0ynPeXZKSHgLQ=3D=3D>=0D
+=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DTxAa7cNV=
+IHKtnJU/ni/zvg=3D=3D>=0D
+=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DLMUE9g_P=
+LUS_k6vCmKgfCSJEzuQ=3D=3D>=0D
+=0D
+/S/ BARIS DINCER.=0D
+    bdincer66@icloud.com=0D
+    MS60710444266@YAHOO.COM=0D
+    TEL.: 646-256-3609=0D
+    ALT.: 917-378-3467=0D
+    =0D
+    117 SULLIVAN STREET, NEW YORK, NY, 10012=0D
+    unknown_1.png=0D
+    unknown.pdf=0D
+    unknown_1.png=0D
+    __________________=0D
+    Tel:  646-256-3609=0D
+    =0D
+HERE IS ONE ADDITIONAL REFERENCED TO THE AIDING AND OBSTRUCTION=0D
+- NAMELY TO THE INVOCATION OF TAX FRAUDS AND THE PARTICIPANTS.=0D
+    =0D
+<https://saaze2311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b5=
+000d3a1326fe/TAX%20EVASION%20%20attachments%20%252F%20Omissions.%20.pdf=0D=
+
+=0D
+=0D

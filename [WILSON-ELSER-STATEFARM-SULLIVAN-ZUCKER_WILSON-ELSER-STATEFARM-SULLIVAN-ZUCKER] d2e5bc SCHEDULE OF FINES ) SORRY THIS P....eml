@@ -1,0 +1,505 @@
+From - Mon Jun 27 14:01:55 2022
+X-Account-Key: account1
+X-UIDL: AH6LawkzMOEVYrn+UwUM+GHpmAI
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.31.112
+ by atlas311.free.mail.gq1.yahoo.com with HTTPS; Mon, 27 Jun 2022 19:00:34 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.210]
+Received-SPF: pass (domain of github.com designates 192.30.252.210 as permitted sender)
+Authentication-Results: atlas311.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 27 Jun 2022 19:00:35 +0000
+X-YMailAVSC: 879876A3bBtEelCbsaMPOslfYvuztIqJBed5SwSdooRV_eL
+ PjhGhk7xfibqtSZdVHR2A5mcEqUM8YqgRxhhKQumJeVhOFLtRRUmeEYmdKDq
+ hy.7CDphS09eiItxv5THv16U0S7joN5uvj1ZlI90OQXaifuNBzBu6Hsvp5bL
+ S6LBnos53GRQVUTntv6BrZGf.8qVU4_nG621MNMbU6ZjrlLj_TqcM.KnLR18
+ lesYO08SeW2.axEqULnTZ.CNnprAcd8Mlaiggdx24ZVI2lgAWMEXljvTTLTw
+ 9coUcdvPDvA77qS0m6TVGx4p3iOeK1WiM8IkWBCy_RnS6OzonWQblEqH0cb1
+ nHDE-
+X-YMailISG: 5Y02cewWLDsRZRcZUcPH6mWIDu7o_CkUY5H9nIHwDVMoS9C.
+ bUw8XDK1cV_N5AhA6kECN2VdcoqT.MonlHFXSX8CWjht1RMgPud4SboLOSnG
+ Zm9g4hCjhWwKv4qccgtvuv6WR07J5tbzFWPLkJqFK0FfeLDf8K3A.fNBNKhf
+ AdjCo2rWakjdOTm5AiyxXKHuRDPzWG4jMRWCe.rdrutSFlksZDwgoVRysiDs
+ Wb.grypXhF3sAjZefHypBKBex36TltrSvP63knxZclaSTK8dau6rc2TvyImY
+ nnMRWlbQP6fHvV2mx.rrh6uWzpcM1_U_8WCg7eaeNFoP0puIbwkPl_lPr4.5
+ EwrNc0.CBjOFUJahrQeoUlT35Q.ptA7XMXOpU3bqhRRSCNccBhC5hdhKrlfg
+ JcVqNVQCuuiMKpu98A1uyWRGbXzzSCAXqxtOpfVyoKTwb6u6kkbeTSZBTxMG
+ dp_pCaKQbzgzQFvzxf2F6ddPq2Xkk2Z0GLzlb4iGyu.7TdAj_E_do23X4N.f
+ p4QftRP_rNvctZNEH2qDHQi36byJ4rcN8R5.f45AxWyUA3AyBNcoYGBCYohE
+ Om0_hN.Kb3stl3i1f_w2XeqVikM4N9SHIlp3RA2NUYkdzonwtvNWIPX1PfaU
+ ugjhncMRwokpEWw04RhOllTMTR9AEG5f34d76..eHEKYLKheWPqOS_t9N.0P
+ frlUrRMfvvXnOIrUlPwe8JfRnRU7XDDOGR16siFJDrM8giX6Pfbv._w02VF0
+ 3UAN6TD5HjUfaKhY0RjkacVzuz.UQtvHgzclwFEhiPyAhKdrkepXa6u8cuKR
+ hSamvyDC7DbXS5o38r8AMeOkrg8sXyQSgI9j_REmLITUA597KLtv6abfSUgi
+ 3L0KCtfM3TGoQZOXMwP3DUCeRir1O70Y6dOGMRRFFZTpZX5_I1NvXEFy48d6
+ bh3oPxYzqlXnFCBnCH90jIa4jUC3PwYmCX3EmKR8ZCi.jH05aQnYmHRUcyOa
+ GFurCPtcp0TJhMXAD.Mk5.WMdjRuDy0CvfQUjGcJM.Qcf06EUP5sd2KUYr4F
+ INqml3NbxdyUwx1rf8D55reiSYkUirjSFjb14UNSaZWQF2otQD39OX9_W8ci
+ ZMxxlKTkdpNckNZU2_VGBAqiiWRh9.eNL8z2ZQjx.zsaVDciupGc8vXnFG3v
+ oWjLwkwg.NTjRFti5ICBTKTbyDsQIRzfEqLGv4jQgeVIh.ZBBCU-
+Received: from 192.30.252.210 (EHLO out-27.smtp.github.com)
+ by 10.253.31.112 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 27 Jun 2022 19:00:34 +0000
+Received: from github.com (hubbernetes-node-9142e01.ash1-iad.github.net [10.56.128.61])
+	by smtp.github.com (Postfix) with ESMTPA id EFC22901817;
+	Mon, 27 Jun 2022 12:00:33 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656356434;
+	bh=NCpb9k2NH7K9Ow48nJpaFj9e6Bg6VXmQrptyHPZ+4Ik=;
+	h=Date:From:To:Subject:From;
+	b=HGp5lvnsJ63CD2rqwraI8kITvOA/g2fENt2eeLS0vSsdAQZHN7+DUD/tEk11mfU/j
+	 eKN5JUjqOT9irqTcnwKjO26gXsJPYdi6VkcS18DBvhACwJhyesBOYMajSdFqwLOqcI
+	 aK9XAW8lPR4yuLG2SenDihY+Jicl6hCglLM1Zi84=
+Date: Mon, 27 Jun 2022 12:00:33 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/2dfe44-d2e5bc@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ d2e5bc: SCHEDULE OF FINES >> SORRY THIS P.O.S. LAPTOP IS G...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 23719
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: d2e5bc799f4cdca0fc4d5a34b30ec8cfb80abb70=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/d2e5bc799f4cdca0fc4d5a34b30ec8cfb80a=
+bb70=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-27 (Mon, 27 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  SCHEDULE OF FINES >> SORRY THIS P.O.S. LAPTOP IS GOING TO BE THE END OF=
+ THIS GROUP.=0D
+=0D
+USC 18,=C2=A7215. Receipt of commissions or gifts for procuring loans=0D
+=0D
+    (a) Whoever-=0D
+        (1) corruptly gives, offers, or promises anything of value to any=
+ person, with intent to influence or reward an officer, director, employe=
+e, agent, or attorney of a financial institution in connection with any b=
+usiness or transaction of such institution; or=0D
+        (2) as an officer, director, employee, agent, or attorney of a fi=
+nancial institution, corruptly solicits or demands for the benefit of any=
+ person, or corruptly accepts or agrees to accept, anything of value from=
+ any person, intending to be influenced or rewarded in connection with an=
+y business or transaction of such institution;=0D
+        -shall be fined not more than $1,000,000 or three times the value=
+ of the thing given, offered, promised, solicited, demanded, accepted, or=
+ agreed to be accepted, whichever is greater, or imprisoned not more than=
+ 30 years, or both, but if the value of the thing given, offered, promise=
+d, solicited, demanded, accepted, or agreed to be accepted does not excee=
+d $1,000, shall be fined under this title or imprisoned not more than one=
+ year, or both.=0D
+    (c) This section shall not apply to bona fide salary, wages, fees, or=
+ other compensation paid, or expenses paid or reimbursed, in the usual co=
+urse of business.=0D
+    (d) Federal agencies with responsibility for regulating a financial i=
+nstitution shall jointly establish such guidelines as are appropriate to =
+assist an officer, director, employee, agent, or attorney of a financial =
+institution to comply with this section. Such agencies shall make such gu=
+idelines available to the public.=0D
+=0D
+        FILED WITH THE SECURITIES AND EXCHANGE COMMISSION IN 2021,=0D
+=0D
+            UNDER CIK FILER 93715, (1) STATE FARM ASSURANCES FUNDS TRUST.=
+=0D
+            - DISCLOSE (2) STATE FARM LIFE INSURANCE COMPANY AS AN OUTSID=
+E BUSINESS IN THEIR FIRMS CRD FILINGS WITH FINRA, THE SAME ENTITY THAT NO=
+TARIZED AND COUNTERSIGNED ON LOAN 50074, DUALLY BY (3) DONALD ZUCKER WAS =
+EXECUTED ON MAY 13, 2020 - REPRESENTED BY THE ATTORNEYS ON BEHALF OF (4) =
+SULLIVAN PROPERTIES, LP, BELOW FOR CONVENIENCE.=0D
+=0D
+        THE DIRECTORS OF STATE FARM, WHO FILED WITH THE SECURITIES AND EX=
+CHANGE COMISSION.=0D
+=0D
+            BY:     (5) DAVID MOORE, (6) JOESEPH MONK, (7)PAUL J SMITH, A=
+ND UNDER (8)TERRENCE LUDWIG [AND OTHER DIRECTORS OF STATE FARM]=0D
+=0D
+        THE DIRECTORS OF STATE FARM, WHO FILED WITH THE FINANCIAL INDUSTR=
+Y REGULATORY AUTHORITY ON BEHALF OF (16) STATE FARM VP MANAGEMENT CORP.=0D=
+
+=0D
+            BY: (8) TERRENCE LUDWIG=0D
+=0D
+                        A TOTAL AMOUNT WAS ACCEPTED FOR A "SUCCESSFUL MER=
+GER",=0D
+=0D
+                        APPROXIMATELY $412,500 USD IN COMPENSATION WAS FI=
+LED WITH THE SEC.=0D
+=0D
+USC 18, =C2=A7241. Conspiracy against rights.=0D
+    - If two or more persons conspire to injure, oppress, threaten, or in=
+timidate any person in any State, Territory, Commonwealth, Possession, or=
+ District in the free exercise or enjoyment of any right or privilege sec=
+ured to him by the Constitution or laws of the United States, or because =
+of his having so exercised the same; or=0D
+    - If two or more persons go in disguise on the highway, or on the pre=
+mises of another, with intent to prevent or hinder his free exercise or e=
+njoyment of any right or privilege so secured=E2=80=94=0D
+=0D
+=0D
+            EXHIBITS FILED AND ANNEXED IN THE DOCKETS IN NY SUPREME COURT=
+ CIVIL MATTER=0D
+=0D
+            NYSCEF 153974/2020=0D
+=0D
+USC 18,=C2=A7225. Continuing financial crimes enterprise=0D
+    (a) Whoever-=0D
+        (1) organizes, manages, or supervises a continuing financial crim=
+es enterprise; and=0D
+        (2) receives $5,000,000 or more in gross receipts from such enter=
+prise during any 24-month period=0D
+    -shall be fined not more than $10,000,000 if an individual, or $20,00=
+0,000 if an organization, and imprisoned for a term of not less than 10 y=
+ears and which may be life.=0D
+    (b) For purposes of subsection (a), the term "continuing financial cr=
+imes enterprise" means a series of violations under section 215, 656, 657=
+, 1005, 1006, 1007, 1014, 1032, or 1344 of this title, or section 1341 or=
+ 1343 affecting a financial institution, committed by at least 4 persons =
+acting in concert.        =0D
+              [ LOAN 50074: $6,000,000 ] ANNEXED IN DOCKETS 309-315 IN NY=
+SCEF MATTER 153974/2020=0D
+=0D
+                    ANNEXED IN NY SUPREME COURT MATTER 153974/2020=0D
+                    REPRESENTATIVES OF (9) SULLIVAN PROPERTIES LP, (10) S=
+ULLIVAN GP LLC, (11) MANHATTAN SKYLINE MANAGEMENT CORP.=0D
+                   =0D
+=0D
+                    BY:     (12) SHARI LASKOWITZ, (13) ASHLEY HUMPHRIES, =
+(14) CORY WEISS, AND (15) PAUL REGAN=0D
+=0D
+                        DOCKETS ANNEXED IN NYSCEF 153974/2020 AND ALSO FI=
+LED WITH THE NY DEPT OF FINANCE.=0D
+=0D
+                    OBO:     (3) DONALD ZUCKER, (17) LAURIE ZUCKER, AND O=
+THERS WHO I AM UNFAMILIAR TO THEIR RESPECTIVE SHARES HELD AS LIMITED PART=
+NERS OF SULLIVAN PROPERTIES LP.=0D
+=0D
+                    UNLAWFULLY (USC 18.21) PRESENTED THE IMPLIED RETURNS =
+FOR 6 PROPERTIES WHICH WERE ALSO FILED, AND=0D
+                    >PUBLICLY AVAILABLE TO ALL REGULAR /COMPETENT PERSONS=
+.=0D
+=0D
+                    USED TO PROCURE AND OBTAIN A LOAN FOR $6,000,000.00 (=
+ SIX MILLION US DOLLARS) AND USED THE FOLLOWING ENTITY ON THE COVER PAGE:=
+=0D
+=0D
+                    (18) THE ZUCKER ORGANIZATION LLC=0D
+USC 18, =C2=A7 373 - Solicitation to commit a crime of violence=0D
+=0D
+(a) Whoever, with intent that another person engage in conduct constituti=
+ng a felony that has as an element the use, attempted use, or threatened =
+use of physical force against property or against the person of another i=
+n violation of the laws of the United States, and under circumstances str=
+ongly corroborative of that intent, solicits, commands, induces, or other=
+wise endeavours to persuade such other person to engage in such conduct, =
+shall be imprisoned not more than one-half the maximum term of imprisonme=
+nt or (notwithstanding section 3571) fined not more than one-half of the =
+maximum fine prescribed for the punishment of the crime solicited, or bot=
+h; or if the crime solicited is punishable by life imprisonment or death,=
+ shall be imprisoned for not more than twenty years.=0D
+=0D
+                (15)<voicemail attached>=0D
+=0D
+(b) It is an affirmative defence to a prosecution under this section that=
+, under circumstances manifesting a voluntary and complete renunciation o=
+f his criminal intent, the defendant prevented the commission of the crim=
+e solicited. A renunciation is not "voluntary and complete" if it is moti=
+vated in whole or in part by a decision to postpone the commission of the=
+ crime until another time or to substitute another victim or another but =
+similar objective. If the defendant raises the affirmative defence at tri=
+al, the defendant has the burden of proving the defence by a preponderanc=
+e of the evidence.=0D
+    (c) It is not a defence to a prosecution under this section that the =
+person solicited could not be convicted of the crime because he lacked th=
+e state of mind required for its commission, because he was incompetent o=
+r irresponsible, or because he is immune from prosecution or is not subje=
+ct to prosecution.=0D
+USC 18 [ FORFEITURES ] >> RISKS HELD UNDER STATE FARM AT THE OBSTRUCTION =
+OF THE COUNSELORS IN NYSCEF 153974/2020=0D
+=0D
+=C2=A7229B. Criminal forfeitures; destruction of weapons=0D
+    (a) Property Subject to Criminal Forfeiture.=0D
+    -Any person convicted under section 229A(a) shall forfeit to the Unit=
+ed States irrespective of any provision of State law-=0D
+        (1) any property, real or personal, owned, possessed, or used by =
+a person involved in the offense;=0D
+        (2) any property constituting, or derived from, and proceeds the =
+person obtained, directly or indirectly, as the result of such violation;=
+ and=0D
+        (3) any of the property used in any manner or part, to commit, or=
+ to facilitate the commission of, such violation.=0D
+=0D
+    The court, in imposing sentence on such person, shall order, in addit=
+ion to any other sentence imposed pursuant to section 229A(a), that the p=
+erson forfeit to the United States all property described in this subsect=
+ion. In lieu of a fine otherwise authorized by section 229A(a), a defenda=
+nt who derived profits or other proceeds from an offense may be fined not=
+ more than twice the gross profits or other proceeds.=0D
+    (b) Procedures.-=0D
+        (1) General.=0D
+        -Property subject to forfeiture under this section, any seizure a=
+nd disposition thereof, and any administrative or judicial proceeding in =
+relation thereto, shall be governed by subsections (b) through (p) of sec=
+tion 413 of the Comprehensive Drug Abuse Prevention and Control Act of 19=
+70 (21 U.S.C. 853), except that any reference under those subsections to-=
+=0D
+            (A) "this subchapter or subchapter II" shall be deemed to be =
+a reference to section 229A(a); and=0D
+            (B) "subsection (a)" shall be deemed to be a reference to sub=
+section (a) of this section.=0D
+        (2) Temporary restraining orders.-=0D
+            (A)     In general.-For the purposes of forfeiture proceeding=
+s under this section, a temporary restraining order may be entered upon a=
+pplication of the United States without notice or opportunity for a heari=
+ng when an information or indictment has not yet been filed with respect =
+to the property, if, in addition to the circumstances described in sectio=
+n 413(e)(2) of the Comprehensive Drug Abuse Prevention and Control Act of=
+ 1970 (21 U.S.C. 853(e)(2)), the United States demonstrates that there is=
+ probable cause to believe that the property with respect to which the or=
+der is sought would, in the event of conviction, be subject to forfeiture=
+ under this section and exigent circumstances exist that place the life o=
+r health of any person in danger.=0D
+            (B)     Warrant of seizure.-If the court enters a temporary r=
+estraining order under this paragraph, it shall also issue a warrant auth=
+orizing the seizure of such property.=0D
+            (C)     Applicable procedures.-The procedures and time limits=
+ applicable to temporary restraining orders under section 413(e)(2) and (=
+3) of the Comprehensive Drug Abuse Prevention and Control Act of 1970 (21=
+ U.S.C. 853(e)(2) and (3)) shall apply to temporary restraining orders un=
+der this paragraph.   =0D
+    (c) Affirmative Defense.=0D
+        -It is an affirmative defense against a forfeiture under subsecti=
+on (b) that the property-=0D
+        (1) is for a purpose not prohibited under the Chemical Weapons Co=
+nvention; and=0D
+        (2) is of a type and quantity that under the circumstances is con=
+sistent with that purpose.=0D
+    (d) Destruction or Other Disposition.-The Attorney General shall prov=
+ide for the destruction or other appropriate disposition of any chemical =
+weapon seized and forfeited pursuant to this section.=0D
+    (e) Assistance.=0D
+    (f) Owner Liability.=0D
+        -The owner or possessor of any property seized under this section=
+ shall be liable to the United States for any expenses incurred incident =
+to the seizure, including any expenses relating to the handling, storage,=
+ transportation, and destruction or other disposition of the seized prope=
+rty=0D
+USC 18, =C2=A7218. Voiding transactions in violation of chapter; recovery=
+ by the United States=0D
+=0D
+    In addition to any other remedies provided by law the President or, u=
+nder regulations prescribed by him, the head of any department or agency =
+involved, may declare void and rescind any contract, loan, grant, subsidy=
+, license, right, permit, franchise, use, authority, privilege, benefit, =
+certificate, ruling, decision, opinion, or rate schedule awarded, granted=
+, paid, furnished, or published, or the performance of any service or tra=
+nsfer or delivery of any thing to, by or for any agency of the United Sta=
+tes or officer or employee of the United States or person acting on behal=
+f thereof, in relation to which there has been a final conviction for any=
+ violation of this chapter, and the United States shall be entitled to re=
+cover in addition to any penalty prescribed by law or in a contract the a=
+mount expended or the thing transferred or delivered on its behalf, or th=
+e reasonable value thereof.=0D
+=0D
+=0D
+NOTE: I OFFERED THE DEFAULT CLAUSE OF THE LOAN SO THAT STATE FARM CAN CAN=
+CEL THE LOAN, EXECUTED AND FILED THE SAME AS EXHIBIT 420 IN NYSCEF MATTER=
+ 153974/2020. NONE OF THE INDIVUALS FROM STATE FARM HAVE RESPONDED TO THI=
+S EFFECT SINCE THEN, AND MOST RECENTLY, MR. DAVID MOORE ATTEMPTED TO PLAC=
+E A CO-WORKER IN HIS PLACE, MISS JANNA UNDERWOOD WHO I UNDERSTAND IS NOT =
+A DIRECTOR OF STATE FARM, ON THE BASIS OF FILINGS AND DOCUMENTS THAT ARE =
+AVAILABLE, PER THE FINANCIAL INDUSTRY REGULATORY AUTHORITY AND THE SECURI=
+TIES AND EXCHANGE COMMISSION UNDER CIK FILER 93715, AND CIK FILER 1516523=
+.=0D
+=0D
+=0D
+USC 18, =C2=A7216. Penalties and injunctions=0D
+    (a) The punishment for an offense under section 203, 204, 205, 207, 2=
+08, or 209 of this title is the following:=0D
+        (1) Whoever engages in the conduct constituting the offense shall=
+ be imprisoned for not more than one year or fined in the amount set fort=
+h in this title, or both.=0D
+        (2) Whoever willfully engages in the conduct constituting the off=
+ense shall be imprisoned for not more than five years or fined in the amo=
+unt set forth in this title, or both.=0D
+    (b)     The Attorney General may bring a civil action in the appropri=
+ate United States district court against any person who engages in conduc=
+t constituting an offense under section 203, 204, 205, 207, 208, or 209 o=
+f this title and, upon proof of such conduct by a preponderance of the ev=
+idence, such person shall be subject to a civil penalty of not more than =
+$50,000 for each violation or the amount of compensation which the person=
+ received or offered for the prohibited conduct, whichever amount is grea=
+ter. The imposition of a civil penalty under this subsection does not pre=
+clude any other criminal or civil statutory, common law, or administrativ=
+e remedy, which is available by law to the United States or any other per=
+son.=0D
+    (c) If the Attorney General has reason to believe that a person is en=
+gaging in conduct constituting an offense under section 203, 204, 205, 20=
+7, 208, or 209 of this title, the Attorney General may petition an approp=
+riate United States district court for an order prohibiting that person f=
+rom engaging in such conduct. The court may issue an order prohibiting th=
+at person from engaging in such conduct if the court finds that the condu=
+ct constitutes such an offense. The filing of a petition under this secti=
+on does not preclude any other remedy which is available by law to the Un=
+ited States or any other person.=0D
+=0D
+=0D
+A LITTLE WIGGLE ROOM HERE IN THIS GREY AREA.=0D
+=0D
+=C2=A7246. Deprivation of relief benefits=0D
+    Whoever directly or indirectly deprives, attempts to deprive, or thre=
+atens to deprive any person of any employment, position, work, compensati=
+on, or other benefit provided for or made possible in whole or in part by=
+ any Act of Congress appropriating funds for work relief or relief purpos=
+es, on account of political affiliation, race, color, sex, religion, or n=
+ational origin, shall be fined under this title, or imprisoned not more t=
+han one year, or both.=0D
+=0D
+=0D
+=C2=A7220. Illegal remunerations for referrals to recovery homes, clinica=
+l treatment facilities, and laboratories=0D
+(a) Offense.-Except as provided in subsection (b), whoever, with respect =
+to services covered by a health care benefit program, in or affecting int=
+erstate or foreign commerce, knowingly and willfully-=0D
+    (1) solicits or receives any remuneration (including any kickback, br=
+ibe, or rebate) directly or indirectly, overtly or covertly, in cash or i=
+n kind, in return for referring a patient or patronage to a recovery home=
+, clinical treatment facility, or laboratory; or=0D
+    (2) pays or offers any remuneration (including any kickback, bribe, o=
+r rebate) directly or indirectly, overtly or covertly, in cash or in kind=
+-=0D
+        (A) to induce a referral of an individual to a recovery home, cli=
+nical treatment facility, or laboratory; or=0D
+        (B) in exchange for an individual using the services of that reco=
+very home, clinical treatment facility, or laboratory,=0D
+    -shall be fined not more than $200,000, imprisoned not more than 10 y=
+ears, or both, for each occurrence.=0D
+=0D
+(b) Applicability.-Subsection (a) shall not apply to-=0D
+    (1) a discount or other reduction in price obtained by a provider of =
+services or other entity under a health care benefit program if the reduc=
+tion in price is properly disclosed and appropriately reflected in the co=
+sts claimed or charges made by the provider or entity;=0D
+    (2) a payment made by an employer to an employee or independent contr=
+actor (who has a bona fide employment or contractual relationship with su=
+ch employer) for employment, if the employee's payment is not determined =
+by or does not vary by-=0D
+        (A) the number of individuals referred to a particular recovery h=
+ome, clinical treatment facility, or laboratory;=0D
+        (B) the number of tests or procedures performed; or=0D
+        (C) the amount billed to or received from, in part or in whole, t=
+he health care benefit program from the individuals referred to a particu=
+lar recovery home, clinical treatment facility, or laboratory;=0D
+    (3) a discount in the price of an applicable drug of a manufacturer t=
+hat is furnished to an applicable beneficiary under the Medicare coverage=
+ gap discount program under section 1860D=E2=80=9314A(g) of the Social Se=
+curity Act (42 U.S.C. 1395w=E2=80=93114a(g));=0D
+    (4) a payment made by a principal to an agent as compensation for the=
+ services of the agent under a personal services and management contract =
+that meets the requirements of section 1001.952(d) of title 42, Code of F=
+ederal Regulations, as in effect on the date of enactment of this section=
+;=0D
+    (5) a waiver or discount (as defined in section 1001.952(h)(5) of tit=
+le 42, Code of Federal Regulations, or any successor regulation) of any c=
+oinsurance or copayment by a health care benefit program if-=0D
+        (A) the waiver or discount is not routinely provided; and=0D
+        (B) the waiver or discount is provided in good faith;=0D
+    (6) a remuneration described in section 1128B(b)(3)(I) of the Social =
+Security Act (42 U.S.C. 1320a=E2=80=937b(b)(3)(I));=0D
+    (7) a remuneration made pursuant to an alternative payment model (as =
+defined in section 1833(z)(3)(C) of the Social Security Act) or pursuant =
+to a payment arrangement used by a State, health insurance issuer, or gro=
+up health plan if the Secretary of Health and Human Services has determin=
+ed that such arrangement is necessary for care coordination or value-base=
+d care; or=0D
+    (8) any other payment, remuneration, discount, or reduction as determ=
+ined by the Attorney General, in consultation with the Secretary of Healt=
+h and Human Services, by regulation.=0D
+    =0D
+    (c) Regulations.=0D
+    -The Attorney General, in consultation with the Secretary of Health a=
+nd Human Services, may promulgate regulations to clarify the exceptions d=
+escribed in subsection (b).=0D
+    (d) Preemption.-=0D
+        (1) Federal law.-This section shall not apply to conduct that is =
+prohibited under section 1128B of the Social Security Act (42 U.S.C. 1320=
+a=E2=80=937b).=0D
+        (2) State law.-Nothing in this section shall be construed to occu=
+py the field in which any provisions of this section operate to the exclu=
+sion of State laws on the same subject matter.=0D
+=0D
+    (e) Definitions.-In this section-=0D
+        (1) the terms "applicable beneficiary" and "applicable drug" have=
+ the meanings given those terms in section 1860D=E2=80=9314A(g) of the So=
+cial Security Act (42 U.S.C. 1395w=E2=80=93114a(g));=0D
+        (2) the term "clinical treatment facility" means a medical settin=
+g, other than a hospital, that provides detoxification, risk reduction, o=
+utpatient treatment and care, residential treatment, or rehabilitation fo=
+r substance use, pursuant to licensure or certification under State law;=0D=
+
+        (3) the term "health care benefit program" has the meaning given =
+the term in section 24(b);=0D
+        (4) the term "laboratory" has the meaning given the term in secti=
+on 353 of the Public Health Service Act (42 U.S.C. 263a); and=0D
+        (5) the term "recovery home" means a shared living environment th=
+at is, or purports to be, free from alcohol and illicit drug use and cent=
+ered on peer support and connection to services that promote sustained re=
+covery from substance use disorders.=0D
+=0D
+ =E2=80=93 SO I HOPE YOU UNDERSTAND WHERE THIS ALSO PRESENTS A CONFLICT, =
+AS HE BELIEVES THIS TO BE TRUE.=0D
+1_u.s._v._brian_benjamin_indictment (1).pdf=0D
+-------- Forwarded Message --------=0D
+Subject: 	Voicemail from Mr. PAUL regan=0D
+Date: 	Sun, 26 Jun 2022 16:51:47 -0400=0D
+From: 	BO DINCER <bondstrt007@gmail.com>=0D
+To: 	customerservice@nypost.com, espnfrontrow@espn.com, teschmann@mskylin=
+e.com, Joseph Giamboi, ESQ <joseph.giamboi@brooklaw.edu>, LZUCKER@mskylin=
+e.com, sgo2107@columbia.edu, letters@nypost.com, Laskowitz, Shari <slasko=
+witz@ingramllp.com>, dallas-reserve-mgmt@dal.frb.org, 23pctdvo@nypd.com, =
+23pctyco@nypd.org, 1pctdvo@nypd.org, 1pctyco@nypd.org, praghuram2@bloombe=
+rg.net, PRIYA.RAGHURAM@MORGANSTANLEY.COM <PRIYA.RAGHURAM@morganstanley.co=
+m>, JAMES GORMAN [MORGAN STANLEY] <james.gorman@morganstanley.com>, Dow J=
+ones <wsjprosupport@dowjones.com>, paul.jones@tudor.com, Paul Regan <LEGA=
+L@mskyline.com>, LEGALASST@mskyline.com, MSKYLINE <anne@thehighlandpartne=
+rs.com>, cweiss@ingramllp.com, info@statefarm.com, State Farm <mutualfund=
+s@statefarm.com>, David Moore <david.moore.ct95@statefarm.com>, hillary.d=
+avis@latimes.com, Scott Holcomb <scott@holcombward.com>, SOHO HOUSE <memb=
+ership@sohohouse.com>=0D
+CC: 	KATHY HOCHUL <governor.hochul@exec.ny.gov>, BBO 121 <ms60710444266@y=
+ahoo.com>, MIT Sloan Executive Education <executive_education@mailsvc.slo=
+an.mit.edu>, Marc Lavigne <tessier3@stanford.edu>, NYSCEF PROCESS HD <oca=
+_hd_processor@nycourts.gov>, The New York Times <help@nytimes.com>, admin=
+istration@mskyline.com, MANHATTAN SKYLINE, LLC. <ADMINISTRATOR@mskyline.c=
+om>=0D
+=0D
+=0D
+I am terrified, where is he ? Touching himself or making videos with my G=
+lamour shots.=0D
+=0D
+Thats actually a compound, in the scope of avoidance to prosecution. =0D
+=0D
+Truly a delusional group, never met them.=0D
+=0D
+=0D

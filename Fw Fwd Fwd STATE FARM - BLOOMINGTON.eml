@@ -1,0 +1,637 @@
+From - Sun Apr 17 12:08:10 2022
+X-Account-Key: account1
+X-UIDL: ALbgEj54lJe5YleURwedONN3AQ8
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 127.0.0.1
+ by atlas-omega.free.mail.ne1.yahoo.com with HTTP; Thu, 14 Apr 2022 03:25:53 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.64.146]
+Received-SPF: pass (domain of yahoo.com designates 98.137.64.146 as permitted sender)
+Authentication-Results: atlas-omega.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 14 Apr 2022 03:25:53 +0000
+X-YMailISG: 3.VkCpoWLDvyzQuwhEOwcMq_y6RJfgoPTqce..JC3aoEWut2
+ PKdHI5TmZgmYT6x_IqGjTr0HJMnzDo_gFoEk40SdpaJIvP6bP5yc2wOgPO75
+ bAGXS_FDSTpe6parni4qF43CNLB_s3QmYRgRHO0Wiz8KBJP2LtD8EWH16nIa
+ MG2pavu0A_Km.elheuGRyfFKiyaOZfwcbRaTB3i2eCXmYZBakCXtusQq_T7T
+ d5IvaJOsst1_hckdAZ9CEmDdpfGfEx4i3UZATNupDnmLeevOmAOwbikHmmc4
+ ZIlwQJ83DyUGKGEXen.8nR9UeEZ8ECiwg_r58ZgFIWkbgf443TgRMROx7Qq2
+ 5_NcryouCiHG.1PMxRvBVZFvh9zYo7bqtVhLEuvbnxBlhgBHQAzkS_wCbO.r
+ Nx0aeKIRu5WBdTl8gWBB3Ya_Zp1vL0RT7lg.ZSBD4D0EUM3Oh8tO6r0Blw2K
+ mbkhNga7fRieiob4kfRTASmaNqRfxRhdPaLpJvIsZUg7cNhIRwCesT.4B.UF
+ CfnjDRIiaVs5TwjDkcQ6gZz3CCHGSsgHiqGOFBJVf0l0WtK5JsIJaM3k7TAe
+ ntsAAz1qE_PV.pcqIX0T5cRBK18MpIDnhtL__jxcLg_FsZf4_YdZR2poSQQL
+ hrQCQb7qt9ERs.SN.hSr268BIJ_Mk9RM8vXpAhgtghSpypeYJF7GMmFP.Bjf
+ HRhRk2PVcnDFxea9bRcD3Us5iIwogPO4nY2bkkZmc43ChPnSmK__hdXEThL_
+ o8BzA.EvrihAI7_mhuKf2xc9cg7QFGo1vjrjFVKZMblAUL54xWktq43HdiBX
+ b79MlucfhQjsINQiOkrRC8bc_jgqvO0q94rKCRqoboNGsBXrdga0QZu6HOWr
+ e_HNsVM9m.uM361pYPct9N5.8tZNLc.QNbXwI8MaMxmWC4eUa5swPRmjjyQE
+ pour6A1H1gDDlwkCcZfbjq4z2Tr1UUlRFQjfovo5FiI.bqv3DmOnwKJhKFtT
+ XH.Wo8wgMRCgPHQ3r5pxBnLJiWacrzIGTFOxrOoeYP1fXjl3WXGuNGFUC4p1
+ YJZRxzY59s85Hndk5du4VFZXgaBRPmL3FzLtQWSUGn7B03787ofKdqCVWcqj
+ hRFYHIiCtOoF5gFm_DVqgOG9tD0oHqJSCFq33GfirHPSRKXK45cpj_vTkI8E
+ CF87yx0nhyp9ALiUiA--
+Received: from 98.137.64.146 (EHLO sonic301-20.consmr.mail.gq1.yahoo.com)
+ by 10.217.135.165 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Thu, 14 Apr 2022 03:25:53 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1649906752; bh=ypdGWs1mteiKwXd1/TlF+e7Qsw8uyhTdVlLDE04bvoU=; h=Date:From:Reply-To:To:In-Reply-To:References:Subject:From:Subject:Reply-To; b=NvVLzSfYGB4xUZRnXjfE5I2oWMvcB7ZGXnsWUaRcvpv32lMxUwCY7vd2+VidGotGMIV3NSpiob32+D5ByTEpraw+dIPbXFNpVZN3pFSyYn/eHL2dYcXjtQ4TRUViDa4co0YHGjilJ6jWsj8WTWriVeSnuriF3LyIWbv4vccRjpBJe8vf7BufEi46XFOmqaT570IHKRE3MuvJOsStMAgjK1GqYmACdyocVlaj8urud6oW6tcQ6QsPbwoIDugtx2t0XEBdur7J2R2n/z2f2f0x2E6A9vWDOdVSXWfL9z/nTfBV3EyehcIpcl3nmAJsIgSZm9Bm9xDVPq3iEenkP3alDg==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1649906752; bh=efvem7J8TgjTBLQAEEXfu+GPcgktHljYIKDRrvhdDbD=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=YfFU2OYPX4n9vcdh+OMPwEfWAwRrDjQcUclc6IGNfBNv9mlrJNKcFW1YcRAdOB9pdsE6EwhRGqfz6CIZD8RdF4wpQzDKGOt6+Z8I3DUBA0xXeo3/bXxXybbnJS2CrKrViYWGZSKpYPbblyNFO4NyC9gkNEIDb4mjLsr8YMZdnFF+jYrcIV/1H4zIJTwyVPDb2ud7vdjAGwiFqH9FXYAS73+dlWi9OsKRZr/mGgV1Z4tiUoUJT+5OOTcoKULH1PlgAmNdGeSuyjSCcOsm9TQ7i4qyct7jieTOB80zyNlFP/5F52dk69BY6ro+s183LU+ZT4MhDPOIiTQ9RBVWGpBhuA==
+X-YMail-OSG: nRyPgeoVM1nye8h4kkUrBuxCTu792ORlTDn.YGCCLBFVXVwUyPik52bdXe4tBDB
+ WObiKy0KCrKJKQfQvFBo7C.iAwbtfGX9xMSXvHaPSR3e.vC1idhPX3AzzVUz0HsWPEUdmBWlVktm
+ Ca_b6liuSr_p3YIVS478U_.XGqv676Pv8Z8mv1I9LcWbAGJLYnI6FQQMnz6S0e2HnHKylhSVU14G
+ u2AoRo0dSQhZHD.4xkT3B1HHLYA7koRA.mCbEY_IuOzkzEX5CMawLTE1qAg7x9U06WUzT_II7vUK
+ 7ccxvzhIgwHnTOzhNY0AApbkxY9eN3hgSotCI1VWSDMkuWoMBqUMrusMz2Xafpiqqjj5aDkIlvtK
+ D64D8c1s_lNOc4Rxz_zRMs5nwc2nZLvCwNqfgGpPo5z._AiKf4uBr0s37YLL5Rvt8MpqiQ6QTVQ0
+ pJ95jQbTnZ52ckChDQM0kmLTR3UdE4sU39BT6Cuoj85lnnKXB8YQ9liLpQFOPgc0FwM7X1AFsp9Q
+ QBOHP.guyaTVdT..gxE0yAWPkrOGZscTtjlMeQAJgk6QfkIUBHgk33Gp.B4oPdioL05phaRQfAyz
+ yDI6X8E46zPN9TAfluMFEqj9w5p8_NajUUkWYPgVFQSINcRYWiROeXWIBoiJllFysIr8adDLYp5M
+ B_R1QhInS0vDsQh5ODjymcfCSxvkdGddL0gIMQ7LLfWc4cPBrc4C58DUPTlcQ1_7E_pPvIH7aG6j
+ hnqdS_rSyo8pmLwbeCX0Z4vhxOgaMozvCAQSFlxBAV96NGcSR4jKVhxDuGYj9BdvIh1uLY40ANpK
+ soT28ss3eRkvV79SZAnxbUWtmZCPav4KCITz0mPbLWAUW3YNodpLvS03V04u6bomg5VnOME35510
+ ciGvZfDVu5DxX_r_lXakV1sL6vmtJCGuofHlTMCzq08OGVncJM3pI_H8yyVIJyy.WH54aNsXHtGk
+ eVfPfTUF2ue3MW0IWsO6pt.VxDVbmxQHGczMInVMU2GNCYGmHmiD1tbONXwv702NZrMHO6c36z.5
+ AE5FVJtW0nu2u1CuNv3ffMv7UPqPWwOWK3UvRaPrESGT_2erkITP2tHzv5SZE6w3ExXIc2.0gRkh
+ EhX9QTd3y18vi.h5x0cQrxSTaP4Ptn_xDnKCAUDNuvqCqWiIYJYCY47Y1clfOzK1F._m5vjXI_kz
+ BkjTanlyx2p27d5_FMYxFmXyM0iiXqvZJ7aNoRBK82yAudsgLJxw3gcJmnJm9eQWSAMubfKVGIj6
+ E72ky91EpBLLvk2G.8pfLVlBITy19B77Y_kf4_EfDjMj3qZf4JWwMViVQT6jGQ_iR4LOjiaUdgvc
+ wEDU.Jo29ip1ovIJxg2KM9v0Rh.u21OwjCuSaL1NQqQ.ZL9BnaGsYZm1gNvjpKMYM_Rym6oxKctE
+ BUP9O0p1R6hiw0KgdPAf2HaoCq_q5jr6DFuaw4vgQEHx5LKp3X9taVQbVxEFCXIVZ_wQWAWkzRn8
+ Pin53X02nIW1BTw53lJO7jdk0mhnLCghG3caoe6R1YCPWtGv09zdRwtphgk2cWXGeWDflCJcFby7
+ 1NUBSXX1wEHJhXejv_DCO693_U5J8EidlXXRV5yxX26M22AyzQ9Rqzk.ffmEqnObEip7xK_8mp_h
+ fiLPlDnqdJDU6vI_j18LPARsQTgSUdIS4OzbvOtYtYslHsReyJXYVKDzX22mWAjf8n8Fw4C_10Be
+ _qhftILac_9nejq9woocAV04BmLftsrVxRmDnitk_ws0X4tP6yxvi.2yXeGuhLgbFQrOctvPWGYk
+ cC9cR48zWKTxY0hCDN3h1K8bUxsUHAhuNmHVJBIwvt_w1dAapjGlFChRJLobid5QlUZvbQb792.m
+ EqztqMinMIbke8mbSW8FRNaLsglK1ctV798ul0NBj420Xw4z2TuBde6OWmLvZb3BoGzq288xc4Yn
+ ZVGyxZyKVmxYJqNlefSzAlQolpMrW.WyuUY5Jn6X0K6_7ySsAekRkFsVjCrHfG2uoaox0Pft_qha
+ jXhoAy93Xsf3leaaK89MmiWs5tf5Cewn9U_BNvaNH4YVuPGbP_jxRljLF9dnp04SoAi8wIqRmRHJ
+ SikQ1ndvAx8OniYR1LKy9iiiOQsRoIScYFvMCr4VKQjA5ojrY9udNMgcSKR1hSOed0bJ1D4Oskyp
+ Mu6UxI4n7jJQznE1bpVAW2uS96vDKxA0XPSgE6l5ZbKPjFl._MEaWbfgTiYH_Su80kHEuiEhpiav
+ iWiBKrRJbQbP0VMOYePDKajSYofsjdPYEm.6AbBCePql8PLjZS3arTajN4HfrkRXDHreREdeHh2u
+ Ra2kvqOyLbHHyChfbQJFp.qQ1mgdvyxsRw5D1njufLWNnaktwJGZ99E24eQmRS3dU3VdbDobKC3d
+ qcEhoniPF5SiB0C785VrRfg6eT4C5GkHPUewq43B6tZmurlw2ISFrdX_0TT3jVRBzKbu5f.T0MVp
+ rcTfe1qnRImNx3GF4OqpnOZUTOueKQajYyKTs7dXNaCLAcgMt9r_0nc.dVcGZIRWmDqiZDY76kul
+ sySG.KFXTqvl9RNjEpoxJ5__XQ5yIMFArHmG6B3LlPi023m_q02nTRsJ1HWmxpNYIRU99hDg7Qey
+ PSrQ4FmGJPkt4EDRfoHm0OIp75oJ2Mx6R
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic301.consmr.mail.gq1.yahoo.com with HTTP; Thu, 14 Apr 2022 03:25:52 +0000
+Date: Thu, 14 Apr 2022 03:25:47 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: MILTON MCKENZIE <ms60710444266@yahoo.com>
+Message-ID: <1558274796.622993.1649906747424@mail.yahoo.com>
+In-Reply-To: <61BE6E710156038E00F50001_1_95307@msclnypmsgsv03>
+References: <61BE6E710156038E00F50001_1_95307@msclnypmsgsv03>
+Subject: Fw: Fwd:Fwd:STATE FARM - BLOOMINGTON
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_622992_1587222871.1649906747424"
+X-Mailer: WebService/1.1.20001 YahooMailAndroidMobile
+Content-Length: 38987
+
+------=_Part_622992_1587222871.1649906747424
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_622991_1070494473.1649906747376"
+
+------=_Part_622991_1070494473.1649906747376
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Sent from Yahoo Mail on Android=20
+=20
+   ----- Forwarded Message ----- From: "Bd Dincer (COLUMBIA UNIVERSITY)" <b=
+dincer211@bloomberg.net> To: "james.gorman@morgan.stanley.com" <james.gorma=
+n@morgan.stanley.com> Cc: "abari4@bloomberg.net" <abari4@bloomberg.net>, "a=
+hallman1@bloomberg.net" <ahallman1@bloomberg.net>, "aragonp@bloomberg.net" =
+<aragonp@bloomberg.net>, "asmock1@bloomberg.net" <asmock1@bloomberg.net>, "=
+avales1@bloomberg.net" <avales1@bloomberg.net>, "b.dincer@columbia.edu" <b.=
+dincer@columbia.edu>, "bbengtson3@bloomberg.net" <bbengtson3@bloomberg.net>=
+, "bdincer211@bloomberg.net" <bdincer211@bloomberg.net>, "bdr11@bloomberg.n=
+et" <bdr11@bloomberg.net>, "beuliss@bloomberg.net" <beuliss@bloomberg.net>,=
+ "bstephan@bloomberg.net" <bstephan@bloomberg.net>, "btrauner@bloomberg.net=
+" <btrauner@bloomberg.net>, "cconstanti37@bloomberg.net" <cconstanti37@bloo=
+mberg.net>, "cdirks1@bloomberg.net" <cdirks1@bloomberg.net>, "chair@sec.gov=
+" <chair@sec.gov>, "ckurak@bloomberg.net" <ckurak@bloomberg.net>, "cmhigham=
+@bloomberg.net" <cmhigham@bloomberg.net>, "cminter2@bloomberg.net" <cminter=
+2@bloomberg.net>, "cmoser7@bloomberg.net" <cmoser7@bloomberg.net>, "cswartz=
+lande@bloomberg.net" <cswartzlande@bloomberg.net>, "dianehsiung@bloomberg.n=
+et" <dianehsiung@bloomberg.net>, "drizer@bloomberg.net" <drizer@bloomberg.n=
+et>, "ducrest2@bloomberg.net" <ducrest2@bloomberg.net>, "ekhoziaeva@bloombe=
+rg.net" <ekhoziaeva@bloomberg.net>, "fcastella3@bloomberg.net" <fcastella3@=
+bloomberg.net>, "gpoole2011@bloomberg.net" <gpoole2011@bloomberg.net>, "gpr=
+adocorrea@bloomberg.net" <gpradocorrea@bloomberg.net>, "gshull@bloomberg.ne=
+t" <gshull@bloomberg.net>, "hmarsh6@bloomberg.net" <hmarsh6@bloomberg.net>,=
+ "hncaldwell@bloomberg.net" <hncaldwell@bloomberg.net>, "hrose17@bloomberg.=
+net" <hrose17@bloomberg.net>, "jchan161@bloomberg.net" <jchan161@bloomberg.=
+net>, "jhoyer@bloomberg.net" <jhoyer@bloomberg.net>, "jhsui2@bloomberg.net"=
+ <jhsui2@bloomberg.net>, "jmalito@bloomberg.net" <jmalito@bloomberg.net>, "=
+jsocha@bloomberg.net" <jsocha@bloomberg.net>, "jtattwood@bloomberg.net" <jt=
+attwood@bloomberg.net>, "jwilson578@bloomberg.net" <jwilson578@bloomberg.ne=
+t>, "jyoung121@bloomberg.net" <jyoung121@bloomberg.net>, "kbretz2@bloomberg=
+.net" <kbretz2@bloomberg.net>, "kgilmore10@bloomberg.net" <kgilmore10@bloom=
+berg.net>, "khubbard1@bloomberg.net" <khubbard1@bloomberg.net>, "kkarsten@b=
+loomberg.net" <kkarsten@bloomberg.net>, "krock5@bloomberg.net" <krock5@bloo=
+mberg.net>, "ksheffield1@bloomberg.net" <ksheffield1@bloomberg.net>, "lgate=
+s16@bloomberg.net" <lgates16@bloomberg.net>, "lrogalski@bloomberg.net" <lro=
+galski@bloomberg.net>, "lrogers@bloomberg.net" <lrogers@bloomberg.net>, "mb=
+roughton11@bloomberg.net" <mbroughton11@bloomberg.net>, "mdunford3@bloomber=
+g.net" <mdunford3@bloomberg.net>, "mharvey13@bloomberg.net" <mharvey13@bloo=
+mberg.net>, "mkrebsbach3@bloomberg.net" <mkrebsbach3@bloomberg.net>, "mlock=
+ridge2@bloomberg.net" <mlockridge2@bloomberg.net>, "mmayberger@bloomberg.ne=
+t" <mmayberger@bloomberg.net>, "mshy1@bloomberg.net" <mshy1@bloomberg.net>,=
+ "mshyld@bloomberg.net" <mshyld@bloomberg.net>, "mwhipple@bloomberg.net" <m=
+whipple@bloomberg.net>, "mzaroogian1@bloomberg.net" <mzaroogian1@bloomberg.=
+net>, "nahmed127@bloomberg.net" <nahmed127@bloomberg.net>, "pkroger5@bloomb=
+erg.net" <pkroger5@bloomberg.net>, "pmelley@bloomberg.net" <pmelley@bloombe=
+rg.net>, "rcorrea29@bloomberg.net" <rcorrea29@bloomberg.net>, "rholt22@bloo=
+mberg.net" <rholt22@bloomberg.net>, "rmiddleton19@bloomberg.net" <rmiddleto=
+n19@bloomberg.net>, "rrebholz@bloomberg.net" <rrebholz@bloomberg.net>, "rre=
+nken@bloomberg.net" <rrenken@bloomberg.net>, "sbarlow28@bloomberg.net" <sba=
+rlow28@bloomberg.net>, "sbrucker@bloomberg.net" <sbrucker@bloomberg.net>, "=
+sjent@bloomberg.net" <sjent@bloomberg.net>, "skim1465@bloomberg.net" <skim1=
+465@bloomberg.net>, "slawson15@bloomberg.net" <slawson15@bloomberg.net>, "s=
+marsh16@bloomberg.net" <smarsh16@bloomberg.net>, "smbyrne@bloomberg.net" <s=
+mbyrne@bloomberg.net>, "sreid42@bloomberg.net" <sreid42@bloomberg.net>, "st=
+eve@bloomberg.net" <steve@bloomberg.net>, "tbaker5@bloomberg.net" <tbaker5@=
+bloomberg.net>, "tgipson@bloomberg.net" <tgipson@bloomberg.net>, "tlynch54@=
+bloomberg.net" <tlynch54@bloomberg.net>, "tsmith241@bloomberg.net" <tsmith2=
+41@bloomberg.net>, "tzelgert@bloomberg.net" <tzelgert@bloomberg.net>, "vtri=
+mpe@bloomberg.net" <vtrimpe@bloomberg.net>, "whao15@bloomberg.net" <whao15@=
+bloomberg.net>, "wreinthaler@bloomberg.net" <wreinthaler@bloomberg.net>, "w=
+ruane1@bloomberg.net" <wruane1@bloomberg.net> Sent: Sat, Dec 18, 2021 at 6:=
+27 PM Subject: Fwd:Fwd:STATE FARM - BLOOMINGTON =20
+From: BD DINCER (COLUMBIA UNIVERSITY) At: 12/18/21 18:22:32 UTC-5:00To:  Ke=
+rri Saperstein (MORGAN STANLEY & CO. ) ,  james.gorman@morganstanley.com
+Cc:  bd2561@columbia.edu
+Subject: Fwd:STATE FARM - BLOOMINGTON
+From: BD DINCER (COLUMBIA UNIVERSITY) At: 12/18/21 16:06:49 UTC-5:00To:  Gr=
+eg Shull (STATE FARM MUTUAL AU ) ,  Bill Trauner (STATE FARM MUTUAL AU ) , =
+ Theresa Baker (STATE FARM MUTUAL AU ) ,  Tammy Gipson (STATE FARM MUTUAL A=
+U ) ,  Leigh Ann Rogalski (STATE FARM MUTUAL AU ) ,  Chad Moser (STATE FARM=
+ MUTUAL AU ) ,  Ray Renken (STATE FARM MUTUAL AU ) ,  Matt Harvey (STATE FA=
+RM MUTUAL AU ) ,  Steve Brucker (STATE FARM MUTUAL AU ) ,  Wade Reinthaler =
+(STATE FARM MUTUAL AU ) ,  Tyler Smith (STATE FARM MUTUAL AU ) ,  Rich Rebh=
+olz (STATE FARM MUTUAL AU ) ,  Brian Bengtson (STATE FARM MUTUAL AU ) ,  Ky=
+le Gilmore (STATE FARM MUTUAL AU ) ,  Numan Ahmed (STATE FARM MUTUAL AU ) ,=
+  Walter Ruane (STATE FARM MUTUAL AU ) ,  Vicki Trimpe (STATE FARM MUTUAL A=
+U ) ,  Steven Santiccioli (NORTHERN TRUST COMPA ) ,  Brent Reeder (NORTHERN=
+ TRUST COMPA ) ,  phil.supple.hid9@statefarm.com,  nicole.bowyer@statefarm.=
+com,  rebecca.coyle@statefarm.com,  dick.luedke.h2hj@statefarm.com,  sjs5@n=
+trs.com,  brian.hodgson.nyz6@statefarm.com
+Cc:  BO.DINCER@YAHOO.COM
+Subject: STATE FARM - BLOOMINGTON=20
+TY.
+
+ Kevin Rock
+Investment Information AnalystState Farm Mutual Automobile Ins Co +1-309-73=
+5-2705 (o) 1 State Farm Plz +1-309-530-1865 (m) Investment Department E-8 k=
+rock5@bloomberg.net (w) Bloomington IL 61701, US
+
+ Phil Supple 1 Views TodaySpokesperson CareerState Farm Life Insurance Co C=
+urrent +1-800-782-8332 (o) 1 State Farm Plaza State Farm Life Insurance Co =
+phil.supple.hid9@statefarm.com (w Bloomington IL 61710, US Spokesperson
+
+ News | More =C2=BB
+
+ Nicole Tamilyn Bowyer
+AttorneyState Farm Insurance +1-504-840-4900 (o) 853 Fincastle Turnpike +1-=
+504-840-4941 (f) North Tazewell VA 24630 nicole.bowyer@statefarm.com (w) Fo=
+cus Legal
+ Rebecca Coyle 1 Views TodayAnalyst:Public Policy CareerState Farm Life Ins=
+urance Co Current +1-309-766-2311 (o) 1900 M Street NW State Farm Life Insu=
+rance Co rebecca.coyle@statefarm.com (w) Washington DC 20036, US Analyst:Pu=
+blic Policy 2012-Present
+
+ Steven Santiccioli
+VP:Quantitative Management Northern Trust Company, The +1-3124444419 (o) Ad=
+dl Contact Info =C2=BB 312-444-5777 (o) 181 W Madison St steve@bloomberg.ne=
+t (w) Chicago IL 60602-4510,  sjs5@ntrs.com (w) I would work harder on my m=
+arriage if there was a retirement plan. Focus Large Cap Stocks, Growth Inve=
+sting, Global, Equities,  Thematic Investing, United States, Developed Mark=
+ets
+ Funds Managed (7 Funds/7.7B Total Assets in USD) | More =C2=BB Fund Name T=
+ot Ast YTD Ret 3M Px Objective Status21) Northern International Equity In 5=
+.5B 7.8 Foreign Blend ACTV22) Northern Global Sustainability In 1.3B 20.5 T=
+hematic Sector ACTV23) Green Century Equity Fund 552.1M 25.2 Thematic Secto=
+r ACTV
+ Recent News | More =C2=BB41) Northern Funds: 497 2019/07/02 EDG 07/2019=20
+
+
+
+<<=C2=A0HAPPY=C2=A0HOLIDAYS=C2=A0and=C2=A0Merry=C2=A0xmas=C2=A0>> =20
+------=_Part_622991_1070494473.1649906747376
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div id=3D"ymail_android_signature"><a id=3D"ymail_android_signatur=
+e_link" href=3D"https://go.onelink.me/107872968?pid=3DInProduct&amp;c=3DGlo=
+bal_Internal_YGrowth_AndroidEmailSig__AndroidUsers&amp;af_wl=3Dym&amp;af_su=
+b1=3DInternal&amp;af_sub2=3DGlobal_YGrowth&amp;af_sub3=3DEmailSignature">Se=
+nt from Yahoo Mail on Android</a></div> <br> <blockquote style=3D"margin: 0=
+ 0 20px 0;"> <div style=3D"padding: 10px 0 0 20px; margin: 10px 0 0 0; bord=
+er-left: 1px solid #6D00F6;"> <div style=3D"font-family:Roboto, sans-serif;=
+ color:#6D00F6;"> <div>----- Forwarded Message -----</div> <div><b>From:</b=
+> "Bd Dincer (COLUMBIA UNIVERSITY)" &lt;bdincer211@bloomberg.net&gt;</div> =
+<div><b>To:</b> "james.gorman@morgan.stanley.com" &lt;james.gorman@morgan.s=
+tanley.com&gt;</div> <div style=3D"display:inline"><b>Cc:</b> "abari4@bloom=
+berg.net" &lt;abari4@bloomberg.net&gt;, "ahallman1@bloomberg.net" &lt;ahall=
+man1@bloomberg.net&gt;, "aragonp@bloomberg.net" &lt;aragonp@bloomberg.net&g=
+t;, "asmock1@bloomberg.net" &lt;asmock1@bloomberg.net&gt;, "avales1@bloombe=
+rg.net" &lt;avales1@bloomberg.net&gt;, "b.dincer@columbia.edu" &lt;b.dincer=
+@columbia.edu&gt;, "bbengtson3@bloomberg.net" &lt;bbengtson3@bloomberg.net&=
+gt;, "bdincer211@bloomberg.net" &lt;bdincer211@bloomberg.net&gt;, "bdr11@bl=
+oomberg.net" &lt;bdr11@bloomberg.net&gt;, "beuliss@bloomberg.net" &lt;beuli=
+ss@bloomberg.net&gt;, "bstephan@bloomberg.net" &lt;bstephan@bloomberg.net&g=
+t;, "btrauner@bloomberg.net" &lt;btrauner@bloomberg.net&gt;, "cconstanti37@=
+bloomberg.net" &lt;cconstanti37@bloomberg.net&gt;, "cdirks1@bloomberg.net" =
+&lt;cdirks1@bloomberg.net&gt;, "chair@sec.gov" &lt;chair@sec.gov&gt;, "ckur=
+ak@bloomberg.net" &lt;ckurak@bloomberg.net&gt;, "cmhigham@bloomberg.net" &l=
+t;cmhigham@bloomberg.net&gt;, "cminter2@bloomberg.net" &lt;cminter2@bloombe=
+rg.net&gt;, "cmoser7@bloomberg.net" &lt;cmoser7@bloomberg.net&gt;, "cswartz=
+lande@bloomberg.net" &lt;cswartzlande@bloomberg.net&gt;, "dianehsiung@bloom=
+berg.net" &lt;dianehsiung@bloomberg.net&gt;, "drizer@bloomberg.net" &lt;dri=
+zer@bloomberg.net&gt;, "ducrest2@bloomberg.net" &lt;ducrest2@bloomberg.net&=
+gt;, "ekhoziaeva@bloomberg.net" &lt;ekhoziaeva@bloomberg.net&gt;, "fcastell=
+a3@bloomberg.net" &lt;fcastella3@bloomberg.net&gt;, "gpoole2011@bloomberg.n=
+et" &lt;gpoole2011@bloomberg.net&gt;, "gpradocorrea@bloomberg.net" &lt;gpra=
+docorrea@bloomberg.net&gt;, "gshull@bloomberg.net" &lt;gshull@bloomberg.net=
+&gt;, "hmarsh6@bloomberg.net" &lt;hmarsh6@bloomberg.net&gt;, "hncaldwell@bl=
+oomberg.net" &lt;hncaldwell@bloomberg.net&gt;, "hrose17@bloomberg.net" &lt;=
+hrose17@bloomberg.net&gt;, "jchan161@bloomberg.net" &lt;jchan161@bloomberg.=
+net&gt;, "jhoyer@bloomberg.net" &lt;jhoyer@bloomberg.net&gt;, "jhsui2@bloom=
+berg.net" &lt;jhsui2@bloomberg.net&gt;, "jmalito@bloomberg.net" &lt;jmalito=
+@bloomberg.net&gt;, "jsocha@bloomberg.net" &lt;jsocha@bloomberg.net&gt;, "j=
+tattwood@bloomberg.net" &lt;jtattwood@bloomberg.net&gt;, "jwilson578@bloomb=
+erg.net" &lt;jwilson578@bloomberg.net&gt;, "jyoung121@bloomberg.net" &lt;jy=
+oung121@bloomberg.net&gt;, "kbretz2@bloomberg.net" &lt;kbretz2@bloomberg.ne=
+t&gt;, "kgilmore10@bloomberg.net" &lt;kgilmore10@bloomberg.net&gt;, "khubba=
+rd1@bloomberg.net" &lt;khubbard1@bloomberg.net&gt;, "kkarsten@bloomberg.net=
+" &lt;kkarsten@bloomberg.net&gt;, "krock5@bloomberg.net" &lt;krock5@bloombe=
+rg.net&gt;, "ksheffield1@bloomberg.net" &lt;ksheffield1@bloomberg.net&gt;, =
+"lgates16@bloomberg.net" &lt;lgates16@bloomberg.net&gt;, "lrogalski@bloombe=
+rg.net" &lt;lrogalski@bloomberg.net&gt;, "lrogers@bloomberg.net" &lt;lroger=
+s@bloomberg.net&gt;, "mbroughton11@bloomberg.net" &lt;mbroughton11@bloomber=
+g.net&gt;, "mdunford3@bloomberg.net" &lt;mdunford3@bloomberg.net&gt;, "mhar=
+vey13@bloomberg.net" &lt;mharvey13@bloomberg.net&gt;, "mkrebsbach3@bloomber=
+g.net" &lt;mkrebsbach3@bloomberg.net&gt;, "mlockridge2@bloomberg.net" &lt;m=
+lockridge2@bloomberg.net&gt;, "mmayberger@bloomberg.net" &lt;mmayberger@blo=
+omberg.net&gt;, "mshy1@bloomberg.net" &lt;mshy1@bloomberg.net&gt;, "mshyld@=
+bloomberg.net" &lt;mshyld@bloomberg.net&gt;, "mwhipple@bloomberg.net" &lt;m=
+whipple@bloomberg.net&gt;, "mzaroogian1@bloomberg.net" &lt;mzaroogian1@bloo=
+mberg.net&gt;, "nahmed127@bloomberg.net" &lt;nahmed127@bloomberg.net&gt;, "=
+pkroger5@bloomberg.net" &lt;pkroger5@bloomberg.net&gt;, "pmelley@bloomberg.=
+net" &lt;pmelley@bloomberg.net&gt;, "rcorrea29@bloomberg.net" &lt;rcorrea29=
+@bloomberg.net&gt;, "rholt22@bloomberg.net" &lt;rholt22@bloomberg.net&gt;, =
+"rmiddleton19@bloomberg.net" &lt;rmiddleton19@bloomberg.net&gt;, "rrebholz@=
+bloomberg.net" &lt;rrebholz@bloomberg.net&gt;, "rrenken@bloomberg.net" &lt;=
+rrenken@bloomberg.net&gt;, "sbarlow28@bloomberg.net" &lt;sbarlow28@bloomber=
+g.net&gt;, "sbrucker@bloomberg.net" &lt;sbrucker@bloomberg.net&gt;, "sjent@=
+bloomberg.net" &lt;sjent@bloomberg.net&gt;, "skim1465@bloomberg.net" &lt;sk=
+im1465@bloomberg.net&gt;, "slawson15@bloomberg.net" &lt;slawson15@bloomberg=
+.net&gt;, "smarsh16@bloomberg.net" &lt;smarsh16@bloomberg.net&gt;, "smbyrne=
+@bloomberg.net" &lt;smbyrne@bloomberg.net&gt;, "sreid42@bloomberg.net" &lt;=
+sreid42@bloomberg.net&gt;, "steve@bloomberg.net" &lt;steve@bloomberg.net&gt=
+;, "tbaker5@bloomberg.net" &lt;tbaker5@bloomberg.net&gt;, "tgipson@bloomber=
+g.net" &lt;tgipson@bloomberg.net&gt;, "tlynch54@bloomberg.net" &lt;tlynch54=
+@bloomberg.net&gt;, "tsmith241@bloomberg.net" &lt;tsmith241@bloomberg.net&g=
+t;, "tzelgert@bloomberg.net" &lt;tzelgert@bloomberg.net&gt;, "vtrimpe@bloom=
+berg.net" &lt;vtrimpe@bloomberg.net&gt;, "whao15@bloomberg.net" &lt;whao15@=
+bloomberg.net&gt;, "wreinthaler@bloomberg.net" &lt;wreinthaler@bloomberg.ne=
+t&gt;, "wruane1@bloomberg.net" &lt;wruane1@bloomberg.net&gt;</div> <div><b>=
+Sent:</b> Sat, Dec 18, 2021 at 6:27 PM</div> <div><b>Subject:</b> Fwd:Fwd:S=
+TATE FARM - BLOOMINGTON</div> </div>  <div id=3D"yiv4014912590"><title></ti=
+tle><div><div style=3D"" class=3D"yiv4014912590bbg-rte-fold-content"><div c=
+lass=3D"yiv4014912590bbg-rte-fold-summary">From: BD DINCER (COLUMBIA UNIVER=
+SITY) At: 12/18/21 18:22:32 UTC-5:00</div>To: <a rel=3D"nofollow noopener n=
+oreferrer" ymailto=3D"mailto:ksaperstein2@bloomberg.net" target=3D"_blank" =
+href=3D"mailto:ksaperstein2@bloomberg.net"> Kerri Saperstein (MORGAN STANLE=
+Y &amp; CO. ) </a>, <a rel=3D"nofollow noopener noreferrer" ymailto=3D"mail=
+to:james.gorman@morganstanley.com" target=3D"_blank" href=3D"mailto:james.g=
+orman@morganstanley.com"> james.gorman@morganstanley.com</a><br>Cc: <a rel=
+=3D"nofollow noopener noreferrer" ymailto=3D"mailto:bd2561@columbia.edu" ta=
+rget=3D"_blank" href=3D"mailto:bd2561@columbia.edu"> bd2561@columbia.edu</a=
+><br>Subject: Fwd:STATE FARM - BLOOMINGTON</div><blockquote style=3D""><div=
+ style=3D"" class=3D"yiv4014912590bbg-rte-fold-content"><div class=3D"yiv40=
+14912590bbg-rte-fold-summary">From: BD DINCER (COLUMBIA UNIVERSITY) At: 12/=
+18/21 16:06:49 UTC-5:00</div>To: <a rel=3D"nofollow noopener noreferrer" ym=
+ailto=3D"mailto:gshull@bloomberg.net" target=3D"_blank" href=3D"mailto:gshu=
+ll@bloomberg.net"> Greg Shull (STATE FARM MUTUAL AU ) </a>, <a rel=3D"nofol=
+low noopener noreferrer" ymailto=3D"mailto:btrauner@bloomberg.net" target=
+=3D"_blank" href=3D"mailto:btrauner@bloomberg.net"> Bill Trauner (STATE FAR=
+M MUTUAL AU ) </a>, <a rel=3D"nofollow noopener noreferrer" ymailto=3D"mail=
+to:tbaker5@bloomberg.net" target=3D"_blank" href=3D"mailto:tbaker5@bloomber=
+g.net"> Theresa Baker (STATE FARM MUTUAL AU ) </a>, <a rel=3D"nofollow noop=
+ener noreferrer" ymailto=3D"mailto:tgipson@bloomberg.net" target=3D"_blank"=
+ href=3D"mailto:tgipson@bloomberg.net"> Tammy Gipson (STATE FARM MUTUAL AU =
+) </a>, <a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:lrogalski=
+@bloomberg.net" target=3D"_blank" href=3D"mailto:lrogalski@bloomberg.net"> =
+Leigh Ann Rogalski (STATE FARM MUTUAL AU ) </a>, <a rel=3D"nofollow noopene=
+r noreferrer" ymailto=3D"mailto:cmoser7@bloomberg.net" target=3D"_blank" hr=
+ef=3D"mailto:cmoser7@bloomberg.net"> Chad Moser (STATE FARM MUTUAL AU ) </a=
+>, <a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:rrenken@bloomb=
+erg.net" target=3D"_blank" href=3D"mailto:rrenken@bloomberg.net"> Ray Renke=
+n (STATE FARM MUTUAL AU ) </a>, <a rel=3D"nofollow noopener noreferrer" yma=
+ilto=3D"mailto:mharvey13@bloomberg.net" target=3D"_blank" href=3D"mailto:mh=
+arvey13@bloomberg.net"> Matt Harvey (STATE FARM MUTUAL AU ) </a>, <a rel=3D=
+"nofollow noopener noreferrer" ymailto=3D"mailto:sbrucker@bloomberg.net" ta=
+rget=3D"_blank" href=3D"mailto:sbrucker@bloomberg.net"> Steve Brucker (STAT=
+E FARM MUTUAL AU ) </a>, <a rel=3D"nofollow noopener noreferrer" ymailto=3D=
+"mailto:wreinthaler@bloomberg.net" target=3D"_blank" href=3D"mailto:wreinth=
+aler@bloomberg.net"> Wade Reinthaler (STATE FARM MUTUAL AU ) </a>, <a rel=
+=3D"nofollow noopener noreferrer" ymailto=3D"mailto:tsmith241@bloomberg.net=
+" target=3D"_blank" href=3D"mailto:tsmith241@bloomberg.net"> Tyler Smith (S=
+TATE FARM MUTUAL AU ) </a>, <a rel=3D"nofollow noopener noreferrer" ymailto=
+=3D"mailto:rrebholz@bloomberg.net" target=3D"_blank" href=3D"mailto:rrebhol=
+z@bloomberg.net"> Rich Rebholz (STATE FARM MUTUAL AU ) </a>, <a rel=3D"nofo=
+llow noopener noreferrer" ymailto=3D"mailto:bbengtson3@bloomberg.net" targe=
+t=3D"_blank" href=3D"mailto:bbengtson3@bloomberg.net"> Brian Bengtson (STAT=
+E FARM MUTUAL AU ) </a>, <a rel=3D"nofollow noopener noreferrer" ymailto=3D=
+"mailto:kgilmore10@bloomberg.net" target=3D"_blank" href=3D"mailto:kgilmore=
+10@bloomberg.net"> Kyle Gilmore (STATE FARM MUTUAL AU ) </a>, <a rel=3D"nof=
+ollow noopener noreferrer" ymailto=3D"mailto:nahmed127@bloomberg.net" targe=
+t=3D"_blank" href=3D"mailto:nahmed127@bloomberg.net"> Numan Ahmed (STATE FA=
+RM MUTUAL AU ) </a>, <a rel=3D"nofollow noopener noreferrer" ymailto=3D"mai=
+lto:wruane1@bloomberg.net" target=3D"_blank" href=3D"mailto:wruane1@bloombe=
+rg.net"> Walter Ruane (STATE FARM MUTUAL AU ) </a>, <a rel=3D"nofollow noop=
+ener noreferrer" ymailto=3D"mailto:vtrimpe@bloomberg.net" target=3D"_blank"=
+ href=3D"mailto:vtrimpe@bloomberg.net"> Vicki Trimpe (STATE FARM MUTUAL AU =
+) </a>, <a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:steve@blo=
+omberg.net" target=3D"_blank" href=3D"mailto:steve@bloomberg.net"> Steven S=
+anticcioli (NORTHERN TRUST COMPA ) </a>, <a rel=3D"nofollow noopener norefe=
+rrer" ymailto=3D"mailto:bdr11@bloomberg.net" target=3D"_blank" href=3D"mail=
+to:bdr11@bloomberg.net"> Brent Reeder (NORTHERN TRUST COMPA ) </a>, <a rel=
+=3D"nofollow noopener noreferrer" ymailto=3D"mailto:phil.supple.hid9@statef=
+arm.com" target=3D"_blank" href=3D"mailto:phil.supple.hid9@statefarm.com"> =
+phil.supple.hid9@statefarm.com</a>, <a rel=3D"nofollow noopener noreferrer"=
+ ymailto=3D"mailto:nicole.bowyer@statefarm.com" target=3D"_blank" href=3D"m=
+ailto:nicole.bowyer@statefarm.com"> nicole.bowyer@statefarm.com</a>, <a rel=
+=3D"nofollow noopener noreferrer" ymailto=3D"mailto:rebecca.coyle@statefarm=
+.com" target=3D"_blank" href=3D"mailto:rebecca.coyle@statefarm.com"> rebecc=
+a.coyle@statefarm.com</a>, <a rel=3D"nofollow noopener noreferrer" ymailto=
+=3D"mailto:dick.luedke.h2hj@statefarm.com" target=3D"_blank" href=3D"mailto=
+:dick.luedke.h2hj@statefarm.com"> dick.luedke.h2hj@statefarm.com</a>, <a re=
+l=3D"nofollow noopener noreferrer" ymailto=3D"mailto:sjs5@ntrs.com" target=
+=3D"_blank" href=3D"mailto:sjs5@ntrs.com"> sjs5@ntrs.com</a>, <a rel=3D"nof=
+ollow noopener noreferrer" ymailto=3D"mailto:brian.hodgson.nyz6@statefarm.c=
+om" target=3D"_blank" href=3D"mailto:brian.hodgson.nyz6@statefarm.com"> bri=
+an.hodgson.nyz6@statefarm.com</a><br>Cc: <a rel=3D"nofollow noopener norefe=
+rrer" ymailto=3D"mailto:BO.DINCER@YAHOO.COM" target=3D"_blank" href=3D"mail=
+to:BO.DINCER@YAHOO.COM"> BO.DINCER@YAHOO.COM</a><br>Subject: STATE FARM - B=
+LOOMINGTON</div> <blockquote style=3D""><div style=3D"white-space:pre-wrap;=
+font-size:small;font-family:Courier,;" class=3D"yiv4014912590rte-style-main=
+tainer yiv4014912590rte-pre-wrap">TY.<div><br></div><div><br></div><div>   =
+                 Kevin Rock</div><div><br></div><div>Investment Information=
+ Analyst</div><div>State Farm Mutual Automobile Ins Co</div><div>         +=
+1-309-735-2705 (o)                  1 State Farm Plz</div><div>        +1-3=
+09-530-1865 (m)                  Investment Department E-8</div><div>      =
+ <a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:krock5@bloomberg=
+.net" target=3D"_blank" href=3D"mailto:krock5@bloomberg.net">krock5@bloombe=
+rg.net</a> (w)            Bloomington IL 61701, US</div><div><br></div><div=
+><br></div><div>                                Phil Supple              1 =
+Views Today</div><div>Spokesperson    Career</div><div>State Farm Life Insu=
+rance Co                                                                   =
+       Current</div><div>       +1-800-782-8332 (o)                  1 Stat=
+e Farm Plaza                                       State Farm Life Insuranc=
+e Co</div><div>   <a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto=
+:phil.supple.hid9@statefarm.com" target=3D"_blank" href=3D"mailto:phil.supp=
+le.hid9@statefarm.com">phil.supple.hid9@statefarm.com</a> (w  Bloomington I=
+L 61710, US                               Spokesperson</div><div><br></div>=
+<div><br></div><div>                                        News | More =C2=
+=BB</div><div><br></div><div><br></div><div>                               =
+            Nicole Tamilyn Bowyer</div><div><br></div><div>Attorney</div><d=
+iv>State Farm Insurance</div><div>   +1-504-840-4900 (o)                  8=
+53 Fincastle Turnpike</div><div>  +1-504-840-4941 (f)                   Nor=
+th Tazewell VA 24630</div><div>        <a rel=3D"nofollow noopener noreferr=
+er" ymailto=3D"mailto:nicole.bowyer@statefarm.com" target=3D"_blank" href=
+=3D"mailto:nicole.bowyer@statefarm.com">nicole.bowyer@statefarm.com</a> (w)=
+</div><div>                          Focus       Legal</div><div><br></div>=
+<div>     Rebecca Coyle              1 Views Today</div><div>Analyst:Public=
+ Policy   Career</div><div>State Farm Life Insurance Co                    =
+                                                      Current</div><div>   =
+    +1-309-766-2311 (o)                  1900 M Street NW                  =
+                        State Farm Life Insurance Co</div><div>  <a rel=3D"=
+nofollow noopener noreferrer" ymailto=3D"mailto:rebecca.coyle@statefarm.com=
+" target=3D"_blank" href=3D"mailto:rebecca.coyle@statefarm.com">rebecca.coy=
+le@statefarm.com</a> (w)   Washington DC 20036, US                         =
+       Analyst:Public Policy</div><div>                                    =
+                                                                           =
+      2012-Present</div><div><br></div><div><br></div><div>                =
+                                  Steven Santiccioli</div><div><br></div><d=
+iv>VP:Quantitative Management   </div><div>Northern Trust Company, The</div=
+><div>        +1-3124444419 (o)                     Addl Contact Info  =C2=
+=BB</div><div>   312-444-5777 (o)                       181 W Madison St</d=
+iv><div>      <a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:ste=
+ve@bloomberg.net" target=3D"_blank" href=3D"mailto:steve@bloomberg.net">ste=
+ve@bloomberg.net</a> (w)             Chicago IL 60602-4510, </div><div>    =
+     <a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:sjs5@ntrs.co=
+m" target=3D"_blank" href=3D"mailto:sjs5@ntrs.com">sjs5@ntrs.com</a> (w)</d=
+iv><div>                                     I would work harder on my marr=
+iage if there was a retirement plan.</div><div>                            =
+       Focus       Large Cap Stocks, Growth Investing, Global, Equities, </=
+div><div>                                                 Thematic Investin=
+g, United States, Developed Markets</div><div><br></div><div>              =
+                     Funds Managed (7 Funds/7.7B Total Assets in USD) | Mor=
+e =C2=BB</div><div>         Fund Name       Tot Ast YTD Ret 3M Px   Objecti=
+ve       Status</div><div>21)    Northern International Equity In        5.=
+5B    7.8             Foreign Blend   ACTV</div><div>22)      Northern Glob=
+al Sustainability In       1.3B    20.5            Thematic Sector ACTV</di=
+v><div>23)      Green Century Equity Fund       552.1M  25.2            The=
+matic Sector ACTV</div><div><br></div><div>                                =
+   Recent News | More =C2=BB</div><div>41)                     Northern Fun=
+ds: 497 2019/07/02          EDG     07/2019  </div></div></blockquote></blo=
+ckquote><div lang=3D"en"><br><br>&lt;&lt;&nbsp;HAPPY&nbsp;HOLIDAYS&nbsp;and=
+&nbsp;Merry&nbsp;xmas&nbsp;&gt;&gt;</div></div></div> </div> </blockquote>
+------=_Part_622991_1070494473.1649906747376--
+
+------=_Part_622992_1587222871.1649906747424
+Content-Type: text/html
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Untitled"
+Content-ID: <48351775-1357-49ee-8c5b-91174c18da46>
+
+PGh0bWw+PGhlYWQ+PHRpdGxlPjwvdGl0bGU+PC9oZWFkPjxib2R5PjxkaXYgY2xhc3M9ImJiZy1y
+dGUtZm9sZC1jb250ZW50IiBkYXRhLWhlYWRlcj0iRnJvbTogQkQgRElOQ0VSIChDT0xVTUJJQSBV
+TklWRVJTSVRZKSBBdDogMTIvMTgvMjEgMTg6MjI6MzIgVVRDLTU6MDAiZGF0YS1kaWdlc3Q9IkZy
+b206IEJEIERJTkNFUiAoQ09MVU1CSUEgVU5JVkVSU0lUWSkgQXQ6IDEyLzE4LzIxIDE4OjIyOjMy
+IFVUQy01OjAwInN0eWxlPSIiPjxkaXYgY2xhc3M9ImJiZy1ydGUtZm9sZC1zdW1tYXJ5Ij5Gcm9t
+OiBCRCBESU5DRVIgKENPTFVNQklBIFVOSVZFUlNJVFkpIEF0OiAxMi8xOC8yMSAxODoyMjozMiBV
+VEMtNTowMDwvZGl2PlRvOiA8YSBzcGVsbGNoZWNrPSJmYWxzZSIgZGF0YS1kZXN0aW5hdGlvbj0i
+bWFpbHRvOmtzYXBlcnN0ZWluMkBibG9vbWJlcmcubmV0IiBocmVmPSJtYWlsdG86a3NhcGVyc3Rl
+aW4yQGJsb29tYmVyZy5uZXQiPiBLZXJyaSBTYXBlcnN0ZWluIChNT1JHQU4gU1RBTkxFWSAmIENP
+LiApIDwvYT4sIDxhIHNwZWxsY2hlY2s9ImZhbHNlImRhdGEtZGVzdGluYXRpb249Im1haWx0bzpq
+YW1lcy5nb3JtYW5AbW9yZ2Fuc3RhbmxleS5jb20iIGhyZWY9Im1haWx0bzpqYW1lcy5nb3JtYW5A
+bW9yZ2Fuc3RhbmxleS5jb20iPiBqYW1lcy5nb3JtYW5AbW9yZ2Fuc3RhbmxleS5jb208L2E+PGJy
+PkNjOiA8YSBzcGVsbGNoZWNrPSJmYWxzZSJkYXRhLWRlc3RpbmF0aW9uPSJtYWlsdG86YmQyNTYx
+QGNvbHVtYmlhLmVkdSIgaHJlZj0ibWFpbHRvOmJkMjU2MUBjb2x1bWJpYS5lZHUiPiBiZDI1NjFA
+Y29sdW1iaWEuZWR1PC9hPjxicj5TdWJqZWN0OiBGd2Q6U1RBVEUgRkFSTSAtIEJMT09NSU5HVE9O
+PC9kaXY+PGJsb2NrcXVvdGUgc3R5bGU9IiI+PGRpdiBjbGFzcz0iYmJnLXJ0ZS1mb2xkLWNvbnRl
+bnQiIGRhdGEtaGVhZGVyPSJGcm9tOiBCRCBESU5DRVIgKENPTFVNQklBIFVOSVZFUlNJVFkpIEF0
+OiAxMi8xOC8yMSAxNjowNjo0OSBVVEMtNTowMCJkYXRhLWRpZ2VzdD0iRnJvbTogQkQgRElOQ0VS
+IChDT0xVTUJJQSBVTklWRVJTSVRZKSBBdDogMTIvMTgvMjEgMTY6MDY6NDkgVVRDLTU6MDAic3R5
+bGU9IiI+PGRpdiBjbGFzcz0iYmJnLXJ0ZS1mb2xkLXN1bW1hcnkiPkZyb206IEJEIERJTkNFUiAo
+Q09MVU1CSUEgVU5JVkVSU0lUWSkgQXQ6IDEyLzE4LzIxIDE2OjA2OjQ5IFVUQy01OjAwPC9kaXY+
+VG86IDxhIHNwZWxsY2hlY2s9ImZhbHNlIiBkYXRhLWRlc3RpbmF0aW9uPSJtYWlsdG86Z3NodWxs
+QGJsb29tYmVyZy5uZXQiIGhyZWY9Im1haWx0bzpnc2h1bGxAYmxvb21iZXJnLm5ldCI+IEdyZWcg
+U2h1bGwgKFNUQVRFIEZBUk0gTVVUVUFMIEFVICkgPC9hPiwgPGEgc3BlbGxjaGVjaz0iZmFsc2Ui
+ZGF0YS1kZXN0aW5hdGlvbj0ibWFpbHRvOmJ0cmF1bmVyQGJsb29tYmVyZy5uZXQiIGhyZWY9Im1h
+aWx0bzpidHJhdW5lckBibG9vbWJlcmcubmV0Ij4gQmlsbCBUcmF1bmVyIChTVEFURSBGQVJNIE1V
+VFVBTCBBVSApIDwvYT4sIDxhIHNwZWxsY2hlY2s9ImZhbHNlImRhdGEtZGVzdGluYXRpb249Im1h
+aWx0bzp0YmFrZXI1QGJsb29tYmVyZy5uZXQiIGhyZWY9Im1haWx0bzp0YmFrZXI1QGJsb29tYmVy
+Zy5uZXQiPiBUaGVyZXNhIEJha2VyIChTVEFURSBGQVJNIE1VVFVBTCBBVSApIDwvYT4sIDxhIHNw
+ZWxsY2hlY2s9ImZhbHNlImRhdGEtZGVzdGluYXRpb249Im1haWx0bzp0Z2lwc29uQGJsb29tYmVy
+Zy5uZXQiIGhyZWY9Im1haWx0bzp0Z2lwc29uQGJsb29tYmVyZy5uZXQiPiBUYW1teSBHaXBzb24g
+KFNUQVRFIEZBUk0gTVVUVUFMIEFVICkgPC9hPiwgPGEgc3BlbGxjaGVjaz0iZmFsc2UiZGF0YS1k
+ZXN0aW5hdGlvbj0ibWFpbHRvOmxyb2dhbHNraUBibG9vbWJlcmcubmV0IiBocmVmPSJtYWlsdG86
+bHJvZ2Fsc2tpQGJsb29tYmVyZy5uZXQiPiBMZWlnaCBBbm4gUm9nYWxza2kgKFNUQVRFIEZBUk0g
+TVVUVUFMIEFVICkgPC9hPiwgPGEgc3BlbGxjaGVjaz0iZmFsc2UiZGF0YS1kZXN0aW5hdGlvbj0i
+bWFpbHRvOmNtb3NlcjdAYmxvb21iZXJnLm5ldCIgaHJlZj0ibWFpbHRvOmNtb3NlcjdAYmxvb21i
+ZXJnLm5ldCI+IENoYWQgTW9zZXIgKFNUQVRFIEZBUk0gTVVUVUFMIEFVICkgPC9hPiwgPGEgc3Bl
+bGxjaGVjaz0iZmFsc2UiZGF0YS1kZXN0aW5hdGlvbj0ibWFpbHRvOnJyZW5rZW5AYmxvb21iZXJn
+Lm5ldCIgaHJlZj0ibWFpbHRvOnJyZW5rZW5AYmxvb21iZXJnLm5ldCI+IFJheSBSZW5rZW4gKFNU
+QVRFIEZBUk0gTVVUVUFMIEFVICkgPC9hPiwgPGEgc3BlbGxjaGVjaz0iZmFsc2UiZGF0YS1kZXN0
+aW5hdGlvbj0ibWFpbHRvOm1oYXJ2ZXkxM0BibG9vbWJlcmcubmV0IiBocmVmPSJtYWlsdG86bWhh
+cnZleTEzQGJsb29tYmVyZy5uZXQiPiBNYXR0IEhhcnZleSAoU1RBVEUgRkFSTSBNVVRVQUwgQVUg
+KSA8L2E+LCA8YSBzcGVsbGNoZWNrPSJmYWxzZSJkYXRhLWRlc3RpbmF0aW9uPSJtYWlsdG86c2Jy
+dWNrZXJAYmxvb21iZXJnLm5ldCIgaHJlZj0ibWFpbHRvOnNicnVja2VyQGJsb29tYmVyZy5uZXQi
+PiBTdGV2ZSBCcnVja2VyIChTVEFURSBGQVJNIE1VVFVBTCBBVSApIDwvYT4sIDxhIHNwZWxsY2hl
+Y2s9ImZhbHNlImRhdGEtZGVzdGluYXRpb249Im1haWx0bzp3cmVpbnRoYWxlckBibG9vbWJlcmcu
+bmV0IiBocmVmPSJtYWlsdG86d3JlaW50aGFsZXJAYmxvb21iZXJnLm5ldCI+IFdhZGUgUmVpbnRo
+YWxlciAoU1RBVEUgRkFSTSBNVVRVQUwgQVUgKSA8L2E+LCA8YSBzcGVsbGNoZWNrPSJmYWxzZSJk
+YXRhLWRlc3RpbmF0aW9uPSJtYWlsdG86dHNtaXRoMjQxQGJsb29tYmVyZy5uZXQiIGhyZWY9Im1h
+aWx0bzp0c21pdGgyNDFAYmxvb21iZXJnLm5ldCI+IFR5bGVyIFNtaXRoIChTVEFURSBGQVJNIE1V
+VFVBTCBBVSApIDwvYT4sIDxhIHNwZWxsY2hlY2s9ImZhbHNlImRhdGEtZGVzdGluYXRpb249Im1h
+aWx0bzpycmViaG9sekBibG9vbWJlcmcubmV0IiBocmVmPSJtYWlsdG86cnJlYmhvbHpAYmxvb21i
+ZXJnLm5ldCI+IFJpY2ggUmViaG9seiAoU1RBVEUgRkFSTSBNVVRVQUwgQVUgKSA8L2E+LCA8YSBz
+cGVsbGNoZWNrPSJmYWxzZSJkYXRhLWRlc3RpbmF0aW9uPSJtYWlsdG86YmJlbmd0c29uM0BibG9v
+bWJlcmcubmV0IiBocmVmPSJtYWlsdG86YmJlbmd0c29uM0BibG9vbWJlcmcubmV0Ij4gQnJpYW4g
+QmVuZ3Rzb24gKFNUQVRFIEZBUk0gTVVUVUFMIEFVICkgPC9hPiwgPGEgc3BlbGxjaGVjaz0iZmFs
+c2UiZGF0YS1kZXN0aW5hdGlvbj0ibWFpbHRvOmtnaWxtb3JlMTBAYmxvb21iZXJnLm5ldCIgaHJl
+Zj0ibWFpbHRvOmtnaWxtb3JlMTBAYmxvb21iZXJnLm5ldCI+IEt5bGUgR2lsbW9yZSAoU1RBVEUg
+RkFSTSBNVVRVQUwgQVUgKSA8L2E+LCA8YSBzcGVsbGNoZWNrPSJmYWxzZSJkYXRhLWRlc3RpbmF0
+aW9uPSJtYWlsdG86bmFobWVkMTI3QGJsb29tYmVyZy5uZXQiIGhyZWY9Im1haWx0bzpuYWhtZWQx
+MjdAYmxvb21iZXJnLm5ldCI+IE51bWFuIEFobWVkIChTVEFURSBGQVJNIE1VVFVBTCBBVSApIDwv
+YT4sIDxhIHNwZWxsY2hlY2s9ImZhbHNlImRhdGEtZGVzdGluYXRpb249Im1haWx0bzp3cnVhbmUx
+QGJsb29tYmVyZy5uZXQiIGhyZWY9Im1haWx0bzp3cnVhbmUxQGJsb29tYmVyZy5uZXQiPiBXYWx0
+ZXIgUnVhbmUgKFNUQVRFIEZBUk0gTVVUVUFMIEFVICkgPC9hPiwgPGEgc3BlbGxjaGVjaz0iZmFs
+c2UiZGF0YS1kZXN0aW5hdGlvbj0ibWFpbHRvOnZ0cmltcGVAYmxvb21iZXJnLm5ldCIgaHJlZj0i
+bWFpbHRvOnZ0cmltcGVAYmxvb21iZXJnLm5ldCI+IFZpY2tpIFRyaW1wZSAoU1RBVEUgRkFSTSBN
+VVRVQUwgQVUgKSA8L2E+LCA8YSBzcGVsbGNoZWNrPSJmYWxzZSJkYXRhLWRlc3RpbmF0aW9uPSJt
+YWlsdG86c3RldmVAYmxvb21iZXJnLm5ldCIgaHJlZj0ibWFpbHRvOnN0ZXZlQGJsb29tYmVyZy5u
+ZXQiPiBTdGV2ZW4gU2FudGljY2lvbGkgKE5PUlRIRVJOIFRSVVNUIENPTVBBICkgPC9hPiwgPGEg
+c3BlbGxjaGVjaz0iZmFsc2UiZGF0YS1kZXN0aW5hdGlvbj0ibWFpbHRvOmJkcjExQGJsb29tYmVy
+Zy5uZXQiIGhyZWY9Im1haWx0bzpiZHIxMUBibG9vbWJlcmcubmV0Ij4gQnJlbnQgUmVlZGVyIChO
+T1JUSEVSTiBUUlVTVCBDT01QQSApIDwvYT4sIDxhIHNwZWxsY2hlY2s9ImZhbHNlImRhdGEtZGVz
+dGluYXRpb249Im1haWx0bzpwaGlsLnN1cHBsZS5oaWQ5QHN0YXRlZmFybS5jb20iIGhyZWY9Im1h
+aWx0bzpwaGlsLnN1cHBsZS5oaWQ5QHN0YXRlZmFybS5jb20iPiBwaGlsLnN1cHBsZS5oaWQ5QHN0
+YXRlZmFybS5jb208L2E+LCA8YSBzcGVsbGNoZWNrPSJmYWxzZSJkYXRhLWRlc3RpbmF0aW9uPSJt
+YWlsdG86bmljb2xlLmJvd3llckBzdGF0ZWZhcm0uY29tIiBocmVmPSJtYWlsdG86bmljb2xlLmJv
+d3llckBzdGF0ZWZhcm0uY29tIj4gbmljb2xlLmJvd3llckBzdGF0ZWZhcm0uY29tPC9hPiwgPGEg
+c3BlbGxjaGVjaz0iZmFsc2UiZGF0YS1kZXN0aW5hdGlvbj0ibWFpbHRvOnJlYmVjY2EuY295bGVA
+c3RhdGVmYXJtLmNvbSIgaHJlZj0ibWFpbHRvOnJlYmVjY2EuY295bGVAc3RhdGVmYXJtLmNvbSI+
+IHJlYmVjY2EuY295bGVAc3RhdGVmYXJtLmNvbTwvYT4sIDxhIHNwZWxsY2hlY2s9ImZhbHNlImRh
+dGEtZGVzdGluYXRpb249Im1haWx0bzpkaWNrLmx1ZWRrZS5oMmhqQHN0YXRlZmFybS5jb20iIGhy
+ZWY9Im1haWx0bzpkaWNrLmx1ZWRrZS5oMmhqQHN0YXRlZmFybS5jb20iPiBkaWNrLmx1ZWRrZS5o
+MmhqQHN0YXRlZmFybS5jb208L2E+LCA8YSBzcGVsbGNoZWNrPSJmYWxzZSJkYXRhLWRlc3RpbmF0
+aW9uPSJtYWlsdG86c2pzNUBudHJzLmNvbSIgaHJlZj0ibWFpbHRvOnNqczVAbnRycy5jb20iPiBz
+anM1QG50cnMuY29tPC9hPiwgPGEgc3BlbGxjaGVjaz0iZmFsc2UiZGF0YS1kZXN0aW5hdGlvbj0i
+bWFpbHRvOmJyaWFuLmhvZGdzb24ubnl6NkBzdGF0ZWZhcm0uY29tIiBocmVmPSJtYWlsdG86YnJp
+YW4uaG9kZ3Nvbi5ueXo2QHN0YXRlZmFybS5jb20iPiBicmlhbi5ob2Rnc29uLm55ejZAc3RhdGVm
+YXJtLmNvbTwvYT48YnI+Q2M6IDxhIHNwZWxsY2hlY2s9ImZhbHNlImRhdGEtZGVzdGluYXRpb249
+Im1haWx0bzpCTy5ESU5DRVJAWUFIT08uQ09NIiBocmVmPSJtYWlsdG86Qk8uRElOQ0VSQFlBSE9P
+LkNPTSI+IEJPLkRJTkNFUkBZQUhPTy5DT008L2E+PGJyPlN1YmplY3Q6IFNUQVRFIEZBUk0gLSBC
+TE9PTUlOR1RPTjwvZGl2PiA8YmxvY2txdW90ZSBzdHlsZT0iIj48IS0tIHJ0ZS12ZXJzaW9uIDAu
+MiA5OTQ3NTUxNjM3Mjk0MDA4Yjc3YmNlMjVlYjY4M2RhYyAtLT48ZGl2IGNsYXNzPSJydGUtc3R5
+bGUtbWFpbnRhaW5lciBydGUtcHJlLXdyYXAiIGRhdGEtY29sb3I9Imdsb2JhbC1kZWZhdWx0IiBi
+YmctY29sb3I9ImRlZmF1bHQiIGRhdGEtYmItZm9udC1zaXplPSJtZWRpdW0iYmJnLWZvbnQtc2l6
+ZT0ibWVkaXVtIiBzdHlsZT0id2hpdGUtc3BhY2U6IHByZS13cmFwOyBmb250LXNpemU6IHNtYWxs
+OyBmb250LWZhbWlseTogJnF1b3Q7Q291cmllciBOZXcmcXVvdDssIENvdXJpZXIsICZxdW90O0JC
+LkZpeGVkV2lkdGgmcXVvdDs7InN0eWxlPSJ3aGl0ZS1zcGFjZTogcHJlLXdyYXA7IGZvbnQtc2l6
+ZTogc21hbGw7IGZvbnQtZmFtaWx5OiAmcXVvdDtDb3VyaWVyIE5ldyZxdW90OywgQ291cmllciwg
+JnF1b3Q7QkIuRml4ZWRXaWR0aCZxdW90OzsgY29sb3I6IHJnYigwLCAwLCAwKTsiPlRZLjxkaXY+
+PGJyPjwvZGl2PjxkaXY+PGJyPjwvZGl2PjxkaXY+ICAgICAgICAgICAgICAgICAgICBLZXZpbiBS
+b2NrPC9kaXY+PGRpdj48YnI+PC9kaXY+PGRpdj5JbnZlc3RtZW50IEluZm9ybWF0aW9uIEFuYWx5
+c3Q8L2Rpdj48ZGl2PlN0YXRlIEZhcm0gTXV0dWFsIEF1dG9tb2JpbGUgSW5zIENvPC9kaXY+PGRp
+dj4gICAgICAgICArMS0zMDktNzM1LTI3MDUgKG8pICAgICAgICAgICAgICAgICAgMSBTdGF0ZSBG
+YXJtIFBsejwvZGl2PjxkaXY+ICAgICAgICArMS0zMDktNTMwLTE4NjUgKG0pICAgICAgICAgICAg
+ICAgICAgSW52ZXN0bWVudCBEZXBhcnRtZW50IEUtODwvZGl2PjxkaXY+ICAgICAgIDxhIHNwZWxs
+Y2hlY2s9ImZhbHNlIiBiYmctZGVzdGluYXRpb249Im1haWx0bzpydGU6YmluZCJkYXRhLWRlc3Rp
+bmF0aW9uPSJtYWlsdG86cnRlOmJpbmQiIGhyZWY9Im1haWx0bzprcm9jazVAYmxvb21iZXJnLm5l
+dCI+a3JvY2s1QGJsb29tYmVyZy5uZXQ8L2E+ICh3KSAgICAgICAgICAgIEJsb29taW5ndG9uIElM
+IDYxNzAxLCBVUzwvZGl2PjxkaXY+PGJyPjwvZGl2PjxkaXY+PGJyPjwvZGl2PjxkaXY+ICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICBQaGlsIFN1cHBsZSAgICAgICAgICAgICAgMSBWaWV3
+cyBUb2RheTwvZGl2PjxkaXY+U3Bva2VzcGVyc29uICAgIENhcmVlcjwvZGl2PjxkaXY+U3RhdGUg
+RmFybSBMaWZlIEluc3VyYW5jZSBDbyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQ3VycmVudDwvZGl2PjxkaXY+
+ICAgICAgICsxLTgwMC03ODItODMzMiAobykgICAgICAgICAgICAgICAgICAxIFN0YXRlIEZhcm0g
+UGxhemEgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTdGF0ZSBGYXJtIExp
+ZmUgSW5zdXJhbmNlIENvPC9kaXY+PGRpdj4gICA8YSBzcGVsbGNoZWNrPSJmYWxzZSIgYmJnLWRl
+c3RpbmF0aW9uPSJtYWlsdG86cnRlOmJpbmQiZGF0YS1kZXN0aW5hdGlvbj0ibWFpbHRvOnJ0ZTpi
+aW5kIiBocmVmPSJtYWlsdG86cGhpbC5zdXBwbGUuaGlkOUBzdGF0ZWZhcm0uY29tIj5waGlsLnN1
+cHBsZS5oaWQ5QHN0YXRlZmFybS5jb208L2E+ICh3ICBCbG9vbWluZ3RvbiBJTCA2MTcxMCwgVVMg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgU3Bva2VzcGVyc29uPC9kaXY+PGRpdj48YnI+
+PC9kaXY+PGRpdj48YnI+PC9kaXY+PGRpdj4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgTmV3cyB8IE1vcmUgwrs8L2Rpdj48ZGl2Pjxicj48L2Rpdj48ZGl2Pjxicj48L2Rp
+dj48ZGl2PiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBOaWNvbGUg
+VGFtaWx5biBCb3d5ZXI8L2Rpdj48ZGl2Pjxicj48L2Rpdj48ZGl2PkF0dG9ybmV5PC9kaXY+PGRp
+dj5TdGF0ZSBGYXJtIEluc3VyYW5jZTwvZGl2PjxkaXY+ICAgKzEtNTA0LTg0MC00OTAwIChvKSAg
+ICAgICAgICAgICAgICAgIDg1MyBGaW5jYXN0bGUgVHVybnBpa2U8L2Rpdj48ZGl2PiAgKzEtNTA0
+LTg0MC00OTQxIChmKSAgICAgICAgICAgICAgICAgICBOb3J0aCBUYXpld2VsbCBWQSAyNDYzMDwv
+ZGl2PjxkaXY+ICAgICAgICA8YSBzcGVsbGNoZWNrPSJmYWxzZSIgYmJnLWRlc3RpbmF0aW9uPSJt
+YWlsdG86cnRlOmJpbmQiIGRhdGEtZGVzdGluYXRpb249Im1haWx0bzpydGU6YmluZCIgaHJlZj0i
+bWFpbHRvOm5pY29sZS5ib3d5ZXJAc3RhdGVmYXJtLmNvbSI+bmljb2xlLmJvd3llckBzdGF0ZWZh
+cm0uY29tPC9hPiAodyk8L2Rpdj48ZGl2PiAgICAgICAgICAgICAgICAgICAgICAgICAgRm9jdXMg
+ICAgICAgTGVnYWw8L2Rpdj48ZGl2Pjxicj48L2Rpdj48ZGl2PiAgICAgUmViZWNjYSBDb3lsZSAg
+ICAgICAgICAgICAgMSBWaWV3cyBUb2RheTwvZGl2PjxkaXY+QW5hbHlzdDpQdWJsaWMgUG9saWN5
+ICAgQ2FyZWVyPC9kaXY+PGRpdj5TdGF0ZSBGYXJtIExpZmUgSW5zdXJhbmNlIENvICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICBDdXJyZW50PC9kaXY+PGRpdj4gICAgICAgKzEtMzA5LTc2Ni0yMzExIChvKSAgICAg
+ICAgICAgICAgICAgIDE5MDAgTSBTdHJlZXQgTlcgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICBTdGF0ZSBGYXJtIExpZmUgSW5zdXJhbmNlIENvPC9kaXY+PGRpdj4gIDxh
+IHNwZWxsY2hlY2s9ImZhbHNlIiBiYmctZGVzdGluYXRpb249Im1haWx0bzpydGU6YmluZCJkYXRh
+LWRlc3RpbmF0aW9uPSJtYWlsdG86cnRlOmJpbmQiIGhyZWY9Im1haWx0bzpyZWJlY2NhLmNveWxl
+QHN0YXRlZmFybS5jb20iPnJlYmVjY2EuY295bGVAc3RhdGVmYXJtLmNvbTwvYT4gKHcpICAgV2Fz
+aGluZ3RvbiBEQyAyMDAzNiwgVVMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFuYWx5
+c3Q6UHVibGljIFBvbGljeTwvZGl2PjxkaXY+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMjAxMi1QcmVzZW50PC9kaXY+PGRpdj48YnI+
+PC9kaXY+PGRpdj48YnI+PC9kaXY+PGRpdj4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgIFN0ZXZlbiBTYW50aWNjaW9saTwvZGl2PjxkaXY+PGJyPjwvZGl2
+PjxkaXY+VlA6UXVhbnRpdGF0aXZlIE1hbmFnZW1lbnQgICA8L2Rpdj48ZGl2Pk5vcnRoZXJuIFRy
+dXN0IENvbXBhbnksIFRoZTwvZGl2PjxkaXY+ICAgICAgICArMS0zMTI0NDQ0NDE5IChvKSAgICAg
+ICAgICAgICAgICAgICAgIEFkZGwgQ29udGFjdCBJbmZvICDCuzwvZGl2PjxkaXY+ICAgMzEyLTQ0
+NC01Nzc3IChvKSAgICAgICAgICAgICAgICAgICAgICAgMTgxIFcgTWFkaXNvbiBTdDwvZGl2Pjxk
+aXY+ICAgICAgPGEgc3BlbGxjaGVjaz0iZmFsc2UiIGJiZy1kZXN0aW5hdGlvbj0ibWFpbHRvOnJ0
+ZTpiaW5kImRhdGEtZGVzdGluYXRpb249Im1haWx0bzpydGU6YmluZCIgaHJlZj0ibWFpbHRvOnN0
+ZXZlQGJsb29tYmVyZy5uZXQiPnN0ZXZlQGJsb29tYmVyZy5uZXQ8L2E+ICh3KSAgICAgICAgICAg
+ICBDaGljYWdvIElMIDYwNjAyLTQ1MTAsIDwvZGl2PjxkaXY+ICAgICAgICAgPGEgc3BlbGxjaGVj
+az0iZmFsc2UiIGJiZy1kZXN0aW5hdGlvbj0ibWFpbHRvOnJ0ZTpiaW5kIiBkYXRhLWRlc3RpbmF0
+aW9uPSJtYWlsdG86cnRlOmJpbmQiIGhyZWY9Im1haWx0bzpzanM1QG50cnMuY29tIj5zanM1QG50
+cnMuY29tPC9hPiAodyk8L2Rpdj48ZGl2PiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICBJIHdvdWxkIHdvcmsgaGFyZGVyIG9uIG15IG1hcnJpYWdlIGlmIHRoZXJlIHdhcyBhIHJl
+dGlyZW1lbnQgcGxhbi48L2Rpdj48ZGl2PiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgRm9jdXMgICAgICAgTGFyZ2UgQ2FwIFN0b2NrcywgR3Jvd3RoIEludmVzdGluZywgR2xvYmFs
+LCBFcXVpdGllcywgPC9kaXY+PGRpdj4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgVGhlbWF0aWMgSW52ZXN0aW5nLCBVbml0ZWQgU3RhdGVzLCBEZXZlbG9w
+ZWQgTWFya2V0czwvZGl2PjxkaXY+PGJyPjwvZGl2PjxkaXY+ICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICBGdW5kcyBNYW5hZ2VkICg3IEZ1bmRzLzcuN0IgVG90YWwgQXNzZXRzIGlu
+IFVTRCkgfCBNb3JlIMK7PC9kaXY+PGRpdj4gICAgICAgICBGdW5kIE5hbWUgICAgICAgVG90IEFz
+dCBZVEQgUmV0IDNNIFB4ICAgT2JqZWN0aXZlICAgICAgIFN0YXR1czwvZGl2PjxkaXY+MjEpICAg
+IE5vcnRoZXJuIEludGVybmF0aW9uYWwgRXF1aXR5IEluICAgICAgICA1LjVCICAgIDcuOCAgICAg
+ICAgICAgICBGb3JlaWduIEJsZW5kICAgQUNUVjwvZGl2PjxkaXY+MjIpICAgICAgTm9ydGhlcm4g
+R2xvYmFsIFN1c3RhaW5hYmlsaXR5IEluICAgICAgIDEuM0IgICAgMjAuNSAgICAgICAgICAgIFRo
+ZW1hdGljIFNlY3RvciBBQ1RWPC9kaXY+PGRpdj4yMykgICAgICBHcmVlbiBDZW50dXJ5IEVxdWl0
+eSBGdW5kICAgICAgIDU1Mi4xTSAgMjUuMiAgICAgICAgICAgIFRoZW1hdGljIFNlY3RvciBBQ1RW
+PC9kaXY+PGRpdj48YnI+PC9kaXY+PGRpdj4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgIFJlY2VudCBOZXdzIHwgTW9yZSDCuzwvZGl2PjxkaXY+NDEpICAgICAgICAgICAgICAgICAg
+ICAgTm9ydGhlcm4gRnVuZHM6IDQ5NyAyMDE5LzA3LzAyICAgICAgICAgIEVERyAgICAgMDcvMjAx
+OSAgPC9kaXY+PC9kaXY+PC9ibG9ja3F1b3RlPjwvYmxvY2txdW90ZT48ZGl2IGxhbmc9J2VuJz48
+YnI+PGJyPiZsdDsmbHQ7Jm5ic3A7SEFQUFkmbmJzcDtIT0xJREFZUyZuYnNwO2FuZCZuYnNwO01l
+cnJ5Jm5ic3A7eG1hcyZuYnNwOyZndDsmZ3Q7PC9kaXY+PC9ib2R5PjwvaHRtbD4=
+
+------=_Part_622992_1587222871.1649906747424--

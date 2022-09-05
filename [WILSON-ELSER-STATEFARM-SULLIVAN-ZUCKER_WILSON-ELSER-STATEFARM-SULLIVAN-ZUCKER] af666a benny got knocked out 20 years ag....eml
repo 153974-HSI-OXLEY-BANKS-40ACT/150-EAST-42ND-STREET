@@ -1,0 +1,504 @@
+From - Sun Jun 26 09:48:28 2022
+X-Account-Key: account1
+X-UIDL: AHa91GZ4TkNrYrhvqQ11UC82JqA
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.33.76
+ by atlas320.free.mail.bf1.yahoo.com with HTTPS; Sun, 26 Jun 2022 14:39:07 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.200]
+Received-SPF: pass (domain of github.com designates 192.30.252.200 as permitted sender)
+Authentication-Results: atlas320.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 14:39:07 +0000
+X-YMailAVSC: 0RcEltM3bBt2xbk43iXBOnrUGUrc9PjUGUH4ow24hvR5ld2
+ n6hWRnmlufYR.afbddV7OTxZdRculJTN7xXclB9NFypzgq6pMqr_ywl7zxWW
+ 8CONmJW.BD.CO53qYmiLnaiDk6W2mgz7AMmWpFD.Q4TZP4xOxrPVlXtq6Lrd
+ brJqwjwQO1Y9CdebF7V8zMxh6U9Hqav6kzniuu63eHphnENDzNlhN9OScFpj
+ pxgLOtOL3lVPiFA5hDNYfQehgBGNqzWe2F7Hedk6NaQWTb004vI8dK.PBzmY
+ p1WG98tE8aBvbavNLThl.aWeOz_1CHl0cFPKUGKSLw3jp8.kO4V4QRVsnxFZ
+ 4mOOl1yJYn0_ccMKhmi1nEcGHCXHNTt31AZk-
+X-YMailISG: vDCrHTgWLDuo9TdjYwsHq6gZLeU74kcb2KmUeYXC7OKbIq70
+ Qv8KOFoLK4mXfsOt_wHSlmY2aOCfLG41zURtuIrL0cGfW3YmNJ4XHmpL2L9y
+ dF5kVd86y.Wna08J3o3lSYXQRi1ssXo1hXNfUv4Y5OzLua_XEnoY7IK2Zgnq
+ gGBcAbBNuS9M97GoGmB0Wb6AO_DzZw78i5kvztpMPfTiB7EVO6f.7knm..0l
+ s9eNulB2MjE4eeTl5MEiw4TAv.r4VfPVDke02WF0zBFxifyuBnNWr29aH66B
+ ZmumNvHcZFMxRyfeTDHVBgJ16jYy.S2Oc79prQeO.avAXWfyROav5BrlJ9JY
+ SQuyhN46EzvfmYtqFAm272xZO6Tm42Iq4CERu2M1N5FDMC0TOajTKWsY45PH
+ lj6uE8eF5c1BACsI7GhIq3jQvuOy5cGy5wCtdsURulf5WQ1JxkzmfSJgIm0.
+ 3RKBvkEp0cbrsTmSWfpxJWiCXdvShNUaRoQVXRTsdDyMrZKNyLuzyqT1x0pH
+ U.HeM5dRD1EJy4G9Zk01yUSyRe5xE2eTgmMGFuN1cksYvO7Ua56XGvPNuNZ0
+ uqCkyIj0GsQ5Ct3KQlFu5I4bGAYdYIBWbu3NS79Cdc6VuNiKwiXrm1GL.VQb
+ 6cXlXLVRRC1kbDmJA6aqj318cHweNgl2SffAqf0E8Oyg5j4O7rmi7mYhi5Y7
+ b6Ug995d6OYZgqfoH1ttLLCQ8diI7lGJeOr9djM9TJLVIB38Xu4ivoqRpuiy
+ 5fSQnjEjcojsg7yyO9xrwMSbx9w2bym2F86hqv2rQ4XCIho9GU7jUyCeKro3
+ Rim2Ph8LABrQbBFj.ziupLV3VWFlH2r2aDmJbU4EYjkjfJ_dJkuqQQFv2Jx_
+ NnfnuPXkRTLXHi..ub6PDN6UyT4GGxQymVL9dR9N8zfHWMRtyEDO16vwYBbc
+ RzpMpYKIyRLpgFiuvwAaCk3IieJrTtNjR598yFCwEc0dCIbhDhSlGZX7HkDO
+ 2MJj_dGW9PbzecZOhw3lncXw.2eEG_pj0oPTaFEs4MvRhSWbg2GE2ynagDFA
+ .OfLMhETCvElHv7bypBwvx.W6Pmx0f5X8qDmmM_0J7EnLHDOmRG5CP7wZ.wq
+ GhAnD.eDRWF1yi3kyJY6W.C1RVN1K7Y5yQYYXvM3E75N6xyw7zwVPsQvdcn1
+ qG_a6CxUJS6Ydfaxu.g3XHcAx1HCy9tk8zzxtLVd49t9.nI-
+Received: from 192.30.252.200 (EHLO smtp.github.com)
+ by 10.197.33.76 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 14:39:07 +0000
+Received: from github.com (hubbernetes-node-501e09e.va3-iad.github.net [10.48.125.105])
+	by smtp.github.com (Postfix) with ESMTPA id B67345C008F;
+	Sun, 26 Jun 2022 07:39:06 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656254346;
+	bh=67MEytzXypnhz3BW1Y2uEEiEPZKIky3s4LSytbTEGnA=;
+	h=Date:From:To:Subject:From;
+	b=xW2eB7HV1/UeHMVZli25c2mQcRBNZzEwwJKZ/wFljEMMXd661Pe+TFfD0ra/5vL5b
+	 L0H5fWjL4Hq/TMIoQS5UdlA1pKKftNGMgtazpT4Xz9gVecRHD0HFsDc8Cntlfjndau
+	 ws4gK3/FmuXUg5Eo7sLTU73V9oVq7pxtsbz0RXa0=
+Date: Sun, 26 Jun 2022 07:39:06 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/438793-af666a@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ af666a: benny got knocked out 20 years ago, BTW. we love B...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 23653
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: af666a33833f23248f494fdf4542208a42c16cf5=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/af666a33833f23248f494fdf4542208a42c1=
+6cf5=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-26 (Sun, 26 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  benny got knocked out 20 years ago, BTW. we love Benny though.=0D
+=0D
+=0D
+From: BD DINCER (COLUMBIA UNIVERSITY) At: 12/18/21 19:13:39 UTC-5:00=0D
+Subject: Fwd:Fwd:Fwd:Fwd:Fwd:Fwd:STATE FARM - BLOOMINGTON =C2=BB Northern=
+ Trust Company. ACRIS 6MM=0D
+=0D
+    From: BD DINCER (COLUMBIA UNIVERSITY) At: 12/18/21 18:37:39 UTC-5:00=0D=
+
+    To: Susan Byrne (WESTWOOD MANAGEMENT ) , Julie Hoyer (STATE FARM MUTU=
+AL AU ) , Greg Shull (STATE FARM MUTUAL AU ) , Jeffrey Attwood (STATE FAR=
+M MUTUAL AU ) , John Malito (STATE FARM MUTUAL AU ) , Steven Santiccioli =
+(NORTHERN TRUST COMPA ) , Robert Stephan (STATE FARM MUTUAL AU ) , Lisa R=
+ogers (STATE FARM MUTUAL AU ) , Elena Khoziaeva (BRIDGEWAY CAPITAL MA ) ,=
+ Bill Trauner (STATE FARM MUTUAL AU ) , Heather Caldwell (STATE FARM MUTU=
+AL AU ) , Theresa Baker (STATE FARM MUTUAL AU ) , Tammy Gipson (STATE FAR=
+M MUTUAL AU ) , Brent Reeder (NORTHERN TRUST COMPA ) , Michael Whipple (B=
+RIDGEWAY CAPITAL MA ) , Michael Zaroogian (STATE FARM MUTUAL AU ) , Teren=
+ce Lynch (GAINSCO SERVICE CORP ) , Rebekah Holt (STATE FARM MUTUAL AU ) ,=
+ Katie Hubbard (STATE FARM MUTUAL AU ) , Leigh Ann Rogalski (STATE FARM M=
+UTUAL AU ) , Chad Moser (STATE FARM MUTUAL AU ) , Tim Zelgert (STATE FARM=
+ MUTUAL AU ) , Ray Renken (STATE FARM MUTUAL AU ) , Kara Olson (STATE FAR=
+M MUTUAL AU ) , Jim Chan (BLACKROCK INSTITUTIO ) , Matt Harvey (STATE FAR=
+M MUTUAL AU ) , Steve Brucker (STATE FARM MUTUAL AU ) , John Socha (STATE=
+ FARM MUTUAL AU ) , Jennifer Hsui (BLACKROCK INSTITUTIO ) , Joe Young (ST=
+ATE FARM MUTUAL AU ) , Wade Reinthaler (STATE FARM MUTUAL AU ) , Scott Re=
+id (STATE FARM MUTUAL AU ) , Adam Hallman (STATE FARM MUTUAL AU ) , Tyler=
+ Smith (STATE FARM MUTUAL AU ) , Wei Hao (STATE FARM MUTUAL AU ) , Chris =
+Minter (STATE FARM MUTUAL AU ) , Shelly Marsh (STATE FARM MUTUAL AU ) , H=
+ollie Marsh (STATE FARM MUTUAL AU ) , Matthew Lockridge (WESTWOOD MANAGEM=
+ENT ) , Rich Rebholz (STATE FARM MUTUAL AU ) , Michael Mayberger (STATE F=
+ARM MUTUAL AU ) , Ashley Smock (STATE FARM MUTUAL AU ) , Brian Bengtson (=
+STATE FARM MUTUAL AU ) , Cory Swartzlander (STATE FARM MUTUAL AU ) , Scot=
+t Lawson (WESTWOOD MANAGEMENT ) , Ayman Bari (STATE FARM MUTUAL AU ) , Ad=
+am Vales (STATE FARM MUTUAL AU ) , Robert Middleton (STATE FARM MUTUAL AU=
+ ) , Shane Jent (STATE FARM MUTUAL AU ) , Kevin Rock (STATE FARM MUTUAL A=
+U ) , Mark Dunford (STATE FARM MUTUAL AU ) , Jean-Francois Ducrest (DUCRE=
+ST, JEAN-FRANCO ) , Caroline Dirks (STATE FARM MUTUAL AU ) , Kyle Gilmore=
+ (STATE FARM MUTUAL AU ) , Diane Hsiung (GEODE CAPITAL MANAGE ) , Hunter =
+Rose (STATE FARM MUTUAL AU ) , Cameron Kurak (STATE FARM MUTUAL AU ) , Ma=
+rk Broughton (FIRST REPUBLIC BANK ) , Betsey Euliss (STATE FARM MUTUAL AU=
+ ) , Kim Bretz (STATE FARM MUTUAL AU ) , Jon Wilson (STATE FARM MUTUAL AU=
+ ) , Numan Ahmed (STATE FARM MUTUAL AU ) , Walter Ruane (STATE FARM MUTUA=
+L AU ) , Shawna Barlow (STATE FARM MUTUAL AU ) , Philip Kroger (STATE FAR=
+M MUTUAL AU ) , Gabrielle Poole (STATE FARM MUTUAL AU ) , Ricardo Correa =
+(STATE FARM MUTUAL AU ) , Felipe Castella (STATE FARM MUTUAL AU ) , Matt =
+Krebsbach (STATE FARM MUTUAL AU ) , Gabriel Prado Correa (STATE FARM MUTU=
+AL AU ) , Larnita Gates (STATE FARM MUTUAL AU ) , Ketrick Karsten (STATE =
+FARM MUTUAL AU ) , Sophie Kim (STATE FARM MUTUAL AU ) , Vicki Trimpe (STA=
+TE FARM MUTUAL AU ) , Christin Higham (STATE FARM MUTUAL AU ) , BD DINCER=
+ (COLUMBIA UNIVERSITY ) , b.dincer@columbia.edu=0D
+    Cc: Kerri Saperstein (MORGAN STANLEY & CO. ) , COLIN.BROOKS@MORGAN.ST=
+ANLEY.COM=0D
+    Subject: Fwd:Fwd:Fwd:Fwd:Fwd:STATE FARM - BLOOMINGTON =C2=BB Northern=
+ Trust Company. ACRIS 6MM=0D
+=0D
+        From: BD DINCER (COLUMBIA UNIVERSITY) At: 12/18/21 18:34:02 UTC-5=
+:00=0D
+        To: Kerri Saperstein (MORGAN STANLEY & CO. ) , colin.brooks@morga=
+n.stanley.com=0D
+        Cc: james.gorman@morganstanley.com=0D
+        Subject: Fwd:Fwd:Fwd:Fwd:STATE FARM - BLOOMINGTON =C2=BB Northern=
+ Trust Company. ACRIS 6MM=0D
+=0D
+            From: BD DINCER (COLUMBIA UNIVERSITY) At: 12/18/21 18:27:46 U=
+TC-5:00=0D
+            To: james.gorman@morgan.stanley.com=0D
+            Cc: Christina Constantine (FINRA ) , Ms Hy (MORGAN STANLEY IN=
+VES ) , Ms Hyld (MORGAN STANLEY ) , Peter Melley (FINRA ) , Susan Byrne (=
+WESTWOOD MANAGEMENT ) , Julie Hoyer (STATE FARM MUTUAL AU ) , Greg Shull =
+(STATE FARM MUTUAL AU ) , Jeffrey Attwood (STATE FARM MUTUAL AU ) , John =
+Malito (STATE FARM MUTUAL AU ) , Steven Santiccioli (NORTHERN TRUST COMPA=
+ ) , Robert Stephan (STATE FARM MUTUAL AU ) , Lisa Rogers (STATE FARM MUT=
+UAL AU ) , Elena Khoziaeva (BRIDGEWAY CAPITAL MA ) , Bill Trauner (STATE =
+FARM MUTUAL AU ) , Heather Caldwell (STATE FARM MUTUAL AU ) , Theresa Bak=
+er (STATE FARM MUTUAL AU ) , Tammy Gipson (STATE FARM MUTUAL AU ) , Brent=
+ Reeder (NORTHERN TRUST COMPA ) , Michael Whipple (BRIDGEWAY CAPITAL MA )=
+ , Michael Zaroogian (STATE FARM MUTUAL AU ) , Terence Lynch (GAINSCO SER=
+VICE CORP ) , Rebekah Holt (STATE FARM MUTUAL AU ) , Katie Hubbard (STATE=
+ FARM MUTUAL AU ) , Leigh Ann Rogalski (STATE FARM MUTUAL AU ) , Chad Mos=
+er (STATE FARM MUTUAL AU ) , Tim Zelgert (STATE FARM MUTUAL AU ) , Ray Re=
+nken (STATE FARM MUTUAL AU ) , Kara Olson (STATE FARM MUTUAL AU ) , Jim C=
+han (BLACKROCK INSTITUTIO ) , Matt Harvey (STATE FARM MUTUAL AU ) , Steve=
+ Brucker (STATE FARM MUTUAL AU ) , John Socha (STATE FARM MUTUAL AU ) , J=
+ennifer Hsui (BLACKROCK INSTITUTIO ) , Joe Young (STATE FARM MUTUAL AU ) =
+, Wade Reinthaler (STATE FARM MUTUAL AU ) , Scott Reid (STATE FARM MUTUAL=
+ AU ) , Adam Hallman (STATE FARM MUTUAL AU ) , Tyler Smith (STATE FARM MU=
+TUAL AU ) , Wei Hao (STATE FARM MUTUAL AU ) , Chris Minter (STATE FARM MU=
+TUAL AU ) , Shelly Marsh (STATE FARM MUTUAL AU ) , Hollie Marsh (STATE FA=
+RM MUTUAL AU ) , Matthew Lockridge (WESTWOOD MANAGEMENT ) , Rich Rebholz =
+(STATE FARM MUTUAL AU ) , Michael Mayberger (STATE FARM MUTUAL AU ) , Ash=
+ley Smock (STATE FARM MUTUAL AU ) , Brian Bengtson (STATE FARM MUTUAL AU =
+) , Cory Swartzlander (STATE FARM MUTUAL AU ) , Scott Lawson (WESTWOOD MA=
+NAGEMENT ) , Ayman Bari (STATE FARM MUTUAL AU ) , Adam Vales (STATE FARM =
+MUTUAL AU ) , Robert Middleton (STATE FARM MUTUAL AU ) , Shane Jent (STAT=
+E FARM MUTUAL AU ) , Kevin Rock (STATE FARM MUTUAL AU ) , Mark Dunford (S=
+TATE FARM MUTUAL AU ) , Jean-Francois Ducrest (DUCREST, JEAN-FRANCO ) , C=
+aroline Dirks (STATE FARM MUTUAL AU ) , Kyle Gilmore (STATE FARM MUTUAL A=
+U ) , Diane Hsiung (GEODE CAPITAL MANAGE ) , Hunter Rose (STATE FARM MUTU=
+AL AU ) , Cameron Kurak (STATE FARM MUTUAL AU ) , Mark Broughton (FIRST R=
+EPUBLIC BANK ) , Betsey Euliss (STATE FARM MUTUAL AU ) , Kim Bretz (STATE=
+ FARM MUTUAL AU ) , Jon Wilson (STATE FARM MUTUAL AU ) , Numan Ahmed (STA=
+TE FARM MUTUAL AU ) , Walter Ruane (STATE FARM MUTUAL AU ) , Shawna Barlo=
+w (STATE FARM MUTUAL AU ) , Philip Kroger (STATE FARM MUTUAL AU ) , Gabri=
+elle Poole (STATE FARM MUTUAL AU ) , Ricardo Correa (STATE FARM MUTUAL AU=
+ ) , Felipe Castella (STATE FARM MUTUAL AU ) , Matt Krebsbach (STATE FARM=
+ MUTUAL AU ) , Gabriel Prado Correa (STATE FARM MUTUAL AU ) , Larnita Gat=
+es (STATE FARM MUTUAL AU ) , Ketrick Karsten (STATE FARM MUTUAL AU ) , So=
+phie Kim (STATE FARM MUTUAL AU ) , Vicki Trimpe (STATE FARM MUTUAL AU ) ,=
+ Christin Higham (STATE FARM MUTUAL AU ) , BD DINCER (COLUMBIA UNIVERSITY=
+ ) , Donald Rizer (FINRA ) , Paul Aragon (FINRA ) , b.dincer@columbia.edu=
+, chair@sec.gov=0D
+            Subject: Fwd:Fwd:Fwd:STATE FARM - BLOOMINGTON =C2=BB Northern=
+ Trust Company. ACRIS 6MM=0D
+=0D
+                From: BD DINCER (COLUMBIA UNIVERSITY) At: 12/18/21 18:22:=
+33 UTC-5:00=0D
+                To: Kerri Saperstein (MORGAN STANLEY & CO. ) , james.gorm=
+an@morganstanley.com=0D
+                Cc: bd2561@columbia.edu=0D
+                Subject: Fwd:Fwd:STATE FARM - BLOOMINGTON =C2=BB Northern=
+ Trust Company. ACRIS 6MM=0D
+=0D
+                    From: BD DINCER (COLUMBIA UNIVERSITY) At: 12/18/21 18=
+:15:44 UTC-5:00=0D
+                    To: Ms. Hayashi (NOMURA SECURITIES CO ) , Morgan32 St=
+anley (MORGAN STANLEY ADVTG ) , Morgan Stanley154 (MORGAN STANLEY ADVTG )=
+ , Morgan Stanley15 (MORGAN STANLEY ADVTG ) , Ms Hy (MORGAN STANLEY INVES=
+ ) , Ms Hyld (MORGAN STANLEY )=0D
+                    Cc: Kerri Saperstein (MORGAN STANLEY & CO. ) , Cmo Ci=
+tibank (CITIBANK NA ) , Samriddi Abney (FEDERAL HOME LOAN BA ) , Federate=
+d Mmktops (FEDERATED INVESTMENT ) , Jesse Aguilar (FEDERAL HOME LOAN BA )=
+ , Shafat Alam (FEDERAL RESERVE BANK ) , Steven Santiccioli (NORTHERN TRU=
+ST COMPA ) , bd2561@columbia.edu, colin.brooks@morgan.stanley.com=0D
+                    Subject: Fwd:STATE FARM - BLOOMINGTON =C2=BB Northern=
+ Trust Company. ACRIS 6MM=0D
+=0D
+                        Hey SAPS... Merry Christmas!=0D
+=0D
+                        You think this guy will figure it out???=0D
+                        - THE 6MM? =0D
+=0D
+=0D
+=0D
+                                          =0D
+                            Brent Reeder=0D
+=0D
+                            Fund Manager  =0D
+                            Northern Trust Company, The=0D
+                                     +1-312-557-0153 (o)                 =
+ 181 W Madison St=0D
+                                 bdr11@bloomberg.net (w)             Chic=
+ago IL 60602-4510, US=0D
+=0D
+                                                         Focus       Larg=
+e Cap Stocks, Growth Investing, United States, Equities, =0D
+                                                                        M=
+id Cap Stocks, Small Cap Stocks, Global, United Kingdom, | More =C2=BB=0D=
+
+=0D
+                                                         Funds Managed (4=
+3 Funds/51.6B Total Assets in USD) | More =C2=BB=0D
+=0D
+                             =C2=BB =C2=BB =C2=BB =C2=BB =C2=BB =C2=BB   =
+590xxxx   =0D
+=0D
+=0D
+=0D
+                           =C2=BB =C2=BB =C2=BB =C2=BB =C2=BB =C2=BB   ??=
+?????=0D
+=0D
+=0D
+=0D
+                        Investment Information Analyst=0D
+                        State Farm Mutual Automobile Ins Co=0D
+                                 +1-309-735-2705 (o)                  1 S=
+tate Farm Plz=0D
+                            +1-309-530-1865 (m)                  Investme=
+nt Department E-8=0D
+                           krock5@bloomberg.net (w)            Bloomingto=
+n IL 61701, US=0D
+=0D
+                        You think this guy will figure it out???=0D
+                        - THE 6MM? =0D
+=0D
+                                                        Phil Supple      =
+      1 Views Today=0D
+                        Spokesperson        Career=0D
+                        State Farm Life Insurance Co                     =
+                                                     Current=0D
+                               +1-800-782-8332 (o)                  1 Sta=
+te Farm Plaza                                       State Farm Life Insur=
+ance Co=0D
+                               phil.supple.hid9@statefarm.com (w  Bloomin=
+gton IL 61710, US    =0D
+=0D
+=0D
+                        How funny was Benny .........=0D
+                        I like Benny also... Plus no problems after that.=
+ Right?=0D
+=0D
+                        From: BD DINCER (COLUMBIA UNIVERSITY) At: 12/18/2=
+1 18:03:41 UTC-5:00=0D
+                        To:  Susan Byrne (WESTWOOD MANAGEMENT ) ,  Julie =
+Hoyer (STATE FARM MUTUAL AU ) ,  Greg Shull (STATE FARM MUTUAL AU ) ,  Je=
+ffrey Attwood (STATE FARM MUTUAL AU ) ,  John Malito (STATE FARM MUTUAL A=
+U ) ,  Steven Santiccioli (NORTHERN TRUST COMPA ) ,  Robert Stephan (STAT=
+E FARM MUTUAL AU ) ,  Lisa Rogers (STATE FARM MUTUAL AU ) ,  Elena Khozia=
+eva (BRIDGEWAY CAPITAL MA ) ,  Bill Trauner (STATE FARM MUTUAL AU ) ,  He=
+ather Caldwell (STATE FARM MUTUAL AU ) ,  Theresa Baker (STATE FARM MUTUA=
+L AU ) ,  Tammy Gipson (STATE FARM MUTUAL AU ) ,  Brent Reeder (NORTHERN =
+TRUST COMPA ) ,  Michael Whipple (BRIDGEWAY CAPITAL MA ) ,  Michael Zaroo=
+gian (STATE FARM MUTUAL AU ) ,  Terence Lynch (GAINSCO SERVICE CORP ) ,  =
+Rebekah Holt (STATE FARM MUTUAL AU ) ,  Katie Hubbard (STATE FARM MUTUAL =
+AU ) ,  Leigh Ann Rogalski (STATE FARM MUTUAL AU ) ,  Chad Moser (STATE F=
+ARM MUTUAL AU ) ,  Tim Zelgert (STATE FARM MUTUAL AU ) ,  Ray Renken (STA=
+TE FARM MUTUAL AU ) ,  Kara Olson (STATE FARM MUTUAL AU ) ,  Jim Chan (BL=
+ACKROCK INSTITUTIO ) ,  Matt Harvey (STATE FARM MUTUAL AU ) ,  Steve Bruc=
+ker (STATE FARM MUTUAL AU ) ,  John Socha (STATE FARM MUTUAL AU ) ,  Jenn=
+ifer Hsui (BLACKROCK INSTITUTIO ) ,  Joe Young (STATE FARM MUTUAL AU ) , =
+ Wade Reinthaler (STATE FARM MUTUAL AU ) ,  Scott Reid (STATE FARM MUTUAL=
+ AU ) ,  Adam Hallman (STATE FARM MUTUAL AU ) ,  Tyler Smith (STATE FARM =
+MUTUAL AU ) ,  Wei Hao (STATE FARM MUTUAL AU ) ,  Chris Minter (STATE FAR=
+M MUTUAL AU ) ,  Shelly Marsh (STATE FARM MUTUAL AU ) ,  Hollie Marsh (ST=
+ATE FARM MUTUAL AU ) ,  Matthew Lockridge (WESTWOOD MANAGEMENT ) ,  Rich =
+Rebholz (STATE FARM MUTUAL AU ) ,  Michael Mayberger (STATE FARM MUTUAL A=
+U ) ,  Ashley Smock (STATE FARM MUTUAL AU ) ,  Brian Bengtson (STATE FARM=
+ MUTUAL AU ) ,  Cory Swartzlander (STATE FARM MUTUAL AU ) ,  Scott Lawson=
+ (WESTWOOD MANAGEMENT ) ,  Ayman Bari (STATE FARM MUTUAL AU ) ,  Adam Val=
+es (STATE FARM MUTUAL AU ) ,  Robert Middleton (STATE FARM MUTUAL AU ) , =
+ Shane Jent (STATE FARM MUTUAL AU ) ,  Kevin Rock (STATE FARM MUTUAL AU )=
+ ,  Mark Dunford (STATE FARM MUTUAL AU ) ,  Jean-Francois Ducrest (DUCRES=
+T, JEAN-FRANCO ) ,  Caroline Dirks (STATE FARM MUTUAL AU ) ,  Kyle Gilmor=
+e (STATE FARM MUTUAL AU ) ,  Diane Hsiung (GEODE CAPITAL MANAGE ) ,  Hunt=
+er Rose (STATE FARM MUTUAL AU ) ,  Cameron Kurak (STATE FARM MUTUAL AU ) =
+,  Mark Broughton (FIRST REPUBLIC BANK ) ,  Betsey Euliss (STATE FARM MUT=
+UAL AU ) ,  Kim Bretz (STATE FARM MUTUAL AU ) ,  Jon Wilson (STATE FARM M=
+UTUAL AU ) ,  Numan Ahmed (STATE FARM MUTUAL AU ) ,  Walter Ruane (STATE =
+FARM MUTUAL AU ) ,  Shawna Barlow (STATE FARM MUTUAL AU ) ,  Philip Kroge=
+r (STATE FARM MUTUAL AU ) ,  Gabrielle Poole (STATE FARM MUTUAL AU ) ,  R=
+icardo Correa (STATE FARM MUTUAL AU ) ,  Felipe Castella (STATE FARM MUTU=
+AL AU ) ,  Matt Krebsbach (STATE FARM MUTUAL AU ) ,  Gabriel Prado Correa=
+ (STATE FARM MUTUAL AU ) ,  Larnita Gates (STATE FARM MUTUAL AU ) ,  Ketr=
+ick Karsten (STATE FARM MUTUAL AU ) ,  Sophie Kim (STATE FARM MUTUAL AU )=
+ ,  Vicki Trimpe (STATE FARM MUTUAL AU ) ,  Christin Higham (STATE FARM M=
+UTUAL AU ) ,  BD DINCER (COLUMBIA UNIVERSITY ) ,  b.dincer@columbia.edu=0D=
+
+                        Cc:  Kerri Saperstein (MORGAN STANLEY & CO. ) ,  =
+newyork@sec.gov,  chair@sec.gov,  colin.brooks@morgan.stanley.com=0D
+                        Subject: Fwd:STATE FARM - BLOOMINGTON=0D
+=0D
+                            krock5@bloomberg.net (w) Bloomington IL 61701=
+, US=0D
+=0D
+=0D
+                            See also: TCRReport... =0D
+=0D
+=0D
+                            Thanks!=0D
+=0D
+=0D
+=0D
+=0D
+                            From: BD DINCER (COLUMBIA UNIVERSITY) At: 12/=
+18/21 16:13:57 UTC-5:00=0D
+                            To:  Greg Shull (STATE FARM MUTUAL AU ) ,  Bi=
+ll Trauner (STATE FARM MUTUAL AU ) ,  Theresa Baker (STATE FARM MUTUAL AU=
+ ) ,  Tammy Gipson (STATE FARM MUTUAL AU ) ,  Leigh Ann Rogalski (STATE F=
+ARM MUTUAL AU ) ,  Chad Moser (STATE FARM MUTUAL AU ) ,  Ray Renken (STAT=
+E FARM MUTUAL AU ) ,  Matt Harvey (STATE FARM MUTUAL AU ) ,  Steve Brucke=
+r (STATE FARM MUTUAL AU ) ,  Wade Reinthaler (STATE FARM MUTUAL AU ) ,  T=
+yler Smith (STATE FARM MUTUAL AU ) ,  Rich Rebholz (STATE FARM MUTUAL AU =
+) ,  Brian Bengtson (STATE FARM MUTUAL AU ) ,  Kyle Gilmore (STATE FARM M=
+UTUAL AU ) ,  Numan Ahmed (STATE FARM MUTUAL AU ) ,  Walter Ruane (STATE =
+FARM MUTUAL AU ) ,  Vicki Trimpe (STATE FARM MUTUAL AU ) ,  Brent Reeder =
+(NORTHERN TRUST COMPA ) ,  Steven Santiccioli (NORTHERN TRUST COMPA ) ,  =
+sjs5@ntrs.com,  rebecca.coyle@statefarm.com,  nicole.bowyer@statefarm.com=
+,  phil.supple.hid9@statefarm.com,  dick.luedke.h2hj@statefarm.com,  bria=
+n.hodgson.nyz6@statefarm.com=0D
+                            Cc:  Christin Higham (STATE FARM MUTUAL AU ) =
+,  Sophie Kim (STATE FARM MUTUAL AU ) ,  Ketrick Karsten (STATE FARM MUTU=
+AL AU ) ,  Larnita Gates (STATE FARM MUTUAL AU ) ,  Gabriel Prado Correa =
+(STATE FARM MUTUAL AU ) ,  Matt Krebsbach (STATE FARM MUTUAL AU ) ,  Feli=
+pe Castella (STATE FARM MUTUAL AU ) ,  Susan Byrne (WESTWOOD MANAGEMENT )=
+ ,  Julie Hoyer (STATE FARM MUTUAL AU ) ,  Jeffrey Attwood (STATE FARM MU=
+TUAL AU ) ,  John Malito (STATE FARM MUTUAL AU ) ,  Robert Stephan (STATE=
+ FARM MUTUAL AU ) ,  Lisa Rogers (STATE FARM MUTUAL AU ) ,  Elena Khoziae=
+va (BRIDGEWAY CAPITAL MA ) ,  Heather Caldwell (STATE FARM MUTUAL AU ) , =
+ Michael Whipple (BRIDGEWAY CAPITAL MA ) ,  Michael Zaroogian (STATE FARM=
+ MUTUAL AU ) ,  Terence Lynch (GAINSCO SERVICE CORP ) ,  Rebekah Holt (ST=
+ATE FARM MUTUAL AU ) ,  Katie Hubbard (STATE FARM MUTUAL AU ) ,  Tim Zelg=
+ert (STATE FARM MUTUAL AU ) ,  Kara Olson (STATE FARM MUTUAL AU ) ,  Jim =
+Chan (BLACKROCK INSTITUTIO ) ,  John Socha (STATE FARM MUTUAL AU ) ,  Jen=
+nifer Hsui (BLACKROCK INSTITUTIO ) ,  Joe Young (STATE FARM MUTUAL AU ) ,=
+  Scott Reid (STATE FARM MUTUAL AU ) ,  Adam Hallman (STATE FARM MUTUAL A=
+U ) ,  Wei Hao (STATE FARM MUTUAL AU ) ,  Chris Minter (STATE FARM MUTUAL=
+ AU ) ,  Shelly Marsh (STATE FARM MUTUAL AU ) ,  Hollie Marsh (STATE FARM=
+ MUTUAL AU ) ,  Matthew Lockridge (WESTWOOD MANAGEMENT ) ,  Michael Maybe=
+rger (STATE FARM MUTUAL AU ) ,  Ashley Smock (STATE FARM MUTUAL AU ) ,  C=
+ory Swartzlander (STATE FARM MUTUAL AU ) ,  Scott Lawson (WESTWOOD MANAGE=
+MENT ) ,  Ayman Bari (STATE FARM MUTUAL AU ) ,  Adam Vales (STATE FARM MU=
+TUAL AU ) ,  Robert Middleton (STATE FARM MUTUAL AU ) ,  Shane Jent (STAT=
+E FARM MUTUAL AU ) ,  Kevin Rock (STATE FARM MUTUAL AU ) ,  Mark Dunford =
+(STATE FARM MUTUAL AU ) ,  Jean-Francois Ducrest (DUCREST, JEAN-FRANCO ) =
+,  Caroline Dirks (STATE FARM MUTUAL AU ) ,  Diane Hsiung (GEODE CAPITAL =
+MANAGE ) ,  Hunter Rose (STATE FARM MUTUAL AU ) ,  Cameron Kurak (STATE F=
+ARM MUTUAL AU ) ,  Mark Broughton (FIRST REPUBLIC BANK ) ,  Betsey Euliss=
+ (STATE FARM MUTUAL AU ) ,  Kim Bretz (STATE FARM MUTUAL AU ) ,  Jon Wils=
+on (STATE FARM MUTUAL AU ) ,  Shawna Barlow (STATE FARM MUTUAL AU ) ,  Ph=
+ilip Kroger (STATE FARM MUTUAL AU ) ,  Gabrielle Poole (STATE FARM MUTUAL=
+ AU ) ,  Ricardo Correa (STATE FARM MUTUAL AU ) ,  BO.DINCER@YAHOO.COM,  =
+bd2561@columbia.edu=0D
+                            Subject: STATE FARM - BLOOMINGTON=0D
+=0D
+                                TY.=0D
+=0D
+=0D
+                                                    Kevin Rock=0D
+=0D
+                                Investment Information Analyst=0D
+                                State Farm Mutual Automobile Ins Co=0D
+                                        +1-309-735-2705 (o)              =
+    1 State Farm Plz=0D
+                                    +1-309-530-1865 (m)                  =
+Investment Department E-8=0D
+                                   krock5@bloomberg.net (w)            Bl=
+oomington IL 61701, US=0D
+=0D
+=0D
+                                                                Phil Supp=
+le           1 Views Today=0D
+                                Spokesperson        Career=0D
+                                State Farm Life Insurance Co             =
+                                                             Current=0D
+                                       +1-800-782-8332 (o)               =
+   1 State Farm Plaza                                       State Farm Li=
+fe Insurance Co=0D
+                                        phil.supple.hid9@statefarm.com (w=
+  Bloomington IL 61710, US                               Spokesperson=0D
+=0D
+=0D
+=0D
+                                                                         =
+  Nicole Tamilyn Bowyer=0D
+=0D
+                                Attorney=0D
+                                State Farm Insurance=0D
+                                     +1-504-840-4900 (o)                 =
+ 853 Fincastle Turnpike=0D
+                                      +1-504-840-4941 (f)                =
+   North Tazewell VA 24630=0D
+                                    nicole.bowyer@statefarm.com (w)=0D
+                                                          Focus       Leg=
+al=0D
+=0D
+                                     Rebecca Coyle          1 Views Today=
+=0D
+                                Analyst:Public Policy       Career=0D
+                                State Farm Life Insurance Co             =
+                                                             Current=0D
+                                       +1-309-766-2311 (o)               =
+   1900 M Street NW                                          State Farm L=
+ife Insurance Co=0D
+                                      rebecca.coyle@statefarm.com (w)   W=
+ashington DC 20036, US                                Analyst:Public Poli=
+cy=0D
+                                                                         =
+                                                                         =
+   2012-Present=0D
+=0D
+=0D
+                                                                         =
+         Steven Santiccioli=0D
+=0D
+                                VP:Quantitative Management   =0D
+                                Northern Trust Company, The=0D
+                                        +1-3124444419 (o)                =
+     Addl Contact Info  =C2=BB=0D
+                                       312-444-5777 (o)                  =
+     181 W Madison St=0D
+                                  steve@bloomberg.net (w)             Chi=
+cago IL 60602-4510, =0D
+                                     sjs5@ntrs.com (w)=0D
+                                                                     I wo=
+uld work harder on my marriage if there was a retirement plan.=0D
+                                                                   Focus =
+      Large Cap Stocks, Growth Investing, Global, Equities, =0D
+                                                                         =
+        Thematic Investing, United States, Developed Markets=0D
+=0D
+                                                                   Funds =
+Managed (7 Funds/7.7B Total Assets in USD) | More =C2=BB=0D
+                                         Fund Name       Tot Ast YTD Ret =
+3M Px   Objective       Status=0D
+                                21)        Northern International Equity =
+In        5.5B    7.8             Foreign Blend   ACTV=0D
+                                22)  Northern Global Sustainability In   =
+    1.3B    20.5            Thematic Sector ACTV=0D
+                                23)  Green Century Equity Fund       552.=
+1M  25.2            Thematic Sector ACTV=0D
+=0D
+                                                                   Recent=
+ News | More =C2=BB=0D
+                                41)                 Northern Funds: 497 2=
+019/07/02          EDG     07/2019  =0D
+=0D
+                                           =0D
+=0D
+=0D
+=0D
+=0D
+<< HAPPY HOLIDAYS and Merry xmas >>=0D
+=0D
+=0D

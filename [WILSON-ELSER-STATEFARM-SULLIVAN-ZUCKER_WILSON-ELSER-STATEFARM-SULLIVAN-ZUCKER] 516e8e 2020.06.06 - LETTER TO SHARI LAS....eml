@@ -1,0 +1,537 @@
+From - Sun Jun 26 14:00:51 2022
+X-Account-Key: account1
+X-UIDL: AO1MOeMqRB83YrisCQ4JwEi+viw
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.37.232
+ by atlas314.free.mail.bf1.yahoo.com with HTTPS; Sun, 26 Jun 2022 18:57:13 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.209]
+Received-SPF: pass (domain of github.com designates 192.30.252.209 as permitted sender)
+Authentication-Results: atlas314.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 18:57:13 +0000
+X-YMailAVSC: N6W7TYE3bBumLc.EqeOBky7bkHD_shvzUrU3inWlDwVC2qY
+ 98prpyliEaKDJ5B29q5kJOrS2pAz0LSZ1q3XB7.L8JtQtGfLPD.fYnABrPWb
+ 3AWqozLMM_3uKqFRE98oCKIPzBMWECidV2IpTWq4F0qjOiwlzAk9sO9iI_5v
+ 7Rq4H6adjmKoHpXbgXAkcisb7LyY0Sa8sHhUQULPAXEFm7UcWif2HbDxOG2r
+ 6EaqEgf2s0r853Hg5BuTSVgjqXISbMt2bTuCQIGBW.L56Xt.1C1WhnB2KGdb
+ Qwy4AxUupa9wC3nN._2zD4c5CI2YI26xDgYk_dFjf1VmuZ.kkGVeFMZQsvyx
+ 5gcloEphgBOFm4RkrQIzjNQTrVYp0IV7gXOsMjQ--
+X-YMailISG: k7sAMpQWLDtR5C8dZZ8dPmRTAyGDvL4mmS5YmvnUUxnnPurr
+ j6.7OKqJvD0Mt9ewgCONiTEAxy..sxPPx5bGncjnnJv1RVMadb15IL113qmI
+ NkVGCH7AMdOsNEyETz9IOj6psJR42EmVEBw8WrRUZSSpvMObHz3A6l41h6JI
+ yhwzku6B.EYJN8Wd_sksRKnCeMCzC_efwRjZB5illRH4d1o3R0RNwr4XzM2O
+ LyiPGnveJ63kIEfQZqgyIVlU5OUp7WhHNDjsSAO5CZghmQL.qgRLzaoQhGjO
+ 0ZqYvi4HGoGbUMsZw_RRO4XQP4X27kRJ.x4Fatfa5cOaoZr2qO5u1Y6bVUBf
+ .cD5aimgrB8O9a6iHolvU_ZFzSTzFHrxfMSIqgj.nUXXWk4SIzOP0frc04hw
+ qW16O3ic.lmzTPBg9dqXcvdjyJUkHQyd5NWKrlXNJIL.fxvtOEbyz1NGSMXE
+ xEq_tIviNncAS9s0IYPpEhPJPNzXKAGo4dFcZIiXrvp7g5GtcQtivCCqBkOc
+ a2Hp3Ie8LGJoGsmpvrKjXimyTMpW5QqpWDK_pAyaqNOo_Rgfw2S6Tt_w4tqZ
+ I8.yktMrZNbpD9qFV1CsaGgfN9z8UXvsHZLmqiQ9wk_OD_KVkeT8Qlou6zwW
+ 7kzQ2MjfByXzE2plh0N1F.hXXSqB8jgs0g.vsqUkWHH0zE9l6ZIWoSpEZhOU
+ fl_KvQJyjZ7yWU.pSmb0jqvfVQf2ferOstAP1rfIQMs4erbRuJVjAYLYmgBx
+ bldRUMBtAjs6z6BNHKtIU4jQRwlq9Az7YDR9d5HGh5Nctua7wWshYwWyAFah
+ _fRfmmwLDlyw0WkOwn4MzEe0RB08J.Q8k27IB1PWNdUCEg0y528Jeq5reqaM
+ EwvqsmcaZPpcQltzZhKOsz1ubF47ErbPYkc5IAZuwF.iAHk4nDTxI7ApQA3W
+ c2CcFnNmEdL0aHPkHhXM9T1CqP43YEWfMfjL7KB8bBOjnlzWMbUSuoi5Fh3M
+ 4AglrlaW6qrrCMRzAyHf9CKPJNZpFBBs001879vGxVFp4PrwdVH2qyTj26BD
+ ws27ucc9E9oUMnL7UDRxhmh8l09c95KLFnn9jY4Noxxfy48sVDrHcg4BW1S.
+ 2DPCVHllAWbl8dwnuO8cNm1ObETWh2wbHQDbSsEcRiUKXQ4RP1xMS1h46Tpd
+ zInHf8svLyrPYiwtETNoqLfVIMiDeyDA.p4-
+Received: from 192.30.252.209 (EHLO smtp.github.com)
+ by 10.197.37.232 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 18:57:13 +0000
+Received: from github.com (hubbernetes-node-02867bd.ash1-iad.github.net [10.56.208.61])
+	by smtp.github.com (Postfix) with ESMTPA id 85A255E04D2;
+	Sun, 26 Jun 2022 11:57:13 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656269833;
+	bh=ipSpfBqXMXe34c4uzcEMXpSlPGUKeE6c/SaNyksq6qU=;
+	h=Date:From:To:Subject:From;
+	b=xdICITvWpaN4MYwio3zIAZ700qbld4/ktiuq8o6suFmesNLIxVB+rNhv8PzkE6m4r
+	 kHjbG75AiJEu89IpzSyybHY2+EjUGSK0Q0D/e/hS/hnRKJJkz+uo5sHO1VqLixyuIx
+	 4skLDsN5MlKL7eTtNlKLxXOovVWzyCwnNT186nBw=
+Date: Sun, 26 Jun 2022 11:57:13 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/38c92b-516e8e@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 516e8e:  2020.06.06 - LETTER TO SHARI LASKOWITZ IN RESPONS...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 21062
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: 516e8ece821f6db0f17a5e7c85fcb2d4d4a516c8=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/516e8ece821f6db0f17a5e7c85fcb2d4d4a5=
+16c8=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-26 (Sun, 26 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  	2020.06.06 - LETTER TO SHARI LASKOWITZ IN RESPONSE TO FURTHER HARASSME=
+NT	Filed: 08/09/2020	Confirmation Notice=0D
+=0D
+=C2=A0255=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 6 =C2=A0(Motion #001)	Laskowitz, =
+S.	Processed=0D
+	NYSCEF Criminal Court Information	Filed: 08/04/2020	Confirmation Notice=0D=
+
+		Received: 08/04/2020	=0D
+=C2=A0256=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 7 =C2=A0(Motion #001)	Laskowitz, =
+S.	Processed=0D
+	photographs	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0257=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 8 =C2=A0(Motion #001)	Laskowitz, =
+S.	Processed=0D
+	7.16.2020 surveillance video photographs	Filed: 08/04/2020	Confirmation =
+Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0258=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 9 =C2=A0(Motion #001)	Laskowitz, =
+S.	Processed=0D
+	Screen shot of text message	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0259=C2=A0	AFFIDAVIT OR AFFIRMATION IN REPLY TO ORDER TO SHOW CAUSE=C2=
+=A0=C2=A0(Motion #001)	Laskowitz, S.	Processed=0D
+	Rispoli Affidavit	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0260=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 1 =C2=A0(Motion #001)	Laskowitz, =
+S.	Processed=0D
+	6.24.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0261=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 2 =C2=A0(Motion #001)	Laskowitz, =
+S.	Processed=0D
+	6.25.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0262=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 3 =C2=A0(Motion #001)	Laskowitz, =
+S.	Processed=0D
+	6.27.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0263=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 4 =C2=A0(Motion #001)	Laskowitz, =
+S.	Processed=0D
+	6.27.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0264=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 5 =C2=A0(Motion #001)	Laskowitz, =
+S.	Processed=0D
+	6.27.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0265=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 6 =C2=A0(Motion #001)	Laskowitz, =
+S.	Processed=0D
+	6.28.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0266=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 7 =C2=A0(Motion #001)	Laskowitz, =
+S.	Processed=0D
+	6.29.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0267=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 8 =C2=A0(Motion #001)	Laskowitz, =
+S.	Processed=0D
+	6.30.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0268=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 9 =C2=A0(Motion #001)	Laskowitz, =
+S.	Processed=0D
+	Note from Defendant	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0269=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 10 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.2.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0270=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 11 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.5.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0271=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 12 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.3.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0272=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 13 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.6.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0273=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 14 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.8.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0274=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 15 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.9.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0275=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 16 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.10.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0276=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 17 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.10.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0277=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 18 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.20.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0278=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 19 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.13.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0279=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 20 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.13.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0280=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 21 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.13.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0281=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 22 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.16.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0282=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 23 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.17.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0283=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 24 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.18.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0284=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 25 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	NYPD notification	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0285=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 26 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.18.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0286=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 27 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.18.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0287=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 28 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.19.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0288=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 29 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.19.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0289=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 30 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.22.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0290=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 31 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.25.2020 email from Defendant	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0291=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 32 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.27.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0292=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 33 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.28.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0293=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 34 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	7.30.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0294=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 35 =C2=A0(Motion #001)	Laskowitz,=
+ S.	Processed=0D
+	8.2.2020 email	Filed: 08/04/2020	Confirmation Notice=0D
+		Received: 08/04/2020	=0D
+=C2=A0295=C2=A0	NOTICE OF MOTION		Returned For Correction=0D
+	NOTICE OF MOTION		=0D
+	=C2=A0Refile Document		=0D
+=C2=A0296=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 2R0	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	2020.08.05_NOTICE TO DISMISS (FILED)	Filed: 08/05/2020	Confirmation Noti=
+ce=0D
+		Received: 08/05/2020	=0D
+=C2=A0297=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 369	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	EMAIL SERVES AS NOTICE FOR MANDATORY APPEARANCE IN A NEW YORK STATE SUPR=
+EME COURT HEARINGS	Filed: 08/05/2020	Confirmation Notice=0D
+		Received: 08/05/2020	=0D
+=C2=A0298=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- FTC	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	Next Steps - FTC Complaint Filed	Filed: 08/07/2020	Confirmation Notice=0D=
+
+		Received: 08/07/2020	=0D
+=C2=A0299=C2=A0	MEMORANDUM OF LAW IN OPPOSITION TO CROSS-MOTION AND IN FU=
+RTHER SUPPORT OF MOTION	Dincer, B. (Pro Hac / Pro Se)	Processed=0D
+	MEMORANDUM OF LAW IN OPPOSITION TO CROSS-MOTION AND IN FURTHER SUPPORT T=
+O DISMISS FRIVOLOUS CLAIMS	Filed: 08/07/2020	Confirmation Notice=0D
+		Received: 08/07/2020	=0D
+=C2=A0300=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- EVE	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	RED-LIGHT CAMERA IS ON IN THE EVENINGS	Filed: 08/07/2020	Confirmation No=
+tice=0D
+		Received: 08/07/2020	=0D
+#	Document	Filed By	Status=0D
+=C2=A0301=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- GF1	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	2020.06.16 - GOOD FAITH ATTEMPT TO TIMELY FILE	Filed: 08/07/2020	Confirm=
+ation Notice=0D
+		Received: 08/07/2020	=0D
+=C2=A0302=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- EFF	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	NOTICE OF EFILING APPROVAL	Filed: 08/07/2020	Confirmation Notice=0D
+		Received: 08/07/2020	=0D
+=C2=A0303=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- PLT	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	644_9-a - Nonconsensual Dissemination OF VIDEO [SEE ALSO LINK TO VIDEO O=
+N PUBLIC DOMAIN.]	Filed: 08/07/2020	Confirmation Notice=0D
+		Received: 08/07/2020	=0D
+=C2=A0304=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 870	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	nys870a Civil Rights Law	Filed: 08/07/2020	Confirmation Notice=0D
+		Received: 08/07/2020	=0D
+=C2=A0305=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 414 =C2=A0(Motion #001)	Dincer, B=
+. (Pro Hac / Pro Se)	Processed=0D
+	https://www1.nyc.gov/assets/fdny/downloads/pdf/about/fdny-rules.pdf	File=
+d: 08/09/2020	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0306=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- DOB =C2=A0(Motion #001)	Dincer, B=
+. (Pro Hac / Pro Se)	Processed=0D
+	DOB PUBLIC RECORDS ON FILE - PUBLIC RECORDS	Filed: 08/09/2020	Confirmati=
+on Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0307=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- OPP =C2=A0(Motion #001)	Dincer, B=
+. (Pro Hac / Pro Se)	Processed=0D
+	PLAINTIFF DOES NOT HAVE A CERTIFICATE OF OCCUPANCY FOR THIS PROPERTY	Fil=
+ed: 08/09/2020	Confirmation Notice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DrjL6yoW3=
+Mt2U6UigWCM9XQ=3D=3D	Received: 08/09/2020	=0D
+=C2=A0308=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 503 =C2=A0(Motion #001)	Dincer, B=
+. (Pro Hac / Pro Se)	Processed=0D
+	TAX MAP BLOCK 503 - LOT 8 [GIS.NYC.GOV]	Filed: 08/09/2020	Confirmation N=
+otice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DSgjFfExx=
+NV4Y4DTX6pANaA=3D=3D	Received: 08/09/2020	=0D
+=C2=A0309=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- no1 =C2=A0(Motion #001)	Dincer, B=
+. (Pro Hac / Pro Se)	Processed=0D
+	PLAINTIFF ASSIGNED LEASES AND RENTS ON MAY 15TH 	Filed: 08/09/2020	Confi=
+rmation Notice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy=
+0G0QvnmRLGpYIQ=3D=3D	Received: 08/09/2020	=0D
+=C2=A0310=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- AC0 =C2=A0(Motion #001)	Dincer, B=
+. (Pro Hac / Pro Se)	Processed=0D
+	ACRIS Detailed Document Information (2019000021408)2019010800475001	File=
+d: 08/09/2020	Confirmation Notice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dze6a1KA9=
+akRV9TGfXXJT/g=3D=3D	Received: 08/09/2020	=0D
+=C2=A0311=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- AC1 =C2=A0(Motion #001)	Dincer, B=
+. (Pro Hac / Pro Se)	Processed=0D
+	ACRIS Detailed Document Information (2020000155422)2020052000291003	File=
+d: 08/09/2020	Confirmation Notice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DbVk8sIt7=
+n3kGwHqebPg0fw=3D=3D	Received: 08/09/2020	=0D
+=C2=A0312=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- AC2 =C2=A0(Motion #001)	Dincer, B=
+. (Pro Hac / Pro Se)	Processed=0D
+	ACRIS Detailed Document Information (2020000155421)2020052000291002	File=
+d: 08/09/2020	Confirmation Notice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DwTG2YD2P=
+qXuxmoKqFiESrw=3D=3D	Received: 08/09/2020	=0D
+=C2=A0313=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- AC3 =C2=A0(Motion #001)	Dincer, B=
+. (Pro Hac / Pro Se)	Processed=0D
+	ACRIS Detailed Document Information (2020000155422)2020052000291003	File=
+d: 08/09/2020	Confirmation Notice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn=
+66hrVmJ9DX_PLUS_bdg=3D=3D	Received: 08/09/2020	=0D
+=C2=A0314=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- AC4 =C2=A0(Motion #001)	Dincer, B=
+. (Pro Hac / Pro Se)	Processed=0D
+	ACRIS Detailed Document Information (2020000155423)2020052000291004	File=
+d: 08/09/2020	Confirmation Notice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiK=
+J0BGv2DF/MOn4g=3D=3D	Received: 08/09/2020	=0D
+=C2=A0315=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- ACR =C2=A0(Motion #002)	Dincer, B=
+. (Pro Hac / Pro Se)	Processed=0D
+	ACRIS.NYC.GOV >> ASSIGNMENT OF LEASE AND RENTS ON FILED ON MAY 26TH - ht=
+tps://a836-acris.nyc.gov/	Filed: 08/09/2020	Confirmation Notice=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFz=
+m0ynPeXZKSHgLQ=3D=3D	Received: 08/09/2020	=0D
+=C2=A0316=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- Bu0	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	COMPLAINT #14585819 (7/25/2020) @BBB	Filed: 08/09/2020	Confirmation Noti=
+ce=0D
+	https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D7Ry3LAoV=
+fWOLjSXhyJZ94A=3D=3D	Received: 08/09/2020	=0D
+=C2=A0317=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- Bu1	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	RESPONSE #14585819 (7/27/2020) @BBB	Filed: 08/09/2020	Confirmation Notic=
+e=0D
+		Received: 08/09/2020	=0D
+=C2=A0318=C2=A0	STATEMENT OF MATERIAL FACTS	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	SOMF - SEE ALSO: COLUMBIA LAW REVIEW {Vol. 114:583}	Filed: 08/09/2020	Co=
+nfirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0319=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- SF2	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	COLUMBIA LAW REVIEW 643	Filed: 08/09/2020	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0320=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- SF3	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	MIRROR: IN ITS COMPLETED STATE AFTER THE 1/16" HOLE WAS "REPAIRED"	Filed=
+: 08/09/2020	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0321=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- SF4	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	APT: PRIOR TO WINDOW BEING SMASHED IN: PEACEFUL.	Filed: 08/09/2020	Confi=
+rmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0322=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 82a =C2=A0(Motion #001)	Dincer, B=
+. (Pro Hac / Pro Se)	Processed=0D
+	https://assembly.state.ny.us/leg/?term=3D2019&bn=3DS03655	Filed: 08/09/2=
+020	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0323=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 241	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	Harassment; NY guidance penal	Filed: 08/09/2020	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0324=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 241	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	Harassment in the second degree	Filed: 08/09/2020	Confirmation Notice=0D=
+
+		Received: 08/09/2020	=0D
+=C2=A0325=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 241	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	Harassment in the first degree	Filed: 08/09/2020	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0326=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 245	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	EXPOSURE OF A PERSON	Filed: 08/09/2020	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0327=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 245	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	Promoting the exposure of a person	Filed: 08/09/2020	Confirmation Notice=
+=0D
+		Received: 08/09/2020	=0D
+=C2=A0328=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 245	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	Offensive exhibition	Filed: 08/09/2020	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0329=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 245	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	Public display of offensive sexual material	Filed: 08/09/2020	Confirmati=
+on Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0330=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 245	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	Unlawful dissemination or publication of an intimate image	Filed: 08/09/=
+2020	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0331=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 250	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	EAVESDROPPING DEFINITION OF TERMS	Filed: 08/09/2020	Confirmation Notice=0D=
+
+		Received: 08/09/2020	=0D
+=C2=A0332=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 250	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	EAVESDROPPING	Filed: 08/09/2020	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0333=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 250	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	NY - UNLAWFUL SURVEILLANCE - DEFINITIONS	Filed: 08/09/2020	Confirmation =
+Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0334=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 250	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	NY - UNLAWFUL SURVEILLANCE - FIRST DEGREE	Filed: 08/09/2020	Confirmation=
+ Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0335=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 250	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	NY - Dissemination of an unlawful surveillance image in the first degree=
+.	Filed: 08/09/2020	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0336=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- 255	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	NY - Dissemination of an unlawful surveillance image in the second	Filed=
+: 08/09/2020	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0337=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- NYS	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	STATE SPECIFIC AUDIO AND VISUAL SURVEILLANCE GUIDELINES	Filed: 08/09/202=
+0	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0338=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- @1	Dincer, B. (Pro Hac / Pro Se)	=
+Processed=0D
+	SETTLED IN TO MY RESIDENCE - BED LOOKS IN TACT.	Filed: 08/09/2020	Confir=
+mation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0339=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- @2	Dincer, B. (Pro Hac / Pro Se)	=
+Processed=0D
+	2020.03.10 - TENANT CONSIDERS EMPLOYMENT WITH GENERAL COUNSEL (PAUL REGA=
+N)	Filed: 08/09/2020	Confirmation Notice=0D
+	103 WEST 55TH STREET	Received: 08/09/2020	=0D
+=C2=A0340=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- @3	Dincer, B. (Pro Hac / Pro Se)	=
+Processed=0D
+	2020.04.15 - WINDOW SMASHED IN - NOTICE TO GENERAL COUNSEL (PAUL REGAN)	=
+Filed: 08/09/2020	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0341=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- @4	Dincer, B. (Pro Hac / Pro Se)	=
+Processed=0D
+	2020.04.15 - WINDOW SMASHED IN	Filed: 08/09/2020	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0342=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- @5	Dincer, B. (Pro Hac / Pro Se)	=
+Processed=0D
+	2020.05.22 - REQUEST FOR ENTRY TO RESIDENCE BY PLAINTIFF	Filed: 08/09/20=
+20	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0343=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- @6	Dincer, B. (Pro Hac / Pro Se)	=
+Processed=0D
+	2020.05.24 - EARLY ENTRY TO RESIDENCE PROVIDED	Filed: 08/09/2020	Confirm=
+ation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0344=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- @7	Dincer, B. (Pro Hac / Pro Se)	=
+Processed=0D
+	2020.06 - NOTICE OF WINDOW STILL UNREPAIRED	Filed: 08/09/2020	Confirmati=
+on Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0345=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- @8	Dincer, B. (Pro Hac / Pro Se)	=
+Processed=0D
+	2020.06 - APPLICATION SUBMITTED TO HARVARD UNIVERSITY (JOHN. F KENNEDY S=
+CHOOL OF GOVERNMENT)	Filed: 08/09/2020	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0346=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- @9	Dincer, B. (Pro Hac / Pro Se)	=
+Processed=0D
+	2020.06 - ADMITTED AND ENROLLED AT HARVARD UNIVERSITY (JOHN. F KENNEDY S=
+CHOOL OF GOVERNMENT)	Filed: 08/09/2020	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0347=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- $10	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	2020.06 - ADMITTED AND ENROLLED AT HARVARD UNIVERSITY (JOHN. F KENNEDY S=
+CHOOL OF GOVERNMENT)	Filed: 08/09/2020	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0348=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- @$1	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	2020.06.03 - NOTICE TO PLAINTIFF (PAUL REGAN & CO) TO STOP HARRASSING ME=
+	Filed: 08/09/2020	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0349=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- @$2	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	2020.06.05 - LETTER ADDRESSED TO DINCER WITH AN ATTACHMENT	Filed: 08/09/=
+2020	Confirmation Notice=0D
+		Received: 08/09/2020	=0D
+=C2=A0350=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- @$3	Dincer, B. (Pro Hac / Pro Se)=
+	Processed=0D
+	2020.06.06 - LETTER TO SHARI LASKOWITZ IN RESPONSE TO FURTHER HARASSMENT=
+	Filed: 08/09/2020	Confirmation Notice=0D
+		Received: 08/09/2020=0D
+=0D
+=0D

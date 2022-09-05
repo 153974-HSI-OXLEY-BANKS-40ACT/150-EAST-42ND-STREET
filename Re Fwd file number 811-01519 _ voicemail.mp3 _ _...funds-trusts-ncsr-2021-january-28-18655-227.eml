@@ -1,0 +1,698 @@
+From - Mon May 30 22:16:22 2022
+X-Account-Key: account1
+X-UIDL: AAy4X197g/T7YpV1wgO5IOR68Mk
+X-Mozilla-Status: 0011
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.136.93
+ by atlas320.free.mail.ne1.yahoo.com with HTTPS; Tue, 31 May 2022 01:57:22 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.65.31]
+Received-SPF: pass (domain of yahoo.com designates 98.137.65.31 as permitted sender)
+Authentication-Results: atlas320.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 31 May 2022 01:57:23 +0000
+X-YMailISG: yt5EjB8WLDu6EqEV.V4Z2Wl9gg2LstWbsUVg0a9PwWLPYC7u
+ r_T5Evk0ryF_tW4z5tdGtBYVdaj_pkXv4bAyNnYUZf_W52iYH03t28m75BOq
+ p7ear1.a5uaWAa0ZZupIybyHsWhGCUmz7fuJQOPTgvLNyiL7jwR3vrhr_YNy
+ pLAnFeljh1ucwffCqJtYhpo5LRIxeJzm582aMh7xBqGYSQKdy.IgDLh5pK1F
+ nmeD_AMtN0fZa_sZAGtq45_dgphF6QYwXLE9aHxU9zczsAxOqzvcl2u51oa9
+ hzwuKVT7EICi5mY94e30Fx40wBC01bI15OO.gGqDE34DMOb8UDS8hJ92o3EF
+ GlaC6vahLAki.vZRvslXD18De.Chp57hQBSTaZuwtVvgkP_T_HUtzoRN3EST
+ WKAhMNzDeRNihBRg8fxh4H4aMD4uJDWwrFp2E3OU9iUKfeUv1xNLuLRQQu6C
+ rX51Jie_iWZOjo.1wT9BtgaQwQCNRB1qRURmmvDaure6UcxYFUnecaJlUZmb
+ 7tXv7vM7f2MrsNyNC5633Ow3BXAdYQv2CGyNerLDxqlBLh7LtuvLiGyEYKGX
+ ccm0R7xDIFYgeyNcMp7TyRcfmGFXWETR1XOc3LWskgimy7j8e4JSUOqiR0g9
+ cP7XA6kitouyIQx2RqgG9UilHuD3L45vraPPj_LGTeDoTiEz0VpfGOejXrHN
+ pdU3cytFKC2ODRR3QDUyKY1n.IfwkT3x90dYjJrHuOYlAO5xfJ9baOgsG3tv
+ QqY2SRUJCAkwT.DykyPMM4MuC20dXMTQD73bF9G3E7A03Dhiclh._N7yRE7i
+ AgVt.N5NspeJOkyOEiGSVBGQBj9koUa.g92h4jSucpLQLFpf5hQHoCs8H8Jw
+ 8_e.jX3FR.UEPSajpFk4oNAvkmOpTEfea9dybSaPiS6O24k6XR0vu9c_oD5i
+ 1ZUA6UPEFpIbvNEwHodfSYU4OJQpd7r_0lw4LugiIFJU6HAuMpNycWXSUiSr
+ bsgxbd_u8QqtjFgatqS1Tcx_O0WeZZBBS52TX5vkLBA_uMYufNOtYWPJ4MsD
+ GzWM6mbJgrJS2HD8zjY4rDA99EWCz63MhiasAOWN5YR.s2wIjk7tJpoZ7wRe
+ kEAk3Izq44h0YiTXaddmM4.gJMg_cjPH_2KhN1qdSDlWolb1V4TDUnpoCJWQ
+ IZ.Y2MmkUluR4R_e
+Received: from 98.137.65.31 (EHLO sonic315-55.consmr.mail.gq1.yahoo.com)
+ by 10.217.136.93 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Tue, 31 May 2022 01:57:22 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653962242; bh=y9s6ME2UGyaIspJmb4l+AiMQAKDQywlLOddxiXV+7+M=; h=Date:From:Reply-To:To:Cc:In-Reply-To:References:Subject:From:Subject:Reply-To; b=A8l/JGNVI1SKmyUbW/XizAySfhI2yufizwDjGxrXO04UZIDH2umPY0wJ7iD4bUD6KSAeCZiPA+8SRUVthvy6HnH9acK57uTcvy9RUQsnuUsoGuE+RiXkFPJDTPMEmzubXmM0LEukPvkArMnU7WL/7ru30UTxh3947cVB2Uyy+DXWLxlAOJ41KR0qB3gke76E8+lw81dUvClR+YXCgcF4q3BqpW+xfdGCmSl1S3keWd1b15sj2Tis6jtltISiTO0e9FoiBXQRpMuiCMBdKbPxVQhG1vtea8DTBlL8Y1mpY4uuqd61AKsSsCGVh6zZ++Y/POcEd8sLR/n4OJSoOFWVAQ==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1653962242; bh=O291Jlq3JdXKZRmZGw8QgWyrCnS25Mcz200LQGI9lxx=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=hzIGh+uVrhMiX6IOFXzmQezY8IXuu4f0hwhkrjBz13I5dACmukNShl9NSFisxdyIfFdQstUO8n5Zj/RBMqQrnnbOFGbmsUrORqRPsXKZb3NTwasJ6px26gHzu2nXLDEX7zEeBCEfLYyObEP1KnLXrQRpfWr4KhrTMwB3e1S1g/wCFKishnCfhRUPBRPoAUgy4EUbPZ6q6wXnpvaDwod1BalivN5XDynVw/VCaNixie1Vm3LwMk971QjGKY8RHGYpbQp+jRA3KtUQQ2r0o2mSJ/FE4YHESTsDtwlIsIav8Ygug0L4JNhNdFUYzkXiXSxYrn4CWU4vK/3P/W2KjhPU9Q==
+X-YMail-OSG: jpIEceQVM1khazq97sEPD22ehzMAAQDQsVjrReEilvUL3tlkjoW8vODfTeqEGH8
+ MWzCWsDcRIctdEJyiveknPkK3xVMkTKn8GYLyuIx18rwx79jO3vz7KjG1gFh2AgjpkAt2JkQ.NcT
+ 06RakY1IcxyGhseDnndRIBB6teuj20SPrt4wLqWU0UE.xGc7FE8lCb.XqS8TveL5YpEsFFtoT0E9
+ ZhD1SfKI62GP2Gdgb3yWEzjXdOVpUoq45anbXbNir_Agb7A34Yj4MJG.YEGRWtyiMJBRfOAdbWiQ
+ OXgLXz97dohCLwPduQVJPBX5EH6Ju4rU.oe5BXS5mv0BsfPLGQA9ALjuAwPOLYbweESyAuF0lnnY
+ gzT0rdwnVqYDTMFLmrqyQenQFlH0N9.YJb8BHLcTveDLsSY6uiFVlc1qIVBSeY2wkqsnz.z3iDHY
+ cLVfuPOMddV2Nzr7DTpbZmVdbs1KweQtWBevCyavRhacwVqUQVPGJuZPTJXwo9vedKBwWaz7Fowc
+ WkoNylc8pNx7WGWvzP.05FQpkstDI1mopicnD9CfMhN4NCNkwCGMUA673urEVdxvIj1j1YQM0XVw
+ C44QSHAfVGK.NwdYljafiC8U29z1hmDLzdSmmLDUxp7YrwK5K6QN1kZAL.fYv0TF._DoqBqw6zEp
+ uybiGQ0ecHWgQ9Wmk_sn.qKfVi91RpWeAZ5_Jy5yuP4iEQt98jAsBVFvS2q_u6G2MgSaYrA.xkUP
+ WtlMLkB1zwrthY72M6G0a476SY5xn4AaeaIbY4z5uFVZKoquinF5BGVtDYS9lsDEHqP5M0fbezWu
+ VXl8RGuPbqTLG_e62x7b1quXYk07jWhKDUcaVCi8c6lPjzVwga1goAfTO.E6eABz.tkqJu4k4O_2
+ GQ0ufvPhemdubgzkdZqxwmlFjaYMTDFhw.cbY3Ik5NF6zloh8HXRLxYFnoI8QEvz6VmWeDf3pLOl
+ HSBXdN7QTpxZV4gyAOrHmGXUHVcPi7fdCb8ZSUTXTef0I4cjtRncYL1LvjiWjXMcOU1dknhUaEx0
+ Mw8qt7BQKZLtge2RTBSqDVKvS2a6earQRKXbX9C73TssAtfW74ymhnx.c4n.sg8X5a6trM9b2tfo
+ 3hVWwqEwRgd6.j6ycGn07LjMW3F452NR0W3x1ZGzOCUSQVDWmaPeOtNH_EUKr1MNMBBstvPkxU96
+ Zek6SJ7lbZqsNToWCcQ_YdjKyQ64dCR7vbLqCCsOULOD8sjLfqQ7CNCPjkoCijOAIDcpErtmfNeC
+ s5cr442lGBkYhilEB2HJzJfZsiLx1LAhakojbXLtKcUWtAiBaZnanSTn9P825EaoF2AOrwSbfxtz
+ L4_IYZiVoUeFiutue2m4voz9N7eZNR6pmVHqJnu9wT1jEq4nnBr66TSExHadHGiC3uxj5uKPAfzg
+ en57LHRr_s6y_dixKZ7phaw3kYGolwo9iA3UX412WAfhWDVwLYNLEF_kg27Ou3Q0Fb7MwR90oUj2
+ mIEYCjnxiB.9zwsS2TOZRB2zd.Kl5G0cgssfSjyPYhJUsVUXtstOhwUs6TPbsuqD_xdVUW4Kmclk
+ _3E1xcosy1xHFEO8cXztOnIg5aSEOlLIvtRVYAE0OpVF25DhvLVyF9Ltu_g7f.pXfAeInt8olBpr
+ 5bQxth5jiKVosHO6OkHvgJdAXKETJYYQi2VSv8SjnS0qvWzhD.ezvCqlXanStQflqf_Ksl0zZpy_
+ gEBL9S8MF.m65TufRwSoMAcI_DM8unyOyKI7SFZYEMdrjfyj9FZmgDNcdAocewvxbryI8I.hR.1U
+ 0zgqQPSoPXj43UYcw7Yxc6YusQRU7yY.Zrinhb3NRw8FAda.GW8nO2LSAN8_JKAzVqAtcXekTxvQ
+ p8KkKrVKhUwnW62rDZG60Bz9zFJ4kmzaPiUtZGM8FB47XX8ZE_UCVmCuWHFjqF9KWPFWgkZ7.szy
+ z36dscefeO096XYvWQ9JZLgRctzbN6ACqgf1ZjY_MYcUY8HMR.5B6t.G3SkL0ZLudHRawCNb4W6F
+ .05nd5FE1xq5nYGxXIGVK2XAW.QGu7n9en.fOerngz2Eoya0msgAypH7Haf3mn2XiES5FUwRZmOA
+ CWBImz_vbNwxEedSHEIiM.6LGGmD2Z3MIbyAhsTTyG0.GfB5UFPaIy9qVSenoEhwqJ8F4cUvNrd6
+ u28h5Z3IyoA7iUtx6IIih3yeDiCyJOzbBGnWvBQzs0Qv_R5bFrkXrKxXnfBcmay_tbgn0m_z1ISB
+ iY3ughAJrH7z3O9x74C0nuBbbYiRWAMfnMbxwkgAn91jG5zVVRhbyC4y2jxXuv3Ec6iON_GW8Oe4
+ aO6rG2wCkRuLuNtbIxzrpiIlVrDl2MbyxBTcYLXkGi6iEiONBkgobnqSRqLWstZlcAbhmAdfCoxr
+ BMIg6AlWRpfjl77a2i8e92vdtFOk9gzHmNdG6rYQZWRWXPgs-
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic315.consmr.mail.gq1.yahoo.com with HTTP; Tue, 31 May 2022 01:57:22 +0000
+Date: Tue, 31 May 2022 01:57:17 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: "bd2561@columbia.edu" <bd2561@columbia.edu>, 
+	BD <bondstrt@protonmail.com>, Bo Dincer <BO.DINCER@yahoo.com>, 
+	James Brien Comey Jr <jbc2167@columbia.edu>
+Cc: David Moore <david.moore.ct95@statefarm.com>
+Message-ID: <1361691682.3812619.1653962237418@mail.yahoo.com>
+In-Reply-To: <CAMFVwWWbqGWVAyVi+EbafFob4m+bcJYQyOmXhKh50a2ZM3bAhg@mail.gmail.com>
+References: <YYzp2XPyxRz8-cm7R-Jo31uDqcvi0G7qdPb5HPiu0bBbcR6FrcEIyr5FiWfN7z3tddjf9YTi2RSIr6SmWpYepCVg3rjSVLm3Vk314AKAxXM=@hutchmen.com> <CAMFVwWXecKbMB+sX2SGZ=ASM3Dm0=c9mzh=VXJ-dJQryUbQ2Sw@mail.gmail.com> <CAMFVwWWu43NQWa99YtXRJhOWw8cP6y028NzgkHP63-QMwg-ySw@mail.gmail.com> <CAMFVwWWQdAGpuRJV06qGZ-Mcjm_sY71DecgU_khpddez8H3Ang@mail.gmail.com> <CAMFVwWUtWj8O=E3wNi7C71NRF8anJZVASDMPOG_yWLOxyRfwtA@mail.gmail.com> <CAMFVwWWbqGWVAyVi+EbafFob4m+bcJYQyOmXhKh50a2ZM3bAhg@mail.gmail.com>
+Subject: Re: Fwd: file number 811-01519 | voicemail.mp3 |
+ //...funds-trusts-ncsr-2021-january-28-18655-227
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3812618_671859202.1653962237409"
+X-Mailer: WebService/1.1.20225 YahooMailAndroidMobile
+Content-Length: 37459
+
+------=_Part_3812618_671859202.1653962237409
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+/S/ BO DINCER=20
+=20
+  On Sun, Nov 28, 2021 at 6:44 AM, Bo Dincer<bd2561@columbia.edu> wrote:  =
+=20
+---------- Forwarded message ---------
+From: Bo Dincer <bd2561@columbia.edu>
+Date: Sun, Nov 28, 2021, 6:42 AM
+Subject: Fwd: file number 811-01519 | voicemail.mp3 | //...funds-trusts-ncs=
+r-2021-january-28-18655-227
+To: <corrections@nytimes.com>, Paul Regan <legal@mskyline.com>, <mscampusre=
+cruiting@morganstanley.com>
+Cc: =E2=80=8Bmharvey13@bloomberg.net <mharvey13@bloomberg.net>, William McK=
+enzie <wmckenzi@nycourts.gov>, <james.gorman@morganstanley.com>
+
+
+ZIPCODE 61710
+=C2=A0NORTH OF 60710M FOR ERIN ANDREWS...=C2=A0
+My mistake.
+---------- Forwarded message ---------
+From: Bo Dincer <bd2561@columbia.edu>
+Date: Sun, Nov 28, 2021, 6:32 AM
+Subject: Fwd: file number 811-01519 | voicemail.mp3 | //...funds-trusts-ncs=
+r-2021-january-28-18655-227
+To: Paul Regan <legal@mskyline.com>
+Cc: Humphries, Ashley V. <Ashley.Humphries@wilsonelser.com>, Scott Holcomb =
+<scott@holcombward.com>, Daniel Charles Richman <drichm@law.columbia.edu>, =
+Daniel Charles Richman <dcr2132@columbia.edu>, <chicago@sec.gov>, Chair <ch=
+air@sec.gov>, nyscef <nyscef@nycourts.gov>, =E2=80=8Blicensing@dos.ny.gov <=
+licensing@dos.ny.gov>, Sky's The Limit <concierge@stlnyc.com>, Broker - Sul=
+livan Mews <sullivanmews@mskylinerentals.com>, <mscampusrecruiting@morganst=
+anley.com>, <smcman@fbi.gov>, <bids@fbisecurity.com>
+
+
+60710M >>> $352,500,000.00 (2015) STATE FARM.ZIPCODE SAID 60710... BARRETT =
+GETS 30?.. Zuckers?
+
+G-NIGHT.
+
+---------- Forwarded message ---------
+From: Bo Dincer <bd2561@columbia.edu>
+Date: Sat, Nov 27, 2021, 11:36 PM
+Subject: file number 811-01519 | voicemail.mp3 | //...funds-trusts-ncsr-202=
+1-january-28-18655-227
+To: <administrator@mskyline.com>, <AReynoso@mskyline.com>, <JGiamboi@mskyli=
+ne.com>, <lzucker@mskyline.com>, <SLASKOWITZ@mskyline.com>, <TEschmann@msky=
+line.com>, alex.kress@wilsonelser.com <alex.kress@wilsonelser.com>, Broker =
+- Sullivan Mews <sullivanmews@mskylinerentals.com>, craig.brinker@wilsonels=
+er.com <craig.brinker@wilsonelser.com>, craig.hunter@wilsonelser.com <craig=
+.hunter@wilsonelser.com>, curt.schlom@wilsonelser.com <curt.schlom@wilsonel=
+ser.com>, daniel.flores@wilsonelser.com <daniel.flores@wilsonelser.com>, La=
+skowitz, Shari <slaskowitz@ingramllp.com>, Paul Regan <legal@mskyline.com>,=
+ ricki.roer@wilsonelser.com <ricki.roer@wilsonelser.com>, roger.gottilla@wi=
+lsonelser.com <roger.gottilla@wilsonelser.com>, sean.wagner@wilsonelser.com=
+ <sean.wagner@wilsonelser.com>, Sky's The Limit <concierge@stlnyc.com>, ste=
+phen.barrett@wilsonelser.com <stephen.barrett@wilsonelser.com>, Super - Sul=
+livan <super@sullivanmews.com>, thomas.manisero@wilsonelser.com <thomas.man=
+isero@wilsonelser.com>, William McKenzie <wmckenzi@nycourts.gov>, william.b=
+ehr@wilsonelser.com <william.behr@wilsonelser.com>, =E2=80=8Bainfo@building=
+s.nyc.gov <ainfo@buildings.nyc.gov>, =E2=80=8BEducation@rebny.com <Educatio=
+n@rebny.com>, =E2=80=8Bmharvey13@bloomberg.net <mharvey13@bloomberg.net>, =
+=E2=80=8Bnyscef@nycourts.com <nyscef@nycourts.com>, newyork <newyork@sec.go=
+v>, nyscef <nyscef@nycourts.gov>
+Cc: Scott Holcomb <scott@holcombward.com>, Chair <chair@sec.gov>
+
+
+
+
+| Security | STFGX / State Farm Growth Fund |
+| Form Type | N-CSR |
+| File Date | 2021-01-28 |
+
+
+UNITED STATES
+
+SECURITIES AND EXCHANGE COMMISSION
+
+Washington, D.C. 20549
+
+FORM=C2=A0N-CSR
+
+CERTIFIED SHAREHOLDER REPORT OF REGISTERED
+
+MANAGEMENT INVESTMENT COMPANIES
+
+Investment Company Act file number=C2=A0811-01519
+
+STATE FARM ASSOCIATES=E2=80=99 FUNDS TRUST
+
+(Exact name of registrant as specified in charter)
+
+=C2=A0
+
+|  |  |  |
+|=20
+One State Farm Plaza
+
+Bloomington, IL
+ | =C2=A0 | 61710-0001 |
+| (Address of principal executive offices) | =C2=A0 | (Zip code) |
+
+
+=C2=A0
+
+|  |  |  |
+| Paul J. Smith | =C2=A0 | Mark Greer |
+| One State Farm Plaza | =C2=A0 | Stradley Ronon Stevens=C2=A0& Young, LLP =
+|
+| Bloomington, Illinois 61710-0001 | =C2=A0 | 191 North Wacker Dr, Suite 16=
+01 |
+|  | =C2=A0 | Chicago, Illinois 60606 |
+| (Names and addresses of agents for service) |
+
+
+Registrant=E2=80=99s telephone number, including area code:=C2=A01-800-447-=
+0740
+
+Date of fiscal year end: 11/30/2020
+
+Date of reporting period: 11/30/2020
+
+
+
+| ITEM=C2=A01. |=20
+REPORTS TO STOCKHOLDERS.
+ |
+
+
+
+
+https://static1.st8fm.com/en_US/downloads/sf/assocSemAnnRpt.pdf
+<ATTACHED><easier to search>https://doc.morningstar.com/docdetail.aspx?clie=
+ntid=3Dschwab&key=3D84b36f1bf3830e07&cusip=3D00770G516
+<easier to search>_https://fintel.io/doc/sec-state-farm-associates-funds-tr=
+usts-ncsr-2021-january-28-18655-227
+
+---------- Forwarded message ---------
+From: Bo Dincer <bd2561@columbia.edu>
+Date: Wed, Nov 24, 2021 at 2:26 AM
+Subject: Fwd: SECCS // RESIDENTIAL obo SCCS
+To: <atlanta@sec.gov>
+
+
+TCR REPORT, without CAPTION
+---------- Forwarded message ---------
+From: CS TEAM <Activations@hutchmen.com>
+Date: Tue, Nov 23, 2021 at 4:02 AM
+Subject: RE: SECCS // RESIDENTIAL obo SCCS
+To: chicago@sec.gov <chicago@sec.gov>
+
+
+I cleared this no worries, just wanted to keep you all in the loop.
+
+/ BD
+
+=E2=80=90=E2=80=90=E2=80=90=E2=80=90=E2=80=90=E2=80=90=E2=80=90 Original Me=
+ssage =E2=80=90=E2=80=90=E2=80=90=E2=80=90=E2=80=90=E2=80=90=E2=80=90
+ On Saturday, November 20th, 2021 at 5:13 AM, BD <bondstrt@protonmail.com> =
+wrote:
+
+
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 We deeply appreciate your taking the tim=
+e to communicate your thoughts and concerns to the Securities and Exchange =
+Commission.
+=C2=A0
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Si=
+ncerely,
+=C2=A0
+=C2=A0
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Lo=
+ri Schock
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Di=
+rector
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Of=
+fice of Investor Education and Advocacy
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 U.=
+S. Securities and Exchange Commission
+=C2=A0
+
+
+
+ =20
+
+------=_Part_3812618_671859202.1653962237409
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div id=3D"ymail_android_signature">/S/ BO DINCER</div> <br> <block=
+quote style=3D"margin: 0 0 20px 0;"> <div style=3D"font-family:Roboto, sans=
+-serif; color:#6D00F6;"> <div>On Sun, Nov 28, 2021 at 6:44 AM, Bo Dincer</d=
+iv><div>&lt;bd2561@columbia.edu&gt; wrote:</div> </div> <div style=3D"paddi=
+ng: 10px 0 0 20px; margin: 10px 0 0 0; border-left: 1px solid #6D00F6;"> <d=
+iv id=3D"yiv4853787199"><div></div><br><div class=3D"yiv4853787199gmail_quo=
+te"><div dir=3D"ltr" class=3D"yiv4853787199gmail_attr">---------- Forwarded=
+ message ---------<br>From: <strong class=3D"yiv4853787199gmail_sendername"=
+>Bo Dincer</strong> <span>&lt;<a rel=3D"nofollow noopener noreferrer" ymail=
+to=3D"mailto:bd2561@columbia.edu" target=3D"_blank" href=3D"mailto:bd2561@c=
+olumbia.edu">bd2561@columbia.edu</a>&gt;</span><br>Date: Sun, Nov 28, 2021,=
+ 6:42 AM<br>Subject: Fwd: file number 811-01519 | voicemail.mp3  |  //...fu=
+nds-trusts-ncsr-2021-january-28-18655-227<br>To:  &lt;<a rel=3D"nofollow no=
+opener noreferrer" ymailto=3D"mailto:corrections@nytimes.com" target=3D"_bl=
+ank" href=3D"mailto:corrections@nytimes.com">corrections@nytimes.com</a>&gt=
+;, Paul Regan &lt;<a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto=
+:legal@mskyline.com" target=3D"_blank" href=3D"mailto:legal@mskyline.com">l=
+egal@mskyline.com</a>&gt;,  &lt;<a rel=3D"nofollow noopener noreferrer" yma=
+ilto=3D"mailto:mscampusrecruiting@morganstanley.com" target=3D"_blank" href=
+=3D"mailto:mscampusrecruiting@morganstanley.com">mscampusrecruiting@morgans=
+tanley.com</a>&gt;<br>Cc: =E2=80=8B<a rel=3D"nofollow noopener noreferrer" =
+ymailto=3D"mailto:mharvey13@bloomberg.net" target=3D"_blank" href=3D"mailto=
+:mharvey13@bloomberg.net">mharvey13@bloomberg.net</a> &lt;<a rel=3D"nofollo=
+w noopener noreferrer" ymailto=3D"mailto:mharvey13@bloomberg.net" target=3D=
+"_blank" href=3D"mailto:mharvey13@bloomberg.net">mharvey13@bloomberg.net</a=
+>&gt;, William McKenzie &lt;<a rel=3D"nofollow noopener noreferrer" ymailto=
+=3D"mailto:wmckenzi@nycourts.gov" target=3D"_blank" href=3D"mailto:wmckenzi=
+@nycourts.gov">wmckenzi@nycourts.gov</a>&gt;,  &lt;<a rel=3D"nofollow noope=
+ner noreferrer" ymailto=3D"mailto:james.gorman@morganstanley.com" target=3D=
+"_blank" href=3D"mailto:james.gorman@morganstanley.com">james.gorman@morgan=
+stanley.com</a>&gt;<br></div><br><br><div>ZIPCODE 61710<div><br></div><div>=
+&nbsp;NORTH OF 60710M FOR ERIN ANDREWS...&nbsp;</div><div><br></div><div>My=
+ mistake.</div></div><br><div class=3D"yiv4853787199gmail_quote"><div dir=
+=3D"ltr" class=3D"yiv4853787199gmail_attr">---------- Forwarded message ---=
+------<br>From: <strong class=3D"yiv4853787199gmail_sendername">Bo Dincer</=
+strong> <span>&lt;<a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto=
+:bd2561@columbia.edu" target=3D"_blank" href=3D"mailto:bd2561@columbia.edu"=
+>bd2561@columbia.edu</a>&gt;</span><br>Date: Sun, Nov 28, 2021, 6:32 AM<br>=
+Subject: Fwd: file number 811-01519 | voicemail.mp3  |  //...funds-trusts-n=
+csr-2021-january-28-18655-227<br>To: Paul Regan &lt;<a rel=3D"nofollow noop=
+ener noreferrer" ymailto=3D"mailto:legal@mskyline.com" target=3D"_blank" hr=
+ef=3D"mailto:legal@mskyline.com">legal@mskyline.com</a>&gt;<br>Cc: Humphrie=
+s, Ashley V. &lt;<a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:=
+Ashley.Humphries@wilsonelser.com" target=3D"_blank" href=3D"mailto:Ashley.H=
+umphries@wilsonelser.com">Ashley.Humphries@wilsonelser.com</a>&gt;, Scott H=
+olcomb &lt;<a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:scott@=
+holcombward.com" target=3D"_blank" href=3D"mailto:scott@holcombward.com">sc=
+ott@holcombward.com</a>&gt;, Daniel Charles Richman &lt;<a rel=3D"nofollow =
+noopener noreferrer" ymailto=3D"mailto:drichm@law.columbia.edu" target=3D"_=
+blank" href=3D"mailto:drichm@law.columbia.edu">drichm@law.columbia.edu</a>&=
+gt;, Daniel Charles Richman &lt;<a rel=3D"nofollow noopener noreferrer" yma=
+ilto=3D"mailto:dcr2132@columbia.edu" target=3D"_blank" href=3D"mailto:dcr21=
+32@columbia.edu">dcr2132@columbia.edu</a>&gt;,  &lt;<a rel=3D"nofollow noop=
+ener noreferrer" ymailto=3D"mailto:chicago@sec.gov" target=3D"_blank" href=
+=3D"mailto:chicago@sec.gov">chicago@sec.gov</a>&gt;, Chair &lt;<a rel=3D"no=
+follow noopener noreferrer" ymailto=3D"mailto:chair@sec.gov" target=3D"_bla=
+nk" href=3D"mailto:chair@sec.gov">chair@sec.gov</a>&gt;, nyscef &lt;<a rel=
+=3D"nofollow noopener noreferrer" ymailto=3D"mailto:nyscef@nycourts.gov" ta=
+rget=3D"_blank" href=3D"mailto:nyscef@nycourts.gov">nyscef@nycourts.gov</a>=
+&gt;, =E2=80=8B<a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:li=
+censing@dos.ny.gov" target=3D"_blank" href=3D"mailto:licensing@dos.ny.gov">=
+licensing@dos.ny.gov</a> &lt;<a rel=3D"nofollow noopener noreferrer" ymailt=
+o=3D"mailto:licensing@dos.ny.gov" target=3D"_blank" href=3D"mailto:licensin=
+g@dos.ny.gov">licensing@dos.ny.gov</a>&gt;, Sky's The Limit &lt;<a rel=3D"n=
+ofollow noopener noreferrer" ymailto=3D"mailto:concierge@stlnyc.com" target=
+=3D"_blank" href=3D"mailto:concierge@stlnyc.com">concierge@stlnyc.com</a>&g=
+t;, Broker - Sullivan Mews &lt;<a rel=3D"nofollow noopener noreferrer" ymai=
+lto=3D"mailto:sullivanmews@mskylinerentals.com" target=3D"_blank" href=3D"m=
+ailto:sullivanmews@mskylinerentals.com">sullivanmews@mskylinerentals.com</a=
+>&gt;,  &lt;<a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:mscam=
+pusrecruiting@morganstanley.com" target=3D"_blank" href=3D"mailto:mscampusr=
+ecruiting@morganstanley.com">mscampusrecruiting@morganstanley.com</a>&gt;, =
+ &lt;<a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:smcman@fbi.g=
+ov" target=3D"_blank" href=3D"mailto:smcman@fbi.gov">smcman@fbi.gov</a>&gt;=
+,  &lt;<a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:bids@fbise=
+curity.com" target=3D"_blank" href=3D"mailto:bids@fbisecurity.com">bids@fbi=
+security.com</a>&gt;<br></div><br><br><div><div></div>60710M &gt;&gt;&gt; $=
+352,500,000.00 (2015) STATE FARM<div>.</div><div>ZIPCODE SAID 60710.</div><=
+div>.. BARRETT GETS 30?</div><div>.. Zuckers?</div><div><br></div><div><br>=
+</div><div>G-NIGHT.</div><div><br></div><div><br><div class=3D"yiv485378719=
+9gmail_quote"><div dir=3D"ltr" class=3D"yiv4853787199gmail_attr">----------=
+ Forwarded message ---------<br>From: <strong class=3D"yiv4853787199gmail_s=
+endername">Bo Dincer</strong> <span>&lt;<a rel=3D"nofollow noopener norefer=
+rer" ymailto=3D"mailto:bd2561@columbia.edu" target=3D"_blank" href=3D"mailt=
+o:bd2561@columbia.edu">bd2561@columbia.edu</a>&gt;</span><br>Date: Sat, Nov=
+ 27, 2021, 11:36 PM<br>Subject: file number 811-01519 | voicemail.mp3  |  /=
+/...funds-trusts-ncsr-2021-january-28-18655-227<br>To:  &lt;<a rel=3D"nofol=
+low noopener noreferrer" ymailto=3D"mailto:administrator@mskyline.com" targ=
+et=3D"_blank" href=3D"mailto:administrator@mskyline.com">administrator@msky=
+line.com</a>&gt;,  &lt;<a rel=3D"nofollow noopener noreferrer" ymailto=3D"m=
+ailto:AReynoso@mskyline.com" target=3D"_blank" href=3D"mailto:AReynoso@msky=
+line.com">AReynoso@mskyline.com</a>&gt;,  &lt;<a rel=3D"nofollow noopener n=
+oreferrer" ymailto=3D"mailto:JGiamboi@mskyline.com" target=3D"_blank" href=
+=3D"mailto:JGiamboi@mskyline.com">JGiamboi@mskyline.com</a>&gt;,  &lt;<a re=
+l=3D"nofollow noopener noreferrer" ymailto=3D"mailto:lzucker@mskyline.com" =
+target=3D"_blank" href=3D"mailto:lzucker@mskyline.com">lzucker@mskyline.com=
+</a>&gt;,  &lt;<a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:SL=
+ASKOWITZ@mskyline.com" target=3D"_blank" href=3D"mailto:SLASKOWITZ@mskyline=
+.com">SLASKOWITZ@mskyline.com</a>&gt;,  &lt;<a rel=3D"nofollow noopener nor=
+eferrer" ymailto=3D"mailto:TEschmann@mskyline.com" target=3D"_blank" href=
+=3D"mailto:TEschmann@mskyline.com">TEschmann@mskyline.com</a>&gt;, <a rel=
+=3D"nofollow noopener noreferrer" ymailto=3D"mailto:alex.kress@wilsonelser.=
+com" target=3D"_blank" href=3D"mailto:alex.kress@wilsonelser.com">alex.kres=
+s@wilsonelser.com</a> &lt;<a rel=3D"nofollow noopener noreferrer" ymailto=
+=3D"mailto:alex.kress@wilsonelser.com" target=3D"_blank" href=3D"mailto:ale=
+x.kress@wilsonelser.com">alex.kress@wilsonelser.com</a>&gt;, Broker - Sulli=
+van Mews &lt;<a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:sull=
+ivanmews@mskylinerentals.com" target=3D"_blank" href=3D"mailto:sullivanmews=
+@mskylinerentals.com">sullivanmews@mskylinerentals.com</a>&gt;, <a rel=3D"n=
+ofollow noopener noreferrer" ymailto=3D"mailto:craig.brinker@wilsonelser.co=
+m" target=3D"_blank" href=3D"mailto:craig.brinker@wilsonelser.com">craig.br=
+inker@wilsonelser.com</a> &lt;<a rel=3D"nofollow noopener noreferrer" ymail=
+to=3D"mailto:craig.brinker@wilsonelser.com" target=3D"_blank" href=3D"mailt=
+o:craig.brinker@wilsonelser.com">craig.brinker@wilsonelser.com</a>&gt;, <a =
+rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:craig.hunter@wilsone=
+lser.com" target=3D"_blank" href=3D"mailto:craig.hunter@wilsonelser.com">cr=
+aig.hunter@wilsonelser.com</a> &lt;<a rel=3D"nofollow noopener noreferrer" =
+ymailto=3D"mailto:craig.hunter@wilsonelser.com" target=3D"_blank" href=3D"m=
+ailto:craig.hunter@wilsonelser.com">craig.hunter@wilsonelser.com</a>&gt;, <=
+a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:curt.schlom@wilson=
+elser.com" target=3D"_blank" href=3D"mailto:curt.schlom@wilsonelser.com">cu=
+rt.schlom@wilsonelser.com</a> &lt;<a rel=3D"nofollow noopener noreferrer" y=
+mailto=3D"mailto:curt.schlom@wilsonelser.com" target=3D"_blank" href=3D"mai=
+lto:curt.schlom@wilsonelser.com">curt.schlom@wilsonelser.com</a>&gt;, <a re=
+l=3D"nofollow noopener noreferrer" ymailto=3D"mailto:daniel.flores@wilsonel=
+ser.com" target=3D"_blank" href=3D"mailto:daniel.flores@wilsonelser.com">da=
+niel.flores@wilsonelser.com</a> &lt;<a rel=3D"nofollow noopener noreferrer"=
+ ymailto=3D"mailto:daniel.flores@wilsonelser.com" target=3D"_blank" href=3D=
+"mailto:daniel.flores@wilsonelser.com">daniel.flores@wilsonelser.com</a>&gt=
+;, Laskowitz, Shari &lt;<a rel=3D"nofollow noopener noreferrer" ymailto=3D"=
+mailto:slaskowitz@ingramllp.com" target=3D"_blank" href=3D"mailto:slaskowit=
+z@ingramllp.com">slaskowitz@ingramllp.com</a>&gt;, Paul Regan &lt;<a rel=3D=
+"nofollow noopener noreferrer" ymailto=3D"mailto:legal@mskyline.com" target=
+=3D"_blank" href=3D"mailto:legal@mskyline.com">legal@mskyline.com</a>&gt;, =
+<a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:ricki.roer@wilson=
+elser.com" target=3D"_blank" href=3D"mailto:ricki.roer@wilsonelser.com">ric=
+ki.roer@wilsonelser.com</a> &lt;<a rel=3D"nofollow noopener noreferrer" yma=
+ilto=3D"mailto:ricki.roer@wilsonelser.com" target=3D"_blank" href=3D"mailto=
+:ricki.roer@wilsonelser.com">ricki.roer@wilsonelser.com</a>&gt;, <a rel=3D"=
+nofollow noopener noreferrer" ymailto=3D"mailto:roger.gottilla@wilsonelser.=
+com" target=3D"_blank" href=3D"mailto:roger.gottilla@wilsonelser.com">roger=
+.gottilla@wilsonelser.com</a> &lt;<a rel=3D"nofollow noopener noreferrer" y=
+mailto=3D"mailto:roger.gottilla@wilsonelser.com" target=3D"_blank" href=3D"=
+mailto:roger.gottilla@wilsonelser.com">roger.gottilla@wilsonelser.com</a>&g=
+t;, <a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:sean.wagner@w=
+ilsonelser.com" target=3D"_blank" href=3D"mailto:sean.wagner@wilsonelser.co=
+m">sean.wagner@wilsonelser.com</a> &lt;<a rel=3D"nofollow noopener noreferr=
+er" ymailto=3D"mailto:sean.wagner@wilsonelser.com" target=3D"_blank" href=
+=3D"mailto:sean.wagner@wilsonelser.com">sean.wagner@wilsonelser.com</a>&gt;=
+, Sky's The Limit &lt;<a rel=3D"nofollow noopener noreferrer" ymailto=3D"ma=
+ilto:concierge@stlnyc.com" target=3D"_blank" href=3D"mailto:concierge@stlny=
+c.com">concierge@stlnyc.com</a>&gt;, <a rel=3D"nofollow noopener noreferrer=
+" ymailto=3D"mailto:stephen.barrett@wilsonelser.com" target=3D"_blank" href=
+=3D"mailto:stephen.barrett@wilsonelser.com">stephen.barrett@wilsonelser.com=
+</a> &lt;<a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:stephen.=
+barrett@wilsonelser.com" target=3D"_blank" href=3D"mailto:stephen.barrett@w=
+ilsonelser.com">stephen.barrett@wilsonelser.com</a>&gt;, Super - Sullivan &=
+lt;<a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:super@sullivan=
+mews.com" target=3D"_blank" href=3D"mailto:super@sullivanmews.com">super@su=
+llivanmews.com</a>&gt;, <a rel=3D"nofollow noopener noreferrer" ymailto=3D"=
+mailto:thomas.manisero@wilsonelser.com" target=3D"_blank" href=3D"mailto:th=
+omas.manisero@wilsonelser.com">thomas.manisero@wilsonelser.com</a> &lt;<a r=
+el=3D"nofollow noopener noreferrer" ymailto=3D"mailto:thomas.manisero@wilso=
+nelser.com" target=3D"_blank" href=3D"mailto:thomas.manisero@wilsonelser.co=
+m">thomas.manisero@wilsonelser.com</a>&gt;, William McKenzie &lt;<a rel=3D"=
+nofollow noopener noreferrer" ymailto=3D"mailto:wmckenzi@nycourts.gov" targ=
+et=3D"_blank" href=3D"mailto:wmckenzi@nycourts.gov">wmckenzi@nycourts.gov</=
+a>&gt;, <a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:william.b=
+ehr@wilsonelser.com" target=3D"_blank" href=3D"mailto:william.behr@wilsonel=
+ser.com">william.behr@wilsonelser.com</a> &lt;<a rel=3D"nofollow noopener n=
+oreferrer" ymailto=3D"mailto:william.behr@wilsonelser.com" target=3D"_blank=
+" href=3D"mailto:william.behr@wilsonelser.com">william.behr@wilsonelser.com=
+</a>&gt;, =E2=80=8B<a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailt=
+o:ainfo@buildings.nyc.gov" target=3D"_blank" href=3D"mailto:ainfo@buildings=
+.nyc.gov">ainfo@buildings.nyc.gov</a> &lt;<a rel=3D"nofollow noopener noref=
+errer" ymailto=3D"mailto:ainfo@buildings.nyc.gov" target=3D"_blank" href=3D=
+"mailto:ainfo@buildings.nyc.gov">ainfo@buildings.nyc.gov</a>&gt;, =E2=80=8B=
+<a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:Education@rebny.c=
+om" target=3D"_blank" href=3D"mailto:Education@rebny.com">Education@rebny.c=
+om</a> &lt;<a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:Educat=
+ion@rebny.com" target=3D"_blank" href=3D"mailto:Education@rebny.com">Educat=
+ion@rebny.com</a>&gt;, =E2=80=8B<a rel=3D"nofollow noopener noreferrer" yma=
+ilto=3D"mailto:mharvey13@bloomberg.net" target=3D"_blank" href=3D"mailto:mh=
+arvey13@bloomberg.net">mharvey13@bloomberg.net</a> &lt;<a rel=3D"nofollow n=
+oopener noreferrer" ymailto=3D"mailto:mharvey13@bloomberg.net" target=3D"_b=
+lank" href=3D"mailto:mharvey13@bloomberg.net">mharvey13@bloomberg.net</a>&g=
+t;, =E2=80=8B<a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:nysc=
+ef@nycourts.com" target=3D"_blank" href=3D"mailto:nyscef@nycourts.com">nysc=
+ef@nycourts.com</a> &lt;<a rel=3D"nofollow noopener noreferrer" ymailto=3D"=
+mailto:nyscef@nycourts.com" target=3D"_blank" href=3D"mailto:nyscef@nycourt=
+s.com">nyscef@nycourts.com</a>&gt;, newyork &lt;<a rel=3D"nofollow noopener=
+ noreferrer" ymailto=3D"mailto:newyork@sec.gov" target=3D"_blank" href=3D"m=
+ailto:newyork@sec.gov">newyork@sec.gov</a>&gt;, nyscef &lt;<a rel=3D"nofoll=
+ow noopener noreferrer" ymailto=3D"mailto:nyscef@nycourts.gov" target=3D"_b=
+lank" href=3D"mailto:nyscef@nycourts.gov">nyscef@nycourts.gov</a>&gt;<br>Cc=
+: Scott Holcomb &lt;<a rel=3D"nofollow noopener noreferrer" ymailto=3D"mail=
+to:scott@holcombward.com" target=3D"_blank" href=3D"mailto:scott@holcombwar=
+d.com">scott@holcombward.com</a>&gt;, Chair &lt;<a rel=3D"nofollow noopener=
+ noreferrer" ymailto=3D"mailto:chair@sec.gov" target=3D"_blank" href=3D"mai=
+lto:chair@sec.gov">chair@sec.gov</a>&gt;<br></div><br><br><div dir=3D"ltr">=
+<div style=3D"font-family:arial, helvetica, sans-serif;font-size:small;" cl=
+ass=3D"yiv4853787199gmail_default"><div class=3D"yiv4853787199gmail_default=
+"><br></div><div class=3D"yiv4853787199gmail_default"><div class=3D"yiv4853=
+787199gmail_default"><table style=3D"border-collapse:collapse;width:1375.75=
+px;color:rgb(33,37,41);font-family:Arial, sans-serif;font-size:14px;"><tbod=
+y style=3D""><tr style=3D""><td style=3D"vertical-align:top;border-top:1px =
+solid rgb(222,226,230);text-align:right;">Security</td><td style=3D"vertica=
+l-align:top;border-top:1px solid rgb(222,226,230);"><a rel=3D"nofollow noop=
+ener noreferrer" target=3D"_blank" href=3D"https://fintel.io/sf/us/stfgx" s=
+tyle=3D"color:rgb(8,117,21);text-decoration-line:none;background-color:tran=
+sparent;">STFGX / State Farm Growth Fund</a></td></tr><tr style=3D""><td st=
+yle=3D"vertical-align:top;border-top:1px solid rgb(222,226,230);text-align:=
+right;">Form Type</td><td style=3D"vertical-align:top;border-top:1px solid =
+rgb(222,226,230);">N-CSR</td></tr><tr style=3D""><td style=3D"vertical-alig=
+n:top;border-top:1px solid rgb(222,226,230);text-align:right;">File Date</t=
+d><td style=3D"vertical-align:top;border-top:1px solid rgb(222,226,230);">2=
+021-01-28</td></tr></tbody></table><hr style=3D"min-height:0px;overflow:vis=
+ible;border-right:0px;border-bottom:0px;border-left:0px;border-top-style:so=
+lid;border-top-color:rgba(0,0,0,0.1);color:rgb(64,64,64);font-family:Arial,=
+ sans-serif;font-size:14px;"><p align=3D"center" style=3D"margin-top:0pt;ma=
+rgin-bottom:0pt;color:rgb(64,64,64);font-size:14pt;font-family:ARIAL;"><spa=
+n style=3D"font-weight:bolder;">UNITED STATES</span></p><p align=3D"center"=
+ style=3D"margin-top:0pt;margin-bottom:0pt;color:rgb(64,64,64);font-size:14=
+pt;font-family:ARIAL;"><span style=3D"font-weight:bolder;">SECURITIES AND E=
+XCHANGE COMMISSION</span></p><p align=3D"center" style=3D"margin-top:0pt;ma=
+rgin-bottom:0pt;color:rgb(64,64,64);font-size:14pt;font-family:ARIAL;"><spa=
+n style=3D"font-weight:bolder;">Washington, D.C. 20549</span></p><p align=
+=3D"center" style=3D"margin-top:36pt;margin-bottom:0pt;color:rgb(64,64,64);=
+font-size:18pt;font-family:ARIAL;"><span style=3D"font-weight:bolder;">FORM=
+&nbsp;<font style=3D"white-space:nowrap;">N-CSR</font></span></p><p align=
+=3D"center" style=3D"margin-top:24pt;margin-bottom:0pt;color:rgb(64,64,64);=
+font-size:12pt;font-family:ARIAL;"><span style=3D"font-weight:bolder;">CERT=
+IFIED SHAREHOLDER REPORT OF REGISTERED</span></p><p align=3D"center" style=
+=3D"margin-top:0pt;margin-bottom:0pt;color:rgb(64,64,64);font-size:12pt;fon=
+t-family:ARIAL;"><span style=3D"font-weight:bolder;">MANAGEMENT INVESTMENT =
+COMPANIES</span></p><p style=3D"margin-top:24pt;margin-bottom:0pt;color:rgb=
+(64,64,64);font-size:10pt;font-family:ARIAL;">Investment Company Act file n=
+umber&nbsp;<font style=3D"white-space:nowrap;">811-01519</font></p><p align=
+=3D"center" style=3D"margin-top:48pt;margin-bottom:0pt;color:rgb(64,64,64);=
+font-size:20pt;font-family:ARIAL;"><span style=3D"font-weight:bolder;">STAT=
+E FARM ASSOCIATES=E2=80=99 FUNDS TRUST</span></p><p align=3D"center" style=
+=3D"margin-top:0pt;margin-bottom:0pt;color:rgb(64,64,64);font-size:10pt;fon=
+t-family:ARIAL;"><span style=3D"font-weight:bolder;">(Exact name of registr=
+ant as specified in charter)</span></p><p style=3D"margin-top:0pt;margin-bo=
+ttom:0pt;color:rgb(64,64,64);font-family:Arial, sans-serif;font-size:12pt;"=
+>&nbsp;</p><table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=
+=3D"0" align=3D"center" style=3D"border-collapse:collapse;color:rgb(64,64,6=
+4);font-family:ARIAL;font-size:10pt;"><tbody style=3D""><tr style=3D""><td =
+width=3D"50%" style=3D""></td><td valign=3D"bottom" width=3D"1%" style=3D""=
+></td><td width=3D"49%" style=3D""></td></tr><tr style=3D"font-size:10pt;">=
+<td valign=3D"top" align=3D"center" style=3D""><p align=3D"center" style=3D=
+"margin-top:0pt;margin-bottom:0pt;font-size:10pt;font-family:ARIAL;"><span =
+style=3D"font-weight:bolder;"><font color=3D"#ff0000">One State Farm Plaza<=
+/font></span></p><p align=3D"center" style=3D"margin-top:0pt;margin-bottom:=
+1pt;font-size:10pt;font-family:ARIAL;"><span style=3D"font-weight:bolder;">=
+<font color=3D"#ff0000">Bloomington, IL</font></span></p></td><td valign=3D=
+"bottom" style=3D"">&nbsp;</td><td valign=3D"top" align=3D"center" style=3D=
+""><span style=3D"font-weight:bolder;">61710-0001</span></td></tr><tr style=
+=3D"font-size:8pt;"><td valign=3D"top" align=3D"center" style=3D""><span st=
+yle=3D"font-weight:bolder;">(Address of principal executive offices)</span>=
+</td><td valign=3D"bottom" style=3D"">&nbsp;</td><td valign=3D"top" align=
+=3D"center" style=3D""><span style=3D"font-weight:bolder;">(Zip code)</span=
+></td></tr></tbody></table><p style=3D"margin-top:0pt;margin-bottom:0pt;col=
+or:rgb(64,64,64);font-family:Arial, sans-serif;font-size:12pt;">&nbsp;</p><=
+table cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" border=3D"0" align=
+=3D"center" style=3D"border-collapse:collapse;color:rgb(64,64,64);font-fami=
+ly:ARIAL;font-size:10pt;"><tbody style=3D""><tr style=3D""><td width=3D"50%=
+" style=3D""></td><td valign=3D"bottom" width=3D"1%" style=3D""></td><td wi=
+dth=3D"48%" style=3D""></td></tr><tr style=3D"font-size:10pt;"><td valign=
+=3D"top" align=3D"center" style=3D""><span style=3D"font-weight:bolder;">Pa=
+ul J. Smith</span></td><td valign=3D"bottom" style=3D"">&nbsp;</td><td vali=
+gn=3D"top" align=3D"center" style=3D""><span style=3D"font-weight:bolder;">=
+Mark Greer</span></td></tr><tr style=3D"font-size:10pt;"><td valign=3D"top"=
+ align=3D"center" style=3D""><span style=3D"font-weight:bolder;">One State =
+Farm Plaza</span></td><td valign=3D"bottom" style=3D"">&nbsp;</td><td valig=
+n=3D"top" align=3D"center" style=3D""><span style=3D"font-weight:bolder;">S=
+tradley Ronon Stevens&nbsp;&amp; Young, LLP</span></td></tr><tr style=3D"fo=
+nt-size:10pt;"><td valign=3D"top" align=3D"center" style=3D""><span style=
+=3D"font-weight:bolder;">Bloomington, Illinois 61710-0001</span></td><td va=
+lign=3D"bottom" style=3D"">&nbsp;</td><td valign=3D"top" align=3D"center" s=
+tyle=3D""><span style=3D"font-weight:bolder;">191 North Wacker Dr, Suite 16=
+01</span></td></tr><tr style=3D"font-size:10pt;"><td valign=3D"top" style=
+=3D""></td><td valign=3D"bottom" style=3D"">&nbsp;</td><td valign=3D"top" a=
+lign=3D"center" style=3D""><span style=3D"font-weight:bolder;">Chicago, Ill=
+inois 60606</span></td></tr><tr style=3D"font-size:8pt;"><td valign=3D"top"=
+ colspan=3D"3" align=3D"center" style=3D""><span style=3D"font-weight:bolde=
+r;">(Names and addresses of agents for service)</span></td></tr></tbody></t=
+able><p style=3D"margin-top:24pt;margin-bottom:0pt;color:rgb(64,64,64);font=
+-size:10pt;font-family:ARIAL;">Registrant=E2=80=99s telephone number, inclu=
+ding area code:&nbsp;<font style=3D"white-space:nowrap;"><font style=3D""><=
+font style=3D"">1-800-447-0740</font></font></font></p><p style=3D"margin-t=
+op:24pt;margin-bottom:0pt;color:rgb(64,64,64);font-size:10pt;font-family:AR=
+IAL;">Date of fiscal year end: 11/30/2020</p><p style=3D"margin-top:24pt;ma=
+rgin-bottom:0pt;color:rgb(64,64,64);font-size:10pt;font-family:ARIAL;">Date=
+ of reporting period: 11/30/2020</p><p style=3D"margin-top:1em;margin-botto=
+m:0em;color:rgb(64,64,64);font-family:Arial, sans-serif;font-size:14px;"></=
+p><hr size=3D"3" width=3D"100%" align=3D"CENTER" style=3D"min-height:0px;ov=
+erflow:visible;border-right:0px;border-bottom:0px;border-left:0px;border-to=
+p-style:solid;border-top-color:rgba(0,0,0,0.1);font-family:Arial, sans-seri=
+f;font-size:14px;color:rgb(153,153,153);"><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"border-collapse:collapse;c=
+olor:rgb(64,64,64);font-family:ARIAL;font-size:10pt;"><tbody style=3D""><tr=
+ style=3D""><td width=3D"10%" valign=3D"top" align=3D"left" style=3D""><spa=
+n style=3D"font-weight:bolder;">ITEM&nbsp;1.</span></td><td align=3D"left" =
+valign=3D"top" style=3D""><p align=3D"left" style=3D"margin-top:0pt;margin-=
+bottom:0pt;font-size:10pt;font-family:ARIAL;"><span style=3D"font-weight:bo=
+lder;">REPORTS TO STOCKHOLDERS.</span></p></td></tr></tbody></table></div><=
+div class=3D"yiv4853787199gmail_default"><b><br></b></div><br></div></div><=
+div style=3D"font-family:arial, helvetica, sans-serif;font-size:small;" cla=
+ss=3D"yiv4853787199gmail_default"></div><div style=3D"font-family:arial, he=
+lvetica, sans-serif;" class=3D"yiv4853787199gmail_default"><font size=3D"1"=
+ face=3D"tahoma, sans-serif" color=3D"#ff0000"><a rel=3D"nofollow noopener =
+noreferrer" target=3D"_blank" href=3D"https://static1.st8fm.com/en_US/downl=
+oads/sf/assocSemAnnRpt.pdf"><br>https://static1.st8fm.com/en_US/downloads/s=
+f/assocSemAnnRpt.pdf</a><br></font></div><div style=3D"font-family:arial, h=
+elvetica, sans-serif;" class=3D"yiv4853787199gmail_default"><font size=3D"1=
+" face=3D"tahoma, sans-serif" color=3D"#ff0000">&lt;ATTACHED&gt;</font></di=
+v><div style=3D"font-family:arial, helvetica, sans-serif;" class=3D"yiv4853=
+787199gmail_default"><div class=3D"yiv4853787199gmail_default"><font size=
+=3D"1" face=3D"tahoma, sans-serif" color=3D"#444444">&lt;easier to search&g=
+t;</font></div></div><div style=3D"font-family:arial, helvetica, sans-serif=
+;" class=3D"yiv4853787199gmail_default"><div style=3D"font-family:Arial, He=
+lvetica, sans-serif;" class=3D"yiv4853787199gmail_default"><font size=3D"1"=
+ face=3D"tahoma, sans-serif" color=3D"#444444"><a rel=3D"nofollow noopener =
+noreferrer" target=3D"_blank" href=3D"https://doc.morningstar.com/docdetail=
+.aspx?clientid=3Dschwab&amp;key=3D84b36f1bf3830e07&amp;cusip=3D00770G516">h=
+ttps://doc.morningstar.com/docdetail.aspx?clientid=3Dschwab&amp;key=3D84b36=
+f1bf3830e07&amp;cusip=3D00770G516</a><br></font></div><div style=3D"font-fa=
+mily:Arial, Helvetica, sans-serif;" class=3D"yiv4853787199gmail_default"><f=
+ont size=3D"1" face=3D"tahoma, sans-serif" color=3D"#444444">&lt;easier to =
+search&gt;</font></div><div style=3D"font-family:Arial, Helvetica, sans-ser=
+if;" class=3D"yiv4853787199gmail_default"><b><font size=3D"1" face=3D"tahom=
+a, sans-serif" color=3D"#444444">_</font></b></div></div><div style=3D"font=
+-family:arial, helvetica, sans-serif;font-size:small;" class=3D"yiv48537871=
+99gmail_default"><a rel=3D"nofollow noopener noreferrer" target=3D"_blank" =
+href=3D"https://fintel.io/doc/sec-state-farm-associates-funds-trusts-ncsr-2=
+021-january-28-18655-227" style=3D"font-family:tahoma, sans-serif;font-size=
+:x-small;">https://fintel.io/doc/sec-state-farm-associates-funds-trusts-ncs=
+r-2021-january-28-18655-227</a></div><br><br><div class=3D"yiv4853787199gma=
+il_quote"><div dir=3D"ltr" class=3D"yiv4853787199gmail_attr">---------- For=
+warded message ---------<br>From: <strong class=3D"yiv4853787199gmail_sende=
+rname">Bo Dincer</strong> <span>&lt;<a rel=3D"nofollow noopener noreferrer"=
+ ymailto=3D"mailto:bd2561@columbia.edu" target=3D"_blank" href=3D"mailto:bd=
+2561@columbia.edu">bd2561@columbia.edu</a>&gt;</span><br>Date: Wed, Nov 24,=
+ 2021 at 2:26 AM<br>Subject: Fwd: SECCS  // RESIDENTIAL obo SCCS<br>To:  &l=
+t;<a rel=3D"nofollow noopener noreferrer" ymailto=3D"mailto:atlanta@sec.gov=
+" target=3D"_blank" href=3D"mailto:atlanta@sec.gov">atlanta@sec.gov</a>&gt;=
+<br></div><br><br><div dir=3D"ltr"><div style=3D"font-family:arial, helveti=
+ca, sans-serif;font-size:small;"><b>TCR REPORT, without CAPTION</b></div><b=
+r><div class=3D"yiv4853787199gmail_quote"><div dir=3D"ltr" class=3D"yiv4853=
+787199gmail_attr">---------- Forwarded message ---------<br>From: <strong c=
+lass=3D"yiv4853787199gmail_sendername">CS TEAM</strong> <span>&lt;<a rel=3D=
+"nofollow noopener noreferrer" ymailto=3D"mailto:Activations@hutchmen.com" =
+target=3D"_blank" href=3D"mailto:Activations@hutchmen.com">Activations@hutc=
+hmen.com</a>&gt;</span><br>Date: Tue, Nov 23, 2021 at 4:02 AM<br>Subject: R=
+E: SECCS  // RESIDENTIAL obo SCCS<br>To: <a rel=3D"nofollow noopener norefe=
+rrer" ymailto=3D"mailto:chicago@sec.gov" target=3D"_blank" href=3D"mailto:c=
+hicago@sec.gov">chicago@sec.gov</a> &lt;<a rel=3D"nofollow noopener norefer=
+rer" ymailto=3D"mailto:chicago@sec.gov" target=3D"_blank" href=3D"mailto:ch=
+icago@sec.gov">chicago@sec.gov</a>&gt;<br></div><br><br><div>I cleared this=
+ no worries, just wanted to keep you all in the loop.<br></div><div><br></d=
+iv><div>/ BD<br></div><div><div></div></div><div><br></div><div><div>=E2=80=
+=90=E2=80=90=E2=80=90=E2=80=90=E2=80=90=E2=80=90=E2=80=90 Original Message =
+=E2=80=90=E2=80=90=E2=80=90=E2=80=90=E2=80=90=E2=80=90=E2=80=90<br></div><d=
+iv> On Saturday, November 20th, 2021 at 5:13 AM, BD &lt;<a rel=3D"nofollow =
+noopener noreferrer" ymailto=3D"mailto:bondstrt@protonmail.com" target=3D"_=
+blank" href=3D"mailto:bondstrt@protonmail.com">bondstrt@protonmail.com</a>&=
+gt; wrote:<br></div><blockquote type=3D"cite"><blockquote type=3D"cite"><sp=
+an style=3D"font-family:Times New Roman;"><span style=3D"font-size:18px;"><=
+span><span style=3D"font-size:14pt;"><div><span style=3D"font-size:14pt;">&=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; We deeply appreciate your taking the time=
+ to communicate your thoughts and concerns to the Securities and Exchange C=
+ommission.</span><br></div><div>&nbsp;<br></div><div>&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sincerely,<br></div><div=
+>&nbsp;<br></div><div>&nbsp;<br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lori Schock<br></div><div>&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Director<b=
+r></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp; Office of Investor Education and Advocacy<br></div><div>&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; U.S. Secur=
+ities and Exchange Commission<br></div><div><span style=3D"font-family:Cali=
+bri;"><span style=3D"font-size:13px;"><span><span style=3D"font-size:11pt;"=
+>&nbsp;</span></span></span></span><br></div></span></span></span></span></=
+blockquote></blockquote></div><div><br></div></div></div>
+</div></div>
+</div></div></div>
+</div>
+</div>
+</div> </div> </blockquote>
+------=_Part_3812618_671859202.1653962237409--

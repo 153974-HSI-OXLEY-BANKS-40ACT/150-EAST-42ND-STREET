@@ -1,0 +1,2270 @@
+From - Sat May  7 04:53:39 2022
+X-Account-Key: account1
+X-UIDL: AKyK/2AeHrDDYnZBrgny4P9/4ng
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.35.9
+ by atlas117.free.mail.bf1.yahoo.com with HTTPS; Sat, 7 May 2022 09:53:49 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.200]
+Received-SPF: pass (domain of github.com designates 192.30.252.200 as permitted sender)
+Authentication-Results: atlas117.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 7 May 2022 09:53:49 +0000
+X-YMailAVSC: yvKHhlY3bBsjB8WK9ESVQhHKbgKxYeDjleNWFbG90rvB.zO
+ tJCY30BSJC0S6UlUZD_QbHyZ4MwzF5lH8kOew6mZCSYYFQC9IqcDpThAFoWb
+ sWG9NJr4o3uXlTG8tJgP5C9XbnuXiNN4pak6FsuckrPFPpBBZeKfWmXS3vcX
+ 4BF1o1p2vJrRCt9fkLg0lFZuTbZFIceckXlC5K9IMkSdwrRF8z94avR_xbFr
+ m5.CLGt2tYVYtJNd0gW0la47_kGvKlYkSaNuXfmVwmICvAANwnvfShRC4tDI
+ urMACBhP7AWeHMeFEx_wzIlecUfLk9bHuKaVO9RPwNes8C_fuuKyhs1WDaig
+ FRw9_zOPV50v87u8waHj1_O4_yP77nLtK
+X-YMailISG: 9qZO04wWLDvehLuXPI8jCsADDCr3V_rVzEm1r6TRpQfn.Ao0
+ vHpwK8MPA5MBZNRYG_PsByKNzJpJJFAZZFmNF4kB5Df41E3q7_gJVt.hXRnD
+ r_Dtg3dWwNiwdzHaYwXANnhyAGFLYCPRPiwuEsTzyrl5DxIEaZNocUmEykKe
+ KxgoBeOdxYoR6yxuLNzEl3s5v2pNxJWk8ZItRznyht2OFAQm2FbV3zd4tUb1
+ xBBrUjgBLG8.Xv9Zv_VFwfOmEEMQjjqmrGzYatuP5PG8U6W75.C6HDn8VSC6
+ rMLhGMHXdJ9K2kYDJTg3nELARERTtJRPkOlsP.GTUjetSC2.NsPO3sCRVx5A
+ xL0wi2Idm0heIaAY6MkAKrLjMRVqf.5lIba_JlsXGeU.W8IbPgIKlYrpsyG0
+ dw7xZOinwy.1D2PE833s7i0NWW9EXYYeN_YqIpIJbkd8u6V18nKiqgu3pHgW
+ GPQ6SFSH05ov_wawmhBphtEj2c4mwQ2YM.n58izqk.C3_tGTk5iit9tv4PQZ
+ GRdpvbl59fw6y7fEGixzpiO2umfuNevrJHHcLrKrzULxb5VhXmTIWsPGEs6D
+ fZcE4Kal_f7vTzAO1nSNa5WGWXIjpBwpjev9LtFmiEt7yMNNH9mtcDWOGkxx
+ 4NDDsHbQvjVvc5SZZ.2D0qYmG_5.PnMqyyZxoMIrrYJJZ4nPq18kQ3JDuiWP
+ xVfAoIUD_XPZK6WT6yON2GnelluUX57QGglbg6AJ48ChTkXMJdS_MogwQhzz
+ T3_CaA5bKW.Yr_He3mTLGPk7Erk1xeEmUyuvvVI2rsHjODeHI9MYyP.wzf6G
+ mchccUnkp6t61Y.CXiARItZkjJmQhQhw51525WQTS5O_mJoGE3VBHA9P_820
+ ixTiKBCFH5wB_8xSMErcn0WMYO9rtTv33e1K6xSeZ5MqTbz0723qwijuA3jv
+ WLBr7uLFN61gREnITUr14ED4Iq.oajtCRnYwTz._XIBUmYqICbxU8uqctG0w
+ avr1aXjjFY8OTntdmc558y1kJ9CSXVxFzUFe1Y4dd8TZIzfzfD6QLeWEUnRj
+ qS1MV.zNNMc3uxXFOKxVVHZL.CuuMExEm9NWVczGMKPNwCVoSWCYdacVbSvk
+ ihRgoYHMzdFblqNihsssPC7DNRrP9KRe2.kgt.F.g_lE9g3KAKq.8SZO2wMn
+ 7esZNQmOUUIX0pRl
+Received: from 192.30.252.200 (EHLO smtp.github.com)
+ by 10.197.35.9 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sat, 07 May 2022 09:53:49 +0000
+Received: from github.com (hubbernetes-node-6c29bc1.va3-iad.github.net [10.48.219.16])
+	by smtp.github.com (Postfix) with ESMTPA id BFB685C0496;
+	Sat,  7 May 2022 02:53:48 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1651917228;
+	bh=hhJVGXyqAXaMhgotCuy0RHXgiMH1IbMvnpCpdY9I3rQ=;
+	h=Date:From:To:Subject:From;
+	b=l8dQBMwtRAjuT9J2sgHnG8jVS21MnlFeE/4Lwbxsh3DqzEkMJ2K5zUVSHPnxuz1TW
+	 RrFScR+z/rT4VZowfgvLqUzlgEBny/VALFKL54zVdvyEWZhXdwPgYaJQrLNH1UEZ4U
+	 ZLL07zeX2rRLUMJlDMkeZ5McK5gPQrJf+t1SPkYg=
+Date: Sat, 07 May 2022 02:53:48 -0700
+From: "DINCER & CO." <noreply@github.com>
+To: ombudsman@tdcj.texas.gov, 
+ MS60710444266@YAHOO.COM
+Message-ID: <BSCPGROUPHOLDINGSLLC/BSCPGROUPHOLDINGSLLC/push/refs/heads/main/000000-21d041@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/BSCPGROUPHOLDINGSLLC] 21d041: they should also
+ go to Prison for Tax Evasion...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: cik filers 93715 & 1516523
+X-GitHub-Recipient-Address: ombudsman@tdcj.texas.gov,MS60710444266@YAHOO.COM
+X-Auto-Response-Suppress: All
+Content-Length: 70788
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/BSCPGROUPHOLDINGSLLC=0D=
+
+  Commit: 21d0412073c471c22c35020dbab678a6449a05ee=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/BSCPGROUPHOLDINGSLLC/commit=
+/21d0412073c471c22c35020dbab678a6449a05ee=0D
+  Author: DINCER & CO <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github=
+.com>=0D
+  Date:   2022-05-07 (Sat, 07 May 2022)=0D
+=0D
+  Changed paths:=0D
+    A texas-breached=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  they should also go to Prison for Tax Evasion...=0D
+=0D
+logs...=0D
+loan 50074 ---- annexed in NY Supreme MAT8TER 153974/2020=0D
+=0D
+=0D
+          EXHIBIT(S)=C2=A0=C2=A0- AC0 =C2=A0(Motion #001)=0D
+          ACRIS Detailed Document Information (2019000021408)201901080047=
+5001=0D
+            https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=
+=3Dze6a1KA9akRV9TGfXXJT/g=3D=3D=0D
+          EXHIBIT(S)=C2=A0=C2=A0- AC1 =C2=A0(Motion #001)=0D
+          ACRIS Detailed Document Information (2020000155422)202005200029=
+1003=0D
+            https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=
+=3DbVk8sIt7n3kGwHqebPg0fw=3D=3D=0D
+          EXHIBIT(S)=C2=A0=C2=A0- AC2 =C2=A0(Motion #001)=0D
+          ACRIS Detailed Document Information (2020000155421)202005200029=
+1002=0D
+            https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=
+=3DwTG2YD2PqXuxmoKqFiESrw=3D=3D=0D
+          EXHIBIT(S)=C2=A0=C2=A0- AC3 =C2=A0(Motion #001)=0D
+          ACRIS Detailed Document Information (2020000155422)202005200029=
+1003=0D
+            https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=
+=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D=0D
+          EXHIBIT(S)=C2=A0=C2=A0- AC4 =C2=A0(Motion #001)=0D
+          ACRIS Detailed Document Information (2020000155423)202005200029=
+1004=0D
+            https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=
+=3D/yhElCiKJ0BGv2DF/MOn4g=3D=3D=0D
+          EXHIBIT(S)=C2=A0=C2=A0- ACR =C2=A0(Motion #002)=0D
+          ACRIS.NYC.GOV >> ASSIGNMENT OF LEASE AND RENTS ON FILED ON MAY =
+26TH - https://a836-acris.nyc.gov/=0D
+            https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=
+=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D=0D
+=0D
+-------------------------------------------------------------------------=
+------------------------------------------------------------=0D
+SEQ.	PARID      	BLOCK	LOT	STREET ADDRESS		            ZIPCODE	    Market=
+ Value [MV] 	=0D
+1	1005030006	503	6	109	SULLIVAN STREET               10012	         $5,68=
+0,000       =0D
+2	1005030008	503	8	111	SULLIVAN STREET               10012	         $3,41=
+0,000 	  =0D
+3	1005030009	503	9	113	SULLIVAN STREET               10012	         $4,47=
+0,000 	     =0D
+4	1005030010	503	10	115	SULLIVAN STREET               10012	         $2,2=
+42,000 	   =0D
+5	1005030011	503	11	117	SULLIVAN STREET               10012	         $3,2=
+42,000     =0D
+6	1005030012	503	12	119	SULLIVAN STREET               10012	         $3,5=
+38,000 	   =0D
+-------------------------------------------------------------------------=
+------------------------------------------------------------													=
+=0D
+TOTAL SUMMARY							                                            $22,582,0=
+00 =0D
+-------------------------------------------------------------------------=
+------------------------------------------------------------=0D
+  Log Message:=0D
+  -----------=0D
+  https://www.tdi.texas.gov/commissioner/disciplinary-orders/documents/20=
+153854.pdf=0D
+-------------------------------------------------------------------------=
+------------------------------------------------------------=0D
+     =0D
+### tax recceipts=0D
+https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1#column-18309490=0D=
+
+=0D
+_________________________________________________________________________=
+_________________________________________________________________________=
+________________________________________________________=0D
+https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?doc_id=3D2=
+020052000291003=0D
+_________________________________________________________________________=
+_________________________________________________________________________=
+________________________________________________________=0D
+https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?doc_id=3D2=
+020052000291002=0D
+_________________________________________________________________________=
+_________________________________________________________________________=
+________________________________________________________=0D
+=0D
+- warning=0D
+Wed, Jun 3, 2020, 2:20 PM        RECEIVED NYSCEF: 08/09/2020   =0D
+        "... Why don't you just tack on the 9 billion dollars NYC is in t=
+he hole while you're at it? ..."=0D
+    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DTxAa7=
+cNVIHKtnJU/ni/zvg=3D=3D=0D
+    21 JULY 2020    NYSCEF DOC. NO. 53             RECEIVED NYSCEF:     0=
+7/21/2020=0D
+            "...REPRESENTATIVES SHOULD BE DISBARRED..."=0D
+- warning=0D
+        https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DL=
+MUE9g_PLUS_k6vCmKgfCSJEzuQ=3D=3D=0D
+- warning=0D
+        https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DT=
+xAa7cNVIHKtnJU/ni/zvg=3D=3D=0D
+=0D
+https://www.sec.gov/Archives/edgar/data/0001516523/000119312522025502/d20=
+7567d4017g.htm=0D
+https://www.sec.gov/Archives/edgar/data/0000093715/999999999721005616/fil=
+ename1.pdf=0D
+=0D
+FROM 11-30-2021 THOUGH 03-31-2022=0D
+                                           $852,029,498.38 =0D
+..=0D
+=0D
+                FOR ALL FOUR OF THE TICKERS UNDER THE FORMER UMBRELLA OF =
+93715=0D
+                -- MERGED INTO A LARGER BODY OF RISK UNDER THE UMBRELLA 1=
+516523=0D
+                -- UNDER THE ADVISEMENT AND OMISSION OF ITS COUNSELORS, C=
+ONTINUE TO=0D
+                -- HEMORRHAGE ITS CAPITAL AT THE EXPENSE OF ITS INVESTORS=
+ WITHOUT=0D
+                -- ANY PUBLIC DISCLOSURE, OR ESTOPPEL BY FINRA PERMIT FOR=
+ THEM TO=0D
+                -- CONTINUE TO FUNCTION WITHOUT ANY "TRUE" SPECIALIST TO =
+HANDLE=0D
+                -- THEIR AFFAIRS, DEMONSTRABLY AS SEEN IN THE PERFORMANCE=
+ OF THE=0D
+                -- FUND.=0D
+=0D
+        -----------------------------------------------------------------=
+-----------------=0D
+            STFGX=0D
+            Date    Close/Last    Adjusted Close=0D
+=0D
+            11/10/2021    121.17    121.17=0D
+            11/11/2021    120.77    120.77=0D
+            11/12/2021    121.48    121.48=0D
+                                        __________________________=0D
+                                        11/15/2021    121.34    121.34=0D=
+
+                                        11/16/2021    121.6    121.6=0D
+                                        11/17/2021    121.52    121.52=0D=
+
+                                        11/18/2021    121.87    121.87=0D=
+
+                                        11/19/2021    121.69    121.69=0D=
+
+                                        11/22/2021    121.64    121.64=0D=
+
+                                        11/23/2021    121.79    121.79=0D=
+
+                                        11/24/2021    121.85    121.85=0D=
+
+                                        11/26/2021    119.44    119.44=0D=
+
+                                        11/29/2021    120.48    120.48=0D=
+
+                                        11/30/2021    118.5    118.5=0D
+                                        12/1/2021    117.78    117.78=0D
+                                        12/2/2021    118.95    118.95=0D
+                                        12/3/2021    118.46    118.46=0D
+                                        12/6/2021    119.95    119.95=0D
+                                        12/7/2021    121.89    121.89=0D
+                                        12/8/2021    122.51    122.51=0D
+                                        12/9/2021    121.99    121.99=0D
+                                        12/10/2021    123.25    123.25=0D=
+
+                                        12/13/2021    122.76    122.76=0D=
+
+                                        12/14/2021    122.16    122.16=0D=
+
+                                        12/15/2021    124.36    124.36=0D=
+
+                                        12/16/2021    123.55    123.55=0D=
+
+                                        12/17/2021    121.93    121.93=0D=
+
+=0D
+        INSIDER TRADING [DECEMBER 18TH, 2021]. . . . . . . . . . . . . . =
+. . . . . . . .[0212]=0D
+        -----------------------------------------------------------------=
+---------------------=0D
+                                                                    _____=
+_____________________=0D
+                                                                    12/20=
+/2021    120.72    120.72=0D
+                                                                    12/21=
+/2021    106.35    106.35=0D
+                                                                    12/22=
+/2021    107.39    107.39=0D
+                                                                    12/23=
+/2021    108.08    108.08=0D
+                                                                    12/27=
+/2021    109.52    109.52=0D
+                                                                    12/28=
+/2021    109.57    109.57=0D
+                                                                    12/29=
+/2021    109.82    109.82=0D
+                                                                    12/30=
+/2021    109.55    109.55=0D
+                                                                    12/31=
+/2021    109.48    109.48=0D
+=0D
+=0D
+=0D
+=0D
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LAS=
+KOWITZ-MOV=0D
+  Commit: 7039070eb427b45125a4b174728783b8388884d3=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWI=
+TZ-MOV/commit/7039070eb427b45125a4b174728783b8388884d3=0D
+  Author: DINCER & CO <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github=
+.com>=0D
+  Date:   2022-05-07 (Sat, 07 May 2022)=0D
+  Changed paths:=0D
+=0D
+  Log Message:=0D
+=0D
+  -----------=0D
+  https://www.tdi.texas.gov/commissioner/disciplinary-orders/documents/20=
+153854.pdf=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+-------------------------------------------------------------------------=
+--------------------------=0D
+=0D
+-------------------------------------------------------------------------=
+--------------------------=0D
+=0D
+=0D
+=0D
+Submission Number 16368-809-301-165 was submitted on Saturday, November 1=
+3, 2021 . . . . .  [0142]=0D
+=0D
+	" Material misstatement or omission in a company's public filings =0D
+=0D
+	  or financial statements, or a failure to file ... "=0D
+=0D
+	=0D
+=0D
+NOTICE TO C.16 BROKERS IN [93715] on Thursday, November 25, 2021 . . . . =
+. . . . . . . . .  [0167]=0D
+=0D
+=0D
+=0D
+	THURSDAY, NOVEMBER 25, 2021. . . . . . . . . . . . . . . . . . . . . . .=
+ . . . .[0168]=0D
+=0D
+			FROM: 	ADMIN@HUTCHMENT.COM=0D
+=0D
+			SENT:	<LZUCKER@MSKYLINE.COM>, <SLASKOWITZ@INGRAMLLP.COM>, =0D
+=0D
+							<SLASKOWITZ@MSKYLINE.COM>, <ASHLEY.HUMPHRIES@WILSONELSER.COM>,=0D
+=0D
+							<MSRBSUPPORT@MSRB.ORG>, <ALEX.KRESS@WILSONELSER.COM>,=0D
+=0D
+							<BBREIF@BLOOMBERG.NET>, <MHARVEY13@BLOOMBERG.NET>, =0D
+=0D
+							<COLIN.BROOKS@MORGANSTANLEY.COM>, <ICEGLOBALNETWORK-INFO@ICE.COM>,=
+=0D
+=0D
+							<ICEINDICES@ICE.COM>, <ADMINISTRATOR@MSKYLINE.COM>, =0D
+=0D
+							<COMPLIANCE@T3TRADING.COM>.=0D
+=0D
+							=0D
+=0D
+					DOCKET 309 AND DOCKET 379 IN THE MESSAGE BODY=0D
+=0D
+						"ENTIRE LOT" LEASES AND RENTS TRANSFERRED TO STATE FARM=0D
+=0D
+						ALL SIX PROPERTIES WITH "NO CERTITFICATE OF OCCUPANCY"=0D
+=0D
+												IN THE YEAR 2020=0D
+=0D
+												AND IN THE YEAR 2022=0D
+=0D
+																	   =0D
+=0D
+			https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPF=
+Xy0G0QvnmRLGpYIQ=3D=3D=0D
+=0D
+			=0D
+=0D
+			RECEIVED NYSCEF: 08/09/2020=0D
+=0D
+																	   =0D
+=0D
+			https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D572E8g=
+ahZUO1KFthrfiyFQ=3D=3D=0D
+=0D
+			RECEIVED NYSCEF: 08/10/2020=0D
+=0D
+			=0D
+=0D
+	Thursday, November 25, 2021. . . . . . . . . . . . . . . . . . . . . . .=
+ . . . .[0170]=0D
+=0D
+			FROM: 	BO.DINCER@YAHOO.COM=0D
+=0D
+			TO:		<SLASKOWITZ@INGRAMLLP.COM>, <SLASKOWITZ@INGRAMLLP.COM>,=0D
+=0D
+					<SERVICE@ETRADE.COM>, <LZUCKER@MSKYLINE.COM>, <CHAIR@SEC.GOV>,=0D
+=0D
+					<FIDELITY.INVESTMENTS@MAIL.FIDELITY.COM>=0D
+=0D
+					=0D
+=0D
+	STATE FARM. . .  . .  . .  . .  . . . . . . . . . . . . . . . . . . . . =
+. . . . [0171]=0D
+=0D
+=0D
+=0D
+		DOCKET 385 =0D
+=0D
+		https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DK9sgXcw=
+eC7esRoSPO8MNtA=3D=3D=0D
+=0D
+		RECEIVED NYSCEF: 08/10/2020=0D
+=0D
+		=0D
+=0D
+		FROM:		B-DINCER66@OUTLOOK.COM=0D
+=0D
+		SUBJECT:	RE: STATE FARM=0D
+=0D
+				=0D
+=0D
+		"... I INFORMED YOUR CLIENT OF THIS MATERIAL INFORMATION..."=0D
+=0D
+			=0D
+=0D
+		DOCKET 420=0D
+=0D
+		https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DXjn0/e1=
+NcBADqRc_PLUS_g11P4g=3D=3D=0D
+=0D
+	=0D
+=0D
+	JULY 21, 2020. . . . .  . .  . .  . . . . . . . . . . . . . . . . . . . =
+. . . . [0178]=0D
+=0D
+	--- THERE'S A CAMERA POINTED INTO MY APARTMENT AND AT MY LAPTOP, AND THE=
+Y MUST HAVE=0D
+=0D
+		MISSED THE SPOT WHERE I CAUGHT THEM IN THE ACT EARLIER.=0D
+=0D
+	=0D
+=0D
+	JULY 21, 2020. . . . .  . .  . .  . . . . . . . . . . . . . . . . . . . =
+. . . . [0181]=0D
+=0D
+		--- AS STATED.=0D
+=0D
+		THEY WILL DO " ANYTHING " TO AVOID PROSECUTION IN THIS RESPECT.=0D
+=0D
+=0D
+=0D
+	=0D
+=0D
+STATE FARM ASSOCIATES' FUNDS TRUST. . . . . . . . . . . . . . . . . . . .=
+ . . . . . . . . . [0183]=0D
+=0D
+[FORM N-8F] 																		  2021-09-21=0D
+=0D
+=0D
+=0D
+	" Application for Deregistration of Certain Registered Investment Compan=
+ies. "=0D
+=0D
+	https://www.sec.gov/Archives/edgar/data/0000093715/000119312521278180/d2=
+22043dn8f.htm=0D
+=0D
+	=0D
+=0D
+	THIS POSTHASTE MERGER IS THE ESSENCE OF GROSS NEGLIGENCE, WHICH IS UNDER=
+STOOD=0D
+=0D
+	IN THE LOSSES OF ITS INVESTORS, AS THE OLD ONES HAVE NO KNOWLEDGE OF ANY=
+ MATARIALLY=0D
+=0D
+	SUBSTANTIVE MATTERS, AND NOR TO THE NEW INVESTORS WHO BLINDLY INVESTED T=
+HEIR CAPITAL=0D
+=0D
+	INTO THE NEW ADVISOR. CIK FILER 1519523=0D
+=0D
+																=0D
+=0D
+		Reason fund is applying to deregister. . . . . . . . . . . . . . . . . =
+. . .[0184]		=0D
+=0D
+				/s/ David Moore.=0D
+=0D
+				Assistant Secretary=0D
+=0D
+				ONE STATE FARM PLAZA=0D
+=0D
+				BLOOMINGTON, IL, 61710						(309) 766-1908										=0D
+=0D
+		=0D
+=0D
+		Name, address and telephone number of  entity. . . . . . . . . . . . . =
+. . .[0184]=0D
+=0D
+				State Farm Investment Management Corp.=0D
+=0D
+				One State Farm Plaza=0D
+=0D
+				Bloomington, Illinois 61710-0001			(309) 766-1908=0D
+=0D
+		=0D
+=0D
+		Name and address of each principal underwriter of the fund. . . . . . .=
+ . . [0185]=0D
+=0D
+				State Farm VP Management Corp.=0D
+=0D
+				One State Farm Plaza=0D
+=0D
+				Bloomington, Illinois 61710-0001=0D
+=0D
+		=0D
+=0D
+		Does the fund have any outstanding debts or any other liabilities . . .=
+ . . [0186]=0D
+=0D
+		=0D
+=0D
+	*** GROSS NEGLIGENCE IN MANAGING THE ASSETS AND MERGER . . . . . . . . .=
+ . . . .[0187]=0D
+=0D
+	https://www.sec.gov/Archives/edgar/data/0000093715/000119312521278180/d2=
+22043dn8f.htm=0D
+=0D
+	=0D
+=0D
+	******  ACCOUNTING FOR THE $250.00 MIN. INVESTED IS FURTHERANCE TO THE G=
+ROSS NEGLIGENCE.=0D
+=0D
+		>> ANY SOFT DOLLAR AGREEMENTS BETWEEN THE INVESTMENT ADVISER & ITS BROK=
+ERS WOULD=0D
+=0D
+			ONLY ADD TO WHAT IS UNDERSTOOD AND REPORTED AS FOLLOWS.=0D
+=0D
+			=0D
+=0D
+				(i)  	Legal expenses: 									$240,000=0D
+=0D
+				(ii) 	Accounting expenses: 			 	  		    	$  9,000=0D
+=0D
+				(iiI) 	Proxy Solicitation and Tabulation					$170,000=0D
+=0D
+						Prospectus Supplements and Regulatory Filings		$ 62,500=0D
+=0D
+						Directors fees										$431,000=0D
+=0D
+																			--------=0D
+=0D
+																			$663,500=0D
+=0D
+																=0D
+=0D
+"If Yes, describe the nature and extent of those activities . . . . . . .=
+ . . . . . [0189]=0D
+=0D
+		=0D
+=0D
+	"""	  Is the fund now engaged, or intending to engage, in any business 	=
+    """=0D
+=0D
+	"""   activities other than those necessary for winding up its affairs?	=
+    """=0D
+=0D
+			=0D
+=0D
+	Form N-8F application . . . . . . . . . . . . . . . . . . . . . . . [019=
+1]=0D
+=0D
+	under section 8(f) of the Investment Company Act of 1940=0D
+=0D
+			=0D
+=0D
+=0D
+=0D
+				=0D
+=0D
+	VERIFICATION. . . . . . . . . . . . . . . . . . . . . . . . . . . . [019=
+1]=0D
+=0D
+	/S/ JOE R. MONK=0D
+=0D
+*** DOCKET 420, 1 PAGER.=0D
+=0D
+##   https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DXjn0=
+/e1NcBADqRc_PLUS_g11P4g=3D=3D   =0D
+=0D
+#########################################################################=
+#########################################################################=
+######=0D
+=0D
+=0D
+=0D
+OMISSION, FAILURE TO SUPERVISE, UNFAIR DEALING AND SECURITIES FRAUD.=0D
+=0D
+--- CONTINUES WITHOUT ANY NOTICE TO THE MARKET PARTICIPANTS.=0D
+=0D
+=0D
+=0D
+#########################################################################=
+#########################################################################=
+######=0D
+=0D
+*LOAN 50074, BY AND BETWEEN STATE FARM AND THE SULLIVAN PROPERTIES LP*=0D=
+
+=0D
+=0D
+=0D
+https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?doc_id=3D2=
+020052000291003=0D
+=0D
+=0D
+=0D
+#########################################################################=
+#########################################################################=
+######=0D
+=0D
+. HARBERTS IS NOT LICENSED TO CONDUCT INVESTMENT BANKING OR SECURITIES T=
+RANSACTIONS. SIMPLY HAD THE SECRETARY NOTARIZE IT TO AVOID HIS NAME INCLU=
+DED AS A DIRECTOR ...https://a836-acris.nyc.gov/DS/DocumentSearch/Documen=
+tImageView?doc_id=3D2020052000291002=0D
+=0D
+#########################################################################=
+#########################################################################=
+###### =0D
+=0D
+  https://www.tdi.texas.gov/commissioner/disciplinary-orders/documents/20=
+153854.pdf=0D
+=0D
+######################################################################=0D=
+
+=0D
+A Texas subsidiary of State Farm was ordered to refund $352.5 million to =
+residential property insurance premiums after the company's rates were fo=
+und to be unreasonable in relation to the risks they covered.=0D
+=0D
+=0D
+=0D
+######################################################STATE FARM LLOYDS=0D=
+
+=0D
+IS CURRENTLY AN OUTSIDE BUSINESS OF MR. HARBERTS AS WELL, ASSUMING A SECO=
+ND FINE WOULD BE THE GREATER OF $352,500,000.00 MILLION AS ENTERED PREVIO=
+USLY "to residential property insurance premiums after the company's rate=
+s were found to be unreasonable in relation to the risks they covered."=0D=
+
+=0D
+=0D
+=0D
+#########################################################################=
+############=0D
+=0D
+>> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DXjn0/e=
+1NcBADqRc_PLUS_g11P4g=3D=3D=0D
+=0D
+#########################################################################=
+############=0D
+=0D
+#########################################################################=
+############=0D
+=0D
+#########################################################################=
+############=0D
+=0D
+>>>>>>  https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DH=
+4jMXghoLMU1ozmlj4VYHg=3D=3D=0D
+=0D
+#########################################################################=
+############=0D
+=0D
+#########################################################################=
+############=0D
+=0D
+#########################################################################=
+############=0D
+=0D
+=0D
+=0D
+#########################################################################=
+############=0D
+=0D
+=0D
+=0D
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8601118/00=
+420.153974_2020_Sullivan_Properties_L_P_v_Baris_Dincer_EXHIBIT_S__420.pdf=
+=0D
+=0D
+=0D
+=0D
+>> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DXjn0/e=
+1NcBADqRc_PLUS_g11P4g=3D=3D=0D
+=0D
+=0D
+=0D
+DOCKET ANNEXED: https://iapps.courts.state.ny.us/nyscef/ViewDocument?docI=
+ndex=3DH4jMXghoLMU1ozmlj4VYHg=3D=3D=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+=0D
+=0D
+State Farm Mutual Automobile Insurance Company=0D
+=0D
+credit line: $25,000,000.00=0D
+=0D
+=0D
+=0D
+https://www.sec.gov/Archives/edgar/data/0000093715/000114554921006167/xsl=
+FormN-CEN_X01/primary_doc.xml=0D
+=0D
+=0D
+=0D
+State Farm Mutual Automobile Insurance Company=0D
+=0D
+credit line: $25,000,000.00=0D
+=0D
+=0D
+=0D
+    Morgan Stanley & Co. LLC=0D
+=0D
+    SEC file number:    008-15869=0D
+=0D
+    CRD number:         8209=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+    2020-11-30:                    ANNUAL REPORT=0D
+=0D
+    Accession number:       0001145549-21-006167=0D
+=0D
+    Filed:                            2021-02-11=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+STFGX:    State Farm Growth Fund=0D
+=0D
+$5,308,974,798.000000000000=0D
+=0D
+[A] Gross commissions paid by the Fund for the reporting period: $5,657.2=
+5=0D
+=0D
+[B] Aggregate brokerage commissions paid by Fund during the reporting per=
+iod: $86,127.30=0D
+=0D
+=0D
+=0D
+https://www.sec.gov/Archives/edgar/data/1516523/000114554921074536/xslFor=
+mN-CEN_X01/primary_doc.xml=0D
+=0D
+THE LOSSES ARE REALIZED BY INVESTORS AS A CERTAIN " OPPORTUNITY COST " AN=
+D BENEFIT TO THE ZUCKER ORGANIZATIONS IN THE TEN YEARS PRIOR, WHO REPORTE=
+D YoY GROSS INCOME IN A LINEAR FASHION AND REPRESENT TO THE NY DFS THAT T=
+HE COMBINED VALUE OF ALL SIX PROPERTIES IS APPROXIMATELY $22.5 MILLION AN=
+D DOUBLE DIGIT RETURNS AS REFERENCED IN THE TAX RECORDS TO THE LAST TEN Y=
+EARS. THOSE LEASES AND RENTS WERE TRANSFERRED TO STATE FARM, AND IMPOSE T=
+HE UNDERLYING "GUARANTEE" OF PAYMENT IN THE EVENT OF "INSOLVENCY" OR "LAT=
+E PAYMENT" BY THE ZUCKERS -- WHO HAVE ALSO "PROMISED" TO PAY THEM BACK, S=
+OMEWHERE ON PAGE 800 OF THE UNREGISTERED SECURITY ( THE COMBINED AND RE-S=
+TATED PROSPECTUS ) WHICH I ALSO ANNEXED IN THE MATTER OF NYSCEF 153974/20=
+20.=0D
+=0D
+=0D
+=0D
+UNDERSTOOD BY THE FOUR TICKERS IN QUESTION:=0D
+=0D
+=0D
+=0D
+TICKER: STFGX=0D
+=0D
+SEC FILE NUMBER: 811-01519=0D
+=0D
+SERIES: S000002055=0D
+=0D
+LEI: 25490064REEQMGE0GC29=0D
+=0D
+CIN: C000005410=0D
+=0D
+CIK: 93715=0D
+=0D
+=0D
+=0D
+TICKER: STFBX=0D
+=0D
+SEC FILE NUMBER: 811-01519=0D
+=0D
+SERIES: S000002056=0D
+=0D
+LEI: 254900EBILZP44C0ET43=0D
+=0D
+CIN: C000005411=0D
+=0D
+CIK: 93715=0D
+=0D
+=0D
+=0D
+TICKER: SFITX=0D
+=0D
+SEC FILE NUMBER: 811-01519=0D
+=0D
+SERIES: S000002057=0D
+=0D
+LEI: 254900QMKPLXFY2DO125=0D
+=0D
+CIN: C000005412=0D
+=0D
+CIK: 93715=0D
+=0D
+=0D
+=0D
+TICKER: SFBDX=0D
+=0D
+SEC FILE NUMBER: 811-01519=0D
+=0D
+SERIES: S00000205=0D
+=0D
+LEI: 254900XY61CSODNC1J50=0D
+=0D
+CIN: C000005413=0D
+=0D
+CIK: 93715=0D
+=0D
+=0D
+=0D
+I ANNEXED THE LOAN ON THE FOURTH OF AUGUST IN 2020, AND ALSO PROVIDED NOT=
+ICE TO ALL MATERIAL PARTIES PRIOR TO THE FOURTH AND IN JUNE, CUSTODY OF M=
+Y SECURITY DEPOSIT MAY/MAY NOT HAVE BEEN COMMINGLED AND USED AS COLLATERA=
+L AS WELL WHEN PRESENTED TO THE STATE FARM, LOCATED AT ONE STATE PLAZA, B=
+LOOMINGTON, IL, 61710 WHERE THE CUSTODIAN HAS CHANGED. AS THEY ARE NOW SE=
+LF-ADMINISTERED AND SELF-CUSTODIED ---- WHICH IN FACT REDUCES THE COMPLIA=
+NCE/SUPERVISORY OF THE NEW FUND WITHOUT A PUBLICLY TRADED CUSTODIAN LIKE =
+JP MORGAN TO HANDLE THEIR AFFFAIRS.=0D
+=0D
+=0D
+=0D
+xxx THIS IS WHERE THE SHERMAN ANTI-TRUST AND FAIR DEALINGS ARE "ETHICALLY=
+" NOT NEGOTIABLE AS THOSE RIGHTS OF BULLET-PROOF LAWSUITS MUST BE PROVIDE=
+D TO ALL REAL ESTATE HOLDERS OF PROPERTY, BOTH PUBLIC AND PRIVATE, NOTWIT=
+HSTANDING THEIR VALUATION METHOD OF ACCOUNTING... A PROVISION IN THE NEW =
+UMBRELLA (SAVED THOSE ACCOUNTING FOR LATER, BECAUSE THEY WERE NOT COVERED=
+ BY THE 40-17G INDENTURE EXECUTED BY ITS OWN COMPLIANCE OFFICER).=0D
+=0D
+=0D
+=0D
+FROM 11-16-2021 THROUGH 12-31-2021, WITHOUT FAIR DEALINGS AND AWARENESS F=
+OR THE OTHER FIRMS IS UNDERSTOOD IN FEWER "PROMOTIONAL" DOLLARS AND MORE =
+"BROKERAGE COMMISSIONS EARNED FOR SELLING AND TRANSACTIONS " WHICH CAN AL=
+SO BE USED IN "SOFT DOLLARS" TO HELP PAY FOR THE AUDIT AND ACCOUNTING FEE=
+S. A LOSS IN PERCENTAGE VALUE IN EACH TICKER OF THE FUND, AND AFTER TAKIN=
+G ON ADDITIONAL SUBSCRIPTIONS BY MAIL IS A HUGE OPPORTUNITY COST,  AND NO=
+ DISCLOSURE OF ANY MATERIAL MATTERS OR NOTICE IN A HISTORY OF FAIR-DEALIN=
+GS TO "OTHER CONSTITUENTS" - WHO BOUGHT THOSE TICKERS, JOINED AS PROMOTIN=
+G BROKERS, AND WITHOUT ANY KNOWLEDGE WANTED TO KEEP THE PREMIUMS AND INTE=
+REST.=0D
+=0D
+=0D
+=0D
+TWO TYPES OF INCOME IS FILED: =0D
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+=0D
+=0D
+STFGX:    State Farm Growth Fund=0D
+=0D
+$5,308,974,798.000000000000=0D
+=0D
+   [A] Gross commissions paid by the Fund for the reporting period: $5,65=
+7.25=0D
+=0D
+   [B] Aggregate brokerage commissions paid by Fund during the reporting =
+period: $86,127.30=0D
+=0D
+=0D
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+=0D
+=0D
+=0D
+=0D
+#GOCARDS...///=0D
+=0D
+=0D
+=0D
+    BLOCK 803, LOT 11...=0D
+=0D
+=0D
+=0D
+ * https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1#column-183094=
+90=0D
+=0D
+=0D
+=0D
+ * https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DBHKQCN=
+uN0DHZNk5LD/32Lg=3D=3D=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+CONTEXT:=0D
+=0D
+=0D
+=0D
+........................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+......=0D
+=0D
+STFGX ...................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+.............118.50 106.88 100.19 (6.69) -5.6456% 6,547,492,154 -642,041=
+,003.....................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+........... -369,643,228=0D
+=0D
+........................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+......=0D
+=0D
+STFBX ...................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+.............92.93 87.17 82.84 (4.33) -4.6594% .........................=
+........................................................................=
+........................................................................=
+........................................................................=
+.......................................................2,410,114,218 .-1=
+49,384,030=0D
+=0D
+........................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+...... -112,297,370=0D
+=0D
+........................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+......=0D
+=0D
+=0D
+=0D
+SFITX....................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+...........10.13 9.73 9.64 (0.09) -0.8885% .............................=
+........................................................................=
+........................................................................=
+........................................................................=
+...................................................478,642,421   -18,899=
+,997 ....................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+............-4,252,499=0D
+=0D
+........................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+......=0D
+=0D
+SFBDX 8.91 8.40 8.16 (0.24) -2.6936% =0D
+=0D
+728,601,446 -41,704,460 =0D
+=0D
+........................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+......=0D
+=0D
+-19,625,628=0D
+=0D
+........................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+......=0D
+=0D
+........................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+......=0D
+=0D
+........................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+............... =0D
+=0D
+    ##    ####    ##    ##    ##    ####    ##    ##    ##    ####    ## =
+   ##    ##    ####    ##    ##=0D
+=0D
+=0D
+=0D
+UNFAIR DEALINGS AND NO DISCLOSURE BY THE FIDUCIARIES OF 93715 AND 1516523=
+. =0D
+=0D
+........................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+........................................................................=
+........................................................=0D
+=0D
+File Date: 2020-06-08   -----------INVESTMENT COMPANY ' BLANKET 'BOND "CO=
+VERAGE"=0D
+=0D
+                    ########=0D
+=0D
+    ##    ####    ##    ##                 40-17G=0D
+=0D
+=0D
+=0D
+40-17G: State Farm Associates' Funds Trust https://fintel.io/doc/sec-sfit=
+x-state-farm-interim-fund-4017g-2020-june-08-18422-692 BOND NUMBER: 87036=
+120B =0D
+=0D
+                    ########=0D
+=0D
+    ##    ####    ##    ##=0D
+=0D
+=0D
+=0D
+EFFECTIVE DATE BOND PERIOD: April 1, 2020 to April 1, 2021=0D
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+ISSUER: ICI MUTUAL INSURANCE COMPANY=0D
+=0D
+APPLICATION FILED:    .........MERGER......................=0D
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+https://www.sec.gov/Archives/edgar/data/0000093715/999999999721005616/fil=
+ename1.pdf=0D
+=0D
+=0D
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+MERGER APPLICATION : 2021-04-23 N-8F: STATE FARM ASSOCIATES' FUNDS TRUST=0D=
+
+=0D
+FILED:    .........MERGER.............................................=0D=
+
+=0D
+=0D
+=0D
+https://www.sec.gov/Archives/edgar/data/0000093715/000119312521278180/d22=
+2043dn8f.htm=0D
+=0D
+=0D
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+=0D
+=0D
+NOTE: Once deregistered, a fund is still required to maintain and preserv=
+e the records described in rules 31a-l and 3la-2 for the periods specifie=
+d in those rules.=0D
+=0D
+=0D
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+State Farm Mutual Automobile Insurance Company=0D
+=0D
+credit line: $25,000,000.00=0D
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+https://www.sec.gov/Archives/edgar/data/0000093715/000114554921006167/xsl=
+FormN-CEN_X01/primary_doc.xml=0D
+=0D
+=0D
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+     ##         ##         ##         ##    MAINTAINS THE SAME.=0D
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+=0D
+=0D
+State Farm Mutual Automobile Insurance Company=0D
+=0D
+     ##         ##         ##         ##    $25,000,000.00=0D
+=0D
+=0D
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+C.16 PROMOTERS.=0D
+=0D
+=0D
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+    Morgan Stanley & Co. LLC=0D
+=0D
+    SEC file number:    008-15869=0D
+=0D
+    CRD number:         8209=0D
+=0D
+     --------------------------------------------------------------------=
+----=0D
+=0D
+     --------------------------------------------------------------------=
+----=0D
+=0D
+----    individual_6507985 _ PRIYA DARSINI RAHURAM - CRD FIRM NUMBER 8209=
+[FILED]=0D
+=0D
+     --------------------------------------------------------------------=
+----=0D
+=0D
+     --------------------------------------------------------------------=
+----=0D
+=0D
+----    _CRD MEMBER MSCO_8209-BROOKS--4776256 -6109023[FILED]=0D
+=0D
+=0D
+=0D
+     --------------------------------------------------------------------=
+----=0D
+=0D
+     --------------------------------------------------------------------=
+----=0D
+=0D
+=0D
+=0D
+    2020-11-30:                    ANNUAL REPORT=0D
+=0D
+    Accession number:       0001145549-21-006167=0D
+=0D
+    Filed:                            2021-02-11=0D
+=0D
+    ---------------------------------------------------------------------=
+---=0D
+=0D
+     --------------------------------------------------------------------=
+----=0D
+=0D
+=0D
+=0D
+      EX1/=0D
+=0D
+=0D
+=0D
+          STFGX:    State Farm Growth Fund=0D
+=0D
+            $5,308,974,798.000000000000=0D
+=0D
+     [A] Gross commissions paid by the Fund for the reporting period: $5,=
+657.25=0D
+=0D
+     [B] Aggregate brokerage commissions paid by Fund during the reportin=
+g period: $86,127.30=0D
+=0D
+=0D
+=0D
+https://www.sec.gov/Archives/edgar/data/1516523/000114554921074536/xslFor=
+mN-CEN_X01/primary_doc.xml=0D
+=0D
+    ---------------------------------------------------------------------=
+---=0D
+=0D
+    ---------------------------------------------------------------------=
+---=0D
+=0D
+=0D
+=0D
+    ---------------------------------------------------------------------=
+---=0D
+=0D
+    ---------------------------------------------------------------------=
+---=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+THE LOSSES ARE REALIZED BY INVESTORS AS A CERTAIN " OPPORTUNITY COST " AN=
+D BENEFIT TO THE ZUCKER ORGANIZATIONS IN THE TEN YEARS PRIOR, WHO REPORTE=
+D YoY GROSS INCOME IN A LINEAR FASHION FOR THE PROPERTIES TRANSFERRED TO =
+STATE FARM AND WERE PRESENTED TO THE NY DFS THAT THE COMBINED VALUE OF AL=
+L SIX PROPERTIES IS APPROXIMATELY ( $22.5 MILLION FOR 144 UNITS IN 2021 P=
+RICES, IN SOHO MANHATTAN ON SULLIVAN STREET, BETWEEN PRINCE STREET AND SP=
+RING STREET ) AND DOUBLE DIGIT RETURNS AS REFERENCED IN THE TAX RECEIPTS =
+FOR THE LAST TEN YEARS.=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+    ---------------------------------------------------------------------=
+---=0D
+=0D
+    ---------------------------------------------------------------------=
+---=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+THOSE LEASES AND RENTS WERE TRANSFERRED TO STATE FARM, AND IMPOSE THE UND=
+ERLYING "GUARANTEE" OF PAYMENT IN THE EVENT OF "INSOLVENCY" OR "LATE PAYM=
+ENT" BY THE ZUCKER FAMILY AND ITS ORGANIZATIONS.=0D
+=0D
+=0D
+=0D
+    ---------------------------------------------------------------------=
+---=0D
+=0D
+=0D
+=0D
+HAVE ALSO "PROMISED" TO  REIMBURSE STATE FARM ( IN THE DOCTRINE OF A RE-S=
+TATED AMENDED AND CONSOLIDATED PROSPECTUS ) WHICH I  ANNEXED IN THE MATTE=
+R OF NYSCEF 153974/2020 AND ALSO NOTIFIED STATE FARM, AND ITS ATTORNEYS W=
+HO HAVE NOT RESPONDED. DESPITE MY ATTEMPTS TO END THIS IN AUGUST OF 2021,=
+ THE ZUCKERS FELT IT WOULD BE BETTER TO HARASS ME IN NY SUPREME COURT TO =
+GAIN ACCESS TO INSPECT THE UNIT ON MY TIME.=0D
+=0D
+    ---------------------------------------------------------------------=
+---=0D
+=0D
+EVEN ATTEMPTED TO HAVE STATE FARM RESPOND, TO NO AVAIL DECIDED TO SACRIFI=
+CE THEIR INVESTMENT ADVISER AND "MERGE" INTO A NEW SHELL AND THE GROSS NE=
+GLIGENCE IN ACCOUNTING, AND UNFAIR DEALINGS BY ITS C.16 PROMOTERS IS NOT =
+UNDERSTOOD BY THE "INVESTMENT COMMUNITY" DESPITE THEIR INTERESTS IN OTHER=
+ RESEARCH WHICH IS AVAILABLE FOR OTHER TICKERS, LIKE BRK-B HAS NOT MADE A=
+NY EFFORT BEYOND COLLECTING PREMIUMS FOR THE UNDERLYING TICKERS BELOW >>>=
+>> A FAILURE TO SUPERVISE BY ANY MEANS.=0D
+=0D
+=0D
+=0D
+UNDERSTOOD ONLY IN THE LOSSES BY ALL FOUR TICKERS IN QUESTION:=0D
+=0D
+    ---------------------------------------------------------------------=
+---=0D
+=0D
+=0D
+=0D
+TICKER: STFGX=0D
+=0D
+SEC FILE NUMBER: 811-01519=0D
+=0D
+SERIES: S000002055=0D
+=0D
+LEI: 25490064REEQMGE0GC29=0D
+=0D
+CIN: C000005410=0D
+=0D
+CIK: 93715=0D
+=0D
+    ---------------------------------------------------------------------=
+---=0D
+=0D
+=0D
+=0D
+TICKER: STFBX=0D
+=0D
+SEC FILE NUMBER: 811-01519=0D
+=0D
+SERIES: S000002056=0D
+=0D
+LEI: 254900EBILZP44C0ET43=0D
+=0D
+CIN: C000005411=0D
+=0D
+CIK: 93715=0D
+=0D
+=0D
+=0D
+TICKER: SFITX=0D
+=0D
+SEC FILE NUMBER: 811-01519=0D
+=0D
+SERIES: S000002057=0D
+=0D
+LEI: 254900QMKPLXFY2DO125=0D
+=0D
+CIN: C000005412=0D
+=0D
+CIK: 93715=0D
+=0D
+    ---------------------------------------------------------------------=
+---=0D
+=0D
+=0D
+=0D
+TICKER: SFBDX=0D
+=0D
+SEC FILE NUMBER: 811-01519=0D
+=0D
+SERIES: S00000205=0D
+=0D
+LEI: 254900XY61CSODNC1J50=0D
+=0D
+CIN: C000005413=0D
+=0D
+CIK: 93715=0D
+=0D
+    ---------------------------------------------------------------------=
+---=0D
+=0D
+=0D
+=0D
+I ANNEXED THE LOAN ON THE FOURTH OF AUGUST IN 2020, AND ALSO PROVIDED NOT=
+ICE TO ALL MATERIAL PARTIES PRIOR TO THE FOURTH AND IN JUNE:=0D
+=0D
+    ---------------------------------------------------------------------=
+---=0D
+=0D
+=0D
+=0D
+CUSTODY OF MY SECURITY DEPOSIT MAY/MAY NOT HAVE BEEN COMMINGLED AND USED =
+AS COLLATERAL AS WELL WHEN PRESENTED TO THE STATE FARM, LOCATED AT ONE ST=
+ATE PLAZA, BLOOMINGTON, IL, 61710. THIS IS WHERE THE SHERMAN ANTI-TRUST A=
+ND FAIR DEALINGS ARE "ETHICALLY" NOT NEGOTIABLE AS THOSE RIGHTS OF BULLET=
+-PROOF LAWSUITS MUST BE PROVIDED TO ALL REAL ESTATE HOLDERS OF PROPERTY, =
+BOTH PUBLIC AND PRIVATE, NOTWITHSTANDING THEIR VALUATION METHOD OF ACCOUN=
+TING, TAX-EVASION... AND A PROVISION IN THE NEW UMBRELLA (WHO SAVED ACCOU=
+NTING FOR LATER, BECAUSE THEY WERE NOT COVERED BY THE 40-17G INDENTURE EX=
+ECUTED BY ITS OWN COMPLIANCE OFFICERS THEN OR NOW.=0D
+=0D
+    ---------------------------------------------------------------------=
+---=0D
+=0D
+11-16-2021 THROUGH 12-31-2021, WITHOUT FAIR DEALINGS AND AWARENESS FOR TH=
+E OTHER FIRMS.... TCR, DATED NOVEMBER 13, 2021 , AND WITHOUT ANY FAIR NOT=
+ICE OR FAIR-DEALING TO "MARKET PARTICIPANTS" -  PROMOTED BY MORGAN STANLE=
+Y - THREE YEARS IN A ROW... IN THE OLD AND NEW INVESTMENT ADVISER CIK 151=
+6523=0D
+=0D
+=0D
+=0D
+   ##   =0D
+=0D
+   FOR THE PREMIUMS AND INTEREST AS WELL...=0D
+=0D
+   =0D
+=0D
+   ##   =0D
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+=0D
+=0D
+   ##   TAX RECORDS ARE PUBLIC    ##   =0D
+=0D
+>>>>    ONE BUILDING WITH 22 UNITS AND NO CERTIFICATE OF OCCUPANCY ( WHER=
+E >>>>    IN NY CITY YOU CANNOT COLLECT SECURITY DEPOSITS AND RENT LEGALL=
+Y ( >>>>    AND PER THE FDIC, CANNOT CUSTODY UNLAWFULLY EARNED MONEY ) WH=
+ICH >>>>    TO MY SURPRISE WAS ALSO PRODUCING DOUBLE DIGIT RETURNS YoY FO=
+R >>>>    THE LAST 10-YEARS. AFTER I EVALUATED THIS PROPERTY, I REVIEWED =
+THE >>>>    OTHER PROPERTIES AND FOUND PARTIAL OR "NO CERTIFICATE OF >>>>=
+    >>>>    OCCUPANCY AT ALL" FOR THE PROPERTIES, LEASES, AND RENTS USED =
+AS >>>>    ASSET TO GUARANTEE AND SECURE A LOAN FROM STATE FARM IN MAY OF=
+ >>>>    2021. =0D
+=0D
+>>>>    FOR EASE OF REFERENCE HERE ARE THE QUARTERLY RECEIPTS FOR THE >>>=
+>    LAST TEN-YEARS FOR 117 SULLIVAN STREET, NEW YORK, NY, 10012 =0D
+=0D
+=0D
+=0D
+-------------------------------------------------------------------------=
+------   ##   =0D
+=0D
+>>>>    https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1#column-1=
+8309490 ##=0D
+=0D
+>>>>    ##=0D
+=0D
+>>>>    ##=0D
+=0D
+>>>>    ##=0D
+=0D
+   ##      ##      ##  FTC REPORT: UNLAWFUL FEES WERE NOT REFUNDED EITHER=
+=0D
+=0D
+   ##      ##      ##  " THEY CAN ALSO BE USED AS A MEANS OF GUARANTEE " =
+=0D
+=0D
+   ##      ##      ## =0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DBHKQCNuN0=
+DHZNk5LD/32Lg=3D=3D =0D
+=0D
+####=0D
+=0D
+   ##      ##      ##      ##      ##      ##      ##      ##      ##    =
+  ##      ##      ##      ##      ##      ##      =0D
+=0D
+   ##      ##    =0D
+=0D
+   ##      ##    CONTEXT: STATE FARM ASSOCIATES FUNDS TRUST: =0D
+=0D
+   ##      ##    CIK 93715 >INTO >> FILER    ##   CIK 1516523  =0D
+=0D
+##  NO DIFFERENT THAN USING ONE ATTORNEY IN A SMALLER FIRM =0D
+=0D
+   ##      ##    THEN A LARGER FIRM AS SEEN IN THE PROCEEDING OF 153974/2=
+020=0D
+=0D
+   ##      ##       https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DIC=
+KER/pull/11=0D
+=0D
+   ##      ##       =0D
+=0D
+   ##      ##       https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DIC=
+KER/pull/7=0D
+=0D
+   ##      ##       *** DISTRIBUTION BY THE ATTORNEYS AT:   WILSONELSER.C=
+OM =0D
+=0D
+OF THESE ARTIFACTS HAVE NOT BEEN RESOLVED EITHER> =0D
+=0D
+   ##      ##       =0D
+=0D
+   ##      ##       https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DIC=
+KER/pull/5=0D
+=0D
+   ##      ##      ##      ##      ##      ##      ##      ##      ##    =
+  ##      ##      ##      ##      ##      ##  =0D
+=0D
+ITS 100% EVASION ---- UNFAIR DEALING --- A VIOLATION OF PRIVACY ---- AND =
+A CERTAIN LAWSUIT THAT IS ALSO BEING AVOIDED TO PROTECT ONE FAMILY HAS NO=
+W SACRIFIED THE GREATER OF 1.35 BILLLION DOLLARS, ONE INVESTMENT ADVISER =
+WHO MYSTERIOUSLY DECIDED TO "NO LONGER EXIST" AFTER TWENTY SEVEN YEARS UN=
+DER CIK : 93715 AS REFERENCED BELOW.=0D
+=0D
+   ##      ##      ##      ##      ##      ##      ##      ##      ##    =
+  ##      ##      ##      ##      ##      ##  =0D
+=0D
+=0D
+=0D
+SOURCE: EDGAR REPORT: 2021-11-30                                     =CE=94=
+ ASSET VALUE 11-30-2020 - 2022-03-31=0D
+=0D
+=CE=94 ASSET VALUE 2022-03-31 -- 04-30-2022                              =
+    =0D
+=0D
+TICKERS ##      ##      ##      ##      ##      ##      ##      ##      #=
+#    2021-11-30  ##      ##      2022-03-31 2022-04-30 =0D
+=0D
+      MoM   -4.98% IN AUM ( APPROXIMATELY ) AND 12.35% ( APPROXIMATELY ) =
+USING THE FILED ASSETS ...=0D
+=0D
+SINCE "LAST FILING" 2021-11-30  ##  BY ITS COMPLIANCE OFFICERS AND DIRECT=
+ORS AND EXECUTED BY THE DIRECTORS OF THEIR OPERATING FINANCIAL ADVISORY F=
+IRMS.=0D
+=0D
+=0D
+=0D
+ [STATE FARM VP 43036] STATE FARM VP MANAGEMENT CORP [    ##    DIRECTORS=
+    ##    ]=0D
+=0D
+ [STATE FARM VP 43036] Advisers Investment Trust [CIK 1516523] MONK [CRD =
+1357149]=0D
+=0D
+##    DAVID MOORE   ##    TERRANCE "TERRY" LUDWIG   ##    PAUL SMITH=0D
+=0D
+%%    %%    %%    %%    %%    %%    %%    %%    %%    %%    %%    %%    %=
+%    %%    %%    %%    %%    %%    %%   =0D
+=0D
+*** DOCKET 420, 1 PAGER.=0D
+=0D
+##   https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DXjn0=
+/e1NcBADqRc_PLUS_g11P4g=3D=3D   %%  =0D
+=0D
+##    %%    %%    %%    %%    %%    %%    %%    %%    %%    %%    %%    %=
+%    %%    %%    %%    %%    %%    %%   =0D
+=0D
+      >>>> [STATE FARM VP 43036]2992788 _ HARBERT   <<<<<<<<<=0D
+=0D
+##    %%    %%    %%    %%    %%    %%    %%    %%    %%    %%    %%    %=
+%    %%    %%    %%    %%    %%    %%   =0D
+=0D
+##    [STATE FARM VP 43036]2992788 _ HARBERT      "   STATE FARM LLOYDS  =
+"   =0D
+=0D
+##     [STATE FARM VP 43036]2992788 _ HARBERT       "  STATE FARM LIFE IN=
+SURANCE COMPANY "  =0D
+=0D
+##       " STATE FARM LIFE INSURANCE COMPANY"    IS THE MANAGING ENTITY W=
+HO IS ALSO ENCUMBERED BY LOAN 50074.=0D
+=0D
+ENTITY "  STATE FARM LIFE INSURANCE COMPANY "  : : : STATE FARM REALTY MO=
+RTGAGE LLC"            %%    %%      =0D
+=0D
+%%    %%    %%    %%    %%    %%    %%    %%    %%    %%    %%    %%    %=
+%    %%    %%    %%    %%    %%    %%   =0D
+=0D
+=0D
+=0D
+##   DID NOT "RESPOND" TO THE LEGAL ACTION  AFTER HAVING CONTACTED BOTH =0D=
+
+=0D
+<thermanson@northmarq.com> AND <jpetit@mccarter.com> =0D
+=0D
+the representatives and attorneys in the dockets filed with the NY Financ=
+e Register =0D
+=0D
+=0D
+=0D
+   ##      ##      ##      ##      ##      ##      ##      ##      ##    =
+  ##      ##      ##      ##      ##      ##      ##      ##   =0D
+=0D
+      >> https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?d=
+oc_id=3D2020052000291003 <<=0D
+=0D
+=0D
+=0D
+   ##      ##      ##      ##      ##      ##      ##      ##      ##    =
+  ##      ##      ##      ##      ##      ##      ##      ##    =0D
+=0D
+>> THIS WAS A GOOD FAITH ATTEMPT TO TERMINATE THE LOAN 50074 DURING THE 9=
+0-DAY WINDOW.=0D
+=0D
+>> ENTERED AND ADMITTED ON 420 AS AN "EXHIBIT" AND WAS ALSO OBSTRUCTED BY=
+ COUNSELORS OF 'PARTY 1'=0D
+=0D
+=0D
+=0D
+   ##   https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DX=
+jn0/e1NcBADqRc_PLUS_g11P4g=3D=3D   %% =0D
+=0D
+=0D
+=0D
+   ##      ##      ##      ##      ##      ##      ##      ##      ##    =
+  ##      ##      ##      ##      ##      ##      ##      ##    =0D
+=0D
+=0D
+=0D
+## STFGX ## 118.50 106.88 100.19 (6.69) -5.6456% 6,547,492,154 -642,041,0=
+03       ## -369,643,228 ##=0D
+=0D
+=0D
+=0D
+## STFBX ## 92.93 87.17 82.84 (4.33) -4.6594% 2,410,114,218 -149,384,030 =
+            ## -112,297,370 ##=0D
+=0D
+=0D
+=0D
+## SFITX  ## 10.13 9.73 9.64 (0.09) -0.8885% 478,642,421 -18,899,997     =
+                    ## -4,252,499  ##   =0D
+=0D
+=0D
+=0D
+## SFBDX ## 8.91 8.40 8.16 (0.24) -2.6936% 728,601,446 -41,704,460       =
+                 ## -19,625,628  ##=0D
+=0D
+=0D
+=0D
+   ##      ##      ##      ##      ##      ##      ##      ##      ##    =
+  ##      ##      ##      ##      ##      ##      ##      ##   =0D
+=0D
+>>>>>        ##  03-30-2022  >> 04-30-2022   ##   -505,818,725  <<<<<<<<<=
+<<<<<<<<<<<<<<<<<<<<<<=0D
+=0D
+   ##      ##      ##      ##      ##      ##      ##      ##      ##    =
+  ##      ##      ##      ##      ##      ##      ##      ##   =0D
+=0D
+>>>>>        THE EXCESS OF FIVE HUNDRED AND FIVE MILLION US DOLLARS IN ON=
+E MONTH <<<<=0D
+=0D
+>>>>>        REPRESENTS AN ACCELERATED RATE OF LOSS WITH RESPECT TO THE P=
+RIOR LOSSES AND >>>>>        DURING =0D
+=0D
+>>>>>        THE POSTHASTE MERGER WAS "GROSSLY NEGLIGENT"=0D
+=0D
+>>>>>         AND DEMONSTRABLY AS A TOTAL OF $9000.00 ( \NINE THOUSAND DO=
+LLARS ) =0D
+=0D
+>>>>>        WAS SET ASIDE FOR ACCOUNTING BY "  PRICE WATERHOUSE COOPERS =
+ " =0D
+=0D
+>>>>>        [ THE PUBLICLY TRADED AUDIT FIRM ].=0D
+=0D
+>>>>>        =0D
+=0D
+>>>>>        =0D
+=0D
+   ##      ##      ##      ##      ##      ##      ##      ##      ##    =
+  ##      ##      ##      ##      ##      ##      ##      ##   =0D
+=0D
+>>>>>        IN FURTHERANCE, THE C.16 PROMOTING BROKERS DID NOT PROVIDE A=
+NY RESEARCH REPORT OR ANY =0D
+=0D
+>>>>>        =0D
+=0D
+>>>>>        PUBLIC RELEASE TO "FAIRLY" ESTABLISH THEY HAD RECEIVED FEWER=
+ SUBSCRIPTION =0D
+=0D
+>>>>>        PREMIUMS AND MORE COMMISSIONS WITH AN ESTABLISHED "KNOWLEDGE=
+ OF THE =0D
+=0D
+>>>>>        ONGOING LEGAL MATTERS, WAS A "NON-JOINDER"=0D
+=0D
+>>>>>        =0D
+=0D
+>>>>>        =0D
+=0D
+   ##      ##      ##      ##      ##      ##      ##      ##      ##    =
+  ##      ##      ##      ##      ##      ##      ##      ##   =0D
+=0D
+>>>>>        SUMMARY OF ASSETS AND THE CHANGE IN PERCENTAGE VALUES SINCE =
+LAST REPORTED=0D
+=0D
+>>>>>        $10,164,850,239 IN AUM AND DURING THE FILED ASSETS ON  11-30=
+-2021 AND THE END OF =0D
+=0D
+>>>>>        THE FIRST \QUARTER IN 2022 ON 03-30-2022  LOST A TOTAL OF   =
+$ -852,029,489  =0D
+=0D
+>>>>>        WHILE 'PARTY 1' CANVASSES NEW OPPORTUNITIES FOR DEVELOPMENT=0D=
+
+=0D
+>>>>>        IN BROOKLYN ( AND WHILE THE TAXES REMAIN UNPAID=0D
+=0D
+>>>>>        ARE TAXES EVADED FOR 15-YEARS=0D
+=0D
+>>>>>         I STOPPED AFTER TEN YEARS BACKED UP TO ROUGHLY $250,000,000=
+.00 ( TWO HUNDRED FIFTY MILLION IN ARREARS WITH PENALTIES UNDER  =C2=A7 1=
+.6662=E2=80=932 Accuracy-related penalty.=0D
+=0D
+(a) In general. Section 6662(a) imposes an accuracy-related penalty on an=
+y portion of an underpayment of tax (as defined in section 6664(a) and =C2=
+=A71.6664=E2=80=932) required to be shown on a return if such portion is =
+attributable to one or more of the following types of misconduct: =0D
+=0D
+=0D
+=0D
+(1) Negligence or disregard of rules or regulations (see =C2=A71.6662=E2=80=
+=933); (2) Any substantial understatement of income tax (see =C2=A71.6662=
+=E2=80=934); or (3) Any substantial (or gross) valuation misstatement und=
+er chapter 1=0D
+=0D
+(=E2=80=98=E2=80=98substantial valuation misstatement=E2=80=99=E2=80=99 o=
+r =E2=80=98=E2=80=98gross valuation misstatement=E2=80=99=E2=80=99), prov=
+ided the applicable dollar limitation set forth in section 6662(e)(2) is =
+satisfied (see =C2=A71.6662=E2=80=935).=0D
+=0D
+ =0D
+=0D
+   ##      https://www.govinfo.gov/content/pkg/CFR-2010-title26-vol13/pdf=
+/CFR-2010-title26-vol13-sec1-6662-2.pdf     ## =0D
+=0D
+    >>>  =0D
+=0D
+>>>>>        prior filer: STATE FARM ASSURANCES FUNDS TRUST [ CIK 93715 ]=
+  ##      ##      ##             =0D
+=0D
+    >>>        =0D
+=0D
+    >>>        AUM =3D $0.00    =0D
+=0D
+    >>>        UNDER SECTION 8(f) OF THE INVESTMENT COMPANY ACT OF 1940 =0D=
+
+=0D
+   ##      ##      ##      ##      ##      ##      ##      ##      ##    =
+  ##      ##      ##      ##      ##      ##      ##      ##   =0D
+=0D
+     #=0D
+=0D
+   ##      ##      ##      ##      ##      ##      ##      ##      ##    =
+  ##      ##      ##      ##      ##      ##      ##      ##   =0D
+=0D
+FIRST..                                                                  =
+                                                                         =
+            ##=0D
+=0D
+    ##        FILED,  NOV 13, 2021,    TCR 1 [ 16368-809-301-165 ]=0D
+=0D
+    ##                                                                   =
+                                                                         =
+               ##=0D
+=0D
+    ##                  https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND=
+-DICKER/files/8600789/_2021-11-13---TCRReport.pdf=0D
+=0D
+  ##      ##      ##      ##      ##      ##      ##      ##      ##     =
+ ##      ##      ##      ##      ##      ##      ##      ##=0D
+=0D
+SECOND.=0D
+=0D
+    ##        FILED,  APR 04, 2022,     TCR 2 [ 16491-117-831-823 ]      =
+                                                      ##=0D
+=0D
+    ##                                                                   =
+                                                                         =
+                ##=0D
+=0D
+    ##                  https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND=
+-DICKER/files/8600792/_2022-04-22---TCRReport-16491-117-831-823.pdf=0D
+=0D
+  ##      ##      ##      ##      ##      ##      ##      ##      ##     =
+ ##      ##      ##      ##      ##      ##      ##      ##=0D
+=0D
+THIRD.=0D
+=0D
+    ##       FILED, APR 28, 2022,      TCR 3 [ 16511-049-089-843 ]       =
+                                                       ##=0D
+=0D
+    ##                                                                   =
+                                                                         =
+                ##=0D
+=0D
+    ##                https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-D=
+ICKER/files/8600857/_2022-04-28---TCRReport.16511-049-089-843.pdf=0D
+=0D
+=0D
+=0D
+--- ---- --- -- ---- --- -- ---- --- -- ---- --- -- ---- --- --- ---- ---=
+ -- ---- --- -- ---- --- -- ---- --- -- ---- --- --- ---- --- -- ---- ---=
+ -- ---- --- -- ---- --- =0D
+=0D
+=0D
+=0D
+    ##       C.16 FIDUCIARY BROKERS ALSO WILL PROVIDE GUIDANCE FOR "BRK-B=
+"    =0D
+=0D
+    ##           ##           ##           ##           ##           ##  =
+         ##           ##                                   MORGAN STANLEY=
+.=0D
+=0D
+    ##       HOWEVER DID NOT REPORT ANY "MATERIAL" INFORMATION FOR ANY OF=
+ THE FOUR TICKERS.   =0D
+=0D
+    ##       BETTER PROMOTE AND DISSEMINATE THE STATE FARM MUTUAL FUND ON=
+ WHAT GROUND TO EARN  =0D
+=0D
+    ##       THEIR PROMOTIONAL FEES?                         =0D
+=0D
+    ##       INFORMATION IN A TIMELY MANNER WHERE OTHER CONSTITUENTS =0D
+=0D
+    ##       CAN MAKE AN "INFORMED DECISION"=0D
+=0D
+=0D
+=0D
+>>> NOT COVERED FOR OMISSIONS, OBSTRUCTION, AND THE UNFAIR DEALINGS BY IT=
+S NEW FILER AND REPEAT C.16 PROMOTER, NAMELY MORGAN STANLEY IN THE NEW AS=
+SURANCES FUNDS TRUST "1516523=0D
+=0D
+>>> ADDRESS: ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710.=0D
+=0D
+=0D
+=0D
+    ##       ##       ##       ##       ##       ##       ##       ##    =
+   ##       ##       ##       ##       ##   =0D
+=0D
+=0D
+=0D
+        File Date: 2020-06-08 INVESTMENT COMPANY BLANKET BOND "COVERAGE"=0D=
+
+=0D
+=0D
+=0D
+    ##       ##                                                          =
+                                                            ##=0D
+=0D
+    ##             40-17G: State Farm Associates' Funds Trust            =
+                                              =0D
+=0D
+    ##                                                                   =
+                                                              ##=0D
+=0D
+    ##      https://fintel.io/doc/sec-sfitx-state-farm-interim-fund-4017g=
+-2020-june-08-18422-692    =0D
+=0D
+=0D
+=0D
+    ##                                                                   =
+                                                                         =
+                       ##=0D
+=0D
+    ##       BOND NUMBER: 87036120B EFFECTIVE DATE BOND PERIOD: April 1, =
+2020 to April 1, 2021=0D
+=0D
+    ##                                                                   =
+                                                                         =
+                       ##=0D
+=0D
+    ##       ISSUER: ICI MUTUAL INSURANCE COMPANY=0D
+=0D
+    ##       APPLICATION FILED: 2021-10-29=0D
+=0D
+=0D
+=0D
+    ##                                                                   =
+                                                                         =
+                       ## =0D
+=0D
+   =0D
+=0D
+    ##       TCR FILED NOV 13, 2021 >>  DISTRIBUTED TO MORGAN STANLEY ON =
+NOV 16, AND DEC 18 IN 2021=0D
+=0D
+=0D
+=0D
+    ##                                                                   =
+                                                                         =
+                       ##=0D
+=0D
+    ##       NO PUBLIC DISCLOSURE OF THE LEGAL MATTERS.=0D
+=0D
+    ##       HENCE --- UNFAIR DEALINGS.=0D
+=0D
+=0D
+=0D
+    ##                                                                   =
+                                                                         =
+                       ##=0D
+=0D
+    ##                                                                   =
+                                                                         =
+                       ##=0D
+=0D
+    ##       Hearing requests should be received by the SEC by 5:30 p.m. =
+on November 23, 2021=0D
+=0D
+    ##        THE C.16 HERE  INSTEAD WATCHED STATE FARM PULL THEIR "EVASI=
+VE MERGER" AT =0D
+=0D
+    ##                                                                   =
+                                                                         =
+                       ##=0D
+=0D
+    ##             ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710          =
+                                                   ##                    =
+                                                                         =
+                                                               =0D
+=0D
+    ##                                                                   =
+                                                                         =
+                       ##=0D
+=0D
+    ##                                                                   =
+                                                                         =
+                       ##=0D
+=0D
+    ##       https://www.sec.gov/Archives/edgar/data/0000093715/999999999=
+721005616/filename1.pdf          ##=0D
+=0D
+    ##                                                                   =
+                                                                         =
+                       ##=0D
+=0D
+    ##                                                                   =
+                                                                         =
+                       ##=0D
+=0D
+INTO:           ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710    =0D
+=0D
+#########################################################################=
+################                                                         =
+                                                                         =
+                               ##    =0D
+=0D
+    ##       NO ASSISTANCE BY THE CONFLICTED ATTORNEYS OF SULLIVAN PROPER=
+TIES LP                 ##=0D
+=0D
+    ##                                                                   =
+                                                                         =
+                           ##=0D
+=0D
+    ##       > 101 WEST 55TH STREET, NEW YORK, NY, 10019                 =
+<                                                        ##=0D
+=0D
+    ##  https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?do=
+c_id=3D2020052000291002       ##                                         =
+                                                                         =
+                                          =0D
+=0D
+#########################################################################=
+################=0D
+=0D
+    ##                         ATTORNEYS FOR THE ZUCKER ORGANIZATIONS    =
+                                                     ##=0D
+=0D
+    ##                                                                   =
+                                                                         =
+                           ##=0D
+=0D
+    ##                                                                   =
+                                                                         =
+                           ##=0D
+=0D
+    ##                         WILSON, DICKER, AND INGRAM                =
+                                                                       ##=
+=0D
+=0D
+    ##                                                                   =
+                                                                         =
+                           ##=0D
+=0D
+    ##                         101 west 42nd street, New York, NY, 10017 =
+                                                                       ##=
+=0D
+=0D
+    ##                                     a shared address by TWO  law f=
+irms                                                                     =
+  ##=0D
+=0D
+    ##                                                                   =
+                                                                         =
+                       ##=0D
+=0D
+=0D
+=0D
+__________________________=0D
+=0D
+MERGER APPLICATION FILED: 2021-04-23 N-8F: STATE FARM ASSOCIATES' FUNDS T=
+RUST=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+https://www.sec.gov/Archives/edgar/data/0000093715/000119312521278180/d22=
+2043dn8f.htm=0D
+=0D
+    ##       ##       ##       ##       ##       ##       ##       ##    =
+   ##       ##       ##       ##       ##       ##   =0D
+=0D
+    ##       ##       ##       ##       ##       ##       ##       ##    =
+   ##       ##       ##       ##       ##       ##   =0D
+=0D
+=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+NOTE: Once deregistered, a fund is still required to maintain and preserv=
+e the records described in rules 31a-l and 3la-2 for the periods specifie=
+d in those rules. Q21, Q24: " Is the fund a party to any litigation or ad=
+ministrative proceeding?  "=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+Fund Surviving the Merger: ####  Advisers Investment Trust   ####  [ Act =
+File Number 811-22538 ] =0D
+=0D
+State Farm VP Management Corp. 000043036                  #### ASSETS REP=
+ORTED: 2021-11-30 _______________________________________________________=
+_______________________=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+#### https://www.sec.gov/Archives/edgar/data/0000093715/00011455492200614=
+9/xslFormN-CEN_X01/primary_doc.xml=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+#### https://www.sec.gov/Archives/edgar/data/93715/999999999721005790/fil=
+ename1.pdf=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+#$### File Date 2020-07-28_______________________________________________=
+_______________________________=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+#$###         https://fintel.io/doc/sec-stfgx-state-farm-growth-fund-ncsr=
+s-2020-july-28-18472-569=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+>> $> CODE OF ETHICS_____________________________________________________=
+_________________________=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+>> $> https://fintel.io/doc/sec-stfgx-state-farm-growth-fund-ex99p-2020-m=
+arch-27-18441-449=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+_________________________________________________________________________=
+_____=0D
+=0D
+_________________________________________________________________________=
+_________________________________________________________________________=
+_________________________________________________________________________=
+_________________________________________________________________________=
+___________=0D
+=0D
+=0D
+=0D
+A TOTAL OF -1,357,848,214 IN FOUR MONTHS, HOWEVER AN ACCELERATED LOSS IN =
+MONTH PRIOR.=0D
+=0D
+_________________________________________________________________________=
+_________________________________________________________________________=
+________________________________________________________=0D
+=0D
+=0D
+=0D
+-505,818,725 =0D
+=0D
+_________________________________________________________________________=
+_________________________________________________________________________=
+________________________________________________________=0D
+=0D
+AUM: 11,016,879,728 IN THE PRIOR 11-30-2021 UNDER MANAGEMENT ON THE BASIS=
+ OF 11-30-2021 .=0D
+=0D
+THE MARKET CAPITALIZATION OF THE FOUR TICKERS ABOVE REPRESENTS ADDITIONAL=
+LY SUBSCRIPTION WERE TAKEN WITHOUT ANY NOTICE TO THE NEW OR OLD INVESTORS=
+.=0D
+=0D
+_________________________________________________________________________=
+_________________________________________________________________________=
+________________________________________________________FILED $11,016,879=
+,728 UNDER MANAGEMENT BY THE CIK FILER 93715, WHERE ALL DIRECTORS SURVIVE=
+D THE MERGER INTO '''''''''''''CIK 1516523''''''''' AND LOAN 50074 CAN NO=
+T BE TRANSFERRED HENCE THE SAME BROKER DEALER ''''''''''''' State Farm VP=
+ Management Corp. 000043036      AND ITS DIRECTORS AT STATE FARM, ONE STA=
+TE FARM PLAZA, BLOOMINGTON, IL, 61710 ---- DID NOT CHANGE THEIR ADDRESS E=
+ITHER.=0D
+=0D
+ ''''''''''''' IN THE GROSS NEGLIGENCE, NAMELY IN THE AUDITORS IN A POSTH=
+ASTE AVOIDANCE TO CRIMINAL / CIVIL PROSECUTION WHICH WAS AIDED AND ABETTE=
+D BY THE ATTORNEYS OF SULLIVAN PROPERTIES, LP. NOTWITHSTANDING MR. REYNOS=
+O, SEE ALSO MANHATTAN SKYLINE MANAGEMENT CORP WEBPAGE "ANNEXED" AND FILED=
+ WITH THE NYSCEF SYSTEM IN THE MATTER OF 153974/2020. FAXED 212-586-9867 =
+DIRECTLY AND DID NOT RECEIVE A RESPONSE, HOWEVER SENT A REQUEST ABOUT AN =
+APARTMENT IN MANHATTAN ONLINE AND RECEIVED COMMUNICATION FROM A REALTOR T=
+O VIEW IT.=0D
+=0D
+=0D
+=0D
+## ::::::##=0D
+=0D
+              =0D
+=0D
+THE TCR REPORTS HEREIN WERE DISSEMINATED TO ITS PROMOTING BROKERS IN THE =
+PRIOR, ON NOV 16 2021, DEC 18TH 2021 AND AT ALL RELEVANT TIMES TO AVOID T=
+HIS "MERGER" INTO A REGISTERED ADVISOR WITH THREE PUBLIC AUDIT FIRMS=0D
+=0D
+    ##       ##       ##       ##       ##       ##       ##       ##    =
+   ##       ##       ##       ##       ##   =0D
+=0D
+_________________________________________________________________________=
+_________________________________________________________________________=
+________________________________________________________https://github.co=
+m/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8601202/Nov.16.2021.-.WMCKE=
+NZIE%40NYCOURTS.GOV.---.SEC.---.BOC%40BOC.NYC.GOV.pdf =0D
+=0D
+=0D
+=0D
+    ##       ##       ##       ##       ##       ##       ##       ##    =
+   ##       ##       ##       ##       ##   =0D
+=0D
+ =0D
+=0D
+_________________________________________________________________________=
+_________________________________________________________________________=
+________________________________________________________ =0D
+=0D
+https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?doc_id=3D2=
+020052000291003=0D
+=0D
+ =0D
+=0D
+    ##       ##       ##       ##       ##       ##       ##       ##    =
+   ##       ##       ##       ##       ##   =0D
+=0D
+_________________________________________________________________________=
+_________________________________________________________________________=
+________________________________________________________ =0D
+=0D
+https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageView?doc_id=3D2=
+020052000291002=0D
+=0D
+=0D
+=0D
+NOTE: Once deregistered, a fund is still required to maintain and preserv=
+e the records described in rules 31a-l and 3la-2 for the periods specifie=
+d in those rules.State Farm Mutual Automobile Insurance Company=0D
+=0D
+credit line: $25,000,000.00=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+=0D
+-------- Forwarded Message --------=0D
+Subject: 	[BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV] 703907=
+: https://www.tdi.texas.gov/commissioner/disciplinar...=0D
+Date: 	Sat, 07 May 2022 02:39:37 -0700=0D
+From: 	DINCER & CO. <noreply@github.com>=0D
+To: 	INFO@KPMG.COM, MS60710444266@YAHOO.COM=0D
+=0D
+=0D
+Branch: refs/heads/main=0D
+=0D
+Home: https://github.com/BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWI=
+TZ-MOV=0D
+=0D
+Commit: 7039070eb427b45125a4b174728783b8388884d3=0D
+=0D
+https://github.com/BSCPGROUPHOLDINGSLLC/WIL=E2=80=A6=0D
+=0D
+=0D

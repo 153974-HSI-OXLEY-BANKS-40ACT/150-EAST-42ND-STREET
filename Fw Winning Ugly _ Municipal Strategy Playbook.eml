@@ -1,0 +1,835 @@
+From - Sun Apr 17 11:51:33 2022
+X-Account-Key: account1
+X-UIDL: ABO9l+lKboHoYlKImQOZ4HdcbLg
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.151.200
+ by atlas317.free.mail.ne1.yahoo.com with HTTPS; Sun, 10 Apr 2022 07:34:45 +0000
+Return-Path: <bo.dincer@yahoo.com>
+X-Originating-Ip: [98.137.66.148]
+Received-SPF: pass (domain of yahoo.com designates 98.137.66.148 as permitted sender)
+Authentication-Results: atlas317.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 10 Apr 2022 07:34:45 +0000
+X-YMailISG: JyMAIo4WLDuk9FokSQjriyPZjWFsYjcpFXG1VZEQz.8SzTxl
+ UnG11WAiPIJwnrOw7s0GNStD87eKSUVG9bAmu55DXp.moKZQUR1kWAGG7N0m
+ uO3p9BeHpk6fbJhydzde3BiAndrrPqmkuqL81xQPVt7eEfxjSG7LDhlrDWJs
+ x5o7lTM1n68cP8SHjB2wjFp58hfZljm9QHOzERrfhtadQtZOIAZ7ECvGNOdG
+ CnATUWT3sS6xV2YVhVpDJK0WGo9MwjB8ET73lwp4WO2X8cI.cCYwf7Q0M7hg
+ lzVrPJGNeoXnMe6nAYlIhI2Soj_eV_WyMmSOh0RJGSL8I7xUpCaAgS5Q.8kx
+ Ki.YlGXOvkii5qPJvsGLlT9WzUMpg3CuuoJv9LAnwsZeOV2eY8g.o0Mfs5eE
+ OwlBVt8wBhmiGOJn5qJaJ4bK3xG2PXEj2rejFWGEARyzLehk5tEJBycHpgOt
+ CrkfjpqUP.9yhxFougje1HlZbGthCPdBpl2Skx15dT3sPQKgcXXs5n7kTWZJ
+ _0GWl.pzomkkbujyD.ueoHPg6QSBX4MIybdKXfUjlLOBbt7owMmwveH6ciBW
+ FAkYU__QEP2bbOgUxMLFD1jOYhnI2yllx3q1qpN0qlQlDXy8bdcGZCCLB7pA
+ 8htKDPxFcKb3WOQu8NuHUvX6IC.kEObN3FOHnxNEsOnkgvLhhStROl0ffrrp
+ 7SfXYbNxJpcCI_ppwZAfy2AxmOFroCd8cpIobFcj1XPBZEhdIoJQ445cXwE7
+ 9OP.Weu3HiGjFUy9aD.32_t9T_SwovNFiDonPq.znNN6GduHZlSZACC1v1n1
+ 1Ie5CT7ad.IM.ptGEead9CugfbOlGgR6COlr8h4JK2njDds89bElJb0Q5dae
+ P.oxkD7Mnjl_ooyiK0nb.I6u_BGgc_mlXPWirPEjG9nGX1eP9DeyCLRxltQu
+ FOw4TV_1U_VwM60b4BlR9q6taXA3XLH81twZnaFSPmbznCH4SMGVu9i_zdFv
+ R.6Y7ms.B_wjU9c3WjoBZ01PWpizV377vyHoDw0F.ZQO1F0.WZuMhiX3dGI5
+ eCJKAZR8WxTpbS2znyHCBWN2VPqpTAZ832NYmf_ZnydiugzNlJwpWzfZHJSq
+ afv44Q.XQBYkyV1DBNL6Tini45ylOKWkpbNQ.Bhv9emm1mUgdbLiIH10G4vS
+ MoPbAwFH1g7BYBnuxmpH
+Received: from 98.137.66.148 (EHLO sonic317-22.consmr.mail.gq1.yahoo.com)
+ by 10.217.151.200 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Sun, 10 Apr 2022 07:34:45 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1649576084; bh=AZHF6qB7M8ZWHMB5EksQ/aq+SSJ3HOc99eFHETR5toc=; h=Date:From:Reply-To:To:Subject:References:From:Subject:Reply-To; b=iG3pe2P/C1zZADCbs2f9GQT5CEIV/wIndLtPRPix13C3dttMKMnPdLN094vACWKUkMBXUX3Jxcm6Q8bHMiUxZcP4St91+qqJNt+9JuBEpIm/zF0KwertF9OGwAbMRiHgBUTCzlT3lG/jQ14TboVC65aZT7Q+3u2uEwIG1Q5x4wj1HOSMnxuVsKt9Z1VOYuuYAPw49tLX1B9mng0ao5nxTLTk1SU2GUDnjfFWCrb1+/LhNE7fUMqhqf/bgtQPdzXaW7FHsuQrZCD5su83BTs9o0gE1IBjZiZjppaeIDNVQgmuu4KvbF17WCpiFi2XKGgB3GkiShWlSPyserdDB15PDg==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1649576084; bh=p/+Ana9afYHBDWiHqCFTDVNF3bzkdI78jaFwU1PRkVF=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=emBVxnfA/TN+SVCCeysqPO6EZpDRMOgsSRWpuj6TaGocycV+bbCPtpjyUz+Jb9FQu+p24z+xC7rHcSM7+skpWDk1tBen8dSob125KpRfp8Xs/07raMH0PiF8LWfhvf+ogZG6cxr1N0RkgV6WXG5FATbjZM/RI2/V7lYJa979yvVFRcCym6xTcD9nhCXo9nQH0m0VPFlqS5vtkUcblFJZlylNWB1cSxGpW4NA8wgpUonvSLXtGjpzmdM2F4QDMkebsViDs90yG91G9Hr6reCEWGbTJRnGqez4Dw4tA7mViulJg+4CD2gqkb2dV74LdCYe9Nj4Uv0RdDSYI0VijRxy3Q==
+X-YMail-OSG: 968P_fUVM1k8kgmvJHgLlXd5TanBBI47ue7EYwYDrIKIeFs7Pw3GHLPiTg1QdKP
+ AdJ2fqX19LoWwcTbFfeoS6bC6EHsFuu7nhKnrBhmePv.Mj44N5RLGouaGSshJ3OeCPL6dhD1ONMJ
+ nKlpEA1WYFBR9cdXcOsd5ggY0KlXV3PfVzlco6AbNNH7wx.VqFzzVjJccwT2U5vtQMihUlAoZF5N
+ bj5kbzh2GPeeLpxe2UXytLVyJtMAh5Qwu2GnVFJCkjJDOMcpWdFTuqecb4AAdTI79FOsLYYTnZNp
+ gn4CbPOwt4mtvUZ6knP4TBuu1I__uFPOgqE9_mLwDVHweWyB7M8hpDgo4cwc0S7ioLtb5rXIrYPL
+ qMGtst_DK3h8.AUkeqHSJ7oG1MabLecBcoxdnKakHsAdaR6kQXUrJ57hKV9ZY7N9xT_bf_BsnQa4
+ CJaYlzjJxz6FFNTjxTf1WLoNeUdGMdP60RVLa.RN5dzrxiPkB4k.q62X5gWJsBSgFxkrvMel0d5C
+ q7ZGC549ZqfN9HjdSBUzSJJcw7.1vvp1AYJFjJg5gHoaXX2_HUN.4J4z0Ns.kngieZ9Q7srcjGCX
+ lsaThSassJEGk93RTHhALFz5qi381VjfGDJxIMFE8pViYgin8l.SZK2ZEy8a9yLX1WYznBrAVRa1
+ ivUrDKzaRu0z2IdM5q7DKtbajJ.N9O60YirdRtU0pKTtcV058VgvjWqvAMn7YkTTjuX6Ih5hNtj7
+ uDci7_YGSaaoKQhmY6qhkM5GO3Z3Xe0bK5qZI4IfErW63AEJ8tbI_HjQMKIF5FJT3JZuBQbDGMPL
+ R.8kzBCEIbUE73WEEWPG.DTzXF6a6sn05nfgCEKtRfCzkJr_hsE92ySnFLoq6iNknLzHI81ISIv4
+ n7XqKDEAP6PEbyWZ1Ipf6z64VZRUNLhJ92zd_pykvJpvrm25wSem3nGJ67_rRHb.sZrCVYiorFgm
+ Op_qMiRLfVQlBHYrXcws25zzL5BcvNEw.bGVQzUuujWU6rLf0EjQjsFkc4Wqls8jLukZyGuKytqL
+ dh_Z8c9Zf0rrHDc9kn8CUEH6yW8vQ.IU3j_8M9sqwcEFNBUxM_pKFonyYiefVrS2wuNCF9LFOo9H
+ J4pkH9o9bgw_RZkL6d3mSF7MxsphaB674FWhT5LsU01ow3dT_zPR9EtXNaCrUORMXOpK4E0FRePv
+ ePR7x58rOp5hOM6CsWTlMUz22ticI5JMVSTnnxZ9qY4qV4hz1wk3wXX1M5wH.sL0cs5u0sEhdOv2
+ 0uYLMPThGLMjypJ8DgoKy5jvKP_XRh..pUTAgWukQl3ZGQU4z9FiKczlJmP68DgJujPmz7NDuMl9
+ g7MUHvurn1qAEbPB8.gC6_6jcQ8_56P_eilfoDRnahUx0ck8UrvRW8Oze3gtM73KXF02jc86jA4r
+ W4K8lutrwJklJURSKqPmmcbeG216_KpDS8T1719aAcvW5Tk.SnJZj.hc.agQwAmA_7Rit3gUiyD.
+ AehU5nhlSK3yyIyEHHelCr5_OUjo3.jpcUpSWbYH8Cfman3YP1ar1JVoUpJnRduyTOdTkfpkxYtD
+ tMGIgm.y9Br6O1zUb2yJeK1OIHLCdiwWFjHtszf3KLW4Bd9INg6AiHkI.xcp8B.llW76RS3Gu_4p
+ p0lczG6igY_YccY9WpO3UWKoBnDkfCJTA2UG2OAJWCKekvX8dxKFM2NuiRxru.scv.F02M_q_rpr
+ Mm4qKifUz_tvWG7doSqIF1w7SZKAvUrO5ae8_PrmVRAVfNdDjTiM9Mz1dBDDYYTJP61UuYK30dF8
+ rmBnuBj6Hlr6qhiOzZ1AqEbIDHf5a8Ql8ThFmBnhX_KgPh2fCZUfnCTiAFeLfezcMjSfrvJGTt1j
+ Lk0nEZ54Mk3dgr7dmtWj78NpyLexkpgadK46RFCcxbcVwbV5oth85MUDfpzjs2a8hBbxIlbYe6sP
+ VzhXCB2d4ikiSZKujTWA1bCn29e3FmzkRck1xLXGqEUorxE3W_hoxNiwiQT4.OvfHXVIwl1uTbJv
+ fVnAAA9bDYOPJfM.qUFg6I.hMAWUuAbX4Sa5dpQ6XBzElFXQYto.gxz2s0ndRtkZqWDg.rmjz7Ix
+ 8kFcpwWWI3W8tBFJnLH4epcIuNB0Ci0O3UBl8nT7Z.GiZqzGOSpFfOF.xh2OjF94w.3ny3deBjcz
+ oRH_.wG7Z_ShX0HUPB0WVhgMdMHINt6nnc.73Bb2oGp4QcvcEL9_38kUv6_1Xl5XbtazSI6dF5Su
+ kcvhsW83eF8waehk53pnjrm1Ggu3.8Qvm4ff96EyLeXBIZlN5FPLSJYEjv.Xyj3dDIBgBhBL6AeM
+ mZoZU.guVe4Np.ZM.dHFZ4PthbDqyImUY38iRLV7ScJR1TT4rJG7aMg55kdy.b22DlYjJoAetS7E
+ BAyBFsiE.oxWGtpt9SJuKcib4r0ou6IqbT2x4sgdZG_NkaXA1mPMs0ck56eGeXA--
+X-Sonic-MF: <bo.dincer@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic317.consmr.mail.gq1.yahoo.com with HTTP; Sun, 10 Apr 2022 07:34:44 +0000
+Date: Sun, 10 Apr 2022 07:34:41 +0000 (UTC)
+From: Bo Dincer <bo.dincer@yahoo.com>
+Reply-To: "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+To: MILTON MCKENZIE <ms60710444266@yahoo.com>
+Message-ID: <256263370.255826.1649576081409@mail.yahoo.com>
+Subject: Fw: Winning Ugly | Municipal Strategy Playbook
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_255825_1301190932.1649576081404"
+References: <256263370.255826.1649576081409.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.20048 YahooMailAndroidMobile
+Content-Length: 34232
+
+------=_Part_255825_1301190932.1649576081404
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Sent from Yahoo Mail on Android=20
+=20
+   ----- Forwarded Message ----- From: "Brooks, Colin" <Colin.Brooks@morgan=
+stanley.com> To:  Cc:  Sent: Tue, Oct 6, 2015 at 7:39 AM Subject: Winning U=
+gly | Municipal Strategy Playbook   #yiv0054078121 P.yiv00540781218737c27c-=
+b4ad-4567-a8b2-a400b4f54205 {MARGIN:0cm 0cm 0pt;}#yiv0054078121 LI.yiv00540=
+781218737c27c-b4ad-4567-a8b2-a400b4f54205 {MARGIN:0cm 0cm 0pt;}#yiv00540781=
+21 DIV.yiv00540781218737c27c-b4ad-4567-a8b2-a400b4f54205 {MARGIN:0cm 0cm 0p=
+t;}#yiv0054078121 TABLE.yiv00540781218737c27c-b4ad-4567-a8b2-a400b4f54205Ta=
+ble {MARGIN:0cm 0cm 0pt;}#yiv0054078121 DIV.yiv0054078121Section1 {}=20
+Untitled Document<!--#yiv0054078121 _filtered {} _filtered {}#yiv0054078121=
+ #yiv0054078121 p.yiv0054078121MsoNormal, #yiv0054078121 li.yiv0054078121Ms=
+oNormal, #yiv0054078121 div.yiv0054078121MsoNormal {margin:0in;margin-botto=
+m:.0001pt;font-size:12.0pt;font-family:"Times New Roman", "serif";}#yiv0054=
+078121 h1 {margin-right:0in;margin-left:0in;font-size:24.0pt;font-family:"T=
+imes New Roman", "serif";font-weight:bold;}#yiv0054078121 h2 {margin-right:=
+0in;margin-left:0in;font-size:18.0pt;font-family:"Times New Roman", "serif"=
+;font-weight:bold;}#yiv0054078121 h5 {margin-right:0in;margin-left:0in;font=
+-size:10.0pt;font-family:"Times New Roman", "serif";font-weight:bold;}#yiv0=
+054078121 a:link, #yiv0054078121 span.yiv0054078121MsoHyperlink {color:#3B9=
+5D8;text-decoration:underline;}#yiv0054078121 a:visited, #yiv0054078121 spa=
+n.yiv0054078121MsoHyperlinkFollowed {color:#555555;text-decoration:underlin=
+e;}#yiv0054078121 p {margin-right:0in;margin-left:0in;font-size:12.0pt;font=
+-family:"Times New Roman", "serif";}#yiv0054078121 span.yiv0054078121Headin=
+g1Char {font-family:"Cambria", "serif";color:#365F91;font-weight:bold;}#yiv=
+0054078121 span.yiv0054078121Heading2Char {font-family:"Cambria", "serif";c=
+olor:#4F81BD;font-weight:bold;}#yiv0054078121 span.yiv0054078121Heading5Cha=
+r {font-family:"Cambria", "serif";color:#243F60;}#yiv0054078121 p.yiv005407=
+8121less, #yiv0054078121 li.yiv0054078121less, #yiv0054078121 div.yiv005407=
+8121less {margin-right:0in;margin-left:0in;font-size:12.0pt;font-family:"Ti=
+mes New Roman", "serif";}#yiv0054078121 p.yiv0054078121symbol, #yiv00540781=
+21 li.yiv0054078121symbol, #yiv0054078121 div.yiv0054078121symbol {margin-r=
+ight:0in;margin-left:0in;font-size:12.0pt;font-family:"Times New Roman", "s=
+erif";color:#555555;}#yiv0054078121 p.yiv0054078121blue, #yiv0054078121 li.=
+yiv0054078121blue, #yiv0054078121 div.yiv0054078121blue {margin-right:0in;m=
+argin-left:0in;font-size:12.0pt;font-family:"Times New Roman", "serif";colo=
+r:#005A8B;}#yiv0054078121 p.yiv0054078121top, #yiv0054078121 li.yiv00540781=
+21top, #yiv0054078121 div.yiv0054078121top {margin-top:0in;margin-right:0in=
+;margin-left:0in;font-size:12.0pt;font-family:"Times New Roman", "serif";}#=
+yiv0054078121 p.yiv0054078121department, #yiv0054078121 li.yiv0054078121dep=
+artment, #yiv0054078121 div.yiv0054078121department {margin-right:0in;margi=
+n-left:0in;font-size:9.0pt;font-family:"Times New Roman", "serif";}#yiv0054=
+078121 p.yiv0054078121divider, #yiv0054078121 li.yiv0054078121divider, #yiv=
+0054078121 div.yiv0054078121divider {margin-right:0in;margin-left:0in;font-=
+size:12.0pt;font-family:"Times New Roman", "serif";color:#555555;}#yiv00540=
+78121 p.yiv0054078121bold, #yiv0054078121 li.yiv0054078121bold, #yiv0054078=
+121 div.yiv0054078121bold {margin-right:0in;margin-left:0in;font-size:12.0p=
+t;font-family:"Times New Roman", "serif";font-weight:bold;}#yiv0054078121 p=
+.yiv0054078121bold-gray, #yiv0054078121 li.yiv0054078121bold-gray, #yiv0054=
+078121 div.yiv0054078121bold-gray {margin-right:0in;margin-left:0in;font-si=
+ze:12.0pt;font-family:"Times New Roman", "serif";color:#555555;font-weight:=
+bold;}#yiv0054078121 p.yiv0054078121less1, #yiv0054078121 li.yiv0054078121l=
+ess1, #yiv0054078121 div.yiv0054078121less1 {margin-top:0in;margin-right:0i=
+n;margin-bottom:2.0pt;margin-left:0in;font-size:12.0pt;font-family:"Times N=
+ew Roman", "serif";}#yiv0054078121 p.yiv0054078121blue1, #yiv0054078121 li.=
+yiv0054078121blue1, #yiv0054078121 div.yiv0054078121blue1 {margin-top:0in;m=
+argin-right:0in;margin-bottom:12.0pt;margin-left:0in;font-size:12.0pt;font-=
+family:"Times New Roman", "serif";color:#005A8B;}#yiv0054078121 span.yiv005=
+4078121divider1 {color:#555555;}#yiv0054078121 p.yiv0054078121notes, #yiv00=
+54078121 li.yiv0054078121notes, #yiv0054078121 div.yiv0054078121notes {marg=
+in-right:0in;margin-left:0in;font-size:12.0pt;font-family:"Times New Roman"=
+, "serif";}#yiv0054078121 span.yiv0054078121EmailStyle34 {font-family:"Cali=
+bri", "sans-serif";color:#1F497D;}#yiv0054078121 .yiv0054078121MsoChpDefaul=
+t {font-size:10.0pt;} _filtered {}#yiv0054078121 div.yiv0054078121WordSecti=
+on1 {}-->
+
+
+ =C2=A0
+=20
+|=20
+
+  |=20
+
+  |=20
+
+  |=20
+
+  |=20
+
+  |
+|=20
+=C2=A0
+  |=20
+=C2=A0
+  |=20
+=C2=A0
+  |=20
+
+  |=20
+
+  |
+|=20
+=C2=A0
+  |=20
+OCTOBER 6, 2015 GMT
+=20
+Municipal Strategy Playbook
+  |=20
+=C2=A0
+  |=20
+=C2=A0
+  |=20
+
+  |
+|=20
+
+  |=20
+
+  |=20
+
+  |=20
+
+  |=20
+
+  |
+|=20
+=C2=A0
+  |=20
+Winning Ugly
+=20
+ =C2=A0
+=20
+Download the complete report (39 pgs)=20
+=20
+Munis May Outperform, but it Won=E2=80=99t Be Pretty=C2=A0
+=20
+We do not see good total returns prospects for Q4, but excess returns prosp=
+ects relative to Treasuries look somewhat better. =C2=A0Despite the relativ=
+e attractiveness of alternative income investments, munis=E2=80=99 tax valu=
+e remains attractive given three key trends: 1) Morgan Stanley expected the=
+ US economy should grow slower than expected, but for longer, extending fun=
+damental credit stability; 2) Interest rates should be range-bound on the l=
+ong-end given slower growth even if the Fed hikes; 3) The persistent value =
+relative to Treasuries despite systemic risks from Puerto Rico, net supply,=
+ and rising rates not materializing. =C2=A0=C2=A0
+=20
+=C2=A0=20
+=20
+=C2=A0=20
+=20
+For additional information, please contact:=C2=A0
+=20
+=C2=A0
+=20
+Michael Zezas, CFA =C2=A0(1 212) 761-8609
+=C2=A0=20
+=20
+=C2=A0
+=20
+=C2=A0
+=20
+The Primary Analysts identified above certify that the views expressed in t=
+his report accurately reflect his/her/their personal views about the subjec=
+t securities/instruments/ issuers, and no part of his/her/their compensatio=
+n was, is or will be directly or indirectly related to the specific views o=
+r recommendations contained herein.=C2=A0
+=20
+Download the complete report (39 pgs)=20
+=20
+Read Morgan Stanley Research anytime, anywhere
+iPad, iPhone, and Android: visit the Apple App Store or Android Market and =
+download the Morgan Stanley Research app
+  |  |=20
+Morgan Stanley Research
+North America
+=20
+Michael D Zezas
++1 212 761-8609=20
+=20
+Spencer Chang
++1 212 296-5933=20
+=20
+Mark T Schmidt
++1 212 296-8702=20
+=20
+
+
+
+
+=20
+Global Cross-Asset Directory=20
+=20
+Ask the Author a Question
+=20
+Remove me from this distribution=20
+  |  |
+|=20
+=C2=A0
+  |=20
+For important information including analyst certification and disclosures r=
+egarding specific companies, derivatives, or other instruments discussed in=
+ this e-mail, please refer to the latest research report, if attached and/o=
+r hyperlinked to this email, or by logging on to Morgan Stanley's Matrix po=
+rtal athttp://www.morganstanley.com/matrix. You may also refer to the Morga=
+n Stanley Research Disclosure Website athttp://www.morganstanley.com/eqr/di=
+sclosures/webapp/generalresearch.
+=20
+Morgan Stanley will make certain research products and announcements availa=
+ble only on Morgan Stanley's Matrix platform. For access to Matrix, please =
+contact your sales representative or go to Matrix at http://www.morganstanl=
+ey.com/matrix.
+=20
+Morgan Stanley is not acting as a municipal advisor and the opinions or vie=
+ws contained herein are not intended to be, and do not constitute, advice w=
+ithin the meaning of Section 975 of the Dodd-Frank Wall Street Reform and C=
+onsumer Protection Act. If you have received this communication in error, p=
+lease destroy all electronic and paper copies and notify the sender immedia=
+tely. Mistransmission is not intended to waive confidentiality or privilege=
+. Morgan Stanley reserves the right, to the extent permitted under applicab=
+le law, to monitor electronic communications. This message is subject to te=
+rms available at the following link:http://www.morganstanley.com/disclaimer=
+s. If you cannot access these links, please notify us by reply message and =
+we will send the contents to you. By messaging with Morgan Stanley you cons=
+ent to the foregoing.
+  |
+
+
+ =C2=A0
+=20
+
+
+Important Notice to Recipients:
+=C2=A0
+The sender of this e-mail is an employee of Morgan Stanley Smith Barney LLC=
+ ("Morgan Stanley").=C2=A0 If you have received this communication in error=
+, please destroy all electronic and paper copies and notify the sender imme=
+diately. Erroneous transmission is not intended to waive confidentiality or=
+ privilege.=C2=A0 Morgan Stanley reserves the right, to the extent permitte=
+d under applicable law, to monitor electronic communications. This message =
+is subject to terms available at the followinglink: http://www.morganstanle=
+y.com/disclaimers/mssbemail.html If you cannot access this link, please not=
+ify us by reply message and we will send the contents to you.=C2=A0 By comm=
+unicating with Morgan Stanley you consent to the foregoing and to the voice=
+ recording of telephone conversations with personnel of Morgan Stanley and =
+its affiliates.
+
+
+
+
+
+
+
+
+
+
+This message contains confidential information and is intended only for the=
+ individual named. If you are not the named addressee you should not dissem=
+inate, distribute or copy this e-mail. Please notify the sender immediately=
+ by e-mail if you have received this e-mail by mistake and delete this e-ma=
+il from your system. E-mail transmission cannot be guaranteed to be secure =
+or error-free as information could be intercepted, corrupted, lost, destroy=
+ed, arrive late or incomplete, or contain viruses. The sender therefore doe=
+s not accept liability for any errors or omissions in the contents of this =
+message, which arise as a result of e-mail transmission. If verification is=
+ required please request a hard-copy version.
+ =20
+------=_Part_255825_1301190932.1649576081404
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<br><br><div id=3D"ymail_android_signature"><a id=3D"ymail_android_signatur=
+e_link" href=3D"https://go.onelink.me/107872968?pid=3DInProduct&amp;c=3DGlo=
+bal_Internal_YGrowth_AndroidEmailSig__AndroidUsers&amp;af_wl=3Dym&amp;af_su=
+b1=3DInternal&amp;af_sub2=3DGlobal_YGrowth&amp;af_sub3=3DEmailSignature" ta=
+rget=3D"_blank" rel=3D"noreferrer noopener">Sent from Yahoo Mail on Android=
+</a></div> <br> <blockquote style=3D"margin: 0 0 20px 0;"> <div style=3D"pa=
+dding: 10px 0 0 20px; margin: 10px 0 0 0; border-left: 1px solid #6D00F6;">=
+ <div style=3D"font-family:Roboto, sans-serif; color:#6D00F6;"> <div>----- =
+Forwarded Message -----</div> <div><b>From:</b> "Brooks, Colin" &lt;Colin.B=
+rooks@morganstanley.com&gt;</div> <div><b>To:</b> </div> <div style=3D"disp=
+lay:none"><b>Cc:</b> </div> <div><b>Sent:</b> Tue, Oct 6, 2015 at 7:39 AM</=
+div> <div><b>Subject:</b> Winning Ugly | Municipal Strategy Playbook</div> =
+</div>  <div id=3D"yiv0054078121">
+
+
+=20
+<style type=3D"text/css">#yiv0054078121 P.yiv00540781218737c27c-b4ad-4567-a=
+8b2-a400b4f54205 {
+MARGIN:0cm 0cm 0pt;}
+#yiv0054078121 LI.yiv00540781218737c27c-b4ad-4567-a8b2-a400b4f54205 {
+MARGIN:0cm 0cm 0pt;}
+#yiv0054078121 DIV.yiv00540781218737c27c-b4ad-4567-a8b2-a400b4f54205 {
+MARGIN:0cm 0cm 0pt;}
+#yiv0054078121 TABLE.yiv00540781218737c27c-b4ad-4567-a8b2-a400b4f54205Table=
+ {
+MARGIN:0cm 0cm 0pt;}
+#yiv0054078121 DIV.yiv0054078121Section1 {
+}
+</style>
+=20
+
+<title>Untitled Document</title>
+<style><!--
+#yiv0054078121 =20
+ _filtered {}
+ _filtered {}
+#yiv0054078121 =20
+#yiv0054078121 p.yiv0054078121MsoNormal, #yiv0054078121 li.yiv0054078121Mso=
+Normal, #yiv0054078121 div.yiv0054078121MsoNormal
+=09{margin:0in;margin-bottom:.0001pt;font-size:12.0pt;font-family:"Times Ne=
+w Roman", "serif";}
+#yiv0054078121 h1
+=09{margin-right:0in;margin-left:0in;font-size:24.0pt;font-family:"Times Ne=
+w Roman", "serif";font-weight:bold;}
+#yiv0054078121 h2
+=09{margin-right:0in;margin-left:0in;font-size:18.0pt;font-family:"Times Ne=
+w Roman", "serif";font-weight:bold;}
+#yiv0054078121 h5
+=09{margin-right:0in;margin-left:0in;font-size:10.0pt;font-family:"Times Ne=
+w Roman", "serif";font-weight:bold;}
+#yiv0054078121 a:link, #yiv0054078121 span.yiv0054078121MsoHyperlink
+=09{color:#3B95D8;text-decoration:underline;}
+#yiv0054078121 a:visited, #yiv0054078121 span.yiv0054078121MsoHyperlinkFoll=
+owed
+=09{color:#555555;text-decoration:underline;}
+#yiv0054078121 p
+=09{margin-right:0in;margin-left:0in;font-size:12.0pt;font-family:"Times Ne=
+w Roman", "serif";}
+#yiv0054078121 span.yiv0054078121Heading1Char
+=09{font-family:"Cambria", "serif";color:#365F91;font-weight:bold;}
+#yiv0054078121 span.yiv0054078121Heading2Char
+=09{font-family:"Cambria", "serif";color:#4F81BD;font-weight:bold;}
+#yiv0054078121 span.yiv0054078121Heading5Char
+=09{font-family:"Cambria", "serif";color:#243F60;}
+#yiv0054078121 p.yiv0054078121less, #yiv0054078121 li.yiv0054078121less, #y=
+iv0054078121 div.yiv0054078121less
+=09{margin-right:0in;margin-left:0in;font-size:12.0pt;font-family:"Times Ne=
+w Roman", "serif";}
+#yiv0054078121 p.yiv0054078121symbol, #yiv0054078121 li.yiv0054078121symbol=
+, #yiv0054078121 div.yiv0054078121symbol
+=09{margin-right:0in;margin-left:0in;font-size:12.0pt;font-family:"Times Ne=
+w Roman", "serif";color:#555555;}
+#yiv0054078121 p.yiv0054078121blue, #yiv0054078121 li.yiv0054078121blue, #y=
+iv0054078121 div.yiv0054078121blue
+=09{margin-right:0in;margin-left:0in;font-size:12.0pt;font-family:"Times Ne=
+w Roman", "serif";color:#005A8B;}
+#yiv0054078121 p.yiv0054078121top, #yiv0054078121 li.yiv0054078121top, #yiv=
+0054078121 div.yiv0054078121top
+=09{margin-top:0in;margin-right:0in;margin-left:0in;font-size:12.0pt;font-f=
+amily:"Times New Roman", "serif";}
+#yiv0054078121 p.yiv0054078121department, #yiv0054078121 li.yiv0054078121de=
+partment, #yiv0054078121 div.yiv0054078121department
+=09{margin-right:0in;margin-left:0in;font-size:9.0pt;font-family:"Times New=
+ Roman", "serif";}
+#yiv0054078121 p.yiv0054078121divider, #yiv0054078121 li.yiv0054078121divid=
+er, #yiv0054078121 div.yiv0054078121divider
+=09{margin-right:0in;margin-left:0in;font-size:12.0pt;font-family:"Times Ne=
+w Roman", "serif";color:#555555;}
+#yiv0054078121 p.yiv0054078121bold, #yiv0054078121 li.yiv0054078121bold, #y=
+iv0054078121 div.yiv0054078121bold
+=09{margin-right:0in;margin-left:0in;font-size:12.0pt;font-family:"Times Ne=
+w Roman", "serif";font-weight:bold;}
+#yiv0054078121 p.yiv0054078121bold-gray, #yiv0054078121 li.yiv0054078121bol=
+d-gray, #yiv0054078121 div.yiv0054078121bold-gray
+=09{margin-right:0in;margin-left:0in;font-size:12.0pt;font-family:"Times Ne=
+w Roman", "serif";color:#555555;font-weight:bold;}
+#yiv0054078121 p.yiv0054078121less1, #yiv0054078121 li.yiv0054078121less1, =
+#yiv0054078121 div.yiv0054078121less1
+=09{margin-top:0in;margin-right:0in;margin-bottom:2.0pt;margin-left:0in;fon=
+t-size:12.0pt;font-family:"Times New Roman", "serif";}
+#yiv0054078121 p.yiv0054078121blue1, #yiv0054078121 li.yiv0054078121blue1, =
+#yiv0054078121 div.yiv0054078121blue1
+=09{margin-top:0in;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;fo=
+nt-size:12.0pt;font-family:"Times New Roman", "serif";color:#005A8B;}
+#yiv0054078121 span.yiv0054078121divider1
+=09{color:#555555;}
+#yiv0054078121 p.yiv0054078121notes, #yiv0054078121 li.yiv0054078121notes, =
+#yiv0054078121 div.yiv0054078121notes
+=09{margin-right:0in;margin-left:0in;font-size:12.0pt;font-family:"Times Ne=
+w Roman", "serif";}
+#yiv0054078121 span.yiv0054078121EmailStyle34
+=09{font-family:"Calibri", "sans-serif";color:#1F497D;}
+#yiv0054078121 .yiv0054078121MsoChpDefault
+=09{font-size:10.0pt;}
+ _filtered {}
+#yiv0054078121 div.yiv0054078121WordSection1
+=09{}
+--></style>
+
+<div>
+<p></p>
+<div class=3D"yiv0054078121WordSection1">
+<p class=3D"yiv0054078121MsoNormal"> &nbsp;</p>=20
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" width=3D"750" style=
+=3D"width:562.5pt;" class=3D"yiv0054078121MsoNormalTable">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 0in;">
+<p><span style=3D"font-size:9.0pt;color:black;"><img width=3D"25" height=3D=
+"1" id=3D"yiv0054078121_x0000_i1025" src=3D"http://www.morganstanley.com/im=
+g/cs/spacer.gif"></span></p>=20
+</td>
+<td valign=3D"top" style=3D"background:#005A8B;padding:0in 0in 0in 0in;">
+<p><span style=3D"font-size:9.0pt;color:black;"><img width=3D"475" height=
+=3D"1" id=3D"yiv0054078121_x0000_i1026" src=3D"http://www.morganstanley.com=
+/img/cs/spacer.gif"></span></p>=20
+</td>
+<td valign=3D"top" style=3D"background:#005A8B;padding:0in 0in 0in 0in;">
+<p><span style=3D"font-size:9.0pt;color:black;"><img width=3D"15" height=3D=
+"1" id=3D"yiv0054078121_x0000_i1027" src=3D"http://www.morganstanley.com/im=
+g/cs/spacer.gif"></span></p>=20
+</td>
+<td valign=3D"top" style=3D"background:#005A8B;padding:0in 0in 0in 0in;">
+<p><span style=3D"font-size:9.0pt;color:black;"><img width=3D"225" height=
+=3D"1" id=3D"yiv0054078121_x0000_i1028" src=3D"http://www.morganstanley.com=
+/img/cs/spacer.gif"></span></p>=20
+</td>
+<td valign=3D"top" style=3D"background:#005A8B;padding:0in 0in 0in 0in;">
+<p><span style=3D"font-size:9.0pt;color:black;"><img width=3D"1" height=3D"=
+1" id=3D"yiv0054078121_x0000_i1029" src=3D"http://www.morganstanley.com/img=
+/cs/spacer.gif"></span></p>=20
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 0in;">
+<p class=3D"yiv0054078121MsoNormal"><span style=3D"font-size:9.0pt;color:bl=
+ack;">&nbsp;</span></p>=20
+</td>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 0in;">
+<p class=3D"yiv0054078121MsoNormal"><span style=3D"font-size:9.0pt;color:bl=
+ack;">&nbsp;
+</span></p>=20
+</td>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 0in;">
+<p class=3D"yiv0054078121MsoNormal"><span style=3D"font-size:9.0pt;color:bl=
+ack;">&nbsp;</span></p>=20
+</td>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 0in;">
+<p class=3D"yiv0054078121MsoNormal"><span style=3D"font-size:9.0pt;color:bl=
+ack;"><img width=3D"207" height=3D"50" id=3D"yiv0054078121_x0000_i1030" src=
+=3D"http://www.morganstanley.com/cs/ms-logo-gray-999.gif" alt=3D"morgan sta=
+nley"></span></p>=20
+</td>
+<td valign=3D"top" style=3D"background:#005A8B;padding:0in 0in 0in 0in;">
+<p class=3D"yiv0054078121MsoNormal"><span style=3D"font-size:9.0pt;color:bl=
+ack;"><img width=3D"1" height=3D"50" id=3D"yiv0054078121_x0000_i1031" src=
+=3D"http://www.morganstanley.com/img/cs/spacer.gif"></span></p>=20
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 0in;">
+<p class=3D"yiv0054078121MsoNormal"><span style=3D"font-size:9.0pt;color:bl=
+ack;">&nbsp;</span></p>=20
+</td>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 0in;">
+<p style=3D"line-height:10.0pt;" class=3D"yiv0054078121MsoNormal"><b><span =
+style=3D"font-size:8.0pt;color:#005A8B;letter-spacing:3.6pt;">OCTOBER 6, 20=
+15 GMT</span></b></p>=20
+<p style=3D"margin-bottom:7.5pt;" class=3D"yiv0054078121MsoNormal"><b><span=
+ style=3D"font-size:17.0pt;color:#005A8B;">Municipal Strategy Playbook
+</span></b></p>=20
+</td>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 0in;">
+<p class=3D"yiv0054078121MsoNormal"><span style=3D"font-size:9.0pt;color:bl=
+ack;">&nbsp;</span></p>=20
+</td>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 0in;">
+<p class=3D"yiv0054078121MsoNormal"><span style=3D"font-size:9.0pt;color:bl=
+ack;">&nbsp;</span></p>=20
+</td>
+<td valign=3D"top" style=3D"background:#005A8B;padding:0in 0in 0in 0in;">
+<p class=3D"yiv0054078121MsoNormal"><span style=3D"font-size:9.0pt;color:bl=
+ack;"><img width=3D"1" height=3D"1" id=3D"yiv0054078121_x0000_i1032" src=3D=
+"http://www.morganstanley.com/img/cs/spacer.gif"></span></p>=20
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 0in;">
+<p class=3D"yiv0054078121MsoNormal"><span style=3D"font-size:9.0pt;color:bl=
+ack;"><img width=3D"25" height=3D"1" id=3D"yiv0054078121_x0000_i1033" src=
+=3D"http://www.morganstanley.com/img/cs/spacer.gif"></span></p>=20
+</td>
+<td valign=3D"top" style=3D"background:#005A8B;padding:0in 0in 0in 0in;">
+<p class=3D"yiv0054078121MsoNormal"><span style=3D"font-size:9.0pt;color:bl=
+ack;"><img width=3D"475" height=3D"1" id=3D"yiv0054078121_x0000_i1034" src=
+=3D"http://www.morganstanley.com/img/cs/spacer.gif"></span></p>=20
+</td>
+<td valign=3D"top" style=3D"background:#005A8B;padding:0in 0in 0in 0in;">
+<p class=3D"yiv0054078121MsoNormal"><span style=3D"font-size:9.0pt;color:bl=
+ack;"><img width=3D"15" height=3D"1" id=3D"yiv0054078121_x0000_i1035" src=
+=3D"http://www.morganstanley.com/img/cs/spacer.gif"></span></p>=20
+</td>
+<td valign=3D"top" style=3D"background:#005A8B;padding:0in 0in 0in 0in;">
+<p class=3D"yiv0054078121MsoNormal"><span style=3D"font-size:9.0pt;color:bl=
+ack;"><img width=3D"225" height=3D"1" id=3D"yiv0054078121_x0000_i1036" src=
+=3D"http://www.morganstanley.com/img/cs/spacer.gif"></span></p>=20
+</td>
+<td valign=3D"top" style=3D"background:#005A8B;padding:0in 0in 0in 0in;">
+<p class=3D"yiv0054078121MsoNormal"><span style=3D"font-size:9.0pt;color:bl=
+ack;"><img width=3D"1" height=3D"1" id=3D"yiv0054078121_x0000_i1037" src=3D=
+"http://www.morganstanley.com/img/cs/spacer.gif"></span></p>=20
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 0in;">
+<p class=3D"yiv0054078121MsoNormal"><span style=3D"font-size:9.0pt;color:bl=
+ack;">&nbsp;</span></p>=20
+</td>
+<td valign=3D"top" style=3D"padding:18.75pt 0in 0in 0in;">
+<p style=3D"" class=3D"yiv0054078121MsoNormal"><b><span style=3D"font-size:=
+14.0pt;color:black;">Winning Ugly</span></b></p>=20
+<p class=3D"yiv0054078121MsoNormal"><span style=3D"font-size:9.0pt;color:bl=
+ack;"> &nbsp;</span></p>=20
+<p><a name=3D"link" target=3D"_blank" rel=3D"noreferrer noopener"></a><a hr=
+ef=3D"https://ny.matrix.ms.com/eqr/article/webapp/94c9369c-6bc7-11e5-985a-8=
+70b71bb10aa?t=3D1444125681%3A1157%3A26965%3Avmias1106668&amp;m=3D1&amp;ch=
+=3Dautob" target=3D"_blank" rel=3D"noreferrer noopener"><span style=3D"font=
+-size:9.0pt;">Download the complete report</span></a><span style=3D"font-si=
+ze:9.0pt;color:black;">
+ (39 pgs) </span></p>=20
+<p style=3D"margin-right:0in;margin-bottom:0in;margin-left:0in;margin-botto=
+m:.0001pt;">
+<b><span style=3D"font-size:9.5pt;color:#4F81BD;">Munis May Outperform, but=
+ it Won=E2=80=99t Be Pretty</span></b><span style=3D"font-size:9.5pt;color:=
+black;">&nbsp;
+</span></p>=20
+<p style=3D"margin-right:0in;margin-bottom:0in;margin-left:0in;margin-botto=
+m:.0001pt;">
+<span style=3D"font-size:9.0pt;color:#4F81BD;">We do not see good total ret=
+urns prospects for Q4, but excess returns prospects relative to Treasuries =
+look somewhat better. &nbsp;Despite the relative attractiveness of alternat=
+ive income
+ investments, munis=E2=80=99 tax value remains attractive given three key t=
+rends: 1) Morgan Stanley expected the US economy should grow slower than ex=
+pected, but for longer, extending fundamental credit stability; 2) Interest=
+ rates should be range-bound on the long-end
+ given slower growth even if the Fed hikes; 3) The persistent value relativ=
+e to Treasuries despite systemic risks from Puerto Rico, net supply, and ri=
+sing rates not materializing. &nbsp;</span><span style=3D"font-size:9.0pt;c=
+olor:black;">&nbsp;
+</span></p>=20
+<p style=3D"margin-right:0in;margin-bottom:10.5pt;margin-left:0in;">
+<span style=3D"font-size:10.0pt;color:black;">&nbsp;=20
+</span></p>=20
+<p style=3D"margin-right:0in;margin-bottom:0in;margin-left:0in;margin-botto=
+m:.0001pt;">
+<span style=3D"color:black;">&nbsp; </span></p>=20
+<p style=3D"margin:0in;margin-bottom:.0001pt;"><b><span style=3D"font-size:=
+10.0pt;color:black;">For additional information, please contact:</span></b>=
+<span style=3D"font-size:10.0pt;color:black;">&nbsp;
+</span></p>=20
+<p style=3D"margin:0in;margin-bottom:.0001pt;"><span style=3D"font-size:10.=
+0pt;color:black;">&nbsp;
+</span></p>=20
+<p style=3D"margin:0in;margin-bottom:.0001pt;"><a ymailto=3D"mailto:michael=
+.zezas@morganstanley.com?subject=3DMorgan%20Stanley%20Muni%20Strategy" href=
+=3D"mailto:michael.zezas@morganstanley.com?subject=3DMorgan%20Stanley%20Mun=
+i%20Strategy" target=3D"_blank" rel=3D"noreferrer noopener"><span style=3D"=
+font-size:10.0pt;color:blue;">Michael Zezas</span></a><span style=3D"font-s=
+ize:10.0pt;color:black;">,
+ CFA &nbsp;(1 212) 761-8609<br>
+&nbsp; </span></p>=20
+<p style=3D"margin:0in;margin-bottom:.0001pt;"><span style=3D"font-size:10.=
+0pt;color:black;">&nbsp;
+</span></p>=20
+<p style=3D"margin:0in;margin-bottom:.0001pt;"><span style=3D"font-size:10.=
+0pt;color:black;">&nbsp;
+</span></p>=20
+<p style=3D"margin:0in;margin-bottom:.0001pt;"><span style=3D"font-size:10.=
+0pt;color:black;">The Primary Analysts identified above certify that the vi=
+ews expressed in this report accurately reflect his/her/their personal view=
+s about
+ the subject securities/instruments/ issuers, and no part of his/her/their =
+compensation was, is or will be directly or indirectly related to the speci=
+fic views or recommendations contained herein.&nbsp;
+</span></p>=20
+<p><a href=3D"https://ny.matrix.ms.com/eqr/article/webapp/94c9369c-6bc7-11e=
+5-985a-870b71bb10aa?t=3D1444125681%3A1157%3A26965%3Avmias1106668&amp;m=3D1&=
+amp;ch=3Dautob" target=3D"_blank" rel=3D"noreferrer noopener"><span style=
+=3D"font-size:9.0pt;">Download the complete report</span></a><span style=3D=
+"font-size:9.0pt;color:black;">
+ (39 pgs) </span></p>=20
+<p><strong><span style=3D"font-size:9.0pt;color:black;">Read Morgan Stanley=
+ Research anytime, anywhere</span></strong><b><span style=3D"font-size:9.0p=
+t;color:black;"><br>
+<strong><span style=3D"">iPad, iPhone, and Android</span></strong></span></=
+b><span style=3D"font-size:9.0pt;color:black;">: visit the Apple App Store =
+or Android Market and download the Morgan Stanley
+ Research app</span></p>=20
+</td>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 0in;"></td>
+<td valign=3D"top" style=3D"padding:18.75pt 0in 0in 0in;">
+<p class=3D"yiv0054078121blue1"><span style=3D"font-size:8.0pt;">Morgan Sta=
+nley Research<br>
+<strong><span style=3D"">North America</span></strong>
+</span></p>=20
+<p class=3D"yiv0054078121less1"><span style=3D"font-size:8.0pt;color:black;=
+"><a ymailto=3D"mailto:Michael.Zezas@morganstanley.com?subject=3DRe:Winning=
+%20Ugly%20%7C%20Municipal%20Strategy%20Playbook" href=3D"mailto:Michael.Zez=
+as@morganstanley.com?subject=3DRe:Winning%20Ugly%20%7C%20Municipal%20Strate=
+gy%20Playbook" target=3D"_blank" rel=3D"noreferrer noopener">Michael D Zeza=
+s</a>
+<br>
++1 212 761-8609 </span></p>=20
+<p class=3D"yiv0054078121less1"><span style=3D"font-size:8.0pt;color:black;=
+"><a ymailto=3D"mailto:Spencer.Chang@morganstanley.com?subject=3DRe:Winning=
+%20Ugly%20%7C%20Municipal%20Strategy%20Playbook" href=3D"mailto:Spencer.Cha=
+ng@morganstanley.com?subject=3DRe:Winning%20Ugly%20%7C%20Municipal%20Strate=
+gy%20Playbook" target=3D"_blank" rel=3D"noreferrer noopener">Spencer Chang<=
+/a>
+<br>
++1 212 296-5933 </span></p>=20
+<p class=3D"yiv0054078121less1"><span style=3D"font-size:8.0pt;color:black;=
+"><a ymailto=3D"mailto:Mark.Schmidt1@morganstanley.com?subject=3DRe:Winning=
+%20Ugly%20%7C%20Municipal%20Strategy%20Playbook" href=3D"mailto:Mark.Schmid=
+t1@morganstanley.com?subject=3DRe:Winning%20Ugly%20%7C%20Municipal%20Strate=
+gy%20Playbook" target=3D"_blank" rel=3D"noreferrer noopener">Mark T Schmidt=
+</a>
+<br>
++1 212 296-8702 </span></p>=20
+<p style=3D"line-height:12.0pt;" class=3D"yiv0054078121MsoNormal"><span sty=
+le=3D"font-size:8.0pt;color:black;"><br>
+<br>
+<br>
+</span></p>=20
+<p style=3D"margin-bottom:12.0pt;line-height:10.0pt;" class=3D"yiv005407812=
+1MsoNormal"><span style=3D"font-size:8.0pt;color:black;"><a href=3D"https:/=
+/matrix.ms.com/eqr/research/docs/data/researchdocs/GlobalCrossAssetDirector=
+y.pdf" target=3D"_blank" rel=3D"noreferrer noopener">Global Cross-Asset
+ Directory</a> </span></p>=20
+<p style=3D"margin-bottom:12.0pt;line-height:10.0pt;" class=3D"yiv005407812=
+1MsoNormal"><span style=3D"font-size:8.0pt;color:black;"><a ymailto=3D"mail=
+to:Michael.Zezas@morganstanley.com?subject=3DAsk%20a%20Question:%20" href=
+=3D"mailto:Michael.Zezas@morganstanley.com?subject=3DAsk%20a%20Question:%20=
+" target=3D"_blank" rel=3D"noreferrer noopener">Ask the Author a Question</=
+a>
+</span></p>=20
+<p style=3D"margin-bottom:12.0pt;line-height:10.0pt;" class=3D"yiv005407812=
+1MsoNormal"><span style=3D"font-size:8.0pt;color:black;"><a ymailto=3D"mail=
+to:Michael.Zezas@morganstanley.com?subject=3DPlease%20remove%20me%20from%20=
+this%20distribution" href=3D"mailto:Michael.Zezas@morganstanley.com?subject=
+=3DPlease%20remove%20me%20from%20this%20distribution" target=3D"_blank" rel=
+=3D"noreferrer noopener">Remove
+ me from this distribution</a> </span></p>=20
+</td>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 0in;"></td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:0in 0in 0in 0in;">
+<p class=3D"yiv0054078121MsoNormal"><span style=3D"font-size:9.0pt;color:bl=
+ack;">&nbsp;</span></p>=20
+</td>
+<td colspan=3D"4" valign=3D"top" style=3D"padding:13.5pt 0in 0in 0in;">
+<div align=3D"center" style=3D"text-align:center;" class=3D"yiv0054078121Ms=
+oNormal"><span style=3D"font-size:9.0pt;color:black;">
+<hr size=3D"1" width=3D"100%" noshade=3D"" style=3D"color:#005A8B;" align=
+=3D"center">
+</span></div>
+<p class=3D"yiv0054078121notes"><span style=3D"font-size:9.0pt;color:black;=
+">For important information including analyst certification and disclosures=
+ regarding specific companies, derivatives, or other instruments discussed =
+in this e-mail, please
+ refer to the latest research report, if attached and/or hyperlinked to thi=
+s email, or by logging on to Morgan Stanley's Matrix portal at
+<a href=3D"http://www.morganstanley.com/matrix" target=3D"_blank" rel=3D"no=
+referrer noopener">http://www.morganstanley.com/matrix</a>. You may also re=
+fer to the Morgan Stanley Research Disclosure Website at
+<a href=3D"http://www.morganstanley.com/eqr/disclosures/webapp/generalresea=
+rch" target=3D"_blank" rel=3D"noreferrer noopener">
+http://www.morganstanley.com/eqr/disclosures/webapp/generalresearch</a>.</s=
+pan></p>=20
+<p class=3D"yiv0054078121notes"><span style=3D"font-size:9.0pt;color:black;=
+">Morgan Stanley will make certain research products and announcements avai=
+lable only on Morgan Stanley's Matrix platform. For access to Matrix, pleas=
+e contact your sales
+ representative or go to Matrix at <a href=3D"http://www.morganstanley.com/=
+matrix" target=3D"_blank" rel=3D"noreferrer noopener">
+http://www.morganstanley.com/matrix</a>.</span></p>=20
+<p class=3D"yiv0054078121notes"><span style=3D"font-size:9.0pt;color:black;=
+">Morgan Stanley is not acting as a municipal advisor and the opinions or v=
+iews contained herein are not intended to be, and do not constitute, advice=
+ within the meaning
+ of Section 975 of the Dodd-Frank Wall Street Reform and Consumer Protectio=
+n Act. If you have received this communication in error, please destroy all=
+ electronic and paper copies and notify the sender immediately. Mistransmis=
+sion is not intended to waive confidentiality
+ or privilege. Morgan Stanley reserves the right, to the extent permitted u=
+nder applicable law, to monitor electronic communications. This message is =
+subject to terms available at the following link:
+<a href=3D"http://www.morganstanley.com/disclaimers" target=3D"_blank" rel=
+=3D"noreferrer noopener">http://www.morganstanley.com/disclaimers</a>. If y=
+ou cannot access these links, please notify us by reply message and we will=
+ send the contents to you. By messaging with Morgan Stanley you consent
+ to the foregoing.</span></p>=20
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"yiv0054078121MsoNormal"> &nbsp;</p>=20
+</div>
+<br>
+<br>
+<hr id=3D"yiv0054078121HR1">
+<br>
+<span style=3D"FONT-SIZE:7.5pt;COLOR:#808080;FONT-FAMILY:Arial;">Important =
+Notice to Recipients:<br>
+&nbsp;<br>
+The sender of this e-mail is an employee of Morgan Stanley Smith Barney LLC=
+ ("Morgan Stanley").&nbsp; If you have received this communication in error=
+, please destroy all electronic and paper copies and notify the sender imme=
+diately. Erroneous transmission is not
+ intended to waive confidentiality or privilege.&nbsp; Morgan Stanley reser=
+ves the right, to the extent permitted under applicable law, to monitor ele=
+ctronic communications. This message is subject to terms available at the f=
+ollowing
+<font color=3D"#808080">link: </font><a href=3D"http://www.morganstanley.co=
+m/disclaimers/mssbemail.html" target=3D"_blank" rel=3D"noreferrer noopener"=
+><font color=3D"#808080">http://www.morganstanley.com/disclaimers/mssbemail=
+.html</font></a><font color=3D"#808080"> If you</font> cannot access this l=
+ink, please
+ notify us by reply message and we will send the contents to you.&nbsp; By =
+communicating with Morgan Stanley you consent to the foregoing and to the v=
+oice recording of telephone conversations with personnel of Morgan Stanley =
+and its affiliates.<br>
+</span>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<br>
+<hr>
+<font face=3D"Arial" color=3D"Gray" size=3D"1"><br>
+This message contains confidential information and is intended only for the=
+ individual named. If you are not the named addressee you should not dissem=
+inate, distribute or copy this e-mail. Please notify the sender immediately=
+ by e-mail if you have received
+ this e-mail by mistake and delete this e-mail from your system. E-mail tra=
+nsmission cannot be guaranteed to be secure or error-free as information co=
+uld be intercepted, corrupted, lost, destroyed, arrive late or incomplete, =
+or contain viruses. The sender therefore
+ does not accept liability for any errors or omissions in the contents of t=
+his message, which arise as a result of e-mail transmission. If verificatio=
+n is required please request a hard-copy version.<br>
+</font>
+</div>
+
+</div> </div> </blockquote>
+------=_Part_255825_1301190932.1649576081404--

@@ -1,0 +1,1170 @@
+From - Mon May  9 04:34:06 2022
+X-Account-Key: account8
+X-UIDL: 1645857828.768
+X-Mozilla-Status: 0011
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <bondstrt007@gmail.com>
+Received: from compute4.internal (compute4.nyi.internal [10.202.2.44])
+	 by sloti52n19 (Cyrus 3.7.0-alpha0-591-gfe6c3a2700-fm-20220427.001-gfe6c3a27) with LMTPA;
+	 Mon, 09 May 2022 01:16:48 -0400
+X-Cyrus-Session-Id: sloti52n19-1652073408-262843-2-4401551311996412342
+X-Sieve: CMU Sieve 3.0
+X-Spam-known-sender: no
+X-Spam-charsets: cc='UTF-8', plain='UTF-8', html='UTF-8'
+X-Resolved-to: cockarens@vouchersrus.org
+X-Delivered-to: cockarens@vouchersrus.org
+X-Mail-from: bondstrt007@gmail.com
+Received: from mx1 ([10.202.2.200])
+  by compute4.internal (LMTPProxy); Mon, 09 May 2022 01:16:48 -0400
+Received: from mx1.messagingengine.com (localhost [127.0.0.1])
+	by mailmx.nyi.internal (Postfix) with ESMTP id EF15123C01B3
+	for <cockarens@vouchersrus.org>; Mon,  9 May 2022 01:16:47 -0400 (EDT)
+Received: from mx1.messagingengine.com (localhost [127.0.0.1])
+    by mx1.messagingengine.com (Authentication Milter) with ESMTP
+    id ED01E63D790;
+    Mon, 9 May 2022 01:16:47 -0400
+ARC-Seal: i=1; a=rsa-sha256; cv=none; d=messagingengine.com; s=fm1; t=
+    1652073407; b=jEGsrqXaydtXAjNhOlrtF2p/0FUIQmxnzgbvxdkDj1tJxMlyKv
+    DuMyb+mKeKt74P7jTbwLjBaQ1/8Z7nSKPF00zLOLUHo5++I+hO/ozsIa/QNaJYhD
+    axUVIp6wErKgMldL2svG2ZizBLADG+6EQKi00Ib8YLdwCI+21SkA2hynUfjBMMF/
+    Bnh2jz3DF3j8cjLs+0knJIEnLddJLXbHDdVWMjeRVLndK7tbRkEQAsX3F8wx7UTv
+    gljVjw6ulDCLHQS2j0anZhIbX6GyfPBT7WpcsBNpVtYrmrC6mOEO46GokQ3Stl33
+    G95ZEcuxraqsfXzoGMO4G5J0J/DcPlMvW/4Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=
+    messagingengine.com; h=mime-version:references:in-reply-to:from
+    :date:message-id:subject:to:cc:content-type; s=fm1; t=
+    1652073407; bh=vFYfUXUmQKURsrJ4ixQLEsyR9qSOt/6aYAKBnWHezbc=; b=L
+    58VyF3GSL4fFsph8qTYPMN1QsvFVf/4kSqGqJ5KBRdOIVlNplAZSN1HHKVrdwvlN
+    32/SP+JZNSb9cbwELnDl3IZensqGb8LbC+nbfIIu0UgICCb0bMffNjSUhtcWjCu9
+    FIWSz+n60nSb/zNHkHXWAPYrg8r1lEBHqxAD+yJKGNJ3a1LkGmCUzhqSjSH1g8IX
+    HGk36P9PHUz2sSrYjF01M3dRr4vu5IyD6dAowXh3g4SnEH5MiZLg9GTSKvb676sn
+    GamJToz6O7LsrAbp1HLBK2whKNtn+3dhKLks4/5MC5vs7yYL+o4OS6sXofXbtpor
+    BJOgin3Ex1j0i/53qSiEA==
+ARC-Authentication-Results: i=1; mx1.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=mail-io1-f47.google.com
+    policy.ptr=mail-io1-f47.google.com;
+    bimi=skipped (DMARC Policy is not at enforcement);
+    arc=none (no signatures found);
+    dkim=pass (2048-bit rsa key sha256) header.d=gmail.com
+    header.i=@gmail.com header.b=AF/KNHiL header.a=rsa-sha256
+    header.s=20210112 x-bits=2048;
+    dmarc=pass policy.published-domain-policy=none
+    policy.published-subdomain-policy=quarantine
+    policy.applied-disposition=none policy.evaluated-disposition=none
+    (p=none,sp=quarantine,d=none,d.eval=none) policy.policy-from=p
+    header.from=gmail.com;
+    iprev=pass smtp.remote-ip=209.85.166.47 (mail-io1-f47.google.com);
+    spf=pass smtp.mailfrom=bondstrt007@gmail.com
+    smtp.helo=mail-io1-f47.google.com
+X-ME-Authentication-Results: mx1.messagingengine.com;
+    x-aligned-from=pass (Address match);
+    x-google-dkim=pass (2048-bit rsa key) header.d=1e100.net
+      header.i=@1e100.net header.b=1+KovgCH;
+    x-return-mx=pass header.domain=gmail.com policy.is_org=yes
+      (MX Records found: alt2.gmail-smtp-in.l.google.com,alt1.gmail-smtp-in.l.google.com,gmail-smtp-in.l.google.com,alt4.gmail-smtp-in.l.google.com,alt3.gmail-smtp-in.l.google.com);
+    x-return-mx=pass smtp.domain=gmail.com policy.is_org=yes
+      (MX Records found: alt3.gmail-smtp-in.l.google.com,alt2.gmail-smtp-in.l.google.com,alt1.gmail-smtp-in.l.google.com,gmail-smtp-in.l.google.com,alt4.gmail-smtp-in.l.google.com);
+    x-tls=pass smtp.version=TLSv1.3 smtp.cipher=TLS_AES_256_GCM_SHA384
+      smtp.bits=256/256;
+    x-vs=clean score=-53 state=0
+Authentication-Results: mx1.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=mail-io1-f47.google.com
+      policy.ptr=mail-io1-f47.google.com
+Authentication-Results: mx1.messagingengine.com;
+    bimi=skipped (DMARC Policy is not at enforcement)
+Authentication-Results: mx1.messagingengine.com;
+    arc=none (no signatures found)
+Authentication-Results: mx1.messagingengine.com;
+    dkim=pass (2048-bit rsa key sha256) header.d=gmail.com
+      header.i=@gmail.com header.b=AF/KNHiL header.a=rsa-sha256
+      header.s=20210112 x-bits=2048;
+    dmarc=pass policy.published-domain-policy=none
+      policy.published-subdomain-policy=quarantine
+      policy.applied-disposition=none policy.evaluated-disposition=none
+      (p=none,sp=quarantine,d=none,d.eval=none) policy.policy-from=p
+      header.from=gmail.com;
+    iprev=pass smtp.remote-ip=209.85.166.47 (mail-io1-f47.google.com);
+    spf=pass smtp.mailfrom=bondstrt007@gmail.com
+      smtp.helo=mail-io1-f47.google.com
+X-ME-VSCause: gggruggvucftvghtrhhoucdtuddrgedvfedrfeekgdelgecutefuodetggdotefrodftvf
+    curfhrohhfihhlvgemucfhrghsthforghilhdpggftfghnshhusghstghrihgsvgdpuffr
+    tefokffrpgfnqfghnecuuegrihhlohhuthemuceftddtnecusecvtfgvtghiphhivghnth
+    hsucdlqddutddtmdenogfuuhhsphgvtghtffhomhgrihhnucdlgeelmdenfghrlhcuvffn
+    ffculddqvddmnecujfgurhepgghfjgfhfffkuffvvegtsegrtderredttdejnecuhfhroh
+    hmpeeuqfcufffkpfevgfftuceosghonhgushhtrhhttddtjeesghhmrghilhdrtghomheq
+    necuggftrfgrthhtvghrnhepkedtveejtefhvedvheefieeghefguddvhfduudelieevfe
+    elvdelleehffdvtdfhnecuffhomhgrihhnpehonhgvlhhinhhkrdhmvgdpghhithhhuhgs
+    rdgtohhmpdhsphhothhifhihrdgtohhmnecukfhppedvtdelrdekhedrudeiiedrgeejne
+    cuvehluhhsthgvrhfuihiivgeptdenucfrrghrrghmpehinhgvthepvddtledrkeehrddu
+    ieeirdegjedphhgvlhhopehmrghilhdqihhouddqfhegjedrghhoohhglhgvrdgtohhmpd
+    hmrghilhhfrhhomhepoegsohhnughsthhrthdttdejsehgmhgrihhlrdgtohhmqe
+X-ME-VSScore: -53
+X-ME-VSCategory: clean
+X-ME-CSA: none
+Received-SPF: pass
+    (gmail.com ... _spf.google.com: Sender is authorized to use 'bondstrt007@gmail.com' in 'mfrom' identity (mechanism 'include:_netblocks.google.com' matched))
+    receiver=mx1.messagingengine.com;
+    identity=mailfrom;
+    envelope-from="bondstrt007@gmail.com";
+    helo=mail-io1-f47.google.com;
+    client-ip=209.85.166.47
+Received: from mail-io1-f47.google.com (mail-io1-f47.google.com [209.85.166.47])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mx1.messagingengine.com (Postfix) with ESMTPS
+	for <cockarens@vouchersrus.org>; Mon,  9 May 2022 01:16:47 -0400 (EDT)
+Received: by mail-io1-f47.google.com with SMTP id z18so14174001iob.5
+        for <cockarens@vouchersrus.org>; Sun, 08 May 2022 22:16:47 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to
+         :cc;
+        bh=vFYfUXUmQKURsrJ4ixQLEsyR9qSOt/6aYAKBnWHezbc=;
+        b=AF/KNHiLtSkFm8bKloufrMLUGCjlR5ZP3x0E1ol/FuuCccnkXJ/Iql5HYK+vtvrm4i
+         kOkTDXtU0VaJzcnGoa3dtWwyftQT34ew/xkLQQngC0eIheZW+lYZtxeZrrKsCop0vQve
+         +yljfOYYdokKmozBBY8NBFeZ2RRogBFDNfGv5Nqery3/dEKaHVdoPZlap+01nq1vg/f6
+         cLppOrGYnjmXPVNy91XAEez4fASTclRpDMfYlXjE7+0fyId8Thdr0sn7VMZTzmklgpVs
+         7n/bcaP4yrGfoTQA0bNSYUmwarhiU+qeQFWeJWtd7TNvbEAXVOsjErv+Bw7AD1PPgFn1
+         89FA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to:cc;
+        bh=vFYfUXUmQKURsrJ4ixQLEsyR9qSOt/6aYAKBnWHezbc=;
+        b=1+KovgCHy1f8S6QOl5bmbR/PpbsPQtNiWgtpOnSRaSwY1FvrF7/OdovSfNRa4hVftx
+         BXYtRoBc5NmkljbvXNBDTzZmgWEIH4BCzjpL4EKFdP2uRTQN7U55qSOEuY6tnFaW4qL+
+         q25zIkj4auRP5cT+N55A9Bz/NdIowOhFj9HlfNV5uD14BGw/JNxn/H3kT2Sur9jcOEtQ
+         Wm57Kz6SrWnQK/ckpTkEb1fnGkZ5fm36Pe8eTChByNYDI4RQxFLZ6Ha4KchgIfBBhZCi
+         dkErpfSo3vzL6w1GuiFV8IoTZlYGfK8E5v23D2ER78mbGceEOPAWVxCazQGI6nd0qK7o
+         AI2Q==
+X-Gm-Message-State: AOAM53239+FPHBjV3PcIekXUgLXaV645uafCBHx0XekJZEKtxqeJ/IjO
+	kL9xuS0W/KgqXXTvNv3ONKkBfdtWYwnAa5wEP+g=
+X-Google-Smtp-Source: ABdhPJxOW69D2BkpgB14MvS/w7B/YthiOPsGGa0XchfhgPpraIHVg5qOm8mv9jbuXL9HgouZ6ZHgcv/mhRVRb7Yx0FI=
+X-Received: by 2002:a02:ccd0:0:b0:32a:e2da:1e1f with SMTP id
+ k16-20020a02ccd0000000b0032ae2da1e1fmr6458800jaq.313.1652073405983; Sun, 08
+ May 2022 22:16:45 -0700 (PDT)
+MIME-Version: 1.0
+References: <2A5F4FE7-DDB2-4DC5-8287-1081369A8470@icloud.com>
+ <5DFDAD6E-B676-4043-8D22-D69C87A4778A@icloud.com> <1788042399.427566.1651921878859@mail.yahoo.com>
+ <1773707945.731225.1652072710329@mail.yahoo.com>
+In-Reply-To: <1773707945.731225.1652072710329@mail.yahoo.com>
+From: BO DINCER <bondstrt007@gmail.com>
+Date: Mon, 9 May 2022 01:16:35 -0400
+Message-ID: <CAOHu48_4M6_PEyB7s6vA3xT_0P5y6W=4_i-rMtxNi1Dv6MxqWw@mail.gmail.com>
+Subject: Re: Fwd: 101 STFGX 1516523 CIK Filer ex-post 900$ million in lo
+To: Bo Dincer <bo.dincer@yahoo.com>
+Cc: Bo Dincer <bdincer66@icloud.com>, info@tudor.com, Nick Isda <NSawyer@isda.org>, 
+	Joel Clark Isda <JClark@isda.org>, Elke Sorensen <ESorensen@lasnny.org>, 
+	Jenny Roche <jennyroche@kpmg.com.au>, isda@isda.org, Chair <chair@sec.gov>, 
+	=?UTF-8?B?4oCLbmV3eW9ya0BTRUMuR09W?= <newyork@sec.gov>, 
+	ShareHolders Sec <ShareholderProposals@sec.gov>, tips@insider.com, 
+	RuleComments Sec <rule-comments@sec.gov>, isdaeu@volker.eu, info@kpmg.com, 
+	infor@solowresidential.com, gs@gs.com, 
+	"GSAMoNlinerEquestS@GS.COM" <gsamonlinerequests@gs.com>, tips@latimes.com, 
+	Ricki Roer <ricki.roer@wilsonelser.com>, LZUCKER@mskyline.com, 
+	"Humphries, Ashley V." <ashley.humphries@wilsonelser.com>, Brooklyn Tap House <tips@nypost.com>, 
+	"Laskowitz, Shari" <slaskowitz@ingramllp.com>, Baris Dincer <bondstrt@protonmail.com>, 
+	james.gorman@morganstanley.com, Paul Regan <legal@mskyline.com>, 
+	Work <cockarens@vouchersrus.org>, 
+	"Joseph Giamboi, ESQ" <joseph.giamboi@brooklaw.edu>, colin.brooks@morganstanley.com, 
+	JPMCinvestorrelations@jpmchase.com, 
+	=?UTF-8?B?4oCLaWNlZ2xvYmFsbmV0d29yay1pbmZvQGljZS5jb20=?= <iceglobalnetwork-info@ice.com>, 
+	"Bloomberg L.P." <bbrief@bloomberg.net>, edi.civil.rights.division@irs.gov, 1pctdvo@nypd.org, 
+	1pctyco@nypd.org, cbrooks7@bloomberg.net, ksaperstein2@bloomberg.net, 
+	23pctdvo@nypd.com, 23pctyco@nypd.org, 10pctdvo@nypd.org, 18pctyco@nypd.org, 
+	10pctyco@nypd.org, eca_press@state.gov, Tennesse <sbarchenger@tennessean.com>, 
+	DCAO Letters <dcaoletters@sec.gov>, BBO 121 <ms60710444266@yahoo.com>, teschmann@mskyline.com, 
+	MSKYLINE <ANNE@thehighlandpartners.com>, 18PCTDVO@nypd.org, citimod1@bloomberg.net, 
+	mshy2@bloomberg.net, ofac_feedback@treasury.gov, 
+	Federal Reserve Bank of New York <general.info@ny.frb.org>, "Delva, Marlyn" <mmt22@cumc.columbia.edu>, dion.gaspard@nypd.org, 
+	Lee Bollinger <bollinger@columbia.edu>, ashley.humphrie@wilsonelser.com, marc.jaffe@lw.com, 
+	Dian Zhu <dian.zhu@finra.org>, MSRB <MSRBSUPPORT@msrb.org>, Secretarys-Office@sec.gov, 
+	rebecca.coyle@statefarm.com, 
+	Lee Bollinger <officeofthepresident@columbia.edu>, legalasst@mskyline.com, 
+	dallas-reserve-mgmt@dal.frb.org, blaw.content@bloomberg.net, 
+	newsoffice@mit.edu, =?UTF-8?B?4oCLYmxhd3JlQGJsb29tYmVyZy5uZXQ=?= <blawre@bloomberg.net>, 
+	"CHICAGO@SEC.GOV" <chicago@sec.gov>, B Dincer <bdincer1768@bloomberg.net>, 
+	Urvashi Sinha <urvashi.sinha@wilsonelser.com>, Alan Morrison <ajm157@columbia.edu>, 
+	Amber Griffiths <ag2943@columbia.edu>, kerri.saperstein@morganstanley.com, 
+	mshyld@bloomberg.net, help@vogue.com, 
+	LA TIMES NEWSLETTERS <NEWSLETTERS@latimes.com>, stationservices@cbs2ny.com, 
+	MIT Sloan Executive Education <executive_education@mailsvc.sloan.mit.edu>, 4audit@bloomberg.net, 
+	kidsprivacy@viacomcbs.com, media@chi.frb.org, hillary.davis@latimes.com, 
+	info@hochul.com, tips@nytimes.com, tips@vibe.com, 
+	SOHO HOUSE <MEMBERSHIP@sohohouse.com>
+Content-Type: multipart/alternative; boundary="00000000000081b0ba05de8d50b2"
+
+--00000000000081b0ba05de8d50b2
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+On Mon, May 9, 2022, 1:05 AM Bo Dincer <bo.dincer@yahoo.com> wrote:
+
+>
+>
+> Sent from Yahoo Mail on Android
+> <https://go.onelink.me/107872968?pid=3DInProduct&c=3DGlobal_Internal_YGro=
+wth_AndroidEmailSig__AndroidUsers&af_wl=3Dym&af_sub1=3DInternal&af_sub2=3DG=
+lobal_YGrowth&af_sub3=3DEmailSignature>
+>
+> On Sat, May 7, 2022 at 7:11 AM, Bo Dincer
+> <bo.dincer@yahoo.com> wrote:
+> https://github.com/BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV
+>
+>
+> >>$Vitesse
+> Sent from Yahoo Mail on Android
+> <https://go.onelink.me/107872968?pid=3DInProduct&c=3DGlobal_Internal_YGro=
+wth_AndroidEmailSig__AndroidUsers&af_wl=3Dym&af_sub1=3DInternal&af_sub2=3DG=
+lobal_YGrowth&af_sub3=3DEmailSignature>
+>
+> On Tue, Apr 26, 2022 at 10:29 PM, Bo Dincer
+> <bdincer66@icloud.com> wrote:
+>
+>
+> https://open.spotify.com/playlist/1D0U7r06A1auzZCOgUUiQY?si=3DRXNJjH9yTGK=
+ZG0Z5-KsCjg
+>
+> I think we beyond 1.5 billion for years x-POST tax avoidance in the publi=
+c
+> eye, but let=E2=80=99s wait and see what they carve out of BRK-B for comp=
+arison.
+>
+> AAPL vs. AAPL is equally weighted, just like the blueberries in casino.
+> Hence, no NYSCEF on this email; just ISDA=E2=80=A6
+>
+> /BD
+> I asked one question Ricki.. =E2=80=9C .. is that all of them .. =E2=80=
+=9C
+>
+> Then, no further questions. Thank you r letters and annexed in the docket
+> 153974/2020 .. you belong in jail for aiding and abetting tax evasion.
+>
+> Goodnight. =F0=9F=92=A4 the past, when it=E2=80=99s annexed in Supreme Co=
+urt, I will read
+> it. So annexed for you is the truth=E2=80=A6 which untirbately just cost =
+the north
+> of 1 billion in losses at the casual work of your counselors @wilsonDicke=
+r
+> or whatever Elon musk thinks they are worth.
+>
+> -0. Which is a number, depending on what brain child spends his life
+> thinking about that. Zero, is zero.
+> .bd
+>
+> You like inquiries now Zucker??
+> That=E2=80=99s a cool billion and then some. I warned you about that 30yr=
+ right??
+> In email 8 billion at risk.
+>
+>
+> Loan 50074.
+> Begin forwarded message:
+>
+> *From:* Bo Dincer <bdincer66@icloud.com>
+> *Date:* April 26, 2022 at 10:05:14 PM EDT
+> *To:* edi.civil.rights.division@irs.gov, eca_press@state.gov,
+> teschmann@mskyline.com, 18pctdvo@nypd.org, 18pctyco@nypd.org,
+> cbrooks7@bloomberg.net, 10pctdvo@nypd.org, "Bloomberg L.P." <
+> bbrief@bloomberg.net>, 1pctdvo@nypd.org, 1pctyco@nypd.org,
+> 23pctdvo@nypd.com, iceglobalnetwork-info@ice.com, 23pctyco@nypd.org,
+> ksaperstein2@bloomberg.net, dcaoletters@sec.gov,
+> JPMCinvestorrelations@jpmchase.com, 10pctyco@nypd.org, BD <
+> bondstrt@protonmail.com>, Chair <chair@sec.gov>, Tennesse <
+> sbarchenger@tennessean.com>, Newyork <newyork@sec.gov>, MSRB <
+> msrbsupport@msrb.org>, MSKYLINE <ANNE@thehighlandpartners.com>, BBO 121 <
+> ms60710444266@yahoo.com>, dallas-reserve-mgmt@dal.frb.org,
+> ashley.humphrie@wilsonelser.com, GSAMOnlineRequest@gs.com,
+> blaw.content@bloomberg.net, matthew.chase@lw.com,
+> anthony.sicoli@bnymellon.com, marc.jaffe@lw.com,
+> ofac_feedback@treasury.gov, dion.gaspard@nypd.org,
+> rosalyn.marcus@finra.org, legalasst@mskyline.com,
+> rebecca.coyle@statefarm.com, garrett.marquis@bnymellon.com,
+> ted.banner@bnymellon.com, CHICAGO@sec.gov, TEDHERMANSON@northmarq.com,
+> amount@bressler.com, asksipc@sipc.org, efoia@fdic.gov,
+> electronicfilings@ftc.gov, gs@gs.com, infor@solowresidential.com,
+> LZUCKER@mskyline.com, mshyld@bloomberg.net, newsoffice@mit.edu,
+> oca@sec.gov, privacypolicy@related.com, shareholderproposals@sec.gov,
+> slaskowitz@mskyline.com, tips@insider.com, tips@latimes.com,
+> tips@nytimes.com, tips@vibe.com, wmckenzie@nycourts.gov, FTC ANTITRUST <
+> antitrust@ftc.gov>, Brooklyn Tap House <tips@nypost.com>, CRC FTC REPORTS
+> <crcmessages@ftc.gov>, CS TEAM <Activations@hutchmen.com>, BRIAN HODGSON =
+<
+> BRIAN.HODGSON.NYZ6@statefarm.com>, BO DINCER <bo.dincer@yahoo.com>, Debra
+> Tama <debra.tama@wilsonelser.com>, Dian Zhu <dian.zhu@finra.org>, FOX
+> ROTHSCHILD <JROSE@foxrothschild.com>, Paul Regan <legal@mskyline.com>,
+> Ricki Roer <ricki.roer@wilsonelser.com>, Shari Laskowitz <
+> slaskowitz@ingramllp.com>, Stephen O'Connell <sgo2107@adcu.columbia.edu>,
+> Alan Morrison <ajm157@columbia.edu>, Alan Andreini <aandreini@fortress.co=
+m>,
+> UNITED ARTISTS MUSIC <investorrelations@umusic.com>, UNIVERSAL EDITORIAL =
+<
+> investmentnews@editorial.investmentnews.com>, WILLIAM BEHR <
+> william.behr@wilsonelser.com>, ZUCKER ORGANIZATION <jgiamboi@mskyline.com=
+>,
+> Bressler Info <INFO@bressler.com>, Finra Webmaster <webmaster@finra.org>,
+> Goldman Sachs <briefings@gs.com>, JAMES GORMAN <
+> james.gorman@morganstanley.com>, Joseph Giamboi <
+> joseph.giamboi@brooklaw.edu>, LA TIMES NEWSLETTERS <
+> newsletters@latimes.com>, Lee Bollinger <bollinger@columbia.edu>, Lee
+> Bollinger <officeofthepresident@columbia.edu>, Lori Semlies <
+> lori.semlies@wilsonelser.com>, MATT HARVEY <mharvey13@bloomberg.net>,
+> MATT LOWE <mlowe@fdic.gov>, MIKE DANILACK <MIKE.DANILACK@us.pwc.com>, Amy
+> Hanrahan <amy.hanrahan@wilsonelser.com>, Alan Rubin <
+> alan.rubin@wilsonelser.com>, PAM OLSON <PAM.OLSON@us.pwc.com>, PETER
+> MERILL <PETER.MERILL@us.pwc.com>, "Lauren M. Zink" <
+> lauren.zink@wilsonelser.com>, executive_education@mailsvc.sloan.mit.edu,
+> "Ashley V. Humphries" <ashley.humphries@wilsonelser.com>, "Roger R.
+> Gottilla" <roger.gottilla@wilsonelser.com>, ainfo@buildings.nyc.gov,
+> "Jennifer M. Provost" <jennifer.provost@wilsonelser.com>, "Thomas R.
+> Manisero" <thomas.manisero@wilsonelser.com>, "Kathleen A. Mullins" <
+> kathleen.mullins@wilsonelser.com>, skysthelimit@theconcierge.info,
+> foia@eeoc.gov
+> *Cc:* info@ohysiciansmutual.com, physiciansmutual@physiciansmutual.com,
+> info@ohysiciansmutual.com, wmckenzie@nycourts.gov, espnfrontrow@espn.com
+> *Subject:* *Fwd: 101 STFGX par no look 1516523 CIK Filer ex-post 900$
+> million in losses.*
+>
+> =EF=BB=BF
+>
+>
+>
+> /BD
+>
+>
+> Begin forwarded message:
+>
+> *From:* Bo Dincer <bdincer66@icloud.com>
+> *Date:* April 26, 2022 at 8:25:25 PM EDT
+> *To:* edi.civil.rights.division@irs.gov, eca_press@state.gov,
+> teschmann@mskyline.com, 18pctdvo@nypd.org, 18pctyco@nypd.org,
+> cbrooks7@bloomberg.net, 10pctdvo@nypd.org, "Bloomberg L.P." <
+> bbrief@bloomberg.net>, 1pctdvo@nypd.org, 1pctyco@nypd.org,
+> 23pctdvo@nypd.com, iceglobalnetwork-info@ice.com, 23pctyco@nypd.org,
+> ksaperstein2@bloomberg.net, dcaoletters@sec.gov,
+> JPMCinvestorrelations@jpmchase.com, 10pctyco@nypd.org, BD <
+> bondstrt@protonmail.com>, Chair <chair@sec.gov>, Tennesse <
+> sbarchenger@tennessean.com>, Newyork <newyork@sec.gov>, MSRB <
+> msrbsupport@msrb.org>, MSKYLINE <ANNE@thehighlandpartners.com>, BBO 121 <
+> ms60710444266@yahoo.com>, dallas-reserve-mgmt@dal.frb.org,
+> ashley.humphrie@wilsonelser.com, GSAMOnlineRequest@gs.com,
+> blaw.content@bloomberg.net, matthew.chase@lw.com,
+> anthony.sicoli@bnymellon.com, marc.jaffe@lw.com,
+> ofac_feedback@treasury.gov, dion.gaspard@nypd.org,
+> rosalyn.marcus@finra.org, legalasst@mskyline.com,
+> rebecca.coyle@statefarm.com, garrett.marquis@bnymellon.com,
+> ted.banner@bnymellon.com, CHICAGO@sec.gov, TEDHERMANSON@northmarq.com,
+> amount@bressler.com, asksipc@sipc.org, efoia@fdic.gov,
+> electronicfilings@ftc.gov, gs@gs.com, infor@solowresidential.com,
+> LZUCKER@mskyline.com, mshyld@bloomberg.net, newsoffice@mit.edu,
+> oca@sec.gov, privacypolicy@related.com, shareholderproposals@sec.gov,
+> slaskowitz@mskyline.com, tips@insider.com, tips@latimes.com,
+> tips@nytimes.com, tips@vibe.com, wmckenzie@nycourts.gov, FTC ANTITRUST <
+> antitrust@ftc.gov>, Brooklyn Tap House <tips@nypost.com>, CRC FTC REPORTS
+> <crcmessages@ftc.gov>, CS TEAM <Activations@hutchmen.com>, BRIAN HODGSON =
+<
+> BRIAN.HODGSON.NYZ6@statefarm.com>, BO DINCER <bo.dincer@yahoo.com>, Debra
+> Tama <debra.tama@wilsonelser.com>, Dian Zhu <dian.zhu@finra.org>, FOX
+> ROTHSCHILD <JROSE@foxrothschild.com>, Paul Regan <legal@mskyline.com>,
+> Ricki Roer <ricki.roer@wilsonelser.com>, Shari Laskowitz <
+> slaskowitz@ingramllp.com>, Stephen O'Connell <sgo2107@adcu.columbia.edu>,
+> Alan Morrison <ajm157@columbia.edu>, Alan Andreini <aandreini@fortress.co=
+m>,
+> UNITED ARTISTS MUSIC <investorrelations@umusic.com>, UNIVERSAL EDITORIAL =
+<
+> investmentnews@editorial.investmentnews.com>, WILLIAM BEHR <
+> william.behr@wilsonelser.com>, ZUCKER ORGANIZATION <jgiamboi@mskyline.com=
+>,
+> Bressler Info <INFO@bressler.com>, Finra Webmaster <webmaster@finra.org>,
+> Goldman Sachs <briefings@gs.com>, JAMES GORMAN <
+> james.gorman@morganstanley.com>, Joseph Giamboi <
+> joseph.giamboi@brooklaw.edu>, LA TIMES NEWSLETTERS <
+> newsletters@latimes.com>, Lee Bollinger <bollinger@columbia.edu>, Lee
+> Bollinger <officeofthepresident@columbia.edu>, Lori Semlies <
+> lori.semlies@wilsonelser.com>, MATT HARVEY <mharvey13@bloomberg.net>,
+> MATT LOWE <mlowe@fdic.gov>, MIKE DANILACK <MIKE.DANILACK@us.pwc.com>, Amy
+> Hanrahan <amy.hanrahan@wilsonelser.com>, Alan Rubin <
+> alan.rubin@wilsonelser.com>, PAM OLSON <PAM.OLSON@us.pwc.com>, PETER
+> MERILL <PETER.MERILL@us.pwc.com>, "Lauren M. Zink" <
+> lauren.zink@wilsonelser.com>, executive_education@mailsvc.sloan.mit.edu,
+> "Ashley V. Humphries" <ashley.humphries@wilsonelser.com>, "Roger R.
+> Gottilla" <roger.gottilla@wilsonelser.com>, ainfo@buildings.nyc.gov,
+> "Jennifer M. Provost" <jennifer.provost@wilsonelser.com>, "Thomas R.
+> Manisero" <thomas.manisero@wilsonelser.com>, "Kathleen A. Mullins" <
+> kathleen.mullins@wilsonelser.com>, skysthelimit@theconcierge.info,
+> foia@eeoc.gov, LZUCKER@mskyline.com, citimod1@bloomberg.net,
+> mshy2@bloomberg.net, general.info@ny.frb.org
+> *Cc:* espnfrontrow@espn.com, bo.dincer@yahoo.com
+> *Subject:* *Fwd: 101 STFGX par no look*
+>
+> =EF=BB=BF
+>
+>
+>
+> /BD
+>
+>
+> Begin forwarded message:
+>
+> *From:* Bo Dincer <bo.dincer@yahoo.com>
+> *Date:* April 26, 2022 at 8:23:43 PM EDT
+> *To:* Baris Dincer <bdincer66@icloud.com>
+> *Subject:* *Fw: 101 STFGX par no look*
+> *Reply-To:* "bo.dincer@yahoo.com" <bo.dincer@yahoo.com>
+>
+> =EF=BB=BF
+>
+> Sent from Yahoo Mail on Android
+> <https://go.onelink.me/107872968?pid=3DInProduct&c=3DGlobal_Internal_YGro=
+wth_AndroidEmailSig__AndroidUsers&af_wl=3Dym&af_sub1=3DInternal&af_sub2=3DG=
+lobal_YGrowth&af_sub3=3DEmailSignature>
+>
+> ----- Forwarded Message -----
+> *From:* "Bo Dincer" <bo.dincer@yahoo.com>
+> *To:* "Baris Dincer" <bdincer66@icloud.com>, "Bo Dincer" <
+> bo.dincer@yahoo.com>, "Bo Dincer" <bondstrt007@gmail.com>, "
+> tips@insider.com" <tips@insider.com>, "tips@latimes.com" <tips@latimes.co=
+m>,
+> "tips@vibe.com" <tips@vibe.com>, "Citrus Diner" <tips@gothamist.com>,
+> "American Bar Association" <abanews@americanbar.org>, "
+> 4audit@bloomberg.net" <4audit@bloomberg.net>, "Solowresidential Info" <
+> info@solowresidential.com>, "investor@annaly.com" <investor@annaly.com>, =
+"
+> media.relations@kcc.com" <media.relations@kcc.com>, "KEVIN ROCK" <
+> krock5@bloomberg.net>, "Dow Jones" <wsjprosupport@dowjones.com>, "Dow
+> Jones" <pronewsletter@dowjones.com>, "Newyork" <newyork@sec.gov>,
+> "**External ICE Help Desk" <icehelpdesk@ice.com>, "Bill Cassese (ICE
+> BONDS SECURITIES)" <bcassese19@bloomberg.net>, "to-icengx@ice.com" <
+> to-icengx@ice.com>, "iceimsupport@theice.com" <iceimsupport@theice.com>, =
+"
+> isda@isda.org" <isda@isda.org>, "isdaeurope@isda.org" <isdaeurope@isda.or=
+g>,
+> "engineering@spglobal.com" <engineering@spglobal.com>, "aaron wood" <
+> aaron_wood@sandp.com>, "Alan Andreini" <aandreini@fortress.com>, "Angel
+> R. Vitiello" <angel.vitiello@wilsonelser.com>, "Ashley V. Humphries" <
+> ashley.humphries@wilsonelser.com>, "ipadhelp@nypost.com" <
+> ipadhelp@nypost.com>, "iphonehelp@nypost.com" <iphonehelp@nypost.com>,
+> "FDIC Public Information" <publicinfo@fdic.gov>, "
+> investorrelations@umusic.com" <investorrelations@umusic.com>
+> *Cc:* "espnfrontrow@espn.com" <espnfrontrow@espn.com>, "
+> newyork@cravath.com" <newyork@cravath.com>, "Charity Navigator" <
+> admin@charitynavigator.org>, "iceglobalnetwork-info@ice.com" <
+> iceglobalnetwork-info@ice.com>, "BMO InvestorLine" <
+> hr.notifications@bmo.com>, "bofamarkets@bofa.com" <bofamarkets@bofa.com>,
+> "jpmcinvestorrelations@jpmchase.com" <jpmcinvestorrelations@jpmchase.com>=
+,
+> "jpminvestorrelations@jpmchase.com" <jpminvestorrelations@jpmchase.com>,
+> "Bloomberg L.P." <bbrief@bloomberg.net>, "blaw.content@bloomberg.net" <
+> blaw.content@bloomberg.net>, "blawre@bloomberg.net" <blawre@bloomberg.net=
+>
+> *Sent:* Tue, Apr 26, 2022 at 8:21 PM
+> *Subject:* 101 STFGX par no look
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> Also MSGA and PAR-ID on par.
+>
+> /s/ bd.
+>
+> Sent from Yahoo Mail on Android
+> <https://go.onelink.me/107872968?pid=3DInProduct&c=3DGlobal_Internal_YGro=
+wth_AndroidEmailSig__AndroidUsers&af_wl=3Dym&af_sub1=3DInternal&af_sub2=3DG=
+lobal_YGrowth&af_sub3=3DEmailSignature>
+>
+>
+
+--00000000000081b0ba05de8d50b2
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"auto"></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" cla=
+ss=3D"gmail_attr">On Mon, May 9, 2022, 1:05 AM Bo Dincer &lt;<a href=3D"mai=
+lto:bo.dincer@yahoo.com">bo.dincer@yahoo.com</a>&gt; wrote:<br></div><block=
+quote class=3D"gmail_quote" style=3D"margin:0 0 0 .8ex;border-left:1px #ccc=
+ solid;padding-left:1ex"><br><br><div id=3D"m_-7044949771023550436ymail_and=
+roid_signature"><a id=3D"m_-7044949771023550436ymail_android_signature_link=
+" href=3D"https://go.onelink.me/107872968?pid=3DInProduct&amp;c=3DGlobal_In=
+ternal_YGrowth_AndroidEmailSig__AndroidUsers&amp;af_wl=3Dym&amp;af_sub1=3DI=
+nternal&amp;af_sub2=3DGlobal_YGrowth&amp;af_sub3=3DEmailSignature" target=
+=3D"_blank" rel=3D"noreferrer">Sent from Yahoo Mail on Android</a></div> <b=
+r> <blockquote style=3D"margin:0 0 20px 0"> <div style=3D"font-family:Robot=
+o,sans-serif;color:#6d00f6"> <div>On Sat, May 7, 2022 at 7:11 AM, Bo Dincer=
+</div><div>&lt;<a href=3D"mailto:bo.dincer@yahoo.com" target=3D"_blank" rel=
+=3D"noreferrer">bo.dincer@yahoo.com</a>&gt; wrote:</div> </div> <div style=
+=3D"padding:10px 0 0 20px;margin:10px 0 0 0;border-left:1px solid #6d00f6">=
+ <div id=3D"m_-7044949771023550436yiv2913590040"><div><a rel=3D"nofollow no=
+opener noreferrer noreferrer" shape=3D"rect" id=3D"m_-7044949771023550436yi=
+v2913590040linkextractor__1651921848821" href=3D"https://github.com/BSCPGRO=
+UPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV" target=3D"_blank">https://=
+github.com/BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV</a><div i=
+d=3D"m_-7044949771023550436yiv2913590040yMail_cursorElementTracker_16519218=
+48871"><br clear=3D"none"><br clear=3D"none">&gt;&gt;$Vitesse=C2=A0=C2=A0<b=
+r clear=3D"none"><div id=3D"m_-7044949771023550436yiv2913590040ymail_androi=
+d_signature"><a rel=3D"nofollow noopener noreferrer noreferrer" shape=3D"re=
+ct" id=3D"m_-7044949771023550436yiv2913590040ymail_android_signature_link" =
+href=3D"https://go.onelink.me/107872968?pid=3DInProduct&amp;c=3DGlobal_Inte=
+rnal_YGrowth_AndroidEmailSig__AndroidUsers&amp;af_wl=3Dym&amp;af_sub1=3DInt=
+ernal&amp;af_sub2=3DGlobal_YGrowth&amp;af_sub3=3DEmailSignature" target=3D"=
+_blank">Sent from Yahoo Mail on Android</a></div> <br clear=3D"none"> <bloc=
+kquote style=3D"margin:0 0 20px 0"> <div style=3D"font-family:Roboto,sans-s=
+erif;color:#6d00f6"> <div>On Tue, Apr 26, 2022 at 10:29 PM, Bo Dincer</div>=
+<div>&lt;<a href=3D"mailto:bdincer66@icloud.com" target=3D"_blank" rel=3D"n=
+oreferrer">bdincer66@icloud.com</a>&gt; wrote:</div> </div> <div style=3D"p=
+adding:10px 0 0 20px;margin:10px 0 0 0;border-left:1px solid #6d00f6"> <div=
+ id=3D"m_-7044949771023550436yiv2913590040"><div></div></div><div id=3D"m_-=
+7044949771023550436yiv2913590040"><div><div><span><br clear=3D"none"></span=
+></div><div><a rel=3D"nofollow noopener noreferrer noreferrer" shape=3D"rec=
+t" href=3D"https://open.spotify.com/playlist/1D0U7r06A1auzZCOgUUiQY?si=3DRX=
+NJjH9yTGKZG0Z5-KsCjg" target=3D"_blank">https://open.spotify.com/playlist/1=
+D0U7r06A1auzZCOgUUiQY?si=3DRXNJjH9yTGKZG0Z5-KsCjg</a><span><br clear=3D"non=
+e"></span><div><span><br clear=3D"none"></span></div><div><span>I think we =
+beyond 1.5 billion for years x-POST tax avoidance in the public eye, but le=
+t=E2=80=99s wait and see what they carve out of BRK-B for comparison.=C2=A0=
+</span></div><div><span><br clear=3D"none"></span></div><div><span>AAPL vs.=
+ AAPL is equally weighted, just like the blueberries in casino. Hence, no N=
+YSCEF on this email; just ISDA=E2=80=A6</span></div><div><br clear=3D"none"=
+><div dir=3D"ltr">/BD<div>I asked one question Ricki.. =E2=80=9C .. is that=
+ all of them .. =E2=80=9C</div><div><br clear=3D"none"></div><div>Then, no =
+further questions. Thank you r letters and annexed in the docket 153974/202=
+0 .. you belong in jail for aiding and abetting tax evasion.=C2=A0</div><di=
+v><br clear=3D"none"></div><div>Goodnight. =F0=9F=92=A4 the past, when it=
+=E2=80=99s annexed in Supreme Court, I will read it. So annexed for you is =
+the truth=E2=80=A6 which untirbately just cost the north of 1 billion in lo=
+sses at the casual work of your counselors @wilsonDicker or whatever Elon m=
+usk thinks they are worth.=C2=A0</div><div><br clear=3D"none"></div><div>-0=
+. Which is a number, depending on what brain child spends his life thinking=
+ about that. Zero, is zero.=C2=A0</div><div>.bd</div></div><div dir=3D"ltr"=
+><br clear=3D"none"></div><div dir=3D"ltr">You like inquiries now Zucker??<=
+/div><div dir=3D"ltr">That=E2=80=99s a cool billion and then some. I warned=
+ you about that 30yr right??</div><div dir=3D"ltr">In email 8 billion at ri=
+sk.=C2=A0</div><div dir=3D"ltr"><br clear=3D"none"></div><div dir=3D"ltr"><=
+/div></div></div></div></div><div id=3D"m_-7044949771023550436yiv2913590040=
+"><div><div><div><div dir=3D"ltr"></div></div></div></div></div><div id=3D"=
+m_-7044949771023550436yiv2913590040"><div><div><div><div dir=3D"ltr"></div>=
+<div dir=3D"ltr"><span><br clear=3D"none"></span></div><div dir=3D"ltr"><sp=
+an>Loan 50074.=C2=A0<br clear=3D"none"></span>Begin forwarded message:<br c=
+lear=3D"none"><br clear=3D"none"></div><blockquote type=3D"cite"><div dir=
+=3D"ltr"><b>From:</b> Bo Dincer &lt;<a href=3D"mailto:bdincer66@icloud.com"=
+ target=3D"_blank" rel=3D"noreferrer">bdincer66@icloud.com</a>&gt;<br clear=
+=3D"none"><b>Date:</b> April 26, 2022 at 10:05:14 PM EDT<br clear=3D"none">=
+<b>To:</b> <a href=3D"mailto:edi.civil.rights.division@irs.gov" target=3D"_=
+blank" rel=3D"noreferrer">edi.civil.rights.division@irs.gov</a>, <a href=3D=
+"mailto:eca_press@state.gov" target=3D"_blank" rel=3D"noreferrer">eca_press=
+@state.gov</a>, <a href=3D"mailto:teschmann@mskyline.com" target=3D"_blank"=
+ rel=3D"noreferrer">teschmann@mskyline.com</a>, <a href=3D"mailto:18pctdvo@=
+nypd.org" target=3D"_blank" rel=3D"noreferrer">18pctdvo@nypd.org</a>, <a hr=
+ef=3D"mailto:18pctyco@nypd.org" target=3D"_blank" rel=3D"noreferrer">18pcty=
+co@nypd.org</a>, <a href=3D"mailto:cbrooks7@bloomberg.net" target=3D"_blank=
+" rel=3D"noreferrer">cbrooks7@bloomberg.net</a>, <a href=3D"mailto:10pctdvo=
+@nypd.org" target=3D"_blank" rel=3D"noreferrer">10pctdvo@nypd.org</a>, &quo=
+t;Bloomberg L.P.&quot; &lt;<a href=3D"mailto:bbrief@bloomberg.net" target=
+=3D"_blank" rel=3D"noreferrer">bbrief@bloomberg.net</a>&gt;, <a href=3D"mai=
+lto:1pctdvo@nypd.org" target=3D"_blank" rel=3D"noreferrer">1pctdvo@nypd.org=
+</a>, <a href=3D"mailto:1pctyco@nypd.org" target=3D"_blank" rel=3D"noreferr=
+er">1pctyco@nypd.org</a>, <a href=3D"mailto:23pctdvo@nypd.com" target=3D"_b=
+lank" rel=3D"noreferrer">23pctdvo@nypd.com</a>, <a href=3D"mailto:iceglobal=
+network-info@ice.com" target=3D"_blank" rel=3D"noreferrer">iceglobalnetwork=
+-info@ice.com</a>, <a href=3D"mailto:23pctyco@nypd.org" target=3D"_blank" r=
+el=3D"noreferrer">23pctyco@nypd.org</a>, <a href=3D"mailto:ksaperstein2@blo=
+omberg.net" target=3D"_blank" rel=3D"noreferrer">ksaperstein2@bloomberg.net=
+</a>, <a href=3D"mailto:dcaoletters@sec.gov" target=3D"_blank" rel=3D"noref=
+errer">dcaoletters@sec.gov</a>, <a href=3D"mailto:JPMCinvestorrelations@jpm=
+chase.com" target=3D"_blank" rel=3D"noreferrer">JPMCinvestorrelations@jpmch=
+ase.com</a>, <a href=3D"mailto:10pctyco@nypd.org" target=3D"_blank" rel=3D"=
+noreferrer">10pctyco@nypd.org</a>, BD &lt;<a href=3D"mailto:bondstrt@proton=
+mail.com" target=3D"_blank" rel=3D"noreferrer">bondstrt@protonmail.com</a>&=
+gt;, Chair &lt;<a href=3D"mailto:chair@sec.gov" target=3D"_blank" rel=3D"no=
+referrer">chair@sec.gov</a>&gt;, Tennesse &lt;<a href=3D"mailto:sbarchenger=
+@tennessean.com" target=3D"_blank" rel=3D"noreferrer">sbarchenger@tennessea=
+n.com</a>&gt;, Newyork &lt;<a href=3D"mailto:newyork@sec.gov" target=3D"_bl=
+ank" rel=3D"noreferrer">newyork@sec.gov</a>&gt;, MSRB &lt;<a href=3D"mailto=
+:msrbsupport@msrb.org" target=3D"_blank" rel=3D"noreferrer">msrbsupport@msr=
+b.org</a>&gt;, MSKYLINE &lt;<a href=3D"mailto:ANNE@thehighlandpartners.com"=
+ target=3D"_blank" rel=3D"noreferrer">ANNE@thehighlandpartners.com</a>&gt;,=
+ BBO 121 &lt;<a href=3D"mailto:ms60710444266@yahoo.com" target=3D"_blank" r=
+el=3D"noreferrer">ms60710444266@yahoo.com</a>&gt;, <a href=3D"mailto:dallas=
+-reserve-mgmt@dal.frb.org" target=3D"_blank" rel=3D"noreferrer">dallas-rese=
+rve-mgmt@dal.frb.org</a>, <a href=3D"mailto:ashley.humphrie@wilsonelser.com=
+" target=3D"_blank" rel=3D"noreferrer">ashley.humphrie@wilsonelser.com</a>,=
+ <a href=3D"mailto:GSAMOnlineRequest@gs.com" target=3D"_blank" rel=3D"noref=
+errer">GSAMOnlineRequest@gs.com</a>, <a href=3D"mailto:blaw.content@bloombe=
+rg.net" target=3D"_blank" rel=3D"noreferrer">blaw.content@bloomberg.net</a>=
+, <a href=3D"mailto:matthew.chase@lw.com" target=3D"_blank" rel=3D"noreferr=
+er">matthew.chase@lw.com</a>, <a href=3D"mailto:anthony.sicoli@bnymellon.co=
+m" target=3D"_blank" rel=3D"noreferrer">anthony.sicoli@bnymellon.com</a>, <=
+a href=3D"mailto:marc.jaffe@lw.com" target=3D"_blank" rel=3D"noreferrer">ma=
+rc.jaffe@lw.com</a>, <a href=3D"mailto:ofac_feedback@treasury.gov" target=
+=3D"_blank" rel=3D"noreferrer">ofac_feedback@treasury.gov</a>, <a href=3D"m=
+ailto:dion.gaspard@nypd.org" target=3D"_blank" rel=3D"noreferrer">dion.gasp=
+ard@nypd.org</a>, <a href=3D"mailto:rosalyn.marcus@finra.org" target=3D"_bl=
+ank" rel=3D"noreferrer">rosalyn.marcus@finra.org</a>, <a href=3D"mailto:leg=
+alasst@mskyline.com" target=3D"_blank" rel=3D"noreferrer">legalasst@mskylin=
+e.com</a>, <a href=3D"mailto:rebecca.coyle@statefarm.com" target=3D"_blank"=
+ rel=3D"noreferrer">rebecca.coyle@statefarm.com</a>, <a href=3D"mailto:garr=
+ett.marquis@bnymellon.com" target=3D"_blank" rel=3D"noreferrer">garrett.mar=
+quis@bnymellon.com</a>, <a href=3D"mailto:ted.banner@bnymellon.com" target=
+=3D"_blank" rel=3D"noreferrer">ted.banner@bnymellon.com</a>, <a href=3D"mai=
+lto:CHICAGO@sec.gov" target=3D"_blank" rel=3D"noreferrer">CHICAGO@sec.gov</=
+a>, <a href=3D"mailto:TEDHERMANSON@northmarq.com" target=3D"_blank" rel=3D"=
+noreferrer">TEDHERMANSON@northmarq.com</a>, <a href=3D"mailto:amount@bressl=
+er.com" target=3D"_blank" rel=3D"noreferrer">amount@bressler.com</a>, <a hr=
+ef=3D"mailto:asksipc@sipc.org" target=3D"_blank" rel=3D"noreferrer">asksipc=
+@sipc.org</a>, <a href=3D"mailto:efoia@fdic.gov" target=3D"_blank" rel=3D"n=
+oreferrer">efoia@fdic.gov</a>, <a href=3D"mailto:electronicfilings@ftc.gov"=
+ target=3D"_blank" rel=3D"noreferrer">electronicfilings@ftc.gov</a>, <a hre=
+f=3D"mailto:gs@gs.com" target=3D"_blank" rel=3D"noreferrer">gs@gs.com</a>, =
+<a href=3D"mailto:infor@solowresidential.com" target=3D"_blank" rel=3D"nore=
+ferrer">infor@solowresidential.com</a>, <a href=3D"mailto:LZUCKER@mskyline.=
+com" target=3D"_blank" rel=3D"noreferrer">LZUCKER@mskyline.com</a>, <a href=
+=3D"mailto:mshyld@bloomberg.net" target=3D"_blank" rel=3D"noreferrer">mshyl=
+d@bloomberg.net</a>, <a href=3D"mailto:newsoffice@mit.edu" target=3D"_blank=
+" rel=3D"noreferrer">newsoffice@mit.edu</a>, <a href=3D"mailto:oca@sec.gov"=
+ target=3D"_blank" rel=3D"noreferrer">oca@sec.gov</a>, <a href=3D"mailto:pr=
+ivacypolicy@related.com" target=3D"_blank" rel=3D"noreferrer">privacypolicy=
+@related.com</a>, <a href=3D"mailto:shareholderproposals@sec.gov" target=3D=
+"_blank" rel=3D"noreferrer">shareholderproposals@sec.gov</a>, <a href=3D"ma=
+ilto:slaskowitz@mskyline.com" target=3D"_blank" rel=3D"noreferrer">slaskowi=
+tz@mskyline.com</a>, <a href=3D"mailto:tips@insider.com" target=3D"_blank" =
+rel=3D"noreferrer">tips@insider.com</a>, <a href=3D"mailto:tips@latimes.com=
+" target=3D"_blank" rel=3D"noreferrer">tips@latimes.com</a>, <a href=3D"mai=
+lto:tips@nytimes.com" target=3D"_blank" rel=3D"noreferrer">tips@nytimes.com=
+</a>, <a href=3D"mailto:tips@vibe.com" target=3D"_blank" rel=3D"noreferrer"=
+>tips@vibe.com</a>, <a href=3D"mailto:wmckenzie@nycourts.gov" target=3D"_bl=
+ank" rel=3D"noreferrer">wmckenzie@nycourts.gov</a>, FTC ANTITRUST &lt;<a hr=
+ef=3D"mailto:antitrust@ftc.gov" target=3D"_blank" rel=3D"noreferrer">antitr=
+ust@ftc.gov</a>&gt;, Brooklyn Tap House &lt;<a href=3D"mailto:tips@nypost.c=
+om" target=3D"_blank" rel=3D"noreferrer">tips@nypost.com</a>&gt;, CRC FTC R=
+EPORTS &lt;<a href=3D"mailto:crcmessages@ftc.gov" target=3D"_blank" rel=3D"=
+noreferrer">crcmessages@ftc.gov</a>&gt;, CS TEAM &lt;<a href=3D"mailto:Acti=
+vations@hutchmen.com" target=3D"_blank" rel=3D"noreferrer">Activations@hutc=
+hmen.com</a>&gt;, BRIAN HODGSON &lt;<a href=3D"mailto:BRIAN.HODGSON.NYZ6@st=
+atefarm.com" target=3D"_blank" rel=3D"noreferrer">BRIAN.HODGSON.NYZ6@statef=
+arm.com</a>&gt;, BO DINCER &lt;<a href=3D"mailto:bo.dincer@yahoo.com" targe=
+t=3D"_blank" rel=3D"noreferrer">bo.dincer@yahoo.com</a>&gt;, Debra Tama &lt=
+;<a href=3D"mailto:debra.tama@wilsonelser.com" target=3D"_blank" rel=3D"nor=
+eferrer">debra.tama@wilsonelser.com</a>&gt;, Dian Zhu &lt;<a href=3D"mailto=
+:dian.zhu@finra.org" target=3D"_blank" rel=3D"noreferrer">dian.zhu@finra.or=
+g</a>&gt;, FOX ROTHSCHILD &lt;<a href=3D"mailto:JROSE@foxrothschild.com" ta=
+rget=3D"_blank" rel=3D"noreferrer">JROSE@foxrothschild.com</a>&gt;, Paul Re=
+gan &lt;<a href=3D"mailto:legal@mskyline.com" target=3D"_blank" rel=3D"nore=
+ferrer">legal@mskyline.com</a>&gt;, Ricki Roer &lt;<a href=3D"mailto:ricki.=
+roer@wilsonelser.com" target=3D"_blank" rel=3D"noreferrer">ricki.roer@wilso=
+nelser.com</a>&gt;, Shari Laskowitz &lt;<a href=3D"mailto:slaskowitz@ingram=
+llp.com" target=3D"_blank" rel=3D"noreferrer">slaskowitz@ingramllp.com</a>&=
+gt;, Stephen O&#39;Connell &lt;<a href=3D"mailto:sgo2107@adcu.columbia.edu"=
+ target=3D"_blank" rel=3D"noreferrer">sgo2107@adcu.columbia.edu</a>&gt;, Al=
+an Morrison &lt;<a href=3D"mailto:ajm157@columbia.edu" target=3D"_blank" re=
+l=3D"noreferrer">ajm157@columbia.edu</a>&gt;, Alan Andreini &lt;<a href=3D"=
+mailto:aandreini@fortress.com" target=3D"_blank" rel=3D"noreferrer">aandrei=
+ni@fortress.com</a>&gt;, UNITED ARTISTS MUSIC &lt;<a href=3D"mailto:investo=
+rrelations@umusic.com" target=3D"_blank" rel=3D"noreferrer">investorrelatio=
+ns@umusic.com</a>&gt;, UNIVERSAL EDITORIAL &lt;<a href=3D"mailto:investment=
+news@editorial.investmentnews.com" target=3D"_blank" rel=3D"noreferrer">inv=
+estmentnews@editorial.investmentnews.com</a>&gt;, WILLIAM BEHR &lt;<a href=
+=3D"mailto:william.behr@wilsonelser.com" target=3D"_blank" rel=3D"noreferre=
+r">william.behr@wilsonelser.com</a>&gt;, ZUCKER ORGANIZATION &lt;<a href=3D=
+"mailto:jgiamboi@mskyline.com" target=3D"_blank" rel=3D"noreferrer">jgiambo=
+i@mskyline.com</a>&gt;, Bressler Info &lt;<a href=3D"mailto:INFO@bressler.c=
+om" target=3D"_blank" rel=3D"noreferrer">INFO@bressler.com</a>&gt;, Finra W=
+ebmaster &lt;<a href=3D"mailto:webmaster@finra.org" target=3D"_blank" rel=
+=3D"noreferrer">webmaster@finra.org</a>&gt;, Goldman Sachs &lt;<a href=3D"m=
+ailto:briefings@gs.com" target=3D"_blank" rel=3D"noreferrer">briefings@gs.c=
+om</a>&gt;, JAMES GORMAN &lt;<a href=3D"mailto:james.gorman@morganstanley.c=
+om" target=3D"_blank" rel=3D"noreferrer">james.gorman@morganstanley.com</a>=
+&gt;, Joseph Giamboi &lt;<a href=3D"mailto:joseph.giamboi@brooklaw.edu" tar=
+get=3D"_blank" rel=3D"noreferrer">joseph.giamboi@brooklaw.edu</a>&gt;, LA T=
+IMES NEWSLETTERS &lt;<a href=3D"mailto:newsletters@latimes.com" target=3D"_=
+blank" rel=3D"noreferrer">newsletters@latimes.com</a>&gt;, Lee Bollinger &l=
+t;<a href=3D"mailto:bollinger@columbia.edu" target=3D"_blank" rel=3D"norefe=
+rrer">bollinger@columbia.edu</a>&gt;, Lee Bollinger &lt;<a href=3D"mailto:o=
+fficeofthepresident@columbia.edu" target=3D"_blank" rel=3D"noreferrer">offi=
+ceofthepresident@columbia.edu</a>&gt;, Lori Semlies &lt;<a href=3D"mailto:l=
+ori.semlies@wilsonelser.com" target=3D"_blank" rel=3D"noreferrer">lori.seml=
+ies@wilsonelser.com</a>&gt;, MATT HARVEY &lt;<a href=3D"mailto:mharvey13@bl=
+oomberg.net" target=3D"_blank" rel=3D"noreferrer">mharvey13@bloomberg.net</=
+a>&gt;, MATT LOWE &lt;<a href=3D"mailto:mlowe@fdic.gov" target=3D"_blank" r=
+el=3D"noreferrer">mlowe@fdic.gov</a>&gt;, MIKE DANILACK &lt;<a href=3D"mail=
+to:MIKE.DANILACK@us.pwc.com" target=3D"_blank" rel=3D"noreferrer">MIKE.DANI=
+LACK@us.pwc.com</a>&gt;, Amy Hanrahan &lt;<a href=3D"mailto:amy.hanrahan@wi=
+lsonelser.com" target=3D"_blank" rel=3D"noreferrer">amy.hanrahan@wilsonelse=
+r.com</a>&gt;, Alan Rubin &lt;<a href=3D"mailto:alan.rubin@wilsonelser.com"=
+ target=3D"_blank" rel=3D"noreferrer">alan.rubin@wilsonelser.com</a>&gt;, P=
+AM OLSON &lt;<a href=3D"mailto:PAM.OLSON@us.pwc.com" target=3D"_blank" rel=
+=3D"noreferrer">PAM.OLSON@us.pwc.com</a>&gt;, PETER MERILL &lt;<a href=3D"m=
+ailto:PETER.MERILL@us.pwc.com" target=3D"_blank" rel=3D"noreferrer">PETER.M=
+ERILL@us.pwc.com</a>&gt;, &quot;Lauren M. Zink&quot; &lt;<a href=3D"mailto:=
+lauren.zink@wilsonelser.com" target=3D"_blank" rel=3D"noreferrer">lauren.zi=
+nk@wilsonelser.com</a>&gt;, <a href=3D"mailto:executive_education@mailsvc.s=
+loan.mit.edu" target=3D"_blank" rel=3D"noreferrer">executive_education@mail=
+svc.sloan.mit.edu</a>, &quot;Ashley V. Humphries&quot; &lt;<a href=3D"mailt=
+o:ashley.humphries@wilsonelser.com" target=3D"_blank" rel=3D"noreferrer">as=
+hley.humphries@wilsonelser.com</a>&gt;, &quot;Roger R. Gottilla&quot; &lt;<=
+a href=3D"mailto:roger.gottilla@wilsonelser.com" target=3D"_blank" rel=3D"n=
+oreferrer">roger.gottilla@wilsonelser.com</a>&gt;, <a href=3D"mailto:ainfo@=
+buildings.nyc.gov" target=3D"_blank" rel=3D"noreferrer">ainfo@buildings.nyc=
+.gov</a>, &quot;Jennifer M. Provost&quot; &lt;<a href=3D"mailto:jennifer.pr=
+ovost@wilsonelser.com" target=3D"_blank" rel=3D"noreferrer">jennifer.provos=
+t@wilsonelser.com</a>&gt;, &quot;Thomas R. Manisero&quot; &lt;<a href=3D"ma=
+ilto:thomas.manisero@wilsonelser.com" target=3D"_blank" rel=3D"noreferrer">=
+thomas.manisero@wilsonelser.com</a>&gt;, &quot;Kathleen A. Mullins&quot; &l=
+t;<a href=3D"mailto:kathleen.mullins@wilsonelser.com" target=3D"_blank" rel=
+=3D"noreferrer">kathleen.mullins@wilsonelser.com</a>&gt;, <a href=3D"mailto=
+:skysthelimit@theconcierge.info" target=3D"_blank" rel=3D"noreferrer">skyst=
+helimit@theconcierge.info</a>, <a href=3D"mailto:foia@eeoc.gov" target=3D"_=
+blank" rel=3D"noreferrer">foia@eeoc.gov</a><br clear=3D"none"><b>Cc:</b> <a=
+ href=3D"mailto:info@ohysiciansmutual.com" target=3D"_blank" rel=3D"norefer=
+rer">info@ohysiciansmutual.com</a>, <a href=3D"mailto:physiciansmutual@phys=
+iciansmutual.com" target=3D"_blank" rel=3D"noreferrer">physiciansmutual@phy=
+siciansmutual.com</a>, <a href=3D"mailto:info@ohysiciansmutual.com" target=
+=3D"_blank" rel=3D"noreferrer">info@ohysiciansmutual.com</a>, <a href=3D"ma=
+ilto:wmckenzie@nycourts.gov" target=3D"_blank" rel=3D"noreferrer">wmckenzie=
+@nycourts.gov</a>, <a href=3D"mailto:espnfrontrow@espn.com" target=3D"_blan=
+k" rel=3D"noreferrer">espnfrontrow@espn.com</a><br clear=3D"none"><b>Subjec=
+t:</b> <b>Fwd: 101 STFGX par no look 1516523 CIK Filer ex-post 900$ million=
+ in losses.</b><br clear=3D"none"><br clear=3D"none"></div></blockquote><bl=
+ockquote type=3D"cite"><div dir=3D"ltr">=EF=BB=BF</div></blockquote></div><=
+/div></div></div><div id=3D"m_-7044949771023550436yiv2913590040"><div><div>=
+<div><blockquote type=3D"cite"><div dir=3D"ltr"><br clear=3D"none"><br clea=
+r=3D"none"><div dir=3D"ltr">/BD<div><br clear=3D"none"></div></div><div dir=
+=3D"ltr"><br clear=3D"none">Begin forwarded message:<br clear=3D"none"><br =
+clear=3D"none"></div><blockquote type=3D"cite"><div dir=3D"ltr"><b>From:</b=
+> Bo Dincer &lt;<a href=3D"mailto:bdincer66@icloud.com" target=3D"_blank" r=
+el=3D"noreferrer">bdincer66@icloud.com</a>&gt;<br clear=3D"none"><b>Date:</=
+b> April 26, 2022 at 8:25:25 PM EDT<br clear=3D"none"><b>To:</b> <a href=3D=
+"mailto:edi.civil.rights.division@irs.gov" target=3D"_blank" rel=3D"norefer=
+rer">edi.civil.rights.division@irs.gov</a>, <a href=3D"mailto:eca_press@sta=
+te.gov" target=3D"_blank" rel=3D"noreferrer">eca_press@state.gov</a>, <a hr=
+ef=3D"mailto:teschmann@mskyline.com" target=3D"_blank" rel=3D"noreferrer">t=
+eschmann@mskyline.com</a>, <a href=3D"mailto:18pctdvo@nypd.org" target=3D"_=
+blank" rel=3D"noreferrer">18pctdvo@nypd.org</a>, <a href=3D"mailto:18pctyco=
+@nypd.org" target=3D"_blank" rel=3D"noreferrer">18pctyco@nypd.org</a>, <a h=
+ref=3D"mailto:cbrooks7@bloomberg.net" target=3D"_blank" rel=3D"noreferrer">=
+cbrooks7@bloomberg.net</a>, <a href=3D"mailto:10pctdvo@nypd.org" target=3D"=
+_blank" rel=3D"noreferrer">10pctdvo@nypd.org</a>, &quot;Bloomberg L.P.&quot=
+; &lt;<a href=3D"mailto:bbrief@bloomberg.net" target=3D"_blank" rel=3D"nore=
+ferrer">bbrief@bloomberg.net</a>&gt;, <a href=3D"mailto:1pctdvo@nypd.org" t=
+arget=3D"_blank" rel=3D"noreferrer">1pctdvo@nypd.org</a>, <a href=3D"mailto=
+:1pctyco@nypd.org" target=3D"_blank" rel=3D"noreferrer">1pctyco@nypd.org</a=
+>, <a href=3D"mailto:23pctdvo@nypd.com" target=3D"_blank" rel=3D"noreferrer=
+">23pctdvo@nypd.com</a>, <a href=3D"mailto:iceglobalnetwork-info@ice.com" t=
+arget=3D"_blank" rel=3D"noreferrer">iceglobalnetwork-info@ice.com</a>, <a h=
+ref=3D"mailto:23pctyco@nypd.org" target=3D"_blank" rel=3D"noreferrer">23pct=
+yco@nypd.org</a>, <a href=3D"mailto:ksaperstein2@bloomberg.net" target=3D"_=
+blank" rel=3D"noreferrer">ksaperstein2@bloomberg.net</a>, <a href=3D"mailto=
+:dcaoletters@sec.gov" target=3D"_blank" rel=3D"noreferrer">dcaoletters@sec.=
+gov</a>, <a href=3D"mailto:JPMCinvestorrelations@jpmchase.com" target=3D"_b=
+lank" rel=3D"noreferrer">JPMCinvestorrelations@jpmchase.com</a>, <a href=3D=
+"mailto:10pctyco@nypd.org" target=3D"_blank" rel=3D"noreferrer">10pctyco@ny=
+pd.org</a>, BD &lt;<a href=3D"mailto:bondstrt@protonmail.com" target=3D"_bl=
+ank" rel=3D"noreferrer">bondstrt@protonmail.com</a>&gt;, Chair &lt;<a href=
+=3D"mailto:chair@sec.gov" target=3D"_blank" rel=3D"noreferrer">chair@sec.go=
+v</a>&gt;, Tennesse &lt;<a href=3D"mailto:sbarchenger@tennessean.com" targe=
+t=3D"_blank" rel=3D"noreferrer">sbarchenger@tennessean.com</a>&gt;, Newyork=
+ &lt;<a href=3D"mailto:newyork@sec.gov" target=3D"_blank" rel=3D"noreferrer=
+">newyork@sec.gov</a>&gt;, MSRB &lt;<a href=3D"mailto:msrbsupport@msrb.org"=
+ target=3D"_blank" rel=3D"noreferrer">msrbsupport@msrb.org</a>&gt;, MSKYLIN=
+E &lt;<a href=3D"mailto:ANNE@thehighlandpartners.com" target=3D"_blank" rel=
+=3D"noreferrer">ANNE@thehighlandpartners.com</a>&gt;, BBO 121 &lt;<a href=
+=3D"mailto:ms60710444266@yahoo.com" target=3D"_blank" rel=3D"noreferrer">ms=
+60710444266@yahoo.com</a>&gt;, <a href=3D"mailto:dallas-reserve-mgmt@dal.fr=
+b.org" target=3D"_blank" rel=3D"noreferrer">dallas-reserve-mgmt@dal.frb.org=
+</a>, <a href=3D"mailto:ashley.humphrie@wilsonelser.com" target=3D"_blank" =
+rel=3D"noreferrer">ashley.humphrie@wilsonelser.com</a>, <a href=3D"mailto:G=
+SAMOnlineRequest@gs.com" target=3D"_blank" rel=3D"noreferrer">GSAMOnlineReq=
+uest@gs.com</a>, <a href=3D"mailto:blaw.content@bloomberg.net" target=3D"_b=
+lank" rel=3D"noreferrer">blaw.content@bloomberg.net</a>, <a href=3D"mailto:=
+matthew.chase@lw.com" target=3D"_blank" rel=3D"noreferrer">matthew.chase@lw=
+.com</a>, <a href=3D"mailto:anthony.sicoli@bnymellon.com" target=3D"_blank"=
+ rel=3D"noreferrer">anthony.sicoli@bnymellon.com</a>, <a href=3D"mailto:mar=
+c.jaffe@lw.com" target=3D"_blank" rel=3D"noreferrer">marc.jaffe@lw.com</a>,=
+ <a href=3D"mailto:ofac_feedback@treasury.gov" target=3D"_blank" rel=3D"nor=
+eferrer">ofac_feedback@treasury.gov</a>, <a href=3D"mailto:dion.gaspard@nyp=
+d.org" target=3D"_blank" rel=3D"noreferrer">dion.gaspard@nypd.org</a>, <a h=
+ref=3D"mailto:rosalyn.marcus@finra.org" target=3D"_blank" rel=3D"noreferrer=
+">rosalyn.marcus@finra.org</a>, <a href=3D"mailto:legalasst@mskyline.com" t=
+arget=3D"_blank" rel=3D"noreferrer">legalasst@mskyline.com</a>, <a href=3D"=
+mailto:rebecca.coyle@statefarm.com" target=3D"_blank" rel=3D"noreferrer">re=
+becca.coyle@statefarm.com</a>, <a href=3D"mailto:garrett.marquis@bnymellon.=
+com" target=3D"_blank" rel=3D"noreferrer">garrett.marquis@bnymellon.com</a>=
+, <a href=3D"mailto:ted.banner@bnymellon.com" target=3D"_blank" rel=3D"nore=
+ferrer">ted.banner@bnymellon.com</a>, <a href=3D"mailto:CHICAGO@sec.gov" ta=
+rget=3D"_blank" rel=3D"noreferrer">CHICAGO@sec.gov</a>, <a href=3D"mailto:T=
+EDHERMANSON@northmarq.com" target=3D"_blank" rel=3D"noreferrer">TEDHERMANSO=
+N@northmarq.com</a>, <a href=3D"mailto:amount@bressler.com" target=3D"_blan=
+k" rel=3D"noreferrer">amount@bressler.com</a>, <a href=3D"mailto:asksipc@si=
+pc.org" target=3D"_blank" rel=3D"noreferrer">asksipc@sipc.org</a>, <a href=
+=3D"mailto:efoia@fdic.gov" target=3D"_blank" rel=3D"noreferrer">efoia@fdic.=
+gov</a>, <a href=3D"mailto:electronicfilings@ftc.gov" target=3D"_blank" rel=
+=3D"noreferrer">electronicfilings@ftc.gov</a>, <a href=3D"mailto:gs@gs.com"=
+ target=3D"_blank" rel=3D"noreferrer">gs@gs.com</a>, <a href=3D"mailto:info=
+r@solowresidential.com" target=3D"_blank" rel=3D"noreferrer">infor@solowres=
+idential.com</a>, <a href=3D"mailto:LZUCKER@mskyline.com" target=3D"_blank"=
+ rel=3D"noreferrer">LZUCKER@mskyline.com</a>, <a href=3D"mailto:mshyld@bloo=
+mberg.net" target=3D"_blank" rel=3D"noreferrer">mshyld@bloomberg.net</a>, <=
+a href=3D"mailto:newsoffice@mit.edu" target=3D"_blank" rel=3D"noreferrer">n=
+ewsoffice@mit.edu</a>, <a href=3D"mailto:oca@sec.gov" target=3D"_blank" rel=
+=3D"noreferrer">oca@sec.gov</a>, <a href=3D"mailto:privacypolicy@related.co=
+m" target=3D"_blank" rel=3D"noreferrer">privacypolicy@related.com</a>, <a h=
+ref=3D"mailto:shareholderproposals@sec.gov" target=3D"_blank" rel=3D"norefe=
+rrer">shareholderproposals@sec.gov</a>, <a href=3D"mailto:slaskowitz@mskyli=
+ne.com" target=3D"_blank" rel=3D"noreferrer">slaskowitz@mskyline.com</a>, <=
+a href=3D"mailto:tips@insider.com" target=3D"_blank" rel=3D"noreferrer">tip=
+s@insider.com</a>, <a href=3D"mailto:tips@latimes.com" target=3D"_blank" re=
+l=3D"noreferrer">tips@latimes.com</a>, <a href=3D"mailto:tips@nytimes.com" =
+target=3D"_blank" rel=3D"noreferrer">tips@nytimes.com</a>, <a href=3D"mailt=
+o:tips@vibe.com" target=3D"_blank" rel=3D"noreferrer">tips@vibe.com</a>, <a=
+ href=3D"mailto:wmckenzie@nycourts.gov" target=3D"_blank" rel=3D"noreferrer=
+">wmckenzie@nycourts.gov</a>, FTC ANTITRUST &lt;<a href=3D"mailto:antitrust=
+@ftc.gov" target=3D"_blank" rel=3D"noreferrer">antitrust@ftc.gov</a>&gt;, B=
+rooklyn Tap House &lt;<a href=3D"mailto:tips@nypost.com" target=3D"_blank" =
+rel=3D"noreferrer">tips@nypost.com</a>&gt;, CRC FTC REPORTS &lt;<a href=3D"=
+mailto:crcmessages@ftc.gov" target=3D"_blank" rel=3D"noreferrer">crcmessage=
+s@ftc.gov</a>&gt;, CS TEAM &lt;<a href=3D"mailto:Activations@hutchmen.com" =
+target=3D"_blank" rel=3D"noreferrer">Activations@hutchmen.com</a>&gt;, BRIA=
+N HODGSON &lt;<a href=3D"mailto:BRIAN.HODGSON.NYZ6@statefarm.com" target=3D=
+"_blank" rel=3D"noreferrer">BRIAN.HODGSON.NYZ6@statefarm.com</a>&gt;, BO DI=
+NCER &lt;<a href=3D"mailto:bo.dincer@yahoo.com" target=3D"_blank" rel=3D"no=
+referrer">bo.dincer@yahoo.com</a>&gt;, Debra Tama &lt;<a href=3D"mailto:deb=
+ra.tama@wilsonelser.com" target=3D"_blank" rel=3D"noreferrer">debra.tama@wi=
+lsonelser.com</a>&gt;, Dian Zhu &lt;<a href=3D"mailto:dian.zhu@finra.org" t=
+arget=3D"_blank" rel=3D"noreferrer">dian.zhu@finra.org</a>&gt;, FOX ROTHSCH=
+ILD &lt;<a href=3D"mailto:JROSE@foxrothschild.com" target=3D"_blank" rel=3D=
+"noreferrer">JROSE@foxrothschild.com</a>&gt;, Paul Regan &lt;<a href=3D"mai=
+lto:legal@mskyline.com" target=3D"_blank" rel=3D"noreferrer">legal@mskyline=
+.com</a>&gt;, Ricki Roer &lt;<a href=3D"mailto:ricki.roer@wilsonelser.com" =
+target=3D"_blank" rel=3D"noreferrer">ricki.roer@wilsonelser.com</a>&gt;, Sh=
+ari Laskowitz &lt;<a href=3D"mailto:slaskowitz@ingramllp.com" target=3D"_bl=
+ank" rel=3D"noreferrer">slaskowitz@ingramllp.com</a>&gt;, Stephen O&#39;Con=
+nell &lt;<a href=3D"mailto:sgo2107@adcu.columbia.edu" target=3D"_blank" rel=
+=3D"noreferrer">sgo2107@adcu.columbia.edu</a>&gt;, Alan Morrison &lt;<a hre=
+f=3D"mailto:ajm157@columbia.edu" target=3D"_blank" rel=3D"noreferrer">ajm15=
+7@columbia.edu</a>&gt;, Alan Andreini &lt;<a href=3D"mailto:aandreini@fortr=
+ess.com" target=3D"_blank" rel=3D"noreferrer">aandreini@fortress.com</a>&gt=
+;, UNITED ARTISTS MUSIC &lt;<a href=3D"mailto:investorrelations@umusic.com"=
+ target=3D"_blank" rel=3D"noreferrer">investorrelations@umusic.com</a>&gt;,=
+ UNIVERSAL EDITORIAL &lt;<a href=3D"mailto:investmentnews@editorial.investm=
+entnews.com" target=3D"_blank" rel=3D"noreferrer">investmentnews@editorial.=
+investmentnews.com</a>&gt;, WILLIAM BEHR &lt;<a href=3D"mailto:william.behr=
+@wilsonelser.com" target=3D"_blank" rel=3D"noreferrer">william.behr@wilsone=
+lser.com</a>&gt;, ZUCKER ORGANIZATION &lt;<a href=3D"mailto:jgiamboi@mskyli=
+ne.com" target=3D"_blank" rel=3D"noreferrer">jgiamboi@mskyline.com</a>&gt;,=
+ Bressler Info &lt;<a href=3D"mailto:INFO@bressler.com" target=3D"_blank" r=
+el=3D"noreferrer">INFO@bressler.com</a>&gt;, Finra Webmaster &lt;<a href=3D=
+"mailto:webmaster@finra.org" target=3D"_blank" rel=3D"noreferrer">webmaster=
+@finra.org</a>&gt;, Goldman Sachs &lt;<a href=3D"mailto:briefings@gs.com" t=
+arget=3D"_blank" rel=3D"noreferrer">briefings@gs.com</a>&gt;, JAMES GORMAN =
+&lt;<a href=3D"mailto:james.gorman@morganstanley.com" target=3D"_blank" rel=
+=3D"noreferrer">james.gorman@morganstanley.com</a>&gt;, Joseph Giamboi &lt;=
+<a href=3D"mailto:joseph.giamboi@brooklaw.edu" target=3D"_blank" rel=3D"nor=
+eferrer">joseph.giamboi@brooklaw.edu</a>&gt;, LA TIMES NEWSLETTERS &lt;<a h=
+ref=3D"mailto:newsletters@latimes.com" target=3D"_blank" rel=3D"noreferrer"=
+>newsletters@latimes.com</a>&gt;, Lee Bollinger &lt;<a href=3D"mailto:bolli=
+nger@columbia.edu" target=3D"_blank" rel=3D"noreferrer">bollinger@columbia.=
+edu</a>&gt;, Lee Bollinger &lt;<a href=3D"mailto:officeofthepresident@colum=
+bia.edu" target=3D"_blank" rel=3D"noreferrer">officeofthepresident@columbia=
+.edu</a>&gt;, Lori Semlies &lt;<a href=3D"mailto:lori.semlies@wilsonelser.c=
+om" target=3D"_blank" rel=3D"noreferrer">lori.semlies@wilsonelser.com</a>&g=
+t;, MATT HARVEY &lt;<a href=3D"mailto:mharvey13@bloomberg.net" target=3D"_b=
+lank" rel=3D"noreferrer">mharvey13@bloomberg.net</a>&gt;, MATT LOWE &lt;<a =
+href=3D"mailto:mlowe@fdic.gov" target=3D"_blank" rel=3D"noreferrer">mlowe@f=
+dic.gov</a>&gt;, MIKE DANILACK &lt;<a href=3D"mailto:MIKE.DANILACK@us.pwc.c=
+om" target=3D"_blank" rel=3D"noreferrer">MIKE.DANILACK@us.pwc.com</a>&gt;, =
+Amy Hanrahan &lt;<a href=3D"mailto:amy.hanrahan@wilsonelser.com" target=3D"=
+_blank" rel=3D"noreferrer">amy.hanrahan@wilsonelser.com</a>&gt;, Alan Rubin=
+ &lt;<a href=3D"mailto:alan.rubin@wilsonelser.com" target=3D"_blank" rel=3D=
+"noreferrer">alan.rubin@wilsonelser.com</a>&gt;, PAM OLSON &lt;<a href=3D"m=
+ailto:PAM.OLSON@us.pwc.com" target=3D"_blank" rel=3D"noreferrer">PAM.OLSON@=
+us.pwc.com</a>&gt;, PETER MERILL &lt;<a href=3D"mailto:PETER.MERILL@us.pwc.=
+com" target=3D"_blank" rel=3D"noreferrer">PETER.MERILL@us.pwc.com</a>&gt;, =
+&quot;Lauren M. Zink&quot; &lt;<a href=3D"mailto:lauren.zink@wilsonelser.co=
+m" target=3D"_blank" rel=3D"noreferrer">lauren.zink@wilsonelser.com</a>&gt;=
+, <a href=3D"mailto:executive_education@mailsvc.sloan.mit.edu" target=3D"_b=
+lank" rel=3D"noreferrer">executive_education@mailsvc.sloan.mit.edu</a>, &qu=
+ot;Ashley V. Humphries&quot; &lt;<a href=3D"mailto:ashley.humphries@wilsone=
+lser.com" target=3D"_blank" rel=3D"noreferrer">ashley.humphries@wilsonelser=
+.com</a>&gt;, &quot;Roger R. Gottilla&quot; &lt;<a href=3D"mailto:roger.got=
+tilla@wilsonelser.com" target=3D"_blank" rel=3D"noreferrer">roger.gottilla@=
+wilsonelser.com</a>&gt;, <a href=3D"mailto:ainfo@buildings.nyc.gov" target=
+=3D"_blank" rel=3D"noreferrer">ainfo@buildings.nyc.gov</a>, &quot;Jennifer =
+M. Provost&quot; &lt;<a href=3D"mailto:jennifer.provost@wilsonelser.com" ta=
+rget=3D"_blank" rel=3D"noreferrer">jennifer.provost@wilsonelser.com</a>&gt;=
+, &quot;Thomas R. Manisero&quot; &lt;<a href=3D"mailto:thomas.manisero@wils=
+onelser.com" target=3D"_blank" rel=3D"noreferrer">thomas.manisero@wilsonels=
+er.com</a>&gt;, &quot;Kathleen A. Mullins&quot; &lt;<a href=3D"mailto:kathl=
+een.mullins@wilsonelser.com" target=3D"_blank" rel=3D"noreferrer">kathleen.=
+mullins@wilsonelser.com</a>&gt;, <a href=3D"mailto:skysthelimit@theconcierg=
+e.info" target=3D"_blank" rel=3D"noreferrer">skysthelimit@theconcierge.info=
+</a>, <a href=3D"mailto:foia@eeoc.gov" target=3D"_blank" rel=3D"noreferrer"=
+>foia@eeoc.gov</a>, <a href=3D"mailto:LZUCKER@mskyline.com" target=3D"_blan=
+k" rel=3D"noreferrer">LZUCKER@mskyline.com</a>, <a href=3D"mailto:citimod1@=
+bloomberg.net" target=3D"_blank" rel=3D"noreferrer">citimod1@bloomberg.net<=
+/a>, <a href=3D"mailto:mshy2@bloomberg.net" target=3D"_blank" rel=3D"norefe=
+rrer">mshy2@bloomberg.net</a>, <a href=3D"mailto:general.info@ny.frb.org" t=
+arget=3D"_blank" rel=3D"noreferrer">general.info@ny.frb.org</a><br clear=3D=
+"none"><b>Cc:</b> <a href=3D"mailto:espnfrontrow@espn.com" target=3D"_blank=
+" rel=3D"noreferrer">espnfrontrow@espn.com</a>, <a href=3D"mailto:bo.dincer=
+@yahoo.com" target=3D"_blank" rel=3D"noreferrer">bo.dincer@yahoo.com</a><br=
+ clear=3D"none"><b>Subject:</b> <b>Fwd: 101 STFGX par no look</b><br clear=
+=3D"none"><br clear=3D"none"></div></blockquote><blockquote type=3D"cite"><=
+div dir=3D"ltr">=EF=BB=BF</div></blockquote></div></blockquote></div></div>=
+</div></div><div id=3D"m_-7044949771023550436yiv2913590040"><div><div><div>=
+<blockquote type=3D"cite"><div dir=3D"ltr"><blockquote type=3D"cite"><div d=
+ir=3D"ltr"><br clear=3D"none"><br clear=3D"none"><div dir=3D"ltr">/BD<div><=
+br clear=3D"none"></div></div><div dir=3D"ltr"><br clear=3D"none">Begin for=
+warded message:<br clear=3D"none"><br clear=3D"none"></div><blockquote type=
+=3D"cite"><div dir=3D"ltr"><b>From:</b> Bo Dincer &lt;<a href=3D"mailto:bo.=
+dincer@yahoo.com" target=3D"_blank" rel=3D"noreferrer">bo.dincer@yahoo.com<=
+/a>&gt;<br clear=3D"none"><b>Date:</b> April 26, 2022 at 8:23:43 PM EDT<br =
+clear=3D"none"><b>To:</b> Baris Dincer &lt;<a href=3D"mailto:bdincer66@iclo=
+ud.com" target=3D"_blank" rel=3D"noreferrer">bdincer66@icloud.com</a>&gt;<b=
+r clear=3D"none"><b>Subject:</b> <b>Fw: 101 STFGX par no look</b><br clear=
+=3D"none"><b>Reply-To:</b> &quot;<a href=3D"mailto:bo.dincer@yahoo.com" tar=
+get=3D"_blank" rel=3D"noreferrer">bo.dincer@yahoo.com</a>&quot; &lt;<a href=
+=3D"mailto:bo.dincer@yahoo.com" target=3D"_blank" rel=3D"noreferrer">bo.din=
+cer@yahoo.com</a>&gt;<br clear=3D"none"><br clear=3D"none"></div></blockquo=
+te><blockquote type=3D"cite"><div dir=3D"ltr">=EF=BB=BF<br clear=3D"none"><=
+br clear=3D"none"><div id=3D"m_-7044949771023550436yiv2913590040ymail_andro=
+id_signature"><a rel=3D"nofollow noopener noreferrer noreferrer" shape=3D"r=
+ect" id=3D"m_-7044949771023550436yiv2913590040ymail_android_signature_link"=
+ href=3D"https://go.onelink.me/107872968?pid=3DInProduct&amp;c=3DGlobal_Int=
+ernal_YGrowth_AndroidEmailSig__AndroidUsers&amp;af_wl=3Dym&amp;af_sub1=3DIn=
+ternal&amp;af_sub2=3DGlobal_YGrowth&amp;af_sub3=3DEmailSignature" target=3D=
+"_blank">Sent from Yahoo Mail on Android</a></div> <br clear=3D"none"> <div=
+ id=3D"m_-7044949771023550436yiv2913590040yqt99011"><blockquote style=3D"ma=
+rgin:0 0 20px 0"> <div style=3D"padding:10px 0 0 20px;margin:10px 0 0 0;bor=
+der-left:1px solid #6d00f6"> <div style=3D"font-family:Roboto,sans-serif;co=
+lor:#6d00f6"> <div>----- Forwarded Message -----</div> <div><b>From:</b> &q=
+uot;Bo Dincer&quot; &lt;<a href=3D"mailto:bo.dincer@yahoo.com" target=3D"_b=
+lank" rel=3D"noreferrer">bo.dincer@yahoo.com</a>&gt;</div> <div><b>To:</b> =
+&quot;Baris Dincer&quot; &lt;<a href=3D"mailto:bdincer66@icloud.com" target=
+=3D"_blank" rel=3D"noreferrer">bdincer66@icloud.com</a>&gt;, &quot;Bo Dince=
+r&quot; &lt;<a href=3D"mailto:bo.dincer@yahoo.com" target=3D"_blank" rel=3D=
+"noreferrer">bo.dincer@yahoo.com</a>&gt;, &quot;Bo Dincer&quot; &lt;<a href=
+=3D"mailto:bondstrt007@gmail.com" target=3D"_blank" rel=3D"noreferrer">bond=
+strt007@gmail.com</a>&gt;, &quot;<a href=3D"mailto:tips@insider.com" target=
+=3D"_blank" rel=3D"noreferrer">tips@insider.com</a>&quot; &lt;<a href=3D"ma=
+ilto:tips@insider.com" target=3D"_blank" rel=3D"noreferrer">tips@insider.co=
+m</a>&gt;, &quot;<a href=3D"mailto:tips@latimes.com" target=3D"_blank" rel=
+=3D"noreferrer">tips@latimes.com</a>&quot; &lt;<a href=3D"mailto:tips@latim=
+es.com" target=3D"_blank" rel=3D"noreferrer">tips@latimes.com</a>&gt;, &quo=
+t;<a href=3D"mailto:tips@vibe.com" target=3D"_blank" rel=3D"noreferrer">tip=
+s@vibe.com</a>&quot; &lt;<a href=3D"mailto:tips@vibe.com" target=3D"_blank"=
+ rel=3D"noreferrer">tips@vibe.com</a>&gt;, &quot;Citrus Diner&quot; &lt;<a =
+href=3D"mailto:tips@gothamist.com" target=3D"_blank" rel=3D"noreferrer">tip=
+s@gothamist.com</a>&gt;, &quot;American Bar Association&quot; &lt;<a href=
+=3D"mailto:abanews@americanbar.org" target=3D"_blank" rel=3D"noreferrer">ab=
+anews@americanbar.org</a>&gt;, &quot;<a href=3D"mailto:4audit@bloomberg.net=
+" target=3D"_blank" rel=3D"noreferrer">4audit@bloomberg.net</a>&quot; &lt;<=
+a href=3D"mailto:4audit@bloomberg.net" target=3D"_blank" rel=3D"noreferrer"=
+>4audit@bloomberg.net</a>&gt;, &quot;Solowresidential Info&quot; &lt;<a hre=
+f=3D"mailto:info@solowresidential.com" target=3D"_blank" rel=3D"noreferrer"=
+>info@solowresidential.com</a>&gt;, &quot;<a href=3D"mailto:investor@annaly=
+.com" target=3D"_blank" rel=3D"noreferrer">investor@annaly.com</a>&quot; &l=
+t;<a href=3D"mailto:investor@annaly.com" target=3D"_blank" rel=3D"noreferre=
+r">investor@annaly.com</a>&gt;, &quot;<a href=3D"mailto:media.relations@kcc=
+.com" target=3D"_blank" rel=3D"noreferrer">media.relations@kcc.com</a>&quot=
+; &lt;<a href=3D"mailto:media.relations@kcc.com" target=3D"_blank" rel=3D"n=
+oreferrer">media.relations@kcc.com</a>&gt;, &quot;KEVIN ROCK&quot; &lt;<a h=
+ref=3D"mailto:krock5@bloomberg.net" target=3D"_blank" rel=3D"noreferrer">kr=
+ock5@bloomberg.net</a>&gt;, &quot;Dow Jones&quot; &lt;<a href=3D"mailto:wsj=
+prosupport@dowjones.com" target=3D"_blank" rel=3D"noreferrer">wsjprosupport=
+@dowjones.com</a>&gt;, &quot;Dow Jones&quot; &lt;<a href=3D"mailto:pronewsl=
+etter@dowjones.com" target=3D"_blank" rel=3D"noreferrer">pronewsletter@dowj=
+ones.com</a>&gt;, &quot;Newyork&quot; &lt;<a href=3D"mailto:newyork@sec.gov=
+" target=3D"_blank" rel=3D"noreferrer">newyork@sec.gov</a>&gt;, &quot;**Ext=
+ernal ICE Help Desk&quot; &lt;<a href=3D"mailto:icehelpdesk@ice.com" target=
+=3D"_blank" rel=3D"noreferrer">icehelpdesk@ice.com</a>&gt;, &quot;Bill Cass=
+ese (ICE BONDS SECURITIES)&quot; &lt;<a href=3D"mailto:bcassese19@bloomberg=
+.net" target=3D"_blank" rel=3D"noreferrer">bcassese19@bloomberg.net</a>&gt;=
+, &quot;<a href=3D"mailto:to-icengx@ice.com" target=3D"_blank" rel=3D"noref=
+errer">to-icengx@ice.com</a>&quot; &lt;<a href=3D"mailto:to-icengx@ice.com"=
+ target=3D"_blank" rel=3D"noreferrer">to-icengx@ice.com</a>&gt;, &quot;<a h=
+ref=3D"mailto:iceimsupport@theice.com" target=3D"_blank" rel=3D"noreferrer"=
+>iceimsupport@theice.com</a>&quot; &lt;<a href=3D"mailto:iceimsupport@theic=
+e.com" target=3D"_blank" rel=3D"noreferrer">iceimsupport@theice.com</a>&gt;=
+, &quot;<a href=3D"mailto:isda@isda.org" target=3D"_blank" rel=3D"noreferre=
+r">isda@isda.org</a>&quot; &lt;<a href=3D"mailto:isda@isda.org" target=3D"_=
+blank" rel=3D"noreferrer">isda@isda.org</a>&gt;, &quot;<a href=3D"mailto:is=
+daeurope@isda.org" target=3D"_blank" rel=3D"noreferrer">isdaeurope@isda.org=
+</a>&quot; &lt;<a href=3D"mailto:isdaeurope@isda.org" target=3D"_blank" rel=
+=3D"noreferrer">isdaeurope@isda.org</a>&gt;, &quot;<a href=3D"mailto:engine=
+ering@spglobal.com" target=3D"_blank" rel=3D"noreferrer">engineering@spglob=
+al.com</a>&quot; &lt;<a href=3D"mailto:engineering@spglobal.com" target=3D"=
+_blank" rel=3D"noreferrer">engineering@spglobal.com</a>&gt;, &quot;aaron wo=
+od&quot; &lt;<a href=3D"mailto:aaron_wood@sandp.com" target=3D"_blank" rel=
+=3D"noreferrer">aaron_wood@sandp.com</a>&gt;, &quot;Alan Andreini&quot; &lt=
+;<a href=3D"mailto:aandreini@fortress.com" target=3D"_blank" rel=3D"norefer=
+rer">aandreini@fortress.com</a>&gt;, &quot;Angel R. Vitiello&quot; &lt;<a h=
+ref=3D"mailto:angel.vitiello@wilsonelser.com" target=3D"_blank" rel=3D"nore=
+ferrer">angel.vitiello@wilsonelser.com</a>&gt;, &quot;Ashley V. Humphries&q=
+uot; &lt;<a href=3D"mailto:ashley.humphries@wilsonelser.com" target=3D"_bla=
+nk" rel=3D"noreferrer">ashley.humphries@wilsonelser.com</a>&gt;, &quot;<a h=
+ref=3D"mailto:ipadhelp@nypost.com" target=3D"_blank" rel=3D"noreferrer">ipa=
+dhelp@nypost.com</a>&quot; &lt;<a href=3D"mailto:ipadhelp@nypost.com" targe=
+t=3D"_blank" rel=3D"noreferrer">ipadhelp@nypost.com</a>&gt;, &quot;<a href=
+=3D"mailto:iphonehelp@nypost.com" target=3D"_blank" rel=3D"noreferrer">ipho=
+nehelp@nypost.com</a>&quot; &lt;<a href=3D"mailto:iphonehelp@nypost.com" ta=
+rget=3D"_blank" rel=3D"noreferrer">iphonehelp@nypost.com</a>&gt;, &quot;FDI=
+C Public Information&quot; &lt;<a href=3D"mailto:publicinfo@fdic.gov" targe=
+t=3D"_blank" rel=3D"noreferrer">publicinfo@fdic.gov</a>&gt;, &quot;<a href=
+=3D"mailto:investorrelations@umusic.com" target=3D"_blank" rel=3D"noreferre=
+r">investorrelations@umusic.com</a>&quot; &lt;<a href=3D"mailto:investorrel=
+ations@umusic.com" target=3D"_blank" rel=3D"noreferrer">investorrelations@u=
+music.com</a>&gt;</div> <div style=3D"display:inline"><b>Cc:</b> &quot;<a h=
+ref=3D"mailto:espnfrontrow@espn.com" target=3D"_blank" rel=3D"noreferrer">e=
+spnfrontrow@espn.com</a>&quot; &lt;<a href=3D"mailto:espnfrontrow@espn.com"=
+ target=3D"_blank" rel=3D"noreferrer">espnfrontrow@espn.com</a>&gt;, &quot;=
+<a href=3D"mailto:newyork@cravath.com" target=3D"_blank" rel=3D"noreferrer"=
+>newyork@cravath.com</a>&quot; &lt;<a href=3D"mailto:newyork@cravath.com" t=
+arget=3D"_blank" rel=3D"noreferrer">newyork@cravath.com</a>&gt;, &quot;Char=
+ity Navigator&quot; &lt;<a href=3D"mailto:admin@charitynavigator.org" targe=
+t=3D"_blank" rel=3D"noreferrer">admin@charitynavigator.org</a>&gt;, &quot;<=
+a href=3D"mailto:iceglobalnetwork-info@ice.com" target=3D"_blank" rel=3D"no=
+referrer">iceglobalnetwork-info@ice.com</a>&quot; &lt;<a href=3D"mailto:ice=
+globalnetwork-info@ice.com" target=3D"_blank" rel=3D"noreferrer">iceglobaln=
+etwork-info@ice.com</a>&gt;, &quot;BMO InvestorLine&quot; &lt;<a href=3D"ma=
+ilto:hr.notifications@bmo.com" target=3D"_blank" rel=3D"noreferrer">hr.noti=
+fications@bmo.com</a>&gt;, &quot;<a href=3D"mailto:bofamarkets@bofa.com" ta=
+rget=3D"_blank" rel=3D"noreferrer">bofamarkets@bofa.com</a>&quot; &lt;<a hr=
+ef=3D"mailto:bofamarkets@bofa.com" target=3D"_blank" rel=3D"noreferrer">bof=
+amarkets@bofa.com</a>&gt;, &quot;<a href=3D"mailto:jpmcinvestorrelations@jp=
+mchase.com" target=3D"_blank" rel=3D"noreferrer">jpmcinvestorrelations@jpmc=
+hase.com</a>&quot; &lt;<a href=3D"mailto:jpmcinvestorrelations@jpmchase.com=
+" target=3D"_blank" rel=3D"noreferrer">jpmcinvestorrelations@jpmchase.com</=
+a>&gt;, &quot;<a href=3D"mailto:jpminvestorrelations@jpmchase.com" target=
+=3D"_blank" rel=3D"noreferrer">jpminvestorrelations@jpmchase.com</a>&quot; =
+&lt;<a href=3D"mailto:jpminvestorrelations@jpmchase.com" target=3D"_blank" =
+rel=3D"noreferrer">jpminvestorrelations@jpmchase.com</a>&gt;, &quot;Bloombe=
+rg L.P.&quot; &lt;<a href=3D"mailto:bbrief@bloomberg.net" target=3D"_blank"=
+ rel=3D"noreferrer">bbrief@bloomberg.net</a>&gt;, &quot;<a href=3D"mailto:b=
+law.content@bloomberg.net" target=3D"_blank" rel=3D"noreferrer">blaw.conten=
+t@bloomberg.net</a>&quot; &lt;<a href=3D"mailto:blaw.content@bloomberg.net"=
+ target=3D"_blank" rel=3D"noreferrer">blaw.content@bloomberg.net</a>&gt;, &=
+quot;<a href=3D"mailto:blawre@bloomberg.net" target=3D"_blank" rel=3D"noref=
+errer">blawre@bloomberg.net</a>&quot; &lt;<a href=3D"mailto:blawre@bloomber=
+g.net" target=3D"_blank" rel=3D"noreferrer">blawre@bloomberg.net</a>&gt;</d=
+iv> <div><b>Sent:</b> Tue, Apr 26, 2022 at 8:21 PM</div> <div><b>Subject:</=
+b> 101 STFGX par no look</div> </div>  <div id=3D"m_-7044949771023550436yiv=
+2913590040"><div></div></div></div></blockquote></div></div></blockquote></=
+div></blockquote></div></blockquote></div></div></div></div><div id=3D"m_-7=
+044949771023550436yiv2913590040yqt02073"><div id=3D"m_-7044949771023550436y=
+iv2913590040"><div><div><div><blockquote type=3D"cite"><div dir=3D"ltr"><bl=
+ockquote type=3D"cite"><div dir=3D"ltr"><blockquote type=3D"cite"><div dir=
+=3D"ltr"><blockquote style=3D"margin:0 0 20px 0"><div style=3D"padding:10px=
+ 0 0 20px;margin:10px 0 0 0;border-left:1px solid #6d00f6"><div id=3D"m_-70=
+44949771023550436yiv2913590040"><div><br clear=3D"none"></div><div></div></=
+div></div></blockquote></div></blockquote></div></blockquote></div></blockq=
+uote></div></div></div></div><div id=3D"m_-7044949771023550436yiv2913590040=
+"><div><div><div><blockquote type=3D"cite"><div dir=3D"ltr"><blockquote typ=
+e=3D"cite"><div dir=3D"ltr"><blockquote type=3D"cite"><div dir=3D"ltr"><blo=
+ckquote style=3D"margin:0 0 20px 0"><div style=3D"padding:10px 0 0 20px;mar=
+gin:10px 0 0 0;border-left:1px solid #6d00f6"><div id=3D"m_-704494977102355=
+0436yiv2913590040"><div><br clear=3D"none"></div><div></div></div></div></b=
+lockquote></div></blockquote></div></blockquote></div></blockquote></div></=
+div></div></div><div id=3D"m_-7044949771023550436yiv2913590040"><div><div><=
+div><blockquote type=3D"cite"><div dir=3D"ltr"><blockquote type=3D"cite"><d=
+iv dir=3D"ltr"><blockquote type=3D"cite"><div dir=3D"ltr"><blockquote style=
+=3D"margin:0 0 20px 0"><div style=3D"padding:10px 0 0 20px;margin:10px 0 0 =
+0;border-left:1px solid #6d00f6"><div id=3D"m_-7044949771023550436yiv291359=
+0040"><div><br clear=3D"none"></div><div></div></div></div></blockquote></d=
+iv></blockquote></div></blockquote></div></blockquote></div></div></div></d=
+iv><div id=3D"m_-7044949771023550436yiv2913590040"><div><div><div><blockquo=
+te type=3D"cite"><div dir=3D"ltr"><blockquote type=3D"cite"><div dir=3D"ltr=
+"><blockquote type=3D"cite"><div dir=3D"ltr"><blockquote style=3D"margin:0 =
+0 20px 0"><div style=3D"padding:10px 0 0 20px;margin:10px 0 0 0;border-left=
+:1px solid #6d00f6"><div id=3D"m_-7044949771023550436yiv2913590040"><div><b=
+r clear=3D"none"></div><div></div></div></div></blockquote></div></blockquo=
+te></div></blockquote></div></blockquote></div></div></div></div><div id=3D=
+"m_-7044949771023550436yiv2913590040"><div><div><div><blockquote type=3D"ci=
+te"><div dir=3D"ltr"><blockquote type=3D"cite"><div dir=3D"ltr"><blockquote=
+ type=3D"cite"><div dir=3D"ltr"><blockquote style=3D"margin:0 0 20px 0"><di=
+v style=3D"padding:10px 0 0 20px;margin:10px 0 0 0;border-left:1px solid #6=
+d00f6"><div id=3D"m_-7044949771023550436yiv2913590040"><div><br clear=3D"no=
+ne"></div><div></div></div></div></blockquote></div></blockquote></div></bl=
+ockquote></div></blockquote></div></div></div></div><div id=3D"m_-704494977=
+1023550436yiv2913590040"><div><div><div><blockquote type=3D"cite"><div dir=
+=3D"ltr"><blockquote type=3D"cite"><div dir=3D"ltr"><blockquote type=3D"cit=
+e"><div dir=3D"ltr"><blockquote style=3D"margin:0 0 20px 0"><div style=3D"p=
+adding:10px 0 0 20px;margin:10px 0 0 0;border-left:1px solid #6d00f6"><div =
+id=3D"m_-7044949771023550436yiv2913590040"><div><br clear=3D"none"></div><d=
+iv></div></div></div></blockquote></div></blockquote></div></blockquote></d=
+iv></blockquote></div></div></div></div><div id=3D"m_-7044949771023550436yi=
+v2913590040"><div><div><div><blockquote type=3D"cite"><div dir=3D"ltr"><blo=
+ckquote type=3D"cite"><div dir=3D"ltr"><blockquote type=3D"cite"><div dir=
+=3D"ltr"><blockquote style=3D"margin:0 0 20px 0"><div style=3D"padding:10px=
+ 0 0 20px;margin:10px 0 0 0;border-left:1px solid #6d00f6"><div id=3D"m_-70=
+44949771023550436yiv2913590040"><div><br clear=3D"none"></div><br clear=3D"=
+none"><br clear=3D"none"><br clear=3D"none"><br clear=3D"none"><br clear=3D=
+"none"><br clear=3D"none"><br clear=3D"none">Also MSGA and PAR-ID on par.=
+=C2=A0<div id=3D"m_-7044949771023550436yiv2913590040yMail_cursorElementTrac=
+ker_1651018706587">=C2=A0 =C2=A0=C2=A0<br clear=3D"none"><div id=3D"m_-7044=
+949771023550436yiv2913590040yMail_cursorElementTracker_1651018694748">/s/ b=
+d.<br clear=3D"none"><br clear=3D"none"><div id=3D"m_-7044949771023550436yi=
+v2913590040ymail_android_signature"><a rel=3D"nofollow noopener noreferrer =
+noreferrer" shape=3D"rect" id=3D"m_-7044949771023550436yiv2913590040ymail_a=
+ndroid_signature_link" href=3D"https://go.onelink.me/107872968?pid=3DInProd=
+uct&amp;c=3DGlobal_Internal_YGrowth_AndroidEmailSig__AndroidUsers&amp;af_wl=
+=3Dym&amp;af_sub1=3DInternal&amp;af_sub2=3DGlobal_YGrowth&amp;af_sub3=3DEma=
+ilSignature" target=3D"_blank">Sent from Yahoo Mail on Android</a></div></d=
+iv></div></div> </div> </blockquote></div></blockquote></div></blockquote><=
+/div></blockquote></div></div></div></div><div id=3D"m_-7044949771023550436=
+yiv2913590040"><div><div><div><blockquote type=3D"cite"><div dir=3D"ltr"><b=
+lockquote type=3D"cite"><div dir=3D"ltr"><blockquote type=3D"cite"><div dir=
+=3D"ltr"></div></blockquote></div></blockquote></div></blockquote></div></d=
+iv></div></div><div id=3D"m_-7044949771023550436yiv2913590040"><div><div><d=
+iv><blockquote type=3D"cite"><div dir=3D"ltr"><blockquote type=3D"cite"><di=
+v dir=3D"ltr"><blockquote type=3D"cite"><div dir=3D"ltr"></div></blockquote=
+></div></blockquote></div></blockquote></div></div></div></div><div id=3D"m=
+_-7044949771023550436yiv2913590040"><div><div><div><blockquote type=3D"cite=
+"><div dir=3D"ltr"><blockquote type=3D"cite"><div dir=3D"ltr"><blockquote t=
+ype=3D"cite"><div dir=3D"ltr"></div></blockquote></div></blockquote></div><=
+/blockquote></div></div></div></div><div id=3D"m_-7044949771023550436yiv291=
+3590040"><div><div><div><blockquote type=3D"cite"><div dir=3D"ltr"><blockqu=
+ote type=3D"cite"><div dir=3D"ltr"><blockquote type=3D"cite"><div dir=3D"lt=
+r"></div></blockquote></div></blockquote></div></blockquote></div></div></d=
+iv></div><div id=3D"m_-7044949771023550436yiv2913590040"><div><div><div><bl=
+ockquote type=3D"cite"><div dir=3D"ltr"><blockquote type=3D"cite"><div dir=
+=3D"ltr"><blockquote type=3D"cite"><div dir=3D"ltr"></div></blockquote></di=
+v></blockquote></div></blockquote></div></div></div></div><div id=3D"m_-704=
+4949771023550436yiv2913590040"><div><div><div><blockquote type=3D"cite"><di=
+v dir=3D"ltr"><blockquote type=3D"cite"><div dir=3D"ltr"><blockquote type=
+=3D"cite"><div dir=3D"ltr"></div></blockquote></div></blockquote></div></bl=
+ockquote></div></div></div></div><div id=3D"m_-7044949771023550436yiv291359=
+0040"><div><div><div><blockquote type=3D"cite"><div dir=3D"ltr"><blockquote=
+ type=3D"cite"><div dir=3D"ltr"><blockquote type=3D"cite"><div dir=3D"ltr">=
+</div></blockquote></div></blockquote></div></blockquote></div></div></div>=
+</div><div id=3D"m_-7044949771023550436yiv2913590040"><div><div><div><block=
+quote type=3D"cite"><div dir=3D"ltr"><blockquote type=3D"cite"><div dir=3D"=
+ltr"><blockquote type=3D"cite"><div dir=3D"ltr"></div></blockquote></div></=
+blockquote></div></blockquote></div></div></div></div><div id=3D"m_-7044949=
+771023550436yiv2913590040"><div><div><div><blockquote type=3D"cite"><div di=
+r=3D"ltr"><blockquote type=3D"cite"><div dir=3D"ltr"><blockquote type=3D"ci=
+te"><div dir=3D"ltr"></div></blockquote><blockquote type=3D"cite"><div dir=
+=3D"ltr"></div></blockquote><blockquote type=3D"cite"><div dir=3D"ltr"></di=
+v></blockquote><blockquote type=3D"cite"><div dir=3D"ltr"></div></blockquot=
+e><blockquote type=3D"cite"><div dir=3D"ltr"></div></blockquote><blockquote=
+ type=3D"cite"><div dir=3D"ltr"></div></blockquote><blockquote type=3D"cite=
+"><div dir=3D"ltr"></div></blockquote><blockquote type=3D"cite"><div dir=3D=
+"ltr"></div></blockquote></div></blockquote></div></blockquote></div></div>=
+</div></div></div> </div> </blockquote></div></div></div> </div> </blockquo=
+te></blockquote></div>
+
+--00000000000081b0ba05de8d50b2--

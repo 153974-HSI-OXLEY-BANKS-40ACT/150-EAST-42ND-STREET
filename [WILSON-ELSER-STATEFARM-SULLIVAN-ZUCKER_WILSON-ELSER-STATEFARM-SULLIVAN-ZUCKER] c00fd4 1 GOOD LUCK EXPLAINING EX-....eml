@@ -1,0 +1,1433 @@
+From - Tue Jun 28 03:06:00 2022
+X-Account-Key: account1
+X-UIDL: ADcAx7Qak8JSYrq0+wNu6KlMKgY
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.214.154.149
+ by atlas314.free.mail.gq1.yahoo.com with HTTPS; Tue, 28 Jun 2022 07:59:54 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.204]
+Received-SPF: pass (domain of github.com designates 192.30.252.204 as permitted sender)
+Authentication-Results: atlas314.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 28 Jun 2022 07:59:54 +0000
+X-YMailAVSC: wafw1js3bBsTx54W3h0vY6tYfGLsJBxDnNuuuoCpjiTXOaX
+ v__YCBW2SOCVlVkOeCRK8A.ScXcmoEcl_Y61AQnUs_DeEsFdZEXZFcdNpTpf
+ gXvwQ18unNz.7Jr6RipJzB8g7lxILKgMuH_TMLLY7A45o.kWKKxIcLnGZT69
+ ecT3ZmpkS31lievUyjkky2ho3.yyG3mGeSGqDlF1SoUvQcmVkXazE2FByLrs
+ SNRvmXDbdiHv2DSBfl4gGVABd7Y1UgTL3r7Zm6kaIy_UxWxaVHYAAgCafC.D
+ 39y.9OqycPC4i_6sFcTlqeT8HLhquki8Nz8wQjtFxIUXOeorU2SXbnI5CDXH
+ o93o6U8wrgGMjHt57Zde5yjHKlPMUQqOpMFSEOg--
+X-YMailISG: tJM6RzwWLDtUpZQWnbKIYbf9IrFpXbevUs81sCan1_eowch4
+ z2_tuW1vkfnq_DSewfFHpDbxG0sVwPITqQZ1XfNhVp5cEzILpVXstEyU_UI2
+ V23UITUKt1aFhTl.lrnAMyGVEBe46tQQ1DzjpiDOuXIHAhyNsdm_.91Bpk.t
+ sCrkOBOKyGHCuDJzvcOCR0gJyPtb.JBDVmsLFE5bX1iP6gBaoOntXcRU1CIJ
+ zlC_wacKEsuZPkuJDxrQhkp.0G6giL86YH5_tPpmM3Aa.7XI_rwZlVqVbeLc
+ xQdnVmWc4nfq9fmo7ZCw1tUXxgsTc1QnumHDCmJ53NF5OahCx7gj9OE38Os9
+ NHChklexEGiuhbJQULDQs0lRfWleEvlL1DTNz61DEMvXSmfEYGMwoBEyhTkH
+ m_GNH2Nl5Wt6nWYmOxF3SMfGcSFtBI4OWwzSQqDbxI4SEFEcJkeOceiWJDd7
+ 92dNFyIag.JflhnWHp_MH1z0lIYJuYq1b7yoVeroAGSTwDOQYAxBAm00tib2
+ OTHxEnQno._EoSV_Cs0s8NFyRBVR7ezvgAKrkSJ7Vrobk7NZWeMtEt7fIZc1
+ 4NjueD7NVhUL9v_bvSs8U6aHf5F8ZV7NzmtAfAQuCzsBLRbhD2wnPBO7LR3L
+ kBayPvjLtsHsKTH9ojWG35F8wOpOoLPVlSJoxIv6.mFOcjooDI3RjJ7ObE8n
+ SckZoSR69Vlz7CHTGuFHKJllVxKAe_szLVUAv7R8IDoT4qB_WZgdTdw7tsUH
+ VMigUzHcQCNAOkCGcMigh17iAkDcV1YF8pMunqh0DQwSx8DS9yLjRuWmW7IY
+ x009IT0l06XbzHVBQLw7srZvdz5TVtO2fedW__sftA9STVB8FHEMnWqR89je
+ 5nqP6MVeBPrG7fCIro0fwZ27w4GqBUPW4kUJgiCrY0xMVGinri9W2YkE6wKK
+ 7bHS4BmLUM2rIbHunGBQlwUZDkZajuOKimbIOvSqKd2bniht3mtxou3XO40R
+ VMBrFgBLz9mG0m8k3ldmqyHhTaVbGMd6380ql3Es_nvBJBg4Pea7js25jL7O
+ .bX6vSW69rn08iuT.Ch6TwlFJ5geOTF5.p5I7m7Oiecc.Meiw.uPs7saXuko
+ g55RAgm51fKXikeEpu_rdlObJKHscnUAcP.S2lgl1bM_kfH8x.IkLYfCFsZ4
+ 3Zb4cUncy91dhPDEsgkz_Qpvp5dY6NSecQ--
+Received: from 192.30.252.204 (EHLO smtp.github.com)
+ by 10.214.154.149 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 28 Jun 2022 07:59:54 +0000
+Received: from github.com (hubbernetes-node-835b705.ac4-iad.github.net [10.52.14.54])
+	by smtp.github.com (Postfix) with ESMTPA id C4B0B520A85;
+	Tue, 28 Jun 2022 00:59:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656403193;
+	bh=KKiNFFWaNvIXb3ibj2l46M4D/MP7Ieo07TvQWHWR010=;
+	h=Date:From:To:Subject:From;
+	b=bWcAyEcNPoWiX9PMfT3JMRB35PaHM365M+vMseoQ+bfjJsYb3sLBQF+F6QIIRK1mJ
+	 q82Bxad4iqE2nb5v0LqjGVPtDaM1ysETpOpz5srz5XV3LneVE9+caxofVLmBApOFCH
+	 WamidWxQbhqsBu6zCyfkHpEIwxcol7N0tFsJqBw0=
+Date: Tue, 28 Jun 2022 00:59:53 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ financialeducation@info.consumerfinance.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/MSG-MULE1/8a8908-c00fd4@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ c00fd4: 1: ***** GOOD LUCK EXPLAINING EX-POST MERGERS <EAR...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,financialeducation@info.consumerfinance.gov
+X-Auto-Response-Suppress: All
+Content-Length: 69296
+
+  Branch: refs/heads/MSG-MULE1=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: c00fd44106101e673a528f6da7e32f6ba16fe521=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/c00fd44106101e673a528f6da7e32f6ba16f=
+e521=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-28 (Tue, 28 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  1: ***** GOOD LUCK EXPLAINING EX-POST MERGERS <EARL> LOSSES BY STATE FA=
+RM,[STFGX]=0D
+=0D
+## USC 18. VIOLATIONS ANNEXED IN NYSCEF 153974/2020 [ LOAN 50074 ]=0D
+=0D
+=C2=A72. - Principals=0D
+        (a) Whoever commits an offense against the United States or aids,=
+ abets, counsels, commands, induces or procures its commission, is punish=
+able as a principal.=0D
+        (b) Whoever willfully causes an act to be done which if directly =
+performed by him or another would be an offense against the United States=
+, is punishable as a principal.=0D
+=0D
+=C2=A73. - [Accessory after the fact](https://github.com/WILSON-ELSER-STA=
+TEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/89862=
+15/NYC.DEPT.OF.FINANCE.-.PUBLIC.RECORD.pdf)=0D
+        Whoever, knowing that an offense against the United States has be=
+en committed, receives, relieves, comforts or assists the offender in ord=
+er to hinder or prevent his apprehension, trial or punishment, is an acce=
+ssory after the fact. Except as otherwise expressly provided by any Act o=
+f Congress, an accessory after the fact shall be imprisoned not more than=
+ one-half the maximum term of imprisonment or (notwithstanding section 35=
+71) fined not more than one-half the maximum fine prescribed for the puni=
+shment of the principal, or both; or if the principal is punishable by li=
+fe imprisonment or death, the accessory shall be imprisoned not more than=
+ 15 years.=0D
+=0D
+=C2=A74. Misprision of felony=0D
+        Whoever, having knowledge of the actual commission of a felony co=
+gnizable by a court of the United States, conceals and does not as soon a=
+s possible make known the same to some judge or other person in civil or =
+military authority under the United States, shall be fined under this tit=
+le or imprisoned not more than three years, or both.    =0D
+=0D
+Filing User Shari Laskowitz | slaskowitz@ingramllp.com | 2129079600=0D
+=0D
+150 East 42nd Street 19th Floor, New York, NY 10017=0D
+Filed: 07/21/2020=0D
+    =0D
+[NYSCEF INDEX NO. 153974/2020]=0D
+=0D
+# VIOLATION OF PRIVACY AND BREACH OF DUTIES=0D
+FILED: NEW YORK COUNTY CLERK 07/21/2020 04:17 AM &nbsp;&nbsp;&nbsp;&nbsp;=
+* * * * * NYSCEF CASE: 153974/2020 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *=
+ * * * * &nbsp;&nbsp;&nbsp;&nbsp; DOC. NO. 77=0D
+<br> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DE0CK=
+xALt/dD_PLUS_Wk3Z8vuaXQ=3D=3D=0D
+=0D
+<br> Confirmation Notice to all Material Parties ( was redistributed ) by=
+ and between the counselors as seen in the circulation of <Video.mov> fil=
+es without consent.=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=3DE0CKxA=
+Lt/dD_PLUS_Wk3Z8vuaXQ=3D=3D=0D
+=0D
+[2/16/2022 11:57 PM](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DI=
+CKER/files/8608620/000000000000000000000000000000000000000000000.pdf)=0D
+=0D
+*** SOMEONE ALSO HAD A PROBLEM WITH THE EMAIL ADDRESS  --- AND HAD IT DEA=
+CTIVATED.=0D
+=0D
+[ASHLEY.HUMPHRIES@WILSONELSER.COM](https://github.com/BSCPGROUPHOLDINGSLL=
+C/ELSER-AND-DICKER/files/8608609/24.JAN.2022.-.ASHLEY.HUMPHRIES.YUZERS.pd=
+f)=0D
+=0D
+FILED IN NYSCEF MATTER 153974/2020=0D
+=0D
+=0D
+[DOCKET NO. 225](https://iapps.courts.state.ny.us/nyscef/ViewDocument?doc=
+Index=3DxBYJ69pjIuDxBegralE8Uw=3D=3D)<br>=0D
+[DOCKET NO. 231](https://iapps.courts.state.ny.us/nyscef/ViewDocument?doc=
+Index=3D1Wx2R9sKfno_PLUS_ol5jFakV9g=3D=3D)<br>=0D
+[DOCKET NO. 232](https://iapps.courts.state.ny.us/nyscef/ViewDocument?doc=
+Index=3D72GIYXnN1f/CSjCYtDxKUw=3D=3D)<br>=0D
+[DOCKET NO. 233](https://iapps.courts.state.ny.us/nyscef/ViewDocument?doc=
+Index=3DG5D0bfOIy4SeSXS47aSWbw=3D=3D)<br>=0D
+[DOCKET NO. 234](https://iapps.courts.state.ny.us/nyscef/ViewDocument?doc=
+Index=3DAgwH2omenQPCvT0OYOE3Rg=3D=3D)<br>=0D
+[DOCKET NO. 235](https://iapps.courts.state.ny.us/nyscef/ViewDocument?doc=
+Index=3DOioy2FAQ_PLUS_uuEatGhmc4JnA=3D=3D)<br>=0D
+=0D
+[GIS TAX-LOT 508, LOT 11](http://gis.nyc.gov/taxmap/map.htm?z=3D11&p=3D98=
+3515,203704&a=3DDTM&c=3Ddtm&f=3DBUILDING,CONDO_RANGE,LOT_FACE_SMALL,PARK_=
+PROPERTY,ZIP_CODE&s=3Dl:MANHATTAN,503,8,EVERY_BBL)=0D
+=0D
+[DOCKET NO. 307](https://iapps.courts.state.ny.us/nyscef/ViewDocument?doc=
+Index=3DrjL6yoW3Mt2U6UigWCM9XQ=3D=3D)<br>=0D
+[DOCKET NO. 308](https://iapps.courts.state.ny.us/nyscef/ViewDocument?doc=
+Index=3DSgjFfExxNV4Y4DTX6pANaA=3D=3D)<br>=0D
+[DOCKET NO. 309](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER=
+/files/8608700/153974_2020_S__309.pdf)<br>=0D
+[DOCKET NO. 315](https://iapps.courts.state.ny.us/nyscef/ConfirmationNoti=
+ce?docId=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D)<br>=0D
+[DOCKET NO. 382](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER=
+/files/8608665/153974_2020_382.6MM.AGREEMENT.pdf)<br>=0D
+=0D
+## NO CERTIFICATE OF OCCUPANCY IN AUGUST, 2020=0D
+FILED: NEW YORK COUNTY CLERK 08/04/2020 09:10 AM &nbsp;&nbsp;&nbsp;&nbsp;=
+* * * * * NYSCEF CASE: 153974/2020 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *=
+ * * * * &nbsp;&nbsp;&nbsp;&nbsp; DOC. NO. 230=0D
+<br> https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DAgwH=
+2omenQPCvT0OYOE3Rg=3D=3D=0D
+=0D
+<br>PROCESSED=0D
+<br>=0D
+https://iapps.courts.state.ny.us/nyscef/FilingUserInfo?filerId=3DSVnk_PLU=
+S_wwn_PLUS_akZLr2HagUrng=3D=3D&ret=3DD&docketId=3DrbJs1u78EZo22UbkaVdrZg=3D=
+=3D=0D
+<br> CONFIRMATION PROCESSED BY THE EXECUTIVES AND COUNSELORS OF <br><BR>*=
+ SULLIVAN PROPERTIES, LP<br>* SULLIVAN GP, LLC<br>* MANHATTAN SKYLINE MAN=
+AGEMENT CORP.<br>=0D
+<br> https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=3DU=
+ZsCx4RNLy/6V9gf1BkpTQ=3D=3D=0D
+=0D
+<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * * * * * THEN DISTRIBUTED BY AND BET=
+WEEN THE MATERIAL PARTIES [ MULE 1 ]<br>=0D
+=0D
+TO SATISFY USC 18.2, 18.225, AND UNDER 18.21 - WILLFULLY AND KNOWINGLY TR=
+IED TO OBSTRUCT THE MATERIAL FACTS FROM BEING KNOWN BY THE PUBLIC=0D
+=0D
+DOKCET 399=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DD9Td7IfWX=
+yajw1tBNCFb9g=3D=3D=0D
+=0D
+<br> "The NYSCEF website has received an electronic filing on 08/04/2020 =
+02:32 PM"<br>=0D
+<br><br>=0D
+E-mail Notifications: An email regarding this filing has been sent to the=
+ following on 08/04/2020 02:32 PM<br>=0D
+SHARI LASKOWITZ - slaskowitz@ingramllp.com=0D
+=0D
+---=0D
+=0D
+<MOV DISTRIBUTION>=0D
+BY AND BETWEEN THE WILSON ELSER LAW FIRM, AND ITS REPRESENTATIVES.=0D
+<br><br> PARTICPATED AND ALSO NOTARIZED SEVERAL AFFIDAVITS THROUGHOUT THE=
+ PROCEEDINGS OF NYSCEF 153974/2020<br>=0D
+<br><br>=0D
+=0D
+Counselor: Ashley Humphries | ASHLEY.HUMPHRIES@WILSONELSER.COM | 90843374=
+63=0D
+=0D
+## FILED: NEW YORK COUNTY CLERK 08/04/2020 02:32 PM=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DxBYJ69pjI=
+uDxBegralE8Uw=3D=3D=0D
+=0D
+NYSCEF DOC. NO. 225=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4RNL=
+y/6V9gf1BkpTQ=3D=3D=0D
+=0D
+## FILED: NEW YORK COUNTY CLERK 08/04/2020 09:10 AM INDEX NO. 153974/2020=
+=0D
+    =0D
+NYSCEF DOC. NO. 230=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DJjKiWNUTB=
+eipcESQfFiwVQ=3D=3D=0D
+=0D
+=0D
+E-mail Notifications An email regarding this filing has been sent to the =
+following on 08/04/2020 02:32 PM:=0D
+    SHARI LASKOWITZ - slaskowitz@ingramllp.com=0D
+    =0D
+249 AFFIDAVIT OR AFFIRMATION IN REPLY TO ORDER TO SHOW CAUSE, Motion #001=
+ 250 EXHIBIT(S) 1, Motion #001 251 EXHIBIT(S) 2, Motion #001 252 EXHIBIT(=
+S) 3, Motion #001 253 EXHIBIT(S) 4, Motion #001 254 EXHIBIT(S) 5, Motion =
+#001 255 EXHIBIT(S) 6, Motion #001 256 EXHIBIT(S) 7, Motion #001 257 EXHI=
+BIT(S) 8, Motion #001 258 EXHIBIT(S) 9, Motion #001 260 EXHIBIT(S) 1, Mot=
+ion #001 261 EXHIBIT(S) 2, Motion #001 262 EXHIBIT(S) 3, Motion #001 263 =
+EXHIBIT(S) 4, Motion #001 264 EXHIBIT(S) 5, Motion #001 265 EXHIBIT(S) 6,=
+ Motion #001 266 EXHIBIT(S) 7, Motion #001 267 EXHIBIT(S) 8, Motion #001 =
+268 EXHIBIT(S) 9, Motion #001 269 EXHIBIT(S) 10, Motion #001 270 EXHIBIT(=
+S) 11, Motion #001 271 EXHIBIT(S) 12, Motion #001 272 EXHIBIT(S) 13, Moti=
+on #001 273 EXHIBIT(S) 14, Motion #001 274 EXHIBIT(S) 15, Motion #001 275=
+ EXHIBIT(S) 16, Motion #001 276 EXHIBIT(S) 17, Motion #001 277 EXHIBIT(S)=
+ 18, Motion #001 278 EXHIBIT(S) 19, Motion #001 279 EXHIBIT(S) 20, Motion=
+ #001 280 EXHIBIT(S) 21, Motion #001 281 EXHIBIT(S) 22, Motion #001 282 E=
+XHIBIT(S) 23, Motion #001 283 EXHIBIT(S) 24, Motion #001 284 EXHIBIT(S) 2=
+5, Motion #001 285 EXHIBIT(S) 26, Motion #001 286 EXHIBIT(S) 27, Motion #=
+001 287 EXHIBIT(S) 28, Motion #001 288 EXHIBIT(S) 29, Motion #001 289 EXH=
+IBIT(S) 30, Motion #001 290 EXHIBIT(S) 31, Motion #001 291 EXHIBIT(S) 32,=
+ Motion #001 292 EXHIBIT(S) 33, Motion #001 293 EXHIBIT(S) 34, Motion #00=
+1 294 EXHIBIT(S) 35, Motion #001=0D
+=0D
+Filing User Shari Laskowitz | slaskowitz@ingramllp.com | 2129079600 150 E=
+ast 42nd Street 19th Floor, New York, NY 10017=0D
+=0D
+Hon. Milton A. Tingling, New York County Clerk and Clerk of the Supreme C=
+ourt NYSCEF Resource Center, nyscef@nycourts.gov Phone: 646-386-5956 Webs=
+ite: http://www.nycourts.gov/courts/1jd/supctmanh/county_clerk_operations=
+.shtml=0D
+=0D
+Phone: (646) 386-3033 | Fax: (212) 401-9146 | Website: www.nycourts.gov/e=
+file=0D
+    =0D
+### USC 18.21, USC 18.225, USC 18.2 : UNLAWFUL RENTS AND LEASES TRANSFERR=
+ED TO STATE FARM=0D
+ANNEXED IN THE LOAN DOCKETS AND IN NYSCEF 153974/2020<br><br>=0D
+[USC 18.=C2=A721, USC 18=C2=A7225,  USC 18=C2=A72, USC 18=C2=A71962, USC =
+18=C2=A71963 ----<NYC DEPT OF FINANCE - PUBLIC RECORDS>](https://github.c=
+om/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN=
+-ZUCKER/files/8986215/NYC.DEPT.OF.FINANCE.-.PUBLIC.RECORD.pdf)=0D
+=0D
+=0D
+USC 18=0D
+=C2=A721. Stolen or counterfeit nature of property for certain crimes def=
+ined=0D
+<p>=0D
+(a) Wherever in this title it is an element of an offense that-=0D
+  (1) any property was embezzled, robbed, stolen, converted, taken, alter=
+ed, counterfeited, falsely made, forged, or obliterated; and=0D
+  (2) the defendant knew that the property was of such character;=0D
+  -such element may be established by proof that the defendant, after or =
+as a result of an official representation as to the nature of the propert=
+y, believed the property to be embezzled, robbed, stolen, converted, take=
+n, altered, counterfeited, falsely made, forged, or obliterated.=0D
+</p>=0D
+    =0D
+USC 18=0D
+=C2=A7225. Continuing financial crimes enterprise=0D
+<p>=0D
+    (a) Whoever-=0D
+        (1) organizes, manages, or supervises a continuing financial crim=
+es enterprise; and=0D
+        (2) receives $5,000,000 or more in gross receipts from such enter=
+prise during any 24-month period=0D
+    -shall be fined not more than $10,000,000 if an individual, or $20,00=
+0,000 if an organization, and imprisoned for a term of not less than 10 y=
+ears and which may be life.=0D
+    (b) For purposes of subsection (a), the term "continuing financial cr=
+imes enterprise" means a series of violations under section 215, 656, 657=
+, 1005, 1006, 1007, 1014, 1032, or 1344 of this title, or section 1341 or=
+ 1343 affecting a financial institution, committed by at least 4 persons =
+acting in concert.=0D
+</p>=0D
+=0D
+USC 18    =0D
+=C2=A71962. Prohibited activities=0D
+<p>=0D
+(a) It shall be unlawful for any person who has received any income deriv=
+ed, directly or indirectly, from a pattern of racketeering activity or th=
+rough collection of an unlawful debt in which such person has participate=
+d as a principal within the meaning of section 2, title 18, United States=
+ Code, to use or invest, directly or indirectly, any part of such income,=
+ or the proceeds of such income, in acquisition of any interest in, or th=
+e establishment or operation of, any enterprise which is engaged in, or t=
+he activities of which affect, interstate or foreign commerce. A purchase=
+ of securities on the open market for purposes of investment, and without=
+ the intention of controlling or participating in the control of the issu=
+er, or of assisting another to do so, shall not be unlawful under this su=
+bsection if the securities of the issuer held by the purchaser, the membe=
+rs of his immediate family, and his or their accomplices in any pattern o=
+r racketeering activity or the collection of an unlawful debt after such =
+purchase do not amount in the aggregate to one percent of the outstanding=
+ securities of any one class, and do not confer, either in law or in fact=
+, the power to elect one or more directors of the issuer.=0D
+=0D
+(b) It shall be unlawful for any person through a pattern of racketeering=
+ activity or through collection of an unlawful debt to acquire or maintai=
+n, directly or indirectly, any interest in or control of any enterprise w=
+hich is engaged in, or the activities of which affect, interstate or fore=
+ign commerce.=0D
+=0D
+(c) It shall be unlawful for any person employed by or associated with an=
+y enterprise engaged in, or the activities of which affect, interstate or=
+ foreign commerce, to conduct or participate, directly or indirectly, in =
+the conduct of such enterprise's affairs through a pattern of racketeerin=
+g activity or collection of unlawful debt.=0D
+=0D
+(d) It shall be unlawful for any person to conspire to violate any of the=
+ provisions of subsection (a), (b), or (c) of this section.=0D
+</p>=0D
+=0D
+=C2=A71963. Criminal penalties=0D
+<p>=0D
+    =0D
+(a) Whoever violates any provision of section 1962 of this chapter shall =
+be fined under this title or imprisoned not more than 20 years (or for li=
+fe if the violation is based on a racketeering activity for which the max=
+imum penalty includes life imprisonment), or both, and shall forfeit to t=
+he United States, irrespective of any provision of State law-=0D
+(1) any interest the person has acquired or maintained in violation of se=
+ction 1962;=0D
+(2) any-=0D
+(A) interest in;=0D
+(B) security of;=0D
+(C) claim against; or=0D
+(D) property or contractual right of any kind affording a source of influ=
+ence over;=0D
+any enterprise which the person has established, operated, controlled, co=
+nducted, or participated in the conduct of, in violation of section 1962;=
+ and=0D
+(3) any property constituting, or derived from, any proceeds which the pe=
+rson obtained, directly or indirectly, from racketeering activity or unla=
+wful debt collection in violation of section 1962.=0D
+The court, in imposing sentence on such person shall order, in addition t=
+o any other sentence imposed pursuant to this section, that the person fo=
+rfeit to the United States all property described in this subsection. In =
+lieu of a fine otherwise authorized by this section, a defendant who deri=
+ves profits or other proceeds from an offense may be fined not more than =
+twice the gross profits or other proceeds.=0D
+(b) Property subject to criminal forfeiture under this section includes-=0D=
+
+(1) real property, including things growing on, affixed to, and found in =
+land; and=0D
+(2) tangible and intangible personal property, including rights, privileg=
+es, interests, claims, and securities.=0D
+</P>=0D
+=0D
+---=0D
+PROPERTY REPORT (see also: Miwa and Teschman)     Assignment to Zucker 05=
+/26/2020     =0D
+    Filed: 08/04/2020             Confirmation Notice=0D
+ 307      EXHIBIT(S)  - OPP  (Motion #001)     Dincer, B. (Pro Hac / Pro =
+Se)     Processed=0D
+PLAINTIFF DOES NOT HAVE A CERTIFICATE OF OCCUPANCY FOR THIS PROPERTY     =
+Filed: 08/09/2020     =0D
+    Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DrjL6yoW3M=
+t2U6UigWCM9XQ=3D=3D     =0D
+    Received: 08/09/2020     =0D
+ 308      EXHIBIT(S)  - 503  (Motion #001)     Dincer, B. (Pro Hac / Pro =
+Se)     Processed=0D
+TAX MAP BLOCK 503 - LOT 8 [GIS.NYC.GOV]     Filed: 08/09/2020     =0D
+    Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DSgjFfExxN=
+V4Y4DTX6pANaA=3D=3D     =0D
+    Received: 08/09/2020     =0D
+ 309      EXHIBIT(S)  - no1  (Motion #001)     Dincer, B. (Pro Hac / Pro =
+Se)     Processed=0D
+PLAINTIFF ASSIGNED LEASES AND RENTS ON MAY 15TH      Filed: 08/09/2020   =
+  =0D
+    Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0=
+G0QvnmRLGpYIQ=3D=3D     =0D
+    Received: 08/09/2020     =0D
+ 310      EXHIBIT(S)  - AC0  (Motion #001)     Dincer, B. (Pro Hac / Pro =
+Se)     Processed=0D
+ACRIS Detailed Document Information (2019000021408)2019010800475001     F=
+iled: 08/09/2020     =0D
+    Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dze6a1KA9a=
+kRV9TGfXXJT/g=3D=3D     =0D
+    Received: 08/09/2020     =0D
+ 311      EXHIBIT(S)  - AC1  (Motion #001)     Dincer, B. (Pro Hac / Pro =
+Se)     Processed=0D
+ACRIS Detailed Document Information (2020000155422)2020052000291003     F=
+iled: 08/09/2020     =0D
+    Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DbVk8sIt7n=
+3kGwHqebPg0fw=3D=3D     =0D
+    Received: 08/09/2020     =0D
+ 312      EXHIBIT(S)  - AC2  (Motion #001)     Dincer, B. (Pro Hac / Pro =
+Se)     Processed=0D
+ACRIS Detailed Document Information (2020000155421)2020052000291002     F=
+iled: 08/09/2020     =0D
+    Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DwTG2YD2Pq=
+XuxmoKqFiESrw=3D=3D     =0D
+    Received: 08/09/2020     =0D
+ 313      EXHIBIT(S)  - AC3  (Motion #001)     Dincer, B. (Pro Hac / Pro =
+Se)     Processed=0D
+ACRIS Detailed Document Information (2020000155422)2020052000291003     F=
+iled: 08/09/2020     =0D
+    Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn6=
+6hrVmJ9DX_PLUS_bdg=3D=3D     =0D
+    Received: 08/09/2020     =0D
+ 314      EXHIBIT(S)  - AC4  (Motion #001)     Dincer, B. (Pro Hac / Pro =
+Se)     Processed=0D
+ACRIS Detailed Document Information (2020000155423)2020052000291004     F=
+iled: 08/09/2020     =0D
+    Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiKJ=
+0BGv2DF/MOn4g=3D=3D     =0D
+    Received: 08/09/2020     =0D
+ 315      EXHIBIT(S)  - ACR  (Motion #002)     Dincer, B. (Pro Hac / Pro =
+Se)     Processed=0D
+ACRIS.NYC.GOV >> ASSIGNMENT OF LEASE AND RENTS ON FILED ON MAY 26TH - htt=
+ps://a836-acris.nyc.gov/     =0D
+    Filed: 08/09/2020     Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DgcMSDaFzm=
+0ynPeXZKSHgLQ=3D=3D     =0D
+    Received: 08/09/2020     =0D
+ 316      EXHIBIT(S)  - Bu0     Dincer, B. (Pro Hac / Pro Se)     Process=
+ed=0D
+COMPLAINT #14585819 (7/25/2020) @BBB     Filed: 08/09/2020     Confirmati=
+on Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D7Ry3LAoVf=
+WOLjSXhyJZ94A=3D=3D     =0D
+    Received: 08/09/2020     =0D
+=0D
+=0D
+#### CERTIFICATES OF OCCUPANCY AT ALL RELEVANT TIMES. FOR THE LOAN 50074 =
+(ALSO FILED IN NYSCEF 153974/2020)=0D
+=0D
+ 230      EXHIBIT(S)  - COr     Dincer, B. (Pro Hac / Pro Se)     Process=
+ed=0D
+CERTIFICATE OF OCCUPANCY FOR 111 SULLIVAN STREET REAR, NEW YORK, NEW YORK=
+ 10012     =0D
+    Filed: 08/04/2020     Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DJjKiWNUTB=
+eipcESQfFiwVQ=3D=3D     =0D
+    Received: 08/04/2020     =0D
+ 231      EXHIBIT(S)  - COf     Dincer, B. (Pro Hac / Pro Se)     Process=
+ed=0D
+CERTIFICATE OF OCCUPANCY FOR 111 SULLIVAN STREET, NEW YORK, NEW YORK 1001=
+2     =0D
+    Filed: 08/04/2020     Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D1Wx2R9sKf=
+no_PLUS_ol5jFakV9g=3D=3D     =0D
+    Received: 08/04/2020     =0D
+ 232      EXHIBIT(S)  - MEW  (Motion #002)     Dincer, B. (Pro Hac / Pro =
+Se)     Processed=0D
+Miwako Messer (AFFIDAVIT) IS REPORTED AS A 25 YEAR AFFILIATE OF THE PLAIN=
+TIFF     =0D
+    Filed: 08/04/2020     Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D72GIYXnN1=
+f/CSjCYtDxKUw=3D=3D     =0D
+    Received: 08/04/2020     =0D
+=0D
+ 233      EXHIBIT(S)  - MW1  (Motion #001)     Dincer, B. (Pro Hac / Pro =
+Se)     Processed=0D
+Affidavit of Miwako Messer SHOULD BE CONSIDERED AS WELL ORCHESTRATED     =
+=0D
+    Filed: 08/04/2020         Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DG5D0bfOIy=
+4SeSXS47aSWbw=3D=3D     =0D
+    Received: 08/04/2020     =0D
+ 234      EXHIBIT(S)  - VER     Dincer, B. (Pro Hac / Pro Se)     Process=
+ed=0D
+NO COMPLAINTS HAVE BEEN FILED IN MY BUILDING - PER DEPARTMENT OF BUILDING=
+S RECORDS.     =0D
+    Filed: 08/04/2020     Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D1Wx2R9sKf=
+no_PLUS_ol5jFakV9g=3D=3D     =0D
+    Received: 08/04/2020     =0D
+ 235      EXHIBIT(S)  - 804  (Motion #002)     Dincer, B. (Pro Hac / Pro =
+Se)     Processed=0D
+property report (see also: Miwa and Teschman) Assignment to Zucker 0526  =
+   =0D
+    Filed: 08/04/2020     Confirmation Notice=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DOioy2FAQ_=
+PLUS_uuEatGhmc4JnA=3D=3D     =0D
+    Received: 08/04/2020     =0D
+=0D
+<MOV DISTRIBUTION WITHOUT CONSENT>=0D
+[Read:SLASKOWITZINGRAMLLP.COM---WILSONELSER---ZUCKER--SCCS--XXXX@COLUMBIA=
+.EDU CONFIRMED](https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER=
+/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8985954/Read-.SLASKOWITZING=
+RAMLLP.COM---WILSONELSER---ZUCKER--SCCS--SGO%40COLUMBIA.EDU.CONFIRMED.zip=
+)=0D
+    =0D
+## FAXED THE PRIOR MSG TO NY SUPREME COURTS, CIVIL BRANCH.=0D
+https://faxzero.com/status/31316917/6b34c3ad9620003256df358c638765fc2ae38=
+7cc=0D
+    ***     ***    ***=0D
+Your fax (ID: #31316917) to VARIOUS at 212-401-9146=0D
+    has been delivered successfully at 12:12 AM=0D
+    Eastern Daylight Time on June 26th, 2022=0D
+    [ 50074 EAST ++ ]=0D
+=0D
+The content of your fax included 1 page of coversheet with your text and =
+3 pages of attached documents.=0D
+=0D
+Be sure to follow up with the recipient to make sure that the fax is legi=
+ble and is delivered to the right person in the office. Thank you for usi=
+ng FaxZero.com=0D
+    =0D
+# CASE FILE INFORMATION DISTRIBUTED - BY AND BETWEEN ALL RELEVANT PARTIES=
+=0D
+*** FDIC-01413744, LOCATION 1=0D
+    =0D
+FILE 1: [_30--FDIC-01413744 [ 50074 EST ++ ].pdf](https://github.com/WILS=
+ON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER=
+/files/8985964/_30--FDIC-01413744.50074.EST.%2B%2B.pdf)=0D
+    =0D
+FILE 2: [_30--FDIC-01413744 [ 50074 EST ++ ] 999.pdf](https://github.com/=
+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZU=
+CKER/files/8985960/_30--FDIC-01413744.50074.EST.%2B%2B.999.pdf)=0D
+=0D
+FILE 3: [_30--FDIC-01413744 [ 50074 EST ++ ] 999-3.pdf](https://github.co=
+m/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-=
+ZUCKER/files/8985961/_30--FDIC-01413744.50074.EST.%2B%2B.999-3.pdf)=0D
+=0D
+    =0D
+FILE 4: [_30--FDIC-01413744 [ 50074 EST ++ ] 999-12.pdf](https://github.c=
+om/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN=
+-ZUCKER/files/8985962/_30--FDIC-01413744.50074.EST.%2B%2B.999-12.pdf)=0D
+    =0D
+FILE 5: [_30--FDIC-01413744 [ 50074 EST ++ ] 999-76.pdf](https://github.c=
+om/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN=
+-ZUCKER/files/8985963/_30--FDIC-01413744.50074.EST.%2B%2B.999-76.pdf)=0D
+=0D
+FILED: NEW YORK COUNTY CLERK 08/09/2020 02:24 AM INDEX NO. 153974/2020=0D=
+
+NYSCEF DOC. NO. 314 RECEIVED NYSCEF: 08/09/2020=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiKJ=
+0BGv2DF/MOn4g=3D=3D=0D
+=0D
+    =0D
+# VIDEO.MOV DISTRIBUTION BY AND BETWEEN [@INGRAMLLP.COM] AND [@WILSONELSE=
+R.COM]=0D
+    =0D
+[ MULE 1 ] [ MULE 2 ]=0D
+FILED: NEW YORK COUNTY CLERK 08/04/2020 02:32 PM INDEX NO. 153974/2020=0D=
+
+NYSCEF DOC. NO. 287 RECEIVED NYSCEF: 08/04/2020=0D
+Sent: Sunday, July 19, 2020 5:49 PM=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4RNL=
+y/6V9gf1BkpTQ=3D=3D=0D
+=0D
+---=0D
+## Consumer Response Unit ( THANK YOU VERY MUCH FOR YOUR ASSISTANCE)=0D
+** National Center for Consumer and Depositor Assistance=0D
+** Federal Deposit Insurance Corporation=0D
+=0D
+### USC 18. =C2=A7208. Acts affecting a personal financial interest=0D
+=0D
+=0D
+(a) Except as permitted by subsection (b) hereof, whoever, being an offic=
+er or employee of the executive branch of the United States Government, o=
+r of any independent agency of the United States, a Federal Reserve bank =
+director, officer, or employee, or an officer or employee of the District=
+ of Columbia, including a special Government employee, participates perso=
+nally and substantially as a Government officer or employee, through deci=
+sion, approval, disapproval, recommendation, the rendering of advice, inv=
+estigation, or otherwise, in a judicial or other proceeding, application,=
+ request for a ruling or other determination, contract, claim, controvers=
+y, charge, accusation, arrest, or other particular matter in which, to hi=
+s knowledge, he, his spouse, minor child, general partner, organization i=
+n which he is serving as officer, director, trustee, general partner or e=
+mployee, or any person or organization with whom he is negotiating or has=
+ any arrangement concerning prospective employment, has a financial inter=
+est-Shall be subject to the penalties set forth in section 216 of this ti=
+tle.=0D
+(b) Subsection (a) shall not apply-=0D
+(1) if the officer or employee first advises the Government official resp=
+onsible for appointment to his or her position of the nature and circumst=
+ances of the judicial or other proceeding, application, request for a rul=
+ing or other determination, contract, claim, controversy, charge, accusat=
+ion, arrest, or other particular matter and makes full disclosure of the =
+financial interest and receives in advance a written determination made b=
+y such official that the interest is not so substantial as to be deemed l=
+ikely to affect the integrity of the services which the Government may ex=
+pect from such officer or employee;=0D
+(2) if, by regulation issued by the Director of the Office of Government =
+Ethics, applicable to all or a portion of all officers and employees cove=
+red by this section, and published in the Federal Register, the financial=
+ interest has been exempted from the requirements of subsection (a) as be=
+ing too remote or too inconsequential to affect the integrity of the serv=
+ices of the Government officers or employees to which such regulation app=
+lies;=0D
+(3) in the case of a special Government employee serving on an advisory c=
+ommittee within the meaning of the Federal Advisory Committee Act (includ=
+ing an individual being considered for an appointment to such a position)=
+, the official responsible for the employee's appointment, after review o=
+f the financial disclosure report filed by the individual pursuant to the=
+ Ethics in Government Act of 1978, certifies in writing that the need for=
+ the individual's services outweighs the potential for a conflict of inte=
+rest created by the financial interest involved...=0D
+=0D
+=0D
+---=0D
+ALL FILES FOLLOWED THE FOLLOWING PROCEDURE / UPON BEING ADMITTED OF DENIE=
+D.=0D
+STEP 1: COMMUNICATIONS BETWEEN LOCATION 1 & LOCATION 2 [ LOGGED ] EX-POST=
+ IN 2021=0D
+---=0D
+*** E-mail Notifications ***=0D
+An email regarding this filing has been sent to the following on 08/09/20=
+20 02:31 AM=0D
+#### SHARI LASKOWITZ - slaskowitz@ingramllp.com [ MULE ]=0D
+*** [ MULE NUMBER 1: slaskowitz@ingramllp.com] ***=0D
+*** [ MULE NUMBER 2: ASHLEY.HUMPHRIES@WILSONELSER.COM] ***=0D
+*** [ MULE NUMBER 3: CWEISS@INGRAMLLP.COM] ***=0D
+RE: MULE NUMBER 3, I AM NOT POSITIVE IF IT IS A REAL PERSON.=0D
+*** THESE ARE LIST SERV ADDRESSED MONITORED BY WHOEVER MAY OR MAY NOT BE =
+AVAILABLE, DEPENDING ON WHEN AND WHAT IS BEING DEALT WITH.=0D
+ADMINISTRATION@MSKYLINE.COM; LZUCKER@MSKYLINE.COM; ADMINISTRATOR@MSKYLINE=
+.COM; LEGAL@MSKYLINE.COM; LEGALASST@MSKYLINE.COM; SGO@COLUMBIA.EDU; SCCS@=
+COLUMBIA.EDU...=0D
+[ LOCATION 1 - FLOOR 4 ] BOOKS AND RECORDS, EMAILS BY AND BETWEEN THE DOM=
+AINS=0D
+---=0D
+[LOCATION 3] @MSKYLINE.COM=0D
+[LOCATION 2] @WILSONELSER.COM, @INGRAMLLP.COM=0D
+[LOCATION 1] @COLUMBIA.EDU=0D
+---=0D
+WITHOUT CONSENT, PHOTOGRAPHED AND VIDEOTAPED THE INTERIOR OF MY APARTMENT=
+ - THEN HOSTED THEM ON THE INTERNET AS WELL.=0D
+*** NOTWITHSTANDING THE INDETERMINATE NUMBER OF <VIDEO.MOV> FILES BY AND =
+BETWEEN ALL THREE LOCATIONS ABOVE.=0D
+    =0D
+---=0D
+### [ LOAN DOCKETS FOR 50074 EST ++ ] $6,000,000.00 AND UNDER USC 18.225=0D=
+
+LOAN DOCKETS, ASSIGNMENT OF UNLAWFULLY REPRESENTED INCOME (USC 18.21)=0D
+* LEASES AND RENTS TO STATE FARM IN EXCHANGE FOR $6,000,000.00=0D
+=0D
+<br><br>=0D
+[LOCATION 3]  @MSKYLINE.COM<br>=0D
+* 101 WEST 55TH STREET, NEW YORK, NY, 10019=0D
+<br><br>=0D
+=0D
+[LOCATION 2]  @WILSONELSER.COM<br>=0D
+* 150 EAST 42ND STREET, NEW YORK, NY, 10017=0D
+<br><br>=0D
+=0D
+[LOCATION 1]  @COLUMBIA.EDU<br>=0D
+* Lewisohn Hall, 2970 Broadway, 4TH FLOOR, New York, NY 10027=0D
+=0D
+STATE FARM=0D
+FILED THEIR OWN PAYMENTS TO SATISFY THE UMBRELLA OF CHARGES UNDER USC 18.=
+215=0D
+![image](https://user-images.githubusercontent.com/108204659/175807560-b2=
+7733c2-c934-4c33-b580-43a5b123d300.png)=0D
+=0D
+![image](https://user-images.githubusercontent.com/108204659/175807575-0f=
+6343e2-80e8-42d5-9b9b-52bf35010c0f.png)=0D
+=0D
+respectfully, FILED [ by yours truly]=0D
+[docket 315](https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?d=
+ocId=3DgcMSDaFzm0ynPeXZKSHgLQ=3D=3D)=0D
+=0D
+=0D
+-------- Forwarded Message --------=0D
+Subject:     Re: ***** GOOD LUCK EXPLAINING THAT TO HIDE 1 BILLION IN LOS=
+SES -- EX-POST MERGERS <EARL>=0D
+Date:     Tue, 28 Jun 2022 02:44:44 -0500=0D
+From:     B D2022 <ms60710444266@yahoo.com>=0D
+To:     usdoj@public.govdelivery.com <usdoj@public.govdelivery.com>, irs@=
+service.govdelivery.com <irs@service.govdelivery.com>, usttb@public.govde=
+livery.com <usttb@public.govdelivery.com>, financialeducation@info.consum=
+erfinance.gov <financialeducation@info.consumerfinance.gov>, DHSOIG@publi=
+c.govdelivery.com <DHSOIG@public.govdelivery.com>, vaoig@messages.va.gov =
+<vaoig@messages.va.gov>, pbgc@subscriptions.pbgc.gov <pbgc@subscriptions.=
+pbgc.gov>, USPSOIG@public.govdelivery.com <USPSOIG@public.govdelivery.com=
+>, cdfifund@service.govdelivery.com <cdfifund@service.govdelivery.com>, s=
+ubscribe@subscribe.ftc.gov <subscribe@subscribe.ftc.gov>, vatax@public.go=
+vdelivery.com <vatax@public.govdelivery.com>, tigta@service.govdelivery.c=
+om <tigta@service.govdelivery.com>, news@updates.sba.gov <news@updates.sb=
+a.gov>, news@updates.oig.dot.gov <news@updates.oig.dot.gov>, ANGELA 00043=
+govtIdx STUBBS <astubbs@feddirect.com>, anthony.lincoln@va.gov, asbpolicy=
+@fdic.gov <asbpolicy@fdic.gov>, assessments@fdic.gov <assessments@fdic.go=
+v>, Assetmarketing@fdic.gov <assetmarketing@fdic.gov>, Depositorservices@=
+fdic.gov, efoia@fdic.gov <efoia@fdic.gov>, judcraig@fdic.gov <judcraig@fd=
+ic.gov>, Legal Services and Special Contracts Group <LSSCG@FDIC.gov>, Wil=
+liams-Young, LaJuan <LWilliams-Young@FDIC.gov>, MediaRequests@fdic.gov <M=
+ediaRequests@fdic.gov>, mgrinnell@fdic.gov <mgrinnell@fdic.gov>, MATT LOW=
+E <mlowe@fdic.gov>, OCMgmtGrp@fdic.gov <OCMgmtGrp@fdic.gov>, oighotline@f=
+dicoig.gov <oighotline@fdicoig.gov>, publicinfo@fdic.gov <publicinfo@fdic=
+.gov>, realestateforsale@fdic.gov, Regs@fdic.gov <Regs@fdic.gov>, FDIC No=
+Reply <shr_fdicsfnoreply@fdic.gov>, supervision@fdic.gov <supervision@fdi=
+c.gov>, CongressionalLiaison@occ.treas.gov, CommunityAffairs@occ.treas.go=
+v <CommunityAffairs@occ.treas.gov>, eoma@occ.treas.gov, IMOCC@sec.gov, Al=
+lison Siegel <asiegel@mtagservices.com>, support@MTAGServices.com, Anthon=
+y.bucci@cbp.dhs.gov, CBPINFOCENTER@cbp.dhs.gov <CBPINFOCENTER@cbp.dhs.gov=
+>, CBPMEDIARELATIONS@cbp.dhs.gov, BARREDA, CECILIA M <CECILIA.M.BARREDA@c=
+bp.dhs.gov>, GREGORY.L.DAVIS@cbp.dhs.gov, BURNS, JAMES E. <JAMES.E.BURNS@=
+cbp.dhs.gov>, JASON.A.GIVENS@cbp.dhs.gov <JASON.A.GIVENS@cbp.dhs.gov>, QU=
+INONES, JEFFREY H <JEFFREY.H.QUINONES@cbp.dhs.gov>, MENNELL, JOHN B <JOHN=
+.B.MENNELL@cbp.dhs.gov>, JONATHAN.D.ISETT@CBP.DHS.gov <JONATHAN.D.ISETT@C=
+BP.DHS.gov>, JUSTIN.B.LONG@cbp.dhs.gov <JUSTIN.B.LONG@cbp.dhs.gov>, KRIST=
+OFFER.N.GROGAN@cbp.dhs.gov <KRISTOFFER.N.GROGAN@cbp.dhs.gov>, LAWRENCE.R.=
+PAYNE@cbp.dhs.gov <LAWRENCE.R.PAYNE@cbp.dhs.gov>, michael.niezgoda@cbp.dh=
+s.gov <michael.niezgoda@cbp.dhs.gov>, PETER.CARR@cbp.dhs.gov, PAUZA, RICH=
+ARD J <RICHARD.J.PAUZA@CBP.DHS.GOV>, roderick.kise@cbp.dhs.gov <roderick.=
+kise@cbp.dhs.gov>, THOMAS.GRESBACK@cbp.dhs.gov <THOMAS.GRESBACK@cbp.dhs.g=
+ov>, Sean Kelleher <sean.kelleher@wsaccess.com>, KATHY HOCHUL <governor.h=
+ochul@exec.ny.gov>, FTC ANTITRUST <antitrust@ftc.gov>, Seahawks Customers=
+ervice <CustomerService@Seahawks.com>, tessier3@stanford.edu <tessier3@st=
+anford.edu>, dailydigest@stanford.edu, eic@stanforddaily.com, hhp_info@hm=
+s.harvard.edu=0D
+CC:     slaskowitz@ingramllp.com <slaskowitz@ingramllp.com>, lzucker@msky=
+line.com <lzucker@mskyline.com>, Stephen O'Connell <sgo2107@columbia.edu>=
+, judith.amorosa@usdoj.gov <judith.amorosa@usdoj.gov>, Randyc.wilson@usdo=
+j.gov <Randyc.wilson@usdoj.gov>=0D
+=0D
+=0D
+=0D
+[2/16/2022 11:57 PM](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DI=
+CKER/files/8608620/000000000000000000000000000000000000000000000.pdf)=0D
+=0D
+*** SOMEONE ALSO HAD A PROBLEM WITH THE EMAIL ADDRESS --- AND HAD IT DELE=
+TED.=0D
+JUST LIKE THE ONE THEY DELETED ON DECEMBER 19TH, 2021 --------=0D
+=0D
+=0D
+-------- Forwarded Message --------=0D
+Subject: 	Fwd: ***** GOOD LUCK EXPLAINING THAT TO HIDE 1 BILLION IN LOSSE=
+S -- EX-POST MERGERS <EARL>=0D
+Date: 	Tue, 28 Jun 2022 02:45:31 -0500=0D
+From: 	B D2022 <ms60710444266@yahoo.com>=0D
+To: 	CBPMEDIARELATIONS@cbp.dhs.gov, LYLE.ADRIANO@KEYMEDIA.COM, media.rela=
+tions@kcc.com, media@chi.frb.org <media@chi.frb.org>, mediainquiries@broo=
+klynnets.com, mediainquiries@POINT72.COM, mediarelations@ap.org <mediarel=
+ations@ap.org>, privacy@groupninemedia.com <privacy@groupninemedia.com>, =
+WMPrivacy@warnermediagroup.com, news@golfchannel.com, LA TIMES NEWSLETTER=
+S <NEWSLETTERS@latimes.com>, newsoffice@mit.edu <newsoffice@mit.edu>, THE=
+ NEW YORK TIMES <NYTNEWS@nytimes.com>, Dow Jones <pronewsletter@dowjones.=
+com>, American Bar Association <abanews@americanbar.org>, Newsroom Books =
+<books@nytimes.com>, CORRECTIONS@YAHOONEWS.COM, customerservices@penews.c=
+om, desk@dailynewspix.com <desk@dailynewspix.com>, InvestmentNews <editor=
+ial@investmentnews.com>, emil.herzog@goodnewsjail.org, InvestmentNews Dai=
+ly Pulse <investmentnews@editorial.investmentnews.com>, GUEST OF A GUEST =
+<NEWS@guestofaguest.com>, news@penews.com, The Real Deal <news@therealdea=
+l.com>, Ace Anki Tech Newsletters <newsletters@ace.anki-tech.com>, INFO@p=
+hysiciansmutual.com, KEVIN ROCK <krock5@bloomberg.net>, leaston@ap.org <l=
+easton@ap.org>, nmeir@ap.org <nmeir@ap.org>, rss@ap.com, inbox@kellyandry=
+an.com, efile@nycourts.gov, BXElectricalIR@buildings.nyc.gov, MNElectrica=
+lIR@buildings.nyc.gov, RETANSELECTOPNKABC@ABC.COM, retranselectionKABC@ab=
+c.com <retranselectionKABC@abc.com>, Kids Privacy <kidsprivacy@viacomcbs.=
+com>, stationservices@cbs2ny.com <stationservices@cbs2ny.com>, andrew.bla=
+nkstein@nbcuni.com <andrew.blankstein@nbcuni.com>, DAVID.LI@NBCUNI.COM <d=
+avid.li@nbcuni.com>, suzanne.gamboa@nbcuni.com <suzanne.gamboa@nbcuni.com=
+>, tom.winter@nbcuni.com <tom.winter@nbcuni.com>, 3827-staff@lists.cs.col=
+umbia.edu, COLUMBIA@lists.columbia.edu, columbiacommunity@lists.columbia.=
+edu, COLUMBIAUNIVERSITY@lists.columbia.edu, COMS-COURSEREG@lists.columbia=
+.edu, cs3136@lists.cs.columbia.edu, gsba-owner@lists.columbia.edu, gsba@l=
+ists.columbia.edu, no-reopencu-attestations@lists.columbia.edu, president=
+@lists.columbia.edu, PS-MS-STUDENTS@lists.columbia.edu, UMS@lists.columbi=
+a.edu, ashok.patel@standardandpoors.com <ashok.patel@standardandpoors.com=
+>, engineering@spglobal.com <engineering@spglobal.com>, Ir <ir@tigergloba=
+l.com>, plumbingenfir@buildings.nyc.gov <plumbingenfir@buildings.nyc.gov>=
+, opsdirector@bainbridge.com, kmccaffrey@virtu.com, ir-operations-team@tu=
+dor.com <ir-operations-team@tudor.com>, interviews@hirevue.com, inquiry@n=
+ewyork.bbb.org, Inquiries@Point72.com <Inquiries@Point72.com>, inquiries@=
+deshaw.com, Concierge Auctions <inquiries@conciergeauctions.com>, info@vi=
+rtu.com, help@virtu.com <help@virtu.com>, CommunityAffairs@occ.treas.gov =
+<CommunityAffairs@occ.treas.gov>, HouseconnectionIR@buildings.nyc.gov, DM=
+astronardi@tigerglobal.com <DMastronardi@tigerglobal.com>, FrontDesk@Loun=
+geStudiosNYC.com <sportsplus@nypost.zendesk.com>=0D
+CC: 	info@manhattanbp.nyc.gov <info@manhattanbp.nyc.gov>, speakerjohnson@=
+counsil.nyc.gov <speakerjohnson@counsil.nyc.gov>, levine@council.nyc.gov =
+<levine@council.nyc.gov>, kford@helpusa.org <kford@helpusa.org>, odonned@=
+assembly.state.ny.us <odonned@assembly.state.ny.us>, jackson@nysenate.gov=
+ <jackson@nysenate.gov>, jcarter@dss.nyc.gov <jcarter@dss.nyc.gov>, irvin=
+lei@dss.nyc.gov <irvinlei@dss.nyc.gov>, stringer@comptroller.nyc.gov <str=
+inger@comptroller.nyc.gov>=0D
+=0D
+=0D
+=0D
+=0D
+-------- Forwarded Message --------=0D
+Subject: Re: ***** GOOD LUCK EXPLAINING THAT TO HIDE 1 BILLION IN LOSSES =
+-- EX-POST MERGERS <EARL>=0D
+Date: Tue, 28 Jun 2022 02:44:44 -0500=0D
+From: B D2022 <ms60710444266@yahoo.com>=0D
+To: usdoj@public.govdelivery.com <usdoj@public.govdelivery.com>, irs@serv=
+ice.govdelivery.com <irs@service.govdelivery.com>, usttb@public.govdelive=
+ry.com <usttb@public.govdelivery.com>, financialeducation@info.consumerfi=
+nance.gov <financialeducation@info.consumerfinance.gov>, DHSOIG@public.go=
+vdelivery.com <DHSOIG@public.govdelivery.com>, vaoig@messages.va.gov <vao=
+ig@messages.va.gov>, pbgc@subscriptions.pbgc.gov <pbgc@subscriptions.pbgc=
+.gov>, USPSOIG@public.govdelivery.com <USPSOIG@public.govdelivery.com>, c=
+dfifund@service.govdelivery.com <cdfifund@service.govdelivery.com>, subsc=
+ribe@subscribe.ftc.gov <subscribe@subscribe.ftc.gov>, vatax@public.govdel=
+ivery.com <vatax@public.govdelivery.com>, tigta@service.govdelivery.com <=
+tigta@service.govdelivery.com>, news@updates.sba.gov <news@updates.sba.go=
+v>, news@updates.oig.dot.gov <news@updates.oig.dot.gov>, ANGELA 00043govt=
+Idx STUBBS <astubbs@feddirect.com>, anthony.lincoln@va.gov, asbpolicy@fdi=
+c.gov <asbpolicy@fdic.gov>, assessments@fdic.gov <assessments@fdic.gov>, =
+Assetmarketing@fdic.gov <assetmarketing@fdic.gov>, Depositorservices@fdic=
+.gov, efoia@fdic.gov <efoia@fdic.gov>, judcraig@fdic.gov <judcraig@fdic.g=
+ov>, Legal Services and Special Contracts Group <LSSCG@FDIC.gov>, William=
+s-Young, LaJuan <LWilliams-Young@FDIC.gov>, MediaRequests@fdic.gov <Media=
+Requests@fdic.gov>, mgrinnell@fdic.gov <mgrinnell@fdic.gov>, MATT LOWE <m=
+lowe@fdic.gov>, OCMgmtGrp@fdic.gov <OCMgmtGrp@fdic.gov>, oighotline@fdico=
+ig.gov <oighotline@fdicoig.gov>, publicinfo@fdic.gov <publicinfo@fdic.gov=
+>, realestateforsale@fdic.gov, Regs@fdic.gov <Regs@fdic.gov>, FDIC NoRepl=
+y <shr_fdicsfnoreply@fdic.gov>, supervision@fdic.gov <supervision@fdic.go=
+v>, CongressionalLiaison@occ.treas.gov, CommunityAffairs@occ.treas.gov <C=
+ommunityAffairs@occ.treas.gov>, eoma@occ.treas.gov, IMOCC@sec.gov, Alliso=
+n Siegel <asiegel@mtagservices.com>, support@MTAGServices.com, Anthony.bu=
+cci@cbp.dhs.gov, CBPINFOCENTER@cbp.dhs.gov <CBPINFOCENTER@cbp.dhs.gov>, C=
+BPMEDIARELATIONS@cbp.dhs.gov, BARREDA, CECILIA M <CECILIA.M.BARREDA@cbp.d=
+hs.gov>, GREGORY.L.DAVIS@cbp.dhs.gov, BURNS, JAMES E. <JAMES.E.BURNS@cbp.=
+dhs.gov>, JASON.A.GIVENS@cbp.dhs.gov <JASON.A.GIVENS@cbp.dhs.gov>, QUINON=
+ES, JEFFREY H <JEFFREY.H.QUINONES@cbp.dhs.gov>, MENNELL, JOHN B <JOHN.B.M=
+ENNELL@cbp.dhs.gov>, JONATHAN.D.ISETT@CBP.DHS.gov <JONATHAN.D.ISETT@CBP.D=
+HS.gov>, JUSTIN.B.LONG@cbp.dhs.gov <JUSTIN.B.LONG@cbp.dhs.gov>, KRISTOFFE=
+R.N.GROGAN@cbp.dhs.gov <KRISTOFFER.N.GROGAN@cbp.dhs.gov>, LAWRENCE.R.PAYN=
+E@cbp.dhs.gov <LAWRENCE.R.PAYNE@cbp.dhs.gov>, michael.niezgoda@cbp.dhs.go=
+v <michael.niezgoda@cbp.dhs.gov>, PETER.CARR@cbp.dhs.gov, PAUZA, RICHARD =
+J <RICHARD.J.PAUZA@CBP.DHS.GOV>, roderick.kise@cbp.dhs.gov <roderick.kise=
+@cbp.dhs.gov>, THOMAS.GRESBACK@cbp.dhs.gov <THOMAS.GRESBACK@cbp.dhs.gov>,=
+ Sean Kelleher <sean.kelleher@wsaccess.com>, KATHY HOCHUL <governor.hochu=
+l@exec.ny.gov>, FTC ANTITRUST <antitrust@ftc.gov>, Seahawks Customerservi=
+ce <CustomerService@Seahawks.com>, tessier3@stanford.edu <tessier3@stanfo=
+rd.edu>, dailydigest@stanford.edu, eic@stanforddaily.com, hhp_info@hms.ha=
+rvard.edu=0D
+CC: slaskowitz@ingramllp.com <slaskowitz@ingramllp.com>, lzucker@mskyline=
+.com <lzucker@mskyline.com>, Stephen O'Connell <sgo2107@columbia.edu>, ju=
+dith.amorosa@usdoj.gov <judith.amorosa@usdoj.gov>, Randyc.wilson@usdoj.go=
+v <Randyc.wilson@usdoj.gov>=0D
+=0D
+=0D
+=0D
+[2/16/2022 11:57 PM](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DI=
+CKER/files/8608620/000000000000000000000000000000000000000000000.pdf)=0D
+=0D
+*** SOMEONE ALSO HAD A PROBLEM WITH THE EMAIL ADDRESS --- AND HAD IT DELE=
+TED.=0D
+JUST LIKE THE ONE THEY DELETED ON DECEMBER 19TH, 2021 --------=0D
+=0D
+Lewisohn Hall=0D
+Address: Columbia University, USA=0D
+2970 Broadway, New York, NY 10027=0D
+USC Title 18. =C2=A7 3 - Accessory after the fact=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dcve65PXN=
+BCtdxjJFkfwUnw=3D=3D>=0D
+FELONY- MAY BE A LIFE SENTENCE OR WORSE.=0D
+=0D
+USC TITLE 18 VIOLATIONS=0D
+18.225=0D
+LOAN FOR $6 MILLION DOLLARS WAS OBTAINED USING MISLEADING AND=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn=
+66hrVmJ9DX_PLUS_bdg=3D=3D>=0D
+NOTARIZED IN NY ON MAY 13TH, 2020=0D
+FILED: NEW YORK COUNTY CLERK 08/09/2020 02:24 AM INDEX NO. 153974/2020=0D=
+
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn=
+66hrVmJ9DX_PLUS_bdg=3D=3D>=0D
+=0D
+I TRIED TO HELP THEM IN THE 90-DAY WINDOW - DESPITE BEING "FUCKED WITH"=0D=
+
+-FILED: NEW YORK COUNTY CLERK 08/11/2020 01:05 PM INDEX NO. 153974/2020=0D=
+
+- I EMAILED LEGAL@MSKYLINE.COM ON JUNE 3 2020, AND RECEIVED A NOTICE THAT=
+ I WAS BEING SUED FOR=0D
+**** NOTHING **** ON JUNE 5TH, 2020 >> WHICH IS AN UNLAWFUL RESTRAINT=0D
+NYSCEF DOC. NO. 420     RECEIVED NYSCEF: 08/11/2020=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DXjn0/e1N=
+cBADqRc_PLUS_g11P4g=3D=3D>=0D
+=0D
+=0D
+FILED: NEW YORK COUNTY CLERK 08/09/2020 02:24 AM INDEX NO. 153974/2020=0D=
+
+NYSCEF DOC. NO. 312           RECEIVED NYSCEF: 08/09/2020=0D
+LOAN FOR $6,000,000.00 SIGNED BY THE DIRECTORS OF:=0D
+***** STATE FARM LIFE INSURANCE ***** , obo ***** STATE FARM REALTY INSUR=
+ANCE LLC *****=0D
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DwTG2YD2P=
+qXuxmoKqFiESrw=3D=3D>=0D
+***** STATE FARM LIFE INSURANCE *****=0D
+(IS AN OUTSIDE BUSINESS DISCLOSED - DUE TO THE INVESTMENT & FINANCIAL NAT=
+URE OF ITS DEALINGS)=0D
+<https://brokercheck.finra.org/firm/summary/43036> BY STATE FARM VP MANGE=
+MENT CORP AND ITS DIRECTORS=0D
+***** STATE FARM INVESTMENT MANAGEMENT (CRD#: 3487)    SHAREHOLDER=0D
+***** HARBERT, RANDALL HOUSTON (CRD#:2992788)    SR. VICE PRESIDENT AND D=
+IRECTOR=0D
+***** HINTZ, SCOTT ALEXANDER (CRD#:2004555)    VICE PRESIDENT - FINANCIAL=
+ AND SECRETARY=0D
+***** LUDWIG, TERRENCE MICHAEL (CRD#:3231040)    CHIEF COMPLIANCE OFFICER=
+ AND TREASURER=0D
+***** MINEAU, SARAH (CRD#:4634160) VICE PRESIDENT AND DIRECTOR=0D
+***** MONK, JOSEPH RILEY JR (CRD#:1357149)    SR. VICE PRESIDENT AND DIRE=
+CTOR=0D
+***** MOORE, DAVID MICHAEL (CRD#:2876793)    ASSISTANT SECRETARY & COUNSE=
+L=0D
+***** PRESTON, BRIAN LYNN (CRD#:4312143)    ANTI-MONEY LAUNDERING AND OFF=
+ICE OF FOREIGN ASSETS CONTROL COMPLIANCE OFFICER=0D
+***** SMITH, PAUL JOSEPH (CRD#:4971235)    SR. VICE PRESIDENT AND DIRECTO=
+R=0D
+***** TIPSORD, MICHAEL LEON (CRD#:1943922)    PRESIDENT AND DIRECTOR=0D
+=0D
+STATE FARM ASSOCIATES FUNDS TRUSTS=0D
+https://www.sec.gov/edgar/browse/?CIK=3D93715=0D
+=0D
+##### "MERGED" INTO THE "Advisers Investment Trust" CIK FILER 1516523 WIT=
+HOUT ANY REASON, AND THEN LOST THE GREATER OF 1 BILLION DOLLARS.=0D
+--- THE BULK OF THOSE LOSSES WERE SUFFERED IN ONE TRADING SESSION, THE GR=
+EATER OF $750,000,000.00 ON OR AROUND DECEMBER 19 2021 AFTER I NOTIFIED T=
+HEIR PROMOTERS/=0D
+=0D
+THE ABOVE named DIRECTOR <https://www.sec.gov/Archives/edgar/data/0000093=
+715/999999999721005616/filename1.pdf>=0D
+***** MOORE, DAVID MICHAEL (CRD#:2876793),    ASSISTANT SECRETARY & COUNS=
+EL=0D
+---   USED A NON-EXISTANT FILER NUMBER for State Farm Associates=E2=80=99=
+ Funds Trust [File No. 811-1519]=0D
+---   date: October 29, 2021=0D
+---   Investment Company Act Release No. 34411, david.moore.ct95@statefar=
+m.com=0D
+<https://www.sec.gov/Archives/edgar/data/0000093715/999999999721005616/fi=
+lename1.pdf>=0D
+=0D
+##### PAID THEMSELVED AND UNDER THE CORRECT FILER FILER NUMBER AND CIK NU=
+MBER 93715 (Investment Company Act Number 811-01519)=0D
+[ SATISFIES USC TITLE 18.215, 18.21, 18.4, 18.3, 18.4]=0D
+--- the above named Director(s) filed their receipt of payments with the =
+public, a total of $412,000  in payments received despite the state of th=
+eir affairs.=0D
+--- executed Form N-8F application for an order under section 8(f) of the=
+ Investment Company Act of 1940 on behalf of State Farm Associates=E2=80=99=
+ Funds Trust.=0D
+--- by MONK, JOSEPH RILEY JR (CRD#:1357149)    SR. VICE PRESIDENT AND DIR=
+ECTOR=0D
+<https://www.sec.gov/Archives/edgar/data/0000093715/000119312521278180/d2=
+22043dn8f.htm>=0D
+=0D
+=0D
+=0D
+--- I personally contacted Governor Hochul, as the guidance from my forme=
+r institution is probably Terrified - after having communicated with Shar=
+i Laskowitz & Laurie Zucker in lier of myself.=0D
+--- THIS HERE IS A VERY EXPENSIVE OPTION - with respect to having the mat=
+erial parties in NYSCEF 153974/2020 arrested immediately - to avoid any f=
+urther damages.=0D
+--- beyond the scope of the $250.00 minimum investments collected over 27=
+-years - is a gross and deplorable series of events which should be under=
+stood as "reality" for the counselors of Sullivan Properties LP.=0D
+https://nypost.com/2022/04/12/what-does-brian-benjamins-indictment-mean-f=
+or-ny-gov-hochul/=0D
+https://www.justice.gov/usao-sdny/press-release/file/1493681/download=0D
+=0D
+=0D
+    =C2=A74. Misprision of felony=0D
+        Whoever, having knowledge of the actual commission of a felony co=
+gnizable by a court of the United States, conceals and does not as soon a=
+s possible make known the same to some judge or other person in civil or =
+military authority under the United States, shall be fined under this tit=
+le or imprisoned not more than three years, or both.=0D
+=0D
+=C2=A7 1962 - Prohibited activities=0D
+    (a) It shall be unlawful for any person who has received any income d=
+erived, directly or indirectly, from a pattern of racketeering activity o=
+r through collection of an unlawful debt in which such person has partici=
+pated as a principal within the meaning of section 2, title 18, United St=
+ates Code, to use or invest, directly or indirectly, any part of such inc=
+ome, or the proceeds of such income, in acquisition of any interest in, o=
+r the establishment or operation of, any enterprise which is engaged in, =
+or the activities of which affect, interstate or foreign commerce. A purc=
+hase of securities on the open market for purposes of investment, and wit=
+hout the intention of controlling or participating in the control of the =
+issuer, or of assisting another to do so, shall not be unlawful under thi=
+s subsection if the securities of the issuer held by the purchaser, the m=
+embers of his immediate family, and his or their accomplices in any patte=
+rn or racketeering activity or the collection of an unlawful debt after s=
+uch purchase do not amount in the aggregate to one percent of the outstan=
+ding securities of any one class, and do not confer, either in law or in =
+fact, the power to elect one or more directors of the issuer.=0D
+    (b) It shall be unlawful for any person through a pattern of racketee=
+ring activity or through collection of an unlawful debt to acquire or mai=
+ntain, directly or indirectly, any interest in or control of any enterpri=
+se which is engaged in, or the activities of which affect, interstate or =
+foreign commerce.=0D
+    (c) It shall be unlawful for any person employed by or associated wit=
+h any enterprise engaged in, or the activities of which affect, interstat=
+e or foreign commerce, to conduct or participate, directly or indirectly,=
+ in the conduct of such enterprise's affairs through a pattern of rackete=
+ering activity or collection of unlawful debt.=0D
+    (d) It shall be unlawful for any person to conspire to violate any of=
+ the provisions of subsection (a), (b), or (c) of this section.=0D
+=0D
+BE IT REMEMBERED AND UNDERSTOOD - THERE IS NO STATUTE OF LIMITATION TO TH=
+IS TYPE OF BEHAVIOR - WHICH IS WHY I RECOMMENDED THAT THEY TURN THEMSELVE=
+S IN AS A CERTAIN=0D
+" FLIGHT RISK "=0D
+=0D
+    =C2=A7 2 - Principals=0D
+        (a) Whoever commits an offense against the United States or aids,=
+ abets, counsels, commands, induces or procures its commission, is punish=
+able as a principal.=0D
+        (b) Whoever willfully causes an act to be done which if directly =
+performed by him or another would be an offense against the United States=
+, is punishable as a principal.=0D
+    =C2=A7 3 - Accessory after the fact=0D
+        Whoever, knowing that an offense against the United States has be=
+en committed, receives, relieves, comforts or assists the offender in ord=
+er to hinder or prevent his apprehension, trial or punishment, is an acce=
+ssory after the fact. Except as otherwise expressly provided by any Act o=
+f Congress, an accessory after the fact shall be imprisoned not more than=
+ one-half the maximum term of imprisonment or (notwithstanding section 35=
+71) fined not more than one-half the maximum fine prescribed for the puni=
+shment of the principal, or both; or if the principal is punishable by li=
+fe imprisonment or death, the accessory shall be imprisoned not more than=
+ 15 years.=0D
+=0D
+=0D
+=0D
+    USC 18. VIOLATIONS ANNEXED IN NYSCEF 153974/2020 [ LOAN 50074 ], also=
+ filed with the Financial Industry Regulatory Authority, and the Securiti=
+es and Exchange Commission - Notwithstanding the New York State Supreme C=
+ourt, the New York Department of Finance, and the NYC Finance Register - =
+as referenced below.=0D
+*=0D
+=0D
+*=0D
+*=0D
+=0D
+*=C2=A721. Stolen or counterfeit nature of property for certain crimes de=
+fined=0D
+    (a) Wherever in this title it is an element of an offense that-=0D
+        (1) any property was embezzled, robbed, stolen, converted, taken,=
+ altered, counterfeited, falsely made, forged, or obliterated; and=0D
+        (2) the defendant knew that the property was of such character;=0D=
+
+            -such element may be established by proof that the defendant,=
+ after or as a result of an official representation as to the nature of t=
+he property, believed the property to be embezzled, robbed, stolen, conve=
+rted, taken, altered, counterfeited, falsely made, forged, or obliterated=
+.=0D
+            -(b) For purposes of this section, the term "official represe=
+ntation" means any representation made by a Federal law enforcement offic=
+er (as defined in section 115) or by another person at the direction or w=
+ith the approval of such an officer.=0D
+*=0D
+=0D
+=0D
+*    =C2=A72. - Principals (a) Whoever commits an offense against the Uni=
+ted States or aids, abets, counsels, commands, induces or procures its co=
+mmission, is punishable as a principal. (b) Whoever willfully causes an a=
+ct to be done which if directly performed by him or another would be an o=
+ffense against the United States, is punishable as a principal.=0D
+=0D
+    =C2=A73. - Accessory after the fact Whoever, knowing that an offense =
+against the United States has been committed, receives, relieves, comfort=
+s or assists the offender in order to hinder or prevent his apprehension,=
+ trial or punishment, is an accessory after the fact. Except as otherwise=
+ expressly provided by any Act of Congress, an accessory after the fact s=
+hall be imprisoned not more than one-half the maximum term of imprisonmen=
+t or (notwithstanding section 3571) fined not more than one-half the maxi=
+mum fine prescribed for the punishment of the principal, or both; or if t=
+he principal is punishable by life imprisonment or death, the accessory s=
+hall be imprisoned not more than 15 years.=0D
+=0D
+    =C2=A74. Misprision of felony Whoever, having knowledge of the actual=
+ commission of a felony cognizable by a court of the United States, conce=
+als and does not as soon as possible make known the same to some judge or=
+ other person in civil or military authority under the United States, sha=
+ll be fined under this title or imprisoned not more than three years, or =
+both.*=0D
+=0D
+------------------------------------------------------------------------=0D=
+
+*/USC Title 18, =C2=A71962. Prohibited activities/*=0D
+=0D
+(a) It shall be unlawful for any person who has received any income deriv=
+ed, directly or indirectly, from a pattern of racketeering activity or th=
+rough collection of an unlawful debt in which such person has participate=
+d as a principal within the meaning of section 2, title 18, United States=
+ Code, to use or invest, directly or indirectly, any part of such income,=
+ or the proceeds of such income, in acquisition of any interest in, or th=
+e establishment or operation of, any enterprise which is engaged in, or t=
+he activities of which affect, interstate or foreign commerce. A purchase=
+ of securities on the open market for purposes of investment, and without=
+ the intention of controlling or participating in the control of the issu=
+er, or of assisting another to do so, shall not be unlawful under this su=
+bsection if the securities of the issuer held by the purchaser, the membe=
+rs of his immediate family, and his or their accomplices in any pattern o=
+r racketeering activity or the collection of an unlawful debt after such =
+purchase do not amount in the aggregate to one percent of the outstanding=
+ securities of any one class, and do not confer, either in law or in fact=
+, the power to elect one or more directors of the issuer.=0D
+=0D
+(b) It shall be unlawful for any person through a pattern of racketeering=
+ activity or through collection of an unlawful debt to acquire or maintai=
+n, directly or indirectly, any interest in or control of any enterprise w=
+hich is engaged in, or the activities of which affect, interstate or fore=
+ign commerce.=0D
+=0D
+(c) It shall be unlawful for any person employed by or associated with an=
+y enterprise engaged in, or the activities of which affect, interstate or=
+ foreign commerce, to conduct or participate, directly or indirectly, in =
+the conduct of such enterprise's affairs through a pattern of racketeerin=
+g activity or collection of unlawful debt.=0D
+=0D
+(d) It shall be unlawful for any person to conspire to violate any of the=
+ provisions of subsection (a), (b), or (c) of this section.=0D
+=0D
+*//USC Title 18, /=C2=A71963. Criminal penalties/*=0D
+=0D
+(a) Whoever violates any provision of section 1962 of this chapter shall =
+be fined under this title or imprisoned not more than 20 years (or for li=
+fe if the violation is based on a racketeering activity for which the max=
+imum penalty includes life imprisonment), or both, and shall forfeit to t=
+he United States, irrespective of any provision of State law- (1) any int=
+erest the person has acquired or maintained in violation of section 1962;=
+ (2) any- (A) interest in; (B) security of; (C) claim against; or (D) pro=
+perty or contractual right of any kind affording a source of influence ov=
+er; any enterprise which the person has established, operated, controlled=
+, conducted, or participated in the conduct of, in violation of section 1=
+962; and (3) any property constituting, or derived from, any proceeds whi=
+ch the person obtained, directly or indirectly, from racketeering activit=
+y or unlawful debt collection in violation of section 1962. The court, in=
+ imposing sentence on such person shall order, in addition to any other s=
+entence imposed pursuant to this section, that the person forfeit to the =
+United States all property described in this subsection. In lieu of a fin=
+e otherwise authorized by this section, a defendant who derives profits o=
+r other proceeds from an offense may be fined not more than twice the gro=
+ss profits or other proceeds. (b) Property subject to criminal forfeiture=
+ under this section includes- (1) real property, including things growing=
+ on, affixed to, and found in land; and (2) tangible and intangible perso=
+nal property, including rights, privileges, interests, claims, and securi=
+ties.=0D
+=0D
+=0D
+=0D
+------------------------------------------------------------------------=0D=
+
+*/USC Title 18, /18,=C2=A7215. Receipt of commissions or gifts for procur=
+ing loans*=0D
+=0D
+    (a) Whoever-=0D
+        (1) corruptly gives, offers, or promises anything of value to any=
+ person, with intent to influence or reward an officer, director, employe=
+e, agent, or attorney of a financial institution in connection with any b=
+usiness or transaction of such institution; or=0D
+        (2) as an officer, director, employee, agent, or attorney of a fi=
+nancial institution, corruptly solicits or demands for the benefit of any=
+ person, or corruptly accepts or agrees to accept, anything of value from=
+ any person, intending to be influenced or rewarded in connection with an=
+y business or transaction of such institution;=0D
+        -shall be fined not more than $1,000,000 or three times the value=
+ of the thing given, offered, promised, solicited, demanded, accepted, or=
+ agreed to be accepted, whichever is greater, or imprisoned not more than=
+ 30 years, or both, but if the value of the thing given, offered, promise=
+d, solicited, demanded, accepted, or agreed to be accepted does not excee=
+d $1,000, shall be fined under this title or imprisoned not more than one=
+ year, or both.=0D
+    (c) This section shall not apply to bona fide salary, wages, fees, or=
+ other compensation paid, or expenses paid or reimbursed, in the usual co=
+urse of business.=0D
+    (d) Federal agencies with responsibility for regulating a financial i=
+nstitution shall jointly establish such guidelines as are appropriate to =
+assist an officer, director, employee, agent, or attorney of a financial =
+institution to comply with this section. Such agencies shall make such gu=
+idelines available to the public.=0D
+=0D
+       *FILED WITH THE SECURITIES AND EXCHANGE COMMISSION IN 2021,=0D
+       *=0D
+=0D
+       ** UNDER CIK FILER 93715, (1) STATE FARM ASSURANCES FUNDS TRUST.=0D=
+
+            - DISCLOSE (2) STATE FARM LIFE INSURANCE COMPANY AS AN=0D
+       OUTSIDE BUSINESS IN THEIR FIRMS CRD FILINGS WITH FINRA, THE SAME=0D=
+
+       ENTITY THAT NOTARIZED AND COUNTERSIGNED ON LOAN 50074, DUALLY BY=0D=
+
+       (3) DONALD ZUCKER WAS EXECUTED ON MAY 13, 2020 - REPRESENTED BY=0D=
+
+       THE ATTORNEYS ON BEHALF OF (4) SULLIVAN PROPERTIES, LP, BELOW=0D
+       FOR CONVENIENCE.=0D
+=0D
+       THE DIRECTORS OF STATE FARM, WHO FILED WITH THE SECURITIES AND=0D
+       EXCHANGE COMISSION.=0D
+=0D
+            BY: (5) DAVID MOORE, (6) JOESEPH MONK, (7)PAUL J SMITH, AND=0D=
+
+       UNDER (8)TERRENCE LUDWIG [AND OTHER DIRECTORS OF STATE FARM]=0D
+=0D
+       THE DIRECTORS OF STATE FARM, WHO FILED WITH THE FINANCIAL=0D
+       INDUSTRY REGULATORY AUTHORITY ON BEHALF OF (16) STATE FARM VP=0D
+       MANAGEMENT CORP.=0D
+=0D
+            BY: (8) TERRENCE LUDWIG=0D
+=0D
+       *            A TOTAL AMOUNT WAS ACCEPTED FOR A "SUCCESSFUL MERGER"=
+,=0D
+       *=0D
+=0D
+       *            APPROXIMATELY $412,500 USD IN COMPENSATION WAS=0D
+       FILED WITH THE SEC.=0D
+       *=0D
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+USC 18, =C2=A7241. Conspiracy against rights.=0D
+    - If two or more persons conspire to injure, oppress, threaten, or in=
+timidate any person in any State, Territory, Commonwealth, Possession, or=
+ District in the free exercise or enjoyment of any right or privilege sec=
+ured to him by the Constitution or laws of the United States, or because =
+of his having so exercised the same; or=0D
+    - If two or more persons go in disguise on the highway, or on the pre=
+mises of another, with intent to prevent or hinder his free exercise or e=
+njoyment of any right or privilege so secured=E2=80=94=0D
+=0D
+=0D
+*EXHIBITS FILED AND ANNEXED IN THE DOCKETS IN NY SUPREME COURT CIVIL MATT=
+ER=0D
+*=0D
+=0D
+*                    NYSCEF 153974/2020*=0D
+=0D
+------------------------------------------------------------------------=0D=
+
+=0D
+USC 18,=C2=A7225. Continuing financial crimes enterprise=0D
+    (a) Whoever-=0D
+        (1) organizes, manages, or supervises a continuing financial crim=
+es enterprise; and=0D
+        (2) receives $5,000,000 or more in gross receipts from such enter=
+prise during any 24-month period=0D
+    -shall be fined not more than $10,000,000 if an individual, or $20,00=
+0,000 if an organization, and imprisoned for a term of not less than 10 y=
+ears and which may be life.=0D
+    (b) For purposes of subsection (a), the term "continuing financial cr=
+imes enterprise" means a series of violations under section 215, 656, 657=
+, 1005, 1006, 1007, 1014, 1032, or 1344 of this title, or section 1341 or=
+ 1343 affecting a financial institution, committed by at least 4 persons =
+acting in concert.**=0D
+*              [ LOAN 50074: $6,000,000 ] ANNEXED IN DOCKETS 309-315 IN N=
+YSCEF MATTER 153974/2020 *=0D
+=0D
+                    ANNEXED IN NY SUPREME COURT MATTER 153974/2020=0D
+                    REPRESENTATIVES OF=0D
+=0D
+                    (9) _SULLIVAN PROPERTIES LP_, (10) _SULLIVAN GP LLC_,=
+ (11) _MANHATTAN SKYLINE MANAGEMENT CORP._=0D
+=0D
+*BY:     COUNSELORS FOR PLAINTIFFS IN NYSCEF 153974/2020 [ ANNEXED THEREI=
+N ] THE VIOLATION OF PRIVACY, AS SUPPLEMENT...*=0D
+=0D
+                    (12) _SHARI LASKOWITZ_, (13) _ASHLEY HUMPHRIES_, (14)=
+ _CORY WEISS_, AND (15) _PAUL REGAN _=0D
+=0D
+                        DOCKETS ANNEXED IN NYSCEF 153974/2020 AND ALSO FI=
+LED WITH THE NY DEPT OF FINANCE.=0D
+=0D
+*OBO: *   (3) DONALD ZUCKER, (17) LAURIE ZUCKER, AND OTHERS WHO I AM UNFA=
+MILIAR TO THEIR RESPECTIVE SHARES HELD AS LIMITED PARTNERS OF SULLIVAN PR=
+OPERTIES LP.=0D
+=0D
+                    UNLAWFULLY (USC 18.21) PRESENTED THE IMPLIED RETURNS =
+FOR 6 PROPERTIES WHICH WERE ALSO FILED, AND=0D
+                    >PUBLICLY AVAILABLE TO ALL REGULAR /COMPETENT PERSONS=
+.=0D
+=0D
+                    USED TO PROCURE AND OBTAIN A LOAN FOR $6,000,000.00 (=
+ SIX MILLION US DOLLARS) AND USED THE FOLLOWING ENTITY ON THE COVER PAGE:=
+=0D
+=0D
+                    (18) THE ZUCKER ORGANIZATION LLC=0D
+=0D
+------------------------------------------------------------------------=0D=
+
+USC 18, =C2=A7 373 - Solicitation to commit a crime of violence=0D
+=0D
+(a) Whoever, with intent that another person engage in conduct constituti=
+ng a felony that has as an element the use, attempted use, or threatened =
+use of physical force against property or against the person of another i=
+n violation of the laws of the United States, and under circumstances str=
+ongly corroborative of that intent, solicits, commands, induces, or other=
+wise endeavours to persuade such other person to engage in such conduct, =
+shall be imprisoned not more than one-half the maximum term of imprisonme=
+nt or (notwithstanding section 3571) fined not more than one-half of the =
+maximum fine prescribed for the punishment of the crime solicited, or bot=
+h; or if the crime solicited is punishable by life imprisonment or death,=
+ shall be imprisoned for not more than twenty years.*=0D
+*=0D
+=0D
+***(15)    <**voicemail attached>*=0D
+=0D
+(b) It is an affirmative defence to a prosecution under this section that=
+, under circumstances manifesting a voluntary and complete renunciation o=
+f his criminal intent, the defendant prevented the commission of the crim=
+e solicited. A renunciation is not "voluntary and complete" if it is moti=
+vated in whole or in part by a decision to postpone the commission of the=
+ crime until another time or to substitute another victim or another but =
+similar objective. If the defendant raises the affirmative defence at tri=
+al, the defendant has the burden of proving the defence by a preponderanc=
+e of the evidence.=0D
+    (c) It is not a defence to a prosecution under this section that the =
+person solicited could not be convicted of the crime because he lacked th=
+e state of mind required for its commission, because he was incompetent o=
+r irresponsible, or because he is immune from prosecution or is not subje=
+ct to prosecution.=0D
+=0D
+------------------------------------------------------------------------=0D=
+
+USC 18 [ FORFEITURES ] >> RISKS HELD UNDER STATE FARM AT THE OBSTRUCTION =
+OF THE COUNSELORS IN NYSCEF 153974/2020=0D
+=0D
+=C2=A7229B. Criminal forfeitures; destruction of weapons=0D
+    (a) Property Subject to Criminal Forfeiture.=0D
+    -Any person convicted under section 229A(a) shall forfeit to the Unit=
+ed States irrespective of any provision of State law-=0D
+        (1) any property, real or personal, owned, possessed, or used by =
+a person involved in the offense;=0D
+        (2) any property constituting, or derived from, and proceeds the =
+person obtained, directly or indirectly, as the result of such violation;=
+ and=0D
+        (3) any of the property used in any manner or part, to commit, or=
+ to facilitate the commission of, such violation.=0D
+=0D
+    The court, in imposing sentence on such person, shall order, in addit=
+ion to any other sentence imposed pursuant to section 229A(a), that the p=
+erson forfeit to the United States all property described in this subsect=
+ion. In lieu of a fine otherwise authorized by section 229A(a), a defenda=
+nt who derived profits or other proceeds from an offense may be fined not=
+ more than twice the gross profits or other proceeds.=0D
+    (b) Procedures.-=0D
+        (1) General.=0D
+        -Property subject to forfeiture under this section, any seizure a=
+nd disposition thereof, and any administrative or judicial proceeding in =
+relation thereto, shall be governed by subsections (b) through (p) of sec=
+tion 413 of the Comprehensive Drug Abuse Prevention and Control Act of 19=
+70 (21 U.S.C. 853), except that any reference under those subsections to-=
+=0D
+            (A) "this subchapter or subchapter II" shall be deemed to be =
+a reference to section 229A(a); and=0D
+            (B) "subsection (a)" shall be deemed to be a reference to sub=
+section (a) of this section.=0D
+        (2) Temporary restraining orders.-=0D
+            (A)     In general.-For the purposes of forfeiture proceeding=
+s under this section, a temporary restraining order may be entered upon a=
+pplication of the United States without notice or opportunity for a heari=
+ng when an information or indictment has not yet been filed with respect =
+to the property, if, in addition to the circumstances described in sectio=
+n 413(e)(2) of the Comprehensive Drug Abuse Prevention and Control Act of=
+ 1970 (21 U.S.C. 853(e)(2)), the United States demonstrates that there is=
+ probable cause to believe that the property with respect to which the or=
+der is sought would, in the event of conviction, be subject to forfeiture=
+ under this section and exigent circumstances exist that place the life o=
+r health of any person in danger.=0D
+            (B)     Warrant of seizure.-If the court enters a temporary r=
+estraining order under this paragraph, it shall also issue a warrant auth=
+orizing the seizure of such property.=0D
+            (C)     Applicable procedures.-The procedures and time limits=
+ applicable to temporary restraining orders under section 413(e)(2) and (=
+3) of the Comprehensive Drug Abuse Prevention and Control Act of 1970 (21=
+ U.S.C. 853(e)(2) and (3)) shall apply to temporary restraining orders un=
+der this paragraph.=0D
+    (c) Affirmative Defense.=0D
+        -It is an affirmative defense against a forfeiture under subsecti=
+on (b) that the property-=0D
+        (1) is for a purpose not prohibited under the Chemical Weapons Co=
+nvention; and=0D
+        (2) is of a type and quantity that under the circumstances is con=
+sistent with that purpose.=0D
+    (d) Destruction or Other Disposition.-The Attorney General shall prov=
+ide for the destruction or other appropriate disposition of any chemical =
+weapon seized and forfeited pursuant to this section.=0D
+    (e) Assistance.=0D
+    (f) Owner Liability.=0D
+        -The owner or possessor of any property seized under this section=
+ shall be liable to the United States for any expenses incurred incident =
+to the seizure, including any expenses relating to the handl=E2=80=A6=0D
+=0D
+=0D

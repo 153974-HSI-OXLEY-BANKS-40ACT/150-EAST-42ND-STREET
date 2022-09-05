@@ -1,0 +1,758 @@
+From - Sat May  7 05:55:30 2022
+X-Account-Key: account8
+X-UIDL: 1645857828.732
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <ms60710444266@yahoo.com>
+Received: from compute4.internal (compute4.nyi.internal [10.202.2.44])
+	 by sloti52n19 (Cyrus 3.7.0-alpha0-591-gfe6c3a2700-fm-20220427.001-gfe6c3a27) with LMTPA;
+	 Sat, 07 May 2022 06:08:25 -0400
+X-Cyrus-Session-Id: sloti52n19-1651918105-3641326-2-3424053912273182567
+X-Sieve: CMU Sieve 3.0
+X-Spam-known-sender: yes ("Address ms60710444266@yahoo.com in From header is in addressbook");
+ in-addressbook; bba2db8d-33a3-40c2-87e0-df67be267777 ("Autosaved")
+X-Spam-charsets: plain='UTF-8', html='UTF-8'
+X-Resolved-to: cockarens@vouchersrus.org
+X-Delivered-to: COCKARENS@VOUCHERSRUS.ORG
+X-Mail-from: ms60710444266@yahoo.com
+Received: from mx3 ([10.202.2.202])
+  by compute4.internal (LMTPProxy); Sat, 07 May 2022 06:08:25 -0400
+Received: from mx3.messagingengine.com (localhost [127.0.0.1])
+	by mailmx.nyi.internal (Postfix) with ESMTP id 620661960166
+	for <COCKARENS@VOUCHERSRUS.ORG>; Sat,  7 May 2022 06:08:25 -0400 (EDT)
+Received: from mx3.messagingengine.com (localhost [127.0.0.1])
+    by mx3.messagingengine.com (Authentication Milter) with ESMTP
+    id 66997D5013D;
+    Sat, 7 May 2022 06:08:25 -0400
+ARC-Seal: i=1; a=rsa-sha256; cv=none; d=messagingengine.com; s=fm1; t=
+    1651918105; b=h7/AZSvOmMddlkJHUTN+QzkDZ8ccZUk9B+5BlomOjIQ3SIYnJo
+    aT+EIPMSgtdFj1DPXr+Bg0hUcdqsk9lDfGwIkTs6aFHF5OEsQ9JnM+RO1JQ6t69H
+    36/21M0/xxd22KaAIM256a6/Ar1lCyVy05iar/Vv8kTeTbtE0fHxonmirte7RrVP
+    Amvr4e11iQNxe/6RkMsHp0G77zEtqTcRtCu17utqjm4VhE3rp3xlcmVrW7GJGkqs
+    504P9WSud6x4Nqcvs+bpULTWiwtxEOG0lLDsJm5hzI+l3aPUC5g1+Ub5KMr5UBHA
+    dj14Nk4humX9wZHUmp8siXm/Lyb5pSTt2AYQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=
+    messagingengine.com; h=content-type:message-id:date:mime-version
+    :subject:references:to:from:in-reply-to; s=fm1; t=1651918105;
+    bh=Gw1m08OIso+OMJdNM1GbDLYJcYQi9+59c08+hsahBnk=; b=X6s8NaY0Xv6L
+    1SJUy5eSm8ds6ycdZh4pmUA5l0tO0azd7owVCaZwQX/d1kaGBjnFQw0mCZ/1Ao/S
+    MW40+3Hq13lSsOZQLX4a+JsgjvCo3wftkQNCdd3wOrNYlg/yG3VsfGr97DvuJ9BE
+    YvS5e8mK38dYeIRqrDAqtWFqZ8gyOfQEioIme/wtJvL2E3enq2HHUkcITYiRiVEm
+    xsvjNc+5bMvD7eSzdJK6ppiFqK/4RzwhnGkmtA4imTOEJS1onZgqPge/7jNaHjkT
+    aUE/g7PpHiRz80Ep4uhE/D3t5y90cVUWmKvNG2Ap45F3MztZK84+MYLQPs/x17Q8
+    aW9atYF2Qw==
+ARC-Authentication-Results: i=1; mx3.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=sonic313-42.consmr.mail.bf2.yahoo.com
+    policy.ptr=sonic313-42.consmr.mail.bf2.yahoo.com;
+    bimi=none (No BIMI records found);
+    arc=none (no signatures found);
+    dkim=pass (2048-bit rsa key sha256) header.d=yahoo.com
+    header.i=@yahoo.com header.b=cguOj/mJ header.a=rsa-sha256
+    header.s=s2048 x-bits=2048;
+    dmarc=pass policy.published-domain-policy=reject
+    policy.applied-disposition=none policy.evaluated-disposition=none
+    (p=reject,d=none,d.eval=none) policy.policy-from=p
+    header.from=yahoo.com;
+    iprev=pass smtp.remote-ip=74.6.133.216
+    (sonic313-42.consmr.mail.bf2.yahoo.com);
+    spf=pass smtp.mailfrom=ms60710444266@yahoo.com
+    smtp.helo=sonic313-42.consmr.mail.bf2.yahoo.com
+X-ME-Authentication-Results: mx3.messagingengine.com;
+    x-aligned-from=pass (Address match);
+    x-return-mx=pass header.domain=yahoo.com policy.is_org=yes
+      (MX Records found: mta7.am0.yahoodns.net,mta5.am0.yahoodns.net,mta6.am0.yahoodns.net);
+    x-return-mx=pass smtp.domain=yahoo.com policy.is_org=yes
+      (MX Records found: mta7.am0.yahoodns.net,mta5.am0.yahoodns.net,mta6.am0.yahoodns.net);
+    x-tls=pass smtp.version=TLSv1.3 smtp.cipher=TLS_AES_256_GCM_SHA384
+      smtp.bits=256/256;
+    x-vs=clean score=15 state=0
+Authentication-Results: mx3.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=sonic313-42.consmr.mail.bf2.yahoo.com
+      policy.ptr=sonic313-42.consmr.mail.bf2.yahoo.com
+Authentication-Results: mx3.messagingengine.com;
+    bimi=none (No BIMI records found)
+Authentication-Results: mx3.messagingengine.com;
+    arc=none (no signatures found)
+Authentication-Results: mx3.messagingengine.com;
+    dkim=pass (2048-bit rsa key sha256) header.d=yahoo.com
+      header.i=@yahoo.com header.b=cguOj/mJ header.a=rsa-sha256
+      header.s=s2048 x-bits=2048;
+    dmarc=pass policy.published-domain-policy=reject
+      policy.applied-disposition=none policy.evaluated-disposition=none
+      (p=reject,d=none,d.eval=none) policy.policy-from=p
+      header.from=yahoo.com;
+    iprev=pass smtp.remote-ip=74.6.133.216
+      (sonic313-42.consmr.mail.bf2.yahoo.com);
+    spf=pass smtp.mailfrom=ms60710444266@yahoo.com
+      smtp.helo=sonic313-42.consmr.mail.bf2.yahoo.com
+X-ME-VSCause: gggruggvucftvghtrhhoucdtuddrgedvfedrfeehgddvhecutefuodetggdotefrodftvf
+    curfhrohhfihhlvgemucfhrghsthforghilhdpggftfghnshhusghstghrihgsvgdpuffr
+    tefokffrpgfnqfghnecuuegrihhlohhuthemuceftddtnecufghrlhcuvffnffculddqhe
+    dmnegojggrhhhoohdqqdetfeeiuddqtdduucdlvddtmdenucfjughrpegtkfffgggfufhf
+    vffhpfgjofesrgdtreerreefjeenucfhrhhomhepuecuffdvtddvvdcuoehmsheitdejud
+    dtgeeggedvieeiseihrghhohhordgtohhmqeenucggtffrrghtthgvrhhnpeelgeekiedv
+    hfefhefgffefvedufedvtdetvdeiveethfffgfelvdeiteehfeelleenucffohhmrghinh
+    epnhihtgdrghhovhdpghhithhhuhgsrdgtohhmpdhotggtrdhgohhvpdhfihhnrhgrrdho
+    rhhgpdhsthgrthgvrdhnhidruhhspdhsvggtrdhgohhvnecukfhppeejgedriedrudeffe
+    drvdduieenucevlhhushhtvghrufhiiigvpedtnecurfgrrhgrmhepihhnvghtpeejgedr
+    iedrudeffedrvdduiedphhgvlhhopehsohhnihgtfedufedqgedvrdgtohhnshhmrhdrmh
+    grihhlrdgsfhdvrdihrghhohhordgtohhmpdhmrghilhhfrhhomhepoehmsheitdejuddt
+    geeggedvieeiseihrghhohhordgtohhmqe
+X-ME-VSScore: 15
+X-ME-VSCategory: clean
+X-ME-CSA: none
+Received-SPF: pass
+    (yahoo.com ... _spf.mail.yahoo.com: 74.6.133.216 is authorized to use 'ms60710444266@yahoo.com' in 'mfrom' identity (mechanism 'ptr:yahoo.com' matched))
+    receiver=mx3.messagingengine.com;
+    identity=mailfrom;
+    envelope-from="ms60710444266@yahoo.com";
+    helo=sonic313-42.consmr.mail.bf2.yahoo.com;
+    client-ip=74.6.133.216
+Received: from sonic313-42.consmr.mail.bf2.yahoo.com (sonic313-42.consmr.mail.bf2.yahoo.com [74.6.133.216])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange ECDHE (P-256) server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mx3.messagingengine.com (Postfix) with ESMTPS
+	for <COCKARENS@VOUCHERSRUS.ORG>; Sat,  7 May 2022 06:08:25 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1651918103; bh=Gw1m08OIso+OMJdNM1GbDLYJcYQi9+59c08+hsahBnk=; h=Date:Subject:References:To:From:In-Reply-To:From:Subject:Reply-To; b=cguOj/mJG/pwL0DRCVxY6nJqI+LmlpIWgmGj6BbxFbo/KU/5LOciIN6S0O1le+zWIzTYjolaconlD5bkbBMLaKy5ucHfMeFjDfLUA7HroF67jOMTOTtzZpqCYjzzhMmYfoeG6U4akq/Cpm/dmarRPLctx0/tU3k2iL260fUamRFDxskY970GIs50zRlObQp9RztZAaUiVxg1E5OzxlH95DBf6L5rk/C8AQdywDxckyyY8M1sTehcggryYKHGWmEOAbnYpcbqIlTn5fy+11p8oWJ8ay05km+VwBoc/VR97OD6kgGff1jY/EvslpvR78N/LhBG6KhyGldCQ6ow1JwE/Q==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1651918103; bh=wTnDvNoILWW9hjQbE2ZuJ+KdvgYj7fvjAUWQ4hMY9SH=; h=X-Sonic-MF:Date:Subject:To:From:From:Subject; b=YayCKAb6smcFdsybVX2rjdSuIdzHL2GDhpOq71N9RUVISzWtqoTHIJi4qnzSLXZITO2RSfF5n8OckEDyDG1tCzlU8B9jvF4KXjGE9xz4WyJLGDL9Dcy/w3EBUJRUXaOoboJv/KkE0T+ZtWyJrBVVpUMIPzOm8YeHX0xybYB416wZYttn9IoucniLb9JxLrbk9YZHkl/jKpDfvTCtqd3rk4eJfqDQcmavRLAnBJ7lr/19RwyxMY9l0koNlXkMRFwnzMu1PUgVGo2WJzE31k4uvV3UnMZNc1iMdBOUL9yf3lEwkVO23WZ+x+LtVRoxOD3v+r/lyxpe2VB9BaHT4wFE8g==
+X-YMail-OSG: 5QbMkqsVM1lldqY8nLysyI7fwuQJfuTMYqYMMPTxJ1w2CjMHRoqjTG9FkeaaJV.
+ uc_zbo2cHMUIzqZGiathEveDQaJjNc9YU5JFg2fN6MSHhYshDPmwzxltS.iv6GDoLVSZVZe1nVLD
+ I0iN7IjvmWbEZrx0LFOYzmLZkkIWx1EIrGpKObox9F0vF.18i.8awjKU9DDk_dcnAQEaP_vjzW38
+ hC5wZJBsUCwJkG4TmprbAokbURxsjjctJOt4BgQkF_rFA0E_M6L3CVu1cR3B1AAIoa0Zg33n5JJd
+ f9T_p7oSTuouAD06yirJR.SeeTPxgwZuGyyeGA.sV2mFnxNGyauJxdkZY0t19fROneiyurhdjuie
+ VtJaa1MGlympNHyHGCu8dczDrXZuSh4MMI.rN1GSuvR.DHm53hH3yBa29nUUs0vILu5JOBFSGiSL
+ aG1SBx1NBge.c0iqH4UVmj3R_5229FFAxnCkHM_NAIFHChJr7GrIU31kZzp2FYxJOS._GUlbcBOI
+ lKcU.vhd6MyHwJC9Trf40qxvqIit43HEQUobp8nWB17Ea65kFuwjDUluqiCtKDcjn1tZUzUGDDU7
+ SlXGLJ9B6SQfaOaDgVUb.8EudU0GBXpQpO64mFEI9LuAe5NZDrFYnN34JQHdlHvTmL_qfuwIrp0O
+ CrQVVf0QUENDfi2jUYsItpzRCPgqkpUJlaIwzXsZORegJIozSmhXkMPSYLxIFMtLBxnmsnbYuJab
+ yRmadWFekf8O0UUdXWOs9WRXBZo_dq4d9QlPMgxh6YY4GJy9qLWCXXWem2B.ajVYcsHSpVOvmUsS
+ tT5fVZDEEUUMV0RYfWMr4TwXHXGNSYParfEeMONWy6zLSIgAcHrxUpDKh86CrPEhmYtEuA6GxMJC
+ erDheWQxD1zLDAu_7SWk.WD1f4XTE8iCtiXrttN5J2sAf_2YoGcYatMDNaHtsfAId6Q27Zf3Ypzf
+ JZKjIXvLC4owGfVZE2.bMhQuOhRbILinK0Bb5yoQxUovgfRKvosXU9GtxYyk8loF77hOW1uy4pxQ
+ PauHRm5D50TPKxE4eaWGYBNeh0rJohQ.8hfQF7oblb6qWAWvK3nhBocB44zINg_OEALSt2.Tfyak
+ MJvq0Ds30hkMIfOrNETlbadv1BywsiYJb6SR.2NiOGzg3BMGSZUlGQwPZErDspC54TMx9dplX8Mr
+ TLYucHOd4haAUd4HkxKWkAR7hvSrEHnnB3LQyHh._ShzhvvgAyNVFf2U8P24mqB7to7ee90dIFKD
+ 2DErmsc54Hx4DPapuLmM7.ncyoGoylH4XNp.h56pKeqlJFfcYH3mjjxNI1zdrkD7YEztqG6D5nE2
+ 1ASfBnqZkhYtwiBgfBUVi14vFz6MbRW8bYAlwyaZGk9FJKd3PkW1aIrOBZiQjlz7GkMVf_M2cyGM
+ 2pFWDKI6RTWelV8eAPwusab1YFCjOp4ZjYzI_CF0aNRJw_18djt66Z3L2hTEh.Ys5fQkIlllLEke
+ krZMlAvXazPX0a_qkE.XVGPi7viblc5Rcp3vY93zXS4c5T_fbQMXkUYJggpn3rH2ZTbbtw.Z_n5h
+ ncigy7Ws59YiaVu6PzDUHvprIr_tHWuOd_GcKswpA_KpCiTy.r4smwsbsw8hibfXiTDKVKDIVCWK
+ wjrYQqxaygUeZKYVbSndcbAng.OVCpgjlCCgLKoV9gH8BvnXsEfCat44qyBKDgDBtScWSCTqiLIm
+ .Ebqvif2PU8sg5zTF.PMQK1JUhk0u7u5tCeX0YphuTucD3HZB04pIhwwlIdbrXqq6tb0HM8S1ZCA
+ u3QXd_gHqnfN9ted_1caTDDF.q9sBPFCuOoLBzfKNPcychqv4gHPh7qOIVfs46jCk__gBdtFOnSM
+ VcwsYfs.vJcWcXRzApkW5flpLq.9pZoHpYyP8.G1e8l9PpLMUkAxJsiq6Rr9CtfExGi8Smzw0XX8
+ 5F2J0cNSVMx3Q68S9.4JH9_JJ55y4c74Rm0N3A2dGe.xXW78OYBfcRKYSjhb5UxA631pzMCyva7t
+ S0aOvA5Us7LBu4P_NwRCoNSWkFWuKcVH0deGiko2Y.9blq8Z.F5NY.31bjNofncgfLLmLpuQ.egc
+ 0R5D18UPYG0Fpfh5_u98AvLMboothjyvEb2q4KjRxGFnwrCSROyZQA37OEl7TQxRsoI1GvGov3sr
+ lBkr05DZq4khGZTqpM.m.0TiI5RP6UxHCwSdbFN_wIvy32rkBrcVk3HDH1zEW0ccZ6yRNAi6Enqc
+ xQabm3KGQHPoJBiyrw0eLoB8ZWqgXxcr5S6uO0XTOxw1V7xZ0m8uD9qUFcbr8WwJRPNmc
+X-Sonic-MF: <ms60710444266@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic313.consmr.mail.bf2.yahoo.com with HTTP; Sat, 7 May 2022 10:08:23 +0000
+Received: by hermes--canary-production-ne1-75b69fcf97-8556h (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID d1f39deee21105b15d186744fd2e3b44;
+          Sat, 07 May 2022 10:06:21 +0000 (UTC)
+Content-Type: multipart/alternative;
+ boundary="------------hpuPJx0Q4u9vUXS6MLPB03Zd"
+Message-ID: <42360e55-9159-a58c-c368-17c6738bf047@yahoo.com>
+Date: Sat, 7 May 2022 05:06:06 -0500
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:91.0) Gecko/20100101
+ Thunderbird/91.6.1
+Subject: Fwd: [BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV] d05650:
+ HTTPS://A810-BISWEB.NYC.GOV/BISWEB/COSBYLOCATIONSE...
+References: <BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV/push/refs/heads/main/84de63-d05650@github.com>
+Content-Language: en-US
+To: unclaimed.property@cpa.texas.gov, Treasury.operations@cpa.texas.gov,
+ TexasABLE@cpa.texas.gov, texas.tomorrow@cpa.texas.gov,
+ statewide.accounting@cpa.texas.gov, spd.outreach@cpa.texas.gov,
+ ptad.cpa@cpa.texas.gov, open.records@cpa.texas.gov,
+ ombudsman@tdcj.texas.gov, oigspecialops@tdcj.texas.gov,
+ oig.openrecords@tdcj.texas.gov, judiciary@cpa.texas.gov,
+ exempt.orgs@cpa.texas.gov, econ.dev@cpa.texas.gov,
+ court.costs@cpa.texas.gov,
+ BIANCA 00088govtIdx HARRIMON <citysecretary@mundaytexas.com>,
+ "megan.disciullo@pwc.com" <megan.disciullo@pwc.com>,
+ "larissa.vonlockner@pwc.com" <larissa.vonlockner@pwc.com>,
+ "ryan.a.cangialosi@pwc.com" <ryan.a.cangialosi@pwc.com>,
+ "kivalena.starr@pwc.com" <kivalena.starr@pwc.com>,
+ "jordana.strosberg@pwc.com" <jordana.strosberg@pwc.com>,
+ "will.b.hodges@pwc.com" <will.b.hodges@pwc.com>,
+ "jennifer.vanoss@pwc.com" <jennifer.vanoss@pwc.com>
+From: B D2022 <ms60710444266@yahoo.com>
+Disposition-Notification-To: B D2022 <ms60710444266@yahoo.com>
+In-Reply-To: <BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV/push/refs/heads/main/84de63-d05650@github.com>
+X-Forwarded-Message-Id: <BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV/push/refs/heads/main/84de63-d05650@github.com>
+X-Mailer: WebService/1.1.20188 mail.backend.jedi.jws.acl:role.jedi.acl.token.atz.jws.hermes.yahoo
+
+This is a multi-part message in MIME format.
+--------------hpuPJx0Q4u9vUXS6MLPB03Zd
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+
+
+
+-------- Forwarded Message --------
+Subject: 	[BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV] 
+d05650: HTTPS://A810-BISWEB.NYC.GOV/BISWEB/COSBYLOCATIONSE...
+Date: 	Sat, 07 May 2022 02:36:56 -0700
+From: 	DINCER & CO. <noreply@github.com>
+To: 	INFO@KPMG.COM, MS60710444266@YAHOO.COM
+
+
+
+Branch: refs/heads/main
+Home: 
+https://github.com/BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV
+Commit: d05650320b16c79323e45fa7ccb808a54dfcdc5f
+https://github.com/BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV/commit/d05650320b16c79323e45fa7ccb808a54dfcdc5f
+Author: DINCER & CO <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com>
+Date: 2022-05-07 (Sat, 07 May 2022)
+
+Changed paths:
+A 6507985
+
+Log Message:
+-----------
+HTTPS://A810-BISWEB.NYC.GOV/BISWEB/COSBYLOCATIONSERVLET?REQUESTID=3&ALLBIN=1007779
+
+N-8F 1 d222043dn8f.htm STATE FARM ASSOCIATES' FUNDS TRUST
+https://www.occ.gov/static/enforcement-actions/ea2020-068.pdf
+https://files.brokercheck.finra.org/individual/individual_3231040.pdf
+
+_______________________________________________________________________________________________
+FILER CIK: 93715
+FILER CIK: 1516523
+FIRM CRD: 8209
+
+MORGAN STANLEY 8209
+MEMBER CRD: 6507985
+MEMBER CRD: 4776256
+
+*LOAN 50074, BY AND BETWEEN STATE FARM AND THE SULLIVAN PROPERTIES LP*
+NOTE: HARBERTS IS NOT LICENSED TO CONDUCT INVESTMENT BANKING OR 
+SECURITIES TRANSACTIONS.
+_______________________________________________________________________________________________ 
+
+
+LETTER OF CREDIT BETWEEN STATE FARM AND SULLIVAN PROPERTIES LP. . . . . 
+. . . . . . . . . . [0001]
+
+
+NYSCEF DOC. NO. 309 RECEIVED NYSCEF: 08/09/2020
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=19MVPFXy0G0QvnmRLGpYIQ==
+
+NYSCEF DOC. NO. 379 RECEIVED NYSCEF: 08/10/2020
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=572E8gahZUO1KFthrfiyFQ==
+
+STATE FARM VP MANAGEMENT CORP. . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . [0003]
+UNDER FILER 93715, PRINCIPAL UNDERWRITER
+PRINCIPAL AUDITOR, PRICE WATERHOUSE COOPERS.
+2020-11-30 ANNUAL REPORT
+Filed: 2021-02-11
+Accession number: 0001145549-21-006167
+https://www.sec.gov/Archives/edgar/data/0000093715/000114554921006167/xslFormN-CEN_X01/primary_doc.xml
+
+117 SULLIVAN STREET [ DEED ]. . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . [0004]
+
+SULLIVAN PROPERTIES LP, 101 WEST 55TH STREET, NEW YORK NY, 10019
+FT_1350000324035, BLOCK 803, LOT 11. DOC. DATE: 11/16/1989
+
+PROPERTY VALUES FILED WITH THE NYC FINANCE REGISTER. . . . . . . . . . . 
+. . . . . . . . . . [0005]
+
+JANUARY 15, 2011. . . . . . . . . . . . . . . . . . . .. . . . . . . . . 
+. .[0005]
+JANUARY 15, 2012. . . . . . . . . . . . . . . . . . . .. . . . . . . . . 
+. .[0007]
+JANUARY 15, 2013. . . . . . . . . . . . . . . . . . . .. . . . . . . . . 
+. .[0009]
+JANUARY 15, 2014. . . . . . . . . . . . . . . . . . . .. . . . . . . . . 
+. .[0011]
+JANUARY 15, 2015. . . . . . . . . . . . . . . . . . . .. . . . . . . . . 
+. .[0013]
+JANUARY 15, 2016. . . . . . . . . . . . . . . . . . . .. . . . . . . . . 
+. .[0015]
+JANUARY 15, 2017. . . . . . . . . . . . . . . . . . . .. . . . . . . . . 
+. .[0017]
+JANUARY 15, 2019. . . . . . . . . . . . . . . . . . . .. . . . . . . . . 
+. .[0019]
+JANUARY 15, 2020. . . . . . . . . . . . . . . . . . . .. . . . . . . . . 
+. .[0025]
+
+CERTITIICATES OF OCCUPANCY FOR THE RENTS AND LEASES TRANSFERRED TO STATE 
+FARM. . . . . . . [0029]
+111 REAR SULLIVAN STREET, BIN CODE 1077252. . . . . . .. . . . . . . . . 
+. .[0029]
+HTTPS://A810-BISWEB.NYC.GOV/BISWEB/COSBYLOCATIONSERVLET?REQUESTID=3&ALLBIN=1077252
+
+113 REAR SULLIVAN STREET, BIN CODE 1077254. . . . . . .. . . . . . . . . 
+. .[0030]*
+HTTPS://A810-BISWEB.NYC.GOV/BISWEB/COSBYLOCATIONSERVLET?REQUESTID=3&ALLBIN=1077254
+
+115 REAR SULLIVAN STREET, BIN CODE 1077256. . . . . . .. . . . . . . . . 
+. .[0031]*
+HTTPS://A810-BISWEB.NYC.GOV/BISWEB/COSBYLOCATIONSERVLET?REQUESTID=3&ALLBIN=1077256
+
+117 SULLIVAN STREET, BIN CODE 1007779. . . . . . . . .. . . . . . . . . 
+. . [0034]
+HTTPS://A810-BISWEB.NYC.GOV/BISWEB/COSBYLOCATIONSERVLET?REQUESTID=3&ALLBIN=1007779
+
+BIS CERTIFICATES OF OCCUPANCY. . . . . . . . . . .. . . . . . . . . . . 
+[0037]
+HTTPS://A810-DOBNOW.NYC.GOV/PUBLISH/INDEX.HTML#!/SEARCH
+
+111 REAR SULLIVAN STREET, BIN CODE 1077252 . . . . . .. . . . . . . . . 
+. . [0039]
+- NO CERTIFICATE OF OCCUPANCY 03.03.2022
+- NO CERTIFICATE OF OCCUPANCY AUGUST 10TH, 2020 - FILED WITH THE NY 
+SUPREME COURT NYSCEF MATTER 153974/2020
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=ZOCFS3HH2UeHQe8j2tXJoQ==
+
+113 REAR SULLIVAN STREET, BIN CODE 1077254. . . . . . .. . . . . . . . . 
+. .[0040]
+- NO CERTIFICATE OF OCCUPANCY 03.03.2022
+- NO CERTIFICATE OF OCCUPANCY ON AUGUST 10TH, 2020
+
+115 REAR SULLIVAN STREET, BIN CODE 1077254. . . . . . .. . . . . . . . . 
+. .[0041]
+- NO CERTIFICATE OF OCCUPANCY 03.03.2022
+- NO CERTIFICATE OF OCCUPANCY ON AUGUST 10TH, 2020
+
+NEW YORK STATE DEPARTMENT OF FINANCIAL SERVICES. . . . . . . .. . . . . 
+. . . . . . . . . . [0042]
+
+NO. 2020-0260-S. . . . . . . . . . . . . . . . . . . . .. . . . . . . . 
+. . [0042]
+FINED "TRI-STATE CONSUMER INSURANCE COMPANY"
+
+NO. 2020-0260-S. . . . . . . . . . . . . . . . . . . . .. . . . . . . . 
+. . [0049]
+FINED "STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY"
+STATE FARM INSURANCE, 100 STATE FARM PLAZA, MALTA, NY, 12020
+ATTN: MICHAEL T. KEATING, VP OPERATIONS.
+
+NO. 2020-0239-S. . . . . . . . . . . . . . . . . . . . .. . . . . . . . 
+. . [0056]
+FINED "ALLSTATE INDEMNITY COMPANY", "ALLSTATE PROPERTY AND CASUALTY 
+INSURANCE COMPANY",
+"ALLSTATE FIRE AND CASUALTY INSURANCE COMPANY", AND "ALLSTATE INSURANCE 
+COMPANY"
+
+NO. 2019-0201-S. . . . . . . . . . . . . . . . . . . . .. . . . . . . . 
+. . [0064]
+FINED "AIG PROPERTY CASUALTY COMPANY"
+
+BROKER DEALER FINES ADMINISTERED BY FINRA. . . . . . . . . .. . . . . . 
+. . . . . . . . . . [0071]
+
+JAN 20, 2022. . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . 
+. [0071]
+FINRA FINED CREDIT SUISSE FOR FAILURE TO ABIDE BY BOTH THE SEC & FINRA RULES
+REQUIRING FIRMS TO DISCLOSE POTENTIAL CONFLICTS OF INTEREST WHEN ISSUING
+RESEARCH REPORTS.
+
+AUG 10, 2010. . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . 
+. [0072]
+FINRA FINED MORGAN STANLEY FOR A FAILURE TO ABIDE BY BOTH THE SEC & 
+FINRA RULES
+REQUIRING FIRMS TO DISCLOSE POTENTIAL CONFLICTS OF INTEREST WHEN ISSUING
+RESEARCH REPORTS.
+
+MAR 08, 2012. . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . 
+. [0074]
+FINRA FINED DEUTSCHE BANK SECURITIES FOR "BEST EXECUTION" AND FOR A 
+FAILURE TO DISCLOSE MATERIAL ASPECTS OF REALATIONSHIP WITH THE MARKETS 
+TO WHICH IT HAD
+ROUTED ORDERS AND FILED " NON SPECIFIC " DISCLOSURES.
+
+STATE FARM ASSOCIATES FUND TRUST [SEMI-ANNUAL REPORT]. . . . . . . . . . 
+. . . . . . . . . [0076]
+
+CIK 93715 HOLDING REPORT . . . . . . . . . . . . . . . . . . . . . . . . 
+. [0076]
+BALANCE SHEET AND HOLDINGS REPORT FOR TICKERS AS OF MAY 31, 2020
+
+[STFGX][STFBX][SFITX][SFBDX]
+PERIOD: 05/31/2020, FILED: 07/28/2020
+
+obo STATE FARM VP MANAGEMENT CORP. . . . . . . . . . . . . . . . . . . 
+[0081]
+/s/ PAUL J. SMITH.
+obo STATE FARM MUTUAL FUNDS TEAM . . . . . . . . . . . . . . . . . . . 
+[0083]
+/s/ JOE R. MONK
+obo STATE FARM INVESTMENT MANAGENT CORP.
+
+PORTOFOLIO COMPOSITION . . . . . . . . . . . . . . . . . . . . . . . . 
+[0084]
+-- STATE FARM GROWTH FUND
+-- STATE FARM BALANCED FUND
+-- STATE FARM INTERIM FUND
+-- STATE FARM MUNICIPAL BOND FUND
+
+SCHEDULE OF INVESTMENTS, MAY 31, 2020. . . . . . . . . . . . . .[0087]
+-- LOSSES REGISTERED BETWEEN 11-30-2021 AND 03-31-2022
+$852,029,489
+
+-- LOSSES REGISTERED BETWEEN 03-31-2022 AND 04-30-2022
+$505,818,725
+
+-- LOSSES REGISTERED IN TOTAL [ 11-30-2021 THROUGH 04-30-2022]
+$1,357,848,214
+
+STATE FARM ASSOCIATES FUNDS TRUST GROWTH FUND . . . . .[0087]
+TICKER: STFGX
+SEC FILE NUMBER: 811-01519
+SERIES: S000002055
+LEI: 25490064REEQMGE0GC29
+CIN: C000005410
+CIK: 93715
+
+STATE FARM ASSOCIATES FUNDS TRUST BALANCED FUND . . . .[0089]
+TICKER: STFBX
+SEC FILE NUMBER: 811-01519
+SERIES: S000002056
+LEI: 254900EBILZP44C0ET43
+CIN: C000005411
+CIK: 93715
+STATE FARM ASSOCIATES FUNDS TRUST INTERIM FUND . . . .[0099]
+TICKER: SFITX
+SEC FILE NUMBER: 811-01519
+SERIES: S000002057
+LEI: 254900QMKPLXFY2DO125
+CIN: C000005412
+CIK: 93715
+
+STATE FARM ASSOCIATES FUNDS TRUST MUNICIPAL BOND FUND .[0100]
+TICKER: SFBDX
+SEC FILE NUMBER: 811-01519
+SERIES: S00000205
+LEI: 254900XY61CSODNC1J50
+CIN: C000005413
+CIK: 93715
+
+[LEVEL 3] HOLDINGS REPORTED. . . . . . . . . . . . . . . . . . . . . . . 
+. [0125]
+""" SECURITIES VALUATION """""""""""
+""" UNOBSERVABLE INPUTS REPORTED """
+
+[ITEM 12] DISCLOSURE OF SECURITIES LENDING. . . . . . . . . . . . . . . 
+. . [0140]
+SEE ALSO: ANNUAL REPORT [ 11-30-2020 ]
+https://www.sec.gov/Archives/edgar/data/0000093715/000114554921006167/xslFormN-CEN_X01/primary_doc.xml
+
+"NOT APPLICABLE", EX-99CERT FILED, UNDER THE SECURITIES EXCHANGE ACT OF 
+1934, INVESTMENT COMPANY ACT OF 1940
+/s/ JOE R. MONK, /s/ PAUL J. SMITH.
+""" NO LEVEL 3 INVESTMENTS """"
+
+
+--------------hpuPJx0Q4u9vUXS6MLPB03Zd
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html data-lt-installed="true">
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body spellcheck="false" data-gramm="false">
+    <p><br>
+    </p>
+    <div class="moz-forward-container"><br>
+      <br>
+      -------- Forwarded Message --------
+      <table class="moz-email-headers-table" cellspacing="0"
+        cellpadding="0" border="0">
+        <tbody>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Subject:
+            </th>
+            <td>[BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV]
+              d05650:
+              <a class="moz-txt-link-freetext" href="HTTPS://A810-BISWEB.NYC.GOV/BISWEB/COSBYLOCATIONSE">HTTPS://A810-BISWEB.NYC.GOV/BISWEB/COSBYLOCATIONSE</a>...</td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">Date: </th>
+            <td>Sat, 07 May 2022 02:36:56 -0700</td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">From: </th>
+            <td>DINCER &amp; CO. <a class="moz-txt-link-rfc2396E" href="mailto:noreply@github.com">&lt;noreply@github.com&gt;</a></td>
+          </tr>
+          <tr>
+            <th valign="BASELINE" nowrap="nowrap" align="RIGHT">To: </th>
+            <td><a class="moz-txt-link-abbreviated" href="mailto:INFO@KPMG.COM">INFO@KPMG.COM</a>, <a class="moz-txt-link-abbreviated" href="mailto:MS60710444266@YAHOO.COM">MS60710444266@YAHOO.COM</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      Branch: refs/heads/main<br>
+      Home:
+<a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV">https://github.com/BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV</a><br>
+      Commit: d05650320b16c79323e45fa7ccb808a54dfcdc5f<br>
+<a class="moz-txt-link-freetext" href="https://github.com/BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV/commit/d05650320b16c79323e45fa7ccb808a54dfcdc5f">https://github.com/BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV/commit/d05650320b16c79323e45fa7ccb808a54dfcdc5f</a><br>
+      Author: DINCER &amp; CO
+      <a class="moz-txt-link-rfc2396E" href="mailto:70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com">&lt;70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.com&gt;</a><br>
+      Date: 2022-05-07 (Sat, 07 May 2022)<br>
+      <br>
+      Changed paths:<br>
+      A 6507985<br>
+      <br>
+      Log Message:<br>
+      -----------<br>
+<a class="moz-txt-link-freetext" href="HTTPS://A810-BISWEB.NYC.GOV/BISWEB/COSBYLOCATIONSERVLET?REQUESTID=3&amp;ALLBIN=1007779">HTTPS://A810-BISWEB.NYC.GOV/BISWEB/COSBYLOCATIONSERVLET?REQUESTID=3&amp;ALLBIN=1007779</a><br>
+      <br>
+      N-8F 1 d222043dn8f.htm STATE FARM ASSOCIATES' FUNDS TRUST<br>
+      <a class="moz-txt-link-freetext" href="https://www.occ.gov/static/enforcement-actions/ea2020-068.pdf">https://www.occ.gov/static/enforcement-actions/ea2020-068.pdf</a><br>
+<a class="moz-txt-link-freetext" href="https://files.brokercheck.finra.org/individual/individual_3231040.pdf">https://files.brokercheck.finra.org/individual/individual_3231040.pdf</a><br>
+      <br>
+_______________________________________________________________________________________________<br>
+      FILER CIK: 93715<br>
+      FILER CIK: 1516523<br>
+      FIRM CRD: 8209<br>
+      <br>
+      MORGAN STANLEY 8209<br>
+      MEMBER CRD: 6507985<br>
+      MEMBER CRD: 4776256<br>
+      <br>
+      *LOAN 50074, BY AND BETWEEN STATE FARM AND THE SULLIVAN PROPERTIES
+      LP*<br>
+      NOTE: HARBERTS IS NOT LICENSED TO CONDUCT INVESTMENT BANKING OR
+      SECURITIES TRANSACTIONS.<br>
+_______________________________________________________________________________________________
+      <br>
+      <br>
+      LETTER OF CREDIT BETWEEN STATE FARM AND SULLIVAN PROPERTIES LP. .
+      . . . . . . . . . . . . . [0001]<br>
+      <br>
+      <br>
+      NYSCEF DOC. NO. 309 RECEIVED NYSCEF: 08/09/2020<br>
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=19MVPFXy0G0QvnmRLGpYIQ==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=19MVPFXy0G0QvnmRLGpYIQ==</a><br>
+      <br>
+      NYSCEF DOC. NO. 379 RECEIVED NYSCEF: 08/10/2020<br>
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=572E8gahZUO1KFthrfiyFQ==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=572E8gahZUO1KFthrfiyFQ==</a><br>
+      <br>
+      STATE FARM VP MANAGEMENT CORP. . . . . . . . . . . . . . . . . . .
+      . . . . . . . . . . . . [0003] <br>
+      UNDER FILER 93715, PRINCIPAL UNDERWRITER<br>
+      PRINCIPAL AUDITOR, PRICE WATERHOUSE COOPERS.<br>
+      2020-11-30 ANNUAL REPORT <br>
+      Filed: 2021-02-11<br>
+      Accession number: 0001145549-21-006167<br>
+<a class="moz-txt-link-freetext" href="https://www.sec.gov/Archives/edgar/data/0000093715/000114554921006167/xslFormN-CEN_X01/primary_doc.xml">https://www.sec.gov/Archives/edgar/data/0000093715/000114554921006167/xslFormN-CEN_X01/primary_doc.xml</a><br>
+      <br>
+      117 SULLIVAN STREET [ DEED ]. . . . . . . . . . . . . . . . . . .
+      . . . . . . . . . . . . [0004]<br>
+      <br>
+      SULLIVAN PROPERTIES LP, 101 WEST 55TH STREET, NEW YORK NY, 10019<br>
+      FT_1350000324035, BLOCK 803, LOT 11. DOC. DATE: 11/16/1989<br>
+      <br>
+      PROPERTY VALUES FILED WITH THE NYC FINANCE REGISTER. . . . . . . .
+      . . . . . . . . . . . . . [0005]<br>
+      <br>
+      JANUARY 15, 2011. . . . . . . . . . . . . . . . . . . .. . . . . .
+      . . . . .[0005]<br>
+      JANUARY 15, 2012. . . . . . . . . . . . . . . . . . . .. . . . . .
+      . . . . .[0007]<br>
+      JANUARY 15, 2013. . . . . . . . . . . . . . . . . . . .. . . . . .
+      . . . . .[0009]<br>
+      JANUARY 15, 2014. . . . . . . . . . . . . . . . . . . .. . . . . .
+      . . . . .[0011]<br>
+      JANUARY 15, 2015. . . . . . . . . . . . . . . . . . . .. . . . . .
+      . . . . .[0013]<br>
+      JANUARY 15, 2016. . . . . . . . . . . . . . . . . . . .. . . . . .
+      . . . . .[0015]<br>
+      JANUARY 15, 2017. . . . . . . . . . . . . . . . . . . .. . . . . .
+      . . . . .[0017]<br>
+      JANUARY 15, 2019. . . . . . . . . . . . . . . . . . . .. . . . . .
+      . . . . .[0019]<br>
+      JANUARY 15, 2020. . . . . . . . . . . . . . . . . . . .. . . . . .
+      . . . . .[0025]<br>
+      <br>
+      CERTITIICATES OF OCCUPANCY FOR THE RENTS AND LEASES TRANSFERRED TO
+      STATE FARM. . . . . . . [0029]<br>
+      111 REAR SULLIVAN STREET, BIN CODE 1077252. . . . . . .. . . . . .
+      . . . . .[0029]<br>
+<a class="moz-txt-link-freetext" href="HTTPS://A810-BISWEB.NYC.GOV/BISWEB/COSBYLOCATIONSERVLET?REQUESTID=3&amp;ALLBIN=1077252">HTTPS://A810-BISWEB.NYC.GOV/BISWEB/COSBYLOCATIONSERVLET?REQUESTID=3&amp;ALLBIN=1077252</a><br>
+      <br>
+      113 REAR SULLIVAN STREET, BIN CODE 1077254. . . . . . .. . . . . .
+      . . . . .[0030]*<br>
+<a class="moz-txt-link-freetext" href="HTTPS://A810-BISWEB.NYC.GOV/BISWEB/COSBYLOCATIONSERVLET?REQUESTID=3&amp;ALLBIN=1077254">HTTPS://A810-BISWEB.NYC.GOV/BISWEB/COSBYLOCATIONSERVLET?REQUESTID=3&amp;ALLBIN=1077254</a><br>
+      <br>
+      115 REAR SULLIVAN STREET, BIN CODE 1077256. . . . . . .. . . . . .
+      . . . . .[0031]*<br>
+<a class="moz-txt-link-freetext" href="HTTPS://A810-BISWEB.NYC.GOV/BISWEB/COSBYLOCATIONSERVLET?REQUESTID=3&amp;ALLBIN=1077256">HTTPS://A810-BISWEB.NYC.GOV/BISWEB/COSBYLOCATIONSERVLET?REQUESTID=3&amp;ALLBIN=1077256</a><br>
+      <br>
+      117 SULLIVAN STREET, BIN CODE 1007779. . . . . . . . .. . . . . .
+      . . . . . [0034]<br>
+<a class="moz-txt-link-freetext" href="HTTPS://A810-BISWEB.NYC.GOV/BISWEB/COSBYLOCATIONSERVLET?REQUESTID=3&amp;ALLBIN=1007779">HTTPS://A810-BISWEB.NYC.GOV/BISWEB/COSBYLOCATIONSERVLET?REQUESTID=3&amp;ALLBIN=1007779</a><br>
+      <br>
+      BIS CERTIFICATES OF OCCUPANCY. . . . . . . . . . .. . . . . . . .
+      . . . [0037]<br>
+      <a class="moz-txt-link-freetext" href="HTTPS://A810-DOBNOW.NYC.GOV/PUBLISH/INDEX.HTML#!/SEARCH">HTTPS://A810-DOBNOW.NYC.GOV/PUBLISH/INDEX.HTML#!/SEARCH</a><br>
+      <br>
+      111 REAR SULLIVAN STREET, BIN CODE 1077252 . . . . . .. . . . . .
+      . . . . . [0039]<br>
+      - NO CERTIFICATE OF OCCUPANCY 03.03.2022<br>
+      - NO CERTIFICATE OF OCCUPANCY AUGUST 10TH, 2020 - FILED WITH THE
+      NY SUPREME COURT NYSCEF MATTER 153974/2020<br>
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=ZOCFS3HH2UeHQe8j2tXJoQ==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=ZOCFS3HH2UeHQe8j2tXJoQ==</a><br>
+      <br>
+      113 REAR SULLIVAN STREET, BIN CODE 1077254. . . . . . .. . . . . .
+      . . . . .[0040]<br>
+      - NO CERTIFICATE OF OCCUPANCY 03.03.2022<br>
+      - NO CERTIFICATE OF OCCUPANCY ON AUGUST 10TH, 2020<br>
+      <br>
+      115 REAR SULLIVAN STREET, BIN CODE 1077254. . . . . . .. . . . . .
+      . . . . .[0041] <br>
+      - NO CERTIFICATE OF OCCUPANCY 03.03.2022<br>
+      - NO CERTIFICATE OF OCCUPANCY ON AUGUST 10TH, 2020<br>
+      <br>
+      NEW YORK STATE DEPARTMENT OF FINANCIAL SERVICES. . . . . . . .. .
+      . . . . . . . . . . . . . [0042]<br>
+      <br>
+      NO. 2020-0260-S. . . . . . . . . . . . . . . . . . . . .. . . . .
+      . . . . . [0042]<br>
+      FINED "TRI-STATE CONSUMER INSURANCE COMPANY"<br>
+      <br>
+      NO. 2020-0260-S. . . . . . . . . . . . . . . . . . . . .. . . . .
+      . . . . . [0049]<br>
+      FINED "STATE FARM MUTUAL AUTOMOBILE INSURANCE COMPANY"<br>
+      STATE FARM INSURANCE, 100 STATE FARM PLAZA, MALTA, NY, 12020<br>
+      ATTN: MICHAEL T. KEATING, VP OPERATIONS.<br>
+      <br>
+      NO. 2020-0239-S. . . . . . . . . . . . . . . . . . . . .. . . . .
+      . . . . . [0056]<br>
+      FINED "ALLSTATE INDEMNITY COMPANY", "ALLSTATE PROPERTY AND
+      CASUALTY INSURANCE COMPANY",<br>
+      "ALLSTATE FIRE AND CASUALTY INSURANCE COMPANY", AND "ALLSTATE
+      INSURANCE COMPANY"<br>
+      <br>
+      NO. 2019-0201-S. . . . . . . . . . . . . . . . . . . . .. . . . .
+      . . . . . [0064]<br>
+      FINED "AIG PROPERTY CASUALTY COMPANY"<br>
+      <br>
+      BROKER DEALER FINES ADMINISTERED BY FINRA. . . . . . . . . .. . .
+      . . . . . . . . . . . . . [0071]<br>
+      <br>
+      JAN 20, 2022. . . . . . . . . . . . . . . . . . . . .. . . . . . .
+      . . . . [0071]<br>
+      FINRA FINED CREDIT SUISSE FOR FAILURE TO ABIDE BY BOTH THE SEC
+      &amp; FINRA RULES<br>
+      REQUIRING FIRMS TO DISCLOSE POTENTIAL CONFLICTS OF INTEREST WHEN
+      ISSUING<br>
+      RESEARCH REPORTS.<br>
+      <br>
+      AUG 10, 2010. . . . . . . . . . . . . . . . . . . . .. . . . . . .
+      . . . . [0072]<br>
+      FINRA FINED MORGAN STANLEY FOR A FAILURE TO ABIDE BY BOTH THE SEC
+      &amp; FINRA RULES<br>
+      REQUIRING FIRMS TO DISCLOSE POTENTIAL CONFLICTS OF INTEREST WHEN
+      ISSUING<br>
+      RESEARCH REPORTS.<br>
+      <br>
+      MAR 08, 2012. . . . . . . . . . . . . . . . . . . . .. . . . . . .
+      . . . . [0074]<br>
+      FINRA FINED DEUTSCHE BANK SECURITIES FOR "BEST EXECUTION" AND FOR
+      A FAILURE TO DISCLOSE MATERIAL ASPECTS OF REALATIONSHIP WITH THE
+      MARKETS TO WHICH IT HAD<br>
+      ROUTED ORDERS AND FILED " NON SPECIFIC " DISCLOSURES.<br>
+      <br>
+      STATE FARM ASSOCIATES FUND TRUST [SEMI-ANNUAL REPORT]. . . . . . .
+      . . . . . . . . . . . . [0076] <br>
+      <br>
+      CIK 93715 HOLDING REPORT . . . . . . . . . . . . . . . . . . . . .
+      . . . . [0076]<br>
+      BALANCE SHEET AND HOLDINGS REPORT FOR TICKERS AS OF MAY 31, 2020<br>
+      <br>
+      [STFGX][STFBX][SFITX][SFBDX]<br>
+      PERIOD: 05/31/2020, FILED: 07/28/2020<br>
+      <br>
+      obo STATE FARM VP MANAGEMENT CORP. . . . . . . . . . . . . . . . .
+      . . [0081]<br>
+      /s/ PAUL J. SMITH. <br>
+      obo STATE FARM MUTUAL FUNDS TEAM . . . . . . . . . . . . . . . . .
+      . . [0083]<br>
+      /s/ JOE R. MONK<br>
+      obo STATE FARM INVESTMENT MANAGENT CORP.<br>
+      <br>
+      PORTOFOLIO COMPOSITION . . . . . . . . . . . . . . . . . . . . . .
+      . . [0084]<br>
+      -- STATE FARM GROWTH FUND<br>
+      -- STATE FARM BALANCED FUND<br>
+      -- STATE FARM INTERIM FUND<br>
+      -- STATE FARM MUNICIPAL BOND FUND<br>
+      <br>
+      SCHEDULE OF INVESTMENTS, MAY 31, 2020. . . . . . . . . . . . .
+      .[0087]<br>
+      -- LOSSES REGISTERED BETWEEN 11-30-2021 AND 03-31-2022<br>
+      $852,029,489<br>
+      <br>
+      -- LOSSES REGISTERED BETWEEN 03-31-2022 AND 04-30-2022<br>
+      $505,818,725<br>
+      <br>
+      -- LOSSES REGISTERED IN TOTAL [ 11-30-2021 THROUGH 04-30-2022]<br>
+      $1,357,848,214<br>
+      <br>
+      STATE FARM ASSOCIATES FUNDS TRUST GROWTH FUND . . . . .[0087]<br>
+      TICKER: STFGX<br>
+      SEC FILE NUMBER: 811-01519<br>
+      SERIES: S000002055<br>
+      LEI: 25490064REEQMGE0GC29<br>
+      CIN: C000005410<br>
+      CIK: 93715<br>
+      <br>
+      STATE FARM ASSOCIATES FUNDS TRUST BALANCED FUND . . . .[0089]<br>
+      TICKER: STFBX<br>
+      SEC FILE NUMBER: 811-01519<br>
+      SERIES: S000002056<br>
+      LEI: 254900EBILZP44C0ET43<br>
+      CIN: C000005411<br>
+      CIK: 93715<br>
+      STATE FARM ASSOCIATES FUNDS TRUST INTERIM FUND . . . .[0099]<br>
+      TICKER: SFITX<br>
+      SEC FILE NUMBER: 811-01519<br>
+      SERIES: S000002057<br>
+      LEI: 254900QMKPLXFY2DO125<br>
+      CIN: C000005412<br>
+      CIK: 93715<br>
+      <br>
+      STATE FARM ASSOCIATES FUNDS TRUST MUNICIPAL BOND FUND .[0100]<br>
+      TICKER: SFBDX<br>
+      SEC FILE NUMBER: 811-01519<br>
+      SERIES: S00000205<br>
+      LEI: 254900XY61CSODNC1J50<br>
+      CIN: C000005413<br>
+      CIK: 93715<br>
+      <br>
+      [LEVEL 3] HOLDINGS REPORTED. . . . . . . . . . . . . . . . . . . .
+      . . . . [0125]<br>
+      """ SECURITIES VALUATION """"""""""" <br>
+      """ UNOBSERVABLE INPUTS REPORTED """<br>
+      <br>
+      [ITEM 12] DISCLOSURE OF SECURITIES LENDING. . . . . . . . . . . .
+      . . . . . [0140]<br>
+      SEE ALSO: ANNUAL REPORT [ 11-30-2020 ]<br>
+<a class="moz-txt-link-freetext" href="https://www.sec.gov/Archives/edgar/data/0000093715/000114554921006167/xslFormN-CEN_X01/primary_doc.xml">https://www.sec.gov/Archives/edgar/data/0000093715/000114554921006167/xslFormN-CEN_X01/primary_doc.xml</a><br>
+      <br>
+      "NOT APPLICABLE", EX-99CERT FILED, UNDER THE SECURITIES EXCHANGE
+      ACT OF 1934, INVESTMENT COMPANY ACT OF 1940<br>
+      /s/ JOE R. MONK, /s/ PAUL J. SMITH.<br>
+      """ NO LEVEL 3 INVESTMENTS """"<br>
+      <br>
+      <br>
+    </div>
+  </body>
+</html>
+
+--------------hpuPJx0Q4u9vUXS6MLPB03Zd--
