@@ -1,0 +1,2134 @@
+From - Sun Apr 17 11:49:16 2022
+X-Account-Key: account8
+X-UIDL: 1645857828.477
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <ms60710444266@yahoo.com>
+Received: from compute4.internal (compute4.nyi.internal [10.202.2.44])
+	 by sloti52n19 (Cyrus 3.7.0-alpha0-386-g4174665229-fm-20220406.001-g41746652) with LMTPA;
+	 Tue, 12 Apr 2022 17:02:30 -0400
+X-Cyrus-Session-Id: sloti52n19-1649797350-2389050-5-15308432227853405148
+X-Sieve: CMU Sieve 3.0
+X-Spam-known-sender: yes ("Address ms60710444266@yahoo.com in From header is in addressbook");
+ in-addressbook; bba2db8d-33a3-40c2-87e0-df67be267777 ("Autosaved")
+X-Spam-charsets: plain='UTF-8', html='UTF-8'
+X-Resolved-to: cockarens@vouchersrus.org
+X-Delivered-to: cockarens@vouchersrus.org
+X-Mail-from: ms60710444266@yahoo.com
+Received: from mx4 ([10.202.2.203])
+  by compute4.internal (LMTPProxy); Tue, 12 Apr 2022 17:02:30 -0400
+Received: from mx4.messagingengine.com (localhost [127.0.0.1])
+	by mailmx.nyi.internal (Postfix) with ESMTP id DDBC81F200BA
+	for <cockarens@vouchersrus.org>; Tue, 12 Apr 2022 17:02:30 -0400 (EDT)
+Received: from mx4.messagingengine.com (localhost [127.0.0.1])
+    by mx4.messagingengine.com (Authentication Milter) with ESMTP
+    id E3736BA73D1;
+    Tue, 12 Apr 2022 17:02:30 -0400
+ARC-Seal: i=1; a=rsa-sha256; cv=none; d=messagingengine.com; s=fm3; t=
+    1649797350; b=M2xHrgZuVWbKQfZxH0VLS2ByJrNeLG+x7KfHv5bU4hpAL1pEmL
+    B4/9ggYU9F8rj3T5K7EN37XStecKzEZ1/mrYFfkRzUfDjATXyh5k/KteaP7Fs8VE
+    K7nlgcRp2JYYapYUARv2WblGGrgtztArjfffXr2o+jkS4Ml91tU/H6jvuERgIn0E
+    1DtjgS46jbduwUqWdVXCJKssdmtcpeZZSAZRVKr0tY/cJ8Y6tV1JRql08o84fjCj
+    yYUwCg5TQTJAnpTjyxnWSJ9i/urIHM+O0sPRfS3SPpUljefXQ0xx2RRXkjwhN7gu
+    xsAeS/gw2CwOQWSQ7QVgywxuUJkYVYpCYrtw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=
+    messagingengine.com; h=content-type:message-id:date:mime-version
+    :to:cc:from:subject:references; s=fm3; t=1649797350; bh=PBl+3tn6
+    HwO0i2allxsJkCSIusD0LCM2/jCueXaG3V4=; b=nb8MaCVdO5pGXmonjA+VaBl4
+    hG49Kvrp3Gx5+ITHlGVfsSZVTrVfFbFXfm1kbbKtA10XSH5Gc/3nQgvWQYPHo11I
+    mcZFtp2jXpnRhDRA/ZC8FjW9aMnUldWcN0UjarOPkcIKoWagXfhakvZzvrwgHXLl
+    oxCPQca+PXieXnZ2T+GO3ryyAudeKuIHNSQwsYMX5R5iO7HguoahRoBd57aUMee6
+    1p3QGZz5udV+XIsoVYGouhviry7Xf4jU3sneHHj0vOTlW0orlXUC7CCSBpdRhGnJ
+    8DNBjXCyzUQ3pSn/pNbz2h4qwFEE0u6dUDOrWfnrMZamUJ6407GMWkDVesnGFA==
+ARC-Authentication-Results: i=1; mx4.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=sonic304-10.consmr.mail.bf2.yahoo.com
+    policy.ptr=sonic304-10.consmr.mail.bf2.yahoo.com;
+    bimi=none (No BIMI records found);
+    arc=none (no signatures found);
+    dkim=pass (2048-bit rsa key sha256) header.d=yahoo.com
+    header.i=@yahoo.com header.b=lZMNnP0U header.a=rsa-sha256
+    header.s=s2048 x-bits=2048;
+    dmarc=pass policy.published-domain-policy=reject
+    policy.applied-disposition=none policy.evaluated-disposition=none
+    (p=reject,d=none,d.eval=none) policy.policy-from=p
+    header.from=yahoo.com;
+    iprev=pass smtp.remote-ip=74.6.128.33
+    (sonic304-10.consmr.mail.bf2.yahoo.com);
+    spf=pass smtp.mailfrom=ms60710444266@yahoo.com
+    smtp.helo=sonic304-10.consmr.mail.bf2.yahoo.com
+X-ME-Authentication-Results: mx4.messagingengine.com;
+    x-aligned-from=pass (Address match);
+    x-return-mx=pass header.domain=yahoo.com policy.is_org=yes
+      (MX Records found: mta6.am0.yahoodns.net,mta7.am0.yahoodns.net,mta5.am0.yahoodns.net);
+    x-return-mx=pass smtp.domain=yahoo.com policy.is_org=yes
+      (MX Records found: mta7.am0.yahoodns.net,mta5.am0.yahoodns.net,mta6.am0.yahoodns.net);
+    x-tls=pass smtp.version=TLSv1.3 smtp.cipher=TLS_AES_256_GCM_SHA384
+      smtp.bits=256/256;
+    x-vs=clean score=-85 state=0
+Authentication-Results: mx4.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=sonic304-10.consmr.mail.bf2.yahoo.com
+      policy.ptr=sonic304-10.consmr.mail.bf2.yahoo.com
+Authentication-Results: mx4.messagingengine.com;
+    bimi=none (No BIMI records found)
+Authentication-Results: mx4.messagingengine.com;
+    arc=none (no signatures found)
+Authentication-Results: mx4.messagingengine.com;
+    dkim=pass (2048-bit rsa key sha256) header.d=yahoo.com
+      header.i=@yahoo.com header.b=lZMNnP0U header.a=rsa-sha256
+      header.s=s2048 x-bits=2048;
+    dmarc=pass policy.published-domain-policy=reject
+      policy.applied-disposition=none policy.evaluated-disposition=none
+      (p=reject,d=none,d.eval=none) policy.policy-from=p
+      header.from=yahoo.com;
+    iprev=pass smtp.remote-ip=74.6.128.33
+      (sonic304-10.consmr.mail.bf2.yahoo.com);
+    spf=pass smtp.mailfrom=ms60710444266@yahoo.com
+      smtp.helo=sonic304-10.consmr.mail.bf2.yahoo.com
+X-ME-VSCause: gggruggvucftvghtrhhoucdtuddrgedvvddrudekkedgudehhecutefuodetggdotefrod
+    ftvfcurfhrohhfihhlvgemucfhrghsthforghilhdpggftfghnshhusghstghrihgsvgdp
+    uffrtefokffrpgfnqfghnecuuegrihhlohhuthemuceftddtnecusecvtfgvtghiphhivg
+    hnthhsucdlqddutddtmdenfghrlhcuvffnffculddqhedmnegojggrhhhoohdqqdetfeei
+    uddqtdduucdlvddtmdenucfjughrpegtkfffgggfvffhufhfofesrgdtreerreefjeenuc
+    fhrhhomhepuecuffdvtddvvdcuoehmsheitdejuddtgeeggedvieeiseihrghhohhordgt
+    ohhmqeenucggtffrrghtthgvrhhnpefgvddvffelfefffeekkeetieeuiefhfffhfedufe
+    ffffdtudegtdektefftedvteenucffohhmrghinhepghhithhhuhgsrdgtohhmpdhsvggt
+    rdhgohhvpdhsthgrthgvrdhnhidruhhspdhfihhnrhgrrdhorhhgpdhnhigtrdhgohhvpd
+    hpfigtrdgtohhmpdhotggtrdhgohhvpdhnhidrghhovhenucfkphepjeegrdeirdduvdek
+    rdeffeenucevlhhushhtvghrufhiiigvpedtnecurfgrrhgrmhepihhnvghtpeejgedrie
+    druddvkedrfeefpdhhvghlohepshhonhhitgeftdegqddutddrtghonhhsmhhrrdhmrghi
+    lhdrsghfvddrhigrhhhoohdrtghomhdpmhgrihhlfhhrohhmpeeomhhsiedtjedutdegge
+    egvdeiieeshigrhhhoohdrtghomheq
+X-ME-VSScore: -85
+X-ME-VSCategory: clean
+X-ME-CSA: none
+Received-SPF: pass
+    (yahoo.com ... _spf.mail.yahoo.com: 74.6.128.33 is authorized to use 'ms60710444266@yahoo.com' in 'mfrom' identity (mechanism 'ptr:yahoo.com' matched))
+    receiver=mx4.messagingengine.com;
+    identity=mailfrom;
+    envelope-from="ms60710444266@yahoo.com";
+    helo=sonic304-10.consmr.mail.bf2.yahoo.com;
+    client-ip=74.6.128.33
+Received: from sonic304-10.consmr.mail.bf2.yahoo.com (sonic304-10.consmr.mail.bf2.yahoo.com [74.6.128.33])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange ECDHE (P-256) server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mx4.messagingengine.com (Postfix) with ESMTPS
+	for <cockarens@vouchersrus.org>; Tue, 12 Apr 2022 17:02:30 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1649797349; bh=PBl+3tn6HwO0i2allxsJkCSIusD0LCM2/jCueXaG3V4=; h=Date:To:Cc:From:Subject:References:From:Subject:Reply-To; b=lZMNnP0UTCdrqZrt86/mXSyrrHPGqoTx1EYwCLfm77oIfPGfxdWpk6dlxUvKbnMJYgfOxq62BxdZgMyvCnRRhOcfaBqneHLFsZM5Ccd1+y7xNt1KcjHnwJx5fXISvkeqXJm1k6n0I/5O0xj8c+KXYbjRyCVsYyO/HvW1tWjdj4S/JIon3+Nz/isw0NAFCgSYWnHdMHg8t0BW5REMv7+cCBryPqtMfthOg7wskLVPY0Qz/+n1tLAU2o1u0pQ7IfI2jsxt0k/jZv2PCPkynjITeBQqpOqadXhwsHJO/c/kRwZTerwHDgx2hH0zYwQVT3c9SgDPjhOry4CFBjKeHhWwtg==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1649797349; bh=LdLfN337/2fofT4oYyPfzK0cFktGF+nzVIpXbQJyDje=; h=X-Sonic-MF:Date:To:From:Subject:From:Subject; b=Ux3Qod4TEpTByjKkxoaDi/EjSXpW2M6qnhfhhTkT+RQSkP3ceRC78YITQdqP4Xapf1ycJlW0zh1s+9J1t10HUYPp2Orh+080F7OoKpxhBfDGIDhTneCeS+b/aMtdgmbf6Vk4P8MRlrnN3BCSFaeJLA1FC0MrrL3urC5HjwyDFD3gio2oWml0ERBrBIUrL8V+2LfB7GDeK/9PKcQD1zoMF/ukVh5c4N8NCCtkqmkPyJfrP5k1zb9yIFFyTkRE3BR+aBm/BlFaCvbkAw6r2KE2v0N21NGeA5bc0k0E1Ii3dbBn1IjjRVycAQ7//iv5WyezfP8lKVWKX0jdCUrKt3Uw5w==
+X-YMail-OSG: smbRv3MVM1n.r.dGgs6fmkCEkEbpHXMuj.8dUWLm_fFR.65d6AowcTpbbwV6.KR
+ bQue.7LImfheW2u6UA3YvLf.F7HRt44AR3ACsw17.5Cmdlml8dYa0hy3t4uKs.k00ArdCaFNcfpb
+ RWqLf0NzUULd9HzBJ.O88u2xecIi4iez5TGLSkuvA9Gs2hr8XX9PvarTNz0FhSo3Wke2Ta9MRhT2
+ rstYA18hoa.VU.3jtCjw6DrMylzk1eQXY_eQfrEIVXLR.9Q3gdsiyp7aAM2.s19GJFWA4yfqkZJL
+ mtAyxJwgZ7pA54zDkLoqfZ7qhLELBzs_yCvOP07CeaEPgVfcz7YVQsBLyTsCqAZcnYbXxSy3BW2v
+ ibJ_1y4uvcnnNsTawUR3jCgD8SFGZqLar40M8A5GTHCqxgPYkwmkj8eP35WdJB67LrV2HpFILRDE
+ n4Mn3MPK1SbS2d6XC9ECXVfcq4QOCpnBeXcTkJZPvnuLRNs17RR9JJTrwjTfmrwfHf44bfwRNNMh
+ Vno3306PRq30GxjlIPA_K66.OalX4iBbDSsfRMYpo05.LrRUZW8bhljNfnpRmpUvvapZ78Pv6Xv7
+ 3BtrGK8SKEHDO297ndpdBMOcfd1NgsHB9w5tSfgt7aRxAMh3ZldwETb.SbcviS67.1a11Jk39W_F
+ LlrNuNaTmfERy53gh.niY7.9EScIDdLCIlh3xCSXezR.ZK2PVPW3Wrm4ky5VDTrwwwsEppGvq_h5
+ PeQ_X.oQG5K3pVOXSnzo1LrgxmlndwHGKCm61Ue8Ufmo5N4DtwlzZaZR5tMVTkYr0Tal1Ea28U3h
+ m9wzg.Q9C6f6Hk0FYX0xc9j3pfjVp84lVJOlruo44MGlhm1ZrLCfLAQ_Solc884._nIkRIhIwQBV
+ LWVN0PZWLlcjlAYL8wc93aC8uY9zBqEdoMFgVNMo4nfjDNVqoOV4f3swt9AvWd0FlvsriGnq14wo
+ qh1RCQfRyGpvNDfkGG1XmPLUbG.6IjDqd8CUuSJBsxMR4i4M_LMGzBimJPda7Y17dVjYaAmu4FfM
+ BeJIf0dwxG5DwwTFajSg.oTs8lVcBb4defBZITNCMAkjkvZ8loCXb1wyflQlJjX6tjh8OzkLmett
+ qzMF._zpDrRo0CCt2L7vVpNxdp9gwXAnN06QQx1tpd6swEX2C7vEJc9qESV5RS_KiTxBhp0nXihp
+ UbB8107TyXGLYJKynXBD4pBQqu34p.tC17FTO4KSZ..4SHUDsalwrR.iVCe6Y_XjqpsrFwAZz3C7
+ 5qBI3skRhhlrRlysCdDrazM6EMoUfS3weQk3W7bDMdwfWkALoE3IWaz22m3qfHa1sOPF14gTUckY
+ FCpeIxBcyABoNKBHdlAaiEKAgGXekuDQb1HRydlBcr9WL0pI_xbv_Q9ZiedK9p3I.58LBZjhhm7Y
+ 99uHre8RzhWp9IfgOJh7X9p1s80YGfozqQ.O7rf.WVY.v4IKu7q0BBvMgKpMpSE8oAV51ELMm8C4
+ J9aWuM1HJ1uMcExxHkanlAIFKWj0559PM6EjWYMtGDkwSE9gbZTvvS4FbkMQnUIKuF8Io8WSmIL0
+ lL.aTsMnQ5YY.kQSl0VigxcNQOYrd_KSeHBZuyv0OCICs.Pv.C9LwjVd4ovtyKfyNXZMu2XEhf9k
+ e5kptFFDDXgtuBgXbL6TySOlb.XkxfdzR.vVdcEngnsHUKMNwPpldobV4Rz4fJ52hgsx0__eUBE4
+ 4LpeT_aCnbpkHvMm.EjNe9ysNYw.olj9d54ynVSE8BjFIj.0cT2I05wVm50Ftr1zx_QSSCeXJQen
+ 2UNsVBkZQAvFIzsuZNttVxk05ofyecJe4OKtSB.89_YPK3MshJdlZcQoSahcfq1nX_UNVJ9Lx6Lx
+ qHAwF0NI9kpxxrhh6ii9mOUMUjJAP_MIxtEjTesAMez0Pa8c6lugRMv2kaKdDOGMtPPNFPc0VT07
+ aAUcbYpqQjVsnsT2l9b4IgV4OdaTbn46T2RBn0kFieeSo17TttdotsFHZUZvgjMSBeaXS6a56KPD
+ Jw2DaBPp2Q4OsFydE.Sck3RQSpCW9AXgnP4FohegHJ_VSGPQKz1nR48slOVfgPgHETZ734X_eMln
+ N_DnaJZXXSWxMBjPXS65gi4IwkNHsTmNWojgtdiVp_oGKTHyEb7rpr9RiaZJqggRr6L5pbPvHJFu
+ p5t5pmSen6pA.2hPnFYqYRW28AuV6nnDFTlrL4TXJfUZ1PGfrqmtgGL3Knu80lTD_gOpEVaxCC63
+ YmVulrAj7FZNW5MNUB8Oj68G4.63._la2VYrg9YoyD6hGmvIIgD.Us99g7FYkTZhaCOeiBgIA_wR
+ DFmpJbqObV6dW1JdK_J2WR3my4O3gpVGj4OjDZyYFToxd4_HEp8NHyc0-
+X-Sonic-MF: <ms60710444266@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic304.consmr.mail.bf2.yahoo.com with HTTP; Tue, 12 Apr 2022 21:02:29 +0000
+Received: by hermes--canary-production-ne1-855b9c5d98-9tghh (VZM Hermes SMTP Server) with ESMTPA ID 1e406fe223561a35a7b6425f883981f5;
+          Tue, 12 Apr 2022 21:02:25 +0000 (UTC)
+Content-Type: multipart/alternative;
+ boundary="------------1LfqI54hvD0QpBI0DOjquWXk"
+Message-ID: <2c271667-3a6a-0969-3f5f-b578b88ef2e3@yahoo.com>
+Date: Tue, 12 Apr 2022 16:02:15 -0500
+MIME-Version: 1.0
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:91.0) Gecko/20100101
+ Thunderbird/91.6.1
+Content-Language: en-US
+To: "Inquiries@Point72.com" <inquiries@point72.com>,
+ "cohenassistant@point72.com" <cohenassistant@point72.com>,
+ Ap Info <info@ap.org>, Tudor Info <info@tudor.com>,
+ "foiaconsultsandref@atf.gov" <foiaconsultsandref@atf.gov>,
+ "60710 BD. 153974" <bdincer66@icloud.com>, B D2022
+ <ms60710444266@yahoo.com>, rajat.tandon@ivca.in,
+ "lee.henderson@ey.com" <lee.henderson@ey.com>,
+ "karim.anani@ey.com" <karim.anani@ey.com>,
+ "kevin.klimara@ey.com" <kevin.klimara@ey.com>,
+ "jacqueline.kelley@ey.com" <jacqueline.kelley@ey.com>,
+ "cbrooks7@bloomberg.net" <cbrooks7@bloomberg.net>,
+ CRC FTC REPORTS <crcmessages@ftc.gov>, "premerger@ftc.gov"
+ <premerger@ftc.gov>, FTC ANTITRUST <antitrust@ftc.gov>,
+ "bofamarkets@bofa.com" <bofamarkets@bofa.com>, MATT LOWE <mlowe@fdic.gov>,
+ FDIC Public Information <publicinfo@fdic.gov>,
+ ELECTRONIC FILE <efoia@fdic.gov>, Shari Laskowitz
+ <slaskowitz@ingramllp.com>,
+ "kerri.saperstein@morganstanley.com" <kerri.saperstein@morganstanley.com>,
+ "mshyld@bloomberg.net" <mshyld@bloomberg.net>
+Cc: Sec News <news@sec.gov>, Sec News <webmaster@sec.gov>,
+ Newsroom Books <books@nytimes.com>, Ricki Roer <ricki.roer@wilsonelser.com>,
+ "Ashley V. Humphries" <ashley.humphries@wilsonelser.com>,
+ "lzucker@mskyline.com" <lzucker@mskyline.com>,
+ "jpmcinvestorrelations@jpmchase.com" <jpmcinvestorrelations@jpmchase.com>,
+ "wmckenzie@nycourts.gov" <wmckenzie@nycourts.gov>,
+ "ikawasaki@kpmg.com" <ikawasaki@kpmg.com>, "pmaes@kpmg.com"
+ <pmaes@kpmg.com>, "juliojhernandez@kpmg.com" <juliojhernandez@kpmg.com>,
+ "info@kpmg.com" <info@kpmg.com>, "info@ey.com" <info@ey.com>,
+ "rachel.gerring@ey.com" <rachel.gerring@ey.com>,
+ "alex.zuluaga@ey.com" <alex.zuluaga@ey.com>,
+ "mark.schwartz1@ey.com" <mark.schwartz1@ey.com>,
+ "david.brown1@ey.com" <david.brown1@ey.com>,
+ "deborah.jones@ey.com" <deborah.jones@ey.com>,
+ "pressinquiries@point72.com" <pressinquiries@point72.com>,
+ Champion Gears <cockarens@vouchersrus.org>,
+ "brian.mccooey@point72.com" <brian.mccooey@point72.com>,
+ BD <bondstrt@protonmail.com>, judiciary@cpa.texas.gov, texas@sec.gov,
+ "shareholderproposals@sec.gov" <shareholderproposals@sec.gov>,
+ Secretarys-Office@sec.gov, Rule-Comments <rule-comments@sec.gov>,
+ "publicinfo@sec.gov" <publicinfo@sec.gov>, philadelphia@sec.gov,
+ "Pamela Gibbs [SEC]" <OMWI@sec.gov>, Ombudsman@sec.gov,
+ "Carl Hoecker [SEC]" <OIG@sec.gov>, "oca@sec.gov" <oca@sec.gov>,
+ NYROBankruptcy@SEC.GOV, Newyork <newyork@sec.gov>, losangeles@sec.gov,
+ IMshareholderproposals <IMShareholderProposals@sec.gov>, foiapa@sec.gov,
+ "dfw@sec.gov" <dfw@sec.gov>, denver@sec.gov,
+ "dcaoletters@sec.gov" <dcaoletters@sec.gov>, cshugg@usinfosec.com,
+ CommissionerRoisman@sec.gov,
+ "CommissionerPeirce@sec.gov" <CommissionerPeirce@sec.gov>,
+ CommissionerLee@sec.gov, CommissionerCrenshaw@sec.gov,
+ "CHICAGO@SEC.GOV" <CHICAGO@SEC.GOV>, "CHAIR@SEC.GOV" <CHAIR@SEC.GOV>,
+ "boston@sec.gov" <boston@sec.gov>, atlanta@sec.gov
+From: B D2022 <ms60710444266@yahoo.com>
+Subject: to: EY & the representatives of STFGX - SFITX - ... NOT COVERED
+ FILER: 1516523
+References: <2c271667-3a6a-0969-3f5f-b578b88ef2e3.ref@yahoo.com>
+X-Mailer: WebService/1.1.20001 mail.backend.jedi.jws.acl:role.jedi.acl.token.atz.jws.hermes.yahoo
+
+This is a multi-part message in MIME format.
+--------------1LfqI54hvD0QpBI0DOjquWXk
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+*"... BE IT REMEMBERED ..."*
+
+*THIS OBSTRUCTION BY THE SECURITIES INDUSTRY AND AVOIDANCE TO 
+PROSECUTION FOR MATTERS WHICH PERTAIN TO A FAILURE TO REPORT MATERIAL 
+FACTS, PEEPING TOMS THAT REACT AT-WILL, WITH NO FEAR OF ANY AUTHORITY 
+WAS PERMITTED AND WITHOUT ESTOPPEL FILED IN A NEW YORK STATE SUPREME 
+COURT OF LAW WITHOUT ANY NOTICE TO THE PUBLIC OF ANY POTENTIAL HAZARD. 
+THE VIOLATION OF PRIVACY, IS CLEAR – AND SO IS THE DISTRIBUTION OF THOSE 
+UNCONSENTED VIDEOS ANNEXED WITHOUT ANY PUBLIC RELEASE TO WARN OTHER 
+TENANTS - THEY DON'T HAVE A WARRANT TO ILLEGALLY VIDEOTAPE, OR A 
+CERTIFICATE OF OCCUPANCY TO LEGALLY COLLECT AND CUSTODY RENT OR SECURITY 
+DEPOSITS. FOR BUILDINGS - PLURAL...*
+
+        THIS IS A NEW PLATEAU OF DEPLORABLE CONDUCT AS THE LIABILITY FOR 
+INVESTORS, WHERE THE REGULATORS ARE CONSIDERED AS "NONPLUSSED" AND 
+WITHOUT DISCLOSURE TO THE PUBLIC…
+- WHILE I WAS FURTHER HINDERED BY THE OBSTRUCTION BY OTHER COUNSELORS, 
+AND AFFILIATES WHILE THE STATE FARM ATTEMPTED A MERGER IN NOVEMBER OF 
+2021 AS WELL.
+
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/11
+
+                 NO RELEASE OR NOTICE OF AN ONGOING INVESTIGATION BY THE 
+SECURITIES & EXCHANGE COMMISSION FOR ALL OTHER INVESTMENT COMPANIES TO 
+BE CONCERNED WITH REGARDING THIS DANGER
+
+NOTWITHSTANDING FURTHER INVESTMENTS TO A TRUST THAT WILL NOT DISCLOSE A 
+$6 MILLION DOLLAR EXPOSURE
+
+THE LETTER OF CREDIT FOR $6 MILLION WAS ANNEXED AND RECEIVED IN A NEW 
+YORK SUPREME COURT OF LAW, DOCKET 315...
+
+- THEY WILL ALSO HIDE A $6 BILLION DOLLAR LOSS.***AND WILL NOT ACCEPT 
+THE FACT THAT THEY WERE NOT COVERED, AND UNDER ANY SCOPE OF LEGAL 
+PROCEEDINGS AS WELL.
+         - THIS ALL OCCURRED DURING THE PERIOD OF THEIR OWN BOND 
+INDENTURE AND COVERAGE FOR ERRORS AND OMISSIONS... AND I ALSO FILED A 
+TCR ON THE 13TH OF NOVEMBER - PRIOR TO THE EXPIRATION TERM.
+*
+
+https://www.sec.gov/Archives/edgar/data/0000093715/000114554922006149/xslFormN-CEN_X01/primary_doc.xml
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=gcMSDaFzm0ynPeXZKSHgLQ== 
+<https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=gcMSDaFzm0ynPeXZKSHgLQ==>
+
+*
+A.FIDELITY  - DEFINED***
+     MOTIVE    _40-17G-FILED----2020.06.08* *
+
+*NOTARIZED on the 11th of May, 2020.
+**    during the period of Coverage by its Investment Professionals [ E-8 ]*
+     STATE FARM LIFE INSURANCE COMPANY.
+     STATE FARM REALTY MORTGAGE LLC.
+
+*OBSTRUCTION OF JUSTICE & NO ORDER OF ESTOPPEL - *
+     MOTIVES...
+
+THOSE FINES GET HEAVIER THE LONGER YOU HIDE FROM THE TRUTH.
+          ... BTW, I NEVER ASKED FOR ANYTHING... OTHER THAN THE MONEY 
+THEY STOLE & MY SECURITY DEPOSIT WHICH = LARCENY.
+
+... DO I GET ANY JUSTICE THOUGH? IF NOT THEN PAY ME THE WHISTLEBLOWER 
+FEES OR GIVE ME A ESPY AT LEAST CONSIDER IT.
+
+STATE FARM VP MANAGEMENT CORP.
+     [CRD#: 43036/SEC#: 8-50128]
+     ONE STATE FARM PLAZA, BLOOMINGTON, IL 61710
+
+If "Not Covered" is inserted opposite any Insuring Agreement above, such 
+Insuring Agreement and any reference thereto shall be deemed to be 
+deleted from this Bond.
+ >>    > F-SECURITIES BY ITS FIDELITY AND COMPLIANCE OFFICER, SR. VICE 
+PRESIDENT AND DIRECTOR, UNDER COMPLIANCE OFFICER LUDWIG WHO EXECUTED THE 
+PRIOR INDENDURE
+         OMISSION: "Not Covered" AND LOSSES OF -852029489.38 REGISTERED 
+UNDER THEIR UMBRELLA OF "State Farm Associates' Funds Trust"
+1. Item G.1.a.i. Legal proceedings.
+(a) If the Registrant responded "YES" to Item B.11.a., provide a brief 
+description of the proceedings.
+      As part of the description, provide the case or docket number (if 
+any), and the full names of the principal parties to the proceeding.
+     > LOAN IS ANNEXED IN THE DOCKET AVOIDED TO: NYSCEF 153974/2020
+(b) If the Registrant responded "YES" to Item B.11.b., identify the 
+proceeding and give its date of termination.
+     > LOAN IS ANNEXED IN THE DOCKET AVOIDED TO: NYSCEF 153974/2020
+     > H-UNCOLLECTIBLE ITEMS OF DEPOSIT IS ANNEXED IN NYSCEF 153974/2020
+     State Farm Associates' Funds Trust
+https://www.sec.gov/Archives/edgar/data/0000093715/000009371520000003/aft2020.txt
+     Item 3. Limit of Liability-Subject to Sections 9, 10 and 12 hereof:
+
+LIMIT OF LIABILITY    DEDUCTIBLE AMOUNT
+     Insuring Agreement A-FIDELITY            $2,500,000 $50,000
+*    > Insuring Agreement B-AUDIT EXPENSE           $50,000        $10,000*
+     Insuring Agreement C-ON PREMISES        $2,500,000 $50,000
+     Insuring Agreement D-IN TRANSIT            $2,500,000     $50,000
+     Insuring Agreement E-FORGERY OR ALTERATION $2,500,000        $50,000
+     > Insuring Agreement F-SECURITIES            $2,500,000        $50,000
+     Insuring Agreement G-COUNTERFEIT CURRENCY    $2,500,000     $50,000
+     > Insuring Agreement H-UNCOLLECTIBLE ITEMS OF DEPOSIT        
+$25,000         $5,000
+     Insuring Agreement I-PHONE/ELECTRONIC $2,500,000        $50,000
+TRANSACTIONS
+     > B.    AUDIT EXPENSE " Expense incurred by the Insured for that 
+part of the costs of audits or examinations required by any governmental 
+regulatory authority or Self-
+Regulatory Organization to be conducted by such authority or 
+Organization or by an independent accountant or other person, by reason 
+of the discovery of loss sustained by the Insured and covered by this Bond."
+
+     >> THIS WAS NOTED IN THE NEW REGISTERED "MERGER" TO THE IA - WHO 
+SET ASIDE THOSE AUDIT FUNDS, HENCE THE LOSSES INCURRED ARE MOST 
+PROMINENT FROM JANUARY 1, 2022 - MARCH 31, 2022 AS THE NEW IA IS ALSO 
+NOT COVERED FOR THE LOSSES IN PRICE DUE TO A CERTAIN OMISSION.
+     >>>> THE NEW: ADVISERS INVESTMENT TRUST :: CIK#1516523#
+     >>>> 
+https://www.sec.gov/Archives/edgar/data/0001516523/000119312522025502/d207567d4017g.htm 
+<<<<
+
+     >> AIDED AND ABETTED BY ITS "PROMOTING BROKERS" in the former by 
+FILER CIK#93715#
+
+https://brokercheck.finra.org/individual/summary/2992788
+     NAME:    HARBERT, RANDALL HOUSTON
+     CRD NUMBER:        2992788
+     STATES REGISTERED:     Illinois
+     POSITION:             SR. VICE PRESIDENT AND DIRECTOR
+
+1.A. PRESENT AFFILIATIONS / OUTSIDE BUSINESSES DISCLOSED:
+     B. 2016-PRESENT, STATE FARM LIFE INSURANCE COMPANY     [ 
+NON-INVESTMENT RELATED ]
+     *** Sr. Vice President, Chief Agency, Sales and Marketing Officer 
+and Director
+     C. 2013-PRESENT, STATE FARM AUTOMOBILE INSURANCE COMPANY [ 
+INVESTMENT RELATED ]
+     *** EXECUTIVE VICE PRESIDENT, CHIEF AGENCY SALES MARKETING OFFICER
+     D. 2011-PRESENT, STATE FARM LLOYDS, INC    [ NON-INVESTMENT RELATED ]
+     *** DIRECTOR.
+     E. 2011-PRESENT, STATE FARM INVESTMENT MANAGEMENT CORP. [ 
+INVESTMENT RELATED ]
+https://reports.adviserinfo.sec.gov/reports/ADV/3487/PDF/3487.pdf
+     F. 2011-PRESENT,STATE FARM VP MANAGEMENT CORP [ INVESTMENT RELATED ]
+     *** SENIOR VICE PRESIDENT AND DIRECTOR
+
+1.B. AIDED AND ABETTED TO BY SULLIVAN PROPERTIES, AND ITS AFFILIATES AND 
+COUNSELORS.
+      [RECEIVED NYSCEF: 08/11/2020]
+
+     STIPULATION TO AMEND CAPTION AND ADD "STATE FARM REALTY MORTGAGE 
+LLC" WHICH IS MANAGED BY "STATE FARM LIFE INSURANCE COMPANY"
+     - AN OUTSIDE BUSINESS DISCLOSED BY: HARBERT, RANDALL HOUSTON, AS A 
+DIRECTOR OF [STATE FARM VP MANAGEMENT CORP.]
+
+     A. 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Xjn0/e1NcBADqRc_PLUS_g11P4g==
+        **** EXECUTED ON 08/08/2020, FAXED TO THEIR INSURANCE "SEE ALSO 
+LEASE"
+             EMAILED TO ALL MATERIAL PARTIES AS REFERENCED IN THE 
+DOCKETED & ANNEXED LOANS IN THE NEW YORK SUPREME COURT MATTER 153974/2020.
+        **** I WAS TRYING TO ADD THEM TO THE CASE AS A RESPONDENT - THE 
+CLERK, JUDGE, AND BY THE WORK OF THE COUNSELORS OF SULLIVAN PROPERTIES, 
+AND WAS REQUESTED NOT TO CONTACT ANY REGULATORY AUTHORITY.
+        **** AS REFERENCED HEREUNDER, IS A NON-JOINDER. HOWEVER, AT THE 
+COST OF A MERGER EX-POST THE AVOIDANCE TO THE TRUTH.
+        ALSO ABSORBED ROUGHLY 8.5% IN LOSSES -852,029,489 DURING THE 
+PERIOD OF "MERGER" AND THE CLOSE OF THE FIRST QUARTER IN 2022 ---
+        --- DURING THEIR "DEREGISTRATION" AND "MERGER" INTO A LARGER 
+UMBRELLA OF FUNDS WHICH ARE AUDITED BY THREE FIRMS.
+        **** IW AS AGAIN, TRYING TO PREVENT ANY FURTHER EXPOSURE IN THE 
+IMPLIED TERMS OF THE LOAN CONTRACT ARE NOW HELD AT A LARGER INSTITUTION.
+         **** THREE AUDITORS.
+              1. "PRICE WATERHOUSE COOPERS" AT ALL TIMES WAS INFORMED OF 
+THIS LOAN, AND THE NEW YORK SUPREME MATTER OF 153974/2020
+              --- HOWEVER IN THEIR ANNUAL REPORTS ON 11-30-2020, 
+11-30-2021, AND MOST RECENTLY AFTER "MERGER"
+              --- HAVE MADE NO STATEMENT WHICH PROVIDES ANY ASSURANCES 
+OF THEIR OPINIONS, DESPITE HAVING BEEN INFORMED AND IN 2020 AT ALL 
+RELEVANT TIMES OF A CERTAIN LOAN WHICH CARRIES THE BURDENS OF TAXES IN 
+ARREARS.
+     *** IN FACT IS CURRENTLY "STILL" AN UNREGISTERED SECURITY IN THE 
+FORM OF A LETTER OF CREDIT AND INDEMNITY ON THE BALANCE SHEET OF THEIR 
+NEW INVESTMENT MANAGER, AND SUB-MANAGER.
+     *** IS "NOT COVERED" UNDER THEIR OWN BLANKET INSURANCE PROVISIONS & 
+INDENTURE WHICH WAS EXECUTED THEN BY THE COMPLIANCE OFFICER OF STATE 
+FARM VP MANAGEMENT CORP.
+     *** [TERRANCE "TERRY" LUDWIG ][CRD 3231040] UNDER THEIR NEW AND 
+IMPROVED SYSTEM HAVE ALSO FAILED TO DISCLOSE THIS UNREGISTERED SECURITY 
+WHICH IS "NOT COVERED" BY THE NEW IA AND FOR THEIR OMISSIONS AS ENTERED 
+IN THE PRIOR, ARE CURRENTLY AND CONTINUE AS AN OMISSION.
+
+1.C. NEW YORK SUPREME COURT MATTER 153974/2020
+     [RECEIVED NYSCEF: 08/09/2020 02:24 AM]
+     *** VIOLATION AND FAILURE TO REPORT THIS AS A MATERIAL AND ONGOING 
+SUBSTANTIVE CASE, UNDISCLOSED TO THE PUBLIC INVESTORS AT ANY TIME.
+     *** NO KNOWLEDGE OF ANY PENDING LAW SUITS, LOANS, LETTERS OF 
+CREDIT, AND AT ANY TIME AS INDICATED IN THE THE CENTRAL REPORTING 
+DEPOSITORY MAINTAINED BY FINRA.
+     A. 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=au8qh7Dn66hrVmJ9DX_PLUS_bdg== 
+
+     [RECEIVED NYSCEF: 08/09/2020 02:24 AM]
+     B. 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=wTG2YD2PqXuxmoKqFiESrw==
+     [RECEIVED NYSCEF: 08/09/2020 02:31 AM]
+     C. 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=gcMSDaFzm0ynPeXZKSHgLQ==
+     [RECEIVED NYSCEF: 08/10/2020 03:42 PM]
+     D. 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVanEtcRioef3A==
+
+2.A. I INFORMED ALL MATERIAL PARTIES OF THE UNDERLYING RISKS IN AUGUST 
+OF 2020 AND ALSO PRESENTED THIS LETTER TO SULLIVAN PROPERTIES,  ITS 
+COUNSELORS, AND EXECUTIVES.
+     [RECEIVED NYSCEF:  08/10/2020 03:45 AM]
+     A. 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=K9sgXcweC7esRoSPO8MNtA=
+     [RECEIVED NYSCEF:  08/11/2020 12:35 PM]
+     B. 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=D9Td7IfWXyajw1tBNCFb9g==
+         - THIS IS THE LETTER OF OBSTRUCTION I RECEIVED FROM LAURIE 
+ZUCKER, AND DONALD ZUCKER.
+         - OBSTRUCTION OF JUSTICE, ABETTED TO BY THE SULLIVAN PROPERTIES 
+L.P. AND ITS GENERAL PARTNER SULLIVAN GP LLC, NOTWITHSTANDING ITS 
+AFFILIATES AND COUNSELORS.
+         - OVER $6,000,000.00 THE STATE FARM INSTEAD OF DISCLOSING THE 
+LOAN, AND OUTSIDE BUSINESS - THOUGHT IT WOULD BE A BETTER IDEA TO
+             STEP 1:    "CEASE TO EXIST AS AN INVESTMENT ADVISER"
+             STEP 2:    "MERGE INTO A LARGER INVESTMENT ADVISER"
+             STEP 3: REPORT TO THE SECURITIES AND EXCHANGE COMMISSION AS 
+FOLLOWS:
+https://reports.adviserinfo.sec.gov/reports/ADV/3487/PDF/3487.pdf
+                     1.    "HAVE NO DISCLOSED LOAN"
+                     2.    "COVERED FOR OMISSIONS AND ERRORS"
+                     3. UNREASONABLE PREMIUMS AND INTEREST FOR A SECURED 
+"UNREGISTERED SECURITY" HELD BY THE NEW
+
+  - NOTWITHSTANDING THE VALUE OF THE BUILDING [ 22 UNITS ] IN SOHO 
+MANHATTAN ARE NOT WORTH $150,000.00 / UNIT... NOT EVEN FOR A STUDIO.
+     2020-2021:    Tax Bill    Q4: NYC
+https://a836-edms.nyc.gov/dctm-rest/repositories/dofedmspts/StatementSearch?bbl=1005030011&stmtDate=20210227&stmtType=SOA
+     2020-2021:    Tax Bill    Q3: NYC
+https://a836-edms.nyc.gov/dctm-rest/repositories/dofedmspts/StatementSearch?bbl=1005030011&stmtDate=20201121&stmtType=SOA
+     2020-2021:    Tax Bill    Q2: NYC
+https://a836-edms.nyc.gov/dctm-rest/repositories/dofedmspts/StatementSearch?bbl=1005030011&stmtDate=20200829&stmtType=SOA
+     2020-2021:    Tax Bill    Q1: NYC
+https://a836-edms.nyc.gov/dctm-rest/repositories/dofedmspts/StatementSearch?bbl=1005030011&stmtDate=20200606&stmtType=SOA
+
+FAXED ALL THIS TO THE IRS / FINRA / SEC / AND ASKED THE POLICE TO ARREST 
+AND RESTRAIN ANY FURTHER ACTION IN 2020.
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=XiAuVPg0AmpwFMDLO0cMrw==
+
+       ESTOPPEL: STATE FARM AND CEASE AND DESIST.
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=s5WAeCnxmd/hcOI4eTnbig==
+
+       ESTOPPEL: THE ZUCKER FAMILY.
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Jf3Un/JaVXZwF7kvbaee4w==
+
+AND THIS IS THE END RESULT... A LARGER BODY - WITH THE THREE MOST 
+EXPENSIVE AUDIT FIRMS "NOT COVERED" AND NO DISCLOSURE OF A LOAN.
+     - HOW WOULD THEY KNOW ABOUT THE "BULLETPROOF" STATUS OF A 
+"NONPLUSSED" TAX LIABILITY WHICH FOR ONE BUILDING OF THE 6 HAS NO 
+CERTIFICATE TO COLLECT LAWFUL RENTS AND WAS USED AS A FORM OF 
+"GUARANTEE" OF PAYMENT.
+
+     INSTEAD PAID NEARLY 1 MILLION DOLLARS TO "CEASE TO EXIST AS 
+INVESTMENT MANAGER" HOWEVER ON THEIR WAY OUT FILED AS FOLLOWS:
+https://www.sec.gov/Archives/edgar/data/0000093715/999999999721005616/filename1.pdf
+
+     STEP 3: REPORT TO THE SECURITIES AND EXCHANGE COMMISSION AS FOLLOWS:
+
+
+             --- FACTS ---
+             1. "HAVE NO DISCLOSED LOAN"     -REPORTED TO THE 
+SOLICITATION AND TABULATION OF ALL THEIR INVESTORS (170,000)
+                                             (WITH A RETURN ENVELOPE 
+PREPAID?)
+
+             2. "UNCOVERED FOR OMISSIONS AND ERRORS" - TRUE. 100% BUT 
+NOT REPORTED.
+
+             3. UNREASONABLE PREMIUMS AND INTEREST FOR A SECURED 
+"UNREGISTERED SECURITY" HELD BY THE NEW ENTITY - WHO MAY OR MAY NOT KNOW 
+ABOUT ALL THIS.
+
+                 "AS EVIDENCED IN THE LOAN ANNEXED IN NY SUPREME COURT" 
+ARE STILL "NOT AN ISSUE OF MATERIAL CONCERN"
+                         PER THE SEC: UNREPORTED
+
+https://reports.adviserinfo.sec.gov/reports/ADV/3487/PDF/3487.pdf
+
+             HOWEVER: 
+https://www.sec.gov/Archives/edgar/data/0000093715/000119312521278180/d222043dn8f.htm
+
+                             WILL DISCLOSE:    $431,000.00 PAID AND 
+RECEIVED AS A BONUS, AND HIS PRIOR INVOLVEMENT IN STATE FARM LLOYDS***.
+
+                             PAID FOR IN FULL BY THE EARLIER INVESTMENT 
+MANAGER [WHICH IS THE INVESTORS MONEY BY THE WAY] PAID IN TO THE DIRECTORS.
+                     Total expenses (sum of lines (i) - (iii) above): 
+$912,500
+
+             ***** AN INVESTMENT MANAGER USES ITS "MANAGEMENT FEES" TO 
+PAY FOR ADMINISTRATION, AUDIT, MARKETING, AND OTHER TRANSACTIONAL FEES 
+WHICH ARE ORDINARY.
+                         Legal expenses:                     $       240,000
+                         Accounting expenses:                     $    
+       9,000
+                         Proxy Solicitation and Tabulation               
+         $        170,000
+                         Prospectus Supplements and Regulatory 
+Filings              $         62,500
+                         Directors fees                         $        
+431,000
+
+                         TOTAL COST TO MERGE:                     $    
+     912,500
+
+                                  2021-10 ASSETS:              
+$10,849,542,163
+                                  2021-11 ASSETS:            $10,164,850,238
+
+
+obo SULLIVAN PROPERTIES, L.P.
+     101 WEST 55TH STREET, NEW YORK, NY, 10019
+         - WHERE MR. HARBERT IS "NOT REGISTERED" AND ON BEHALF OF HIS 
+"STATE FARM LIFE INSURANCE COMPANY" DID EXTEND A $6,000,000.00 HOWEVER 
+UPON NOTICE, WILL
+         SELF-DETONATE.     PAID NEARLY 1 MILLION DOLLARS TO "CEASE TO 
+EXIST AS AN INVESTMENT MANAGER" AND TO AVOID THE FINES WHICH IS HE IS 
+FAMILIAR WITH AS A DISCLOSED OUTSIDE BUSINESSES:
+         ** [NON-INVESTMENT RELATED] AS THE DIRECTOR OF "STATE FARM 
+LLOYDS" FINED $352,500,000.00 IN 2015
+         ** WAS AND IS CURRENTLY EXECUTIVE VICE PRESIDENT, CHIEF AGENCY 
+SALES MARKETING OFFICER OF "STATE FARM AUTOMOBILE INSURANCE COMPANY"
+         2013-PRESENT,[ INVESTMENT RELATED ] AS THIS ENTITY "STATE FARM 
+AUTOMOBILE INSURANCE COMPANY" OWNS 75% OF "STATE FARM INVESTMENT 
+MANAGEMENT CORP."
+         ** PAID NEARLY 1 MILLION DOLLARS TO "CEASE TO EXIST AS AN 
+INVESTMENT MANAGER"
+             MISLEAD INVESTORS TO BELIEVE THAT PRICE WATERHOUSE WILL 
+CONDUCT ACCOUNTING FOR A $10 BILLION DOLLAR MUTUAL FUND AND TO MERGER 
+FOR A TOTAL AMOUNT EQUAL TO $9,000.00
+             AS THE SOLE ACCOUNTING FIRM REPORTED IN THEIR ANNUAL 
+FILINGS IN THE 2020-2021 FILING PERIOD...
+
+     *** 2020-2021 ANNUAL FILING
+https://www.sec.gov/Archives/edgar/data/0000093715/000114554921006167/xslFormN-CEN_X01/primary_doc.xml
+
+     *** 2021-2022 ANNUAL FILING
+https://www.sec.gov/Archives/edgar/data/0000093715/000114554922006149/xslFormN-CEN_X01/primary_doc.xml 
+
+
+... WITHOUT BAND REGISTERED IN THE STATE OF NEW YORK TO CONDUCT ANY FORM 
+OF INVESTMENT BANKING IS ALSO NOW HOLDING A NOTE THAT IS BEARING THE TAX 
+LIABILITY, AND AVOIDANCE TO PROSECUTION
+     WHEREBY THE PREMIUMS AND INSURANCE COLLECTED ON A LETTER OF CREDIT...
+     -- HOWEVER "INDEMNIFIED" ---
+     BY "SULLIVAN PROPERTIES LP" WHO HAS ASSURED IN WRITING THAT THEY 
+WILL REIMBURSE "STATE FARM" IN THE EVENT OF A DEFAULT, OR LATE PAYMENT.
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVanEtcRioef3A==
+
+     +++ I SENT THIS TO THE SUPREME COURT JUSTICES INDEPENDENTLY IN 
+NOVEMBER AS WELL, BTW.
+     NOTICE TO STATE FARM: 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=n_PLUS_CvSQR36fqPKko6L47FFQ==
+     NOTICE TO STATE FARM: 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=H4jMXghoLMU1ozmlj4VYHg== 
+
+
+     +++ ADVISERS INVESTMENT TRUST: FILE NUMBER 811-22538
+https://www.sec.gov/Archives/edgar/data/1516523/000114554921074536/xslFormN-CEN_X01/primary_doc.xml
+     CIK NUMBER:    1516523
+
+A SIMPLE TRANSFER AND ASSIGNMENT OF LEASES AND RENTS COVERED BY THE 
+EXPRESSED GUARANTEES OF UNLAWFUL RENTS TO:
+     "STATE FARM REALTY MORTGAGE, LLC", ONE STATE FARM PLAZA, 
+BLOOMINGTON, IL, 61710
+
+      MANAGED BY: "STATE FARM LIFE INSURANCE COMPANY"
+                  WHICH IS DISCLOSED AND MANAGED BY MR. RANDALL HARBERT 
+IN THE ATTACHED CENTRAL DEPOSITORY REPORT.
+                 STATE FARM VP MANAGEMENT CORP. LOCATED AT: ONE STATE 
+FARM PLAZA, BLOOMINGTON, IL 61710-0001
+
+             HENCE I REFER TO THEM SIMPLY AS "STATE FARM" LOCATED AT: 
+     ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710
+
+Loan 50074:              ASSIGNMENT OF RENTS AND LEASES
+        CRFN ID.:                         2020052000291002
+
+     PARTY 1:            SULLIVAN PROPERTIES, L.P.
+                         C/O THE ZUCKER ORGANIZATION
+                         101 WEST 55TH STREET
+                         NEW YORK, NEW YORK, 10019
+
+     PARTY 2:            STATE FARM REALTY MORTGAGE, LLC
+                         ONE STATE FARM PLAZA
+                         BLOOMINGTON IL, 60710
+
+*** I DO APOLOGIZE, THAT IS CORRECT SPELLING BUT NOT LLOYDS BANK OF LONDON
+     [I APOLOGIZE IF THAT IS MISLEADING, HOWEVER THE SAME ENTITY FINED 
+IN THE PRIOR MATTER AFTER 3-YEARS OF DANCING AROUND] WITH THE APPEALS 
+AND EVEN IN TEXAS.
+
+
+OIG oversight helps prevent fraud and mismanagement that diverts funds 
+from those in need.
+Financial Management. DOI has significant financial assets, including ...
+SO ABOUT THOSE LEASES AND RENTS TRANSFERRED IN THE CITY OF NEW YORK, NY, 
+2020.
+- ALSO MISLEADING "not a gap loan" IT IS A CONSOLIDATED AND SECURED BY 
+UNLAWFUL RENT.
+     - PER THE REAL THE REAL ESTATE LAWS IN NEW YORK, YOU CAN'T LEGALLY 
+COLLECT RENT WITHOUT A CO
+     - WHICH IS PROBABLY ALSO WHY JPMORGAN MADE A WISE DECISION NOT TO 
+CONTINUE AS THE CUSTODIAN TO THE FUNDS.
+     - HOWEVER, AS AS STIPULATION TO ADD MORE AUDITORS TO THIS SITUATION 
+IS NOT THE CORRECT SOLUTION EITHER...
+
+NOT COVERED BY THE NEW AND IMPROVED OMISSIONS BY ITS DIRECT 
+REPRESENTATIVES LURING THE PERIOD OF JANUARY 1, 2021 AND JANUARY 1, 2022
+- HAVE LOST (-852,029,489.38) DUE TO GROSS NEGLIGENCE, FROM THE PERIOD 
+OF FILING [LAST] $10,164,850,238
+- WITH LITTLE TO NO PROBABILITY THAT "PRICE WATERHOUSE COOPERS" WILL 
+CHARGE ANY PERSON OR COMPANY $9,000 IN ACCOUNTING FEES TO ACCOUNT FOR 
+$170,000.00 OF PROXIES AND TABULATIONS FOR N-COUNT OF INVESTORS AND ISSUE A
+
+Opinions on the Financial Statements
+
+We have audited the accompanying statements of assets and liabilities, 
+including the schedules of investments, of State Farm Growth Fund, State 
+Farm Balanced Fund, State Farm Interim Fund, and State Farm Municipal 
+Bond Fund (four of the funds constituting Advisers Investment Trust, 
+hereafter collectively referred to as the “Funds”) as of September 30, 
+2021, the related statements of operations for the period December 1, 
+2020 through September 30, 2021 and the year ended November 30, 2020, 
+the statements of changes in net assets for the period December 1, 2020 
+through September 30, 2021 and for each of the two years in the period 
+ended November 30, 2020, including the related notes, and the financial 
+highlights for each of the periods indicated therein (collectively 
+referred to as the “financial statements”). In our opinion, the 
+financial statements present fairly, in all material respects, the 
+financial position of each of the Funds as of September 30, 2021, the 
+results of each of their operations for the period December 1, 2020 
+through September 30, 2021 and the year ended November 30, 2020, the 
+changes in each of their net assets for the period December 1, 2020 
+through September 30, 2021 and for each of the two years in the period 
+ended November 30, 2020 and each of the financial highlights for each of 
+the periods indicated therein in conformity with accounting principles 
+generally accepted in the United States of America.
+
+Basis for Opinions
+
+These financial statements are the responsibility of the Funds’ 
+management. Our responsibility is to express an opinion on the Funds’ 
+financial statements based on our audits. We are a public accounting 
+firm registered with the Public Company Accounting Oversight Board 
+(United States) (PCAOB) and are required to be independent with respect 
+to the Funds in accordance with the U.S. federal securities laws and the 
+applicable rules and regulations of the Securities and Exchange 
+Commission and the PCAOB.
+
+We conducted our audits of these financial statements in accordance with 
+the standards of the PCAOB. Those standards require that we plan and 
+perform the audit to obtain reasonable assurance about whether the 
+financial statements are free of material misstatement, whether due to 
+error or fraud.
+
+Our audits included performing procedures to assess the risks of 
+material misstatement of the financial statements, whether due to error 
+or fraud, and performing procedures that respond to those risks. Such 
+procedures included examining, on a test basis, evidence regarding the 
+amounts and disclosures in the financial statements. Our audits also 
+included evaluating the accounting principles used and significant 
+estimates made by management, as well as evaluating the overall 
+presentation of the financial statements. Our procedures included 
+confirmation of securities owned as of September 30, 2021 by 
+correspondence with the custodian and brokers; when replies were not 
+received from brokers, we performed other auditing procedures. We 
+believe that our audits provide a reasonable basis for our opinions.
+
+November 22, 2021
+We have served as the auditor of one or more investment companies in 
+Advisers Investment Trust since 2011.
+PricewaterhouseCoopers LLP, One North Wacker, Chicago, IL 60606
+T: (312) 298 2000, www.pwc.com/us
+https://www.sec.gov/info/accountants/audit042707.htm
+
+OCARequest@sec.gov
+dcaoletters@sec.gov
+IMOCA@sec.gov
+
+Investment Companies (mutual funds, closed-end funds, business 
+development companies, unit investment trusts, interval funds and 
+exchange-traded funds) and Insured Investments (variable annuities and 
+variable life insurance)
+Chief Counsel's Office (CCO)
+
+
+
+----     NO CERTIFICATE OF OCCUPANCY      ----
+----         117 SULLIVAN STREET          ----
+----        NEW YORK, NY, 10012           ----
+Property Address:          117 SULLIVAN STREET
+Building Gross Square Footage:          10,210
+Block: 503         Lot: 11       BIN:  1007779
+                                  UNITS:     22
+JANUARY 15, 2011
+     Market Value:                $2,410,000.00
+     Overall Cap Rate:    13.313%
+JANUARY 15, 2012
+     Market Value:                $2,665,000.00
+     Overall Cap Rate:    13.245%
+JANUARY 15, 2013
+     Market Value:                $2,807,000.00
+     Overall Cap Rate:    13.131%
+January 15, 2014
+     Market Value:                $2,573,000.00
+     Overall Cap Rate:    13.115%
+January 15, 2015
+     Market Value:                $2,851,000.00
+     Overall Cap Rate:    12.504%
+January 15, 2016
+     Market Value:                $3,148,000.00
+     Overall Cap Rate:    12.497%
+January 15, 2017
+     Market Value:                $3,393,000.00
+     Overall Cap Rate:    12.501%
+January 15, 2018
+     Market Value:                $3,787,000.00
+     Overall Cap Rate:    12.424%
+January 15, 2019
+     Market Value:                $3,901,000.00
+     Overall Cap Rate:    12.375%
+January 15, 2020
+     Market Value:                $3,981,000.00
+     Overall Cap Rate:    12.313%
+
+----     REAR BIN CODES     ---- UNLAWFUL RENTS
+Property Address:           111 SULLIVAN STREET
+                                       REAR
+Building Gross Square Footage:              XX
+Block: 503         Lot:  8       BIN:  1077252
+                                UNITS:     10
+Property Address:          113 SULLIVAN STREET
+Building Gross Square Footage:              XX
+Block: 503         Lot: 09       BIN:  1077254
+                                UNITS:     10
+Property Address:          115 SULLIVAN STREET
+Building Gross Square Footage:              XX
+Block: 503         Lot: 10       BIN:  1077256
+                                UNITS:     10
+https://www.occ.gov/static/enforcement-actions/ea2020-068.pdf
+
+https://www.dfs.ny.gov/system/files/documents/2020/10/ea20201030_combined_consent_orders.pdf
+
+     2019-0201-S:  CIVIL PENALTY:         $583,900.00
+     2020-0239-S:  CIVIL PENALTY:         $671,200.00
+     2020-0280-S:  CIVIL PENALTY:         $644,700.00
+                 **********             FINED: $9,799,000.00
+
+
+
+Registered with this firm since: 03/04/1998
+         \
+STATE FARM VP MANAGEMENT CORP.
+HINTZ, SCOTT ALEXANDER         (CRD    2004555
+LUDWIG, TERRENCE MICHAEL      (CRD    3231040
+MINEAU, SARAH             (CRD    4634160
+MONK, JOSEPH RILEY JR         (CRD    1357149
+MOORE, DAVID MICHAEL         (CRD    2876793
+SMITH, PAUL JOSEPH         (CRD    4971235
+TIPSORD, MICHAEL LEON         (CRD    1943922
+
+
+
+STATE FARM INVESTMENT MANAGEMENT 3487
+
+
+
+Opinions on the Financial Statements We have audited the accompanying 
+statements of assets and liabilities, including the schedules of 
+investments, of State Farm Growth Fund, State Farm Balanced Fund, State 
+Farm Interim Fund, and State Farm Municipal Bond Fund (four of the funds 
+constituting Advisers Investment Trust, hereafter collectively referred 
+to as the “Funds”) as of September 30, 2021, the related statements of 
+operations for the period December 1, 2020 through September 30, 2021 
+and the year ended November 30, 2020, the statements of changes in net 
+assets for the period December 1, 2020 through September 30, 2021 and 
+for each of the two years in the period ended November 30, 2020, 
+including the related notes, and the financial highlights for each of 
+the periods indicated therein (collectively referred to as the 
+“financial statements”). In our opinion, the financial statements 
+present fairly, in all material respects, the financial position of each 
+of the Funds as of September 30, 2021, the results of each of their 
+operations for the period December 1, 2020 through September 30, 2021 
+and the year ended November 30, 2020, the changes in each of their net 
+assets for the period December 1, 2020 through September 30, 2021 and 
+for each of the two years in the period ended November 30, 2020 and each 
+of the financial highlights for each of the periods indicated therein in 
+conformity with accounting principles generally accepted in the United 
+States of America. Basis for Opinions***These financial statements are 
+the responsibility of the Funds’ management. Our responsibility is to 
+express an opinion on the Funds’ financial statements based on our 
+audits. We are a public accounting firm registered with the Public 
+Company Accounting Oversight Board (United States) (PCAOB) and are 
+required to be independent with respect to the Funds in accordance with 
+the U.S. federal securities laws and the applicable rules and 
+regulations of the Securities and Exchange Commission and the PCAOB. We 
+conducted our audits of these financial statements in accordance with 
+the standards of the PCAOB. Those standards require that we plan and 
+perform the audit to obtain reasonable assurance about whether the 
+financial statements are free of material misstatement, whether due to 
+error or fraud. Our audits included performing procedures to assess the 
+risks of material misstatement of the financial statements, whether due 
+to error or fraud, and performing procedures that respond to those 
+risks. Such procedures included examining, on a test basis, evidence 
+regarding the amounts and disclosures in the financial statements. Our 
+audits also included evaluating the accounting principles used and 
+significant estimates made by management, as well as evaluating the 
+overall presentation of the financial statements. Our procedures 
+included confirmation of securities owned as of September 30, 2021 by 
+correspondence with the custodian and brokers; when replies were not 
+received from brokers, we performed other auditing procedures. We 
+believe that our audits provide a reasonable basis for our opinions.
+
+November 22, 2021
+We have served as the auditor of one or more investment companies in 
+Advisers Investment Trust since 2011. PricewaterhouseCoopers LLP, One 
+North Wacker, Chicago, IL 60606
+T: (312) 298 2000, www.pwc.com/us
+https://www.sec.gov/info/accountants/audit042707.htm
+
+*** A TRANSFER AND ASSIGNMENT OF LEASES AND RENTS COVERED BY THE 
+EXPRESSED GUARANTEES OF UNLAWFUL RENTS TO: "STATE FARM REALTY MORTGAGE, 
+LLC", ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710
+*** MANAGED BY: "STATE FARM LIFE INSURANCE COMPANY". WHICH IS DISCLOSED 
+AND MANAGED BY MR. RANDALL HARBERT IN THE ATTACHED CENTRAL DEPOSITORY 
+REPORT. STATE FARM VP MANAGEMENT CORP. LOCATED AT: ONE STATE FARM PLAZA, 
+BLOOMINGTON, IL 61710-0001. HENCE I REFER TO THEM SIMPLY AS "STATE FARM" 
+LOCATED AT: ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710 Loan 50074: 
+ASSIGNMENT OF RENTS AND LEASES CRFN ID.: 2020052000291002 #PARTY 1: 
+SULLIVAN PROPERTIES, L.P., C/O THE ZUCKER ORGANIZATION, 101 WEST 55TH 
+STREET, NEW YORK, NEW YORK, 10019. #PARTY 2: STATE FARM REALTY MORTGAGE, 
+LLC, ONE STATE FARM PLAZA, BLOOMINGTON IL, 60710 *** I DO APOLOGIZE, 
+THAT IS CORRECT SPELLING BUT NOT LLOYDS BANK OF LONDON. [I APOLOGIZE IF 
+THAT IS MISLEADING, HOWEVER THE SAME ENTITY FINED IN THE PRIOR MATTER 
+AFTER 3-YEARS OF DANCING AROUND] WITH THE APPEALS AND EVEN IN TEXAS. OIG 
+oversight helps prevent fraud and mismanagement that diverts funds from 
+those in need. Financial Management. DOI has significant financial 
+assets, including ...
+SO ABOUT THOSE LEASES AND RENTS TRANSFERRED IN THE CITY OF NEW YORK, NY, 
+2020.
+ALSO MISLEADING "not a gap loan" IT IS A CONSOLIDATED AND SECURED BY 
+UNLAWFUL RENT.
+PER THE REAL THE REAL ESTATE LAWS IN NEW YORK, YOU CAN'T LEGALLY COLLECT 
+RENT WITHOUT A [CO]. ALSO WHY JPMORGAN MADE A WISE DECISION NOT TO 
+CONTINUE AS THE CUSTODIAN TO THE FUNDS. AS STIPULATION TO ADD MORE 
+AUDITORS TO THIS SITUATION IS NOT THE CORRECT SOLUTION EITHER...NOT 
+COVERED BY THE NEW AND IMPROVED OMISSIONS BY ITS DIRECT REPRESENTATIVES 
+LURING THE PERIOD OF JANUARY 1, 2021 AND JANUARY 1, 2022 - HAVE LOST 
+(-852,029,489.38) DUE TO GROSS NEGLIGENCE, FROM THE PERIOD OF FILING 
+[LAST] $10,164,850,238 - WITH LITTLE TO NO PROBABILITY THAT "PRICE 
+WATERHOUSE COOPERS" WILL CHARGE ANY PERSON OR COMPANY $9,000 IN 
+ACCOUNTING FEES TO ACCOUNT FOR $170,000.00 OF PROXIES AND TABULATIONS 
+FOR N-COUNT OF INVESTORS:
+OCARequest@sec.gov
+dcaoletters@sec.gov
+IMOCA@sec.gov
+
+
+
+  STATE FARM VP MANAGEMENT CORP. [CRD#: 43036/SEC#: 8-50128]ONE STATE 
+FARM PLAZA, BLOOMINGTON, IL 
+61710***https://brokercheck.finra.org/individual/summary/2992788**
+     NAME:    HARBERT, RANDALL HOUSTON CRD NUMBER: 2992788
+     STATES REGISTERED: Illinois POSITION: SR. VICE PRESIDENT AND DIRECTOR.
+1.A. PRESENT AFFILIATIONS / OUTSIDE BUSINESSES DISCLOSED:
+B. 2016-PRESENT, STATE FARM LIFE INSURANCE COMPANY     [ NON-INVESTMENT 
+RELATED
+       *** Sr. Vice President, Chief Agency, Sales and Marketing Officer 
+and Director
+C. 2013-PRESENT, STATE FARM AUTOMOBILE INSURANCE COMPANY  [ INVESTMENT 
+RELATED]
+       *** EXECUTIVE VICE PRESIDENT, CHIEF AGENCY SALES MARKETING 
+OFFICER **D. 2011-PRESENT, STATE FARM LLOYDS, INC [ NON-INVESTMENT 
+RELATED ] *** DIRECTOR. E. 2011-PRESENT, STATE FARM INVESTMENT 
+MANAGEMENT CORP.    [ INVESTMENT RELATED ]
+https://reports.adviserinfo.sec.gov/reports/ADV/3487/PDF/3487.pdf
+F. 2011-PRESENT,STATE FARM VP MANAGEMENT CORP [ INVESTMENT RELATED ]
+*** SENIOR VICE PRESIDENT AND DIRECTOR ** 1.B. AIDED AND ABETTED TO BY 
+SULLIVAN PROPERTIES, AND ITS AFFILIATES AND COUNSELORS.** [RECEIVED 
+NYSCEF: 08/11/2020]
+STIPULATION TO AMEND CAPTION AND ADD "STATE FARM REALTY MORTGAGE LLC" 
+WHICH IS MANAGED BY "STATE FARM LIFE INSURANCE COMPANY" AN OUTSIDE 
+BUSINESS DISCLOSED BY: HARBERT, RANDALL HOUSTON, AS A DIRECTOR OF [STATE 
+FARM VP MANAGEMENT CORP.] A. 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Xjn0/e1NcBADqRc_PLUS_g11P4g==**** 
+EXECUTED ON 08/08/2020, FAXED TO THEIR INSURANCE "SEE ALSO LEASE" 
+EMAILED TO ALL MATERIAL PARTIES NYSCEF 153974/2020. ** I WAS TRYING TO 
+ADD THEM TO THE CASE AS A RESPONDENT - THE CLERK, JUDGE, AND BY THE WORK 
+OF THE COUNSELORS OF SULLIVAN PROPERTIES, AND WAS REQUESTED NOT TO 
+CONTACT ANY REGULATORY AUTHORITY. ** AS REFERENCED HEREUNDER, AT THE 
+COST OF A MERGER EX-POST TO AVOIDANCE AND OBSTRUCTION. ****ALSO ABSORBED 
+ROUGHLY 8.5% IN LOSSES -852,029,489 DURING THE PERIOD OF "MERGER" AND 
+THE CLOSE OF THE FIRST QUARTER IN 2022  ** DURING THEIR "REGISTRATION" 
+AND "MERGER" INTO A LARGER UMBRELLA OF FUNDS WHICH ARE AUDITED BY THREE 
+FIRMS *** I WAS AGAIN, TRYING TO PREVENT ANY FURTHER EXPOSURE IN THE 
+IMPLIED TERMS OF THE LOAN CONTRACT ARE NOW HELD AT A LARGER INSTITUTION.
+**** THREE AUDITORS. 1. "PRICE WATERHOUSE COOPERS" AT ALL TIMES WAS 
+INFORMED OF THIS LOAN, AND THE NEW YORK SUPREME MATTER OF 153974/2020 
+*** HOWEVER IN THEIR ANNUAL REPORTS ON 11-30-2020, 11-30-2021, AND MOST 
+RECENTLY AFTER "MERGER" *** HAVE MADE NO STATEMENT WHICH PROVIDES ANY 
+ASSURANCES OF THEIR OPINIONS, DESPITE HAVING BEEN INFORMED AND IN 2020 
+AT ALL RELEVANT TIMES OF A CERTAIN LOAN WHICH CARRIES THE BURDENS OF 
+TAXES IN ARREARS. *** IN FACT IS CURRENTLY "STILL" AN UNREGISTERED 
+SECURITY IN THE FORM OF A LETTER OF CREDIT AND INDEMNITY ON THE BALANCE 
+SHEET OF THEIR NEW INVESTMENT MANAGER, AND SUB-MANAGER. *** IS "NOT 
+COVERED" UNDER THEIR OWN BLANKET INSURANCE PROVISIONS & INDENTURE WHICH 
+WAS EXECUTED THEN BY THE COMPLIANCE OFFICER OF STATE FARM VP MANAGEMENT 
+CORP.  *** [TERRANCE "TERRY" LUDWIG ][CRD 3231040] UNDER THEIR NEW AND 
+IMPROVED SYSTEM HAVE ALSO FAILED TO DISCLOSE THIS UNREGISTERED SECURITY 
+WHICH IS "NOT COVERED" BY THE NEW IA AND FOR THEIR OMISSIONS AS ENTERED 
+IN THE PRIOR, ARE CURRENTLY AND CONTINUE AS AN OMISSION. 1.C. NEW YORK 
+SUPREME COURT MATTER 153974/2020 [RECEIVED NYSCEF: 08/09/2020 02:24 AM] 
+*** VIOLATION AND FAILURE TO REPORT THIS AS A MATERIAL AND ONGOING 
+SUBSTANTIVE CASE, UNDISCLOSED TO THE PUBLIC INVESTORS AT ANY TIME.
+*** NO KNOWLEDGE OF ANY PENDING LAW SUITS, LOANS, LETTERS OF CREDIT, AND 
+AT ANY TIME AS INDICATED IN THE THE CENTRAL REPORTING DEPOSITORY 
+MAINTAINED BY FINRA.
+A. 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=au8qh7Dn66hrVmJ9DX_PLUS_bdg== 
+
+[RECEIVED NYSCEF: 08/09/2020 02:24 AM]
+B. 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=wTG2YD2PqXuxmoKqFiESrw==
+[RECEIVED NYSCEF: 08/09/2020 02:31 AM]
+C. 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=gcMSDaFzm0ynPeXZKSHgLQ==
+[RECEIVED NYSCEF: 08/10/2020 03:42 PM]
+D. 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVanEtcRioef3A==
+2.A. I INFORMED ALL MATERIAL PARTIES OF THE UNDERLYING RISKS IN AUGUST 
+OF 2020 AND ALSO PRESENTED THIS LETTER TO SULLIVAN PROPERTIES,  ITS 
+COUNSELORS, AND EXECUTIVES. [RECEIVED NYSCEF:  08/10/2020 03:45 AM] A. 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=K9sgXcweC7esRoSPO8MNtA=
+[RECEIVED NYSCEF:  08/11/2020 12:35 PM] B. 
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=D9Td7IfWXyajw1tBNCFb9g==
+- THIS IS THE LETTER OF OBSTRUCTION I RECEIVED FROM LAURIE ZUCKER, AND 
+DONALD ZUCKER. OBSTRUCTION OF JUSTICE, ABETTED TO BY THE SULLIVAN 
+PROPERTIES L.P. AND ITS GENERAL PARTNER SULLIVAN GP LLC, NOTWITHSTANDING 
+ITS AFFILIATES AND COUNSELORS.
+- OVER $6,000,000.00 THE STATE FARM INSTEAD OF DISCLOSING THE LOAN, AND 
+OUTSIDE BUSINESS - THOUGHT IT WOULD BE A BETTER IDEA TO  ** STEP 1:    
+"CEASE TO EXIST AS AN INVESTMENT ADVISER" ** STEP 2:    "MERGE INTO A 
+LARGER INVESTMENT ADVISER" ** STEP 3: REPORT TO THE SECURITIES AND 
+EXCHANGE COMMISSION AS FOLLOWS:
+https://reports.adviserinfo.sec.gov/reports/ADV/3487/PDF/3487.pdf***1. 
+"HAVE NO DISCLOSED LOAN" 2.    "COVERED FOR OMISSIONS AND ERRORS" 3. 
+UNREASONABLE PREMIUMS AND INTEREST FOR A SECURED "UNREGISTERED SECURITY" 
+AND THE VALUE OF THE BUILDING [ 22 UNITS ] IN SOHO MANHATTAN ARE NOT 
+WORTH $150,000.00 / UNIT... NOT EVEN FOR A STUDIO. 2020-2021: Tax Bill   
+Q4: NYC 
+"https://a836-edms.nyc.gov/dctm-rest/repositories/dofedmspts/StatementSearch?bbl=1005030011&stmtDate=20210227&stmtType=SOA"
+2020-2021:    Tax Bill    Q3: NYC
+https://a836-edms.nyc.gov/dctm-rest/repositories/dofedmspts/StatementSearch?bbl=1005030011&stmtDate=20201121&stmtType=SOA
+*** FAXED ALL THIS TO THE IRS / FINRA / SEC / AND ASKED THE POLICE TO 
+ARREST AND RESTRAIN ANY FURTHER ACTION IN 2020. 
+"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=XiAuVPg0AmpwFMDLO0cMrw==" 
+ESTOPPEL: STATE FARM AND CEASE AND DESIST.
+"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=s5WAeCnxmd/hcOI4eTnbig=="
+ESTOPPEL: THE ZUCKER FAMILY. 
+"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Jf3Un/JaVXZwF7kvbaee4w==" 
+** THIS IS THE END RESULT... A LARGER BODY - WITH THE THREE MOST 
+EXPENSIVE AUDIT FIRMS "NOT COVERED" AND NO DISCLOSURE OF A LOAN. - HOW 
+WOULD THEY KNOW ABOUT THE "BULLETPROOF" STATUS OF A "NONPLUSSED" TAX 
+LIABILITY WHICH FOR ONE BUILDING OF THE 6 HAS NO CERTIFICATE TO COLLECT 
+LAWFUL RENTS AND WAS USED AS A FORM OF "GUARANTEE" OF PAYMENT. INSTEAD 
+PAID NEARLY 1 MILLION DOLLARS TO "CEASE TO EXIST AS INVESTMENT MANAGER" 
+HOWEVER ON THEIR WAY OUT FILED AS 
+FOLLOWS:<https://www.sec.gov/Archives/edgar/data/0000093715/999999999721005616/filename1.pdf>
+STEP 3: REPORT TO THE SECURITIES AND EXCHANGE COMMISSION AS FOLLOWS:
+--- FACTS ---  1. "HAVE NO DISCLOSED LOAN"  -REPORTED TO THE 
+SOLICITATION AND TABULATION OF ALL THEIR INVESTORS (170,000) 2. 
+"UNCOVERED FOR OMISSIONS AND ERRORS" - TRUE. 100% BUT NOT REPORTED. 3. 
+UNREASONABLE PREMIUMS AND INTEREST FOR A SECURED "UNREGISTERED SECURITY" 
+HELD BY THE NEW ENTITY - WHO MAY OR MAY NOT KNOW ABOUT ALL THIS. "AS 
+EVIDENCED IN THE LOAN ANNEXED IN NY SUPREME COURT" ARE STILL "NOT AN 
+ISSUE OF MATERIAL CONCERN" PER THE SEC: UNREPORTED** 
+https://reports.adviserinfo.sec.gov/reports/ADV/3487/PDF/3487.pdf** 
+HOWEVER** 
+https://www.sec.gov/Archives/edgar/data/0000093715/000119312521278180/d222043dn8f.htm**
+WILL DISCLOSE:    $431,000.00 PAID AND RECEIVED AS A BONUS, AND HIS 
+PRIOR INVOLVEMENT IN STATE FARM LLOYDS***. PAID FOR IN FULL BY THE 
+EARLIER INVESTMENT MANAGER [WHICH IS THE INVESTORS MONEY BY THE WAY] 
+PAID IN TO THE DIRECTORS.
+Total expenses (sum of lines (i) - (iii) above): $912,500
+    2021-10                 ASSETS: $10,849,542,163
+    2021-11                 ASSETS:            $10,164,850,238
+*** WHERE MR. HARBERT IS "NOT REGISTERED" AND ON BEHALF OF HIS "STATE 
+FARM LIFE INSURANCE COMPANY" DID EXTEND A $6,000,000.00 HOWEVER UPON 
+NOTICE, WILL
+*** SELF-DETONATE.     PAID NEARLY 1 MILLION DOLLARS TO "CEASE TO EXIST 
+AS AN INVESTMENT MANAGER" AND TO AVOID THE FINES WHICH IS HE IS FAMILIAR 
+WITH AS A DISCLOSED OUTSIDE BUSINESSES: ** [NON-INVESTMENT RELATED] AS 
+THE DIRECTOR OF "STATE FARM LLOYDS" FINED $352,500,000.00 IN 2015  ** 
+WAS AND IS CURRENTLY EXECUTIVE VICE PRESIDENT, CHIEF AGENCY SALES 
+MARKETING OFFICER OF "STATE FARM AUTOMOBILE INSURANCE COMPANY" 
+2013-PRESENT,[ INVESTMENT RELATED ] AS THIS ENTITY "STATE FARM 
+AUTOMOBILE INSURANCE COMPANY" OWNS 75% OF "STATE FARM INVESTMENT 
+MANAGEMENT CORP." ** PAID NEARLY 1 MILLION DOLLARS TO "CEASE TO EXIST AS 
+AN INVESTMENT MANAGER"
+--- MISLEAD INVESTORS TO BELIEVE THAT PRICE WATERHOUSE WILL CONDUCT 
+ACCOUNTING FOR A $10 BILLION DOLLAR MUTUAL FUND AND TO MERGER FOR A 
+TOTAL AMOUNT EQUAL TO $9,000.00. AS THE SOLE ACCOUNTING FIRM REPORTED IN 
+THEIR ANNUAL FILINGS IN THE 2020-2021 FILING PERIOD... *** 2020-2021 
+ANNUAL FILING
+"https://www.sec.gov/Archives/edgar/data/0000093715/000114554921006167/xslFormN-CEN_X01/primary_doc.xml"*** 
+2021-2022 ANNUAL FILING 
+"https://www.sec.gov/Archives/edgar/data/0000093715/000114554922006149/xslFormN-CEN_X01/primary_doc.xml" 
+... WITHOUT BAND REGISTERED IN THE STATE OF NEW YORK TO CONDUCT ANY FORM 
+OF INVESTMENT BANKING IS ALSO NOW HOLDING A NOTE THAT IS BEARING THE TAX 
+LIABILITY, AND AVOIDANCE TO PROSECUTION WHEREBY THE PREMIUMS AND 
+INSURANCE COLLECTED ON A LETTER OF CREDIT... HOWEVER "INDEMNIFIED...
+BY "SULLIVAN PROPERTIES LP" WHO HAS ASSURED IN WRITING THAT THEY WILL 
+REIMBURSE "STATE FARM" IN THE EVENT OF A DEFAULT, OR LATE PAYMENT.
+"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVanEtcRioef3A=="
++++ I SENT THIS TO THE SUPREME COURT JUSTICES INDEPENDENTLY IN NOVEMBER 
+AS WELL, BTW. NOTICE TO STATE FARM: 
+"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=n_PLUS_CvSQR36fqPKko6L47FFQ=="
++++ NOTICE TO STATE FARM: 
+"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=H4jMXghoLMU1ozmlj4VYHg=="
++++ ADVISERS INVESTMENT TRUST: FILE NUMBER 811-22538
+"https://www.sec.gov/Archives/edgar/data/1516523/000114554921074536/xslFormN-CEN_X01/primary_doc.xml" 
+[CIK NUMBER:    1516523]
+
+
+4470740 - STATE FARM INVESTMENT MANAGEMENT -2992788
+
+--------------1LfqI54hvD0QpBI0DOjquWXk
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html data-lt-installed="true">
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body spellcheck="false" data-gramm="false">
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;margin-bottom:0in;margin-bottom:
+      .0001pt;line-height:normal"><b style="mso-bidi-font-weight:normal"><span
+          style="font-size:8.5pt;font-family:&quot;Courier
+          New&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;
+          border:none windowtext 1.0pt;mso-border-alt:none windowtext
+          0in;padding:0in">"... BE IT REMEMBERED ..."</span></b></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:.5in;text-align:justify;text-indent:-.5in;line-height:normal"><span
+        style="font-size:8.5pt;font-family:&quot;Courier New&quot;;
+        mso-fareast-font-family:&quot;Times New Roman&quot;"><b>THIS
+          OBSTRUCTION BY THE SECURITIES INDUSTRY AND AVOIDANCE TO
+          PROSECUTION FOR MATTERS WHICH PERTAIN TO A FAILURE TO REPORT
+          MATERIAL FACTS, PEEPING TOMS THAT REACT AT-WILL, WITH NO FEAR
+          OF ANY AUTHORITY WAS PERMITTED AND WITHOUT ESTOPPEL FILED IN A
+          NEW YORK STATE SUPREME COURT OF LAW WITHOUT ANY NOTICE TO THE
+          PUBLIC OF ANY POTENTIAL HAZARD. THE VIOLATION OF PRIVACY, IS
+          CLEAR – AND SO IS THE DISTRIBUTION OF THOSE UNCONSENTED VIDEOS
+          ANNEXED WITHOUT ANY PUBLIC RELEASE TO WARN OTHER TENANTS -
+          THEY DON'T HAVE A WARRANT TO ILLEGALLY VIDEOTAPE, OR A
+          CERTIFICATE OF OCCUPANCY TO LEGALLY COLLECT AND CUSTODY RENT
+          OR SECURITY DEPOSITS. FOR BUILDINGS - PLURAL...</b><br>
+      </span></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:.5in;text-align:justify;text-indent:-.5in;line-height:normal"><span
+        style="font-size:8.5pt;font-family:&quot;Courier New&quot;;
+        mso-fareast-font-family:&quot;Times New Roman&quot;">       THIS
+        IS </span><span
+        style="font-size:8.5pt;font-family:&quot;Courier
+        New&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;">A
+        NEW PLATEAU OF DEPLORABLE CONDUCT AS THE LIABILITY FOR
+        INVESTORS, WHERE THE REGULATORS ARE CONSIDERED AS "NONPLUSSED"
+        AND WITHOUT DISCLOSURE TO THE PUBLIC… <br>
+        - WHILE I WAS FURTHER HINDERED BY THE OBSTRUCTION BY OTHER
+        COUNSELORS, AND AFFILIATES WHILE THE STATE FARM ATTEMPTED A
+        MERGER IN NOVEMBER OF 2021 AS WELL.</span><br>
+    </p>
+    <span style="font-size:8.5pt;font-family:&quot;Courier
+      New&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;"></span>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:.5in;text-align:justify;text-indent:.5in;line-height:normal"><span
+        style="font-size:8.5pt;font-family:&quot;Courier
+        New&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;">
+        <span style="mso-tab-count:2">                    </span><a
+          href="https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/11"
+          class="moz-txt-link-freetext">https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/11</a><br>
+      </span></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:.5in;text-align:justify;text-indent:.5in;line-height:normal"><span
+        style="font-size:8.5pt;font-family:&quot;Courier
+        New&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;">   
+                        NO RELEASE OR NOTICE OF AN ONGOING INVESTIGATION
+        BY THE SECURITIES &amp; EXCHANGE COMMISSION FOR ALL OTHER
+        INVESTMENT COMPANIES TO BE CONCERNED WITH REGARDING THIS DANGER</span></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:.5in;text-align:justify;text-indent:.5in;line-height:normal"><span
+        style="font-size:8.5pt;font-family:&quot;Courier
+        New&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;">NOTWITHSTANDING
+        FURTHER INVESTMENTS TO A TRUST THAT WILL NOT DISCLOSE A $6
+        MILLION DOLLAR EXPOSURE</span></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:.5in;text-align:justify;text-indent:.5in;line-height:normal"><span
+        style="font-size:8.5pt;font-family:&quot;Courier
+        New&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;">THE
+        LETTER OF CREDIT FOR $6 MILLION WAS ANNEXED AND RECEIVED IN A
+        NEW YORK SUPREME COURT OF LAW, DOCKET 315...</span></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:.5in;text-align:justify;text-indent:.5in;line-height:normal"><span
+        style="font-size:8.5pt;font-family:&quot;Courier
+        New&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;">-
+        THEY WILL ALSO HIDE A $6 BILLION DOLLAR LOSS.<b> </b><b>AND
+          WILL NOT ACCEPT THE FACT THAT THEY WERE NOT COVERED, AND UNDER
+          ANY SCOPE OF LEGAL PROCEEDINGS AS WELL.<br>
+                  - THIS ALL OCCURRED DURING THE PERIOD OF THEIR OWN
+          BOND INDENTURE AND COVERAGE FOR ERRORS AND OMISSIONS... AND I
+          ALSO FILED A TCR ON THE 13TH OF NOVEMBER - PRIOR TO THE
+          EXPIRATION TERM.<br>
+        </b></span></p>
+    <p class="MsoNormal"
+      style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+      text-align:justify;line-height:normal"><span
+        style="font-size:8.5pt;font-family: &quot;Courier
+        New&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;">   
+                                <a class="moz-txt-link-freetext"
+href="https://www.sec.gov/Archives/edgar/data/0000093715/000114554922006149/xslFormN-CEN_X01/primary_doc.xml">https://www.sec.gov/Archives/edgar/data/0000093715/000114554922006149/xslFormN-CEN_X01/primary_doc.xml</a></span></p>
+    <p class="MsoNormal"
+      style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+      normal"><span style="font-size:8.5pt;font-family:&quot;Courier
+        New&quot;;mso-fareast-font-family: &quot;Times New Roman&quot;">    
+        <a
+href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=gcMSDaFzm0ynPeXZKSHgLQ=="><span
+            style="color:blue">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=gcMSDaFzm0ynPeXZKSHgLQ==</span></a><span
+          style="mso-spacerun:yes">         </span><span
+          style="border:none windowtext 1.0pt; mso-border-alt:none
+          windowtext 0in;padding:0in"><span style="mso-tab-count: 1">   
+          </span><span style="mso-tab-count:1">       </span></span></span><span
+        style="font-size:8.5pt;font-family:&quot;Times New
+        Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:
+        &quot;Times New Roman&quot;"></span></p>
+    <p class="MsoNormal"
+      style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+      normal"><b><span style="font-size:8.5pt;font-family:&quot;Courier
+          New&quot;;mso-fareast-font-family: &quot;Times New
+          Roman&quot;;border:none windowtext 1.0pt;mso-border-alt:none
+          windowtext 0in; padding:0in">    <br>
+          A.<span style="mso-spacerun:yes">    </span>FIDELITY<span
+            style="mso-spacerun:yes">  - DEFINED</span></span></b><b><span
+          style="font-size:8.5pt;font-family:&quot;Courier
+          New&quot;;mso-fareast-font-family: &quot;Times New
+          Roman&quot;;border:none windowtext 1.0pt;mso-border-alt:none
+          windowtext 0in; padding:0in"><span style="mso-spacerun:yes"><font
+              size="1" face="Courier New, Courier, monospace"><b><br>
+                    MOTIVE    _40-17G-FILED----2020.06.08</b></font>
+                                     </span></span></b><span
+        style="font-size:8.5pt;font-family:&quot;Times New
+        Roman&quot;,&quot;serif&quot;;
+        mso-fareast-font-family:&quot;Times New Roman&quot;"></span></p>
+    <p class="MsoNormal"
+      style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+      normal"><b><span style="font-size:8.5pt;font-family:&quot;Courier
+          New&quot;;mso-fareast-font-family: &quot;Times New
+          Roman&quot;;color:red;border:none windowtext
+          1.0pt;mso-border-alt:none windowtext 0in; padding:0in">     
+          NOTARIZED on the 11th of May, 2020.<br>
+        </span></b><span
+        style="font-size:8.5pt;font-family:&quot;Courier
+        New&quot;;mso-fareast-font-family: &quot;Times New
+        Roman&quot;;border:none windowtext 1.0pt;mso-border-alt:none
+        windowtext 0in; padding:0in"><b>    during the period of
+          Coverage by its Investment Professionals [ E-8 ]</b><br>
+            STATE FARM LIFE INSURANCE COMPANY.<br>
+            STATE FARM REALTY MORTGAGE LLC.</span></p>
+    <p class="MsoNormal"
+      style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+      normal"> </p>
+    <p class="MsoNormal"
+      style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+      normal"><span style="font-size:8.5pt;font-family:&quot;Courier
+        New&quot;;mso-fareast-font-family: &quot;Times New Roman&quot;"><b>OBSTRUCTION
+          OF JUSTICE &amp; NO ORDER OF ESTOPPEL - </b><br>
+            MOTIVES...  <br>
+      </span></p>
+    <span style="font-size:8.5pt;font-family:&quot;Courier
+      New&quot;;mso-fareast-font-family: &quot;Times New Roman&quot;">THOSE
+      FINES GET HEAVIER THE LONGER YOU HIDE FROM THE TRUTH.<br>
+      <font size="1">         ... BTW, I NEVER ASKED FOR ANYTHING...
+        OTHER THAN THE MONEY THEY STOLE &amp; MY SECURITY DEPOSIT WHICH
+        = LARCENY.<br>
+      </font></span>
+    <p><span style="font-size:8.5pt;font-family:&quot;Courier
+        New&quot;;mso-fareast-font-family: &quot;Times New Roman&quot;"><font
+          size="1">          </font></span><span
+        style="font-size:8.5pt;font-family:&quot;Courier
+        New&quot;;mso-fareast-font-family: &quot;Times New Roman&quot;"><font
+          size="1"><span
+            style="font-size:8.5pt;font-family:&quot;Courier
+            New&quot;;mso-fareast-font-family: &quot;Times New
+            Roman&quot;"><font size="1">...</font></span> DO I GET ANY
+          JUSTICE THOUGH? IF NOT THEN PAY ME THE WHISTLEBLOWER FEES OR
+          GIVE ME A ESPY AT LEAST CONSIDER IT.</font></span></p>
+    <p><span style="font-size:8.5pt;font-family:&quot;Courier
+        New&quot;;mso-fareast-font-family: &quot;Times New Roman&quot;"><font
+          size="1">STATE FARM VP MANAGEMENT CORP.<br>
+              [CRD#: 43036/SEC#: 8-50128]<br>
+              ONE STATE FARM PLAZA, BLOOMINGTON, IL 61710<br>
+          <br>
+          If "Not Covered" is inserted opposite any Insuring Agreement
+          above, such Insuring Agreement and any reference thereto shall
+          be deemed to be deleted from this Bond.<br>
+          &gt;&gt;    &gt; F-SECURITIES BY ITS FIDELITY AND COMPLIANCE
+          OFFICER, SR. VICE PRESIDENT AND DIRECTOR, UNDER COMPLIANCE
+          OFFICER LUDWIG WHO EXECUTED THE PRIOR INDENDURE<br>
+                  OMISSION: "Not Covered" AND LOSSES OF -852029489.38
+          REGISTERED UNDER THEIR UMBRELLA OF "State Farm Associates'
+          Funds Trust"<br>
+          1. Item G.1.a.i. Legal proceedings.<br>
+          (a) If the Registrant responded "YES" to Item B.11.a., provide
+          a brief description of the proceedings. <br>
+               As part of the description, provide the case or docket
+          number (if any), and the full names of the principal parties
+          to the proceeding.<br>
+              &gt; LOAN IS ANNEXED IN THE DOCKET AVOIDED TO: NYSCEF
+          153974/2020<br>
+          <font color="#ff0000">(b) If the Registrant responded "YES" to
+            Item B.11.b., identify the proceeding and give its date of
+            termination.</font><br>
+              &gt; LOAN IS ANNEXED IN THE DOCKET AVOIDED TO: NYSCEF
+          153974/2020<br>
+          <font color="#ff0000">    &gt; H-UNCOLLECTIBLE ITEMS OF
+            DEPOSIT IS ANNEXED IN NYSCEF 153974/2020</font><br>
+              State Farm Associates' Funds Trust<br>
+            
+ <a class="moz-txt-link-freetext" href="https://www.sec.gov/Archives/edgar/data/0000093715/000009371520000003/aft2020.txt">https://www.sec.gov/Archives/edgar/data/0000093715/000009371520000003/aft2020.txt</a><br>
+              Item 3. Limit of Liability-Subject to Sections 9, 10 and
+          12 hereof:<br>
+          <br>
+          LIMIT OF LIABILITY    DEDUCTIBLE AMOUNT<br>
+              Insuring Agreement A-FIDELITY            $2,500,000       
+          $50,000<br>
+          <font color="#ff0000"><b>    &gt; Insuring Agreement B-AUDIT
+              EXPENSE           $50,000        $10,000</b></font><br>
+              Insuring Agreement C-ON PREMISES        $2,500,000       
+          $50,000<br>
+              Insuring Agreement D-IN TRANSIT            $2,500,000   
+              $50,000<br>
+              Insuring Agreement E-FORGERY OR ALTERATION   
+          $2,500,000        $50,000<br>
+          <font color="#ff0000">    &gt; Insuring Agreement
+            F-SECURITIES            $2,500,000        $50,000</font><br>
+              Insuring Agreement G-COUNTERFEIT CURRENCY    $2,500,000   
+              $50,000<br>
+              &gt; Insuring Agreement H-UNCOLLECTIBLE ITEMS OF DEPOSIT
+                 $25,000         $5,000<br>
+              Insuring Agreement I-PHONE/ELECTRONIC        
+          $2,500,000        $50,000<br>
+          TRANSACTIONS<br>
+              &gt; B.    AUDIT EXPENSE " Expense incurred by the Insured
+          for that part of the costs of audits or examinations required
+          by any governmental regulatory authority or Self-<br>
+          Regulatory Organization to be conducted by such authority or
+          Organization or by an independent accountant or other person,
+          by reason of the discovery of loss sustained by the Insured
+          and covered by this Bond."<br>
+          <br>
+              &gt;&gt; THIS WAS NOTED IN THE NEW REGISTERED "MERGER" TO
+          THE IA - WHO SET ASIDE THOSE AUDIT FUNDS, HENCE THE LOSSES
+          INCURRED ARE MOST PROMINENT FROM JANUARY 1, 2022 - MARCH 31,
+          2022 AS THE NEW IA IS ALSO NOT COVERED FOR THE LOSSES IN PRICE
+          DUE TO A CERTAIN OMISSION.<br>
+              &gt;&gt;&gt;&gt; THE NEW: ADVISERS INVESTMENT TRUST ::
+          CIK#1516523#<br>
+              &gt;&gt;&gt;&gt;
+<a class="moz-txt-link-freetext" href="https://www.sec.gov/Archives/edgar/data/0001516523/000119312522025502/d207567d4017g.htm">https://www.sec.gov/Archives/edgar/data/0001516523/000119312522025502/d207567d4017g.htm</a>
+          &lt;&lt;&lt;&lt;<br>
+          <br>
+              &gt;&gt; AIDED AND ABETTED BY ITS "PROMOTING BROKERS" in
+          the former by FILER CIK#93715#<br>
+              <br>
+          <a class="moz-txt-link-freetext" href="https://brokercheck.finra.org/individual/summary/2992788">https://brokercheck.finra.org/individual/summary/2992788</a><br>
+              NAME:    HARBERT, RANDALL HOUSTON      <br>
+              CRD NUMBER:        2992788<br>
+              STATES REGISTERED:     Illinois<br>
+              POSITION:             SR. VICE PRESIDENT AND DIRECTOR<br>
+              <br>
+          1.A. PRESENT AFFILIATIONS / OUTSIDE BUSINESSES DISCLOSED:    <br>
+              B. 2016-PRESENT, STATE FARM LIFE INSURANCE COMPANY     [
+          NON-INVESTMENT RELATED ]<br>
+              *** Sr. Vice President, Chief Agency, Sales and Marketing
+          Officer and Director<br>
+              C. 2013-PRESENT, STATE FARM AUTOMOBILE INSURANCE COMPANY 
+          [ INVESTMENT RELATED ]<br>
+              *** EXECUTIVE VICE PRESIDENT, CHIEF AGENCY SALES MARKETING
+          OFFICER<br>
+              D. 2011-PRESENT, STATE FARM LLOYDS, INC    [
+          NON-INVESTMENT RELATED ]<br>
+              *** DIRECTOR.<br>
+              E. 2011-PRESENT, STATE FARM INVESTMENT MANAGEMENT CORP.   
+          [ INVESTMENT RELATED ]<br>
+                     
+          <a class="moz-txt-link-freetext" href="https://reports.adviserinfo.sec.gov/reports/ADV/3487/PDF/3487.pdf">https://reports.adviserinfo.sec.gov/reports/ADV/3487/PDF/3487.pdf</a><br>
+              F. 2011-PRESENT,STATE FARM VP MANAGEMENT CORP [ INVESTMENT
+          RELATED ]<br>
+              *** SENIOR VICE PRESIDENT AND DIRECTOR<br>
+                      <br>
+          1.B. AIDED AND ABETTED TO BY SULLIVAN PROPERTIES, AND ITS
+          AFFILIATES AND COUNSELORS.<br>
+               [RECEIVED NYSCEF: 08/11/2020]<br>
+                       <br>
+              STIPULATION TO AMEND CAPTION AND ADD "STATE FARM REALTY
+          MORTGAGE LLC" WHICH IS MANAGED BY "STATE FARM LIFE INSURANCE
+          COMPANY"<br>
+              - AN OUTSIDE BUSINESS DISCLOSED BY: HARBERT, RANDALL
+          HOUSTON, AS A DIRECTOR OF [STATE FARM VP MANAGEMENT CORP.]<br>
+              <br>
+              A.
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Xjn0/e1NcBADqRc_PLUS_g11P4g==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Xjn0/e1NcBADqRc_PLUS_g11P4g==</a><br>
+                 **** EXECUTED ON 08/08/2020, FAXED TO THEIR INSURANCE
+          "SEE ALSO LEASE"<br>
+                      EMAILED TO ALL MATERIAL PARTIES AS REFERENCED IN
+          THE DOCKETED &amp; ANNEXED LOANS IN THE NEW YORK SUPREME COURT
+          MATTER 153974/2020.<br>
+                 **** I WAS TRYING TO ADD THEM TO THE CASE AS A
+          RESPONDENT - THE CLERK, JUDGE, AND BY THE WORK OF THE
+          COUNSELORS OF SULLIVAN PROPERTIES, AND WAS REQUESTED NOT TO
+          CONTACT ANY REGULATORY AUTHORITY.<br>
+                 **** AS REFERENCED HEREUNDER, IS A NON-JOINDER.
+          HOWEVER, AT THE COST OF A MERGER EX-POST THE AVOIDANCE TO THE
+          TRUTH.<br>
+                 ALSO ABSORBED ROUGHLY 8.5% IN LOSSES -852,029,489
+          DURING THE PERIOD OF "MERGER" AND THE CLOSE OF THE FIRST
+          QUARTER IN 2022 ---<br>
+                 --- DURING THEIR "DEREGISTRATION" AND "MERGER" INTO A
+          LARGER UMBRELLA OF FUNDS WHICH ARE AUDITED BY THREE FIRMS.<br>
+                 **** IW AS AGAIN, TRYING TO PREVENT ANY FURTHER
+          EXPOSURE IN THE IMPLIED TERMS OF THE LOAN CONTRACT ARE NOW
+          HELD AT A LARGER INSTITUTION.<br>
+                  **** THREE AUDITORS.<br>
+                       1. "PRICE WATERHOUSE COOPERS" AT ALL TIMES WAS
+          INFORMED OF THIS LOAN, AND THE NEW YORK SUPREME MATTER OF
+          153974/2020 <br>
+                       --- HOWEVER IN THEIR ANNUAL REPORTS ON
+          11-30-2020, 11-30-2021, AND MOST RECENTLY AFTER "MERGER" <br>
+                       --- HAVE MADE NO STATEMENT WHICH PROVIDES ANY
+          ASSURANCES OF THEIR OPINIONS, DESPITE HAVING BEEN INFORMED AND
+          IN 2020 AT ALL RELEVANT TIMES OF A CERTAIN LOAN WHICH CARRIES
+          THE BURDENS OF TAXES IN ARREARS.<br>
+              *** IN FACT IS CURRENTLY "STILL" AN UNREGISTERED SECURITY
+          IN THE FORM OF A LETTER OF CREDIT AND INDEMNITY ON THE BALANCE
+          SHEET OF THEIR NEW INVESTMENT MANAGER, AND SUB-MANAGER.<br>
+              *** IS "NOT COVERED" UNDER THEIR OWN BLANKET INSURANCE
+          PROVISIONS &amp; INDENTURE WHICH WAS EXECUTED THEN BY THE
+          COMPLIANCE OFFICER OF STATE FARM VP MANAGEMENT CORP. <br>
+              *** [TERRANCE "TERRY" LUDWIG ][CRD 3231040] UNDER THEIR
+          NEW AND IMPROVED SYSTEM HAVE ALSO FAILED TO DISCLOSE THIS
+          UNREGISTERED SECURITY WHICH IS "NOT COVERED" BY THE NEW IA AND
+          FOR THEIR OMISSIONS AS ENTERED IN THE PRIOR, ARE CURRENTLY AND
+          CONTINUE AS AN OMISSION.<br>
+                      <br>
+          1.C. NEW YORK SUPREME COURT MATTER 153974/2020        <br>
+              [RECEIVED NYSCEF: 08/09/2020 02:24 AM]<br>
+              *** VIOLATION AND FAILURE TO REPORT THIS AS A MATERIAL AND
+          ONGOING SUBSTANTIVE CASE, UNDISCLOSED TO THE PUBLIC INVESTORS
+          AT ANY TIME.<br>
+              *** NO KNOWLEDGE OF ANY PENDING LAW SUITS, LOANS, LETTERS
+          OF CREDIT, AND AT ANY TIME AS INDICATED IN THE THE CENTRAL
+          REPORTING DEPOSITORY MAINTAINED BY FINRA.<br>
+              A.
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=au8qh7Dn66hrVmJ9DX_PLUS_bdg==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=au8qh7Dn66hrVmJ9DX_PLUS_bdg==</a>   
+                  <br>
+              [RECEIVED NYSCEF: 08/09/2020 02:24 AM]<br>
+              B.
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=wTG2YD2PqXuxmoKqFiESrw==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=wTG2YD2PqXuxmoKqFiESrw==</a><br>
+              [RECEIVED NYSCEF: 08/09/2020 02:31 AM]<br>
+              C.
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=gcMSDaFzm0ynPeXZKSHgLQ==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=gcMSDaFzm0ynPeXZKSHgLQ==</a><br>
+              [RECEIVED NYSCEF: 08/10/2020 03:42 PM]<br>
+              D.
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVanEtcRioef3A==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVanEtcRioef3A==</a><br>
+          <br>
+          2.A. I INFORMED ALL MATERIAL PARTIES OF THE UNDERLYING RISKS
+          IN AUGUST OF 2020 AND ALSO PRESENTED THIS LETTER TO SULLIVAN
+          PROPERTIES,  ITS COUNSELORS, AND EXECUTIVES.<br>
+              [RECEIVED NYSCEF:  08/10/2020 03:45 AM]<br>
+              A.
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=K9sgXcweC7esRoSPO8MNtA=">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=K9sgXcweC7esRoSPO8MNtA=</a><br>
+              [RECEIVED NYSCEF:  08/11/2020 12:35 PM]    <br>
+              B.
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=D9Td7IfWXyajw1tBNCFb9g==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=D9Td7IfWXyajw1tBNCFb9g==</a><br>
+                  - THIS IS THE LETTER OF OBSTRUCTION I RECEIVED FROM
+          LAURIE ZUCKER, AND DONALD ZUCKER.<br>
+                  - OBSTRUCTION OF JUSTICE, ABETTED TO BY THE SULLIVAN
+          PROPERTIES L.P. AND ITS GENERAL PARTNER SULLIVAN GP LLC,
+          NOTWITHSTANDING ITS AFFILIATES AND COUNSELORS.<br>
+                  - OVER $6,000,000.00 THE STATE FARM INSTEAD OF
+          DISCLOSING THE LOAN, AND OUTSIDE BUSINESS - THOUGHT IT WOULD
+          BE A BETTER IDEA TO <br>
+                      STEP 1:    "CEASE TO EXIST AS AN INVESTMENT
+          ADVISER"<br>
+                      STEP 2:    "MERGE INTO A LARGER INVESTMENT
+          ADVISER"<br>
+                      STEP 3: REPORT TO THE SECURITIES AND EXCHANGE
+          COMMISSION AS FOLLOWS:                <br>
+                             
+          <a class="moz-txt-link-freetext" href="https://reports.adviserinfo.sec.gov/reports/ADV/3487/PDF/3487.pdf">https://reports.adviserinfo.sec.gov/reports/ADV/3487/PDF/3487.pdf</a><br>
+                              1.    "HAVE NO DISCLOSED LOAN" <br>
+                              2.    "COVERED FOR OMISSIONS AND ERRORS" <br>
+                              3. UNREASONABLE PREMIUMS AND INTEREST FOR
+          A SECURED "UNREGISTERED SECURITY" HELD BY THE NEW <br>
+          <br>
+           - NOTWITHSTANDING THE VALUE OF THE BUILDING [ 22 UNITS ] IN
+          SOHO MANHATTAN ARE NOT WORTH $150,000.00 / UNIT... NOT EVEN
+          FOR A STUDIO.<br>
+              2020-2021:    Tax Bill    Q4: NYC<br>
+                 
+<a class="moz-txt-link-freetext" href="https://a836-edms.nyc.gov/dctm-rest/repositories/dofedmspts/StatementSearch?bbl=1005030011&amp;stmtDate=20210227&amp;stmtType=SOA">https://a836-edms.nyc.gov/dctm-rest/repositories/dofedmspts/StatementSearch?bbl=1005030011&amp;stmtDate=20210227&amp;stmtType=SOA</a><br>
+              2020-2021:    Tax Bill    Q3: NYC<br>
+                 
+<a class="moz-txt-link-freetext" href="https://a836-edms.nyc.gov/dctm-rest/repositories/dofedmspts/StatementSearch?bbl=1005030011&amp;stmtDate=20201121&amp;stmtType=SOA">https://a836-edms.nyc.gov/dctm-rest/repositories/dofedmspts/StatementSearch?bbl=1005030011&amp;stmtDate=20201121&amp;stmtType=SOA</a><br>
+              2020-2021:    Tax Bill    Q2: NYC<br>
+                 
+<a class="moz-txt-link-freetext" href="https://a836-edms.nyc.gov/dctm-rest/repositories/dofedmspts/StatementSearch?bbl=1005030011&amp;stmtDate=20200829&amp;stmtType=SOA">https://a836-edms.nyc.gov/dctm-rest/repositories/dofedmspts/StatementSearch?bbl=1005030011&amp;stmtDate=20200829&amp;stmtType=SOA</a><br>
+              2020-2021:    Tax Bill    Q1: NYC<br>
+                 
+<a class="moz-txt-link-freetext" href="https://a836-edms.nyc.gov/dctm-rest/repositories/dofedmspts/StatementSearch?bbl=1005030011&amp;stmtDate=20200606&amp;stmtType=SOA">https://a836-edms.nyc.gov/dctm-rest/repositories/dofedmspts/StatementSearch?bbl=1005030011&amp;stmtDate=20200606&amp;stmtType=SOA</a><br>
+          <br>
+          FAXED ALL THIS TO THE IRS / FINRA / SEC / AND ASKED THE POLICE
+          TO ARREST AND RESTRAIN ANY FURTHER ACTION IN 2020.<br>
+                 
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=XiAuVPg0AmpwFMDLO0cMrw==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=XiAuVPg0AmpwFMDLO0cMrw==</a><br>
+          <br>
+                ESTOPPEL: STATE FARM AND CEASE AND DESIST.<br>
+                         
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=s5WAeCnxmd/hcOI4eTnbig==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=s5WAeCnxmd/hcOI4eTnbig==</a><br>
+          <br>
+                ESTOPPEL: THE ZUCKER FAMILY.<br>
+                         
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Jf3Un/JaVXZwF7kvbaee4w==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Jf3Un/JaVXZwF7kvbaee4w==</a><br>
+          <br>
+          AND THIS IS THE END RESULT... A LARGER BODY - WITH THE THREE
+          MOST EXPENSIVE AUDIT FIRMS "NOT COVERED" AND NO DISCLOSURE OF
+          A LOAN.<br>
+              - HOW WOULD THEY KNOW ABOUT THE "BULLETPROOF" STATUS OF A
+          "NONPLUSSED" TAX LIABILITY WHICH FOR ONE BUILDING OF THE 6 HAS
+          NO CERTIFICATE TO COLLECT LAWFUL RENTS AND WAS USED AS A FORM
+          OF "GUARANTEE" OF PAYMENT.<br>
+              <br>
+              INSTEAD PAID NEARLY 1 MILLION DOLLARS TO "CEASE TO EXIST
+          AS INVESTMENT MANAGER" HOWEVER ON THEIR WAY OUT FILED AS
+          FOLLOWS:<br>
+                     
+<a class="moz-txt-link-freetext" href="https://www.sec.gov/Archives/edgar/data/0000093715/999999999721005616/filename1.pdf">https://www.sec.gov/Archives/edgar/data/0000093715/999999999721005616/filename1.pdf</a><br>
+              <br>
+              STEP 3: REPORT TO THE SECURITIES AND EXCHANGE COMMISSION
+          AS FOLLOWS:                <br>
+                      <br>
+                      <br>
+                      --- FACTS --- <br>
+                      1. "HAVE NO DISCLOSED LOAN"     -REPORTED TO THE
+          SOLICITATION AND TABULATION OF ALL THEIR INVESTORS (170,000) <br>
+                                                      (WITH A RETURN
+          ENVELOPE PREPAID?)<br>
+                                                      <br>
+                      2. "UNCOVERED FOR OMISSIONS AND ERRORS" - TRUE.
+          100% BUT NOT REPORTED.<br>
+                      <br>
+                      3. UNREASONABLE PREMIUMS AND INTEREST FOR A
+          SECURED "UNREGISTERED SECURITY" HELD BY THE NEW ENTITY - WHO
+          MAY OR MAY NOT KNOW ABOUT ALL THIS.<br>
+                      <br>
+                          "AS EVIDENCED IN THE LOAN ANNEXED IN NY
+          SUPREME COURT" ARE STILL "NOT AN ISSUE OF MATERIAL CONCERN"<br>
+                                  PER THE SEC: UNREPORTED<br>
+                                  <br>
+                                 
+          <a class="moz-txt-link-freetext" href="https://reports.adviserinfo.sec.gov/reports/ADV/3487/PDF/3487.pdf">https://reports.adviserinfo.sec.gov/reports/ADV/3487/PDF/3487.pdf</a><br>
+                              <br>
+                      HOWEVER:    
+<a class="moz-txt-link-freetext" href="https://www.sec.gov/Archives/edgar/data/0000093715/000119312521278180/d222043dn8f.htm">https://www.sec.gov/Archives/edgar/data/0000093715/000119312521278180/d222043dn8f.htm</a><br>
+                              <br>
+                                      WILL DISCLOSE:    $431,000.00 PAID
+          AND RECEIVED AS A BONUS, AND HIS PRIOR INVOLVEMENT IN STATE
+          FARM LLOYDS***.<br>
+                                                  <br>
+                                      PAID FOR IN FULL BY THE EARLIER
+          INVESTMENT MANAGER [WHICH IS THE INVESTORS MONEY BY THE WAY]
+          PAID IN TO THE DIRECTORS.<br>
+                              Total expenses (sum of lines (i) - (iii)
+          above): $912,500<br>
+                              <br>
+                      ***** AN INVESTMENT MANAGER USES ITS "MANAGEMENT
+          FEES" TO PAY FOR ADMINISTRATION, AUDIT, MARKETING, AND OTHER
+          TRANSACTIONAL FEES WHICH ARE ORDINARY.<br>
+                                  Legal expenses:                    
+                              $       240,000<br>
+                                  Accounting expenses:                
+                              $          9,000<br>
+                                  Proxy Solicitation and Tabulation   
+                                $        170,000     <br>
+                                  Prospectus Supplements and Regulatory
+          Filings              $         62,500     <br>
+                                  Directors fees                     
+                                  $        431,000<br>
+                                  <br>
+                                  TOTAL COST TO MERGE:               
+                              $        912,500<br>
+                                  <br>
+                                           2021-10                
+          ASSETS:              $10,849,542,163<br>
+                                           2021-11                
+          ASSETS:            $10,164,850,238<br>
+                      <br>
+              <br>
+          obo SULLIVAN PROPERTIES, L.P.<br>
+              101 WEST 55TH STREET, NEW YORK, NY, 10019<br>
+                  - WHERE MR. HARBERT IS "NOT REGISTERED" AND ON BEHALF
+          OF HIS "STATE FARM LIFE INSURANCE COMPANY" DID EXTEND A
+          $6,000,000.00 HOWEVER UPON NOTICE, WILL <br>
+                  SELF-DETONATE.     PAID NEARLY 1 MILLION DOLLARS TO
+          "CEASE TO EXIST AS AN INVESTMENT MANAGER" AND TO AVOID THE
+          FINES WHICH IS HE IS FAMILIAR WITH AS A DISCLOSED OUTSIDE
+          BUSINESSES:<br>
+                  ** [NON-INVESTMENT RELATED] AS THE DIRECTOR OF "STATE
+          FARM LLOYDS" FINED $352,500,000.00 IN 2015 <br>
+                  ** WAS AND IS CURRENTLY EXECUTIVE VICE PRESIDENT,
+          CHIEF AGENCY SALES MARKETING OFFICER OF "STATE FARM AUTOMOBILE
+          INSURANCE COMPANY"<br>
+                  2013-PRESENT,[ INVESTMENT RELATED ] AS THIS ENTITY
+          "STATE FARM AUTOMOBILE INSURANCE COMPANY" OWNS 75% OF "STATE
+          FARM INVESTMENT MANAGEMENT CORP."<br>
+                  ** PAID NEARLY 1 MILLION DOLLARS TO "CEASE TO EXIST AS
+          AN INVESTMENT MANAGER" <br>
+                      MISLEAD INVESTORS TO BELIEVE THAT PRICE WATERHOUSE
+          WILL CONDUCT ACCOUNTING FOR A $10 BILLION DOLLAR MUTUAL FUND
+          AND TO MERGER FOR A TOTAL AMOUNT EQUAL TO $9,000.00 <br>
+                      AS THE SOLE ACCOUNTING FIRM REPORTED IN THEIR
+          ANNUAL FILINGS IN THE 2020-2021 FILING PERIOD...<br>
+                  <br>
+              *** 2020-2021 ANNUAL FILING<br>
+                 
+<a class="moz-txt-link-freetext" href="https://www.sec.gov/Archives/edgar/data/0000093715/000114554921006167/xslFormN-CEN_X01/primary_doc.xml">https://www.sec.gov/Archives/edgar/data/0000093715/000114554921006167/xslFormN-CEN_X01/primary_doc.xml</a><br>
+          <br>
+              *** 2021-2022 ANNUAL FILING<br>
+                 
+<a class="moz-txt-link-freetext" href="https://www.sec.gov/Archives/edgar/data/0000093715/000114554922006149/xslFormN-CEN_X01/primary_doc.xml">https://www.sec.gov/Archives/edgar/data/0000093715/000114554922006149/xslFormN-CEN_X01/primary_doc.xml</a>   
+                          <br>
+                                          <br>
+          ... WITHOUT BAND REGISTERED IN THE STATE OF NEW YORK TO
+          CONDUCT ANY FORM OF INVESTMENT BANKING IS ALSO NOW HOLDING A
+          NOTE THAT IS BEARING THE TAX LIABILITY, AND AVOIDANCE TO
+          PROSECUTION<br>
+              WHEREBY THE PREMIUMS AND INSURANCE COLLECTED ON A LETTER
+          OF CREDIT...<br>
+              -- HOWEVER "INDEMNIFIED" --- <br>
+              BY "SULLIVAN PROPERTIES LP" WHO HAS ASSURED IN WRITING
+          THAT THEY WILL REIMBURSE "STATE FARM" IN THE EVENT OF A
+          DEFAULT, OR LATE PAYMENT.<br>
+                 
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVanEtcRioef3A==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVanEtcRioef3A==</a><br>
+          <br>
+              +++ I SENT THIS TO THE SUPREME COURT JUSTICES
+          INDEPENDENTLY IN NOVEMBER AS WELL, BTW.    <br>
+              NOTICE TO STATE FARM:   
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=n_PLUS_CvSQR36fqPKko6L47FFQ==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=n_PLUS_CvSQR36fqPKko6L47FFQ==</a><br>
+              NOTICE TO STATE FARM:   
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=H4jMXghoLMU1ozmlj4VYHg==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=H4jMXghoLMU1ozmlj4VYHg==</a>   
+          <br>
+              <br>
+              +++ ADVISERS INVESTMENT TRUST: FILE NUMBER 811-22538<br>
+                 
+<a class="moz-txt-link-freetext" href="https://www.sec.gov/Archives/edgar/data/1516523/000114554921074536/xslFormN-CEN_X01/primary_doc.xml">https://www.sec.gov/Archives/edgar/data/1516523/000114554921074536/xslFormN-CEN_X01/primary_doc.xml</a><br>
+              CIK NUMBER:    1516523<br>
+          <br>
+          A SIMPLE TRANSFER AND ASSIGNMENT OF LEASES AND RENTS COVERED
+          BY THE EXPRESSED GUARANTEES OF UNLAWFUL RENTS TO:<br>
+              "STATE FARM REALTY MORTGAGE, LLC", ONE STATE FARM PLAZA,
+          BLOOMINGTON, IL, 61710<br>
+               <br>
+               MANAGED BY: "STATE FARM LIFE INSURANCE COMPANY"<br>
+                           WHICH IS DISCLOSED AND MANAGED BY MR. RANDALL
+          HARBERT IN THE ATTACHED CENTRAL DEPOSITORY REPORT.<br>
+                          STATE FARM VP MANAGEMENT CORP. LOCATED AT: ONE
+          STATE FARM PLAZA, BLOOMINGTON, IL 61710-0001<br>
+                          <br>
+                      HENCE I REFER TO THEM SIMPLY AS "STATE FARM"
+          LOCATED AT:     ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710<br>
+          <br>
+          Loan 50074:              ASSIGNMENT OF RENTS AND LEASES<br>
+                 CRFN ID.:                         2020052000291002<br>
+                 <br>
+              PARTY 1:            SULLIVAN PROPERTIES, L.P.<br>
+                                  C/O THE ZUCKER ORGANIZATION<br>
+                                  101 WEST 55TH STREET<br>
+                                  NEW YORK, NEW YORK, 10019<br>
+                                      <br>
+              PARTY 2:            STATE FARM REALTY MORTGAGE, LLC<br>
+                                  ONE STATE FARM PLAZA <br>
+                                  BLOOMINGTON IL, 60710<br>
+          <br>
+          *** I DO APOLOGIZE, THAT IS CORRECT SPELLING BUT NOT LLOYDS
+          BANK OF LONDON<br>
+              [I APOLOGIZE IF THAT IS MISLEADING, HOWEVER THE SAME
+          ENTITY FINED IN THE PRIOR MATTER AFTER 3-YEARS OF DANCING
+          AROUND] WITH THE APPEALS AND EVEN IN TEXAS.<br>
+              <br>
+          <br>
+          OIG oversight helps prevent fraud and mismanagement that
+          diverts funds from those in need. <br>
+          Financial Management. DOI has significant financial assets,
+          including ...<br>
+          SO ABOUT THOSE LEASES AND RENTS TRANSFERRED IN THE CITY OF NEW
+          YORK, NY, 2020.<br>
+          - ALSO MISLEADING "not a gap loan" IT IS A CONSOLIDATED AND
+          SECURED BY UNLAWFUL RENT.<br>
+              - PER THE REAL THE REAL ESTATE LAWS IN NEW YORK, YOU CAN'T
+          LEGALLY COLLECT RENT WITHOUT A CO<br>
+              - WHICH IS PROBABLY ALSO WHY JPMORGAN MADE A WISE DECISION
+          NOT TO CONTINUE AS THE CUSTODIAN TO THE FUNDS.<br>
+              - HOWEVER, AS AS STIPULATION TO ADD MORE AUDITORS TO THIS
+          SITUATION IS NOT THE CORRECT SOLUTION EITHER...<br>
+              <br>
+          NOT COVERED BY THE NEW AND IMPROVED OMISSIONS BY ITS DIRECT
+          REPRESENTATIVES LURING THE PERIOD OF JANUARY 1, 2021 AND
+          JANUARY 1, 2022<br>
+          - HAVE LOST (-852,029,489.38) DUE TO GROSS NEGLIGENCE, FROM
+          THE PERIOD OF FILING [LAST] $10,164,850,238<br>
+          - WITH LITTLE TO NO PROBABILITY THAT "PRICE WATERHOUSE
+          COOPERS" WILL CHARGE ANY PERSON OR COMPANY $9,000 IN
+          ACCOUNTING FEES TO ACCOUNT FOR $170,000.00 OF PROXIES AND
+          TABULATIONS FOR N-COUNT OF INVESTORS AND ISSUE A <br>
+          <br>
+          Opinions on the Financial Statements<br>
+          <br>
+          We have audited the accompanying statements of assets and
+          liabilities, including the schedules of investments, of State
+          Farm Growth Fund, State Farm Balanced Fund, State Farm Interim
+          Fund, and State Farm Municipal Bond Fund (four of the funds
+          constituting Advisers Investment Trust, hereafter collectively
+          referred to as the “Funds”) as of September 30, 2021, the
+          related statements of operations for the period December 1,
+          2020 through September 30, 2021 and the year ended November
+          30, 2020, the statements of changes in net assets for the
+          period December 1, 2020 through September 30, 2021 and for
+          each of the two years in the period ended November 30, 2020,
+          including the related notes, and the financial highlights for
+          each of the periods indicated therein (collectively referred
+          to as the “financial statements”). In our opinion, the
+          financial statements present fairly, in all material respects,
+          the financial position of each of the Funds as of September
+          30, 2021, the results of each of their operations for the
+          period December 1, 2020 through September 30, 2021 and the
+          year ended November 30, 2020, the changes in each of their net
+          assets for the period December 1, 2020 through September 30,
+          2021 and for each of the two years in the period ended
+          November 30, 2020 and each of the financial highlights for
+          each of the periods indicated therein in conformity with
+          accounting principles generally accepted in the United States
+          of America.<br>
+          <br>
+          Basis for Opinions<br>
+          <br>
+          These financial statements are the responsibility of the
+          Funds’ management. Our responsibility is to express an opinion
+          on the Funds’ financial statements based on our audits. We are
+          a public accounting firm registered with the Public Company
+          Accounting Oversight Board (United States) (PCAOB) and are
+          required to be independent with respect to the Funds in
+          accordance with the U.S. federal securities laws and the
+          applicable rules and regulations of the Securities and
+          Exchange Commission and the PCAOB.<br>
+          <br>
+          We conducted our audits of these financial statements in
+          accordance with the standards of the PCAOB. Those standards
+          require that we plan and perform the audit to obtain
+          reasonable assurance about whether the financial statements
+          are free of material misstatement, whether due to error or
+          fraud.    <br>
+          <br>
+          Our audits included performing procedures to assess the risks
+          of material misstatement of the financial statements, whether
+          due to error or fraud, and performing procedures that respond
+          to those risks. Such procedures included examining, on a test
+          basis, evidence regarding the amounts and disclosures in the
+          financial statements. Our audits also included evaluating the
+          accounting principles used and significant estimates made by
+          management, as well as evaluating the overall presentation of
+          the financial statements. Our procedures included confirmation
+          of securities owned as of September 30, 2021 by correspondence
+          with the custodian and brokers; when replies were not received
+          from brokers, we performed other auditing procedures. We
+          believe that our audits provide a reasonable basis for our
+          opinions.<br>
+          <br>
+          November 22, 2021<br>
+          We have served as the auditor of one or more investment
+          companies in Advisers Investment Trust since 2011.<br>
+          PricewaterhouseCoopers LLP, One North Wacker, Chicago, IL
+          60606<br>
+          T: (312) 298 2000, <a class="moz-txt-link-abbreviated" href="http://www.pwc.com/us">www.pwc.com/us</a><br>
+          <a class="moz-txt-link-freetext" href="https://www.sec.gov/info/accountants/audit042707.htm">https://www.sec.gov/info/accountants/audit042707.htm</a><br>
+          <br>
+           <a class="moz-txt-link-abbreviated" href="mailto:OCARequest@sec.gov">OCARequest@sec.gov</a><br>
+           <a class="moz-txt-link-abbreviated" href="mailto:dcaoletters@sec.gov">dcaoletters@sec.gov</a> <br>
+           <a class="moz-txt-link-abbreviated" href="mailto:IMOCA@sec.gov">IMOCA@sec.gov</a><br>
+          <br>
+          Investment Companies (mutual funds, closed-end funds, business
+          development companies, unit investment trusts, interval funds
+          and exchange-traded funds) and Insured Investments (variable
+          annuities and variable life insurance)<br>
+          Chief Counsel's Office (CCO)<br>
+          <br>
+          <br>
+          <br>
+          ----     NO CERTIFICATE OF OCCUPANCY      ----<br>
+          ----         117 SULLIVAN STREET          ----<br>
+          ----        NEW YORK, NY, 10012           ----<br>
+          Property Address:          117 SULLIVAN STREET<br>
+          Building Gross Square Footage:          10,210<br>
+          Block: 503         Lot: 11       BIN:  1007779<br>
+                                           UNITS:     22<br>
+          JANUARY 15, 2011<br>
+              Market Value:                $2,410,000.00<br>
+              Overall Cap Rate:    13.313%<br>
+          JANUARY 15, 2012<br>
+              Market Value:                $2,665,000.00<br>
+              Overall Cap Rate:    13.245%<br>
+          JANUARY 15, 2013<br>
+              Market Value:                $2,807,000.00<br>
+              Overall Cap Rate:    13.131%<br>
+          January 15, 2014<br>
+              Market Value:                $2,573,000.00<br>
+              Overall Cap Rate:    13.115%   <br>
+          January 15, 2015<br>
+              Market Value:                $2,851,000.00<br>
+              Overall Cap Rate:    12.504%   <br>
+          January 15, 2016<br>
+              Market Value:                $3,148,000.00<br>
+              Overall Cap Rate:    12.497%   <br>
+          January 15, 2017<br>
+              Market Value:                $3,393,000.00<br>
+              Overall Cap Rate:    12.501%<br>
+          January 15, 2018<br>
+              Market Value:                $3,787,000.00<br>
+              Overall Cap Rate:    12.424%    <br>
+          January 15, 2019<br>
+              Market Value:                $3,901,000.00<br>
+              Overall Cap Rate:    12.375%<br>
+          January 15, 2020<br>
+              Market Value:                $3,981,000.00<br>
+              Overall Cap Rate:    12.313%<br>
+              <br>
+          ----     REAR BIN CODES     ---- UNLAWFUL RENTS    <br>
+          Property Address:           111 SULLIVAN STREET<br>
+                                                REAR<br>
+          Building Gross Square Footage:              XX<br>
+          Block: 503         Lot:  8       BIN:  1077252   <br>
+                                         UNITS:     10<br>
+          Property Address:          113 SULLIVAN STREET<br>
+          Building Gross Square Footage:              XX<br>
+          Block: 503         Lot: 09       BIN:  1077254<br>
+                                         UNITS:     10   <br>
+          Property Address:          115 SULLIVAN STREET<br>
+          Building Gross Square Footage:              XX<br>
+          Block: 503         Lot: 10       BIN:  1077256   <br>
+                                         UNITS:     10<br>
+             
+          <a class="moz-txt-link-freetext" href="https://www.occ.gov/static/enforcement-actions/ea2020-068.pdf">https://www.occ.gov/static/enforcement-actions/ea2020-068.pdf</a><br>
+          <br>
+             
+<a class="moz-txt-link-freetext" href="https://www.dfs.ny.gov/system/files/documents/2020/10/ea20201030_combined_consent_orders.pdf">https://www.dfs.ny.gov/system/files/documents/2020/10/ea20201030_combined_consent_orders.pdf</a><br>
+          <br>
+              2019-0201-S:  CIVIL PENALTY:         $583,900.00<br>
+              2020-0239-S:  CIVIL PENALTY:         $671,200.00<br>
+              2020-0280-S:  CIVIL PENALTY:         $644,700.00<br>
+                          **********             FINED: $9,799,000.00<br>
+                          <br>
+                          <br>
+                          <br>
+          Registered with this firm since: 03/04/1998<br>
+                  \<br>
+          STATE FARM VP MANAGEMENT CORP.<br>
+          HINTZ, SCOTT ALEXANDER         (CRD    2004555<br>
+          LUDWIG, TERRENCE MICHAEL      (CRD    3231040<br>
+          MINEAU, SARAH             (CRD    4634160<br>
+          MONK, JOSEPH RILEY JR         (CRD    1357149<br>
+          MOORE, DAVID MICHAEL         (CRD    2876793<br>
+          SMITH, PAUL JOSEPH         (CRD    4971235<br>
+          TIPSORD, MICHAEL LEON         (CRD    1943922<br>
+          <br>
+          <br>
+          <br>
+          STATE FARM INVESTMENT MANAGEMENT 3487    <br>
+          <br>
+          <br>
+          <br>
+          Opinions on the Financial Statements We have audited the
+          accompanying statements of assets and liabilities, including
+          the schedules of investments, of State Farm Growth Fund, State
+          Farm Balanced Fund, State Farm Interim Fund, and State Farm
+          Municipal Bond Fund (four of the funds constituting Advisers
+          Investment Trust, hereafter collectively referred to as the
+          “Funds”) as of September 30, 2021, the related statements of
+          operations for the period December 1, 2020 through September
+          30, 2021 and the year ended November 30, 2020, the statements
+          of changes in net assets for the period December 1, 2020
+          through September 30, 2021 and for each of the two years in
+          the period ended November 30, 2020, including the related
+          notes, and the financial highlights for each of the periods
+          indicated therein (collectively referred to as the “financial
+          statements”). In our opinion, the financial statements present
+          fairly, in all material respects, the financial position of
+          each of the Funds as of September 30, 2021, the results of
+          each of their operations for the period December 1, 2020
+          through September 30, 2021 and the year ended November 30,
+          2020, the changes in each of their net assets for the period
+          December 1, 2020 through September 30, 2021 and for each of
+          the two years in the period ended November 30, 2020 and each
+          of the financial highlights for each of the periods indicated
+          therein in conformity with accounting principles generally
+          accepted in the United States of America. Basis for
+          Opinions***These financial statements are the responsibility
+          of the Funds’ management. Our responsibility is to express an
+          opinion on the Funds’ financial statements based on our
+          audits. We are a public accounting firm registered with the
+          Public Company Accounting Oversight Board (United States)
+          (PCAOB) and are required to be independent with respect to the
+          Funds in accordance with the U.S. federal securities laws and
+          the applicable rules and regulations of the Securities and
+          Exchange Commission and the PCAOB. We conducted our audits of
+          these financial statements in accordance with the standards of
+          the PCAOB. Those standards require that we plan and perform
+          the audit to obtain reasonable assurance about whether the
+          financial statements are free of material misstatement,
+          whether due to error or fraud. Our audits included performing
+          procedures to assess the risks of material misstatement of the
+          financial statements, whether due to error or fraud, and
+          performing procedures that respond to those risks. Such
+          procedures included examining, on a test basis, evidence
+          regarding the amounts and disclosures in the financial
+          statements. Our audits also included evaluating the accounting
+          principles used and significant estimates made by management,
+          as well as evaluating the overall presentation of the
+          financial statements. Our procedures included confirmation of
+          securities owned as of September 30, 2021 by correspondence
+          with the custodian and brokers; when replies were not received
+          from brokers, we performed other auditing procedures. We
+          believe that our audits provide a reasonable basis for our
+          opinions.<br>
+          <br>
+          November 22, 2021<br>
+          We have served as the auditor of one or more investment
+          companies in Advisers Investment Trust since 2011.
+          PricewaterhouseCoopers LLP, One North Wacker, Chicago, IL
+          60606<br>
+          T: (312) 298 2000, <a class="moz-txt-link-abbreviated" href="http://www.pwc.com/us">www.pwc.com/us</a><br>
+          <a class="moz-txt-link-freetext" href="https://www.sec.gov/info/accountants/audit042707.htm">https://www.sec.gov/info/accountants/audit042707.htm</a><br>
+          <br>
+          *** A TRANSFER AND ASSIGNMENT OF LEASES AND RENTS COVERED BY
+          THE EXPRESSED GUARANTEES OF UNLAWFUL RENTS TO: "STATE FARM
+          REALTY MORTGAGE, LLC", ONE STATE FARM PLAZA, BLOOMINGTON, IL,
+          61710<br>
+          *** MANAGED BY: "STATE FARM LIFE INSURANCE COMPANY". WHICH IS
+          DISCLOSED AND MANAGED BY MR. RANDALL HARBERT IN THE ATTACHED
+          CENTRAL DEPOSITORY REPORT. STATE FARM VP MANAGEMENT CORP.
+          LOCATED AT: ONE STATE FARM PLAZA, BLOOMINGTON, IL 61710-0001.
+          HENCE I REFER TO THEM SIMPLY AS "STATE FARM" LOCATED AT:    
+          ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710 Loan 50074:
+          ASSIGNMENT OF RENTS AND LEASES CRFN ID.: 2020052000291002
+          #PARTY 1: SULLIVAN PROPERTIES, L.P., C/O THE ZUCKER
+          ORGANIZATION, 101 WEST 55TH STREET, NEW YORK, NEW YORK, 10019.
+          #PARTY 2: STATE FARM REALTY MORTGAGE, LLC, ONE STATE FARM
+          PLAZA, BLOOMINGTON IL, 60710 *** I DO APOLOGIZE, THAT IS
+          CORRECT SPELLING BUT NOT LLOYDS BANK OF LONDON. [I APOLOGIZE
+          IF THAT IS MISLEADING, HOWEVER THE SAME ENTITY FINED IN THE
+          PRIOR MATTER AFTER 3-YEARS OF DANCING AROUND] WITH THE APPEALS
+          AND EVEN IN TEXAS. OIG oversight helps prevent fraud and
+          mismanagement that diverts funds from those in need. Financial
+          Management. DOI has significant financial assets, including
+          ...<br>
+          SO ABOUT THOSE LEASES AND RENTS TRANSFERRED IN THE CITY OF NEW
+          YORK, NY, 2020.<br>
+          ALSO MISLEADING "not a gap loan" IT IS A CONSOLIDATED AND
+          SECURED BY UNLAWFUL RENT.<br>
+          PER THE REAL THE REAL ESTATE LAWS IN NEW YORK, YOU CAN'T
+          LEGALLY COLLECT RENT WITHOUT A [CO]. ALSO WHY JPMORGAN MADE A
+          WISE DECISION NOT TO CONTINUE AS THE CUSTODIAN TO THE FUNDS.
+          AS STIPULATION TO ADD MORE AUDITORS TO THIS SITUATION IS NOT
+          THE CORRECT SOLUTION EITHER...NOT COVERED BY THE NEW AND
+          IMPROVED OMISSIONS BY ITS DIRECT REPRESENTATIVES LURING THE
+          PERIOD OF JANUARY 1, 2021 AND JANUARY 1, 2022 - HAVE LOST
+          (-852,029,489.38) DUE TO GROSS NEGLIGENCE, FROM THE PERIOD OF
+          FILING [LAST] $10,164,850,238 - WITH LITTLE TO NO PROBABILITY
+          THAT "PRICE WATERHOUSE COOPERS" WILL CHARGE ANY PERSON OR
+          COMPANY $9,000 IN ACCOUNTING FEES TO ACCOUNT FOR $170,000.00
+          OF PROXIES AND TABULATIONS FOR N-COUNT OF INVESTORS:<br>
+           <a class="moz-txt-link-abbreviated" href="mailto:OCARequest@sec.gov">OCARequest@sec.gov</a><br>
+           <a class="moz-txt-link-abbreviated" href="mailto:dcaoletters@sec.gov">dcaoletters@sec.gov</a> <br>
+           <a class="moz-txt-link-abbreviated" href="mailto:IMOCA@sec.gov">IMOCA@sec.gov</a><br>
+           <br>
+           <br>
+           <br>
+           STATE FARM VP MANAGEMENT CORP. [CRD#: 43036/SEC#: 8-50128]ONE
+          STATE FARM PLAZA, BLOOMINGTON, IL
+          61710***<a class="moz-txt-link-freetext" href="https://brokercheck.finra.org/individual/summary/2992788**">https://brokercheck.finra.org/individual/summary/2992788**</a><br>
+              NAME:    HARBERT, RANDALL HOUSTON CRD NUMBER: 2992788<br>
+              STATES REGISTERED: Illinois POSITION: SR. VICE PRESIDENT
+          AND DIRECTOR.<br>
+          1.A. PRESENT AFFILIATIONS / OUTSIDE BUSINESSES DISCLOSED:    <br>
+          B. 2016-PRESENT, STATE FARM LIFE INSURANCE COMPANY     [
+          NON-INVESTMENT RELATED <br>
+                *** Sr. Vice President, Chief Agency, Sales and
+          Marketing Officer and Director<br>
+          C. 2013-PRESENT, STATE FARM AUTOMOBILE INSURANCE COMPANY  [
+          INVESTMENT RELATED] <br>
+                *** EXECUTIVE VICE PRESIDENT, CHIEF AGENCY SALES
+          MARKETING OFFICER **D. 2011-PRESENT, STATE FARM LLOYDS, INC   
+          [ NON-INVESTMENT RELATED ] *** DIRECTOR. E. 2011-PRESENT,
+          STATE FARM INVESTMENT MANAGEMENT CORP.    [ INVESTMENT RELATED
+          ]<br>
+<a class="moz-txt-link-freetext" href="https://reports.adviserinfo.sec.gov/reports/ADV/3487/PDF/3487.pdf">https://reports.adviserinfo.sec.gov/reports/ADV/3487/PDF/3487.pdf</a><br>
+          F. 2011-PRESENT,STATE FARM VP MANAGEMENT CORP [ INVESTMENT
+          RELATED ]<br>
+          *** SENIOR VICE PRESIDENT AND DIRECTOR ** 1.B. AIDED AND
+          ABETTED TO BY SULLIVAN PROPERTIES, AND ITS AFFILIATES AND
+          COUNSELORS.** [RECEIVED NYSCEF: 08/11/2020]<br>
+          STIPULATION TO AMEND CAPTION AND ADD "STATE FARM REALTY
+          MORTGAGE LLC" WHICH IS MANAGED BY "STATE FARM LIFE INSURANCE
+          COMPANY" AN OUTSIDE BUSINESS DISCLOSED BY: HARBERT, RANDALL
+          HOUSTON, AS A DIRECTOR OF [STATE FARM VP MANAGEMENT CORP.] A.
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Xjn0/e1NcBADqRc_PLUS_g11P4g==****">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Xjn0/e1NcBADqRc_PLUS_g11P4g==****</a>
+          EXECUTED ON 08/08/2020, FAXED TO THEIR INSURANCE "SEE ALSO
+          LEASE" EMAILED TO ALL MATERIAL PARTIES NYSCEF 153974/2020. **
+          I WAS TRYING TO ADD THEM TO THE CASE AS A RESPONDENT - THE
+          CLERK, JUDGE, AND BY THE WORK OF THE COUNSELORS OF SULLIVAN
+          PROPERTIES, AND WAS REQUESTED NOT TO CONTACT ANY REGULATORY
+          AUTHORITY. ** AS REFERENCED HEREUNDER, AT THE COST OF A MERGER
+          EX-POST TO AVOIDANCE AND OBSTRUCTION. ****ALSO ABSORBED
+          ROUGHLY 8.5% IN LOSSES -852,029,489 DURING THE PERIOD OF
+          "MERGER" AND THE CLOSE OF THE FIRST QUARTER IN 2022  ** DURING
+          THEIR "REGISTRATION" AND "MERGER" INTO A LARGER UMBRELLA OF
+          FUNDS WHICH ARE AUDITED BY THREE FIRMS *** I WAS AGAIN, TRYING
+          TO PREVENT ANY FURTHER EXPOSURE IN THE IMPLIED TERMS OF THE
+          LOAN CONTRACT ARE NOW HELD AT A LARGER INSTITUTION.<br>
+          **** THREE AUDITORS. 1. "PRICE WATERHOUSE COOPERS" AT ALL
+          TIMES WAS INFORMED OF THIS LOAN, AND THE NEW YORK SUPREME
+          MATTER OF 153974/2020 *** HOWEVER IN THEIR ANNUAL REPORTS ON
+          11-30-2020, 11-30-2021, AND MOST RECENTLY AFTER "MERGER" ***
+          HAVE MADE NO STATEMENT WHICH PROVIDES ANY ASSURANCES OF THEIR
+          OPINIONS, DESPITE HAVING BEEN INFORMED AND IN 2020 AT ALL
+          RELEVANT TIMES OF A CERTAIN LOAN WHICH CARRIES THE BURDENS OF
+          TAXES IN ARREARS. *** IN FACT IS CURRENTLY "STILL" AN
+          UNREGISTERED SECURITY IN THE FORM OF A LETTER OF CREDIT AND
+          INDEMNITY ON THE BALANCE SHEET OF THEIR NEW INVESTMENT
+          MANAGER, AND SUB-MANAGER. *** IS "NOT COVERED" UNDER THEIR OWN
+          BLANKET INSURANCE PROVISIONS &amp; INDENTURE WHICH WAS
+          EXECUTED THEN BY THE COMPLIANCE OFFICER OF STATE FARM VP
+          MANAGEMENT CORP.  *** [TERRANCE "TERRY" LUDWIG ][CRD 3231040]
+          UNDER THEIR NEW AND IMPROVED SYSTEM HAVE ALSO FAILED TO
+          DISCLOSE THIS UNREGISTERED SECURITY WHICH IS "NOT COVERED" BY
+          THE NEW IA AND FOR THEIR OMISSIONS AS ENTERED IN THE PRIOR,
+          ARE CURRENTLY AND CONTINUE AS AN OMISSION. 1.C. NEW YORK
+          SUPREME COURT MATTER 153974/2020 [RECEIVED NYSCEF: 08/09/2020
+          02:24 AM] *** VIOLATION AND FAILURE TO REPORT THIS AS A
+          MATERIAL AND ONGOING SUBSTANTIVE CASE, UNDISCLOSED TO THE
+          PUBLIC INVESTORS AT ANY TIME.<br>
+          *** NO KNOWLEDGE OF ANY PENDING LAW SUITS, LOANS, LETTERS OF
+          CREDIT, AND AT ANY TIME AS INDICATED IN THE THE CENTRAL
+          REPORTING DEPOSITORY MAINTAINED BY FINRA.<br>
+          A.
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=au8qh7Dn66hrVmJ9DX_PLUS_bdg==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=au8qh7Dn66hrVmJ9DX_PLUS_bdg==</a>   
+                  <br>
+          [RECEIVED NYSCEF: 08/09/2020 02:24 AM]<br>
+          B.
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=wTG2YD2PqXuxmoKqFiESrw==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=wTG2YD2PqXuxmoKqFiESrw==</a><br>
+          [RECEIVED NYSCEF: 08/09/2020 02:31 AM]<br>
+          C.
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=gcMSDaFzm0ynPeXZKSHgLQ==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=gcMSDaFzm0ynPeXZKSHgLQ==</a><br>
+          [RECEIVED NYSCEF: 08/10/2020 03:42 PM]<br>
+          D.
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVanEtcRioef3A==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVanEtcRioef3A==</a><br>
+          2.A. I INFORMED ALL MATERIAL PARTIES OF THE UNDERLYING RISKS
+          IN AUGUST OF 2020 AND ALSO PRESENTED THIS LETTER TO SULLIVAN
+          PROPERTIES,  ITS COUNSELORS, AND EXECUTIVES. [RECEIVED
+          NYSCEF:  08/10/2020 03:45 AM] A.
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=K9sgXcweC7esRoSPO8MNtA=">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=K9sgXcweC7esRoSPO8MNtA=</a><br>
+          [RECEIVED NYSCEF:  08/11/2020 12:35 PM] B.
+<a class="moz-txt-link-freetext" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=D9Td7IfWXyajw1tBNCFb9g==">https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=D9Td7IfWXyajw1tBNCFb9g==</a><br>
+          - THIS IS THE LETTER OF OBSTRUCTION I RECEIVED FROM LAURIE
+          ZUCKER, AND DONALD ZUCKER. OBSTRUCTION OF JUSTICE, ABETTED TO
+          BY THE SULLIVAN PROPERTIES L.P. AND ITS GENERAL PARTNER
+          SULLIVAN GP LLC, NOTWITHSTANDING ITS AFFILIATES AND
+          COUNSELORS.<br>
+          - OVER $6,000,000.00 THE STATE FARM INSTEAD OF DISCLOSING THE
+          LOAN, AND OUTSIDE BUSINESS - THOUGHT IT WOULD BE A BETTER IDEA
+          TO  ** STEP 1:    "CEASE TO EXIST AS AN INVESTMENT ADVISER" **
+          STEP 2:    "MERGE INTO A LARGER INVESTMENT ADVISER" ** STEP 3:
+          REPORT TO THE SECURITIES AND EXCHANGE COMMISSION AS
+          FOLLOWS:                <br>
+<a class="moz-txt-link-freetext" href="https://reports.adviserinfo.sec.gov/reports/ADV/3487/PDF/3487.pdf***1">https://reports.adviserinfo.sec.gov/reports/ADV/3487/PDF/3487.pdf***1</a>.
+          "HAVE NO DISCLOSED LOAN" 2.    "COVERED FOR OMISSIONS AND
+          ERRORS" 3. UNREASONABLE PREMIUMS AND INTEREST FOR A SECURED
+          "UNREGISTERED SECURITY" AND THE VALUE OF THE BUILDING [ 22
+          UNITS ] IN SOHO MANHATTAN ARE NOT WORTH $150,000.00 / UNIT...
+          NOT EVEN FOR A STUDIO. 2020-2021: Tax Bill   Q4: NYC
+<a class="moz-txt-link-rfc2396E" href="https://a836-edms.nyc.gov/dctm-rest/repositories/dofedmspts/StatementSearch?bbl=1005030011&amp;stmtDate=20210227&amp;stmtType=SOA">"https://a836-edms.nyc.gov/dctm-rest/repositories/dofedmspts/StatementSearch?bbl=1005030011&amp;stmtDate=20210227&amp;stmtType=SOA"</a><br>
+          2020-2021:    Tax Bill    Q3: NYC<br>
+<a class="moz-txt-link-freetext" href="https://a836-edms.nyc.gov/dctm-rest/repositories/dofedmspts/StatementSearch?bbl=1005030011&amp;stmtDate=20201121&amp;stmtType=SOA">https://a836-edms.nyc.gov/dctm-rest/repositories/dofedmspts/StatementSearch?bbl=1005030011&amp;stmtDate=20201121&amp;stmtType=SOA</a><br>
+          *** FAXED ALL THIS TO THE IRS / FINRA / SEC / AND ASKED THE
+          POLICE TO ARREST AND RESTRAIN ANY FURTHER ACTION IN 2020.
+<a class="moz-txt-link-rfc2396E" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=XiAuVPg0AmpwFMDLO0cMrw==">"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=XiAuVPg0AmpwFMDLO0cMrw=="</a>
+          ESTOPPEL: STATE FARM AND CEASE AND DESIST.<br>
+<a class="moz-txt-link-rfc2396E" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=s5WAeCnxmd/hcOI4eTnbig==">"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=s5WAeCnxmd/hcOI4eTnbig=="</a><br>
+          ESTOPPEL: THE ZUCKER FAMILY.
+<a class="moz-txt-link-rfc2396E" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Jf3Un/JaVXZwF7kvbaee4w==">"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Jf3Un/JaVXZwF7kvbaee4w=="</a>
+          ** THIS IS THE END RESULT... A LARGER BODY - WITH THE THREE
+          MOST EXPENSIVE AUDIT FIRMS "NOT COVERED" AND NO DISCLOSURE OF
+          A LOAN. - HOW WOULD THEY KNOW ABOUT THE "BULLETPROOF" STATUS
+          OF A "NONPLUSSED" TAX LIABILITY WHICH FOR ONE BUILDING OF THE
+          6 HAS NO CERTIFICATE TO COLLECT LAWFUL RENTS AND WAS USED AS A
+          FORM OF "GUARANTEE" OF PAYMENT. INSTEAD PAID NEARLY 1 MILLION
+          DOLLARS TO "CEASE TO EXIST AS INVESTMENT MANAGER" HOWEVER ON
+          THEIR WAY OUT FILED AS
+FOLLOWS:<a class="moz-txt-link-rfc2396E" href="https://www.sec.gov/Archives/edgar/data/0000093715/999999999721005616/filename1.pdf">&lt;https://www.sec.gov/Archives/edgar/data/0000093715/999999999721005616/filename1.pdf&gt;</a><br>
+          STEP 3: REPORT TO THE SECURITIES AND EXCHANGE COMMISSION AS
+          FOLLOWS:                <br>
+          --- FACTS ---  1. "HAVE NO DISCLOSED LOAN"  -REPORTED TO THE
+          SOLICITATION AND TABULATION OF ALL THEIR INVESTORS (170,000) 
+          2. "UNCOVERED FOR OMISSIONS AND ERRORS" - TRUE. 100% BUT NOT
+          REPORTED. 3. UNREASONABLE PREMIUMS AND INTEREST FOR A SECURED
+          "UNREGISTERED SECURITY" HELD BY THE NEW ENTITY - WHO MAY OR
+          MAY NOT KNOW ABOUT ALL THIS. "AS EVIDENCED IN THE LOAN ANNEXED
+          IN NY SUPREME COURT" ARE STILL "NOT AN ISSUE OF MATERIAL
+          CONCERN" PER THE SEC: UNREPORTED**
+          <a class="moz-txt-link-freetext" href="https://reports.adviserinfo.sec.gov/reports/ADV/3487/PDF/3487.pdf**">https://reports.adviserinfo.sec.gov/reports/ADV/3487/PDF/3487.pdf**</a>
+          HOWEVER**   
+<a class="moz-txt-link-freetext" href="https://www.sec.gov/Archives/edgar/data/0000093715/000119312521278180/d222043dn8f.htm**">https://www.sec.gov/Archives/edgar/data/0000093715/000119312521278180/d222043dn8f.htm**</a><br>
+          WILL DISCLOSE:    $431,000.00 PAID AND RECEIVED AS A BONUS,
+          AND HIS PRIOR INVOLVEMENT IN STATE FARM LLOYDS***. PAID FOR IN
+          FULL BY THE EARLIER INVESTMENT MANAGER [WHICH IS THE INVESTORS
+          MONEY BY THE WAY] PAID IN TO THE DIRECTORS.<br>
+          Total expenses (sum of lines (i) - (iii) above): $912,500<br>
+             2021-10                 ASSETS:             
+          $10,849,542,163<br>
+             2021-11                 ASSETS:            $10,164,850,238<br>
+          *** WHERE MR. HARBERT IS "NOT REGISTERED" AND ON BEHALF OF HIS
+          "STATE FARM LIFE INSURANCE COMPANY" DID EXTEND A $6,000,000.00
+          HOWEVER UPON NOTICE, WILL <br>
+          *** SELF-DETONATE.     PAID NEARLY 1 MILLION DOLLARS TO "CEASE
+          TO EXIST AS AN INVESTMENT MANAGER" AND TO AVOID THE FINES
+          WHICH IS HE IS FAMILIAR WITH AS A DISCLOSED OUTSIDE
+          BUSINESSES: ** [NON-INVESTMENT RELATED] AS THE DIRECTOR OF
+          "STATE FARM LLOYDS" FINED $352,500,000.00 IN 2015  ** WAS AND
+          IS CURRENTLY EXECUTIVE VICE PRESIDENT, CHIEF AGENCY SALES
+          MARKETING OFFICER OF "STATE FARM AUTOMOBILE INSURANCE COMPANY"
+          2013-PRESENT,[ INVESTMENT RELATED ] AS THIS ENTITY "STATE FARM
+          AUTOMOBILE INSURANCE COMPANY" OWNS 75% OF "STATE FARM
+          INVESTMENT MANAGEMENT CORP." ** PAID NEARLY 1 MILLION DOLLARS
+          TO "CEASE TO EXIST AS AN INVESTMENT MANAGER" <br>
+          --- MISLEAD INVESTORS TO BELIEVE THAT PRICE WATERHOUSE WILL
+          CONDUCT ACCOUNTING FOR A $10 BILLION DOLLAR MUTUAL FUND AND TO
+          MERGER FOR A TOTAL AMOUNT EQUAL TO $9,000.00. AS THE SOLE
+          ACCOUNTING FIRM REPORTED IN THEIR ANNUAL FILINGS IN THE
+          2020-2021 FILING PERIOD... *** 2020-2021 ANNUAL FILING<br>
+<a class="moz-txt-link-rfc2396E" href="https://www.sec.gov/Archives/edgar/data/0000093715/000114554921006167/xslFormN-CEN_X01/primary_doc.xml">"https://www.sec.gov/Archives/edgar/data/0000093715/000114554921006167/xslFormN-CEN_X01/primary_doc.xml"</a>***
+          2021-2022 ANNUAL FILING
+<a class="moz-txt-link-rfc2396E" href="https://www.sec.gov/Archives/edgar/data/0000093715/000114554922006149/xslFormN-CEN_X01/primary_doc.xml">"https://www.sec.gov/Archives/edgar/data/0000093715/000114554922006149/xslFormN-CEN_X01/primary_doc.xml"</a>
+          ... WITHOUT BAND REGISTERED IN THE STATE OF NEW YORK TO
+          CONDUCT ANY FORM OF INVESTMENT BANKING IS ALSO NOW HOLDING A
+          NOTE THAT IS BEARING THE TAX LIABILITY, AND AVOIDANCE TO
+          PROSECUTION WHEREBY THE PREMIUMS AND INSURANCE COLLECTED ON A
+          LETTER OF CREDIT... HOWEVER "INDEMNIFIED...<br>
+          BY "SULLIVAN PROPERTIES LP" WHO HAS ASSURED IN WRITING THAT
+          THEY WILL REIMBURSE "STATE FARM" IN THE EVENT OF A DEFAULT, OR
+          LATE PAYMENT.<br>
+<a class="moz-txt-link-rfc2396E" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVanEtcRioef3A==">"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVanEtcRioef3A=="</a><br>
+          +++ I SENT THIS TO THE SUPREME COURT JUSTICES INDEPENDENTLY IN
+          NOVEMBER AS WELL, BTW. NOTICE TO STATE FARM:   
+<a class="moz-txt-link-rfc2396E" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=n_PLUS_CvSQR36fqPKko6L47FFQ==">"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=n_PLUS_CvSQR36fqPKko6L47FFQ=="</a><br>
+          +++ NOTICE TO STATE FARM:
+<a class="moz-txt-link-rfc2396E" href="https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=H4jMXghoLMU1ozmlj4VYHg==">"https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=H4jMXghoLMU1ozmlj4VYHg=="</a><br>
+          +++ ADVISERS INVESTMENT TRUST: FILE NUMBER 811-22538<br>
+<a class="moz-txt-link-rfc2396E" href="https://www.sec.gov/Archives/edgar/data/1516523/000114554921074536/xslFormN-CEN_X01/primary_doc.xml">"https://www.sec.gov/Archives/edgar/data/1516523/000114554921074536/xslFormN-CEN_X01/primary_doc.xml"</a>
+          [CIK NUMBER:    1516523]<br>
+          <br>
+          <br>
+          4470740 - STATE FARM INVESTMENT MANAGEMENT -2992788<br>
+        </font></span></p>
+  </body>
+</html>
+
+--------------1LfqI54hvD0QpBI0DOjquWXk--
