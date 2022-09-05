@@ -1,0 +1,144 @@
+From - Thu Jun  2 19:24:33 2022
+X-Account-Key: account1
+X-UIDL: APtbS5EfgfJHYplTnwwheFjYnlg
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.230.152
+ by atlas220.free.mail.gq1.yahoo.com with HTTPS; Fri, 3 Jun 2022 00:19:43 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.211]
+Received-SPF: pass (domain of github.com designates 192.30.252.211 as permitted sender)
+Authentication-Results: atlas220.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 3 Jun 2022 00:19:43 +0000
+X-YMailAVSC: YAdrbKE3bBu5PVWQxDSep4qChUBLlnPJH5UDuOJNLmUPwXh
+ 5ZZvCa47rmIHZhsjqD32geZf3tNHcW4ACNji5ufV91iEjUAJuG9BtWY3WQpj
+ TlwMyOTE5bz6jp160dUn3T529.QJxsTvuPPuPlZY853Ogghv5JlR1LXb9YXG
+ .W79uNf5DfWhYXPM1H0hU4UmxnKIfOaLAqEiAuX6wSlUaOGZdl56iHssM8GO
+ bVlCE4S2CU.p2oIBxnoJlFAYE_yghFot.6MQhsFEeyKqkdqBQtKjWbVBHb5U
+ DvwPVfuvMloGdT52rMkkdRQ1sGbhHZgBzJDE8zvn6pAaieKVenilxndc3kA-
+ -
+X-YMailISG: ijYw9dAWLDsxeDEeOLKZNCNwk8xLFdj06PYd5RCLNnh3Gpps
+ N3rNat5NOpITdlynU30tUJrD1z.Epvqqkxbm1XFQD7o4u25.wMlqQmCk9asd
+ EbFbKYV0SXIA_Xmi7wCVbM3gDjyPjjJpyAA2ZghcvvqD6kenvRHxf6hzFi1j
+ FbsLbBw5Fh8__xVbBuKGYumTJJ4cO0t09M_J4NLUCyLkOIr5_QIatR0hcC4A
+ u9l6JW9FQDLnobBDQpKhh9HA3mLBBIfLpZeYqWhGF.xw4psiFI5sUiFUqSND
+ E3oMYjiJSCi5iKMFjXcO8._AdVSshOpOwdUbOJgUTC1MGJIJmwz.PT9NKB5k
+ qmfJ75N7PtC0KeJYhjPeiX6Juk4q0vWDbgmtQxhp9bIKE0eu4SMDMBUUI3YU
+ sKOUZSjmMLbe98QB8_exIeh6MlS3wGohWUN9HPG36fbgQLSV6qfZ.cn96dkm
+ HyPEFnhaNU8XDxUBFphdO_QGoK.LlmCN1FJAladx7fnSFznIExuv.rlLwELX
+ 8BBErxlO6AfRP7xYDyvkF2muR8Ri0jXK5YK.JeVuaKccd2SOjN1FubKKyT5X
+ KBoL_bRycUhr0t3CI_sYpTykpzmfwOrQTQiSOjzQXlipvLv26iQglXVL5vzW
+ Pt_hf3JCpCI0gb.iNRWBNs8O5dm6Yg3TcWc.muJ4ya2ADnb2iHwHmD9M8NXQ
+ RKRJib1syThyBQrGyHZyVr7D35xULfisMt5t1vSRZnqCzyxpuxbKG7hDVoL3
+ pHw8dRmAyTWjxR_pb1aCOZP5JtOpQh7aUHcYYqmv3isXCvRsg8Tuw3fZo3lp
+ Hc_dWPcHKDB45MRS_PwWhYsCOFw8AW4dsH1Xjg86syEdoVZeyuV56j0Dp5Mv
+ Zmt7QAQnI94WXe0zzRlRv03dHBQRgwH40k_ZUw2tIZ1KRk.rhazls6pXTCHo
+ OYyTr4rNIJMFiR24PdqRnBVB3L8VGsuE1rLAM0U4mczeqWy7p2UzwC40KHv1
+ xeIPRV9ioYzJfdaLGmBn_P9fle5qpKn7XmRcpuKUupojJ_CkwTNS9bIOylMC
+ MgeP3Kxj7.8ztvv0zSSr2MqBHHERMq.0GEiCAactS66nKATkNAOqLRN0fIRz
+ cAIZgR_noZDZgf7cNbZf.9STj63Mh.9z1QnPRgwB8a6s6UuNVxbtKzNnINQt
+ XlGGZMOuoQhKtopnlcqOUg--
+Received: from 192.30.252.211 (EHLO out-28.smtp.github.com)
+ by 10.253.230.152 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Fri, 03 Jun 2022 00:19:43 +0000
+Received: from github.com (hubbernetes-node-b2a3a9e.ash1-iad.github.net [10.56.224.22])
+	by smtp.github.com (Postfix) with ESMTPA id B14599001FD;
+	Thu,  2 Jun 2022 17:19:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1654215582;
+	bh=QrRZtaFKwi8HS2aq2wunuiswzjACgYMpuoP+m0nU/DI=;
+	h=Date:From:To:Subject:From;
+	b=kOZIKX/csFjGFkoPHApbWaW+xn1vRaWLASd3Ml+U7bT7K59nOI6gxCumCjkJ9zrnd
+	 H3/MSUuucrTXrdoMkG4+Pt6dAAQtGA+Mebn5EafEl5DzdhJfE9g90wEl6TLz95Kk/V
+	 RnNdZ+hlR4Qt7U9swhNxb7/valW0g3z7jLH/EdZk=
+Date: Thu, 02 Jun 2022 17:19:42 -0700
+From: 1212-5858 <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ fed-mmkt-ops@bloomberg.net
+Message-ID: <BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/push/refs/heads/93715-CS16-93715-153974/c4c86c-ad35a2@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER] ad35a2:
+ https://www.youtube.com/watch?v=0EnOhpMRgwg
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: C16-93715 OBSTRUCTION STFGX - STFBX - SFITX - STATEFARM
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,fed-mmkt-ops@bloomberg.net
+X-Auto-Response-Suppress: All
+Content-Length: 3106
+
+  Branch: refs/heads/93715-CS16-93715-153974=0D
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER=0D
+  Commit: ad35a204b4d6a3402bd1057241c4c9438d6da2bb=0D
+      https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/commit/ad3=
+5a204b4d6a3402bd1057241c4c9438d6da2bb=0D
+  Author: 1212-5858 <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github.c=
+om>=0D
+  Date:   2022-06-02 (Thu, 02 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    A 117 sullivan street - no certificate of occupancy BIN CODE 1007779 =
+--- GROSS INCOME 653338.JPG=0D
+    A 117 sullivan street - no certificate of occupancy BIN CODE 1007779 =
+BLOCK 503 LOT 11 - 1 STRUCTURE.JPG=0D
+    A 117 sullivan street - no certificate of occupancy BIN CODE 1007779.=
+JPG=0D
+    A 2020 July 28 - Semi Annual FILED.JPG=0D
+    A 2020-0239-S -- FURTHER REPRESENTS ea20201030 p2.JPG=0D
+    A 2020-0239-S -- FURTHER REPRESENTS ea20201030 p5.JPG=0D
+    A 2020-0239-S -- FURTHER REPRESENTS ea20201030.JPG=0D
+    A 2020-0280-S -- FURTHER REPRESENTS ea20201030.JPG=0D
+    A 2020-0280-S CAPTION.JPG=0D
+    A 2020-0280-S FINES REGISTERED.JPG=0D
+    A 2020-0280-S UPON BREACH AND A DEFAULT OF REPORTING OBLIGATIONS.JPG=0D=
+
+    A 2020-2021 NO CERTIFICATE OF OCCUPANCY LWS.JPG=0D
+    A 2020-2021 NO CERTIFICATE OF OCCUPANCY.JPG=0D
+    A 2020-2021 NOT VACANT.JPG=0D
+    A 2020-2021 TAX COVER.JPG=0D
+    A 2020.08.09 - FILED - DOCKET 312 2020052000291002002S32EE.JPG=0D
+    A 202011031.JPG=0D
+    A 2021 Nov 13 - indefinite option to CROSS.JPG=0D
+    A B.14 -PROVISION OF FINANCIAL SUPPORT - (4) LETTER OF CREDIT AND IND=
+EMNITY (5) CAPITAL SUPPORT AGREEMENT.JPG=0D
+    A B.18. REPORT ON INTERNAL CONTROL OF ANY MATERIAL WEAKNESS BY PRICEW=
+ATERHOUSE COOPERS [PWC].JPG=0D
+    A BROKER COMPENSATION AT MORGAN STANLEY.JPG=0D
+    A BROKER COMPENSATION AT MORGAN STANLEYS.JPG=0D
+    A DOCKET 312 - had to be refiled - FOR UNREASONABLE CAUSE.JPG=0D
+    A EDGAR for PERIOD ENDING 2020-11-30.JPG=0D
+    A MULTIPLE DWELLING LAW SECTION 103.JPG=0D
+    A MULTIPLE DWELLING LAW SECTION 301 REMEDIES SECTION 8.JPG=0D
+    A MULTIPLE DWELLING LAW SECTION 302 ILLEGAL RENT COLLECTED AND NEED  =
+BE RETURNED (A).JPG=0D
+    A MULTIPLE DWELLING LAW SECTION 302 ILLEGAL RENT COLLECTED AND NEED  =
+BE RETURNED (B).JPG=0D
+    A MULTIPLE DWELLING LAW SECTION 302 ILLEGAL RENT COLLECTED.JPG=0D
+    A MULTIPLE DWELLING LAW SECTION 302.JPG=0D
+    A MULTIPLE DWELLING LAW SECTION 53 FIRE ESCAPES.JPG=0D
+    A STFGX - STATE FARM VP MANAGEMENT CORP SEC FILE NUMBER 008-50128 - S=
+TATE FARM FROWTH FUND.JPG=0D
+    A TRANSACTIONS REPORTED IN 2020 EDGARS.JPG=0D
+    A TRANSFER OF BLOCK 503 -- LOTS [ 1 - 6 - 8 - 9 - 10 - 11 - 12 ] - Co=
+py.jpg=0D
+    A TRANSFER OF BLOCK 503 -- LOTS [ 1 - 6 - 8 - 9 - 10 - 11 - 12 ].jpg=0D=
+
+    A _CREDIT LINES MHARVAY.JPG=0D
+    A _FAMILY - OF STATE FARM INVESTMENT MANAGEMENT CORP.JPG=0D
+    A _custodian.JPG=0D
+    A comparable sales.JPG=0D
+    A =C2=A7 302-a.3.a MULTIPLE DWELLING LAW  - each resident entitled.JP=
+G=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  https://www.youtube.com/watch?v=3D0EnOhpMRgwg=0D
+=0D
+FOUND THIS VIDEO AS WELL.=0D
+=0D
+=0D

@@ -1,0 +1,93 @@
+From - Sun Jun 26 03:59:54 2022
+X-Account-Key: account1
+X-UIDL: ADtxqc1fC5lKYrgf7wxvmGx6Te4
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.34.75
+ by atlas111.free.mail.bf1.yahoo.com with HTTPS; Sun, 26 Jun 2022 08:59:27 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.201]
+Received-SPF: pass (domain of github.com designates 192.30.252.201 as permitted sender)
+Authentication-Results: atlas111.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 08:59:27 +0000
+X-YMailAVSC: eyYty103bBt2z6M5ubUNLZD00zp7nb4FyGVmYsbgmtgmtZM
+ ewXYm8LV7LBWSwXdLu_D6GMRWx7P1zWMn9pKA._jDdcSmRdT6QV7niOHxPVp
+ E4Z.KS0D7c1fPdQ_nNAeBGT.20S_OHQrzhHm3I4yYDFxmvhLPhJTnTk.g6ql
+ RpSsKU4OltAv29aeljnHcNeUsQd2kSaQV5Q6oZVURGD6xhJNDus290tQ4gSF
+ 11BkLNgqb6jas5ZAivqdQOB_rOt0CN4n9__cRo8Y7f3k_7ICjdzKIWR7oO3g
+ aZDZfHIPfH8QXa40cn9OHE.RNVRFfxqd5G2B5WJdayqzmVVp8eCGnGbkffxR
+ .
+X-YMailISG: 40xHJPkWLDtkj.Nb4DjVNru1pHI5Kge18UEGL8dyeJpcKt3Q
+ a.gnXGyYlTRHsUecXL.M2vT3yavdvqwrcA7MwoJ6RaneahOfgLLNksDWPPzd
+ 328GFUD0m0p8rpzm01K.ch5ItH..4JCxTQyUnvGCDQ0TP0kYd2CWWpA8HgKD
+ jgd9opMh98eMojmzj5vvnRXf6Wt9.QO50whWpwHECV5iv8q7P8qpP0YaXJGh
+ 3Ou5YRzUcJMq0i0leds1Tex1xXttiVr51ETelXZJizCW5MV6K1Y04ow3tftw
+ NMEgmOmO3tDtQTGzObUmDmGqAcQzo.Je5529Gk13l.OuCt_afpF.z1AFydkY
+ 7rdfZwr7mUashbkLfKplZ9U8lBPJ2e8Ufl_ERVoET1b2UyW2xzyim3I2Sck7
+ GNFq8iErVt77KOKxS59z.FKBE_UK5rLOZVfSuOvGrPw5S9Vqd6bPzOxrXSDJ
+ fYV1O4ZQTThhft6E.ppm5X9HQUz8L3W4hnEV3WUDntSAV4tfUlj3TnFKpcM3
+ hOyqwb.Bf20lgYUSWhwu92MAdJy8YMkj4L8YVLpXXX7cpt4rp.i9GdXp2NIK
+ lau2ZtAt0h7SO3OodavtMq0aNrWs2K8pzDkczhbD9OH9dlNwndM2ALOUzA77
+ YqKMySGtvu79QDDTMZeh7.RnXv0GcslZZkxMnVSWPDgIeKljsYZUAfBBlx_k
+ K_wUSACx9uvNtUg0Vev7_5U3lzyHMQFBX.bCtPJ5wlqn374iDUPz1LpwS.PC
+ lCry4RR2dud8snmH1jaG2LTiaKRr.2dNFjqYGf9mbOEEqfeUx4i1GfaqdncQ
+ W16Gnbh6629CdhCkyskVxQIRsAQLy4zS736BdCYi7Josnyc5seEvZrtUbOs3
+ FRrKhTLdCNBDLUH1s5SUldieBtRukPf3pcmyV0f0mdcb9Z79_zy7QaSOGbah
+ TMqdUAHe0SQbjyQGGUnwh3tBrMiAEwkph66K8D2OMBsLBY34ggatx4pqe7No
+ fAhEnGeu75KNPCg2AkECCzeF2L1fWJSBzvdda2Cj9ysiwVIfGxt7s.s6HO2M
+ fuyFsZrdOJBsA9mjGzf62_FB.fVrWhpoJ6A_EOGMJcpghy3Mg_YaPGfW5OSs
+ u9cHKZLe3JR.K4Jfh.FU8Gn9.EIqrSJxtsZGN7PVoavGIl.aqYTIKwITfb0u
+ UE0O9y8AqvjlpyeCALIcJauMRUj8AJpAofpSYN_i6Q--
+Received: from 192.30.252.201 (EHLO smtp.github.com)
+ by 10.197.34.75 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 08:59:27 +0000
+Received: from github.com (hubbernetes-node-501e09e.va3-iad.github.net [10.48.125.105])
+	by smtp.github.com (Postfix) with ESMTPA id 67D463402FC;
+	Sun, 26 Jun 2022 01:59:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656233967;
+	bh=feZxTD6JdCxXWIlJmMOo7YCpnDDXQMDFrAklv2bAc0s=;
+	h=Date:From:To:Subject:From;
+	b=MHBHfbjbrC3duO2GNSZc4FZ2x77hghL7yWTaup8At/MkGTvCWIDGm62sjRZ+/zm0/
+	 x/SsmLtN3arjLznaHWfIQDkTroVzX751XP1nXTti07SEoFgqtbZ70HnC8Czf5Fv2ZU
+	 ryUme0A7Hk3BMAmk4bNriK2M1vh+XA1sgeXY4cBM=
+Date: Sun, 26 Jun 2022 01:59:27 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/2aa609-38dcd9@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 38dcd9: [DOCKET NO. 309](https://github.com/BSCPGROUPHOLDI...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 933
+
+  Branch: refs/heads/main
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER
+  Commit: 38dcd9a453c85b68d1f352831c55527e7df1c516
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/commit/38dcd9a453c85b68d1f352831c55527e7df1c516
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>
+  Date:   2022-06-26 (Sun, 26 Jun 2022)
+
+  Changed paths:
+    M README.md
+
+  Log Message:
+  -----------
+  [DOCKET NO. 309](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8608700/153974_2020_S__309.pdf)
+
+TO SATISFY USC 18.2, 18.225, AND UNDER 18.21 - WILLFULLY AND KNOWINGLY TRIED TO OBSTRUCT THE MATERIAL FACTS FROM BEING KNOWN BY THE PUBLIC
+
+[DOCKET NO. 309](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8608700/153974_2020_S__309.pdf)
+
+

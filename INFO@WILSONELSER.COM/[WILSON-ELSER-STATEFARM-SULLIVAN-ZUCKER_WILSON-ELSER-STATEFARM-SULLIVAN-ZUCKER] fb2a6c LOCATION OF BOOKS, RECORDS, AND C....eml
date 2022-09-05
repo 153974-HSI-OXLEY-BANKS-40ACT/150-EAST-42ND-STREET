@@ -1,0 +1,95 @@
+From - Sat Jun 25 22:46:25 2022
+X-Account-Key: account1
+X-UIDL: AMxMnwwf/WOmYrfWFwKf4Lq+Zek
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.32.201
+ by atlas112.free.mail.bf1.yahoo.com with HTTPS; Sun, 26 Jun 2022 03:44:22 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.206]
+Received-SPF: pass (domain of github.com designates 192.30.252.206 as permitted sender)
+Authentication-Results: atlas112.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 03:44:23 +0000
+X-YMailAVSC: o1Oc99E3bBtk9GJDXBDbQyKQJMNg1cJNM5A8yiCJYcgwu6A
+ 1ALDW1OiWMGh6zRhvNMoCFcwo6.VXUwqQjf1NkbMkPTIqUog0nCcdLIhy7Rs
+ nucAQt5WvMR1qSe8IgrkY_HE9Tp2g8CR9G8WsfykurOhDexuseKNPQrAJYDQ
+ jYBpOlZxNlDBKBlVOW47Ne1yFZrkOKpM5OqJew2Zz7jMH1glNEOpPBdbKMPl
+ 5J7QgJ9juvbqWfofP5pJAjzjH6FxR8ohZ.Ny_dx7shMJWi1B1MyS1NbUuI.U
+ mG3A0MujhMZCuTjvD6KsEBD7zo9OrpLM76TCHU0Eb5HI98LMYtUMbLxkzAOp
+ t
+X-YMailISG: T.rpXfwWLDu1uarPD4UW96Zr6Q9pC8gME4_Ec6NjONFZYJZE
+ imYXRux1RNRI9KdPEg4RXjgrx8Viwtt8XJ.aywh_kZ4Ya.2TqnD.LCk42yiS
+ gATUv.HNzlpiDZ6Cj1KW2eimZD77eft08TJP61IGitwz.q5k2lElEQESrRUP
+ ek0HPoaD4jucrpOvzyfnwQrAJPDnhc7alT_2EN1vukziQDSMinQg_JoAOBdi
+ MSXl3rWE.E9ftRlVaX5pqr5xZSj5gbURQCLpAP06gJzICZqxCOK7VYts1rs5
+ r5N7dIR3XKhCUhxgnRT6myzgxOl41XRrpXOKXv_1gmBC6wbeZdAmUnNs4R5g
+ H4heQkwq0TfY1wLpAw7JQv5iKl6mxQfdiR.hcC9hUfTbuc0yxp_PNvhj9HWU
+ 6ace.s3X8ky1kmZeeS2v2bIoiRXmNhTbunoxl1yGNz2emurxe6qXRRQgGI4b
+ H2XO.TvfRGbI3mBE2OV_9fMdJAxduMq4LcAvW14q8qfdTQO9uNnkT8yshqxg
+ S503LRDmOUOwMCR7PNRpxkI2huYshRy2Hhzbs1pDWY9VluVDRTU8Rj_dyJ7r
+ eBMik7p3dyOMV2_k.p43AyGm0biOT74nwgel_M1aqyWv8mu1x5uOoaFwHqq9
+ H5CJQWJKO_.yq9zgp6HLiv9Iyjj0zWkz0Y9cRIqCSZRhZMmqTij13zTM7DYF
+ q2Z68gSWuAXKyke9JyOSob0I9tzBWUOY7OyAqfmjdcdFJH1C4qF13e4LM79Z
+ IqwCsikKdMt5obLHBrUOPXBjtjr.VOEXXIychH0SMy6IH2y8MvYWG88Fyt.J
+ oMXHI.MbOHtYWgBMqiAe0OeFNaA49OasrVAExVXT4vSkNbojhBZOTSRaX78l
+ KXs5VEglmnIBol7Yqu_qB_bnlhJV7xorsndpHzyCwmGkIgpy.gOoe4RTne8E
+ KfnhRRuAqHzpx7fB0IcLsF3zSGRbISO8LFB50RyshMwDBBsisTEsnOKhnRTk
+ IpyR9kvz25HWgcXh3i8bsp9yV4kB7xD5tiHaTlBVnMFU_D8BKsDBJRntzgmF
+ ypqQMBHQpjv39ZI5edQShbe2BS0WiyKXcHRASMlJxo0lJTRr.vQol1p42AqB
+ cx0ZBFzVBz7ckCvjtANg6ynn9cPGwdQoSCHsB78n
+Received: from 192.30.252.206 (EHLO out-23.smtp.github.com)
+ by 10.197.32.201 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 03:44:22 +0000
+Received: from github.com (hubbernetes-node-01a734a.ac4-iad.github.net [10.52.207.46])
+	by smtp.github.com (Postfix) with ESMTPA id C4859600106;
+	Sat, 25 Jun 2022 20:44:22 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656215062;
+	bh=DX6cmr1Bw4E0OiAUKbeU7QXmClCYrSzO1/PqDXJpHJo=;
+	h=Date:From:To:Subject:From;
+	b=L8nOIhZEL59ROV9WOKOUvcE/0OO+GSivmvwzJ9m3eYikk8ME5tf6A2QUZztVwUwXi
+	 GH4GfAw9Bwmf+it9a5gDmdFGwEK9aEcbnRJo905FDjqBLPFHJ//gcEFtW+9kOnFL6K
+	 8PACyN+8fvLMxnf4elDD9/Ld/E6PnHPzVWaeaSAU=
+Date: Sat, 25 Jun 2022 20:44:22 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/27cf12-fb2a6c@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ fb2a6c: LOCATION OF BOOKS, RECORDS, AND COMPUTERS: SCCS@CO...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 864
+
+  Branch: refs/heads/main
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER
+  Commit: fb2a6cd35fd9fd96b62ac21c49d45b45d7207a99
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/commit/fb2a6cd35fd9fd96b62ac21c49d45b45d7207a99
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>
+  Date:   2022-06-25 (Sat, 25 Jun 2022)
+
+  Changed paths:
+    M README.md
+
+  Log Message:
+  -----------
+  LOCATION OF BOOKS, RECORDS, AND COMPUTERS: SCCS@COLUMBIA.EDU ( LIST SERV ) LIST SERVERS...
+
+Lewisohn Hall
+University department in New York City, New York
+Located in: Columbia University
+Address: Columbia University, USA, 2970 Broadway, New York, NY 10027
+    
+<MOV DISTRIBUTION WITHOUT CONSENT>
+
+

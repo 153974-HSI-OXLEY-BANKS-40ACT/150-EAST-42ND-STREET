@@ -1,0 +1,188 @@
+From - Sun Jul  3 14:27:53 2022
+X-Account-Key: account1
+X-UIDL: AGOpL0BUrzStYsBZQw5fsAqAZUA
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.130.80
+ by atlas118.free.mail.ne1.yahoo.com with HTTPS; Sat, 2 Jul 2022 14:42:11 +0000
+Return-Path: <CHRISTOPHE.LEAP@nypd.org>
+X-Originating-Ip: [40.107.91.120]
+Received-SPF: pass (domain of nypd.org designates 40.107.91.120 as permitted sender)
+Authentication-Results: atlas118.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@nypd.org header.s=selector2;
+ spf=pass smtp.mailfrom=nypd.org;
+ dmarc=pass(p=QUARANTINE) header.from=nypd.org;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 2 Jul 2022 14:42:11 +0000
+X-YMailISG: u1ZzkngWLDuesxvfVooPs1E9BnWXsse_Bom.pGDTyjhwqJnN
+ TpFj6cdfvyFaCi0YpzXsNiKAVanxe8UAdd3.fsYlP2T2unC1jIC.HtF0l2cN
+ CNjkKrrYkofPA4d6a4wmSIzJXUB50b.8mBPQ_jntldZMnSUwj1xyPh6QcAHL
+ EfzBeiRCBZ2RyXhNg940CDq8t_zkVtHL9Y386hYxHq9mdFLXZuaP.MDDYvHi
+ oo9eF2ih7BDRLOyB3wamp6e0DmCOS1nKz6J0QSasKfe.lQPZP8d8Ou9fnddF
+ F5x.iG3_J2w9hjzW5Ylu3iqLoCeuJMccpm3n_SX6WEg0oWF08qbDJgBn_G5R
+ PcVJNAooHQUaJ2woN54iC.dbOh3ILNh7AHcfbPWw8841FOznC3xVSyqILJ0a
+ _IXkmOjqJxPCphmPjl.Jsb4rFmB_LFS5Bd3XBq9lHfH0OiiYarM5hW6qqugW
+ XSOTZ1mZAQTu3BvaI9UazyiOy_RH9K3PiTopWuWC8jWCyR2M54EAHL0ADygT
+ gxeacFh2sHM4FZrQ_BXlqwHRqrQkLgVXGv.M8fMfTxL3AaOlMTvt76f1i_EW
+ wR9xt5YRUySg8pvDKQpUwiHtfQ9HSLBJgUSAn9kbsgA50r72cIimZDncXYvw
+ jfSKoSiNFVcOoWfqHFkjedY7rISHi4NRLcTUfeomx8rGeFfPh3or3s5m7bYE
+ 7BXX6kkZdJv9HnXBNDcfPJ2zkDpm8D0WJ1HBWmi9TJxnIM46MNX9iXF9hKeN
+ SJjqObqq4wArvvPgi.fCyAvr1D7nVvkX54IWaFfXGI1Tdu3OCssTER.oK3kO
+ zSwEFgvN4USTGEbEteiF_Eanj1VPgmbjC48KfcuqJNoYjCibNMSlMXr2aKEQ
+ tkeVnFV9HKtTNkPCRZkV9nxzRA0.RQ6xYMP7XZX17bUepcyMStvHWJRyEntz
+ KZIMJsnyNLnXMn1gwhscK15ekfj14rVKvtC3lesvGHA_oTW7K_huJ.fLJpxV
+ aZeaNF_xHGDrseBRbQzwmVyS9oxB_C6ZiGcPh.Bv0Ov8N3e10KmTi_zRvl7.
+ uWt4iax8.Q27ZWUWgO0dlnIDzM5p5x7z30bT7Tkwg33xMLWl5UPkeNZ.cden
+ offEw9.vO9MWMwHuPFhHZwQ2QfAiiT8CdP3sS8yFOx7tEEfWzxQ.QeXFO0WU
+ E5dBvUy_UupL3Z3kEgZOO5XsZCo5hwa5FsZrjRQKQgTzBwWbUlCIe5GIQLsA
+ s5SbeFkhMIYvshhlQQm0wRD516_76xoTykI4uqqQ0xs_Hli.IiZcXTOa7QB4
+ z3VW8eOkkBVK6t0QgZYO0l5HEIp85prf9rCD1_PZIBe9TkBT24d91LuWSckx
+ WA--
+Received: from 40.107.91.120 (EHLO GCC02-DM3-obe.outbound.protection.outlook.com)
+ by 10.217.130.80 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sat, 02 Jul 2022 14:42:11 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=RO9iRaAHEAQIATzuxPtX3IIQImWafKfggMNfUjgbZDWx4JKaDu3Ir50ve0Oq7h28dIfzbZNI6RPkvuXppbDf/BhGF2Jpi4glMlAN3YC763ID47CnX77EmWq+FnIYlwm0OFlcC8pmhjK/7IrlCrFSZXbBckbJ+waaJEu3QlqOZ1NJKyCXObQ4K4pS0ZD3TuXDgH/Ijel2bft2yXxvkiyKJsnaggP5ajuzYGgXJtK7MKTavBIA/OMod3ql9S2xB6EwPgHim6JYPaksyyRB66tGUpy1vW+kGYLDeJ2U5TCinjv9t9q1h2RsdIF4C2UM9zdIctdxKp03WBUYpRA3Bk6WOQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=tzkGwi2bKsMmWR6lsPJAkJpS8A686QbvxJlNuFgZlVQ=;
+ b=W7e0lAlcPm4SjM1rlxbhKTRgyF/hbjU0/IzJczDR4+FhF8C2479Es0/hfyTAwIyV2ZgiDBgJ9hGcN5FSSZEb9OyrfgZ40Lae2hBbq2D20Nbeke3QB/PfNRaJzSQ0hDLiqGZRDxWI9KwnrY7FLUzRlYXR5mFTc7/B4qzVCfC3llCiEwrOdaO9vaZHMLdXbwARzlBkPv4AxhX6iYEeBha7Skplg6By0IQwIZII0VBpVCiO87EXy9KSWbUM9GtSh9ehlccr9f9QXjyJvQ1Q4RYA0IIllmDKIP/4Gqtv/tuG9dhn3TWPr7OkX21q7mJehs2bSD554pivAUlWzz4p9DANMg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=nypd.org; dmarc=pass action=none header.from=nypd.org;
+ dkim=pass header.d=nypd.org; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=nypd.org; s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=tzkGwi2bKsMmWR6lsPJAkJpS8A686QbvxJlNuFgZlVQ=;
+ b=kldbORsIxrspX5xjNrDICR5PIMHG+FC27TljCVAHHolRaSVkythw0/6f+5R8DnGU9pecisDCalwHHRtIhREB4RpV0kk/XQF6x8WkITdEMuxUvmV8fCp5VkLFNCOVnL7HjrgYxO2ubblZIRo+kIhO3HIPE12oJCHsFrnRJkoqQWY=
+Received: from DM6PR09MB5669.namprd09.prod.outlook.com (2603:10b6:5:263::7) by
+ BLAPR09MB7107.namprd09.prod.outlook.com (2603:10b6:208:2ac::23) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5395.15; Sat, 2 Jul
+ 2022 14:42:10 +0000
+Received: from DM6PR09MB5669.namprd09.prod.outlook.com
+ ([fe80::c880:10:69f3:d7ef]) by DM6PR09MB5669.namprd09.prod.outlook.com
+ ([fe80::c880:10:69f3:d7ef%5]) with mapi id 15.20.5395.017; Sat, 2 Jul 2022
+ 14:42:10 +0000
+From: "LEAP, CHRISTOPHER" <CHRISTOPHE.LEAP@nypd.org>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: Fwd: Fwd: 251295/2021 thru 251334/2021
+Thread-Topic: Fwd: 251295/2021 thru 251334/2021
+Thread-Index: AQHYjcZzlP7MI4ikxkSwrxnEfm69yq1qcL+A
+Date: Sat, 2 Jul 2022 14:42:10 +0000
+Message-ID: <9bd08d2f92874675a779512cf7f8f9d9@nypd.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: ccaffb96-f0e6-4082-a334-08da5c390b92
+x-ms-traffictypediagnostic: BLAPR09MB7107:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ uFWuFF8bQm84triqWXeESPiZPBxIjMyzkFYjm/cfMyEPpv5bgjAzpaMAFVLulWS7aJdmbmGr9NQ+7tYQSh4OTHfPWBA8akuzuNO3C1xWJGTVeuDstCZX3a0jiX2mOF2Aj6FguLgyU1bT6JcyOFeBgalNu3e17wnu7vOEmBM+dfiWHrtPrDG6EfavFDYRchJTOoT4MOqnZ1YWWW9UR9iYKptwKBGKZgqmygDBSmad4VOU4qkvcuJYV53HlRMfDXuN+uFyHVtCiMmLljmwR0MMXHm1aFzt3q0FNQLqM9kdwf1rmqQDZaJamczK09wtOxtCNjwhxOUZewFwgUHVVqhak9kOiImPuQCqTWqxIHjuAKPR+tRS5m4XZGLYO1Q5rDNleioVZ8NmqWnsuS6ITkFmtcz3fO9vdbETscei85KOnvIQZjBd0JBnDV7Vxc6RtsE66WVFSI73m0pnYQEYNvpL9X0sHsdqAFIX9rG0mqOQOqQJGjKYBOuu2eNffvmask2c
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:DM6PR09MB5669.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(366004)(82960400001)(86362001)(122000001)(36756003)(498600001)(2616005)(6486002)(88996005)(621065003)(186003)(24736004)(108616005)(71200400001)(6506007)(4270600006)(73894004)(6512007)(2906002)(66476007)(8936002)(66556008)(66946007)(8676002)(6916009)(66446008)(64756008);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?xTXgyDIq98jnQ46kR4Ku56dIx3lYkzFTH2W+IKnWh3gI6hBI6vZ1071r8LIn?=
+ =?us-ascii?Q?CaVu85h86BTaGOmwvPXIZawYrhx3G6BOSrR5f62qdLap7cUGQk7NJZxWKPA0?=
+ =?us-ascii?Q?NOL9aSdpEpAnqK4GqXUvmcaVK1wEp/VYr0y7My2Zf0Ll2rV22QKzdSEjcE2k?=
+ =?us-ascii?Q?oFbQ9ttIRlyqSgcQQslVrOr9ShTrXLc9dZNRcRE0o8BMOA+IOSPr5NypWPO+?=
+ =?us-ascii?Q?vRUc+eRsmumTyI/8AxNDU829qlnNT31OQhaYXibEYtyIYjvTAHdq11xsXu5z?=
+ =?us-ascii?Q?4Sx2MtscbQoEVJ0IBE/Ktj14nO2e3Y+RspxqGEWbQpNkOvAv569yikLpaVcD?=
+ =?us-ascii?Q?1rI4qBPOMoSvMt/faAMgpeMXufaN0vKRJHsCfM2yUFEd99F3U+9AIo8lNlXC?=
+ =?us-ascii?Q?n11MqZaA7XF0j9HstQW1ABoEumRzY/zIcZowF2mZlHXW3S1a4I306mRgAifD?=
+ =?us-ascii?Q?qRTm3IftJowFR2QK8QENn908vCXUZ5gR53Jx/7XcZtou5iMW+mOT/LpP5QTj?=
+ =?us-ascii?Q?CtOwH0+1vA902DslRix1f5isDtmSssnPo9eoNOplLgHGTaIRCMAC1LAPzf8F?=
+ =?us-ascii?Q?8Ucr5cRONf8dzFObv6tjL3BZoD3JNuW3G9fdKfZ6mqiCQRcZrv0mTNjTQMNZ?=
+ =?us-ascii?Q?XciA3tmgFUk6f1RxVhW2ti9qZNzF+Jt8Y3h7e0R6HABu8XZNMEi5v+KWSGZI?=
+ =?us-ascii?Q?uVIcKlZ3r+jIVusZaQS0mHyyqpZlBhN1blqVAIZmALqbJs/AX3tR6JpqeeBb?=
+ =?us-ascii?Q?N2vplnSb7Xh9/GNHL37733wWBfwHE5j8d44dcKkkPSryL9GXIiWGDOLFKKXZ?=
+ =?us-ascii?Q?IT7dKUDLA9GmsKvbYP/8c44QqwfblG2VDGlio96AP9l9tv7tQlLKdU3nw5OY?=
+ =?us-ascii?Q?A3aqbx/Y0jPpPVzsBdvxYPHUQ6z1bvIZKN/kz/OahZBgRtlSzahcFLzrPqul?=
+ =?us-ascii?Q?S7JVXNK3k/zy1bYmJxMJov3GMYhmqJW1xAPgzrgmo1K7WkKIlkdY7itktwTM?=
+ =?us-ascii?Q?rZXGTJzoO2M1tHNqxP7uGsiQdu1TWzchH7r1NoozT++WzUqCZ8BtTyefUAlx?=
+ =?us-ascii?Q?n1QFegBdHDPWs/TP/sriTFhzdaYR4Zi7kGIR/ewwoHIJpIj0/LCNhv9KCSHB?=
+ =?us-ascii?Q?AuJWHfxPKVNOuyrsIKwknKDBUyYKOMj2q/8IEVkrjyMjNnZo5MxnA5iwstHj?=
+ =?us-ascii?Q?st7PP/Cz+2ybiob+L/f8vZSQs+A55WRNGvVvW7w2pP5Qyz7g7+PMDHor+TXj?=
+ =?us-ascii?Q?n1g3Ed3M3mujVDbtXD61kfmd99/OQeMyLFljy6MSH3Y5uLs8ZxS2SDZgMN3q?=
+ =?us-ascii?Q?op7M1+XwTy4SdbFgv01lzSTKyKel2JAdxxKp9M3QqvgojxxcDJRGgRCKgUK7?=
+ =?us-ascii?Q?4e+UTsSf7lYUQhNVQZJMpM+U5amYY24aAUz+rViiItLJbAH2YD7LdU2KvJw8?=
+ =?us-ascii?Q?r0I6OXCVIkiWHAeH+ndp1jI/uE9gSbeG?=
+Content-Type: multipart/report;
+	boundary="_000_9bd08d2f92874675a779512cf7f8f9d9nypdorg_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: nypd.org
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: DM6PR09MB5669.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: ccaffb96-f0e6-4082-a334-08da5c390b92
+X-MS-Exchange-CrossTenant-originalarrivaltime: 02 Jul 2022 14:42:10.2770
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 2b9f57eb-78d1-46fb-be83-a2afdd7c6043
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLAPR09MB7107
+Content-Length: 1908
+
+--_000_9bd08d2f92874675a779512cf7f8f9d9nypdorg_
+Content-Type: multipart/alternative;
+	boundary="_002_9bd08d2f92874675a779512cf7f8f9d9nypdorg_"
+
+--_002_9bd08d2f92874675a779512cf7f8f9d9nypdorg_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: LEAP, CHRISTOPHER
+   Subject: Fwd: Fwd: 251295/2021 thru 251334/2021
+   Sent: Friday, July 1, 2022 11:45:19 PM (UTC-05:00) Eastern Time (US & Ca=
+nada)
+
+ was read on Saturday, July 2, 2022 10:42:10 AM (UTC-05:00) Eastern Time (U=
+S & Canada).
+
+--_002_9bd08d2f92874675a779512cf7f8f9d9nypdorg_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: LEAP, CHRISTOPHER<br>
+&nbsp;&nbsp; Subject: Fwd: Fwd: 251295/2021 thru 251334/2021<br>
+&nbsp;&nbsp; Sent: Friday, July 1, 2022 11:45:19 PM (UTC-05:00) Eastern Tim=
+e (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Saturday, July 2, 2022 10:42:10 AM (UTC-05:00) Eastern Ti=
+me (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_9bd08d2f92874675a779512cf7f8f9d9nypdorg_--
+
+--_000_9bd08d2f92874675a779512cf7f8f9d9nypdorg_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; CHRISTOPHE.LEAP@nypd.org
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: jrLyD2lEtUqm/1nlTraR+Q==
+Original-Message-ID: <0acc12df-8acf-df7b-d27a-97e3086021f9@yahoo.com>
+X-Display-Name: LEAP, CHRISTOPHER
+
+
+--_000_9bd08d2f92874675a779512cf7f8f9d9nypdorg_--

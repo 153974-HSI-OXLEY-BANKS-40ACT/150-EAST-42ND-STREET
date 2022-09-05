@@ -1,0 +1,184 @@
+From - Mon May 30 17:16:05 2022
+X-Account-Key: account1
+X-UIDL: AE9sVrJ0mdpgYpTGygfAYLUOXZw
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.222.148.10
+ by atlas210.free.mail.ne1.yahoo.com with HTTPS; Mon, 30 May 2022 13:29:45 +0000
+Return-Path: <crcmessages@ftc.gov>
+X-Originating-Ip: [40.107.91.44]
+Received-SPF: pass (domain of ftc.gov designates 40.107.91.44 as permitted sender)
+Authentication-Results: atlas210.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@ftc.gov header.s=selector1;
+ spf=pass smtp.mailfrom=ftc.gov;
+ dmarc=pass(p=REJECT,sp=REJECT) header.from=ftc.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 30 May 2022 13:29:46 +0000
+X-YMailISG: gY4kGAkWLDuOVbJTGbSg2SOG8LLnbLAA8PMmK_or927__P8G
+ BzoDGgp9p47hY4BEnhzvMhA.ceEzn92S2UNNoUITTkQbC81BERa72G74qD7f
+ t82_q6M4._yYP5zy1cqkNKEluJb5ahfuq3N_MEjrBkxu8Maf1wiUDBi_r7iZ
+ mu8hnOeO_iH_jK6aeMVZPC8PjvKthgfnMJbrWkScwhFw7YoDgMN4LbuncYnE
+ Ys5E4oLpgLBn4gaxmXUXs3YIaaxYZLW.hM.70l4F79RCIEcHQ6n35Rn5PgWP
+ R9glNCfhNi6RLZfFySGIrEXMI4MIDu0AAsCXvap1vEOKjvB.g_YjxJtf_6Q.
+ yHJByhTCoAUXCslcX1W2L7_t4tG7lDRlwbLIh3Bh_.4qtHCrWTZ4KMggcFbN
+ 4V7N18FDXtNBBiW5WfAWzDPLUH4B1brhIQEHdc3EWafUNo9uUcNkiLyQwTyy
+ BH0zxL05V19HOkggefaMOsSv1aEuLKZBHLdk.e8rzqlBHraZjeZ7GC5lLvoH
+ tkHJ6X0WQ2uo0c0nQY2Kvan8jlWo5O6QaB.vkUV2U1MJgMO5Pc75RfXHGl1W
+ UOJax31DvZN1NmtGVqPNXNS13SHtnj8OglTh8CMO0yk9SLtZ54rgTFKKHynD
+ jjmkZQ1DEoD42hh3aQfWELfHvHvEWTMuM__.DTNpyyv78J3kOxFPeMhy4ETM
+ lwcfnBvq4EeBYgNetpeOMNMZcPY2drc4Nchu.7Eh7M9OZC2WnD7aZhG2vIfK
+ j2FXegsGFxij04R_TX6ctcRKejEdHsEffIMSgWiv_PVbpJpG3YKUOJ0_nNWh
+ fIoNWJsgJw1eN0K27z_8ZrYq3zl3avDS9zr648P3zZAkww2QkDiKsGlKdpU8
+ JsFBdXZUswelNQDlEScGQu39ApgOKFTQbVdPjM3Pe4Wo3To3qhSfJLh.uHlC
+ 0UNG6uE1eqvT.lOKlLclbXVEUhyzEMEbr83VC3.BV9mH80styz5UpwtNiuC3
+ Yhr426mA042myo7rx5R5nmtD_pQvY5bc8p0omToew_.dziCAhGp260Zic5GN
+ .QaU3Ur1inhSLGDvIVC1Aucpgo1bE5z1cQP92xeCG1VoRHvh25lQgp4kDhx_
+ W.x2L9QozByYL5vq7Cg5GNjZ1mS_69PYJEC9QKzi06YBmYjpHoyWRWUMNLcS
+ 6oPbd3LoiSrhX_j9NduAunC3cHIqXod5LPxvWw--
+Received: from 40.107.91.44 (EHLO GCC02-DM3-obe.outbound.protection.outlook.com)
+ by 10.222.148.10 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 30 May 2022 13:29:45 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=EEVqm5ntEddJorE1uOUBeebZCJoRIjVe07KgYabziA/rHzuimsikzzUHtgNM3r6eZCD5IMoJ+BWk4muiG/pkUGiW86CboJ6oKkjZqWzJxjr+6f14+rteVCQEzLdgq01CpBbhc7K/H08s2ViPfumbBbZ4XDEtmjOCbFtCYttVVlLFZpQaNJYfws5vwLBcn4N4vy3MBbhOxmJCW/zrBrIcZHD3lOnk54s8DYZOVAQu67kuCAmLR0olNXrrPcD3eS6rQYeoRJW4vetDdWB2nCh5GqLrwl+TkcrHhYlA6p04RCW0498cjxdvwHtL01Pv+JVT1DN68BONSJCk9PokfY2w3w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=TM8iG2I2vB1PK47QFAfzX2gEbKom4AISW08F9TwZfSQ=;
+ b=Cv+JwjNsGDqIHwwaNnl+cdcbfMgx3aiBt9WNwP9O12Jq70F7RnFrCuqr/cRxgEMhkpZv6RFPeNKB9qvi9G6060n1f3Iagv8pIBMsNeX+JN/YoQyfLSugbtFyB1gG22cI6g4GmQ2Ho8LnlWuu1GOpj3a0cgWK/jVyRpVdN3gEpmLKxYnnI2Vqk3WHLp+Xsc3c0CQ/EVLEUDDos8gecbMRzX3vMLWR3pDVECQ+tMyoJ4kjpHpaexjTjr9NjBn/wwtWvkwZg0idnOm8XpsdFlQVQVaBwxVrhnpQFYxyfdqxC2idn6QXkdysSxNKteBk2UCacONz17q1eYZHXQV3dnKzeA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=ftc.gov; dmarc=pass action=none header.from=ftc.gov; dkim=pass
+ header.d=ftc.gov; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ftc.gov; s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=TM8iG2I2vB1PK47QFAfzX2gEbKom4AISW08F9TwZfSQ=;
+ b=hEB7btkseLMGLrC72mcBDftCb4ijIuRA7sMJxTPlMXTMkL0Chg2g6CyaMq4EyVySgjHML3wTpuPut84PCg8c5rqjIPNI2rNNL3/vPbyO+Yj8k8xIKVdaUG1apjJtnazvU7Mze1Nu4Or50hPK3LVcI4JMPc+9tFBi+NETmDC9vP4=
+From: CRCMessages <crcmessages@ftc.gov>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: congratulations... *** DOCTOR'S NOTE FOR PRACTICE BTW SO I
+ DON'T GET FINED...
+Thread-Topic: congratulations... *** DOCTOR'S NOTE FOR PRACTICE BTW SO I DON'T
+ GET FINED...
+Thread-Index: AQHYc4wrmFkWal41LUCYfAX/j3Buwg==
+Date: Mon, 30 May 2022 13:29:43 +0000
+Message-ID: <941d6f5419264ec0bce50516d7fb61a5@ftc.gov>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 79a508d3-35bf-4715-7d91-08da424074cc
+x-ms-traffictypediagnostic: CO6PR09MB7335:EE_
+x-microsoft-antispam-prvs:
+ <CO6PR09MB7335CC950FEFEE79B276370BB1DD9@CO6PR09MB7335.namprd09.prod.outlook.com>
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ 0b/W2HJToOF4dqkrC1g3wjeexkBJrsTanmYoFXONEWElzqzhC1qxC1rNj88eEv8yI39jMwkHGGry/mg0SKB70oSDwEePcIJduqhNaMMV/dgu04oBrWvWNdlHG9uSP+vkzjqAJDEjstRCP75e5wMzeGDbpdAMLKN1u2ra9p9JGWzLSt1/Mm6UtTzGJ4UucMxl7T+jXaVvSLlaLLy68ktpI7ezUYur3T9DHi7yJYU9icDqFZaMR7QZPWtjRRrfVGCxyefnCh6pg9xyj1tRIlCV2NRgG5Fp5/i1cOxxsReGoLy5dUCYCjXrSIBA7mlG73dyt3T7ufzPaoRTYlQqGBpmBLVcaH+SVkHYTDyaZdsOxSl1HltJEqlJTfzoD+nuXDk1sx+zMNMX5RO0QGOy1nf0oXQbyP/vODO/i8l7Bj4PlHkn0VxECxU07imfo0AemJ2N
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:BLAPR09MB6513.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230001)(4636009)(366004)(24736004)(2616005)(36756003)(42186006)(316002)(108616005)(6916009)(2906002)(508600001)(186003)(8936002)(86362001)(64756008)(66446008)(66476007)(66556008)(8676002)(66946007)(73894004)(621065003)(71200400001)(4270600006)(122000001)(88996005)(48373003);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?N6zwK1FT0smap7F7AFR+pekAaKG2c1RDkKv7EhmYo55DK5RhUGUhoG8l+xDz?=
+ =?us-ascii?Q?/5q2Xej2mVKd7VRfKz6t1ay5bBqU7pO1ubM1gxiR9Rqt0UvOppB7zgcJutMa?=
+ =?us-ascii?Q?phwFzS9k3nq2UUT0IGcAGWXAHLKZHJj0R/QCfZUpZSqipgq4AQxbDaGFOjWt?=
+ =?us-ascii?Q?vFVe23A/PAXaeM+uD83TKnaVwTFGRtpqkCHQJc8SFQQo9IhVy7c6bItXrva/?=
+ =?us-ascii?Q?9egPcIqW3KgGN2pkKcZi9r1k2WWubBLQ7gp5C2PQO2dcGltpBSgqPRiRjKZo?=
+ =?us-ascii?Q?CqxrwaBtlE0ACctyw7nF912iUaSqvU2hLzG3ImnESYaMbElHpseEjpI3DSBT?=
+ =?us-ascii?Q?MGnL8kBYyf8amSrUPK+YaUh9aeYFo3pkffgKQQOxLmDTZa4aNbjSWI8LIXsx?=
+ =?us-ascii?Q?Cabw+lng4ejwwgWceaAVeL0OIZmGKRkACDBSTXKqpadKjwjI5sEsuWMOIE71?=
+ =?us-ascii?Q?2CFReyrrt0JLUw6ZlS8IKWGXW430jFKXG28aTiRXLAKFvCSFdlaFkJdxKc/8?=
+ =?us-ascii?Q?Ft7FglVtqLwz/t9fCdlBZgG60mF0mVBumgK8HLcQyPqYfAxWEqj2IXlAg17p?=
+ =?us-ascii?Q?zypFKHi97+ZFfPhWNpZ5pTNCoYuYeq6JPGhcC3RDP3jO2MfDS/bGKt4NAbq1?=
+ =?us-ascii?Q?B84cA8X5zQj9LnOWa4tdDrFpiglzC6CdYic70kXqsEbDvpMkPCQxjlca3Z1/?=
+ =?us-ascii?Q?vKqo4OR40UcOEjaN9UKXSW/qJT62TlPGMva/D0CzjOGnqTjjgmVQD2fsfaBS?=
+ =?us-ascii?Q?9KLqGbj4Xh7VOu1N3JuIUe+/6c32pQ21UL+9AQRZzJjxuDHeRjaBzKCqvZVi?=
+ =?us-ascii?Q?8PnYPPZXlVvXrlCn/ll7pAVzoA2DhmwnGiNHsR0gUS6CCibGFOxEtkheUQcN?=
+ =?us-ascii?Q?wIwMPTqr2lFxqswVkQuWf7vJ9bnHzqvgdFyd9eMyDI9Pzg+TohgIBPGdWD3Y?=
+ =?us-ascii?Q?f01UGOtyTOjUEIvain0v8hvarbSrK89xePgcxidiOX8CgRn8E1Mw38aqO5Sy?=
+ =?us-ascii?Q?HHD3AYIcpwxn7w9DOlsm+a6tumKXyjcrR/eJh39YkgGwNxojeuUOdhhr451A?=
+ =?us-ascii?Q?Czu8h5DeQUZ3MBuTXTzWLYHM8LW4O4QNaGt73ck6RH3M9ykyhI8jtwD+/kzF?=
+ =?us-ascii?Q?VX1LM4PirWwug37FvLmN2xRmQrXbkBxVHUGV8Vd7HTy8lBlaQyzKIp6iExPM?=
+ =?us-ascii?Q?HbmnXOnnpi46n+9h6rXTWgWIQKiH2/NPOIEZRHXVdnbPiI+fqB2ot/FRPhaz?=
+ =?us-ascii?Q?lmIGDGELgfOAq6o8UVPPsEJh4ynBBk1d8V2t3MSVftMwCyswOFx0qfepOviA?=
+ =?us-ascii?Q?aF9Yh2cxksK6wsdY/7jww4oxW5jDgzeHmkS3fEc7L9kaCHfI8ZvPtxs6Gc5E?=
+ =?us-ascii?Q?UaZa7PFkYprB6dikKJg2fw6KTxjBFIN5upPf3sQdg32z9YxwVqXUc/yEsGOQ?=
+ =?us-ascii?Q?tOy3pglcJBBRlvk7+IPc98vlmM1FXZ1vmN+VBC5Wa0NZLmWP9P7jDyusg28m?=
+ =?us-ascii?Q?16BYk4pX4ZcwwVIP/29EwEumWAYa80jhHonFbgE5i0ASK+dg/vKNR/XYBXoH?=
+ =?us-ascii?Q?aF/+XNurVORj4XhzID78BZeFodskiXMLK88TvuPy1l8CdOBiJNhU6826XMtV?=
+ =?us-ascii?Q?LoepzgFKuvlFhUXmsE/YLLE=3D?=
+Content-Type: multipart/report;
+	boundary="_000_941d6f5419264ec0bce50516d7fb61a5ftcgov_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: ftc.gov
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: BLAPR09MB6513.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 79a508d3-35bf-4715-7d91-08da424074cc
+X-MS-Exchange-CrossTenant-originalarrivaltime: 30 May 2022 13:29:43.0776
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 7302cabc-5af5-469b-af17-700007935a01
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO6PR09MB7335
+Content-Length: 1914
+
+--_000_941d6f5419264ec0bce50516d7fb61a5ftcgov_
+Content-Type: multipart/alternative;
+	boundary="_002_941d6f5419264ec0bce50516d7fb61a5ftcgov_"
+
+--_002_941d6f5419264ec0bce50516d7fb61a5ftcgov_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: CRCMessages
+   Subject: congratulations... *** DOCTOR'S NOTE FOR PRACTICE BTW SO I DON'=
+T GET FINED...
+   Sent: Sunday, May 29, 2022 6:42:23 PM (UTC+00:00) Monrovia, Reykjavik
+
+ was read on Monday, May 30, 2022 1:29:43 PM (UTC+00:00) Monrovia, Reykjavi=
+k.
+
+--_002_941d6f5419264ec0bce50516d7fb61a5ftcgov_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: CRCMessages<br>
+&nbsp;&nbsp; Subject: congratulations... *** DOCTOR'S NOTE FOR PRACTICE BTW=
+ SO I DON'T GET FINED...<br>
+&nbsp;&nbsp; Sent: Sunday, May 29, 2022 6:42:23 PM (UTC+00:00) Monrovia, Re=
+ykjavik<br>
+<br>
+&nbsp;was read on Monday, May 30, 2022 1:29:43 PM (UTC+00:00) Monrovia, Rey=
+kjavik.</div>
+</span></font>
+</body>
+</html>
+
+--_002_941d6f5419264ec0bce50516d7fb61a5ftcgov_--
+
+--_000_941d6f5419264ec0bce50516d7fb61a5ftcgov_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; crcmessages@ftc.gov
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: xokiwIi0uUKnHxcCkA03Cw==
+Original-Message-ID: <3549476c-2140-f9c7-2c2f-5f23575e932a@yahoo.com>
+X-Display-Name: CRCMessages
+
+
+--_000_941d6f5419264ec0bce50516d7fb61a5ftcgov_--

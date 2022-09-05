@@ -1,0 +1,187 @@
+From - Thu Jul 21 15:05:35 2022
+X-Account-Key: account1
+X-UIDL: AMZmstwe+PnpYtiZMgGpyIROOQA
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.131.17
+ by atlas320.free.mail.ne1.yahoo.com with HTTPS; Thu, 21 Jul 2022 00:09:21 +0000
+Return-Path: <Nicole.Colbert@dc.gov>
+X-Originating-Ip: [40.107.91.77]
+Received-SPF: pass (domain of dc.gov designates 40.107.91.77 as permitted sender)
+Authentication-Results: atlas320.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@dc.gov header.s=selector2;
+ spf=pass smtp.mailfrom=dc.gov;
+ dmarc=pass(p=NONE) header.from=dc.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 21 Jul 2022 00:09:21 +0000
+X-YMailISG: 9F8XimAWLDvY114pfBgPFNUzzDLuD_gGLHzFmXr_vbP9tCOc
+ tAebXeBfTC49K_711GfKCzGaWRbaQfVv3z_fEqBoCkyfJCu7Y22nX6WXCGcf
+ oTrBZm.WH7KuTSmsF8jN7Oc8NPXr4uSJUyGTaz0Bsy5JEiIWbylUghQxQGRa
+ EGM90B5VNlpXtdaPSgVFvXzr0IuPTVb4Y54tQ1dRlIZwcbgQi74H9MRoVqXk
+ 9p25VBDcnSnEwJaBTHBsmowIaOjYfP6Qb2qLGc_zQGhMw4l__ogiBLcVggun
+ 5BL.CgwBkeDABqpfHwwHpXbT11mb6_7VmqFEVgKeZNVsd73mM4fB6opRU42l
+ ghzR5zaxmC7bcsHIRU2dMGlfhzjlaaTwme.ltO6qV_vEaRnN.ifdmHgES21T
+ 9_6uhBU1dt.qEWTlf3DrZ9EV.LO77YEHrX.5fzkO8nHVMoyTv1hqjwKZPOFu
+ tSWRZv21Ibmw0KHNAT.UDv0GKPY56cg847HQo1x2.rQlaksHe5MqGL6X0WPW
+ xN3yCLr7Y9yWLwB7iOgSW4ATJHmQU09R_moKXLh7WTUzXMY9NZM_55NLydyi
+ bwiWLwdwtV6JexlBdGiB7OmnIJbGtG1C7oXFIrRpiNmVJDvSKVj_HELfLRWC
+ l4JumyuKDeUohqIDJ6LJ4O2OkF5nq2FMnhrCOx0zfk31rdIXwRKwzyNSKKd9
+ OQCC8JYQFAAApxyDR6jeGoFvs4klWy8QtgJl.Gus9wxCg6C76UGyBrQfbmEe
+ hqU1sE_8R4._y1cpqD2lDVwyiS83DMdLo13fbN22cuXN0afwcHNq1_l2vZ7g
+ 75uJlCSJdk5tG.l3gGXzZOQVi3NGiqn6cyyShXIGtKNgEO0ec5wB.5XZi2c5
+ Wtsb9oeyLqZDlW3W1apHz34Jwq9lyv.ostKUo8D9qskIkl1fcyOxGnDl13Lf
+ 5hYF50S6bj1DX5kXkJFRKsScy1.DQRFtWUw71L_vyOAyEOo2gACqMMRPUOly
+ Z6UE1iTEN68hi9cRZjlVmZvsQwLOkZBmoXeeyQLX_tO5o0DqtK2WMnXsk40J
+ BSO4xBM.eRmlvgou0q.o7mIVz7Xb18d1eRsZSttrnafAEZJqD2Fgm4e7RnN3
+ njHqleSurFI4SpmJ1Sbij222n8qp.vhfvgD99g6u4UMFhW8XnJdWJWNO4Nay
+ O7aNGClSW9pn8kmNQLzDvz9bxOj5ilZI9qNDovYOJ23rm_rhmogE0fBXJ7PB
+ .xelbykU1GqzR99aAlZc0dv8_FGRHoTwKAkLeNyce689Ljs1EaYcSWPKjioz
+ SAavtVnFgeqpvksqihKTjiFT92A-
+Received: from 40.107.91.77 (EHLO GCC02-DM3-obe.outbound.protection.outlook.com)
+ by 10.217.131.17 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Thu, 21 Jul 2022 00:09:21 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=C0PLZd/ekRYyV9uUoyE9n6wsTVVG1ib92gqBUSxScRMlLEUQn8h30lFgbZRxqey13DvQPLamMGFBGh6sUKqsJrnMqT+N04Fr4qkI3eKabVoHOfZx+kXHCbG4TCKwgtgoMweyTVVb6ShlJenM/Pz7YzVmyr0QzCfiD90wJKkJMBu4FP9eHlcPU+zW/VDJ93RlEK7YJyN7dkI+2P2R8pQOi15myOJyy7L5pPPX349UGVEU4iHWMfTz/cc4e5ee43SZCSZCloPE8t1mdsesJ5Bv32ocZ+f+CGh0pqB5En8/kxcRhBim3OHngeulEEcrGa/8cRP7G4ncJPo+qSjw0S1hOQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=LzSes0rbwzXxjwv5i7Ud5y7q3huAu0qYdmazX+Qvf+I=;
+ b=Y4DxLsMnbAB9ogfnTiSoXxyiViMl9zBspHgnCI9NTvgMNDhEQKWIqz3e1cYmU4PzARve8GzZAklyq/M+skfqrW2tSeSIAzHzsVgeedlu19WYAeBLHuhPw4LoEGBE+uEN4PuoxaANYG0evN4aZ9EEl5M6Tbie/6/Yi8RQgCkFky03sfPVU6sjBqXst+Xt9k1iBqsNN173FR2BEGHoSqeTKLHstlnk6djxFQMx+/zh7Ye9Qa3xiG1kjnTONq6MGjCn6nIHy1KldbW0vBKLc+OaJPf4wmt/buTPYTcbed/IjbSn/j4sRX6xXrj4ittBFlxf8vWSRGYQOj2iHVhsAlZyyA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=dc.gov; dmarc=pass action=none header.from=dc.gov; dkim=pass
+ header.d=dc.gov; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=dc.gov; s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=LzSes0rbwzXxjwv5i7Ud5y7q3huAu0qYdmazX+Qvf+I=;
+ b=DacnKPDPuIbpRIl6tC8PAA61W1UdS3TKM7EnxDiOaG090E1oE1Jndt0R5AcZa+ZFQV0Bka8xVnfMVfu+NQv1lf1q7Us7IVw9q4tHppM7tg5vqx0urgXRGNmTMzeIDtpG2tr/BYn3EecawMS5RvgD01iXrlqsuc4KJ+rEpPUWOxQYYp0JfgAzZplQ9vBGzabvwQcHZYGDZnitLJOBM54LMu1aZVHSmPu6DGDi3w3I3L4AAzNkaHypZ1qX04bItP8Kzfz5q/zKdP1AHdY9pP5dvFPPCFcosy0Zix642D8bnoGfYfcqCf2XWc21KASHBt1CVK+bjQyHDj2zwEOE9EGpXg==
+Received: from SA9PR09MB5726.namprd09.prod.outlook.com (2603:10b6:806:4b::19)
+ by SA0PR09MB7257.namprd09.prod.outlook.com (2603:10b6:806:79::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5438.14; Thu, 21 Jul
+ 2022 00:09:19 +0000
+Received: from SA9PR09MB5726.namprd09.prod.outlook.com
+ ([fe80::c154:6beb:4594:3b4b]) by SA9PR09MB5726.namprd09.prod.outlook.com
+ ([fe80::c154:6beb:4594:3b4b%3]) with mapi id 15.20.5438.023; Thu, 21 Jul 2022
+ 00:09:19 +0000
+From: "Colbert, Nicole (DOC)" <Nicole.Colbert@dc.gov>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: Fwd: VIDEO.ON-DEMAND.DOMAIN.REGISTER.pdf
+Thread-Topic: VIDEO.ON-DEMAND.DOMAIN.REGISTER.pdf
+Thread-Index: AQHYnJAFnPKUBx4qhEqIvx+2K9lQ7Q==
+Date: Thu, 21 Jul 2022 00:09:19 +0000
+Message-ID: <baad0273cb234ced9c37897d7089b4ec@dc.gov>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: bffbd133-c9d3-46a0-78af-08da6aad41e7
+x-ms-traffictypediagnostic: SA0PR09MB7257:EE_
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ zhUPKi8BgfbDA8zZP6o8AjrHbN2ZTxepGV9AcDEUCoXDn4YWDJ2fbB4dvoqlOgX1viYHr3FsxJ4Q+VmhEFQV+NtWBRn6jI1Me6lA0K78n54q1AXaMoeubwxtRkEv5mbABAjXpxpZUICAWYoPJV71KgvRFKHjfHIiZ++T7248vGiHKYPfOkO6LJMtDlIVAhBsmMOe7GLeraqrgjvaR1WZB9TRcS+15YxT6Citpk87RQ5WQnlH2b+1CPe6nRVUPX/HKd2czB51zGAMP/G0qm9Ua/k67nPKWwi5UeRkL/7SSexO39jk//xNwRXKP75jcpu48IX5+RPN9fTVaKOIVS7MV3quzh/V4Gvg8oq9+r5Et+lt6N26Zj34CAlyuxFIfjqD1AQkvkYrctRpY7ecUbgKjIbofGVJmQpIHwdILRJXnHvb/8PIHoaZkW6ZM3prwmuJWbaNcTtX/TD00N44rKglR19sMQOoo3cloCWC3hFV9LQ=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:SA9PR09MB5726.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(366004)(2616005)(4270600006)(186003)(8936002)(66556008)(66476007)(66446008)(64756008)(6916009)(86362001)(621065003)(73894004)(122000001)(2906002)(71200400001)(6506007)(108616005)(88996005)(24736004)(66946007)(8676002)(6486002)(6512007)(498600001)(36756003);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?vVGo3C/Ins67svI5r8VBGDJzVdl4KmHDA+RgmeVSH4IcPgte8TcY+JuWmN6q?=
+ =?us-ascii?Q?D9/9KdbpqSXZhi0ixTfUDiAxNW2u44Q2+4vJ0057e4GsjFMRwsFyV0Gxs8k5?=
+ =?us-ascii?Q?QzyyTxZ8/XlwDrlAujO9mqivhkQt1WHBb41hwviS3k1cMuR4nVpiVpWckelt?=
+ =?us-ascii?Q?rqaAPir+MQ+HLrucvU11vuwt2QWX5R7sGhSl+rN76ri2e8T2Jx5H+6rXjrIp?=
+ =?us-ascii?Q?sRq7Noh9ftFLu/kC8wPP0D15rB0JYaiMkq2YbL3lOdda/OLtchCBjXZIy/0j?=
+ =?us-ascii?Q?VXqqwRPnlhQ8jU6e25v5FWWk/QJSbtwAoy6ylCc6115ffKN/oRji8zO32IAy?=
+ =?us-ascii?Q?/qkLHSxp48PSikkP1Uc4pj9QBi1lNYq06GPPTPehLQuUf5qtUSh88HlJp4MJ?=
+ =?us-ascii?Q?hdzgFXC4z1hQzbwS3A8z40jRif5OcZVwEws/ok/WJIB+w+IFr+oJEWW3+iAo?=
+ =?us-ascii?Q?ZghJmHbd88Sd5R4K1OGAh67tFTNANrmD4jFrLf9yuIoQPxLzWXhRT8k11Vfm?=
+ =?us-ascii?Q?nX22CacrK+CPoTnMNCsZqPJT5eqfJHOhr/5tzE/en/yKJ3V0J8W5gW0vBrjI?=
+ =?us-ascii?Q?x46QRCBhD2DCu5QtrmToe7iHGIyvW50zsgs/fDQs4C8tmOXDC1sRcSdIGTZ0?=
+ =?us-ascii?Q?Ff2q0Csk5hKDjU/i6GhDVx6CVjALYUc+Xa5zJ4HooD5GL1mw/poPgmZJ9xpR?=
+ =?us-ascii?Q?S8ixkEaTbNP3l65rqHxjCIgPer600vbpEqkfI01jZtrDcj8r7sc/TP2Oqamm?=
+ =?us-ascii?Q?Eliuzdvxa+y/AiLb9v2YU1owOYerlFKu1N4C6FS/avLTn0de5Nty3sHtQS9r?=
+ =?us-ascii?Q?rR2gTkE3i5CIqqoy9iO38gaqjkqrK5uwbJ+hVpEm25udU22PDV5BCMhhgFpf?=
+ =?us-ascii?Q?2dUlMrs+h37NlMYnRG2xYFE8f0KH9p7Na6qPhJyGAeixSD6mZHeKT9b/c5t3?=
+ =?us-ascii?Q?BDOIUZ33Zcsoc5RigX8FXO7XReIjOLOyZpd44E27h5RUShJKJyEMJoMtsD+H?=
+ =?us-ascii?Q?sP8mR3xkp+C19w2CjYzIxuULfShGTqJVx2RcpGBcO1eKjeW5dOWxGYFrfrFn?=
+ =?us-ascii?Q?iZCnQgsXVJkyVAi0iz6kng8ZOUMKBx5jE2L9+l6CjbzAPG3reB3e0pANWV2V?=
+ =?us-ascii?Q?8oHBMgHZwknaRWWkh6V4yoZU+VPPgQOpdRkxZzO3Vz50AU2pZGdQaklKOR0i?=
+ =?us-ascii?Q?CL4j98HmmYIGNr6h0jleFPT1/xhllI6J5uhcogTDc2jYzfFhE5hV88Xx8++o?=
+ =?us-ascii?Q?nVzmaEqIatZ8icQgne+pHsObVBmYVMgJyAju+3yJktOXXPtSDni4PWnM3uCc?=
+ =?us-ascii?Q?E5l5kUIuIHF3OipFycgK0ptD0ybSBNXR058ssUh6b7qAjQX3J7dD+zmLZqCJ?=
+ =?us-ascii?Q?T1AXrj6HjI5syENoHSQIdtSuwF1UebnlqUT4CmY1WJq9sTUs+UcURdiZcuqe?=
+ =?us-ascii?Q?+PcHuocO0KCu+n5Yb8YVT+dI2Qebr3CF+egt7ZNX3B3/ySi1jdtMtg=3D=3D?=
+Content-Type: multipart/report;
+	boundary="_000_baad0273cb234ced9c37897d7089b4ecdcgov_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: dc.gov
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: SA9PR09MB5726.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: bffbd133-c9d3-46a0-78af-08da6aad41e7
+X-MS-Exchange-CrossTenant-originalarrivaltime: 21 Jul 2022 00:09:19.3609
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 8fe449f1-8b94-4fb7-9906-6f939da82d73
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SA0PR09MB7257
+Content-Length: 1915
+
+--_000_baad0273cb234ced9c37897d7089b4ecdcgov_
+Content-Type: multipart/alternative;
+	boundary="_002_baad0273cb234ced9c37897d7089b4ecdcgov_"
+
+--_002_baad0273cb234ced9c37897d7089b4ecdcgov_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Colbert, Nicole (DOC)
+   Subject: Fwd: VIDEO.ON-DEMAND.DOMAIN.REGISTER.pdf
+   Sent: Wednesday, July 20, 2022 8:25:13 PM (UTC-05:00) Eastern Time (US &=
+ Canada)
+
+ was read on Wednesday, July 20, 2022 8:09:19 PM (UTC-05:00) Eastern Time (=
+US & Canada).
+
+--_002_baad0273cb234ced9c37897d7089b4ecdcgov_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Colbert, Nicole (DOC)<br>
+&nbsp;&nbsp; Subject: Fwd: VIDEO.ON-DEMAND.DOMAIN.REGISTER.pdf<br>
+&nbsp;&nbsp; Sent: Wednesday, July 20, 2022 8:25:13 PM (UTC-05:00) Eastern =
+Time (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Wednesday, July 20, 2022 8:09:19 PM (UTC-05:00) Eastern T=
+ime (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_baad0273cb234ced9c37897d7089b4ecdcgov_--
+
+--_000_baad0273cb234ced9c37897d7089b4ecdcgov_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; Nicole.Colbert@dc.gov
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: HodWOq+ROEWZvVDRNaXPFQ==
+Original-Message-ID: <5c03afa1-2513-2f99-fec1-c53305b589e6@yahoo.com>
+X-Display-Name: Colbert, Nicole (DOC)
+
+
+--_000_baad0273cb234ced9c37897d7089b4ecdcgov_--

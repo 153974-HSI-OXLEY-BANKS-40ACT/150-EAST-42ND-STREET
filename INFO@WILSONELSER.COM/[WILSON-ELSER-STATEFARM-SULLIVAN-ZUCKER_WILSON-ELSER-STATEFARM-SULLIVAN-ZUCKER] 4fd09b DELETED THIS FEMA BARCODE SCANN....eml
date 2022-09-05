@@ -1,0 +1,91 @@
+From - Sun Jun 26 12:00:49 2022
+X-Account-Key: account1
+X-UIDL: ACgKw99bFAb/YriPNwm8MIu/68s
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.231.24
+ by atlas205.free.mail.gq1.yahoo.com with HTTPS; Sun, 26 Jun 2022 16:54:17 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.209]
+Received-SPF: pass (domain of github.com designates 192.30.252.209 as permitted sender)
+Authentication-Results: atlas205.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 16:54:17 +0000
+X-YMailAVSC: WJ1pSAs3bBs8gVPxiA.7jPa.bJb1silWwcqcP4lWvSE6f1a
+ AVJK8bdGwIJZQc3c8KW8B_4j2PodwxACdyadUArBBxm8HuoeT4ghpjvGMXKz
+ WMq3ZjfNJQayBvpuFqN0VmerD5TNQVQLf5oPCQQuYJNGbsFa66Ha4fneEgta
+ zILXSElb6i2GaNB4_Bmn58xukL5h7pBhr7MOaiHguUv08VeCXS8RwjiR4JJW
+ SbK2bcxYcis4owapA7nDnZNd1HFXK212VGf09VgCfH3ia1g4G4OjZO0oHcXO
+ dKNGyeR.ExOnx5ub2VdCt15k9ti6M7n_z6oidhJG4qsA9.Djxqq6yWWwkDRz
+ YJ4E-
+X-YMailISG: mowpFAgWLDtioNnRQb5TCbRDeZEbQ0IbR2ERN0ngXynfau3H
+ 3_bWzxrYQpWT9qeCOPvP16lazier3f3uP0JZiwuQ0.WB_cFoQkXQQshSKFPn
+ kra3HoJF1quOtzGiVqJikONH2tqgpw4ll7xdklTBLUDeC06EcRJFuO4MrmOT
+ I3lwigVRFeOCmYXu1jDoF9qTuZOJlR.XVHskfEEpBc__czLpeDdIfZqMm4RJ
+ nR11NLS_mAJnz5dpypeRY6eVgue3kDdeybdQs6WqghHkYyFYedxIcoXEvRUv
+ l2rj.UriXMaOnhJGOW9HK3vIKoMLPlffSgxpdon_5ztLp12PJ5_jCtbfCagg
+ QbvSAA8ss5U3pBlO0X6StuD6gbwbwNt4a2FG7otPx.NgRM6lcerRGJYmTTud
+ m9D0sdllt0UV8ZqmgY0pXkVEx8pb356KZFlwUKeW8qWaNIwO2C17WQe2f5bM
+ Vb0MOxQ2Fz12_VHMC4lzYcA7rRHtVbsBF4adQOcxPk9yOMH02RswXRke9HEL
+ CRg8b4.whNuGKz4SKUPrGcHnf_Y0AfGPwFvgdjQJgwSA4EVfqR4d5dDQ.i5P
+ bDPXm99NbX1VpPa4VsSkgF2pGiPhCe0WZ3JM3cL.06rCuUrmdIj.BXre1O1y
+ DVt4OALJVnVOCxQauStwCO6NiHZx8nuqJlkdxjPOT5o66Why6aesm.chcJ7V
+ mbxKN9qjRRtQdPnZx0kyZPF.02jkheXcT4d9nYATW1erGDwep_q5Jkto6oc.
+ N1vZ6YBXL_ZeIwuJ5JJa2JxIDcjsg0wNga1kdvk2NnNUOONqbFlb8V7_nPPz
+ SSIgBgCpFfsmPfi3nuNxvHkIlcpVEtwTvqgghklG.B.lFjM0p8mDwVYepv6P
+ qjSD2nzWhKprXz558U2ODsns.AAaiOmdJZeuCgGMsZz9sw7xKphqVh6cDxKY
+ _83pkizPmlwWIaw4SdKGYL76QafjB9xxTPvlqDvq4.QzsMhSeXrYETEXCoM6
+ hOZ9ZV0mXfwZz4cS.rj8G.ZL16t5P6WmKbLQW.PQYNGmlQrEsMT5rliWXphj
+ vywitnrUbYuvAUoyw_PZr_.scv1Vi7gEY5yC9e7Zp9ZVTvHRkC0RYaOHsX11
+ h7ikagSI5wEYeSs_ub5uv.QXAL0.2OQ-
+Received: from 192.30.252.209 (EHLO smtp.github.com)
+ by 10.253.231.24 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 16:54:17 +0000
+Received: from github.com (hubbernetes-node-02867bd.ash1-iad.github.net [10.56.208.61])
+	by smtp.github.com (Postfix) with ESMTPA id D6CBC5E0574;
+	Sun, 26 Jun 2022 09:54:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656262456;
+	bh=2v38Dl/ddKzVytZlLsNZEZ4gsm23VG0DfAFKiaLcv4g=;
+	h=Date:From:To:Subject:From;
+	b=vn6m6Q+EbvkHiF8bFuhHCJ5khjXI80969IJ6CFkwLmaK3zl+1XqfEkCO8Hdbglwwq
+	 /qU3hFVrnuFJ+zopYBmU/KDYd7gGITOPFlESjUJT/ImUQa2NTM9UPaDBQ3Mqbbwex1
+	 6QSV9K0pko5hOWt7Qw7o0APcsTN8iOLfv4oc3Sk4=
+Date: Sun, 26 Jun 2022 09:54:16 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/878b2e-4fd09b@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 4fd09b: DELETED THIS   FEMA BARCODE SCANNER.JPG
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 658
+
+  Branch: refs/heads/main
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER
+  Commit: 4fd09b8116325a2e997ce8b0265870aac5e61da1
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/commit/4fd09b8116325a2e997ce8b0265870aac5e61da1
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>
+  Date:   2022-06-26 (Sun, 26 Jun 2022)
+
+  Changed paths:
+    R FEMA BARCODE SCANNER.JPG
+
+  Log Message:
+  -----------
+  DELETED THIS   FEMA BARCODE SCANNER.JPG
+
+ DELETED
+FEMA BARCODE SCANNER.JPG
+
+

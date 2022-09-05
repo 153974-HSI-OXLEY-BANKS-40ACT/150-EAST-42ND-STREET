@@ -1,0 +1,208 @@
+From - Sun Jun 26 01:49:57 2022
+X-Account-Key: account1
+X-UIDL: ALl+9kRMsmR8Yrf/7wGGoIdAPfM
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.196.241.214
+ by atlas211.free.mail.bf1.yahoo.com with HTTPS; Sun, 26 Jun 2022 06:42:54 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.209]
+Received-SPF: pass (domain of github.com designates 192.30.252.209 as permitted sender)
+Authentication-Results: atlas211.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 06:42:55 +0000
+X-YMailAVSC: hajnfxU3bBubr8fK_F0n.TBwCTrq5RoJ7_t.vPmxKPUY.Ru
+ DPgwLWBINQBzqKD4PcHVBdCEqlWcHw1EXx5qjJGiED2Xj99aRkZtQ4jJAYoC
+ EaTS8fqkj7WTaL4OHmq.jN3bxs8spPLV9Ih1Eq4LToQaffEpC8OzoZyOaFNW
+ 5nvl.WuEm3xZRXJmHwzl4vTAIYfczmpoUVaMczt_U.Gb5oNvnpfSqsn29lP6
+ TShaCgIEfW6aiprip5FfhxF3lXzZEZ5_dbxADvPjbNAg1Ffx70tXRgzz435n
+ fEXeyc4xq6b1RJsZtVM1zykbms0oYoMt1at.7O2wpJN4ClEFWNlL_sSFd41n
+ bH.w-
+X-YMailISG: Cw3RfjwWLDvmzuMBAFLnBD7kXcS_008URU72NDhV4v80WAxk
+ 1YxOxjkmXbtUzXcLVdRgcH0OHlbpo7hJsJM1g_j_sWGEizAmu2YfGigTWZAI
+ PPnqPzGsZ30TbO1jU_UU6cdAFs.0oc7L9x8bdZh1Bop0XHkac9TXZKzl2DX_
+ ky3EkH8.tJRwNZFqzaVQs3Jmff6F1RGaRpXI5mlERmttmh.gmBuI649gHnlY
+ nh0ImzJhUjwbl1VKzhDDgJcZ99PsKmf53_3KEH.q0nopPyEK3UW02nXPjFMh
+ FlNr3I9jXBFd1H_1xtqWtLdiUmdmmDwmJpTMyyg_VeWZwA2oYg4zWcpdcniy
+ EvCMADR6vI7dg66mgCRC1Dnca5CHSAmWuEx3LSKUirBBMTKuJHFwpjDzqgXC
+ S_FzX2B3JJDEo8UDPGkAF7epmuV0ba9ByKg2qHZJw5OhsxJiaXWU2fUm7VfU
+ nFqmHP6iEsa8GOwAguJhdcz8v7sMtdjQWeIkcGo0p6i1nYBVqNOgMAe1bPCK
+ _vg6tDMcoj0QtLMUkbpVymIzQJeuba2rqu7JEg0PNhZOevMaTrsofZ4ZGKGX
+ 9v84yZWOjIepOAz_4Xb9mv_wiZRRBOnJ3.e41YazyZwLjxkaNCYokkc19b7n
+ Pf8JJyDmcE0ayqOjhE_UNtWXrBnWRXMpkj94d4cGHzqzTtEjV41lJzHRxSTl
+ CLDCxNdvnn7SREzN_IgziPxtu5rAD8LFJeARd7H3cYrXPBNr9Y6vajcKSd8b
+ 5o.VTme8j0GSeNUq.McZXgesYBkZuvPAT7bsgz2enoe1WB.ATBgb9_BUXaAt
+ 6u5Oq0br0qWi__ghrsu_.JO7xqiG7.pohqDxPOjUlLF5gCcKNND7nsD3hVdv
+ iIZifN5fk0E8H8oRNMlT7uOxIbR_57HpJDwbbqPf72b_EaYnvZ6j3Y__UZys
+ .oXU7NYc2VCyl2X0c6lkzY4yf.wwlzBfWXxSBVEudrbbokdOSulmMWKp_Jcf
+ BLslAoCakFqCV4R8ChpjE_MOAM.IqDqm0sOqkE5JQuv3AzS4DRaURQ9miTtD
+ zqSF3VV_ABn7d3GStnSYCGfTKdh8CCNmLTF3BzOdxAiRQNhv1L96iXqSW4ep
+ IEF4C2WWOyQZGF7WzVdFPBo.aG_trThXG9ApHF.4IEMmLNziureU1p3fOgYu
+ NfjxmjnZtgJ2RpnQMUchPVmFMEotD6ghEaM-
+Received: from 192.30.252.209 (EHLO smtp.github.com)
+ by 10.196.241.214 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 06:42:54 +0000
+Received: from github.com (hubbernetes-node-e1b4e9e.ash1-iad.github.net [10.56.211.69])
+	by smtp.github.com (Postfix) with ESMTPA id 87E795E0403;
+	Sat, 25 Jun 2022 23:42:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656225774;
+	bh=qOdoT6C0DIKNP7stXpUpAtZTujYp61J2KsT1hE56fM8=;
+	h=Date:From:To:Subject:From;
+	b=pbkXJDO3waL4ZZXwK6kf2epVVVaXMBBV8IDEHABejnb7JtK92X/cGUAB1F0WVsPvb
+	 z3DXpCn+SqOOwFe+sg3vddZlhKqEPQ/pttufQl8bdSa7K3L30WJgUG/OyszTn6ay3H
+	 0nh2LcKeyhGIXaMsfI051/OZ3aoCQXz8e9fntJiU=
+Date: Sat, 25 Jun 2022 23:42:54 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/c58c49-aa969a@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ aa969a: *** FDIC-01413744, LOCATION 1 - track that. from s...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 6446
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: aa969a1a6158b49ba0c785fddc446b07972ef3a3=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/aa969a1a6158b49ba0c785fddc446b07972e=
+f3a3=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-26 (Sun, 26 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  *** FDIC-01413744, LOCATION 1 - track that. from slaskowitz@ingramllp t=
+o the list serv(es) -- plural.=0D
+=0D
+they are VERY sneaky if you didn't notice - EX-PERPS.=0D
+*** FDIC-01413744, LOCATION 1 - track that. from slaskowitz@ingramllp to =
+the list serv(es) -- plural.=0D
+The content of your fax included 1 page of coversheet with your text and =
+3 pages of attached documents.=0D
+=0D
+Be sure to follow up with the recipient to make sure that the fax is legi=
+ble and is delivered to the right person in the office. Thank you for usi=
+ng FaxZero.com=0D
+	=0D
+# CASE FILE INFORMATION DISTRIBUTED - BY AND BETWEEN ALL RELEVANT PARTIES=
+=0D
+*** FDIC-01413744, LOCATION 1=0D
+	=0D
+FILE 1: [_30--FDIC-01413744 [ 50074 EST ++ ].pdf](https://github.com/WILS=
+ON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER=
+/files/8985964/_30--FDIC-01413744.50074.EST.%2B%2B.pdf)=0D
+    =0D
+FILE 2: [_30--FDIC-01413744 [ 50074 EST ++ ] 999.pdf](https://github.com/=
+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZU=
+CKER/files/8985960/_30--FDIC-01413744.50074.EST.%2B%2B.999.pdf)=0D
+=0D
+FILE 3: [_30--FDIC-01413744 [ 50074 EST ++ ] 999-3.pdf](https://github.co=
+m/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-=
+ZUCKER/files/8985961/_30--FDIC-01413744.50074.EST.%2B%2B.999-3.pdf)=0D
+=0D
+	=0D
+FILE 4: [_30--FDIC-01413744 [ 50074 EST ++ ] 999-12.pdf](https://github.c=
+om/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN=
+-ZUCKER/files/8985962/_30--FDIC-01413744.50074.EST.%2B%2B.999-12.pdf)=0D
+	=0D
+FILE 5: [_30--FDIC-01413744 [ 50074 EST ++ ] 999-76.pdf](https://github.c=
+om/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN=
+-ZUCKER/files/8985963/_30--FDIC-01413744.50074.EST.%2B%2B.999-76.pdf)=0D
+=0D
+FILED: NEW YORK COUNTY CLERK 08/09/2020 02:24 AM INDEX NO. 153974/2020=0D=
+
+NYSCEF DOC. NO. 314 RECEIVED NYSCEF: 08/09/2020=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D/yhElCiKJ=
+0BGv2DF/MOn4g=3D=3D=0D
+=0D
+[MULE]=0D
+FILED: NEW YORK COUNTY CLERK 08/04/2020 02:32 PM INDEX NO. 153974/2020=0D=
+
+NYSCEF DOC. NO. 287 RECEIVED NYSCEF: 08/04/2020=0D
+Sent: Sunday, July 19, 2020 5:49 PM=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4RNL=
+y/6V9gf1BkpTQ=3D=3D=0D
+=0D
+---=0D
+## Consumer Response Unit ( THANK YOU VERY MUCH FOR YOUR ASSISTANCE)=0D
+** National Center for Consumer and Depositor Assistance=0D
+** Federal Deposit Insurance Corporation =0D
+=0D
+# USC 18. =C2=A7208.	Acts affecting a personal financial interest=0D
+=0D
+(a) Except as permitted by subsection (b) hereof, whoever, being an offic=
+er or employee of the executive branch of the United States Government, o=
+r of any independent agency of the United States, a Federal Reserve bank =
+director, officer, or employee, or an officer or employee of the District=
+ of Columbia, including a special Government employee, participates perso=
+nally and substantially as a Government officer or employee, through deci=
+sion, approval, disapproval, recommendation, the rendering of advice, inv=
+estigation, or otherwise, in a judicial or other proceeding, application,=
+ request for a ruling or other determination, contract, claim, controvers=
+y, charge, accusation, arrest, or other particular matter in which, to hi=
+s knowledge, he, his spouse, minor child, general partner, organization i=
+n which he is serving as officer, director, trustee, general partner or e=
+mployee, or any person or organization with whom he is negotiating or has=
+ any arrangement concerning prospective employment, has a financial inter=
+est-Shall be subject to the penalties set forth in section 216 of this ti=
+tle.=0D
+(b) Subsection (a) shall not apply-=0D
+(1) if the officer or employee first advises the Government official resp=
+onsible for appointment to his or her position of the nature and circumst=
+ances of the judicial or other proceeding, application, request for a rul=
+ing or other determination, contract, claim, controversy, charge, accusat=
+ion, arrest, or other particular matter and makes full disclosure of the =
+financial interest and receives in advance a written determination made b=
+y such official that the interest is not so substantial as to be deemed l=
+ikely to affect the integrity of the services which the Government may ex=
+pect from such officer or employee;=0D
+(2) if, by regulation issued by the Director of the Office of Government =
+Ethics, applicable to all or a portion of all officers and employees cove=
+red by this section, and published in the Federal Register, the financial=
+ interest has been exempted from the requirements of subsection (a) as be=
+ing too remote or too inconsequential to affect the integrity of the serv=
+ices of the Government officers or employees to which such regulation app=
+lies;=0D
+(3) in the case of a special Government employee serving on an advisory c=
+ommittee within the meaning of the Federal Advisory Committee Act (includ=
+ing an individual being considered for an appointment to such a position)=
+, the official responsible for the employee's appointment, after review o=
+f the financial disclosure report filed by the individual pursuant to the=
+ Ethics in Government Act of 1978, certifies in writing that the need for=
+ the individual's services outweighs the potential for a conflict of inte=
+rest created by the financial interest involved...=0D
+---=0D
+=0D
+## ALL FILES FOLLOWED THE FOLLOWING PROCEDURE / UPON BEING ADMITTED OF DE=
+NIED.=0D
+----=0D
+COMMUNICATIONS BETWEEN LOCATION 1 & LOCATION 2 [ LOGGED] EX-POST IN 2021=0D=
+
+   =0D
+*** E-mail Notifications ***=0D
+   =0D
+An email regarding this filing has been sent to the following on 08/09/20=
+20 02:31 AM=0D
+    =0D
+## SHARI LASKOWITZ - slaskowitz@ingramllp.com [ MULE ]=0D
+   =0D
+*** [ MULE ] ***=0D
+=0D
+=0D

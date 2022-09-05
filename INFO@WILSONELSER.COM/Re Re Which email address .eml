@@ -1,0 +1,221 @@
+From - Wed May  4 19:41:31 2022
+X-Account-Key: account8
+X-UIDL: 1645857828.700
+X-Mozilla-Status: 0013
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Return-Path: <bdincer66@icloud.com>
+Received: from compute4.internal (compute4.nyi.internal [10.202.2.44])
+	 by sloti52n19 (Cyrus 3.7.0-alpha0-591-gfe6c3a2700-fm-20220427.001-gfe6c3a27) with LMTPA;
+	 Wed, 04 May 2022 20:01:50 -0400
+X-Cyrus-Session-Id: sloti52n19-1651708910-3150589-2-5559503790315405974
+X-Sieve: CMU Sieve 3.0
+X-Spam-known-sender: yes ("Address bdincer66@icloud.com in From header is in addressbook");
+ in-addressbook; bba2db8d-33a3-40c2-87e0-df67be267777 ("Autosaved")
+X-Spam-charsets: plain='utf-8'
+X-Resolved-to: cockarens@vouchersrus.org
+X-Delivered-to: cockarens@vouchersrus.org
+X-Mail-from: bdincer66@icloud.com
+Received: from mx4 ([10.202.2.203])
+  by compute4.internal (LMTPProxy); Wed, 04 May 2022 20:01:50 -0400
+Received: from mx4.messagingengine.com (localhost [127.0.0.1])
+	by mailmx.nyi.internal (Postfix) with ESMTP id 902811F20184
+	for <cockarens@vouchersrus.org>; Wed,  4 May 2022 20:01:50 -0400 (EDT)
+Received: from mx4.messagingengine.com (localhost [127.0.0.1])
+    by mx4.messagingengine.com (Authentication Milter) with ESMTP
+    id C7F2E873449;
+    Wed, 4 May 2022 20:01:50 -0400
+ARC-Seal: i=1; a=rsa-sha256; cv=none; d=messagingengine.com; s=fm3; t=
+    1651708910; b=QnL8UbxkmdOGhQ36nS1UGrMTANpfuvM5d/6YXxT/d4u2T4irVw
+    1Jjen1jsxYE27BeqAfC67UPETGp/e/w9tSHD7MwcjTLMOnHNxIo9W1AhEheoF/69
+    qeBz/RZ6DYahWfZWFp0+5vOo0JFpSxHOR28abFQ03GM+5982wYHr0ItZxplamzrF
+    gzA0rOTM+v9MCO+erI8SPPN0+XNdURUKmyBVXOA/sWEkNfxoq4rVMKjtVQ6nuXSn
+    1MTbbYukEPBCFFU1ZUEM9t4IM9oy7A+oBazwg2U9NcSvjK8ezOIycsismmvhSFFW
+    C6QjgnI1WkMT1f++qCrbm8JAI9m7H2oz+UgQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=
+    messagingengine.com; h=content-type:content-transfer-encoding
+    :from:mime-version:subject:message-id:date:cc:to; s=fm3; t=
+    1651708910; bh=/yQQLM8owfI0/7wHqWgQ69rZSit7knyylVB3ECQcly4=; b=c
+    cQIgP/MzR0esvLXc2LWxEj5Kzbm7qwMxVS7pSo+S45X27f960VevEFOU/VW/ElIO
+    JNkuhYbWlcFQhzJrV5GEWccabYAkBuonb5/ZDPXAIwId4y9v/GBTiGwJKoqU4zWv
+    2buLzCS0fsWcohVeIPBgTAR3KAkY4BaEMUKPllk9Ql9RoW4E8KwzW78KQQEhyE5U
+    piwisB6DqWiL76cahivk2ine1huTaJU4Hz1wn+xVwHoU6rgQIr8+BOaVRntwG6YB
+    3y8U58NA6toiumvl5fqlSW7Tv/SHgZyvRM6R36KRh9FYa5JFKIIO6hF19Kij5XpA
+    7ib6ddoDwlhd8KilpcpTg==
+ARC-Authentication-Results: i=1; mx4.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=st43p00im-ztfb10063301.me.com
+    policy.ptr=st43p00im-ztfb10063301.me.com;
+    bimi=none (No BIMI records found);
+    arc=none (no signatures found);
+    dkim=pass (2048-bit rsa key sha256) header.d=icloud.com
+    header.i=@icloud.com header.b=RKNStANK header.a=rsa-sha256
+    header.s=1a1hai x-bits=2048;
+    dmarc=pass policy.published-domain-policy=quarantine
+    policy.applied-disposition=none policy.evaluated-disposition=none
+    (p=quarantine,d=none,d.eval=none) policy.policy-from=p
+    header.from=icloud.com;
+    iprev=pass smtp.remote-ip=17.58.63.179 (st43p00im-ztfb10063301.me.com);
+    spf=pass smtp.mailfrom=bdincer66@icloud.com
+    smtp.helo=st43p00im-ztfb10063301.me.com
+X-ME-Authentication-Results: mx4.messagingengine.com;
+    x-aligned-from=pass (Address match);
+    x-return-mx=pass header.domain=icloud.com policy.is_org=yes
+      (MX Records found: mx01.mail.icloud.com,mx02.mail.icloud.com);
+    x-return-mx=pass smtp.domain=icloud.com policy.is_org=yes
+      (MX Records found: mx01.mail.icloud.com,mx02.mail.icloud.com);
+    x-tls=pass smtp.version=TLSv1.3 smtp.cipher=TLS_AES_256_GCM_SHA384
+      smtp.bits=256/256;
+    x-vs=clean score=-106 state=0
+Authentication-Results: mx4.messagingengine.com;
+    x-csa=none;
+    x-me-sender=none;
+    x-ptr=pass smtp.helo=st43p00im-ztfb10063301.me.com
+      policy.ptr=st43p00im-ztfb10063301.me.com
+Authentication-Results: mx4.messagingengine.com;
+    bimi=none (No BIMI records found)
+Authentication-Results: mx4.messagingengine.com;
+    arc=none (no signatures found)
+Authentication-Results: mx4.messagingengine.com;
+    dkim=pass (2048-bit rsa key sha256) header.d=icloud.com
+      header.i=@icloud.com header.b=RKNStANK header.a=rsa-sha256
+      header.s=1a1hai x-bits=2048;
+    dmarc=pass policy.published-domain-policy=quarantine
+      policy.applied-disposition=none policy.evaluated-disposition=none
+      (p=quarantine,d=none,d.eval=none) policy.policy-from=p
+      header.from=icloud.com;
+    iprev=pass smtp.remote-ip=17.58.63.179 (st43p00im-ztfb10063301.me.com);
+    spf=pass smtp.mailfrom=bdincer66@icloud.com
+      smtp.helo=st43p00im-ztfb10063301.me.com
+X-ME-VSCause: gggruggvucftvghtrhhoucdtuddrgedvfedrfedtgddvlecutefuodetggdotefrodftvf
+    curfhrohhfihhlvgemucfhrghsthforghilhdpggftfghnshhusghstghrihgsvgdpuffr
+    tefokffrpgfnqfghnecuuegrihhlohhuthemuceftddtnecusecvtfgvtghiphhivghnth
+    hsucdlqddutddtmdenfghrlhcuvffnffculddqiedmnecujfgurheptgfghfgguffkffev
+    vffosehtqhhmtdhhtdejnecuhfhrohhmpeeuohcuffhinhgtvghruceosgguihhntggvrh
+    eiieesihgtlhhouhgurdgtohhmqeenucggtffrrghtthgvrhhnpeethfduvdeltddvkeej
+    keevteetieduheehjeeluedtiedvudehkeeivdfgteeufeenucffohhmrghinhepshhtrg
+    htvgdrnhihrdhushdpnhihtgdrghhovhenucfkphepudejrdehkedrieefrddujeelpddu
+    jedrgedvrddvhedurdegudenucevlhhushhtvghrufhiiigvpedtnecurfgrrhgrmhepih
+    hnvghtpedujedrheekrdeifedrudejledphhgvlhhopehsthegfehptddtihhmqdiithhf
+    sgdutddtieeffedtuddrmhgvrdgtohhmpdhmrghilhhfrhhomhepoegsughinhgtvghrie
+    eisehitghlohhuugdrtghomheq
+X-ME-VSScore: -106
+X-ME-VSCategory: clean
+X-ME-CSA: none
+Received-SPF: pass
+    (icloud.com: 17.58.63.179 is authorized to use 'bdincer66@icloud.com' in 'mfrom' identity (mechanism 'ip4:17.58.0.0/16' matched))
+    receiver=mx4.messagingengine.com;
+    identity=mailfrom;
+    envelope-from="bdincer66@icloud.com";
+    helo=st43p00im-ztfb10063301.me.com;
+    client-ip=17.58.63.179
+Received: from st43p00im-ztfb10063301.me.com (st43p00im-ztfb10063301.me.com [17.58.63.179])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mx4.messagingengine.com (Postfix) with ESMTPS
+	for <cockarens@vouchersrus.org>; Wed,  4 May 2022 20:01:50 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=icloud.com;
+	s=1a1hai; t=1651708908;
+	bh=/yQQLM8owfI0/7wHqWgQ69rZSit7knyylVB3ECQcly4=;
+	h=Content-Type:From:Mime-Version:Subject:Message-Id:Date:To;
+	b=RKNStANKdKftYNuOpc5wLLNT/o/Xp+BI1qPKjqIkMm4+qAE0jl8p3e3IiJN2IMjbL
+	 MJ/uJgu3aBcMvXnvcu9R5q7fu/U+JAb2LxOBLZ7m4kix0g7FzX8OAtFgE1QLwayakx
+	 u10BH3bY2cRlqo23YDaEzy5DzU9JR78L4VuB/n8O8hjsGYBhZkRtcZloB0AyesydK7
+	 ZGsE7Gx+OhXwv7SuXIzB8DkHmJk1fKd70D7msfk4bKS7iT0OLlUEVFeiNQzLFE5q+u
+	 aF+/8OUBa2/1qKPrdnVOC6w9LAmFoomUdsFFiOO7vjonIyKd+NW9nlQ7R0xEr3pIpp
+	 2KAWkG64n8sag==
+Received: from smtpclient.apple (st43p00im-dlb-asmtp-mailmevip.me.com [17.42.251.41])
+	by st43p00im-ztfb10063301.me.com (Postfix) with ESMTPSA id C130A7003F8;
+	Thu,  5 May 2022 00:01:47 +0000 (UTC)
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+From: Bo Dincer <bdincer66@icloud.com>
+Mime-Version: 1.0 (1.0)
+Subject: Re: Re **** Which email address?
+Message-Id: <E017B7EB-F6EA-4F4C-BAEE-670316EDAE9C@icloud.com>
+Date: Wed, 4 May 2022 20:01:38 -0400
+Cc: Bo Dincer <bondstrt007@gmail.com>, Bo Dincer <bo.dincer@yahoo.com>,
+ Work <cockarens@vouchersrus.org>, B Dincer <bdincer1768@bloomberg.net>,
+ Bo Dincer <bdincer66@icloud.com>, Bd Dincer <bdincer211@bloomberg.net>,
+ BBO 121 <ms60710444266@yahoo.com>, espnfrontrow@espn.com
+To: vivichow042@gmail.com
+X-Mailer: iPhone Mail (18E212)
+X-Proofpoint-GUID: SQ2C4n96AN7EWAugQiBCb9N5bRvjx2wy
+X-Proofpoint-ORIG-GUID: SQ2C4n96AN7EWAugQiBCb9N5bRvjx2wy
+X-Proofpoint-Virus-Version: =?UTF-8?Q?vendor=3Dfsecure_engine=3D1.1.170-22c6f66c430a71ce266a39bfe25bc?=
+ =?UTF-8?Q?2903e8d5c8f:6.0.425,18.0.572,17.11.62.513.0000000_definitions?=
+ =?UTF-8?Q?=3D2022-01-14=5F01:2022-01-14=5F01,2020-02-14=5F11,2021-12-02?=
+ =?UTF-8?Q?=5F01_signatures=3D0?=
+X-Proofpoint-Spam-Details: rule=notspam policy=default score=0 bulkscore=0 suspectscore=0
+ malwarescore=0 adultscore=0 phishscore=0 mlxscore=0 spamscore=0
+ clxscore=1011 mlxlogscore=505 classifier=spam adjust=0 reason=mlx
+ scancount=1 engine=8.12.0-2202240000 definitions=main-2205040133
+
+=EF=BB=BFWhich email address?
+
+Easy
+   =E2=80=A2   =20
+   =E2=80=A2    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docInde=
+x=3DH4jMXghoLMU1ozmlj4VYHg=3D=3D
+
+   /s/ AUGUST 8TH, 2020
+   =E2=80=A2    https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageVi=
+ew?doc_id=3D2020052000291002
+   =E2=80=A2    https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageVi=
+ew?doc_id=3D2020052000291003
+   =E2=80=A2    https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentImageVi=
+ew?doc_id=3D2020052000291004
+   =E2=97=A6    1004 HAS SOME ADDITIONAL COVENANTS THEREIN, WAS NOT TERMINAT=
+ED IN THE 90-DAY WINDOW.  =20
+
+X------- https://a836-mspuvw-dofptsz.nyc.gov/PTSCM/StatementSearch?bbl=3D100=
+5030011&stmtDate=3D20190201&stmtType=3DSOA
+X------- https://a836-mspuvw-dofptsz.nyc.gov/PTSCM/StatementSearch?bbl=3D100=
+5030011&stmtDate=3D20181116&stmtType=3DSOA
+X------- https://a836-mspuvw-dofptsz.nyc.gov/PTSCM/StatementSearch?bbl=3D100=
+5030011&stmtDate=3D20180824&stmtType=3DSOA
+X------- https://a836-mspuvw-dofptsz.nyc.gov/PTSCM/StatementSearch?bbl=3D100=
+5030011&stmtDate=3D20180601&stmtType=3DSOA
+           PREMIUMS ON THESE RECEIPTS HERE GO BACK 15 YEARS +=20
+
+**
+
+**
+NYSCEF DOC. NO.                       220
+RECEIVED NYSCEF:               08/02/2020
+INDEX NO.                     153974/2020
+
+* https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DoFSKORPzy5=
+51BVUfHZGI_PLUS_Q=3D=3D
+
+NYSCEF DOC. NO.      348
+RECEIVED NYSCEF:               08/09/2020
+INDEX NO.                     153974/2020
+
+* https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DTxAa7cNVIH=
+KtnJU/ni/zvg=3D=3D
+
+WARNING. JUNE 3RD, 2021 -----------------
+
+NYSCEF DOC. NO.      385
+RECEIVED NYSCEF:               08/10/2020
+INDEX NO.                     153974/2020
+
+* https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DK9sgXcweC7=
+esRoSPO8MNtA=3D=3D
+
+/BD
+
+   And who is this?
+/BD
+
+> On Apr 15, 2022, at 11:50 AM, Vivian Chow <vivianchowhow1@gmail.com> wrote=
+:
+>=20
+> =EF=BB=BFGood day
+> Is your email still active? I sent you an important message but no respons=
+e.
+> Kindly get back to me, if you got this message.
+> Vivian

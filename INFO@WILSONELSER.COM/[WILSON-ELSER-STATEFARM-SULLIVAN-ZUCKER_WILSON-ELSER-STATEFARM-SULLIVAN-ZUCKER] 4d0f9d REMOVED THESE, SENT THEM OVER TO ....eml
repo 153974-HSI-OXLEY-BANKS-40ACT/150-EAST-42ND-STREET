@@ -1,0 +1,135 @@
+From - Sun Jun 26 04:29:53 2022
+X-Account-Key: account1
+X-UIDL: ALmq3oEjL4VlYrglzArdQLrA+m8
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.214.173.215
+ by atlas110.free.mail.gq1.yahoo.com with HTTPS; Sun, 26 Jun 2022 09:24:27 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.211]
+Received-SPF: pass (domain of github.com designates 192.30.252.211 as permitted sender)
+Authentication-Results: atlas110.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 09:24:27 +0000
+X-YMailAVSC: xZbRsKs3bBv1vGE18eZtlJM8cOQFLYMtjfDOrGTDZ0OZy2A
+ 3DQUfnMZjLEKmxZWvuNZmbcdyAm8Yv3r8p0fEjmI01x0R44X2DYXXGTpj8WA
+ TdeL6UNHnP64J4McOkCaaocYlonihyLkWLWuCYOP86291MrS6PjQz3dyHlqF
+ 2tmrMa1xJY5_oZuhThbCsFSj79o5ZsGxVkOsgPhvREqW6cEhXdWR6cSjYU8w
+ AhnQhgWWNh_L6HdpGfHsueoUWBTlFmxLRvebMDn1qbkX6sy9BUYr9y4VF96c
+ CTO8_lsLnuhEj8QU2OoUTnOSpe.3UK7VhTUHrWkf5dDyXt1jJTmGvSYS8G0r
+ k
+X-YMailISG: kTxcsZgWLDu7Zgv4DPAduZt0n9VUlvjmYJCeXW3t1NRmsg0E
+ y2NpGWyBSZBUi5DiG1thqWKeez6pI__ma_Gq.C51bccO.o0a2jWnv3xaUdot
+ SnO5L3ob6oqcg_YF.p7tSz1z0gRl8mSO_AxCUQ5rfapGMW0YgWbR5hQ_XLsu
+ aOQDAjBGEv4eEZPV7hHSFzU8Jc.SZHrabG9Cyen8d6BcPA_88D1M2.DxFHlp
+ 9GqxOlgA8dyldL7sUYe1esoDqIkvrJIfW_KT8aqL9_RAOpz3EFdOgQGwtDKE
+ Opf3Vk0nEZZY65xfpaykQIMLL2cR2aPSfcPsMVsTyaFu2umg284HTmNUgbbi
+ Li4nczjKm_yiIASxqEcGDD_5bl5BjSlWJZDDapBeix9tWih6nCviagXFgmTC
+ Z2APBBaqILCaIzDmLuXIqWNQjr4mj0gjbyyHc0qTPeD_rABbOyiW2cmMbDLm
+ FYTh9n0O.PCX9FN3U0q0rCzgIwojo_suEmEKtAOCmiy.9vih.stfjOJbToB9
+ wcqklwR4b0AzecBVgbiSDVFNccBuI89gxSDoIosA59D074VdTWCRbdNL6hAA
+ _yvc.ivuBzpoz_c3iLEuULmkYT0maPUJOnvF6b5ihEgcJcMA7BE9kGtbf3YP
+ 0bXpyyMwo51_Xc3x8HfgMbUIRYktLAECsQm0NFXodin948I14luVjHX5DcEg
+ c7lCfNywvGZPxqKbu483VqMhNHSBp_hVW9yOEEwDfb8Y_hOOliTNzJhU3uEO
+ KxGqoYqHuOdV3qkCNjWPrYfB_WVi_v_0M22qVhpvPsCzdQtPxBGIJQyjHArW
+ bucen.3dp4uKK6OYKPTDFYNIXO9dEsjwdne22rNgKEabTVKFu6zvrhw7aRR4
+ 6OGnXDP9tyty7NhLIXO9t_wkYFITEz0brYiYjGFn9JQDoUm6QIGWkdqjQyqn
+ jxie1nEem6Ld2rQHqjbV4DdV_xahZteEbHhoqKBia7hdY.gTnXaHO4_D7gQS
+ UWIsTzk8kR7yI3K8vWGeMlSoYSioBdFq.uJyYkQLkrIq1dzEZVomR8jtHbT.
+ cgTK5CJjLEB8akqRk1yPU375acONeHZU8aG.Ih2YT4WOz7XvxVXa5Xwc4qIC
+ MErcoaxbqvRfTWqSQjAD_cb0sYUts86ytKCC5DG2BC26Z8YhMqOHD1OYQbIv
+ wQJHcEzAmcVcxxJVvfoPjm45OWRe7G8I8F0-
+Received: from 192.30.252.211 (EHLO out-28.smtp.github.com)
+ by 10.214.173.215 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 09:24:27 +0000
+Received: from github.com (hubbernetes-node-e65dd1d.ash1-iad.github.net [10.56.207.104])
+	by smtp.github.com (Postfix) with ESMTPA id DDED49004C3;
+	Sun, 26 Jun 2022 02:24:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656235466;
+	bh=J+pZ4A91HH0hbmOOYVNDbu9EPDBfwbKMWJLGZeuDoNs=;
+	h=Date:From:To:Subject:From;
+	b=1QZC8LRNEv3wltUtuF8mNK7jTEyR12wS4/iPr+1j+sk2sq3VIXOmZT7rlZTolIE81
+	 2EjRWnnMw5G2hNCCX3j0+sqCnEhWx6gAeQ0HrGSGjgGcdA8CNXgyvO1sN0My3RE13W
+	 5ET25ssYbiqbMrPjlZNu4VlzOmiRLb56C/VIxm5Y=
+Date: Sun, 26 Jun 2022 02:24:26 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/dd784f-4d0f9d@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 4d0f9d: REMOVED THESE, SENT THEM OVER TO THE ZUCKER DEPT. ...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 2850
+
+  Branch: refs/heads/main
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER
+  Commit: 4d0f9d8dee7071b5833279a02c5589cdbe74e48e
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/commit/4d0f9d8dee7071b5833279a02c5589cdbe74e48e
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>
+  Date:   2022-06-26 (Sun, 26 Jun 2022)
+
+  Changed paths:
+    M README.md
+
+  Log Message:
+  -----------
+  REMOVED THESE, SENT THEM OVER TO THE ZUCKER DEPT. WHO NOTORIOUSLY LIKE TO CALL AND HAVE THESE ARTIFACTS (OBSTRUCT) THEM FROM ANY PUBLIC EYE.
+
+
+![image](https://user-images.githubusercontent.com/108204659/175803674-dc85ce47-c834-4024-bc60-8ded1a893555.png)
+	
+
+![PERMIT NONE](https://user-images.githubusercontent.com/70865813/166412249-b4f53181-4497-4e23-b1f7-7482261497e2.PNG)
+	
+	
+SEC FILINGS
+PERIOD_ 2020-11-30 FILER_ 000009371
+PERIOD_ 2021-11-30 FILER_ 000009371
+
+![image](https://user-images.githubusercontent.com/108204659/175807385-7fddaa44-5d5b-4b7e-84be-0b16234ef629.png)
+	
+	
+	GOODNIGHT@
+
+![image](https://user-images.githubusercontent.com/108204659/175807432-3e95c7fa-a2e5-49a5-b0c9-ee5d9927fddd.png)
+
+---
+![image](https://user-images.githubusercontent.com/108204659/175807438-43e539c5-b627-42af-8405-17e521874458.png)
+
+---
+	
+![image](https://user-images.githubusercontent.com/108204659/175807450-6f9b62a4-0810-4252-aa9b-4223b24a08e8.png)
+	
+---
+US 26... AIDING AND ABETING, AS COUNSELORS AND ACCESSORIES.
+	
+![image](https://user-images.githubusercontent.com/108204659/175807465-884d697f-ee44-4abf-b397-d7618bd013db.png)
+
+![image](https://user-images.githubusercontent.com/108204659/175807473-19f7c9b6-484b-4a5b-8761-853651f6e86d.png)
+
+![image](https://user-images.githubusercontent.com/108204659/175807488-6d0afaaa-7446-47d0-8195-e93e85c3ccb4.png)
+	
+![image](https://user-images.githubusercontent.com/108204659/175807493-c409f891-402b-4beb-9c88-e7a8bd2e8459.png)
+	
+HERE ARE THE LONG-TERM ACCESSORIES OF SULLIVAN PROPERTIES AND CO, WHO ALSO MAY OR MAY NOT BE ACTUAL PEOPLE
+- HOWEVER FILED AFFIDAVITS WHICH DEMONSTRATE THEIR "AWARENESS" TO WHAT IS GOING ON, WHEN ITS CONVENIENT IN 10-MINUTE INTERVALS REPORTED ON MY PERSONAL AFFAIRS AND LIFE, AS PURPORTED - NOTWITHSTANDING HAVING OBSERVED ME "...BANGING ON THE RADIATOR, AND OTHER ACTIVIES..." AS MY DOOR MUST HAVE BEEN TRANSPARENT.
+![image](https://user-images.githubusercontent.com/108204659/175807691-fee966a9-cad9-4016-9195-4bd49c507898.png)
+
+
+MORGAN STANLEY
+SEE ALSO, DECEMBER 18TH, 2021 NOTICE TO THEIR INSITUTIONAL SALES DESK, IMMEDIATELY WAS DISSEMINATED AFTER FILING A TCR REPORT ON NOVEMBER 13, 2021
+	
+![image](https://user-images.githubusercontent.com/108204659/175807519-d2cb273f-43c7-4cc9-a500-e5b8bb2bf9f2.png)
+
+

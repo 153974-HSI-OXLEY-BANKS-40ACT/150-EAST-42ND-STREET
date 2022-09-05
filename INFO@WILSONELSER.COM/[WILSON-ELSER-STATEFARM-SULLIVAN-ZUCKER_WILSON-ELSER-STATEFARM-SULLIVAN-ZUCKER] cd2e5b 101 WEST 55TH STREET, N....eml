@@ -1,0 +1,123 @@
+From - Mon Jun 27 18:33:04 2022
+X-Account-Key: account1
+X-UIDL: AFbdk8A1lY8KYro9MAO1OCjIZVM
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.32.201
+ by atlas219.free.mail.bf1.yahoo.com with HTTPS; Mon, 27 Jun 2022 23:28:47 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.205]
+Received-SPF: pass (domain of github.com designates 192.30.252.205 as permitted sender)
+Authentication-Results: atlas219.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 27 Jun 2022 23:28:47 +0000
+X-YMailAVSC: 2Ug5nAM3bBuWHSF.YGGDYQuhPxeK6brd0AZwo2z_RsvJY9A
+ B132EOoDJDTWYi1SHWG_nqlWl1A7JQ2F3GMY3JEdoov8JbAH3vt9A9LFzj61
+ djaG78Qep60jfV2_WvOobD.O.DU3V98YZ9yQoJ39eBY89zRiBn.A8m431S2T
+ sz2XkpDcpnb27rSauHekWXt1nUtDZJZb0KZM2CtLCYiBHOrg1VptMUTUrH5J
+ G3nJUEK7hnJSOKDvAW.ibbZbHMYivj0qtXId74adW8uxugJJrBiW_7TkeAIa
+ VzhAwOv4G.9fsUxgVh_oif159XJ2jzlvlDvKz25.6L_eKdPbe3M9Ek31jlrN
+ K
+X-YMailISG: SlTpZ8IWLDspcPK0HByP1kf0aSdsVpdbuG_G5XsywvtDHyfH
+ G_xxbBue3sEbCxYeaKZlRY.pu5miZbBTTcsGAioLjMQbMP613ICZx85OwQzZ
+ al8b7enHCSBosIFhmLVJQVM.nUmw0a5NVtC9M8sQJHgFujbU1ncENbrXpCFp
+ jme89srabRgiPv5ZIpWtIb5jm715vDVGeS_Xmj8QK.ws9FI5dqvwLjdfsQvW
+ UiHOyDtgWl3O3PalsYSwDf3HM9hWElb5JHJ.W.mJIvNjtZk3nxEwHc.7XGV6
+ 4_jYADXV_EF0uJ3M7MmP4ld5tqVOVbrZyPopjxJmux2fmYTlvBYMTWGJ1PkA
+ 1YmLyyXN5mg2wliqBrRCkriQ496NnhEAW4w7ZkOSdyVAkV1FXzPO66_jkrAg
+ AfsBiRJypMVULHhwwgPsm2M8xkH7SZVYwQMFkEXphF2BWtCWRRBEP.mekl4_
+ i4ntZPaRLSWi6INtigBOMVGvk.FDcgV35uptTAmV8DZ4Flj0ikQPybc_Gr0J
+ KCtOjLqOz.FmeG8ByxI32ro64vvd0e1TB5QIh4xPDTthqB5Vdj5aBujDLXkF
+ lA6wbPjwj5_Ms3.VywG.oYee5poukpjnnDt0uvxz.Cm7nv4Y7gFJVWIt9D6_
+ cQaS_iTK8kOSPFfQWomyPuPssX0iDvl1smYEF8ROgjJzoNIrmz.K_lzZGkGK
+ sS6zZjeXvKlA908rwciGpQICEWRHwtKZ57ADIJDT4qaX_ZFjadLb3gZfr6iH
+ jptWgOo8JoH_cKhNr8ZywfkdpBpp38i1KX7EyjFykrzR3lg7Wf8sjoccr0ka
+ w18rb_FSJBHF0bM1n1FBW94xuuNUEjV0ERMO4j8bh4LEXp_MJ4JLlftE3o_K
+ Bns2UhNNWDyIZFuyK54OnRuXVdLAH1zHF4J1tbGI6ZIq0Vq.isLCry4jgTSh
+ 5mgRWD3DRfw3pXYMCyCOf.24kHVLS4HkSr95FjxKMtCfYFsfn6ygugNdMR_k
+ Xynbrh8fOJv5EsRItLWryKLAQmjyI7xbJYNX08aWvtGsUJ.eKU72z98jKNe_
+ c7Q2MpFg094fA_OQMFIypT60nqudYx11ARdDufPw5hu6cAtwsfAEVrA95_RW
+ _Q0zGFPkpsj8QfYS73HX8O5smJSR4_WOReWDu.igwWUiAcYJAyXru5o9a3.T
+ h9JyVnFibK4CSUuk1mjuadFiS5_NDwHKFC.e
+Received: from 192.30.252.205 (EHLO smtp.github.com)
+ by 10.197.32.201 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 27 Jun 2022 23:28:47 +0000
+Received: from github.com (hubbernetes-node-eecd206.ac4-iad.github.net [10.52.211.61])
+	by smtp.github.com (Postfix) with ESMTPA id 7B3187207BB;
+	Mon, 27 Jun 2022 16:28:47 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656372527;
+	bh=7KuoPnYooHPPx3TAyK73ezEy8FLjLHH25imh8Dr8SMY=;
+	h=Date:From:To:Subject:From;
+	b=Yk6Qzw1ojAIdPWdu7+wLRjhgpHnf7/2WX2KVO2/wphLxCPnLfWBj+lO/7gy3ZzN3G
+	 R49yvS/KiWqRKvBu1FP0RuLK9hGQHyRGXTsni7TfmuOEKB0MOv/7orCJ21RSGuponK
+	 B2CQa8cZFxYJ2TmS3aqFf/2SrFz1PWOW6uO97fRg=
+Date: Mon, 27 Jun 2022 16:28:47 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/2022-06-27/217f61-cd2e5b@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ cd2e5b: *****     101 WEST 55TH STREET, NEW YORK, NY, 1001...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 1725
+
+  Branch: refs/heads/2022-06-27
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER
+  Commit: cd2e5be76bea49852a9713a57fcb488537bf7ece
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/commit/cd2e5be76bea49852a9713a57fcb488537bf7ece
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>
+  Date:   2022-06-27 (Mon, 27 Jun 2022)
+
+  Changed paths:
+    M README.md
+
+  Log Message:
+  -----------
+  *****     101 WEST 55TH STREET, NEW YORK, NY, 10019 --- REPORT FILED
+
+(CIK FILER 93715)
+(1)    STATE FARM ASSURANCES FUNDS TRUST.<br>
+(2)    STATE FARM LIFE INSURANCE COMPANY<br>
+*****     ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710<br>
+
+(3)    DONALD ZUCKER <br>
+(4)    SULLIVAN PROPERTIES LP<br>
+*****     101 WEST 55TH STREET, NEW YORK, NY, 10019<br>
+
+(5)    DAVID MOORE<br>
+(6)    JOSEPH MONK, JR. <br>
+(7)    PAUL J SMITH<br>
+(8)    TERRENCE LUDWIG<br>
+*****     ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710<br>
+
+(9)    SULLIVAN PROPERTIES LP<br>
+*****     101 WEST 55TH STREET, NEW YORK, NY, 10019<br>
+
+(10)    SULLIVAN GP LLC<br>
+*****     101 WEST 55TH STREET, NEW YORK, NY, 10019<br>
+
+(11)    MANHATTAN SKYLINE MANAGEMENT CORP.<br>
+          of counsel in NYSCF matter 153974/2020 [ annexed ] obo of "Plaintiffs"<br>
+(12)    SHARI LASKOWITZ<br>
+(13)    ASHLEY HUMPHRIES<br>
+(14)    CORY WEISS<br>
+*****     150 EAST 42ND STREET, NEW YORK, NY, 10017<br>
+    
+(15)    PAUL REGAN<br>
+*****     101 WEST 55TH STREET, NEW YORK, NY, 10019<br>
+
+ (16)    STATE FARM VP MANAGEMENT CORP.<br>
+*****     ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710<br>
+
+

@@ -1,0 +1,186 @@
+From - Thu Jun  9 14:46:41 2022
+X-Account-Key: account1
+X-UIDL: ADt+fxRcJgzMYqIjsgENiOEU5Pk
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.144.139
+ by atlas225.free.mail.ne1.yahoo.com with HTTPS; Thu, 9 Jun 2022 16:45:37 +0000
+Return-Path: <crcmessages@ftc.gov>
+X-Originating-Ip: [40.107.91.57]
+Received-SPF: pass (domain of ftc.gov designates 40.107.91.57 as permitted sender)
+Authentication-Results: atlas225.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@ftc.gov header.s=selector1;
+ spf=pass smtp.mailfrom=ftc.gov;
+ dmarc=pass(p=REJECT,sp=REJECT) header.from=ftc.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 9 Jun 2022 16:45:37 +0000
+X-YMailISG: VieqhUUWLDsqIWNbnuEsWQPQBC0fQ8g_6TlrnE7aNbnKnaWN
+ XWavlHZg6WH8qBVDURrdXM2BGxpPUDRWQe1umyb4QVCeOrz_7PbmSfwk9BJo
+ Rf.wH5IW.xW_D8JBPs6nt9qjs1M1x..pgR0nDOeqh5HIPN5Wj1e.SpR2YcpX
+ l83Nxre5hyYzAVZLbXNlFlfPTZHRAaRn3NQaf7yCWxKjGHxenb3MfmLVM5O.
+ YJ.mip_eXImAKs.ZGn4ubt_rU5rq8yNHk3GzTG7GY1A4tI7_9rJitbR95_HU
+ Y0LQ3no9ne1kTO68S2rkgOKm.4ffZijdHkS7Wc1vQkI7ymk6RVinD0dBrZ.x
+ MyVgkb.OqMH1JN.lyyLzB9kqk65sZVQOY_WDh8VVmzn9aTOZ4fI8_daKTuKN
+ vGaYpis8HTvrEw3xN3fNNBm4c48gOCF.a7kXkw8_VBtMj22_8AbDYs9gaJ_w
+ OsfS0KCpvYjA4SFaKRE6F1iJUa6Myc2gPaqASsmNIsRRZOyjpwHDNMzZ34Ts
+ sJGsceSW1B2_jQwfmG2cpdMSn1D...OkGwHRSyYdnIv5IIo2GLhMVcbP6jHD
+ eJoQnsACGcy_mj1SVJLopZzXnObn45gNgcVT_t68S8h9PWuiRRCsZaKH2Qm8
+ reJFFwL.tXCMO8f_vnIdrxUmm._9Pyj1TzSvam2ou9oyQ_H49ZUdTrVwAsN9
+ VXjfrLLeoooWFYf38xUaLIYI1Ne4YIarAjufl4MdGSakP3le.ooanqAqBrjx
+ asoG.40BHrWcXsAqlivYCZ25XTWhutqj3Ju6kZhl6drZ7TNfClnzJroBfI6J
+ snzXWQv9_3lldofYO6yb6NY.WBnF.3oTjloQqEIxiRg3Oo0GXWkDjYXyYAbH
+ z4ZmxjClahk5AluxWNkuwoCeB5HeSVXcQwvFbvQWeXUBv2.QJO_hB7v8ydXz
+ 1QlhsF.cTzAsNEcRyje2NCRre8JFh312cWPRt.TnABnM7Tk9EoQQB.hVaVlw
+ .GObOAKD9fU_JHll7KcqDSTm3cT3O3M1FRqGf5xj0W.tMiQpK2dHhV6u9lk2
+ 0Aj2sSboqeVq.HmnyyktDbtGMNJHmSm33Cx5NxeOt41_Sle1n.LPxd9emxGp
+ ATOdd6r29QQcngFfQI3yPahHCzZLP0Q71gLW87i.lCDC3IwO9sezMDsLODKm
+ ZVh6QRZ3mtwxWeh4Wd_bVd5e8JXdZiY-
+Received: from 40.107.91.57 (EHLO GCC02-DM3-obe.outbound.protection.outlook.com)
+ by 10.217.144.139 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Thu, 09 Jun 2022 16:45:37 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=gDOuIf67Unqpj5Fc+VkTGQzdWWsC+u/KNwxHsRjPAsOheNy5yyBNw8FHrkgNso1tG1Kx3Zph7QNe13huXo9cpaf/4Liq6abVTSrxE611ydDZlw+uzsgnMoPNGDXlAMIwFZ0OFDpAsEiGabW277O9QLruTUx/87dubk7fx1hfYgA85zHj2aJZJ52qs0vbwHyuclFTQZhiltkXZcbCK8ZjE0YgwhKAjKb5jKCNPLq2aPdxUqsP4orJO2VFBxYup44nzw9VwLApva4Vlb565Lp4aRG7XSietSoYn1/UQS4PagFnR85Hxzijs5J13SyB6LWEmwKRa+a4s2Ye7kW81mNGbg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=vHJfJZOmVU/NXfT5SrCYOkLlcmXA29OGUes8l2jJoqU=;
+ b=YPDcwDf4pIXNT7/O69G82fDXzpyv1IMYEfNxyhvd4lQp1F+Tl0mUhJqFoWCPzpXEzjx8ml1gYvbb5SzgMW4CqH8k5XNtOzhuORsAaERU474axLyhhcJNbB2tG3VXG3aBWykW7nv6E2ZjTudaeshrz6QDuDgpiWhDG3oT0JvcO8mogdUrqCflQffJF/yIs0RTJ68I6F3MFh6RILWsWbZu2Sd2gfzyFCtKzx2bfj/zEVY4zFjA0/TaELymY7lqQvCFOFWHsuUKUlioAt44O7GrJUw/vIjXLUwq1AZY8p28zVXGQY5XxpS6X64AO31eRkNbioPaE+LIAg2dCdz3K4X0nA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=ftc.gov; dmarc=pass action=none header.from=ftc.gov; dkim=pass
+ header.d=ftc.gov; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ftc.gov; s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=vHJfJZOmVU/NXfT5SrCYOkLlcmXA29OGUes8l2jJoqU=;
+ b=e4uRlMOD5jkvZ0T73X2vV36CfyVmRYMotM/1vnrbKCc/VDpEgAy7/4K1R51oUfu4w5C7gkHVNQGT4WEt79I//xIQEDIvXF3Bh30CMPS5H8jdPfN6y7S0v7Vu+Za8JMepgi2GPl8/pOXK0iJK8hCnTLy5b32gej8D8X3RT6stVao=
+From: CRCMessages <crcmessages@ftc.gov>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: Federal, State, and Local Charges Apply TEL NUMBERS
+Thread-Topic: Federal, State, and Local Charges Apply TEL NUMBERS
+Thread-Index: AQHYeehcFM1I1JaMiEuexvxrBQHK2K1HTLYR
+Date: Thu, 9 Jun 2022 16:45:33 +0000
+Message-ID:
+ <BLAPR09MB6369C613DB4FFBD1402F368FCAA79@BLAPR09MB6369.namprd09.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-exchange-messagesentrepresentingtype: 1
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: c54c6e99-a33a-431b-309e-08da4a37797d
+x-ms-traffictypediagnostic: SA9PR09MB5231:EE_
+x-microsoft-antispam-prvs:
+ <SA9PR09MB52311C2812F0B1DA11904B96B1A79@SA9PR09MB5231.namprd09.prod.outlook.com>
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ EfAq3r2Nxfm8VgQjStEr29JljIog+86mjhQAAW70jzXYzLf1R2zknK0A4lqTybodXB9S3FPNNHZSUjosJhmJbAgeWrp1eMX6gkXHGRSsfDgnBWBiurpgyGrEjoeB7ZDMlEm7NcBh04QmB28I2ZN6KWVB/XjuWVPJBLY7k6nffI6PNZVKu8UHvY3UMCcF4YJo60fpNsmki67SC3t9lajVR7cWoRNylAgu9lLF+WbOFbK7/Sk1CxyLrYfYSdWdkURmBiXS8aFMCrkCjplRtQFzt8FtQIPbqTqIpbr2+aa6hmXgvv9jMzeQUHUGca3rAPW2oJQQSfImox6SC+/HkzIFh+SAqwy2U8wtMIdA/yMN7zCQIR21akloZUefmZquzHBzijFeWvm912iaAZaVu8jbEPRUjcatyjrPbgXATBhUrhTyPBl0p8KqfE+1caE2DNgcPzXqqssHO0CUvE8yzvMWgw==
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:BLAPR09MB6369.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230001)(4636009)(366004)(38100700002)(33656002)(6916009)(73894004)(4270600006)(9686003)(122000001)(316002)(86362001)(2906002)(38070700005)(42186006)(71200400001)(8676002)(66446008)(64756008)(66476007)(186003)(66946007)(76116006)(621065003)(66556008)(508600001)(52536014)(8936002);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 2
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?Gne2td4fJ7GBpJ5dhiCdwT+vqfQ7ZhtDpkGi8ERS2zmlmMl96CvU7VoW3lBk?=
+ =?us-ascii?Q?M/zWtOomjNPAFnYbYSPNANOFUuO5Wswh6gB7DO5Jva0q3PTILyLeBf/u+trq?=
+ =?us-ascii?Q?rAG6vglol5e2n4ZeNLIPQPVpzDPqjSqZepllnUK6r4+s45mKsajCTF8p3qS4?=
+ =?us-ascii?Q?qqTYwOQjBpK8s9E6W1wnp0FX5NVhURihSmEvXHRuiU41JFEbb0hJSxCIEVnZ?=
+ =?us-ascii?Q?6egchhz3+7b76eS+Gio5i8Rqb8E/m4+jFFg+oaLnpor9YVUtL9NZKkGhJQ6O?=
+ =?us-ascii?Q?D5AusMiYSssb9+4X96tNvL3DGmQ0lyh6OYD/vH046Zm1S5sRQKFAFvf1oKhv?=
+ =?us-ascii?Q?udiy4ORcAho6mSPy8zXUzpRB3TH3LYezbRMVWTTUHH5ixFQchMQ67hn13teN?=
+ =?us-ascii?Q?goKEmlVcIMByhS0ncRfsblU1+rJB6YodIy/304JbU7c8OUSKW4u9XYqwP9pW?=
+ =?us-ascii?Q?xQMe8nLv8JgdnKy47ghCb+pnE0CPlK1mE8Dqhb7m2DdVoQx/fXJUW/oHH8Tb?=
+ =?us-ascii?Q?Y1oHeSHtBDVNkKzC/Vmwe+8jvlKhSITJKFoKHcbCGdU6C5MDIaUSdm8p9sCA?=
+ =?us-ascii?Q?zStqz9JNS78uztnPaQcMU80Jn9FVqcTrtllupgRXP12RBM49tCjl9JP4gO+A?=
+ =?us-ascii?Q?kEO3BxY4suQvSeP9AsSRaXnjRmkYHYqV/wIJvrMtxgVGW48ooslW/te/AoP5?=
+ =?us-ascii?Q?QqgyeqZ/P2+ptVfxGVx5HAuV+WIgH185qvSHCstQh/v2fI14anBPejsx+JRN?=
+ =?us-ascii?Q?Tykhu+wmJALbV+efRFk/mhMcJNlur/s1EvQTqQ4P9AY9ghgzqDJnpqgc+sw5?=
+ =?us-ascii?Q?IodEu9CGEnqmIZ0EWhIx0DFsytl5olnj3qFwSnhy7saeWaWkg9hctmx00blO?=
+ =?us-ascii?Q?LoGjC+IzBMZYBP9Pc4H4/5zNtGNfLjd47eyykci0kFrs/umdRfH1riKrM1aA?=
+ =?us-ascii?Q?yuy1i0KJ61biZoMH5/LxrL4oDClONjAb6pb4xFPLfAq92ln0RBGMsxDY2C7S?=
+ =?us-ascii?Q?5J1gEQWjYJEsod+n5jQtiV//je/JDGqixvTWyuPC9TpyoJYtI0N7TsBS1357?=
+ =?us-ascii?Q?/ivE3vpiefrjw+TQar1hrJgHOoTydT/XKRpxtP/8KHSwvqBjeP7bpvX9B1/H?=
+ =?us-ascii?Q?bZ8q3l+RNa9g3KR5tfK1w5Rt+J/CMY0WFgc+39E6tlkU0i1bR7y2wvRs7ymq?=
+ =?us-ascii?Q?hFVGIgqk+D9URrHVNPbYgxAFY5+FJWX1dsku+kjG+Khl6Hfu9AbViRBkQHm7?=
+ =?us-ascii?Q?YJ+b0SeIViesiZlZ1fDm/O1q3/WLVoFas5Ws5N4nCpEHqjpQL/lfmpnPeg8K?=
+ =?us-ascii?Q?5jIni4EPicZINqs1a1ttwUpxtmNvAhYxlQI8DdWKVPblxP27Wb6CqVxF+4RN?=
+ =?us-ascii?Q?HZH2GqmwOl0S9NXdR8jILUJLSUOToYKyXvUgXDB9s1Xt/BTS+7HCeNPyRnLo?=
+ =?us-ascii?Q?cZ4ZQQamtAtZ8nMYIz0+IwuArzJXIPX4wFWdHdODfsjWvRAnJTOFp5HFScue?=
+ =?us-ascii?Q?zIeyrYUAjvl8kzBfUZA8RgPv5LwAllXjQB+n6CyBt7BWM7p1/WoF5UAzjMcH?=
+ =?us-ascii?Q?6w26/Ve0VHIrQW6xiN9NPbf9ZrZ14r7XAU+5hNThyGM3Y3iGlpvmxEIPkSf2?=
+ =?us-ascii?Q?01GJhj3abAFRaYoEdfcrKVggyYJbL0WbJiB4gd4rxJk7tMbD+4q9Z9LRMO07?=
+ =?us-ascii?Q?eIPDOjVjLngrC29BaFoKUGSEZiSlFdv9qFxRUBLvhnJm2V3ODNvEfy+k6aVc?=
+ =?us-ascii?Q?iGsxcHwlFxKoaTDk6IekJuL8viSVTbVgdP0Ali4RnXSPobvPCFbobZhqziaY?=
+x-ms-exchange-antispam-messagedata-1: A1uiqKSXHJsEDg==
+Content-Type: multipart/report;
+	boundary="_000_BLAPR09MB6369C613DB4FFBD1402F368FCAA79BLAPR09MB6369namp_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: ftc.gov
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: BLAPR09MB6369.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: c54c6e99-a33a-431b-309e-08da4a37797d
+X-MS-Exchange-CrossTenant-originalarrivaltime: 09 Jun 2022 16:45:33.3709
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 7302cabc-5af5-469b-af17-700007935a01
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SA9PR09MB5231
+Content-Length: 1963
+
+--_000_BLAPR09MB6369C613DB4FFBD1402F368FCAA79BLAPR09MB6369namp_
+Content-Type: multipart/alternative;
+	boundary="_002_BLAPR09MB6369C613DB4FFBD1402F368FCAA79BLAPR09MB6369namp_"
+
+--_002_BLAPR09MB6369C613DB4FFBD1402F368FCAA79BLAPR09MB6369namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: CRCMessages
+   Subject: Fwd: Federal, State, and Local Charges Apply TEL NUMBERS
+   Sent: Monday, June 6, 2022 4:58:24 PM (UTC-05:00) Eastern Time (US & Can=
+ada)
+
+ was read on Thursday, June 9, 2022 12:45:02 PM (UTC-05:00) Eastern Time (U=
+S & Canada).
+
+--_002_BLAPR09MB6369C613DB4FFBD1402F368FCAA79BLAPR09MB6369namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: CRCMessages<br>
+&nbsp;&nbsp; Subject: Fwd: Federal, State, and Local Charges Apply TEL NUMB=
+ERS<br>
+&nbsp;&nbsp; Sent: Monday, June 6, 2022 4:58:24 PM (UTC-05:00) Eastern Time=
+ (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Thursday, June 9, 2022 12:45:02 PM (UTC-05:00) Eastern Ti=
+me (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_BLAPR09MB6369C613DB4FFBD1402F368FCAA79BLAPR09MB6369namp_--
+
+--_000_BLAPR09MB6369C613DB4FFBD1402F368FCAA79BLAPR09MB6369namp_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; crcmessages@ftc.gov
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: BSWFbiTidkaMdGeABxR76w==
+X-Display-Name: CRCMessages
+
+
+--_000_BLAPR09MB6369C613DB4FFBD1402F368FCAA79BLAPR09MB6369namp_--

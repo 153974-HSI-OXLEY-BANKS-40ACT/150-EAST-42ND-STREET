@@ -1,0 +1,203 @@
+From - Sun Jun 26 13:40:47 2022
+X-Account-Key: account1
+X-UIDL: AOHxKqlfbuFxYrinXAqySJJKazE
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.36.8
+ by atlas301.free.mail.bf1.yahoo.com with HTTPS; Sun, 26 Jun 2022 18:37:16 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.204]
+Received-SPF: pass (domain of github.com designates 192.30.252.204 as permitted sender)
+Authentication-Results: atlas301.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 18:37:16 +0000
+X-YMailAVSC: 1FwtH7M3bBuP9PMy7IpVd6KO2si5M8UXRkSRag9.gX87Oja
+ bIxTrZYE9EZ5XnhfMl2rWYjL_UGI4xwTGAf28vmOJyo1n59Qg2nLJ7dsEeLB
+ o0y7rc6I8hX0Q7V3vt3mHK4S3sHufYhxUp4L.a2jcjfNsQcabr5c8y9iaEkC
+ qV8Pz3Xjesx_WtcztDo_rw73QTUNEMY0PO4BmiiltOMwT8Br2iMqhkU3zTMY
+ cH1DEleOTISBsafXFUafom4J7NxBrJiXj30gaHM5OsjXlEvLdoOciiviJGEc
+ c9S0KlxbRuRcAkGhzd2vDcbf.vWZ0EE.xTZ18tZtMBFsAJ0gj6VflieBS9Ju
+ mOA4-
+X-YMailISG: TvIqpYoWLDtlqDTErBgxq.EfzGTvU2BLDj0nURBNsqx2FGwk
+ pWBaebyfUmN95ZIaioPzu48fPMpsnzMGTCtlUo2GhDgCas2JHTCh.DaAJeKB
+ OwJE9k2eFXLjNqKcIfPelAZZyUUuLwu5t7diSWD2lLGNeoB6em5sient8bhj
+ 9IQtech9niLSJIikT4x5rZsRBUDGmb66yF8HR2FiuK9CuFYPkA4qrkfNrbuE
+ asM1336n_ug8VUpqYCLsgNjRiNma_oL0j24nHJJDcbiv6kIzI01mjZ_fNh.W
+ m1PPwEE7FTYuRbrxyuxtSBn7f.L3x3EEXkn0cNJhpBSY1d7E_oYROeta27gv
+ XtJuIYdN5Dd82Fyjp.4.d1gu3aeBBiqsJhSSRil3ceRge1taDazYfUPeEsFx
+ 8wjq52GLjYQd.Fxw7KZqTmoU.gUtJ7zQWpnZegxxrMc6gQKfoc5.IrDCVyCI
+ OgVQP1kyxMOeDNoNIM2lpxmkqKDmzNnnIad1wzjKNEJN9bOocYb3nq3yfNY3
+ z32SWwZYVXh1c_xsgu3PG.2tV9Bz6bGLXxDp4WjDBgPXQzJMLn7ERfJ8FveR
+ ETexHO0B9MswMYtSNgpOS_XLE9eP3Q67.mqTQiZkYugzDPvmG6VT_j5oj5II
+ vjbxb5DaH2bIij1ItMvYoS1X5ncOuDWVWr9e8Nn94v0355IClBxJm2Hsj8lV
+ 7JO6AQn2PIyEqTyhUMyBPKM2BMFJ3reK5pjK8JmwE6h2MfxPwd0Yv5cVhERC
+ J3iR_o3e3Ht7avjUnP_yo0RvJQs7rqWB4KfZOKpy5idFNnh.joFipXX5qcLQ
+ oX4D0tJ37NvzOrk0nsl48cYmkQlGjDLc4jNAj915KCM0xiM_nxt5g9B4qVoS
+ 6c3PUEwWln5S1qYQ9KKaUjtr2YXlLYgya8hEIeAqHL5axuTiszjyXP6u6WRx
+ cc8neNKJxFE1QqkSas4Z4gJXePibxpxYQpqETlRk7GAPpppotE_tnV6Qo1Do
+ ZD8ckZDJXZyTs793TZXHh8NfavHF2UG_zGn9T5pf.mic3fF8BgJPX0TwFW9h
+ knD.b_vmkaRpNyn.7QSwhTCfIE1DjAQcng6qUa6EpAtK7S16DLm8gny8VQq1
+ xBzYCpedVgkxKXoJnNKxt_vbhtz.JaZExWn0q_7sR9_NGIotI_SH0ZVJAcX2
+ 2Q19JzK.Jhi4PGO5FGxusT.RIcOrTY.5B.eNQowYkQ--
+Received: from 192.30.252.204 (EHLO smtp.github.com)
+ by 10.197.36.8 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 18:37:16 +0000
+Received: from github.com (hubbernetes-node-8952fac.ac4-iad.github.net [10.52.220.60])
+	by smtp.github.com (Postfix) with ESMTPA id 40E7F52016C;
+	Sun, 26 Jun 2022 11:37:16 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656268636;
+	bh=K9AEmFvB0pfmqh5wnvRUZMT4W82VpaCmSEecM2g74kA=;
+	h=Date:From:To:Subject:From;
+	b=fEsm9Rfb+cvOodJm2BIM3QAOD0r1kWmD9jxpeNlzcvfnTeDLquDhb7rSTKoJ/18iF
+	 3eb9tEpG+E8PuMSF5PuRvk2WEqARl4KfU1GIaLhdbDDbTDiDuDBK2lMHqeeX/R1fd2
+	 r1recAA+AR0O1IWuZ0op8Lt3wcfE1I6O6OYoCRoY=
+Date: Sun, 26 Jun 2022 11:37:16 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/f0b0d7-f59a73@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ f59a73:  CRD FIRM NUMBER 8209, NOV 17 2021, AND ALSO DEC 1...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 5185
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: f59a737ef6ef906cbffe9136ca40981c492fc765=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/f59a737ef6ef906cbffe9136ca40981c492f=
+c765=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-26 (Sun, 26 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    A INVASION OF PRIVACY CRD 8209=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+   CRD FIRM NUMBER 8209, NOV 17 2021, AND ALSO DEC 18 2021 >> LOOK AT WHA=
+T E-8 INSTEAD. =0D
+=0D
+https://user-images.githubusercontent.com/70865813/169640877-ef653d85-64a=
+5-4f31-84d0-69a54a3d62aa.jpg=0D
+=0D
+DISTRIBUTED IN GOOD FAITH TO THEIR PROMOTERS, WHO INSTEAD SIGNED UP TO BE=
+ THEIR PROMOTER AGAIN IN CIK FILER (1516523) AND IN FACT REDUCED THE AMOU=
+NT OF THEIR SALES AND INVITED THE FORMER CIK FILER (93715) INTO A MORE CO=
+MPLICATED "MORE INVOLVED DEALERS AND PROMOTERS" WHO WERE INVITED INTO THE=
+SE MATTERS WITHOUT ANY NOTICE, WARNING, OR PUBLIC DISCLOSURE FOR THE OLD =
+INVESTORS =0D
+STFGX, A TICKER "WHO LOST THE GREATER OF 10% IN ONE BUSINESS DAY"  FOLLOW=
+ING MY SENDING THEIR INSITUTIONAL DESK THE SAME INFORMATION I PROVIDED TH=
+EIR CEO, AFTER NOT-SEEING ANY SUCCINT FILING TO SHOW THE MATERIAL FACTS I=
+N THEIR OF THEIR FILER NUMBERS.=0D
+=0D
+=0D
+WHILE CRD FIRM NUMBER 8209 INVITED ON NEW INVESTORS WITHOUT ANY DISCLOSUR=
+E OF THE LEGAL PROCEEDINGS, OMISSIONS, AS SEEN IN THEIR FILINGS WITH THE =
+SECURITIES AND EXCHANGE COMMISSION UNDER BOTH CIK FILER (93715) AND ALSO =
+THE NEW FILER (CIK 1516523), WHERE THE OBSTRUCTION OF COURT IN MATTER  15=
+3974/2020 ALSO CAUSED, IN PART, A FAILURE BY PRICE WATERHOUSE COOPERS TO =
+ASSERT TO ANY LEVEL III HOLDINGS.=0D
+=0D
+> " WHEN THEY DIDN'T HEAR BACK FROM THE BROKERS"....=0D
+=0D
+$ THE JUST LEFT CIK FILER (93715) WITH EXACTLY $0.00 IN ASSETS UNDER MANA=
+GEMENT. NO OBLIGATION TO ETHICAL STANDARDS, OTHER THAN $6,000,000 TO SATI=
+SFY A BREACH OF THE MINIMUM UNDER USC 18.225, USC 18.21, AND ALSO 18.2 (A=
+S SEEN IN THEIR CONFIRMED AFFIDAVITS, NOTARIZED DOCKETS  THAT WERE  ALSO =
+FILED FOLLOWING THE LOAN 50074 DOCKETS I ANNEXED IN THE MATTER.=0D
+=0D
+INVASION OF PRIVACY=0D
+DOCKET 55=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Da43m_PLUS=
+_clRyXQUxugcxPS87A=3D=3D=0D
+=0D
+DOCKET 65=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DCOy_PLUS_=
+fGGrxcNqhj5mZodapA=3D=3D=0D
+=0D
+DOCKET 69=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DuJvG1tzc8=
+IMvYa8hShj/Cg=3D=3D=0D
+=0D
+DOCKET 75=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DWKtCOttbZ=
+BozKuu4gOj3vQ=3D=3D=0D
+=0D
+DOCKET 77=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DE0CKxALt/=
+dD_PLUS_Wk3Z8vuaXQ=3D=3D=0D
+=0D
+=0D
+=0D
+DOCKET 86, 87, 88, ARE ALL CEASE AND DESIST LETTERS I ALSO ANNEXED, AND W=
+ERE PROCESSED AND REVIEWED BY THE JUDGE, CLERK, AND THE COUNSELORS OF SUL=
+LIVAN PROPERTIES, LP - -- WHO WILLFULLY AND KNOWINGLY VIOLATED MY PRIVACY=
+ AND AT ALL TIMES THE CONSTITUTION BY ABUSING THE NY SUPREME COURT SYSTEM=
+ DURING THE COVID-19 PANDEMIC.=0D
+=0D
+CONFIRMED=0D
+https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=3D2opE3a=
+bI9S6xqguMxbLbfg=3D=3D=0D
+=0D
+DOCKET 84=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DpGt7XCp7T=
+JijlcOc9BhGIA=3D=3D=0D
+=0D
+DOKCET 85=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DeMsWWM4o9=
+DTBlZgXC8QRLw=3D=3D=0D
+=0D
+DOCKET 86=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DvXeeM/sbW=
+WlVIKXDtEZonw=3D=3D=0D
+=0D
+DOCKET 87=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DEZ6cahgP5=
+O75C/WwoFggJA=3D=3D=0D
+=0D
+DOCKET 88=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D2opE3abI9=
+S6xqguMxbLbfg=3D=3D=0D
+=0D
+=C2=A084=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- LTS =C2=A0(Motion #001)	Dincer, B.=
+ (Pro Hac / Pro Se)	Processed=0D
+	VIOLATION OF PRIVACY IS A CONCERN	Filed: 07/21/2020	Confirmation Notice=0D=
+
+		Received: 07/21/2020	=0D
+=C2=A085=C2=A0	STATEMENT OF MATERIAL FACTS=C2=A0=C2=A0(Motion #001)	Dince=
+r, B. (Pro Hac / Pro Se)	Processed=0D
+	PETITIONER'S REQUEST TO REMOVE VENTILATOR REMOVAL REQUEST	Filed: 07/25/2=
+020	Confirmation Notice=0D
+		Received: 07/25/2020	=0D
+=C2=A086=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- N1 =C2=A0(Motion #001)	Dincer, B. =
+(Pro Hac / Pro Se)	Processed=0D
+	NOTICE OF PRIVACY ATTN: Andres Reynoso; Skyline Management Corp	Filed: 0=
+7/25/2020	Confirmation Notice=0D
+		Received: 07/25/2020	=0D
+=C2=A087=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- N2 =C2=A0(Motion #001)	Dincer, B. =
+(Pro Hac / Pro Se)	Processed=0D
+	NOTICE OF PRIVACY:: ATTN: Tom Eschmann; Skyline Management Corp	Filed: 0=
+7/25/2020	Confirmation Notice=0D
+		Received: 07/25/2020	=0D
+=C2=A088=C2=A0	EXHIBIT(S)=C2=A0=C2=A0- N3 =C2=A0(Motion #001)	Dincer, B. =
+(Pro Hac / Pro Se)	Processed=0D
+	NOTICE OF PRIVACY VIOLATION: Joseph Giamboi; Skyline Management Corp	Fil=
+ed: 07/25/2020	Confirmation Notice=0D
+		Received: 07/25/2020=0D
+=0D
+=0D

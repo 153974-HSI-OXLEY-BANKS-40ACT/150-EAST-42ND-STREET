@@ -1,0 +1,123 @@
+From - Mon Jun 27 18:23:05 2022
+X-Account-Key: account1
+X-UIDL: AGRMLRZMHy76Yro5oAlaiINSDyw
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.36.202
+ by atlas115.free.mail.bf1.yahoo.com with HTTPS; Mon, 27 Jun 2022 23:13:36 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.205]
+Received-SPF: pass (domain of github.com designates 192.30.252.205 as permitted sender)
+Authentication-Results: atlas115.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 27 Jun 2022 23:13:37 +0000
+X-YMailAVSC: nSDdF9A3bBvrs3rhy7iNo6xkNYNri7K1yY7zk6t7Dc8yYU0
+ zU8TgIlLI92CTvwiapzj75A31a2RyRRDIhm.GsH74p9ZQQTRsCtop4WvMAvZ
+ d1ivDh69i6S0V9PFfeiDDAqbrh2naq_mCIIaMOB4DE5LK449QLKV9ne1SgEz
+ .JZNImeqb6VAdWh7Qe1M2BJ98WpcDpEBnlV3xgWFySxGB4I82nmNLJNyZLfZ
+ bymth2Ay6rFzjer8ckrNlsgi76a6913y7RSYpOWEB5XNTuXdAn8Lhacl3ZER
+ TFLsmA.KdVGwli_9rFnTSCjCSjXPiDC45QrAAZ.Dvf1u8OlK1O4cs9QZm2iq
+ .
+X-YMailISG: C4ZCrJsWLDvuPcdYV8KGeRoxYATBKdWzTp4OnzxF1AUqAGBN
+ Ee40PFSuGE.rzpvWDzQKu6SoTMmK73kipK5mfQy0gRFivBeZ.mEp4OeeFcFz
+ IFBePbNre8AAQecmx6fuajIjElNSitKWj2r75ixfaNldqk_hIyxDDQzh_sgU
+ .TmDBaCETAhkKKrokCdQLdj0pdJkjS7jJXXgljQeC70qrxLl9D2gtCVWArCt
+ Jb1ccLXfm.4CCp_Gzoz4CgJqCtpai5lVk_bma590suFsl8H_ZlXv1LkaWAAW
+ aXPxFhwyqFrYyFUUCMASk4.sWYdae3qGKS__Yvw4x4XDfLETGeOfJUkSt4vS
+ Rl.QPEB3nWeDDK5GwX3OG01bh4maQ.VgnTJ5etr1fM8iQZyIKbYf5KGeMMmX
+ J6SmE_AQhxvnMipP3BLsWnEwfQN5n0hlpzgw6LViVy73p87mFH9LL0Dtjlk1
+ Otg811c9M8UhnGvgdAb.QPnmwqVF8WTg4bcSc3s.VzSYYkt2KE3SbjxVYSUQ
+ 4rS.WNuTMRG4eduN9z9HA16PEz9ohlXg71nyRjY3WXYO.4sackn6l2Ly.hXw
+ WQIBVrRh6v6JGmXG9mJloRjivR5ARAWNXpmDWeG9KAxc..KaPc7l_DIEV7WZ
+ YC3Y5ANQEkI_4OUBIu0iNn4BUSCx_RS4MfOJLl03MfbAR78t71CycEaXG9i.
+ itkOzgY9GqZWY8mEyFSfCiUOcXY.DLYICFwXtuH5GRtw.A9KfsQWRaM5kF36
+ 7oTqwXeu0qXWe7_SuxXjeSc.MS7taYsUDYHZq_jhORhjrya.JDQI8J6gY8Ml
+ upEL4m1FvhST_txyikutW06vQQl1AragOAIAxgnXHqh0PwGiNyEfhImjHHrN
+ Qqm6xnLFS8xTfnZWT6eJpxohuGWzH_nAJpVJ7N1jSiFBYm4ZFWRJMR.mkrje
+ AGUtB3YL_3CB33iUvSrnumrM3RlRTKutD25yE1K1p3iekezBAoBVtB2u_DfR
+ IiTD7PWzYx7BR3cAnprAbk9.Hl1lv4oaQT8ZKEvLhZKJy2erMcculcS3NX_G
+ hHM2rB5IFJwP1fMjD7Paq4yRfZhQ2ArpkpsPhOtz8tr0VD9LBY5c3ECtsG_a
+ u12X5Ps.6WQ.0rI8qzKGfqt0oCBhNbWUUdT31X8KUoPacTpBFB2RtexwQGtr
+ oM2wY_PUEBJxGhPrB9h65U7d_Dg3ABguLes0UTG4
+Received: from 192.30.252.205 (EHLO smtp.github.com)
+ by 10.197.36.202 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 27 Jun 2022 23:13:36 +0000
+Received: from github.com (hubbernetes-node-4a7d9e9.ac4-iad.github.net [10.52.125.72])
+	by smtp.github.com (Postfix) with ESMTPA id A6AF77205E2;
+	Mon, 27 Jun 2022 16:13:36 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656371616;
+	bh=dhVCb121+4fZTl+gp0ZgQMbshgfl9NHo8eXB5Ymrcyw=;
+	h=Date:From:To:Subject:From;
+	b=mUQNvU4Xgy7qU500yEtLLP2EfCvUpdCNizZpHawcm7wtTNdqKAwIwSXXMSHotsHcQ
+	 qfnrP9UkDLWnTtT1NemTZqQzLzM7FoJwSdQndJlUTw/SxhLcTxnkL2CBctWpxwe3EL
+	 cCJIScj2PBC2Ua/PcIpwI2CnuwEFztuW1+fbDK2U=
+Date: Mon, 27 Jun 2022 16:13:36 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/2022-06-27/8a4807-844e98@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 844e98: *****    ABUSE OF THE NY SUPREME COURT DURING THE ...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 2351
+
+  Branch: refs/heads/2022-06-27=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: 844e9808ac0e9b5f7739f254caa7aa0a22d70a6f=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/844e9808ac0e9b5f7739f254caa7aa0a22d7=
+0a6f=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-27 (Mon, 27 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  *****    ABUSE OF THE NY SUPREME COURT DURING THE COVID-19 PANDEMIC - S=
+EE ALSO LOSSES SUFFERED IN ONE UPON DISCOVERY OF THE MATERIAL FACTS=0D
+=0D
+*****     [USC 18, =C2=A7225]+[USC 18, =C2=A721]+[USC 18, =C2=A7215][USC =
+18, =C2=A7241][USC 18, =C2=A7373]   <**voicemail attached>*=0D
+*****     [USC 18, =C2=A7241]+[USC 18, =C2=A7216][USC 18, =C2=A7218]+[USC=
+ 18, =C2=A7229B]=0D
+*****     [USC 18, =C2=A71962]+[USC 18, =C2=A71963]=0D
+*****     [USC 18, =C2=A72]+[USC 18, =C2=A73]+[USC 18, =C2=A74]=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+c3iexOlBwsgc1lnMJ2_PLUS_AqQ=3D=3D=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+PWFQc/WFihoyIKwEunaalQ=3D=3D=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+COy_PLUS_fGGrxcNqhj5mZodapA=3D=3D=0D
+*****    GOOD LUCK EXPLAINING THAT TO HIDE 1 BILLION IN LOSSES TO AVOID P=
+ROSECURTION OF A VIOLATION OF PRIVACY CASE=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+LMUE9g_PLUS_k6vCmKgfCSJEzuQ=3D=3D=0D
+*****    ABUSE OF THE NY SUPREME COURT DURING THE COVID-19 PANDEMIC - SEE=
+ ALSO LOSSES SUFFERED IN ONE UPON DISCOVERY OF THE MATERIAL FACTS=0D
+*****    TICKERS: STFGX, SFITX, SFBDX, STFBX=0D
+*****    - WITHOUT THE ABILITY TO ENVOKE A TRADE RESTRICTION OR EFFECTIVE=
+LY, AN "ESTOPPEL"=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+cve65PXNBCtdxjJFkfwUnw=3D=3D=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+au8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D=0D
+*****     *****     *****     *****     *****     *****     *****     ***=
+**     *****     *****     *****     *****     *****     *****     *****=0D=
+
+=0D
+=0D

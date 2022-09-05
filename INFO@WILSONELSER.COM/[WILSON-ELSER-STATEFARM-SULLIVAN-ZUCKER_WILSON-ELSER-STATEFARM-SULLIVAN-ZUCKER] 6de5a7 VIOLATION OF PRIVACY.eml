@@ -1,0 +1,95 @@
+From - Sun Jun 26 12:50:48 2022
+X-Account-Key: account1
+X-UIDL: AHURToljykd7YriboQ1xaKaxwF8
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.32.76
+ by atlas102.free.mail.bf1.yahoo.com with HTTPS; Sun, 26 Jun 2022 17:50:07 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.208]
+Received-SPF: pass (domain of github.com designates 192.30.252.208 as permitted sender)
+Authentication-Results: atlas102.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 17:50:07 +0000
+X-YMailAVSC: esbiKDQ3bBv4eY8Eux_bfKMrpx4oaWThbD7cUohDcTGFate
+ nHzvnOJo4JmDKY_LcrPZQnFrgDMTvv9zx73Too6Zh.IRqY38A9EAXNlHagiy
+ jFPIYUtBFHW3p6HoMSs6HdRhKVRstnQ0eV_BtCQlgPcwc6va57FU8dcSlkAh
+ f5vN80Zt0So94RdF10AGcMGf_2I6nqfsSUWe6dh8DW2T6dazjhj.omn0WIvH
+ qy54umU3rOsN_dEFOVCgXy16Se5MpXPqvPlu42A3FtUFfeMMBIokPALjIV.a
+ lVkvxhtiRJwHzhm8F.QJjCCuUSAw6e9XpMn2aL2k_jV3_zBTiKR2eH5TtRpH
+ pAb4-
+X-YMailISG: _Bsh3rYWLDukLuS4EBD2LSEmRXsH4x6.y8aKnBhLFFimbqkz
+ K6TJ.6Eh6aLL2N_grKXlEIIVeI.Fu79sBOy8W0C9jctDv2BF4XFCDyGMv36Z
+ 70UgxgiVYeBwh2jwUSxQAAyVFtkvZLo3kDttc3JRaKqwWisR9KyuI_GpHk2a
+ i_jIfGf.TNhg4As2fL_aZHmge2fjdZ67O.gEt8H_whykgktAqxRW.lw2mTg8
+ h35nc8lcQV70seg_ln.NXoVaVncDnk7hYxZKAguVO7SLIMacEnWLcAHD70vS
+ H_5yo5YriEtoY61rESkC44sC.5E.dwIcXLx9Pl1Rrv_eFFLpm_qiR7aRC9.o
+ MmhGwrcXRrGe51ZJghgosx617EUopUpsCMLnuIWnU3IxmE0bKcXemhzo7F5R
+ iTgGMGXxY2F8wcqXkwLNOjgGj3cXQCXPcVdxgKwpaWEB5ET67PA47nSJdpwt
+ NacFCTegVNt..aqJTmzetDBSaHx2TmoJzOigv5y7Pz1y.AIUHF_kjW.OOF3B
+ U8G.GMdLhlOm9OxrYKW191bg.D6FGFKv.t3XJXgBCnveBFsRVO5kdE0kXaRz
+ tu4sjoGY4eQ6XiV.pLl_oYg6fILaGPtoAPWtPT5nQEOY0KUeJGqDFA_xVnHx
+ P8NhhgnKXAbrRSy1sW7NttwxiE1gvnDEHs5k.XnlLJsfGN2uipxi7NinbEoa
+ De58MCorapx6AG3DKo5abJDjxiEgqWJBj4VekF9lK3lllLmrKuIe9w2feH.F
+ fK5tzQ7R79Q0e5.LUF.238NjbvAflhN0jctnDKFA.5ndshvRF.vnIh2PqU.E
+ m9B3mgup5M6qfQdWWjeh__QyAh2cgH.JlD.gbL4facepkxnn_sMv9brqbm7A
+ 49lDsDooud2JUGR0gNcPBbHusG0DGSGwD4jyEFEgybiyd4vb8OnR3ZbAd_jL
+ yOdvfKeo.5hIAaTRTCrss.fEhxyDHlglS5ij._5hdsNb.MF285Tl9Na2ZxMe
+ VdAcSrglRYsX6PRiumBzLZMBNUeJw.0braAMA0nOZDN8elTFHbogs.2_ViRA
+ CADG8rXyPUUD4kQhrNHMaTTYLUBjSIBIhCEfeA_2kyhSjrt2.u9U.lfqnR4.
+ 3BNdrN5yfWXs5ZpYMZBgITq7sdokNY4w_XPjKtei6ug4ywY9cfhzvigPC8gS
+ xjFCBsn19zZJnR1UfssRPasPpPscwxb9rVY-
+Received: from 192.30.252.208 (EHLO smtp.github.com)
+ by 10.197.32.76 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 17:50:07 +0000
+Received: from github.com (hubbernetes-node-b1ddcf9.ash1-iad.github.net [10.56.212.97])
+	by smtp.github.com (Postfix) with ESMTPA id 6B089840033;
+	Sun, 26 Jun 2022 10:50:07 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656265807;
+	bh=tcwGfOtNWlDNF/4fj0wEBvYY5Qk0XBfULQvr9sFsEyM=;
+	h=Date:From:To:Subject:From;
+	b=fhtkih/tAEBjwM0GZADLhfajO2Bs+0KtgWF4xOfU7xacJ/5l/rlETfCfvDElR7jg8
+	 2/bYGeH9oUt2NU8WE6n0WmEV2T1UitZjTHQfKjcyZ+inW28yB5ix9Wj9WY7ffMalqo
+	 LMuv7FDhpSH4z0pDnkZG57FodIQhWX6hzjHi0vrI=
+Date: Sun, 26 Jun 2022 10:50:07 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/625f04-6de5a7@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 6de5a7: VIOLATION OF PRIVACY
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 1282
+
+  Branch: refs/heads/main
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER
+  Commit: 6de5a7f8a17659314a923823620091715b177af0
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/commit/6de5a7f8a17659314a923823620091715b177af0
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>
+  Date:   2022-06-26 (Sun, 26 Jun 2022)
+
+  Changed paths:
+    A VIOLATION OF PRIVACY
+
+  Log Message:
+  -----------
+  VIOLATION OF PRIVACY
+
+https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5
+
+
+NON DISCLOSURE TO AVOID PROSECUTION OF VIOLATION OF PRIVACY, OR THE OTHER ANIMALS THEY DRAGGED IN.
+- GENERALLY IS UNDERSTOOD AS INTENTIONAL STUPIDITY, MISFEASANCE, MISCONDUCT, ETHICAL BREACH OF DUTY, EVASIVE, MALFEASANCE, ABUSE OF THE COURTS, VIOLATION OF THE CONSTITUTION AND GENERALLY HAVE ACCRUED THE PRISON TIME IMPLIED BY USC 18.2, 18.3, 18.4, 18.215, 18.225, AND UNDER 18.21 ALSO FILED THEIR BONUSES TO SATISFY THE PAYMENTS UNDER 18.215 ( EDGAR FILE ) AND DIRECTORS BONUS PAYMENTS, PAIRS WELL WITH 18.21 AND BY SEVERAL CORPORATIONS, THEIR ATTORNEYS, AND ACCESSORIES IS ALSO FILED IN THE MATTER OF 153974/2020
+
+

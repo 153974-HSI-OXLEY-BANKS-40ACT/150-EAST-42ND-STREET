@@ -1,0 +1,107 @@
+From - Sun Jun 26 04:39:52 2022
+X-Account-Key: account1
+X-UIDL: AOfR3GRfQ5FzYrgn6ASP+MgFcRY
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.151.201
+ by atlas106.free.mail.ne1.yahoo.com with HTTPS; Sun, 26 Jun 2022 09:33:27 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.204]
+Received-SPF: pass (domain of github.com designates 192.30.252.204 as permitted sender)
+Authentication-Results: atlas106.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 09:33:28 +0000
+X-YMailAVSC: m3J.86I3bBu1W5LjejQnQx.ZzNhD0_lAT6gJ13pyOwtfQrR
+ c6_Kk.uRuOyhb_bW4Pgm6z6nRVMRtZsJ8nICdcd9FcyuEFtshln.0zxe_AjD
+ HHKK5HkTqo09fOzIlzhtsfc4w4Xu50A57QmVcYnxsymWnO3Vek2LQaCXA1So
+ ItH5zAbWbvMvhz.ogY19N2CHYXFJs8NBpYdyPx0H_GurDMgQ.2onghGkUJhQ
+ QzVS.ZCKYX.MMMcZJvLm4FH9npdFNetjCYsyacJGqNUGPveFXtRWBQggmdHZ
+ IjvRHjJ20eAMMrVVcSv3tmoLwLYgvyS77U7yoCHZMGZXVSZA3NUb1Hwcjl7s
+ lfHsi6EFwI46F6riJRamXQDOk3A7ftvTe0tY-
+X-YMailISG: Dmi0rI4WLDulfy8iBRsU8VFw57_Rs7CqKNsTDrfw_fp62aOh
+ LHc2ckQWGfbpJNqD8BsDGvKhfxlzvn9us9cDmR1spcFaQltMc_l4yxAo5cIJ
+ IidglPR5Q9zJpzQtVMJqZKpOPCgvHXb6.c6WbqhD1qqZe2ZI_tdddQOuTQGh
+ 041rppNaWatjoyQl6paJTuxN3wDz.RL5C7cLsYBkhksxfIfexDZSgzLetHja
+ CntHtbLdrq7y3F1GcqCplA5gUR4dsyGlgJuT8NVgMPT_DbMk9oBtoqnCAeKZ
+ an.h2Vjq37gvIjBSEi0mQWQpeBjwRs_yPsCZRNoQLK1od_6VRYtvgWuet6Gu
+ qAU3EgSW7YXqShmfjVzdN077fL4Hmta2aZG4zPzF.8VV3GGY4hn4NFYokZVU
+ 07RsGsN1WyOdynzGcKMGlAI5iHvi5o6jmctsmuxXXHHBmXI0NaRW3ZjsEQAA
+ wmihmKCljg7bqDU8oeRH2DKtuCOpaqf_SV2GFiZwA3Wxb7kysO1uU76PqzNM
+ r9sohDHBVedAUFdEibmxU2RdEBZOV6.O7Sr82LQs_yZzO6ABttNVnXSeu.Y4
+ Cn.8MptJd3u42bSD20EecMaPaYSflTKEgiwNINlIwGc2Ti9bB3CSt7X3EJXq
+ x47agMBeMtNfQPzL7UNvZbP6tSoURwcMyC08u6k1iHvvhRvRCDkYFj1NUhBQ
+ TyEDDuyDklfH29iSCVbS1raN_.agqQBgFP.iDir8cRTjx407UTX65ZQ5yOLC
+ 1hGQF1vITyV7BMbLxWyce7Q0ofvL2iXxUAYex03B8jG_sGQP1UQAmRJvpGHH
+ FChT5902ORWmRTuz6ydSGDLo23S9m3COShRK4KSNFZyl2EiE1fqQoZ6lJtDp
+ T5nqDgdVq25GFzScVIYgMTJw8jaeQTg2exJ7wFrB.uvm8DrvqhzfmVJXw.H3
+ cny24ABuZZXQN2zsuvBgLFKFnck5KDzYx_rcSZIZ58v0Ki1iYJtQZLf8imhc
+ rRBOPi6LALxWUFdNMDT_QLJ_Eomh0gkHPOvPsOMxltqhzbwKsb.RqzbVCHDN
+ AC7DN3RjTBRKr4gc0w5EQk6rAFrAph544EWqczS5uFZ09z_IL2rtgVZd03Dz
+ F3WfD2eo4uwU40WqoNz_QPgUn8kSB.Weid98_o3Q5OwByaNO2tYZ_Gz0Xo6e
+ _4KvDbC8oUZJobfMni1gV_dTy_AQR3GQTsc-
+Received: from 192.30.252.204 (EHLO smtp.github.com)
+ by 10.217.151.201 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 09:33:27 +0000
+Received: from github.com (hubbernetes-node-25aa003.ac4-iad.github.net [10.52.11.63])
+	by smtp.github.com (Postfix) with ESMTPA id 9A61C520494;
+	Sun, 26 Jun 2022 02:33:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656236007;
+	bh=QBi4hgULcnWQlhZsBM1OSa/I9ahgF6fuV9Cx9PH8hr4=;
+	h=Date:From:To:Subject:From;
+	b=kUlytmc1nc6/QGwwV+74GalC1nympR8M9ZmW09jh9qSqrnfIPjE7qnoHoK9UEzJ5H
+	 UmPoAfcf1WxYiFUn5B/0hopEZUgwfBRmgwlyzYLEvQXk70UhuOBJdxQiNACRbipE/O
+	 JEvYOdLU4SNd2Ek6tcO+962/sHwPX/lwJwA7vPrE=
+Date: Sun, 26 Jun 2022 02:33:27 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/dc41d8-a7c2bd@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ a7c2bd: FILED IN NYSCEF MATTER 153974/2020 ::
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 2069
+
+  Branch: refs/heads/main
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER
+  Commit: a7c2bd81a3bb79d2b28a66b8fb545d7b92d0283f
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/commit/a7c2bd81a3bb79d2b28a66b8fb545d7b92d0283f
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>
+  Date:   2022-06-26 (Sun, 26 Jun 2022)
+
+  Changed paths:
+    M README.md
+
+  Log Message:
+  -----------
+  FILED IN NYSCEF MATTER 153974/2020 :: 
+
+FILED IN NYSCEF MATTER 153974/2020
+
+
+[DOCKET NO. 225](https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=xBYJ69pjIuDxBegralE8Uw==)<br>
+[DOCKET NO. 231](https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=1Wx2R9sKfno_PLUS_ol5jFakV9g==)<br>
+[DOCKET NO. 232](https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=72GIYXnN1f/CSjCYtDxKUw==)<br>
+[DOCKET NO. 233](https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=G5D0bfOIy4SeSXS47aSWbw==)<br>
+[DOCKET NO. 234](https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=AgwH2omenQPCvT0OYOE3Rg==)<br>
+[DOCKET NO. 235](https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Oioy2FAQ_PLUS_uuEatGhmc4JnA==)<br>
+
+[GIS TAX-LOT 508, LOT 11](http://gis.nyc.gov/taxmap/map.htm?z=11&p=983515,203704&a=DTM&c=dtm&f=BUILDING,CONDO_RANGE,LOT_FACE_SMALL,PARK_PROPERTY,ZIP_CODE&s=l:MANHATTAN,503,8,EVERY_BBL)
+
+[DOCKET NO. 307](https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=rjL6yoW3Mt2U6UigWCM9XQ==)<br>
+[DOCKET NO. 308](https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=SgjFfExxNV4Y4DTX6pANaA==)<br>
+[DOCKET NO. 309](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8608700/153974_2020_S__309.pdf)<br>
+[DOCKET NO. 315](https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=gcMSDaFzm0ynPeXZKSHgLQ==)<br>
+[DOCKET NO. 382](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8608665/153974_2020_382.6MM.AGREEMENT.pdf)<br>
+
+

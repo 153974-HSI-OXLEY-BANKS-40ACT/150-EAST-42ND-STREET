@@ -1,0 +1,179 @@
+From - Sun Jun 26 02:49:54 2022
+X-Account-Key: account1
+X-UIDL: AEiHlPp4LM8sYrgOnA1WELlkDcE
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.35.9
+ by atlas213.free.mail.bf1.yahoo.com with HTTPS; Sun, 26 Jun 2022 07:45:32 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.205]
+Received-SPF: pass (domain of github.com designates 192.30.252.205 as permitted sender)
+Authentication-Results: atlas213.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 07:45:32 +0000
+X-YMailAVSC: p9r5QUs3bBtzGqujZSp.IEq2Y4QaopQ_bs5wYYNECzpfb6x
+ upRYNtmwPPMKp5q24nJxhikQh46Utfg5daEnSoT5MyFtjkNcVR7r3gm5.ePD
+ W_FaTucpm.yeiaSAgJsI6B9TLuGbx1VXd2EGlhnWUgK.nnxoygGpWMizsfOQ
+ D5GNaPx7N5N96ycMWXzoeqt0mKG29jsFCcVEc2nR0CAgo3vjkcyUj4AVGoib
+ 1SkacpHtuk_.P1g6YFYARBKLynUijOB4tIUHIYzm0VznyEs0qSMa947q8.nI
+ u9jNaQ98XtHG6OwCuNpKxnYW5HC6OjQDjrEZ.yt4tT5AcCF7rnQh67lO.pzj
+ DMT4-
+X-YMailISG: 96De5BUWLDtwqOESPASjnsytNMiZLv556.aZC8i5vum6JLS8
+ 4DNpjjZ54z5vMMa2qN8Jmabm7LOr_F2xzZS1Q9INlHWy6zoYg8bn8fO4NkZJ
+ TFyRzXEtpjhcqUTaSr1dNWkmowf63A9gvvRpJEamUiP25Ib29trA9EW.HZnl
+ EtQIswiNDowd_GBXNO70Z1eIEwK4b6x1QGyXiqKGDD2oX1_lFr5blD6mBfq6
+ WM6VI_5aF4KsSKE.5GtJBHfwDtOc7WACYp5j6_xnSPCk3aZJMtL90WBs3sAO
+ VNtaNfIR2mqRYF.myl0uLhYLZOAPOfDKjSTV2pVfYZxnBNbue2.pXxQ7JU3y
+ NtOZ1Dyo8sLvi3LsnKuijJppNF2sj2VJ5mTroM2O7inpjSjBN0K8X0g9IJ3r
+ MCuh0tPZSd2taN2noLfbkFURXWR.A7Gn5MK_Mc0HSTzTXe8W_D9wM16Iq4BQ
+ GkIyj.hxTm5Fs7_vOkSHfmB_K_ndqCFORJ4o4wTkO3s4fm1IqZzLBmZlUh3t
+ FUgDzmQutq6qVeQrU19J7XzHNODLcJUBxZONoCIMd3Y82L9QHR7kps0AqoOj
+ cU1sMaA4nL_QtCLx2GmNENFuPpV8m3XRgeEnFkg0mGBYz_5DDpWgj50N3_xa
+ gtaGlcr4RPLyX635Bzxh_z90weffVjDQg7zB08ul89XBlnPPsQ.wYz9uBrN3
+ 5_5RdXrs0WRikiwEwAs7nklz9IFprTBUtwR6xGnfaAbwxNvES1R_mu0WmE9Q
+ vEwm4fARb3Y7LS4RwTHtriMomFVnD9imvfePrL8PW1ytxj1RT99WUDy0Bzgi
+ 728Z35ymExu6K1t4av.Ba3YDIkCYTVMSG0rHVqdmrVFINDXESVrepu9sU1Mo
+ dTSLqvAT.g2rLkqSo0tzB3bh0WukqsRbsPEKhlArI_W4UK2GaQBvuCs..DCh
+ kaCLP0dWChQ_qIS2sySp2hlgf_AotmszomnJfZel9_87UAzqcr9khSWfV13t
+ UkwUIw5_F9XZ8h5SUQaa1wJQxBclFceTsKyTggcatQjaqV0QHgOYLDd4cHi3
+ Oa4hCGznf57MPI8sIvgPc2Ur8VipNxvSu.RRYbR4eQrQxQ_cJ_EvdMkP9_pr
+ pNsaEcrc9MupHn_r_1C_L89uIv2vBnph0TgXaWeGUopzrqdJzy.brYYlH8sN
+ Ccwzl.PRourQJM27V4i26IyLDHV3wGT21H20KcWKz9Zo
+Received: from 192.30.252.205 (EHLO smtp.github.com)
+ by 10.197.35.9 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 07:45:32 +0000
+Received: from github.com (hubbernetes-node-05dc34d.ac4-iad.github.net [10.52.11.64])
+	by smtp.github.com (Postfix) with ESMTPA id 778487200F0;
+	Sun, 26 Jun 2022 00:45:32 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656229532;
+	bh=AiFcJPG12BXeRlQvprq1bU9sgvtT9CZ7U7sMkI7pZyg=;
+	h=Date:From:To:Subject:From;
+	b=sMgi8dl5IRvYoum4soifllhP97BuFvoqUin0pl62qd7xG0z4HHC5DcQBi+QLCP9Zs
+	 6pC8uFj3tWg+wUGR4XXHypOVkqaVFUmE/Nw6T7PxwWAxTh+tJlcLKsMDG0lwLHEK14
+	 ut7N3NNM/KlC+UK1MW6yGo1po2cdFo2rnroPuEIY=
+Date: Sun, 26 Jun 2022 00:45:32 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/90e037-676388@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 676388:  FOLLOWING DOCKET 225, AND TO SATISFY USC 18.2, 18...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 4364
+
+  Branch: refs/heads/main
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER
+  Commit: 676388a7cf8c93a083de31795d80f4bf6958b82b
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/676388a7cf8c93a083de31795d80f4bf6958=
+b82b
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>
+  Date:   2022-06-26 (Sun, 26 Jun 2022)
+
+  Changed paths:
+    M README.md
+
+  Log Message:
+  -----------
+   FOLLOWING DOCKET 225, AND TO SATISFY USC 18.2, 18.225, AND UNDER 18.21=
+ - WILLFULLY AND KNOWINGLY TRIED TO OBSTRUCT THE MATERIAL FACTS
+
+NO CERTIFICATE OF OCCUPANCY IN AUGUST, 2020
+FILED: NEW YORK COUNTY CLERK 08/04/2020 09:10 AM     * * * * * NYSCEF CAS=
+E: 153974/2020        * * * * *      DOC. NO. 230
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DAgwH2omen=
+QPCvT0OYOE3Rg=3D=3D
+
+
+PROCESSED
+https://iapps.courts.state.ny.us/nyscef/FilingUserInfo?filerId=3DSVnk_PLU=
+S_wwn_PLUS_akZLr2HagUrng=3D=3D&ret=3DD&docketId=3DrbJs1u78EZo22UbkaVdrZg=3D=
+=3D
+CONFIRMATION PROCESSED BY THE EXECUTIVES AND COUNSELORS OF
+
+* SULLIVAN PROPERTIES, LP
+* SULLIVAN GP, LLC
+* MANHATTAN SKYLINE MANAGEMENT CORP.
+
+https://iapps.courts.state.ny.us/nyscef/ConfirmationNotice?docId=3DUZsCx4=
+RNLy/6V9gf1BkpTQ=3D=3D
+
+      * * * * * THEN DISTRIBUTED BY AND BETWEEN THE MATERIAL PARTIES [ MU=
+LE 1 ]
+
+TO SATISFY USC 18.2, 18.225, AND UNDER 18.21 - WILLFULLY AND KNOWINGLY TR=
+IED TO OBSTRUCT THE MATERIAL FACTS FROM BEING KNOWN BY THE PUBLIC
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DD9Td7IfWX=
+yajw1tBNCFb9g=3D=3D
+
+
+"The NYSCEF website has received an electronic filing on 08/04/2020 02:32=
+ PM"
+
+
+E-mail Notifications: An email regarding this filing has been sent to the=
+ following on 08/04/2020 02:32 PM
+SHARI LASKOWITZ - slaskowitz@ingramllp.com
+
+BY AND BETWEEN THE WILSON ELSER LAW FIRM, AND ITS REPRESENTATIVES...
+- MISS HUMPHRIES AND AN INDETERMINATE NUMBER OF OTHER COUNSELORS AT WILSO=
+N ELSER -----
+WILLFULLY PARTICIPATED AND ALSO NOTARIZED SEVERAL AFFIDAVITS THROUGHOUT T=
+HE PROCEEDINGS OF NYSCEF 153974/2020
+
+Counselor: Ashley Humphries | ASHLEY.HUMPHRIES@WILSONELSER.COM | 90843374=
+63
+
+FILED: NEW YORK COUNTY CLERK 08/04/2020 02:32 PM
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DxBYJ69pjI=
+uDxBegralE8Uw=3D=3D
+
+NYSCEF DOC. NO. 225 RECEIVED NYSCEF: 08/04/2020 =
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4RNL=
+y/6V9gf1BkpTQ=3D=3D
+
+FILED: NEW YORK COUNTY CLERK 08/04/2020 09:10 AM INDEX NO. 153974/2020
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DJjKiWNUTB=
+eipcESQfFiwVQ=3D
+
+E-mail Notifications An email regarding this filing has been sent to the =
+following on 08/04/2020 02:32 PM: SHARI LASKOWITZ - slaskowitz@ingramllp.=
+com
+
+249 AFFIDAVIT OR AFFIRMATION IN REPLY TO ORDER TO SHOW CAUSE, Motion #001=
+ 250 EXHIBIT(S) 1, Motion #001 251 EXHIBIT(S) 2, Motion #001 252 EXHIBIT(=
+S) 3, Motion #001 253 EXHIBIT(S) 4, Motion #001 254 EXHIBIT(S) 5, Motion =
+#001 255 EXHIBIT(S) 6, Motion #001 256 EXHIBIT(S) 7, Motion #001 257 EXHI=
+BIT(S) 8, Motion #001 258 EXHIBIT(S) 9, Motion #001 260 EXHIBIT(S) 1, Mot=
+ion #001 261 EXHIBIT(S) 2, Motion #001 262 EXHIBIT(S) 3, Motion #001 263 =
+EXHIBIT(S) 4, Motion #001 264 EXHIBIT(S) 5, Motion #001 265 EXHIBIT(S) 6,=
+ Motion #001 266 EXHIBIT(S) 7, Motion #001 267 EXHIBIT(S) 8, Motion #001 =
+268 EXHIBIT(S) 9, Motion #001 269 EXHIBIT(S) 10, Motion #001 270 EXHIBIT(=
+S) 11, Motion #001 271 EXHIBIT(S) 12, Motion #001 272 EXHIBIT(S) 13, Moti=
+on #001 273 EXHIBIT(S) 14, Motion #001 274 EXHIBIT(S) 15, Motion #001 275=
+ EXHIBIT(S) 16, Motion #001 276 EXHIBIT(S) 17, Motion #001 277 EXHIBIT(S)=
+ 18, Motion #001 278 EXHIBIT(S) 19, Motion #001 279 EXHIBIT(S) 20, Motion=
+ #001 280 EXHIBIT(S) 21, Motion #001 281 EXHIBIT(S) 22, Motion #001 282 E=
+XHIBIT(S) 23, Motion #001 283 EXHIBIT(S) 24, Motion #001 284 EXHIBIT(S) 2=
+5, Motion #001 285 EXHIBIT(S) 26, Motion #001 286 EXHIBIT(S) 27, Motion #=
+001 287 EXHIBIT(S) 28, Motion #001 288 EXHIBIT(S) 29, Motion #001 289 EXH=
+IBIT(S) 30, Motion #001 290 EXHIBIT(S) 31, Motion #001 291 EXHIBIT(S) 32,=
+ Motion #001 292 EXHIBIT(S) 33, Motion #001 293 EXHIBIT(S) 34, Motion #00=
+1 294 EXHIBIT(S) 35, Motion #001
+
+

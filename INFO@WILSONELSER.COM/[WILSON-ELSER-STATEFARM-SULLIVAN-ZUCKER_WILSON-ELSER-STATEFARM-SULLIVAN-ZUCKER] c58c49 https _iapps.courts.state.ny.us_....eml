@@ -1,0 +1,105 @@
+From - Sun Jun 26 00:06:20 2022
+X-Account-Key: account1
+X-UIDL: AI6HndtaJgWiYrfn4AO9CF7n9ts
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.62.155
+ by atlas216.free.mail.gq1.yahoo.com with HTTPS; Sun, 26 Jun 2022 05:00:15 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.205]
+Received-SPF: pass (domain of github.com designates 192.30.252.205 as permitted sender)
+Authentication-Results: atlas216.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 05:00:15 +0000
+X-YMailAVSC: FgJwp0Q3bBssyYvCLSIUu944TYNr_NAawWg4hmOF9jcmKxb
+ bNiBVtmJbTotbP0g8nz3di.lDmUDK0WsBLaIbmuP3o1r1i5D1CG8wemnmNL3
+ dMWAgcljcsgiLCzKHWFKGlxwpJx.Btd7i.KKTrxYl0uYpQJ51CbWROHXwbTB
+ AKRFfDc0sKl0Fht2gvuPASxQHXeIrifeXOGb1POsNQ3ZQEpFyC_OLmhpjAZ9
+ oIorNMz5yihfJnbC3zt96Y6sHddI5_fZVBczLlzjmGPMTkwrxfTYWTYj4sjB
+ Z1Hhkg7Vg7BVgiA6RCIQqDNkiS2ehWjQvgKXSkMn7c_5VEjAXGgO_6bECOAX
+ s
+X-YMailISG: 6EeCe9cWLDvbmn.GwH4UQu8ZYQN9SZVihAkdo5B34AggrPjZ
+ OtJlZ4vgrzKcWBIAE.QJeyvwSg65npLlswsSZp9XwEDboZ.Lm2qquB_plP6m
+ LJWx9P_.y03NtWVE8USHx1a9t4L9jA8Lh0AAP4l0lqAoBYyUiSULkSsLRRhH
+ SgTkfw0TFkGEhrGkSidPWhpbnYFNXbVOeFUfiyl9wPjCzXxDFVh3b18r4Xx2
+ _d_8c96wkuinv7kxOKpRNCZBiIodvzCDxi8UvH5XIh4_LCabGu2owYWRz_vZ
+ m2Quwq50gMOew1XF4eiHUWIbaDC4ytmRnpZDM_euNIuboLpVdlXkNl55CsnB
+ 096bwx66qrlNg.1F7BZmcA6DwWju6pVRboqt1sYDHvaMtEtQXjs2Bz0BnWCV
+ USdvZ1fKXTd_xiUGn0OsXLtA_HJLjn.BXlPj1w.v1qnZvBvL_w2KsMIJCc0B
+ BowMAg4QPv4Pu4_6mz47LatAqAZ6b47a8BKBy2JKOQdEsoZIqo1ut2GSaRyF
+ WWg3WM7QP0CYgg353jNENKy54K3uUgCbnoUaMQc2Dnj9xFNaqjYNkTfrD94z
+ V8sVmL6LqQCS8lvYG3kazSquPJUOihVjeJh3bw_Wg2_8r4LgHL3xQ6QOohMB
+ Hecu82Iz5EnZDO.UFbrXP_N4Zrt68vNjZr22_r6MR4ARxG.UuM4Yo9v6.wrL
+ qWI4RKlEk8jjQihXTQWMr_UsChcF9dRfv8ow5953a9n67mGi9BxcVvkOxHhf
+ FFZo_Tu1uh8DCZ1p.3BWyKdFSv7aUzxJddHLzKhhWgGJUOmzu.HdYv3foPd4
+ JEpcsOpZ94eRw_gzbvJkFmnF599MZANZTJcYzD3ezli3OasVHDC80oKPT9kL
+ uKHhy4Z7plP3QzJXnkEUT4VD5pPnik6ed41xj5xRrTj5mh7ZZHx5iBhDpbou
+ kph7jVkrwgs5limJ9YpckB.faFQuZABnkseeYxrjC1DULf6CqZ.zwzaQ255h
+ hImgisclQ8Cg0FxCa8A8JZZt_TT0J5Dm2THUzxMguMZ22ya06mcBM7PAMrle
+ _8pkz3DoHF3icxnLELvl5xIcMEkQcHFr17XXh1h_.jwFNTxmIFEZbxo.Iz8h
+ zjbOYzDONXEtj2w7nKxSrmRZ6T745Y2x5Uix5D70kF200FNWFoF21mSDgrni
+ YEC3dB4lIWypqrWjRM1Cu3D5UffvG6I.6mA8YIG3unQWTuHvBA--
+Received: from 192.30.252.205 (EHLO smtp.github.com)
+ by 10.253.62.155 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 05:00:15 +0000
+Received: from github.com (hubbernetes-node-689476a.ac4-iad.github.net [10.52.210.70])
+	by smtp.github.com (Postfix) with ESMTPA id CCCE9720235;
+	Sat, 25 Jun 2022 22:00:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656219614;
+	bh=+6ufjDsYg+qe4NneB4tDqIbq7CvtEMAuBNGAkP0VOds=;
+	h=Date:From:To:Subject:From;
+	b=s7A5tZYnL/qfVMV4EFgBQe3njyC0C+cn3uH/bxWDDKANgVBvZvp4t1LzYLENBOGc4
+	 PQY+xo23VI3S+8xol46h3PXkbQg+GkdQo73KBYEKZVwmm4/nr6sLnM4Dt2C2dpvQ8o
+	 zNrSjrCsh8WzcX5xoj7xDhwaH/gqy/txIz/0GzQQ=
+Date: Sat, 25 Jun 2022 22:00:14 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/2c0695-c58c49@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ c58c49: https://iapps.courts.state.ny.us/nyscef/ViewDocume...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 1477
+
+  Branch: refs/heads/main
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER
+  Commit: c58c49e1869570bedd2cff2897cecfd7bb497bbb
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/commit/c58c49e1869570bedd2cff2897cecfd7bb497bbb
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>
+  Date:   2022-06-26 (Sun, 26 Jun 2022)
+
+  Changed paths:
+    M README.md
+
+  Log Message:
+  -----------
+  https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=xBYJ69pjIuDxBegralE8Uw==
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=xBYJ69pjIuDxBegralE8Uw==
+An email regarding this filing has been sent to the following on 08/09/2020 02:31 AM:
+## SHARI LASKOWITZ - slaskowitz@ingramllp.com [ MULE ]
+---
+*** [ MULE ] ***
+ADMINISTRATION@MSKYLINE.COM; LZUCKER@MSKYLINE.COM; ADMINISTRATOR@MSKYLINE.COM; LEGAL@MSKYLINE.COM; LEGALASST@MSKYLINE.COM; SGO@COLUMBIA.EDU; SCCS@COLUMBIA.EDU...
+[ LOCATION 1 - FLOOR 4 ] BOOKS AND RECORDS, EMAILS BY AND BETWEEN THE DOMAINS
+
+[LOCATION 3] @MSKYLINE.COM
+[LOCATION 2] @WILSONELSER.COM, @INGRAMLLP.COM
+[LOCATION 1] @COLUMBIA.EDU
+
+---
+WITHOUT CONSENT, PHOTOGRAPHED AND VIDEOTAPED THE INTERIOR OF MY APARTMENT - THEN HOSTED THEM ON THE INTERNET AS WELL.
+*** NOTWITHSTANDING THE INDETERMINATE NUMBER OF <VIDEO.MOV> FILES BY AND BETWEEN ALL THREE LOCATIONS ABOVE.
+
+

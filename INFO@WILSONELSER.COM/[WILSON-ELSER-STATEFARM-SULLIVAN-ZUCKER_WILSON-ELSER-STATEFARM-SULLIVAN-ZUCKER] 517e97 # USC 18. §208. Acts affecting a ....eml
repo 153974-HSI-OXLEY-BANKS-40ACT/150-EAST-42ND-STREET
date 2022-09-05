@@ -1,0 +1,141 @@
+From - Sat Jun 25 23:56:24 2022
+X-Account-Key: account1
+X-UIDL: ANuAiQ8Em9AQYrfmNQpzyAbIArA
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.39.235
+ by atlas113.free.mail.bf1.yahoo.com with HTTPS; Sun, 26 Jun 2022 04:53:12 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.208]
+Received-SPF: pass (domain of github.com designates 192.30.252.208 as permitted sender)
+Authentication-Results: atlas113.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 04:53:12 +0000
+X-YMailAVSC: jWzAmck3bBs3mQ7mcvceSkPFbI0ecquyYvFQik39Dn7SkXR
+ Us4vyv4Au4d4spwtEspMxQbUip_vKhOS2iXUxJobt1BK6wbP1ZXPRBVtEoiG
+ YiGDzK86qq8kt7nezqk_BKuDTDl.1i4WbVU_L4_yRKprFfdLSxeO2G_5lTZN
+ eu2Bzm1P5ZMGPU1g86jpI6B9jUGSx56r1GIAf2QPogNwR1eJWYYF2j9Swgyj
+ wR_TJa3L2Qa_eBntICRoxhXn9lM.HwIZznuwtZcEeAXBXxiFrJbMv.YhlG27
+ 3o4AcCiQ9Q0Hc52lQ6KdPr5Q4MrOi_tNwtYgVIn8R0pkY5wArbDs5k1xtsM6
+ O
+X-YMailISG: K.HB8TMWLDsxBFw3qo8QvLFdxwb9_nt4gIvb1_llVMB7CMjW
+ Ng6_UG4YJtiYChvR4LddLocuHwaLPtyiIVP2o42tjJ_lPBldWn2rYYdWquUD
+ gMch80jJb4nSPEbZxkGvpiu8nkWGv5YJpQVbYLuMH5kfJoWqeNIel0q.itHD
+ j8eYAyZD_Lq8HFmLPWN5AYFmyr6.twNaCD99P1uUGtT7uG0uvtKLFEHSQ.z0
+ 7OnAtKyryttp28_Y923VJbkngidTt9acweRTdLEk1JGFlNYucqORv70BBB6i
+ ihesVBZ5M6GeVOARH2t4bR20XHDC1bqH7T6yMrnvNB.HmHy1kYNuXc0WzXRW
+ zS6SPYL43zGmVHztu9UsO0tl8l8_3VrI82Ez7li7nXq8tMEViIGePLyh5QF2
+ RIq_IcRBYkDpbywvsHq5ACXUffMHR42SLsUBTm2FBsQOOmxFJwVWrhHACu.B
+ A1inV19O1LiDwdGBPaED_sfBui8ToQD6nOlGUG7vM11TQY4aSLlrbdS8miwy
+ mN4KskQn9O89ghfaa0qsfgLe3MIfxXtWJ.26pVjiPVII3A6UuZlO.kmsl765
+ dPS9cjcWR9iDSYM55pNZjHI_PfbbHBwHhhut9YObbLo.toUWONy10YjbljGy
+ 9RC3lmlri6lPqc4yko5Ji9mHFs8mglJtC2b2YEGfb_5joanM3Yhbe6bpQ5hr
+ UMgiE0YeKaA14l1rU4pgv.RKGaCk9jAqItoGvuX6fDCqFJK3VyI0kXm_ZUat
+ n1pnKHob_mbNGoxfuvWeFeLlTROH.4ilmX4XKNqP4YJS_44oDVKhNVpUSDqE
+ PdCv1J8NT_A4g0Fm491o2149_Vj37VU2FDrgFaKpnMs8VHAJLAChlOeZhTe3
+ IB0HUrDtAAw.WFq791J7nAiuLvjq9hVB8pTa75BNAI71b1R29RZF57jeIgnd
+ mbyj1I12iW.wba_uuVAIgU.Lx6bW6FQ_2L7yFd2E2Cdg2QSk4aT82Td5ePrn
+ eS48joGdrPbnWKu0kRKzTWvB6GYXpHlpQShqYAWVjk6_CBJ5mLiXxIpFMd_.
+ UXGa914LwuP_7xsR.O0uspU2qN27paLCeGwEVw_M7aAJahAXZTB34lSp6J5x
+ d4oc7YqnjyzqK1zDjFcRe2s6La9SM2pKEkN9Dhlxv46bjpAZVj.EP5YSvviZ
+ DE3aVDQThlSaP7iQNXb7
+Received: from 192.30.252.208 (EHLO smtp.github.com)
+ by 10.197.39.235 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 04:53:12 +0000
+Received: from github.com (hubbernetes-node-09182ec.ash1-iad.github.net [10.56.224.20])
+	by smtp.github.com (Postfix) with ESMTPA id D926B8404BA;
+	Sat, 25 Jun 2022 21:53:11 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656219191;
+	bh=I/ciwthSy2/66O1/0z8PRl7FcUBhG5030asVIu4a20Y=;
+	h=Date:From:To:Subject:From;
+	b=tFnF8IqzhND+XNJS7jUUjYsfivpNadZFOATvlLS2ffNvbklqPeC72GeEMOgDny0dI
+	 eNWf1N+2mQpA+oWgLXF+MH5VZUjjuSnpawRNztsGgANPxW6P6Sf1/Q7QRTLn8dv9TY
+	 0A/Wu5kVAOsSJn3GNCPUgIFncXQal5T5shdrsiO4=
+Date: Sat, 25 Jun 2022 21:53:11 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/d356ca-517e97@github.com>
+Subject: =?UTF-8?Q?[WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STA?=
+ =?UTF-8?Q?TEFARM-SULLIVAN-ZUCKER]_517e97:_#_USC_18._=C2=A7208._Acts_affect?=
+ =?UTF-8?Q?ing_a_personal_financia...?=
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 3790
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: 517e97feb75f6987841a4d0f809966c8f44b2101=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/517e97feb75f6987841a4d0f809966c8f44b=
+2101=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-25 (Sat, 25 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  # USC 18. =C2=A7208.	Acts affecting a personal financial interest=0D
+=0D
+## Consumer Response Unit ( THANK YOU VERY MUCH FOR YOUR ASSISTANCE)=0D
+** National Center for Consumer and Depositor Assistance=0D
+** Federal Deposit Insurance Corporation =0D
+=0D
+# USC 18. =C2=A7208.	Acts affecting a personal financial interest=0D
+(a) Except as permitted by subsection (b) hereof, whoever, being an offic=
+er or employee of the executive branch of the United States Government, o=
+r of any independent agency of the United States, a Federal Reserve bank =
+director, officer, or employee, or an officer or employee of the District=
+ of Columbia, including a special Government employee, participates perso=
+nally and substantially as a Government officer or employee, through deci=
+sion, approval, disapproval, recommendation, the rendering of advice, inv=
+estigation, or otherwise, in a judicial or other proceeding, application,=
+ request for a ruling or other determination, contract, claim, controvers=
+y, charge, accusation, arrest, or other particular matter in which, to hi=
+s knowledge, he, his spouse, minor child, general partner, organization i=
+n which he is serving as officer, director, trustee, general partner or e=
+mployee, or any person or organization with whom he is negotiating or has=
+ any arrangement concerning prospective employment, has a financial inter=
+est-Shall be subject to the penalties set forth in section 216 of this ti=
+tle.=0D
+(b) Subsection (a) shall not apply-=0D
+(1) if the officer or employee first advises the Government official resp=
+onsible for appointment to his or her position of the nature and circumst=
+ances of the judicial or other proceeding, application, request for a rul=
+ing or other determination, contract, claim, controversy, charge, accusat=
+ion, arrest, or other particular matter and makes full disclosure of the =
+financial interest and receives in advance a written determination made b=
+y such official that the interest is not so substantial as to be deemed l=
+ikely to affect the integrity of the services which the Government may ex=
+pect from such officer or employee;=0D
+(2) if, by regulation issued by the Director of the Office of Government =
+Ethics, applicable to all or a portion of all officers and employees cove=
+red by this section, and published in the Federal Register, the financial=
+ interest has been exempted from the requirements of subsection (a) as be=
+ing too remote or too inconsequential to affect the integrity of the serv=
+ices of the Government officers or employees to which such regulation app=
+lies;=0D
+(3) in the case of a special Government employee serving on an advisory c=
+ommittee within the meaning of the Federal Advisory Committee Act (includ=
+ing an individual being considered for an appointment to such a position)=
+, the official responsible for the employee's appointment, after review o=
+f the financial disclosure report filed by the individual pursuant to the=
+ Ethics in Government Act of 1978, certifies in writing that the need for=
+ the individual's services outweighs the potential for a conflict of inte=
+rest created by the financial interest involved...=0D
+=0D
+=0D

@@ -1,0 +1,148 @@
+From - Sat Jun 25 23:56:23 2022
+X-Account-Key: account1
+X-UIDL: AGCEQQFks4RJYrflrQcE4B16sBM
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.135.107
+ by atlas201.free.mail.ne1.yahoo.com with HTTPS; Sun, 26 Jun 2022 04:50:53 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.209]
+Received-SPF: pass (domain of github.com designates 192.30.252.209 as permitted sender)
+Authentication-Results: atlas201.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 04:50:53 +0000
+X-YMailAVSC: OSl4zYY3bBt6MxvYrZ3eYVQ2c1IRpuyKXLBNDXHzY0w9of6
+ Zdo4QuFIJFL3oFsSQo5Ywm8_dRd6rNhUZmziRe8YALAzZBhCOO78VHpHsy6G
+ vUFqmEQwn7zZhANLVk4HbU5.KflIQchNQ6rsyasAyNymabIXXkcpuf5KZx3h
+ mBPfbEJyQ5xaP7qpEWW8AMeEtnqA9pPJtLJJBQPeSxILTDdRx3PHfUuMp0HW
+ kRc6N5CFUKabqarhF1vwOO9uxqXKanN9OPaDs_Oy6BhmTPFhkqU4AX2.XTsE
+ tFPn2E70Z2QlhWiv3lEJnxwFky0hM3xkY7md5b0raXHucMOH9W10BR3lPPMz
+ 6RY7X1B4ExUnj80V9ZIM2YSj0hL7szBTwJ9sQhw--
+X-YMailISG: 6metUQwWLDsIhR4thFZCAkgW_uAuztMM64iNsthceatFFn3R
+ cJOsxCLp6y9QDNIGLUE708R6_ufL_pcYdN_yIdS0g9cVSU_2re2XMeauST_Y
+ 90aYTYaKFfBFvVbe_Ne0A4jj5B5jl2WDU1w6CbPhiUSKbq6Y2ivzWKlGh4U5
+ 8kv1_3UzQ33JEpCwG878vPxWB0gv0JTyyKlUnVfw3c73LLIVtv9CKAspGUdX
+ WS86iNr6TmBiDRXe1_gzZrmUiYnTMXnuckJ.q63ytHREwa6YtdO_T77Et4UF
+ raT7KpKUG1a2S49eaFfcbGxO4g9I.WrNas6a5JnrcMClyEP.MyGuvW4wINTI
+ pEwYzB5njPeD2LALVV5K49snMa5scpirheWcbGk_K6ObY1DdWKK20p8Pf3Zm
+ zACZ9EsSftVfZu8Is_9oFrm43Nc6tsTvFbIuP982ALg4s7bSVjcU1voJu6N4
+ PQde1GxD5yVnv2nC8x8CLZ9iuMYtMmGKAJ1gaunWNzEJ3Ej2cyxiqU5d0xW7
+ 70dvmANBZu5dwDMGMOhH2kab6pBpCw9DDS1HLev3Xp2kcghbSn4GioHHcx7Z
+ .w8jFg5pXzFpiBBGdn7L_UNaJaJzXe.6HmYxR9GB4WH.nve7FUGm8MU99x1b
+ WbThTTawI.Bsc4MA6u27eJSUzCSZplCmGEprXiZXG3hBYd9vy7rLs0I5OxeR
+ dtR22qfvb2UEUigBn_7uootdcA383joiPfghReEBhZ0YVAbURpfHUVL9hz0z
+ myQzpJSkczOXAv.M0o_YwcdwhffANHbAN6uZHAiRispiJ0p0HUghuh.OmTM4
+ jgi87ONLK4AGKFQNlf7bJCFQwAHRPCDk7_iyebvvwp8XSuXbqL2N9ZAIx6l6
+ LjSTAQvZXTQfttKqh_gTb90N8vPOlRU_iJHcRt873zx3OFfeLtsyNsyB45sS
+ QZqkhK2WUD0JV.bDHcQrRfn4dkZlKvgcSKiJdyohqDoG5UVuoZZJead9B2zs
+ rQEDt5pk7Zk6.P9LrjJfFypPF75N8Fy3StJYObxhvlG676s489mKgxbQx.9D
+ WJMVNDVWkP5912PJ7oIvi_6YRF07hP6MhCMsfhBR0k2BSD3mX9they_7hQtO
+ EfvMuSgPvgMvR_G1CLk7RFXfOv70P6QTiuiK5ah.QEE52XIYVrmgSgi6pu1R
+ w8FNETDms58CDNHpTzicoNFSXfnyr5IqAiXcLLYe
+Received: from 192.30.252.209 (EHLO smtp.github.com)
+ by 10.217.135.107 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 04:50:53 +0000
+Received: from github.com (hubbernetes-node-b1ddcf9.ash1-iad.github.net [10.56.212.97])
+	by smtp.github.com (Postfix) with ESMTPA id CED965E0392;
+	Sat, 25 Jun 2022 21:50:52 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656219052;
+	bh=C4U7HGH6Ro+iQvNBPUYq7TyFbFvPjJt1Ne2QL/syxRU=;
+	h=Date:From:To:Subject:From;
+	b=i7fgAdBoaD30VLIrh89ZhCRH8m0cmWvwWPpgs9Pwn+RudP/gM1Bk4UjPLmo+NAA3e
+	 dYwHCtlX5uHvRlBe5j+paZnhADWjjZ+HiXMyGwH0ans/RNbQkj5SJmdCjG0GO1IHyh
+	 6Mm55BmRIwueXnBs/bWTa9ZetShkFFWL1OTHLMQ0=
+Date: Sat, 25 Jun 2022 21:50:52 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/fe79e0-d356ca@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ d356ca: COMMUNICATIONS BETWEEN LOCATION 1 & LOCATION 2 [ L...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 3092
+
+  Branch: refs/heads/main
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER
+  Commit: d356ca7035b9e7620d5cb8adc3a0a95d03ce755d
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/d356ca7035b9e7620d5cb8adc3a0a95d03ce=
+755d
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>
+  Date:   2022-06-25 (Sat, 25 Jun 2022)
+
+  Changed paths:
+    M README.md
+
+  Log Message:
+  -----------
+  COMMUNICATIONS BETWEEN LOCATION 1 & LOCATION 2 [ LOGGED] EX-POST IN 202=
+1--
+
+E-mail Notifications An email regarding this filing has been sent to the =
+following on 08/04/2020 02:32 PM:
+    SHARI LASKOWITZ - slaskowitz@ingramllp.com
+	=
+
+249 AFFIDAVIT OR AFFIRMATION IN REPLY TO ORDER TO SHOW CAUSE, Motion #001=
+ 250 EXHIBIT(S) 1, Motion #001 251 EXHIBIT(S) 2, Motion #001 252 EXHIBIT(=
+S) 3, Motion #001 253 EXHIBIT(S) 4, Motion #001 254 EXHIBIT(S) 5, Motion =
+#001 255 EXHIBIT(S) 6, Motion #001 256 EXHIBIT(S) 7, Motion #001 257 EXHI=
+BIT(S) 8, Motion #001 258 EXHIBIT(S) 9, Motion #001 260 EXHIBIT(S) 1, Mot=
+ion #001 261 EXHIBIT(S) 2, Motion #001 262 EXHIBIT(S) 3, Motion #001 263 =
+EXHIBIT(S) 4, Motion #001 264 EXHIBIT(S) 5, Motion #001 265 EXHIBIT(S) 6,=
+ Motion #001 266 EXHIBIT(S) 7, Motion #001 267 EXHIBIT(S) 8, Motion #001 =
+268 EXHIBIT(S) 9, Motion #001 269 EXHIBIT(S) 10, Motion #001 270 EXHIBIT(=
+S) 11, Motion #001 271 EXHIBIT(S) 12, Motion #001 272 EXHIBIT(S) 13, Moti=
+on #001 273 EXHIBIT(S) 14, Motion #001 274 EXHIBIT(S) 15, Motion #001 275=
+ EXHIBIT(S) 16, Motion #001 276 EXHIBIT(S) 17, Motion #001 277 EXHIBIT(S)=
+ 18, Motion #001 278 EXHIBIT(S) 19, Motion #001 279 EXHIBIT(S) 20, Motion=
+ #001 280 EXHIBIT(S) 21, Motion #001 281 EXHIBIT(S) 22, Motion #001 282 E=
+XHIBIT(S) 23, Motion #001 283 EXHIBIT(S) 24, Motion #001 284 EXHIBIT(S) 2=
+5, Motion #001 285 EXHIBIT(S) 26, Motion #001 286 EXHIBIT(S) 27, Motion #=
+001 287 EXHIBIT(S) 28, Motion #001 288 EXHIBIT(S) 29, Motion #001 289 EXH=
+IBIT(S) 30, Motion #001 290 EXHIBIT(S) 31, Motion #001 291 EXHIBIT(S) 32,=
+ Motion #001 292 EXHIBIT(S) 33, Motion #001 293 EXHIBIT(S) 34, Motion #00=
+1 294 EXHIBIT(S) 35, Motion #001
+
+Filing User Shari Laskowitz | slaskowitz@ingramllp.com | 2129079600 150 E=
+ast 42nd Street 19th Floor, New York, NY 10017
+
+Hon. Milton A. Tingling, New York County Clerk and Clerk of the Supreme C=
+ourt NYSCEF Resource Center, nyscef@nycourts.gov Phone: 646-386-5956 Webs=
+ite: http://www.nycourts.gov/courts/1jd/supctmanh/county_clerk_operations=
+.shtml =
+
+
+Phone: (646) 386-3033 | Fax: (212) 401-9146 | Website: www.nycourts.gov/e=
+file
+	=
+
+
+	=
+
+---
+LOAN DOCKETS, ASSIGNMENT OF LEASES AND RENTS TO STATE FARM IN EXCHANGE FO=
+R $6,000,000.00
+# [ LOAN DOCKETS FOR 50074 EST ++ ]
+## [LOCATION 3]  @MSKYLINE.COM
+101 WEST 55TH STREET, NEW YORK, NY, 10019
+## [LOCATION 2]  @WILSONSER.COM
+150 EAST 42ND STREET, NEW YORK, NY, 10017
+## [LOCATION 1]  @COLUMBIA.EDU
+Lewisohn Hall, 2970 Broadway, 4TH FLOOR --
+New York, NY 10027
+
+

@@ -1,0 +1,151 @@
+From - Sat Apr 30 23:58:19 2022
+X-Account-Key: account1
+X-UIDL: ALq8tZxXEsETYm4RMQPMqMlIfrQ
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.131.17
+ by atlas315.free.mail.ne1.yahoo.com with HTTPS; Sun, 1 May 2022 04:48:48 +0000
+Return-Path: <carissa.pilotti@davispolk.com>
+X-Originating-Ip: [144.211.187.16]
+Received-SPF: pass (domain of davispolk.com designates 144.211.187.16 as permitted sender)
+Authentication-Results: atlas315.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@davispolk.com header.s=pyironport1;
+ spf=pass smtp.mailfrom=davispolk.com;
+ dmarc=pass(p=QUARANTINE) header.from=davispolk.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 1 May 2022 04:48:49 +0000
+X-YMailISG: z.rBymwWLDuCr7e.hbf0GNhcgz3VjMgj4Cx1woxJI0a27pRn
+ .AVb3EM2bf7Pehco_x1HP9vncH9uTkZW.PyvDYLoUmTHGbN6JftrwRgC2FCJ
+ lkmYqrhLjcxbt5nZMFN1V3WfeLPssQ5z21.wOK7w9OiH6GlE_JB2Ppie0fTV
+ uxZI4_w4lhT3wNr2ucvMVA77dP0s_i9_l2CyCKL2FuWyyBxV1jXX6zLL437K
+ cTuDYLvmOxxuZTeaI1ATXU0.6OG.rhyfXLDgYc5htUvztBIcnYequ449wnvJ
+ aRA7jx1JcZz1WuReWeXZvszAyMiNKs_jHR9_K5LQZ1Ar7Ierc_x_LEJEPrxy
+ Fo09Q8cPOsv_8eu9ZwfPquz.Du9pmKLXqEBCihi8GORvqiHAdWcAOjF2mX3L
+ UgbupMiDDvJSxtXf.twOi8QFpZSHlx3OAr3_DzVAKLWX9UHEw.8mG7WIIrUu
+ RJrRR36d9m4wi9rO4YpAJ12ljp89GSUyOVkAP_rEsUB88FExGrlj.PTyVvMM
+ WjY_fL0PoB5g0_WODBlpdy2BaU4k.5P44N4LjAF5pOVgyapXyD7RvAmZ.NO8
+ Lmt2TbnZKvg8BJLZ_fcoYgG21McH8vJ26rBJkysHMdldEdBEyGSFylpTk3Vk
+ yyXFhILZfGk2XZIySLf0zzhlvigSWUGiqgSF.SW43WPS0ffH3NOD9KZ2BDWv
+ E6sJLggKLzYMxknJB3x3A5Whl.IpdwXsCkc9YNeF8RfRijOmM7qfamMvaE7C
+ zxj2WGwEpPYiZl72EcYfXHKZHMnvObRsAzuOn01wWrngmDVhL.5SbUy2YYLc
+ _psgN0blCPoO7QGAGtUTiPDL.ql8q6QY4K7xvs4EZ0ahMORfc6rZ_CR3ZZVf
+ 7BsP8kXeJaw..zndmjpi..SLRrQo7P1EQMG3qo8ALaDQ7_Lo70gykO6N5hBl
+ EUZhpvIxFsOJ5k._BQMM1pfPPeUeDm8n5gz4ztbg0v.rqtAdij0yAe5KBLL8
+ F_02FrIHt5clPKLcfQ5a1NQ9r5TXCOcDxE7xB7yY2CmmkzmAmZZgzWb7VlIK
+ Wi_7piJlWn1QT_hAqSnmPaxKZyu6EZj2QQXaB7VDScsVdmPe17WJSgePIlIf
+ sspA54.EPwjnOycFyOQWYZNS4dxknrBC0lv.h5JI1qbgbL1vHhuiRpKvNmJg
+ ExlzQ0OrQaSMPFtIy2ec9P8pfNShVbGCaAFfe4r3CcCq.spJ8SM.61ujdmKE
+ J48q9ADMqfPsi97nltyR8S1uqDYx.l9aStQ6KAysfNPbo0du5hYBrtEzrHxY
+ rSWbT8EJuN080HSF1waw8vOuaIVEIZaqjAoOSflEicynXg--
+Received: from 144.211.187.16 (EHLO s4.gw2.dpw.com)
+ by 10.217.131.17 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 01 May 2022 04:48:48 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+  d=davispolk.com; i=@davispolk.com; q=dns/txt;
+  s=pyironport1; t=1651380528; x=1682916528;
+  h=from:to:subject:date:message-id:mime-version;
+  bh=WWilCH64W0KhP3rA2d8xr+aWJ5wkEqexYccVOLsEUBE=;
+  b=a3B471cANOc+PY53DXWtjYgRrtpz87VwRfIQoGuyoArOMnLv5ez4qB5N
+   GV8kAQ0WUKWxlZwzu4chuwIIFN/hYDX/efOXnxI21Hms1KNspf/59fdev
+   QPDP73+p6SYdinu5fFPeAN432EvKGN3L1ng9dtZBVxP8EsCbKNdMxv2CS
+   eu8TkLwIljwtRCsTOUe4INi6NFICNfYq0hjFIzJM3cIBrprliwMEyy+gN
+   S0OnuEGN1wuk8DPnGKb7ZdljS3PKnPOCnhXzeSQoj5AJqVoMvBNyw/YFG
+   zs6uey658UPuKbFX2Cs4KlI6RTbRSQ1KuU5cg6a51TD632VaR7lz0U6Tp
+   Q==;
+X-Cloud_Email_Provider: False
+X-DPW-RU-UA-BY-DPWUsers: False
+X-DPW-RU-UA-BY-Whitelists: False
+X-DPWSPF-Check: Null
+X-IronPort-AV: E=Sophos;i="5.91,189,1647316800"; 
+   d="scan'208,217";a="133010672"
+X-ARCHIVED: TRUE
+Received: from unknown (HELO pyexch06.ad.dpw.com) ([10.204.54.76])
+  by pyironport1.gw2.dpw.com with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 01 May 2022 00:48:48 -0400
+Received: from pyexch08.ad.dpw.com (10.204.54.78) by pyexch06.ad.dpw.com
+ (10.204.54.76) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.2.986.15; Sun, 1 May 2022
+ 00:48:47 -0400
+Received: from pyexch08.ad.dpw.com ([fe80::c45e:63fa:800b:5577]) by
+ pyexch08.ad.dpw.com ([fe80::c45e:63fa:800b:5577%14]) with mapi id
+ 15.02.0986.015; Sun, 1 May 2022 00:48:46 -0400
+From: "Pilotti, Carissa M." <carissa.pilotti@davispolk.com>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: =?iso-8859-1?Q?Read:_****_906,_63.18_OX_[_-12.325%_=3D_-$1,357,848,214_]_?=
+ =?iso-8859-1?Q?[_warned_STATE_FARM_]_26_CFR_=A7_1.6662_FED_+500_[_LOAN_50?=
+ =?iso-8859-1?Q?074._]?=
+Thread-Topic: =?iso-8859-1?Q?****_906,_63.18_OX_[_-12.325%_=3D_-$1,357,848,214_]_[_warn?=
+ =?iso-8859-1?Q?ed_STATE_FARM_]_26_CFR_=A7_1.6662_FED_+500_[_LOAN_50074._]?=
+Thread-Index: AQHYXRY0iy5TtLj49EaX+JgWNmhOwQ==
+Date: Sun, 1 May 2022 04:48:46 +0000
+Message-ID: <0e92205eedba49ad900563dfeea4a896@davispolk.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+Content-Type: multipart/report;
+	boundary="_000_0e92205eedba49ad900563dfeea4a896davispolkcom_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+Content-Length: 2116
+
+--_000_0e92205eedba49ad900563dfeea4a896davispolkcom_
+Content-Type: multipart/alternative;
+	boundary="_002_0e92205eedba49ad900563dfeea4a896davispolkcom_"
+
+--_002_0e92205eedba49ad900563dfeea4a896davispolkcom_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Pilotti, Carissa M.
+   Subject: **** 906, 63.18 OX [ -12.325% =3D -$1,357,848,214 ] [ warned ST=
+ATE FARM ] 26 CFR =A7 1.6662 FED +500 [ LOAN 50074. ]
+   Sent: Sunday, May 1, 2022 12:41:05 AM (UTC-05:00) Eastern Time (US & Can=
+ada)
+
+ was read on Sunday, May 1, 2022 12:48:46 AM (UTC-05:00) Eastern Time (US &=
+ Canada).
+
+--_002_0e92205eedba49ad900563dfeea4a896davispolkcom_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:10pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Pilotti, Carissa M.<br>
+&nbsp;&nbsp; Subject: **** 906, 63.18 OX [ -12.325% =3D -$1,357,848,214 ] [=
+ warned STATE FARM ] 26 CFR =A7 1.6662 FED &#43;500 [ LOAN 50074. ]<br>
+&nbsp;&nbsp; Sent: Sunday, May 1, 2022 12:41:05 AM (UTC-05:00) Eastern Time=
+ (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Sunday, May 1, 2022 12:48:46 AM (UTC-05:00) Eastern Time =
+(US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_0e92205eedba49ad900563dfeea4a896davispolkcom_--
+
+--_000_0e92205eedba49ad900563dfeea4a896davispolkcom_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; carissa.pilotti@davispolk.com
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: BSEpv8v2Fk6+feu6HG6HeQ==
+Original-Message-ID: <e1c3c3ad-a4c1-4d83-388b-d90ee3a8fbad@yahoo.com>
+X-Display-Name: Pilotti, Carissa M.
+
+
+--_000_0e92205eedba49ad900563dfeea4a896davispolkcom_--

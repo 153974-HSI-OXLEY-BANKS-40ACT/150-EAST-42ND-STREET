@@ -1,0 +1,202 @@
+From - Mon Jun 27 19:03:06 2022
+X-Account-Key: account1
+X-UIDL: ACgm/JFN9fakYrpEGwYqIPZva/w
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.214.173.215
+ by atlas103.free.mail.gq1.yahoo.com with HTTPS; Mon, 27 Jun 2022 23:58:18 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.206]
+Received-SPF: pass (domain of github.com designates 192.30.252.206 as permitted sender)
+Authentication-Results: atlas103.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 27 Jun 2022 23:58:18 +0000
+X-YMailAVSC: GwJUGSc3bBse_Kd15klOBFNOuW3hKkhfcdCZhJW84lUB8Mq
+ 4yEjoYr_F8Va_3MqF9KVf3Wf0teIW75nEvIHHEDZC.RSIoQunpr7_nQ37M2u
+ KZiJBJ_z8cbj_Ww52vDQG7wFo6CTXMsC9vC4pGtN5hoUeiZt5uJpnh2YovbW
+ jM7TOzIQjFS23R.P7BK8Igi_FgTU2xbHQmC8JS72971kIBGAw.z_jfou50gK
+ fpWpPclK0s2EoOB_yM.Z5wkQzFomgSxArTYnfm.WP5V3n.j8PGZjiQYWwj3M
+ DTMWwliQnh73wpKUSHk7.UyzCe8kK2FCYYGx1c8t9m6.u0QJvN4IWXmcgsBM
+ B
+X-YMailISG: j1LfTwoWLDt.PSW1cpeN2sEzp2.JRoNsMwbcXPhdYqqsco2V
+ hnEr.uqIgOxnlIO0dB6X3nDAi9EayPXSzMJ5qp_xx6F4q0hwGWTHTrIJOd0e
+ u7Hkc67uvW_w8j8hnndAI1eIf_khR.UgiKx1ndbqysTBPGcm5.X.3YpAMvxD
+ .hH8aQbCUlPZ8mqu5ElI2Muz9sS8ewLObRosgxKAB3xYCMOddhhDaKvLx6zU
+ 9fDhrJW9zS3MoJrkbZRdN9b81R9C6rdzMfYSIfxzeQwziNlWbgfU2X0k8bB.
+ h7xkCwvOnLjrGkRUtPhTWZmno0sTHeZGB.zb1x_XvMaUFd1a2jPXqco2Bx2R
+ HJSdT3y3vnLtMQNtehggKLic_Ib9DdIzAtd2AMO7g3P.NvevFg4m0QQZkLMv
+ QMYEHoe0pphYHTQBCdJ4hWGaqsKZn65KDnHvrl2xGTzJcEs8iS5P8g_Mf5nr
+ mvq7pK55LmvtZBf6f8lw1KTo_rjENG_U7FDR6acYYwWf8afom5TNrSqLflLH
+ W_RytPrg8Ir_uRPaWr0pbac_clcYwrwNEioLpoCHnrKzmXZtsKXz_VdWA0Fg
+ PK79qpzlcNmIrA4Tu3q3KhGWoJnLmYrL.LjZUh9COnSsuu.sUd.0miWonv96
+ uaLLEdgABMHzS3zFNr076oyg6mRQU8yTvdUFg51W5MNuWTk9nekAc_D831kD
+ VYyxlXqRp1aEMulUeO.35WiQ36VQYmDnD6cqyNk08VR1ZLzi80Czili483KZ
+ 9ZVoHEsQRogVIEpeTjE3ymHK2n82HNdvhqvVjy6w1JbQKZGW9MUQOqhgofCD
+ MkkQ1vvXKUh.oje.pUND9RVGlgDHIZJcupWJDqIiOUdxKgmuo76HTDUXFk63
+ DkD31_51.ua1uroVowrk4AuvRB27kDGp6u3MCzrZyMg1F7HovwiTwxU9zhon
+ kpquIxghz3erPSsUsXJx6zPpZc1.Oo0riSKbnsJrea6oTnEykTigGgjRKZyP
+ Xq9pPILW0TDROnxr0APPYEBH31vn9BgsqQkdqB9uJUCoQWqnn2WXLhoQQl48
+ DGuw7XmcIotELmIsqBWQKXzvIieqMdZJ2udPezAzFolyva4fFWCFVhmqs7K6
+ sX7u82S3SSZTWT8Gwb2cwn1hXXl2T4MPZdzfjalB8mQ.6t.pMr4rRoFqOT9A
+ GJRGrsZ4fiNKIYt0GQdcYW7wmY8phb.9YiuMLmQ-
+Received: from 192.30.252.206 (EHLO out-23.smtp.github.com)
+ by 10.214.173.215 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 27 Jun 2022 23:58:18 +0000
+Received: from github.com (hubbernetes-node-d04a7af.ac4-iad.github.net [10.52.211.45])
+	by smtp.github.com (Postfix) with ESMTPA id EB34A6007EF;
+	Mon, 27 Jun 2022 16:58:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656374298;
+	bh=T/fB7RpmIY0cq8eYi55LZsw99UhN5zLRfFsvPnDdtsA=;
+	h=Date:From:To:Subject:From;
+	b=VVLu6ZsjxwO2etyJxU5gMEkoPpzffS/xFYxzLN6aX9eOh5hP/5ShVaQwuijWdYAAZ
+	 XM+nLytkWvQefSeK7pjYNrtedJZyeG5oxrm/Hp5ccubU4WVESHt4fE2oOCVFnQDnCG
+	 KExv/u24aa3xTKUDc5x6v7n1pfYuj+RpfUrnLEds=
+Date: Mon, 27 Jun 2022 16:58:17 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/2022-06-27/76ca4e-ed5a7e@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ ed5a7e: (6)    [MONK, JOSEPH RILEY JR (CRD#:1357149)](http...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 6155
+
+  Branch: refs/heads/2022-06-27=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: ed5a7ef27ee4e473d67ea3ac4136a52a09c4681f=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/ed5a7ef27ee4e473d67ea3ac4136a52a09c4=
+681f=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-27 (Mon, 27 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  (6)    [MONK, JOSEPH RILEY JR (CRD#:1357149)](https://brokercheck.finra=
+.org/individual/summary/1357149)<br>=0D
+=0D
+[$6 MILLION DOLLAR LOAN](https://iapps.courts.state.ny.us/nyscef/ViewDocu=
+ment?docIndex=3Dau8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D) EXECUTED AND NOTARIZED=
+ BY ALL RELEVANT PARTIES, WHICH I PERSONALLY FILED ON 08/09/2020 02:24 AM=
+ AFTER PROVIDING [NOTICE TO STATE FARM](https://iapps.courts.state.ny.us/=
+nyscef/ViewDocument?docIndex=3DXjn0/e1NcBADqRc_PLUS_g11P4g=3D=3D)<br>=0D
+-- NYSCEF INDEX NO. 153974/2020<br>=0D
+THE ATTORNEYS, AS ACCESSORIES AND UNDER [USC 18, =C2=A72]+[USC 18, =C2=A7=
+3]+[USC 18, =C2=A74] BELIEVED THEY ARE ALSO EXEMPT FROM PROSECUTION<br><b=
+r>=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dau8qh7Dn6=
+6hrVmJ9DX_PLUS_bdg=3D=3D<br>=0D
+*****     https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+cve65PXNBCtdxjJFkfwUnw=3D=3D<br>=0D
+*****     [USC 18, =C2=A7225]+[USC 18, =C2=A721]+[USC 18, =C2=A7215]+[USC=
+ 18, =C2=A7241]+[USC 18, =C2=A7373]   <**voicemail attached>*<br>=0D
+*****     [USC 18, =C2=A7241]+[USC 18, =C2=A7216][USC 18, =C2=A7218]+[USC=
+ 18, =C2=A7229B]<br>=0D
+*****     [USC 18, =C2=A71962]+[USC 18, =C2=A71963]<br>=0D
+*****     [USC 18, =C2=A72]+[USC 18, =C2=A73]+[USC 18, =C2=A74]<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+c3iexOlBwsgc1lnMJ2_PLUS_AqQ=3D=3D<br>=0D
+*****    under  [USC 18, =C2=A7225]+[USC 18, =C2=A721]+[USC 18, =C2=A7196=
+2]+[USC 18, =C2=A71963]+[USC 18, =C2=A7241]+[USC 18, =C2=A74]+the despera=
+tion of [USC 18, =C2=A73] =3D priceless<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+au8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+PWFQc/WFihoyIKwEunaalQ=3D=3D<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+COy_PLUS_fGGrxcNqhj5mZodapA=3D=3D<br>=0D
+*****    GOOD LUCK EXPLAINING THAT TO HIDE 1 BILLION IN LOSSES TO AVOID P=
+ROSECUTION IN A VIOLATION OF PRIVACY CASE<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+LMUE9g_PLUS_k6vCmKgfCSJEzuQ=3D=3D<br>=0D
+*****    ABUSE OF THE NY SUPREME COURT, CIVIL PART IN 2020 <br>=0D
+*****    DURING THE COVID-19 PANDEMIC - SEE ALSO LOSSES SUFFERED IN ONE U=
+PON DISCOVERY OF THE MATERIAL FACTS<br>=0D
+*****    TICKERS: STFGX, SFITX, SFBDX, STFBX<br>=0D
+*****    - WITHOUT THE ABILITY TO ENVOKE A TRADE RESTRICTION OR EFFECTIVE=
+LY, AN "ESTOPPEL"<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+cve65PXNBCtdxjJFkfwUnw=3D=3D<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+au8qh7Dn66hrVmJ9DX_PLUS_bdg=3D=3D<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+LMUE9g_PLUS_k6vCmKgfCSJEzuQ=3D=3D<br>=0D
+*****    UNLAWFUL ASSETS IN CUSTODY AT JP MORGAN CHASE BANK, NA<br>=0D
+*****    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D=
+R9aac7D6DBJZ1wsiq0b38A=3D=3D<br>=0D
+     	&nbsp;&nbsp;&nbsp;*****     *****     *****     *****     *****    =
+ *****     *****     *****     *****     *****     *****     *****     **=
+***     *****     *****     *****     *****     *****     *****     *****=
+     *****     *****     *****     *****     *****     *****=0D
+=0D
+(1)    STATE FARM ASSURANCES FUNDS TRUST.<br>=0D
+(2)    STATE FARM LIFE INSURANCE COMPANY<br>=0D
+*****     ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710<br>=0D
+=0D
+(3)    DONALD ZUCKER <br>=0D
+(4)    SULLIVAN PROPERTIES LP<br>=0D
+*****     101 WEST 55TH STREET, NEW YORK, NY, 10019<br>=0D
+=0D
+(5)    DAVID MOORE<br>=0D
+(6)    [MONK, JOSEPH RILEY JR (CRD#:1357149)](https://brokercheck.finra.o=
+rg/individual/summary/1357149)<br>=0D
+(7)    PAUL J SMITH<br>=0D
+(8)    TERRENCE LUDWIG<br>=0D
+*****     ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710<br>=0D
+=0D
+(9)    SULLIVAN PROPERTIES LP<br>=0D
+*****     101 WEST 55TH STREET, NEW YORK, NY, 10019<br>=0D
+=0D
+(10)    SULLIVAN GP LLC<br>=0D
+*****     101 WEST 55TH STREET, NEW YORK, NY, 10019<br>=0D
+=0D
+(11)    MANHATTAN SKYLINE MANAGEMENT CORP.<br>=0D
+          of counsel in NYSCF matter 153974/2020 [ annexed ] obo of "Plai=
+ntiffs"<br>=0D
+(12)    [SHARI LASKOWITZ](https://iapps.courts.state.ny.us/nyscef/ViewDoc=
+ument?docIndex=3Dcve65PXNBCtdxjJFkfwUnw=3D=3D) <br>=0D
+=0D
+<br><br>=0D
+=0D
+(13)    ASHLEY HUMPHRIES<br>=0D
+(14)    CORY WEISS<br>=0D
+*****     150 EAST 42ND STREET, NEW YORK, NY, 10017<br>=0D
+    =0D
+(15)    PAUL REGAN<br>=0D
+*****     101 WEST 55TH STREET, NEW YORK, NY, 10019<br>=0D
+=0D
+ (16)    [STATE FARM VP MANAGEMENT CORP](https://brokercheck.finra.org/fi=
+rm/summary/43036)<br>=0D
+*****     ONE STATE FARM PLAZA, BLOOMINGTON, IL, 61710<br>=0D
+=0D
+ (17)    [RICKI ROER](https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-=
+ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8996267/3.RICKI.E.ROA=
+R.pdf)<br>=0D
+ (18)    [AMY HANRAHAN 0009813982](https://github.com/WILSON-ELSER-STATEF=
+ARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8996269/=
+1.ELSER.-.0009813982.-.Annual.Report.1.pdf)<br> =0D
+ (19)    [ALAN RUBIN 0006974529](https://github.com/WILSON-ELSER-STATEFAR=
+M-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8996268/1.=
+ELSER.-.0006974529.-.Annual.Report-1.pdf)<br> =0D
+*****     150 EAST 42ND STREET, NEW YORK, NY, 10017<br>=0D
+    <br>=0D
+     *****     *****     *****     *****     *****     *****     *****   =
+  *****     *****     *****     *****     *****     *****<br><br><br>=0D
+=0D
+=0D

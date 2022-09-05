@@ -1,0 +1,113 @@
+From - Sat Jun 25 22:26:20 2022
+X-Account-Key: account1
+X-UIDL: ALicXnw2mHTbYrfRfAafUCVjKP8
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.33.11
+ by atlas321.free.mail.bf1.yahoo.com with HTTPS; Sun, 26 Jun 2022 03:24:44 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.200]
+Received-SPF: pass (domain of github.com designates 192.30.252.200 as permitted sender)
+Authentication-Results: atlas321.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 03:24:44 +0000
+X-YMailAVSC: _hdu4CI3bBt7x3RcVrou_l3cSb2IR5AURskWirQTzZFeCP2
+ 12gPYMLTWPpdm7SeoZZQeObiTxBUQ8hjuTtZ0DFbDOCUwTinSAtA1ZC0M_yp
+ hQWLQUDwLZkQmFfjrw_ejQ6Cyt8Omhhptwzyi1_suvjonYusR.GS1OncoIqE
+ hhha0DvS9wC4s1AYIpEXv8jpWcmbQhNyiZwyXGZMa2z81chEiLzQF4tA2Fhd
+ 1drOoIJiUYx6WiE97GHnpvU7wDNsHvJ7HKTl0WgS68nlinoPmtMMsYdpDwNx
+ TOhso0J9biSvRJTo2isPHj5_gsPWhFtiNulAYu_e4rB4K21TOgzVgjJRFHDA
+ M
+X-YMailISG: nFC_Kh4WLDtkqXxTy6ge5b3exRmibxCXuc1Fqdtrx3aILLxT
+ wQieWFKyNdztB7.rOQ4MZlJCvLj0oBxLE0Rx..DtYTYbkP208OQaXnfxj4rP
+ vZd3clR2llnQJDVIVWHtAN00ssIrM1eo9LVZohHSLfRkTJGkLJOVN4UKqyFN
+ m4q2fJ.DPt37TDJgB01sZ7r0FtMbkeFG2LEg8.lNfSsg1iBAMWjiUNwjJYmZ
+ M2_hilD.ZhsP9wVcgyH56I0KIhXe6mI9HyISXZM1Ly9PsBZeH9eblJY15bEd
+ DPKr5TQanSe8EIhVQ3_7QLTVnZJd9nvpUJQ8olvQB1XZY.h9sRLJjcFn.m4w
+ HStRPyaRbwZJgEj2.CmpvkuxkvWj9DE8wXpt2onI02eyX1.nPACN76cdN.pr
+ HwJZvIbd.L3lSHvwSm1_EICEhapR8xERe6wxlMI2GUsXC06fPOMe3Y1tnjgg
+ sdeKpX_tKBfrR_2dkXt6PlH7SNiQ331cZTGJPY2zKfG.M3DZwkooGH3EEWrP
+ v8RxMV3hkH7Vkth7sjg156jAd62FjxD1PXJrmpx9Hi6GYco50eL7rTMkQzEu
+ nQS9PF0H3lEUMJYLIv3J0KOqBrlSdiMQYOsV7AmuZSqgqtr7uqs5KR5nx5QK
+ AtzdjknV0MN6Ab.R80XcI.SqwAzgFE0cpBW5GDl72ISo3YkLpkXdDqo4dW9U
+ q0MSUSSoLdxT47aVoDvYBlbj2X_oNYxtaSfbVFop7ieOxDMBZ6_0QLvbE6v3
+ PrJRy0tDNTdHmsFKZEhv78KTP8OdEPPDaKUOgjzAgl2jeVHdSDR1qx2GvAFV
+ QX00ywcb9X1biwc0nj1YLhEKqFJsoUZAynzHCkFgrFiLmEi6U012K7DxzaLJ
+ Ba.OB8.fl7uT1M2qNCRRI342Z1zOE.Tnd98J0TWbiRWdUFal3zFv1LLHAqJa
+ NGOglvPt4SYuWp3TwTtDMeiGawB_nLrKZn8er4FZG_se9QHmHXNMiD5oi5yh
+ MfFTow3qYyOhv4ShuyVvv1mcRmEKYnmbCNkSQoQ4KkPG6xvztHMpqqNz5ZCQ
+ D22R4AmgRwhLWTWX6pAVG_cq8BFp09.cJpMb8QxosfuHxDay11iB6a1PzP7t
+ u_N6fKnndPfr6.lbZ1migYkHpDfwtTv_UEFUnRfJUX3QQcpRSA7e
+Received: from 192.30.252.200 (EHLO smtp.github.com)
+ by 10.197.33.11 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 03:24:44 +0000
+Received: from github.com (hubbernetes-node-ac41b29.va3-iad.github.net [10.48.207.104])
+	by smtp.github.com (Postfix) with ESMTPA id 017725C0227;
+	Sat, 25 Jun 2022 20:24:44 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656213884;
+	bh=5BNruuEORJVJebMvg34vznu8fYv24M83LXYpqEzRTr0=;
+	h=Date:From:To:Subject:From;
+	b=KPft4H3jJB0kqWtstDc66JEBptqU77Srrjub8sBWRGGzrwYOX3QMlUDmdhIeTGy7E
+	 avq1g4TdUG6Ol0pbhUGdnKCQlo0MecOslVGhuT5/SWirUv5zk4UBrjV9uxlJegOxKa
+	 +A/GSPzHuO+b2ySmJNYxKG6v555LwhR9Pa6867ps=
+Date: Sat, 25 Jun 2022 20:24:43 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPMEDIARELATIONS@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/798646-6b7ca0@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 6b7ca0: TITLE 18 - CRIMES AND CRIMINAL PROCEDURE [LOAN 50074]
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPMEDIARELATIONS@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 2089
+
+  Branch: refs/heads/main
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER
+  Commit: 6b7ca0660ca0c68627e759235c77c6189561b5c4
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/6b7ca0660ca0c68627e759235c77c6189561=
+b5c4
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>
+  Date:   2022-06-25 (Sat, 25 Jun 2022)
+
+  Changed paths:
+    M README.md
+
+  Log Message:
+  -----------
+  TITLE 18 - CRIMES AND CRIMINAL PROCEDURE [LOAN 50074]
+
+249 AFFIDAVIT OR AFFIRMATION IN REPLY TO ORDER TO SHOW CAUSE, Motion #001=
+ 250 EXHIBIT(S) 1, Motion #001 251 EXHIBIT(S) 2, Motion #001 252 EXHIBIT(=
+S) 3, Motion #001 253 EXHIBIT(S) 4, Motion #001 254 EXHIBIT(S) 5, Motion =
+#001 255 EXHIBIT(S) 6, Motion #001 256 EXHIBIT(S) 7, Motion #001 257 EXHI=
+BIT(S) 8, Motion #001 258 EXHIBIT(S) 9, Motion #001 260 EXHIBIT(S) 1, Mot=
+ion #001 261 EXHIBIT(S) 2, Motion #001 262 EXHIBIT(S) 3, Motion #001 263 =
+EXHIBIT(S) 4, Motion #001 264 EXHIBIT(S) 5, Motion #001 265 EXHIBIT(S) 6,=
+ Motion #001 266 EXHIBIT(S) 7, Motion #001 267 EXHIBIT(S) 8, Motion #001 =
+268 EXHIBIT(S) 9, Motion #001 269 EXHIBIT(S) 10, Motion #001 270 EXHIBIT(=
+S) 11, Motion #001 271 EXHIBIT(S) 12, Motion #001 272 EXHIBIT(S) 13, Moti=
+on #001 273 EXHIBIT(S) 14, Motion #001 274 EXHIBIT(S) 15, Motion #001 275=
+ EXHIBIT(S) 16, Motion #001 276 EXHIBIT(S) 17, Motion #001 277 EXHIBIT(S)=
+ 18, Motion #001 278 EXHIBIT(S) 19, Motion #001 279 EXHIBIT(S) 20, Motion=
+ #001 280 EXHIBIT(S) 21, Motion #001 281 EXHIBIT(S) 22, Motion #001 282 E=
+XHIBIT(S) 23, Motion #001 283 EXHIBIT(S) 24, Motion #001 284 EXHIBIT(S) 2=
+5, Motion #001 285 EXHIBIT(S) 26, Motion #001 286 EXHIBIT(S) 27, Motion #=
+001 287 EXHIBIT(S) 28, Motion #001 288 EXHIBIT(S) 29, Motion #001 289 EXH=
+IBIT(S) 30, Motion #001 290 EXHIBIT(S) 31, Motion #001 291 EXHIBIT(S) 32,=
+ Motion #001 292 EXHIBIT(S) 33, Motion #001 293 EXHIBIT(S) 34, Motion #00=
+1 294 EXHIBIT(S) 35, Motion #001
+
+

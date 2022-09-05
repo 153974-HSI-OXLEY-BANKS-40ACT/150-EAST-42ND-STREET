@@ -1,0 +1,94 @@
+From - Sun Jun 26 04:09:53 2022
+X-Account-Key: account1
+X-UIDL: APAB7/M57DsFYrgiBQY12KCDEE0
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.33.76
+ by atlas110.free.mail.bf1.yahoo.com with HTTPS; Sun, 26 Jun 2022 09:09:26 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.209]
+Received-SPF: pass (domain of github.com designates 192.30.252.209 as permitted sender)
+Authentication-Results: atlas110.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 09:09:26 +0000
+X-YMailAVSC: N9OPaaw3bBvr_Gh_WRxf9jyn_319_gFaJkZq.eClWPQE_Qj
+ WUHQGHX_f1kaRzldJDnQNM_f11HXJro3T9Km6tMCbz9Di7vIX4weUwkM8m9D
+ J3NtT07VH5DiHoeRf5QLFKhcFJk42oqV6szpTrCgWrrJGbwRXR9Qs1axyUuw
+ Pc5hdBewZmv_KgnSgcj9RQwYhtABUQzzIkZsLjjBxvmVj_ckUnGAga3njyYT
+ r0oPbq1T5Fh5hTiF3JuJuqV7rbrt5HBjKjlHpo_oaM.o7OyllAtZ69KWiw0r
+ 1uND2CJJhKg7aEB1k6ReEf.orUc1TIstrQpIXojoltGdQu8X0Tl6anv0KmoN
+ N
+X-YMailISG: vl82jJkWLDtroAgRHSKbZ7XZsK4.N.C9X1GYiw.UGEJwqzFW
+ TbH58CR0TqfqN9LfG4zdQIor7.NrOVR8PoFk5P5uuYvz5Gij7D6bpfjyA49J
+ 8LeMRosItt4ygZzsNB2Ik0zStuDeDOboMufoVHU5VpXbX5A7idsWto14x1EV
+ kGtDp6Au_3v9u63CDranLoLDO_suR3e3Vx38zVNhb5LTHBGw_QgEOHIzFGwq
+ H2jB_3z9cGFsNPXDh_Oj21Mfd5cPV44kiO_Hl7nxa3fNWVhBJTpFzjsfnMAK
+ cXk45K_FlCOZ_8cyqAxZ39P.PVoj.EkBs.PSRbzuBhS9i5iwgmS2fEsFn33C
+ Gw4h5.afUt2eiy2XrHv1VgF4Z3CgdzUbb7YMgFC1vDrDBNSViUawEqfW1wx7
+ xEIjNa_eQVoPdoASg5AV2HfhmRSEhHhfbLIQS_whA7W4BqwFLMzv75uLu7k4
+ l7HxU6vn7GwO_glfxqn6lyAaA7_Py8cIyxjao.Ja7WaKoUxpZnIHcZ8mAO0K
+ 1lE38K5A1izxA.PKIpUNQpnnUiCxBVjfqmd.1Qp4y3Mssao4cFsUQN2y862O
+ Lv8oS2n56mInnbVE88AF.zAbF97sXgQc.heYfovYEtNTfzFXHp9izGOKiUVz
+ kinhMu6tYPvf2cI4_5WmAiv52VMSe9_MeOSKdk5qaXbKZavZzDo95vmRE2YT
+ ZZ9F6ZNRBMcGMd2SKrrhNemtmk9m38FO66T9P9WatYkI1_6YZP0rMDAIsZkc
+ J3Ev_21C99svUm4c3k3xaM15X2FVOMNeinBxZsIL.GSsscOVpJyeVJyeIPe2
+ vzPnL4iriQGwYvX3Xjrw26CTw3287e9HoKE5hkqAphK8LOhvgOg6t3nINH5h
+ x9VbWPhi5T1Zhj7eFQT3t0iK0EZL5nem6I9GelOp41JIINvLHavkJOH1NEdd
+ W9bjCNvoOOlQjayU_hcl5A6GY1BnEYcq.p_AZ6Lb6vaa0g.1NutkUkeR5CLq
+ LeczSj_PitPZLl4T8E7ouODsNXTibo.sIeS6o3rFMDWcTokGPx0QhYVPFxnA
+ wYdhv_TI2SwSHw5md49xrsHtANdmPmuZeJBLM6UpltZbfN1xv4JnWpeBc1iu
+ SWttL3gKIaw8cqlVNWISjWdiOoRoI_OjM3W_VbynaXZ5ZK7wSSYvcVcZRtxh
+ H.4BZrq2lZcZd5rgidoCsLxhE2ANatZMFcKOR8HQcRbkkDA-
+Received: from 192.30.252.209 (EHLO smtp.github.com)
+ by 10.197.33.76 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 09:09:26 +0000
+Received: from github.com (hubbernetes-node-aeabf36.ash1-iad.github.net [10.56.207.92])
+	by smtp.github.com (Postfix) with ESMTPA id 484505E0545;
+	Sun, 26 Jun 2022 02:09:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656234566;
+	bh=hlkR8ytvZ0j4SFkSsL3I6ePRE/2EH7vcDjsbhBT3CN4=;
+	h=Date:From:To:Subject:From;
+	b=tgISgcCqhAEryzRGhuAa3HnXQLa0CMdMR01rPdY74ETWv4Nx76lxKa0qEB5hQycyl
+	 JGcwF4roKV+c4rApmJPLF++Lh2Y7Mxypg6+9LoFNlcMWY7TKYeiIwUK/vFZbvvmFSA
+	 wnfN/uqOeocxCKrCwzk8XTS7Apw0b1ONHx6mZ84w=
+Date: Sun, 26 Jun 2022 02:09:26 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/daa39c-3907e2@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 3907e2:  *** SOMEONE ALSO HAD A PROBLEM WITH THE EMAIL ADD...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 1059
+
+  Branch: refs/heads/main
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER
+  Commit: 3907e2e9765605f0d2d8810449166d5a7c2a84e4
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/commit/3907e2e9765605f0d2d8810449166d5a7c2a84e4
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>
+  Date:   2022-06-26 (Sun, 26 Jun 2022)
+
+  Changed paths:
+    M README.md
+
+  Log Message:
+  -----------
+   *** SOMEONE ALSO HAD A PROBLEM WITH THE EMAIL ADDRESS -- I ASSUME --- AND HAD IT DEACTIVATED.  [ASHLEY.HUMPHRIES@WILSONELSER.COM](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8608609/24.JAN.2022.-.ASHLEY.HUMPHRIES.YUZERS.pdf)
+
+
+*** SOMEONE ALSO HAD A PROBLEM WITH THE EMAIL ADDRESS -- I ASSUME --- AND HAD IT DEACTIVATED.
+
+[ASHLEY.HUMPHRIES@WILSONELSER.COM](https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/files/8608609/24.JAN.2022.-.ASHLEY.HUMPHRIES.YUZERS.pdf)
+
+
