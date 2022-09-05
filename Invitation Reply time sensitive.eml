@@ -1,6 +1,6 @@
-From - Wed May 18 04:13:58 2022
+From - Wed May 18 04:13:56 2022
 X-Account-Key: account8
-X-UIDL: 1645857828.825
+X-UIDL: 1645857828.822
 X-Mozilla-Status: 0001
 X-Mozilla-Status2: 00000000
 X-Mozilla-Keys:                                                                                 
@@ -9,8 +9,8 @@ X-ME-Cal-Outcome: error
 Return-Path: <ms60710444266@yahoo.com>
 Received: from compute4.internal (compute4.nyi.internal [10.202.2.44])
 	 by sloti52n19 (Cyrus 3.7.0-alpha0-591-gfe6c3a2700-fm-20220427.001-gfe6c3a27) with LMTPA;
-	 Wed, 18 May 2022 05:09:23 -0400
-X-Cyrus-Session-Id: sloti52n19-1652864963-2325303-2-9574848116095536252
+	 Wed, 18 May 2022 05:06:01 -0400
+X-Cyrus-Session-Id: sloti52n19-1652864761-2325303-2-12310511525728441794
 X-Sieve: CMU Sieve 3.0
 X-Spam-known-sender: yes ("Address ms60710444266@yahoo.com in From header is in addressbook");
  in-addressbook; bba2db8d-33a3-40c2-87e0-df67be267777 ("Autosaved")
@@ -23,49 +23,49 @@ X-Resolved-to: cockarens@vouchersrus.org
 X-Delivered-to: COCKARENS@VOUCHERSRUS.ORG
 X-Mail-from: ms60710444266@yahoo.com
 Received: from mx6 ([10.202.2.205])
-  by compute4.internal (LMTPProxy); Wed, 18 May 2022 05:09:23 -0400
+  by compute4.internal (LMTPProxy); Wed, 18 May 2022 05:06:01 -0400
 Received: from mx6.messagingengine.com (localhost [127.0.0.1])
-	by mailmx.nyi.internal (Postfix) with ESMTP id 00ED85C00F0
-	for <COCKARENS@VOUCHERSRUS.ORG>; Wed, 18 May 2022 05:09:23 -0400 (EDT)
+	by mailmx.nyi.internal (Postfix) with ESMTP id 680C05C01E2
+	for <COCKARENS@VOUCHERSRUS.ORG>; Wed, 18 May 2022 05:06:01 -0400 (EDT)
 Received: from mx6.messagingengine.com (localhost [127.0.0.1])
     by mx6.messagingengine.com (Authentication Milter) with ESMTP
-    id E4C07F04690;
-    Wed, 18 May 2022 05:09:23 -0400
+    id 9F1C3A5F6C1;
+    Wed, 18 May 2022 05:06:01 -0400
 ARC-Seal: i=1; a=rsa-sha256; cv=none; d=messagingengine.com; s=fm1; t=
-    1652864962; b=TX64OTpghFrROgoPl1XYd0Z8RxqbPvKlHyO+JKJUbNjWBGPLwg
-    t1l5u+y774NV8VX/5rhO/T+G85qITYhV1zT1tmahgeL+0GdvpualGICgcOi6ecDh
-    4n9CDIz430JSO6j6NtfTFmtY/GwP466WJHSjohJ44yfjKXvEBO1xV+Zh2MPIKNJY
-    5E9RPsOI2nAIYwyAiVxA8umYlkW0v/D66px7WCsjElqA1bcxsmCMvfpIKtMwE+iC
-    un5vwuM8vgcHYLF1/JkN97oaLgyWWeFNPtQV5Jk1zbQfCjPGnv33JSUcV0x1RqIu
-    aLnnpzKkUwQhNCZCi++t7BWSWAYs3sMTPaMQ==
+    1652864761; b=Vn0Q2oPF6fIqW/exdE7ebAtZ2QSrpnQf3/RyfPua/Yb/eRKizU
+    WDF7tynaoM5AUUpOX4qhAf89MttaXh+ct7eYenh1XJ8+K1cE3km18CoaMEf+D782
+    kp4Sn3Zp6zTna3LCZniJH2l3ONl+SNsFWtZhD93RvK7O5nj46xgwW6UA/msvu1oX
+    Qlfac+XMh5MIEEiY1wpZE0R7KlX9eUvpgofirM4AiiSlSHrPLK5FORcU3ktaELLo
+    qM64HyHvhrkq3BraiApQgOkj40sprgWn1HycSoj6kfDPy4BeDRsUtWrB6RNNZutx
+    vWdiHjt8MMI5WrRpzBjjLlh9C4G7Y14+C3og==
 ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=
     messagingengine.com; h=mime-version:from:message-id:to:date
-    :subject:content-type:references; s=fm1; t=1652864962; bh=1OolMU
-    WYIseiI8/LJ8JGQOCqGOTAyvwCGhi14XJDEUQ=; b=dYlTbyBJEcIItObSulFb5M
-    v1nuRGIgaCNnDzawhGQY6eims0y9LCZUbrkrGnOk7PFkRlP2V+k2yc4edLQI9YlF
-    lllfvBeV9NSaIY5/n5q79x/rwHtfYwq6MeJbTr6FuNOaLSXOlJz07aaDHGPi0t9c
-    srHRy2alqbTbrSqXXIxqgOsEnDbAqp34vQ+aIJFjPvEsaoF/S5Oz/+exU1ggmrrJ
-    q0oPstNc0QkgPU+V7u5zwnxun0/dJXhHH6rIsxzZ1ZIXRNlx92OQh/VC3Xwyxuy6
-    BA32UZPsgO8PcBMrnGNz7yDAdALeLAzE7ElBHFEPmb5/fbQYi5wNcInacIArBiiA
+    :subject:content-type:references; s=fm1; t=1652864761; bh=SuWD3W
+    oSebDioLV0OVHptsvlS6gPRQNjxSzw7zB61IA=; b=SLgkbqWw0ksnEBIa2yon5B
+    ojPpLFRqAR742YeySL3wnRw9n/OGq5kvOo1tZKU0kMxwLN7sR98TXPALq5VT8bD1
+    ++wRJgQhdJ3pS9km+n3HtHSBZf5fEw2OqGERRIJpMKpL4dx6qbhxOD/p4dDa0IAE
+    OKAk2WNZBb58VtmIISei9InPVluhXgU4pYA66wRCBVfUUXw/pl+1lqTWYXwebk17
+    OvZgCZTm9/l3Vwf0h8/C8fSoYCGidcWkD9528hkXVQCvsO/Dw3qAw58OG0ioZP13
+    G9vMmyuh5OctR0L1sa3IhhEMidXZBJl1kofs3pkewWwnOJHwCZfhXrXpaGPodS2g
     ==
 ARC-Authentication-Results: i=1; mx6.messagingengine.com;
     x-csa=none;
     x-me-sender=none;
-    x-ptr=pass smtp.helo=sonic310-13.consmr.mail.bf2.yahoo.com
-    policy.ptr=sonic310-13.consmr.mail.bf2.yahoo.com;
+    x-ptr=pass smtp.helo=sonic304-56.consmr.mail.bf2.yahoo.com
+    policy.ptr=sonic304-56.consmr.mail.bf2.yahoo.com;
     bimi=none (No BIMI records found);
     arc=none (no signatures found);
     dkim=pass (2048-bit rsa key sha256) header.d=yahoo.com
-    header.i=@yahoo.com header.b=DlF7G1kc header.a=rsa-sha256
+    header.i=@yahoo.com header.b=G8g61a1v header.a=rsa-sha256
     header.s=s2048 x-bits=2048;
     dmarc=pass policy.published-domain-policy=reject
     policy.applied-disposition=none policy.evaluated-disposition=none
     (p=reject,d=none,d.eval=none) policy.policy-from=p
     header.from=yahoo.com;
-    iprev=pass smtp.remote-ip=74.6.135.123
-    (sonic310-13.consmr.mail.bf2.yahoo.com);
+    iprev=pass smtp.remote-ip=74.6.128.31
+    (sonic304-56.consmr.mail.bf2.yahoo.com);
     spf=pass smtp.mailfrom=ms60710444266@yahoo.com
-    smtp.helo=sonic310-13.consmr.mail.bf2.yahoo.com
+    smtp.helo=sonic304-56.consmr.mail.bf2.yahoo.com
 X-ME-Authentication-Results: mx6.messagingengine.com;
     x-aligned-from=pass (Address match);
     x-return-mx=pass header.domain=yahoo.com policy.is_org=yes
@@ -78,94 +78,95 @@ X-ME-Authentication-Results: mx6.messagingengine.com;
 Authentication-Results: mx6.messagingengine.com;
     x-csa=none;
     x-me-sender=none;
-    x-ptr=pass smtp.helo=sonic310-13.consmr.mail.bf2.yahoo.com
-      policy.ptr=sonic310-13.consmr.mail.bf2.yahoo.com
+    x-ptr=pass smtp.helo=sonic304-56.consmr.mail.bf2.yahoo.com
+      policy.ptr=sonic304-56.consmr.mail.bf2.yahoo.com
 Authentication-Results: mx6.messagingengine.com;
     bimi=none (No BIMI records found)
 Authentication-Results: mx6.messagingengine.com;
     arc=none (no signatures found)
 Authentication-Results: mx6.messagingengine.com;
     dkim=pass (2048-bit rsa key sha256) header.d=yahoo.com
-      header.i=@yahoo.com header.b=DlF7G1kc header.a=rsa-sha256
+      header.i=@yahoo.com header.b=G8g61a1v header.a=rsa-sha256
       header.s=s2048 x-bits=2048;
     dmarc=pass policy.published-domain-policy=reject
       policy.applied-disposition=none policy.evaluated-disposition=none
       (p=reject,d=none,d.eval=none) policy.policy-from=p
       header.from=yahoo.com;
-    iprev=pass smtp.remote-ip=74.6.135.123
-      (sonic310-13.consmr.mail.bf2.yahoo.com);
+    iprev=pass smtp.remote-ip=74.6.128.31
+      (sonic304-56.consmr.mail.bf2.yahoo.com);
     spf=pass smtp.mailfrom=ms60710444266@yahoo.com
-      smtp.helo=sonic310-13.consmr.mail.bf2.yahoo.com
-X-ME-VSCause: gggruggvucftvghtrhhoucdtuddrgedvfedrheelgddutdcutefuodetggdotefrodftvf
+      smtp.helo=sonic304-56.consmr.mail.bf2.yahoo.com
+X-ME-VSCause: gggruggvucftvghtrhhoucdtuddrgedvfedrheelgddtlecutefuodetggdotefrodftvf
     curfhrohhfihhlvgemucfhrghsthforghilhdpggftfghnshhusghstghrihgsvgdpuffr
     tefokffrpgfnqfghnecuuegrihhlohhuthemuceftddtnecuogetfedtuddqtdduucdlud
     ehmdenucfjughrpegghffkvfffufgtfhfosehmtderlhertdejnecuhfhrohhmpeeuucff
     vddtvddvuceomhhsiedtjedutdeggeegvdeiieeshigrhhhoohdrtghomheqnecuggftrf
     grthhtvghrnhephfetleeijeegjeeuveefhfetudfhudfgueeggffgveettdegueelvefh
-    hedutdelnecukfhppeejgedriedrudefhedruddvfeenucevlhhushhtvghrufhiiigvpe
-    dtnecurfgrrhgrmhepihhnvghtpeejgedriedrudefhedruddvfedphhgvlhhopehsohhn
-    ihgtfedutddqudefrdgtohhnshhmrhdrmhgrihhlrdgsfhdvrdihrghhohhordgtohhmpd
-    hmrghilhhfrhhomhepoehmsheitdejuddtgeeggedvieeiseihrghhohhordgtohhmqe
+    hedutdelnecukfhppeejgedriedruddvkedrfedunecuvehluhhsthgvrhfuihiivgeptd
+    enucfrrghrrghmpehinhgvthepjeegrdeirdduvdekrdefuddphhgvlhhopehsohhnihgt
+    fedtgedqheeirdgtohhnshhmrhdrmhgrihhlrdgsfhdvrdihrghhohhordgtohhmpdhmrg
+    hilhhfrhhomhepoehmsheitdejuddtgeeggedvieeiseihrghhohhordgtohhmqe
 X-ME-VSScore: 15
 X-ME-VSCategory: clean
 X-ME-CSA: none
 Received-SPF: pass
-    (yahoo.com ... _spf.mail.yahoo.com: 74.6.135.123 is authorized to use 'ms60710444266@yahoo.com' in 'mfrom' identity (mechanism 'ptr:yahoo.com' matched))
+    (yahoo.com ... _spf.mail.yahoo.com: 74.6.128.31 is authorized to use 'ms60710444266@yahoo.com' in 'mfrom' identity (mechanism 'ptr:yahoo.com' matched))
     receiver=mx6.messagingengine.com;
     identity=mailfrom;
     envelope-from="ms60710444266@yahoo.com";
-    helo=sonic310-13.consmr.mail.bf2.yahoo.com;
-    client-ip=74.6.135.123
-Received: from sonic310-13.consmr.mail.bf2.yahoo.com (sonic310-13.consmr.mail.bf2.yahoo.com [74.6.135.123])
+    helo=sonic304-56.consmr.mail.bf2.yahoo.com;
+    client-ip=74.6.128.31
+Received: from sonic304-56.consmr.mail.bf2.yahoo.com (sonic304-56.consmr.mail.bf2.yahoo.com [74.6.128.31])
 	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
 	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256)
 	(No client certificate requested)
 	by mx6.messagingengine.com (Postfix) with ESMTPS
-	for <COCKARENS@VOUCHERSRUS.ORG>; Wed, 18 May 2022 05:09:22 -0400 (EDT)
-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1652864961; bh=1OolMUWYIseiI8/LJ8JGQOCqGOTAyvwCGhi14XJDEUQ=; h=From:To:Date:Subject:References:From:Subject:Reply-To; b=DlF7G1kcFECDhq9Xag1eN7zKoqD/sVoSbNqvOimHb9RGBkqohOpc2vT5LgRNAiqRbmRVUR84Xl/f5wcBKMI6hBHG9fy90zF+JWMWrY4vNmxjUW3BrGZF8T3fb3TUyIlQT3FIY8YHIkJU601YUNeoDqH6qKGstn3jGQGCgSH0HtiMg0h6e2kp8YUpZBXGatSbR1u3z0O1iyRSBCwWb5Bd5XQMSKzktR2+YsS2IoDPtx/3VH1NbF18DYp+4QWFwIFI9SQDCMGQswsyShhQD0lUw0XMo6OwBymGVRs+a6cSazHOCmzwjaXgODty2R5lfeC8+fx705ZNyTsC7lMOn8a9ng==
-X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1652864961; bh=i5Zk1cisueWWxbaOdw/ptHd3PN4ckxP2mkFKVEpg1EI=; h=X-Sonic-MF:From:To:Date:Subject:From:Subject; b=dae54Iu6Q4gpX55r6zGBFhhUNDz2lSubNQFd6ocPVjMYoyn5+0IFEkz+34XMWf6q65nzi+qgRvF40XFUVU3ASj+eclBmhHhVHW/9X1CXlNMVr/xrHWgRGB/ATLAjdJTx77FrgR2VEM+iVseExbCTSSvoyqLWeWsP08iN5M6z5iPSOlycY8VsqCCigk9G00YvJIp/euICC2sMbvb9zMXdwGmJerb1wX2FK05c5rODWX55W6B0NJyuJ0D/WzihYDzgty1JjQBlJuwsY+d5ilcSj0kzW4E/jfDGcwT3+GxC5kCqlaqKp/8JB0iBa0mLPg0zFb2JFUd4DRx0xYlc8NTEcg==
-X-YMail-OSG: wpkR_usVM1mtHI90c8jASYRhV2s8XzlQoTKbuVMV_.nwvSc5ElLdRVuLuASaJeb
- famZpj3Xjvf9wx2v.0m5uis7nGbApodT_.dDawbGGWN6x.0vfC8JyBJ13.Zv1yCgnIX1YHcP.1Up
- BaZin2DSCBKqGN.6vMsqLTHiMbKvrZ9vthHp2yw8izMSj0VlzS4OODsbh5E0CBpkwd86tD4ECzdj
- ERJvZIYjZ.KPeOWj8cZSEiQasW532ZnGkzm40k4XnM5PcDCjllk_1.YIVD.iruLjlYmJhB8hqg_k
- qOazTbbt3JTiOealx_13t9XuDkDK7eHjrCmQjjbQvE5A8wyi1CVM556UNLvSQGotpXr8c6Kdsvs9
- 5b934LVQcoW0w5yx0rQ.n9lzltEk6CkGrF9niw_ca.VZI7Va0SnyloH83AnUkKYBcEUkXkeAMkrZ
- FkYpuDUk75oC.nrGK2lp6RcQTcHRYXsbANM0yT6M2WLF2gRvefbW3.RzmznfdpxLbYTvH3jfF2HX
- gzvfNg.hsoij.aZW6GUlg_v2Yi8SNaC5Z4IuZikpwxYp8F_MKymXEqVz2eCOg2q8yucwwPMLdTB_
- jVAnfib1h_1ESFOi8gaq1EXRHjNQcM.mtO.j1crgFDUlkYk7Bcvwrvt2GSe_Hxnx52yv.DwCbWX1
- bjLxWsoCcAhFGcF3mQH22oIWoBVsr6kWiw6opn2_ZsIdo0cuVD2.QZt1TWvQfMoAyl8GEf_9Fvy2
- VpckN_Rxgmcn9D_JGwPjxxcpMnjeqIlgDATK67EQGUXeICezL_uZDQQhvjtkIEnxPABGKgbz.4XE
- M02ktebeoAIiiTvTJnSkgBIJxd_OA..70V6hK.Fme.jzhQqmRcQAUVqBDK5e.SFy63_XLo7b9NUF
- OpZzVy4iYkknbX.xU42k1D6ZHXA_4s57gh6s22DMGpYm8aDczyV21OLNAE2HEAOrAo6xLoQaLLup
- JNdt7aXrxq4n3aS1KaqsI.K2Uj7A3LqGCn4ezLEVew3zu0WeJpQdm25ftkdqfd0hto6JhKT4X1Gr
- mUH6F.9j1vX1oB66llcApEdeu8fgl42fuYPtZtRk9mISwwUvGhwQ7anE__xMvdfAm919M1cLNtwi
- FXM0kAbfNFeYBJTsJ5NpGV3P5_Qo8U401cBmUm84gvy1_Fkh8Xd7jf1mkUy2hUyTsOsp3cJKp89A
- 9jDI0nYro3qv4KQ2K037gNnEzDACav80v5qJqyLEtcOqf5ylyhzBJHlv138BWQIM3hcnErcZA14a
- UMuFcyjtronmUV.0zdy80HbPVEFjLBPp5ei4o1MO5VnfoRog7V4t2v6RZVR1UZycgtC7SFLk7tpj
- i7xmoaEXP3T9edH.mexLcSA7DyQhPUhN6jPVMAdOjojTJiu6ScoJoOjELOeb12Z3FyxuyDNgDEd.
- TWImNyzi.ZtusOEqg6iY0qRCY1aA6kk_miiticFEFvNruEsrz4emjFBPMwMAHg1VnDaqLJs8Y0Oz
- qZzVLpr.8tVnBvaNlNNzdBq9P5IE4zqwZS_FHegQrbEKbWwAArGarT4xscuXeR18pRgIynYBW0hE
- m0fyAfDOCl_90iFHHGh0i8ky_cygcsGcssu.PMAI.B1bmUx3jrb8m60lnPHeVek4uCFobqD4NC2d
- JTz_I.DRznakKCXPYOoYmkDH45ayoOFTSJf3hmMed3zDxAu_H2rmXoq18CSmtwz9V4qsOT0z564s
- V0dCghSYFOYhkk9KtuSTt_uxTR79t9kTbC4hfN0gko1HOwlMchBCtVTH8qc8sIOuFNhsCgB96e9d
- MMf49JTTzMiiCbU94kV9kD1ZKUJYcFfV6gPC2.I52xWa9HSjFa0RxBSHcrAIdeKzjpEittP9o4UN
- JNaZDY32WYsgUNPn8X.sepFI55RRfa9e5q_rgh6RBqX8rpBcUHUICV7ltUJkXj0bSxBVM9RgbPyw
- xweMRCoaHWxc5dBSsE_Pe.B5TookJIi5In.Grt0ytrDhsNqoUY8kOJ3grFjSk4jpGPC_I4e24h7T
- Mg7VfVbwrxVilWpRiOYz9wFDsRfsSMVx3nAxllHDz8VUSM1MmpP_jm2LnuqvQ17FG411YFuS.ViT
- 9w.OzMHhPyutvVw1cyM0AviOVfKQOYX5a6kFL9MBqpF.ByZhGoSytCdFP2ehsnocxxMRlPbd7NAH
- uuwmdQbHh224zxj.8uosasd2.tCL.LhpZNhjXcnCwjG1DwqB15Ehd3lqpRheCRnaXs1zX
+	for <COCKARENS@VOUCHERSRUS.ORG>; Wed, 18 May 2022 05:06:01 -0400 (EDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1652864759; bh=SuWD3WoSebDioLV0OVHptsvlS6gPRQNjxSzw7zB61IA=; h=From:To:Date:Subject:References:From:Subject:Reply-To; b=G8g61a1vR6j8BoSDGCdw2ehoqxjrJurWP/03+CO88Lzb0FitBZleu0xLg1F31Lo4waQKdxtXg7w9Tq5GN8rvJWewYjlKigHhQFlMRCUlrubqs6NdNq8sXxhEtXD5nXq7SwjdrXLjbAMROY3eKYbnmiCHKSMBDqL2fz0bVZunavwnggRVZBvsYbBatfLPapOPfqS+KAtiYGRwzyQsZ3J22WooUYHHBxr+xoaCrr0BsIMmp8sw+CZvvWllyMzSiBHqTXRA94ASSY4Bjb9FRwpd7SK00FF1lJK7EV2mAiEu+4GR/SWVOIQkgMtJz1Rv7GooTnbfHpI6uZsqM+Zl6y2wAw==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1652864760; bh=fFm+03LJWfjXBohtG1gU5Bu0qOei9HvJ1rke4CXDsX7=; h=X-Sonic-MF:From:To:Date:Subject:From:Subject; b=tuKVRdnrsIVJ57pW2XLuzqtwcgYOAwMFv9Bw1ZGxAMqy9MyzFvBoSvmS+DagVH09lAm3XK2+77wmYQh/muKhjl/nug3jzpm7JHbRX5SZ62dEPwb2KUA6G+7ww1DAaniXPj+cSbCZXhLqVvy38+3lkNb7DVmxD3eb1yCykgq/ene0cdAHSpCMcifNcjiZUyxi42gJIXES1YdEroUxGpKktTDFqqATJDRldxz80VeYgc3o7vBkyuSOJmn5fDSgeb/97EWjKT/fxBwiwPk5KttYFUwya5OIM1FncfSmcLLjfG+Oc0p95g8AuyFpf/zdahXrStIYwjMjq+VJfCSkeaRYcA==
+X-YMail-OSG: E0UyEdAVM1kBU2DMgmMJ7dATVc1fRnpNpMSGVK7ru8un9HAl2NNz8BXP0eFuyEJ
+ uO82AGp0iv6AnqGMdt82EhK4gK8T1dPWcAYK33XLzDSv.i8czWFVPM.wEpl8k04GVVQ.j0VF7c1c
+ jU0M0dCBGdZhHRr8pIoxNU6x3miJUbEaFxH6MtoS9qaW0PBACAAvBuOg5Q57L8ZD1QCwL6.GL3UO
+ 7CWaCLJPkeeuqfM_r.O2UZru98JILpa.h44FECY973OT6TqaB31b0Ytxv7XFShoYTVPAAE1eX_uB
+ LhSHkW6b8FNh10ZK2la3KpbHEtMnYY9G78B2NzLXadqsGNpjNAJcAdkIun_gsDLTSO0v1Yv0Wsx2
+ co4idQzeao063QxivvV8vAu.s5Rowp5EeO_cr6_tKMtSsWgjQ7rZWomKTN4DS.HmpCDOLpHj2wry
+ mXOp..hafWaWfqHWIf3LjAmChQSG_uInqhpVZ9rcINBHuXqTNFSCCv.V53RGsma9zUyBDAu4a9Ji
+ OP5iHGJlSL1UyaWk425eK7oygapQhlCJrep0Pjf9WBHHXkimze8JUzfD5d67nDSveS07XpvSzr.d
+ t9Wlqlz0Tzwvt2QQ1zSLefrJny8qwaDySEdnzcJ1iF4B.hj4EarKh.S7z1WvV6G_bLArmnFEbhj5
+ wQ174syXif__7ivpQ00Hxi.kycSTa8JoAOcdTuDS_HamRb7Frv2fCaSWTFIwhmBRVLQr.zS9o3Cx
+ uC1hBI44foCdvjD0HU26YbRHx.DtWZs1bWpahSnCw4Z2ByNGYZYIzwAoFd11sS_6HZQjnUYS8Q6_
+ UdGKzvX2_brh9GLxOkABkvkEihXOczyLYmEr1V1wt_kANYz0XG83maTVcN3rZGUcR.jbiKnLgsZe
+ FwXiArxWdKu9RRjRsABNjcfwFaz03hW_FBvj7.o1Y6CIDluRy._hcrXoyPp6Odd0xljSqWFSSBC7
+ DopnRPirVPWP3dpT9IlpmS2j57LZ3gPKnJijDWYHEyCLxg3Sz3wyaYxXrx1.hiUvt_PnujFyXDiO
+ ADtmpTOGPd_ZDUd4DocDfSiYfSdoZJr7CBro_TiwfzUS0kJgtwvkXnGzIjbpdCe.3Yud2Re5apH9
+ wgQUwxxI4xY02SGf_y10NEiF_asp9cLgImttDvgI84YoGZ0z.G0WloHCdG28_nixy7XKj1G4nJbP
+ R39OyxFjx7eTGAHjr8Vi3KxE9r.0id8xu744b8YtjZDm2pevBwZos420K_CjsZoxRiqDn8nlyjf0
+ Mg4E3vIaafGtD3MIHYN3c_zWoZBWlrvl6DtiXhYJqUHatvTdJIsz01PPZsErBfZBTSg3XrmWSVg7
+ MM8_IByLfytQHQWTNTxIOG9CwSYmafByu552cDrxGU0YLZZlW6nfG6Gq9IASMudvxmHfM7DZCjok
+ cEuZOjiyBi0jopK9etFqWqM_lWm7fEWbIHBL4urZmSLVGa8k9v24lPxWDfO5SBaNQ.FAk5aqtWyM
+ Q2ENssdlhnDvub1.ElxlCfI.bQY_W9XDeQQb5ymqqY1Kg45w_9RjmVTwMcDRaosV80F6twVC9ns8
+ Azh_Li724NxhI9N8JsTF.JHC6SFLdpz0fyZWKi0Q_bpSwUTE4H4mLP0EFti37HWnD2wgHy7ap0sJ
+ HKFpLCwom.lSRhuv4s5ZEd1C3CH3VHX8FlCJjfjvK4FwN_hd0VlsKXbYDZcqSU1g4EVzHH5TW1Th
+ NauTc0_TsXgnzEkUbkLT.a74hyIYUzveFpmWliQEEVBqVCe7Y1ffeG7qvps16r3gkcgFAG7EEDEW
+ _K6JNlc8kS5Cc_yV7mI35y6sPQm4.M.AcUNRkGqmu_tqKs65GGvpjNTLPArdQ1PTaeL_AFfTRPiq
+ iY1R0OFD4u7rPWP.F4THbXscVzcU3yi8IecMzMa_icz54tcmrzhbzhKcNcQ9cfqkE_9pPINf3Jay
+ M12txVTHvhfxHRpI69_TeyBE0uE6TL963elOEwmMsRfu2m4zKq5_cHFDjhvVZG9qki16fzNsPZS5
+ iQmeTm7Iu6qfrH_xUlTDDQ_c77wGVOLlhLrtBgZPsEydatbUCbGhMpCQXX4P06aL3EudNAH4FKjS
+ nia66vbluAGiesfgEzV5lIQKAlneSHX8jj1.7_dQHo29GuJGRzG5mfJoRoB7OMmHlcFS3xH1H.lD
+ 4z30k4OCXLE7FsOWE8pAYswHYW.VsGsAnWoX7Q21rfc7EDKohv0J3BsirCNT6rBCOY7SnRw9UoQT
+ k
 X-Sonic-MF: <ms60710444266@yahoo.com>
-Received: from sonic.gate.mail.ne1.yahoo.com by sonic310.consmr.mail.bf2.yahoo.com with HTTP; Wed, 18 May 2022 09:09:21 +0000
-Received: by hermes--canary-production-gq1-555f44848f-4dqql (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID 64b86758a8d1c4adfd959d8822b385e8;
-          Wed, 18 May 2022 09:09:07 +0000 (UTC)
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic304.consmr.mail.bf2.yahoo.com with HTTP; Wed, 18 May 2022 09:05:59 +0000
+Received: by hermes--canary-production-gq1-555f44848f-wk5jz (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID 6f8b6d632dcd8e164523bfc238e191be;
+          Wed, 18 May 2022 09:05:49 +0000 (UTC)
 MIME-version: 1.0
 From: B D2022 <ms60710444266@yahoo.com>
-Message-ID: <41afdff0-fa2c-ac39-dfca-635d01de46f3@yahoo.com>
+Message-ID: <8ef4d523-4f53-8ff0-d14d-d250fb7feeb0@yahoo.com>
 To: B D2022 <ms60710444266@yahoo.com>
-Date: Wed, 18 May 2022 04:08:58 -0500
+Date: Wed, 18 May 2022 04:05:39 -0500
 Subject: Invitation Reply: time sensitive
 Content-type: multipart/mixed; boundary="Boundary_(ID_qyG4ZdjoAsiZ+Jo19dCbWQ)"
-References: <41afdff0-fa2c-ac39-dfca-635d01de46f3.ref@yahoo.com>
+References: <8ef4d523-4f53-8ff0-d14d-d250fb7feeb0.ref@yahoo.com>
 X-Mailer: WebService/1.1.20188 mail.backend.jedi.jws.acl:role.jedi.acl.token.atz.jws.hermes.yahoo
 
 
@@ -200,8 +201,8 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 CREATED:20220516T112047Z
-LAST-MODIFIED:20220518T090858Z
-DTSTAMP:20220518T090858Z
+LAST-MODIFIED:20220518T090539Z
+DTSTAMP:20220518T090539Z
 UID:3204d968-75d5-4d2f-b9c8-3f21665498c5
 SUMMARY:time sensitive
 STATUS:CONFIRMED
@@ -257,13 +258,11 @@ ATTACH:https://user-images.githubusercontent.com/70865813/168733004-b6a8f4
  37-dd06-409a-83ba-0d404245514f.png
 ATTACH:https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=D9Td7
  IfWXyajw1tBNCFb9g==
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/upload/REQ
- UEST-TO-BAR
 RRULE:FREQ=DAILY
 CATEGORIES:Clients
-DTSTART;TZID=America/Atikokan:20220518T053500
-DTEND;TZID=America/Atikokan:20220518T063500
-CLASS:PUBLIC
+DTSTART;TZID=America/Atikokan:20220518T051000
+DTEND;TZID=America/Atikokan:20220518T061000
+CLASS:PRIVATE
 TRANSP:OPAQUE
 LOCATION:ONE LIBERTY PLAZA\, NEW YORK\, NY\, 10006
 DESCRIPTION;ALTREP="data:text/html,%3Cbody%3E%0A%3Cdiv%20align%3D%22left%2
@@ -2338,15 +2337,15 @@ DESCRIPTION;ALTREP="data:text/html,%3Cbody%3E%0A%3Cdiv%20align%3D%22left%2
  X EVASION DOCKETS.PDF\t80.8 KB\n2022-03-30 - UNDERPAYMENT PENATY WITHOUT I
  NTEREST.png\t63.4 KB\nMOV FILES DISTRIBUTED - LVL 7.html\t225 KB\n
 X-MICROSOFT-DISALLOW-COUNTER:TRUE
-SEQUENCE:5
+SEQUENCE:4
 END:VEVENT
 BEGIN:VEVENT
 CREATED:20220518T054020Z
-LAST-MODIFIED:20220518T090857Z
-DTSTAMP:20220518T090857Z
+LAST-MODIFIED:20220518T090539Z
+DTSTAMP:20220518T090539Z
 UID:3204d968-75d5-4d2f-b9c8-3f21665498c5
 SUMMARY:time sensitive
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 RECURRENCE-ID;VALUE=DATE;TZID=America/Atikokan:20220518
 ORGANIZER;CN=B D2022;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ms60710
  444266@yahoo.com
@@ -3062,13 +3061,10 @@ ATTACH:https://user-images.githubusercontent.com/70865813/168733004-b6a8f4
  37-dd06-409a-83ba-0d404245514f.png
 ATTACH:https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=D9Td7
  IfWXyajw1tBNCFb9g==
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
 CATEGORIES:Clients
-CATEGORIES:Clients
-CATEGORIES:Clients
-DTSTART;TZID=America/Atikokan:20220518T062000
-DTEND;TZID=America/Atikokan:20220518T072000
-CLASS:PUBLIC
+DTSTART;VALUE=DATE:20220518
+DTEND;VALUE=DATE:20220519
+CLASS:PRIVATE
 TRANSP:OPAQUE
 LOCATION:ONE LIBERTY PLAZA\, NEW YORK\, NY\, 10006
 DESCRIPTION:LOOK AT THESE PEEPING TOMS HARD AT WORK... EVEN TRY TO CUT DOW
@@ -3418,1104 +3414,7 @@ DESCRIPTION:LOOK AT THESE PEEPING TOMS HARD AT WORK... EVEN TRY TO CUT DOW
  SION DOCKETS.PDF\t80.8 KB\n2022-03-30 - UNDERPAYMENT PENATY WITHOUT INTERE
  ST.png\t63.4 KB\nMOV FILES DISTRIBUTED - LVL 7.html\t225 KB\n
 X-MICROSOFT-DISALLOW-COUNTER:TRUE
-SEQUENCE:5
-END:VEVENT
-BEGIN:VEVENT
-CREATED:20220518T090700Z
-LAST-MODIFIED:20220518T090857Z
-DTSTAMP:20220518T090857Z
-UID:3204d968-75d5-4d2f-b9c8-3f21665498c5
-SUMMARY:time sensitive
-STATUS:CONFIRMED
-RECURRENCE-ID;TZID=America/Atikokan:20220518T053500
-ORGANIZER;CN=B D2022;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ms60710
- 444266@yahoo.com
-ATTENDEE;CN=asbpolicy@fdic.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:asbpolicy@fdic.gov
-ATTENDEE;CN=assessments@fdic.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:assessments@fdic.gov
-ATTENDEE;CN=Assetmarketing@fdic.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICI
- PANT:mailto:assetmarketing@fdic.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:careers@fdic.go
- v
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:Depositorservic
- es@fdic.gov
-ATTENDEE;CN=efoia@fdic.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mail
- to:efoia@fdic.gov
-ATTENDEE;CN=MATT LOWE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ml
- owe@fdic.gov
-ATTENDEE;CN=OCMgmtGrp@fdic.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:OCMgmtGrp@fdic.gov
-ATTENDEE;CN=oighotline@fdicoig.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:oighotline@fdicoig.gov
-ATTENDEE;CN=publicinfo@fdic.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:publicinfo@fdic.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:realestateforsa
- le@fdic.gov
-ATTENDEE;CN=Regs@fdic.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailt
- o:Regs@fdic.gov
-ATTENDEE;CN=supervision@fdic.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:supervision@fdic.gov
-ATTENDEE;CN=ANGELA 00043govtIdx STUBBS;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PART
- ICIPANT:mailto:astubbs@feddirect.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:cfaimali@isda.o
- rg
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:isda@isda.org
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:isdaeurope@isda
- .org
-ATTENDEE;CN=Joel Clark Isda;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mai
- lto:jclark@isda.org
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ldobbs@isda.org
- 
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:nlu@isda.org
-ATTENDEE;CN=Nick Isda;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ns
- awyer@isda.org
-ATTENDEE;CN=ikawasaki@kpmg.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:ikawasaki@kpmg.com
-ATTENDEE;CN=info@kpmg.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailt
- o:info@kpmg.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:isabel.zisselsb
- erger@kpmg.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:jean-pascal.nep
- per@kpmg.lu
-ATTENDEE;CN=Jenny Roche;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:
- jennyroche@kpmg.com.au
-ATTENDEE;CN=juliojhernandez@kpmg.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:juliojhernandez@kpmg.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:kbolla@kpmg.ca
- 
-ATTENDEE;CN=pmaes@kpmg.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mail
- to:pmaes@kpmg.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:tim.knight@kpmg
- .co.uk
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ukfmseniorhi@KP
- MG.co.uk
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:wgirth@kpmg.at
- 
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:terrance.ludwig
- @statefarm.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:replacementprog
- ram@statefarm.com
-ATTENDEE;CN=rebecca.coyle@statefarm.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PAR
- TICIPANT:mailto:rebecca.coyle@statefarm.com
-ATTENDEE;CN=PHIL SUPPLE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:
- phil.supple.hid9@statefarm.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:PAUL.SMITH@STAT
- EFARM.COM
-ATTENDEE;CN=Nicole Bowyer;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailt
- o:nicole.bowyer@statefarm.com
-ATTENDEE;CN=State Farm;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:m
- utualfunds@statefarm.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:MIKE.CARTER.HUS
- L@STATEFARM.COM
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:JOSE.MONK@STATE
- FARM.COM
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:dick.luedke.h2h
- j@statefarm.com
-ATTENDEE;CN=David Moore;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:
- david.moore.ct95@statefarm.com
-ATTENDEE;CN=brian.hodgson.nyz6@statefarm.com;PARTSTAT=NEEDS-ACTION;ROLE=RE
- Q-PARTICIPANT:mailto:brian.hodgson.nyz6@statefarm.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:sjs5@ntrs.com
-ATTENDEE;CN=steve@bloomberg.net;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:steve@bloomberg.net
-ATTENDEE;CN=Brent Reeder;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto
- :bdr11@bloomberg.net
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:CBPMEDIARELATIO
- NS@cbp.dhs.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:LYLE.ADRIANO@KE
- YMEDIA.COM
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:media.relations
- @kcc.com
-ATTENDEE;CN=media@chi.frb.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:m
- ailto:media@chi.frb.org
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:mediainquiries@
- brooklynnets.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:mediainquiries@
- POINT72.COM
-ATTENDEE;CN=mediarelations@ap.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPA
- NT:mailto:mediarelations@ap.org
-ATTENDEE;CN=privacy@groupninemedia.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PART
- ICIPANT:mailto:privacy@groupninemedia.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:WMPrivacy@warne
- rmediagroup.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:news@golfchanne
- l.com
-ATTENDEE;CN=LA TIMES NEWSLETTERS;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:NEWSLETTERS@latimes.com
-ATTENDEE;CN=newsoffice@mit.edu;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:newsoffice@mit.edu
-ATTENDEE;CN=Dow Jones;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:pr
- onewsletter@dowjones.com
-ATTENDEE;CN=American Bar Association;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:abanews@americanbar.org
-ATTENDEE;CN=Newsroom Books;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mail
- to:books@nytimes.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:CORRECTIONS@YAH
- OONEWS.COM
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:customerservice
- s@penews.com
-ATTENDEE;CN=desk@dailynewspix.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPA
- NT:mailto:desk@dailynewspix.com
-ATTENDEE;CN=InvestmentNews;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mail
- to:editorial@investmentnews.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:emil.herzog@goo
- dnewsjail.org
-ATTENDEE;CN=InvestmentNews Daily Pulse;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PART
- ICIPANT:mailto:investmentnews@editorial.investmentnews.com
-ATTENDEE;CN=GUEST OF A GUEST;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:ma
- ilto:NEWS@guestofaguest.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:news@penews.com
- 
-ATTENDEE;CN=The Real Deal;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailt
- o:news@therealdeal.com
-ATTENDEE;CN=Ace Anki Tech Newsletters;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:newsletters@ace.anki-tech.com
-ATTENDEE;CN=THE NEW YORK TIMES;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:nytnews@nytimes.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:INFO@physicians
- mutual.com
-ATTENDEE;CN=KEVIN ROCK;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:k
- rock5@bloomberg.net
-ATTENDEE;CN=leaston@ap.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mail
- to:leaston@ap.org
-ATTENDEE;CN=nmeir@ap.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto
- :nmeir@ap.org
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:rss@ap.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:inbox@kellyandr
- yan.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:efile@nycourts.
- gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:BXElectricalIR@
- buildings.nyc.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:MNElectricalIR@
- buildings.nyc.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:RETANSELECTOPNK
- ABC@ABC.COM
-ATTENDEE;CN=retranselectionKABC@abc.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PAR
- TICIPANT:mailto:retranselectionKABC@abc.com
-ATTENDEE;CN=Kids Privacy;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto
- :kidsprivacy@viacomcbs.com
-ATTENDEE;CN=stationservices@cbs2ny.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PART
- ICIPANT:mailto:stationservices@cbs2ny.com
-ATTENDEE;CN=andrew.blankstein@nbcuni.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PA
- RTICIPANT:mailto:andrew.blankstein@nbcuni.com
-ATTENDEE;CN=DAVID.LI@NBCUNI.COM;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:david.li@nbcuni.com
-ATTENDEE;CN=suzanne.gamboa@nbcuni.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:suzanne.gamboa@nbcuni.com
-ATTENDEE;CN=tom.winter@nbcuni.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPA
- NT:mailto:tom.winter@nbcuni.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:3827-staff@list
- s.cs.columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:COLUMBIA@lists.
- columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:columbiacommuni
- ty@lists.columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:COLUMBIAUNIVERS
- ITY@lists.columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:COMS-COURSEREG@
- lists.columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:cs3136@lists.cs
- .columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:gsba-owner@list
- s.columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:gsba@lists.colu
- mbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:no-reopencu-att
- estations@lists.columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:president@lists
- .columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:PS-MS-STUDENTS@
- lists.columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:REOPENCU-ATTEST
- ATIONS@lists.columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:UMS@lists.colum
- bia.edu
-ATTENDEE;CN=ashok.patel@standardandpoors.com;PARTSTAT=NEEDS-ACTION;ROLE=RE
- Q-PARTICIPANT:mailto:ashok.patel@standardandpoors.com
-ATTENDEE;CN=engineering@spglobal.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:engineering@spglobal.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ir@tigerglobal.
- com
-ATTENDEE;CN=plumbingenfir@buildings.nyc.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ
- -PARTICIPANT:mailto:plumbingenfir@buildings.nyc.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:opsdirector@bai
- nbridge.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:kmccaffrey@virt
- u.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ir-operations-t
- eam@tudor.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:interviews@hire
- vue.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:inquiry@newyork
- .bbb.org
-ATTENDEE;CN=Inquiries@Point72.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPA
- NT:mailto:Inquiries@Point72.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:inquiries@desha
- w.com
-ATTENDEE;CN=Concierge Auctions;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:inquiries@conciergeauctions.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:info@virtu.com
- 
-ATTENDEE;CN=help@virtu.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mail
- to:help@virtu.com
-ATTENDEE;CN=CommunityAffairs@occ.treas.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-
- PARTICIPANT:mailto:CommunityAffairs@occ.treas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:Houseconnection
- IR@buildings.nyc.gov
-ATTENDEE;CN=DMastronardi@tigerglobal.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PA
- RTICIPANT:mailto:DMastronardi@tigerglobal.com
-ATTENDEE;CN=Doc Webmaster;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailt
- o:webmaster@doc.gov
-ATTENDEE;CN=tmprosecutordocs@uspto.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PART
- ICIPANT:mailto:tmprosecutordocs@uspto.gov
-ATTENDEE;CN=SARAH 00068govtIdx BARNHART;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PAR
- TICIPANT:mailto:SarahB@doc.ks.gov
-ATTENDEE;CN=MICHAEL 00064govtIdx OSVER;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PART
- ICIPANT:mailto:mosver@doc.gov
-ATTENDEE;CN=Karol.Sabodocha@nypd.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:Karol.Sabodocha@nypd.org
-ATTENDEE;CN=HREmployeeServices@doc.nyc.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-
- PARTICIPANT:mailto:HREmployeeServices@doc.nyc.gov
-ATTENDEE;CN=gpradocorrea@bloomberg.net;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PART
- ICIPANT:mailto:gpradocorrea@bloomberg.net
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:doc@dc.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:doc-del@librari
- es.cul.columbia.edu
-ATTENDEE;CN=Constituentservices@doc.nyc.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ
- -PARTICIPANT:mailto:Constituentservices@doc.nyc.gov
-ATTENDEE;CN=CHERYL 00068govtIdx CADUE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:CherylCa@doc.ks.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:bdocs2019@gmail
- .com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:support@nicic.g
- ov
-ATTENDEE;CN=NYM-PREAComplianceMgr-S@bop.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ
- -PARTICIPANT:mailto:NYM-PREAComplianceMgr-S@bop.gov
-ATTENDEE;CN=Bop Info;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:inf
- o@bop.gov
-ATTENDEE;CN=CNK-CCM@bop.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mai
- lto:CNK-CCM@bop.gov
-ATTENDEE;CN=BRO-ExecAssistant-S@bop.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PAR
- TICIPANT:mailto:BRO-ExecAssistant-S@bop.gov
-ATTENDEE;CN=BOP-RSD-PREACOORDINATOR@bop.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ
- -PARTICIPANT:mailto:BOP-RSD-PREACOORDINATOR@bop.gov
-ATTENDEE;CN=BOP-IPP-PublicAffairs@bop.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-P
- ARTICIPANT:mailto:BOP-IPP-PublicAffairs@bop.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:acjic@alacop.go
- v
-ATTENDEE;CN=ANNETTE 00000govtIdx FORD;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:ANNETTE.R.FORD@USDOJ.GOV
-ATTENDEE;CN=CAROL 00000govtIdx BURGER;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:CAROL.S.BURGER@USDOJ.GOV
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:dojfax@bops.gov
- 
-ATTENDEE;CN=Randyc.wilson@usdoj.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICI
- PANT:mailto:Randyc.wilson@usdoj.gov
-ATTENDEE;CN=tina.jeffery@usdoj.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:tina.jeffery@usdoj.gov
-ATTENDEE;CN=Victimassistance.fraud@usdoj.gov;PARTSTAT=NEEDS-ACTION;ROLE=RE
- Q-PARTICIPANT:mailto:Victimassistance.fraud@usdoj.gov
-ATTENDEE;CN=4audit@bloomberg.net;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:4audit@bloomberg.net
-ATTENDEE;CN=CRC FTC REPORTS;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mai
- lto:CRCMESSAGES@ftc.gov
-ATTENDEE;CN=crcomplaints@treasury.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:crcomplaints@treasury.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:TheBronxBBJccl@
- gmail.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:QueensBBJccl@gm
- ail.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:BrooklynBBJccl@
- gmail.com
-ATTENDEE;CN=info@manhattanbp.nyc.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:info@manhattanbp.nyc.gov
-ATTENDEE;CN=speakerjohnson@counsil.nyc.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-
- PARTICIPANT:mailto:speakerjohnson@counsil.nyc.gov
-ATTENDEE;CN=levine@council.nyc.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:levine@council.nyc.gov
-ATTENDEE;CN=kford@helpusa.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:m
- ailto:kford@helpusa.org
-ATTENDEE;CN=odonned@assembly.state.ny.us;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PA
- RTICIPANT:mailto:odonned@assembly.state.ny.us
-ATTENDEE;CN=jackson@nysenate.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:jackson@nysenate.gov
-ATTENDEE;CN=jcarter@dss.nyc.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:jcarter@dss.nyc.gov
-ATTENDEE;CN=irvinlei@dss.nyc.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:irvinlei@dss.nyc.gov
-ATTENDEE;CN=stringer@comptroller.nyc.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PA
- RTICIPANT:mailto:stringer@comptroller.nyc.gov
-ATTENDEE;CN=megan.disciullo@pwc.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICI
- PANT:mailto:megan.disciullo@pwc.com
-ATTENDEE;CN=larissa.vonlockner@pwc.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PART
- ICIPANT:mailto:larissa.vonlockner@pwc.com
-ATTENDEE;CN=ryan.a.cangialosi@pwc.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:ryan.a.cangialosi@pwc.com
-ATTENDEE;CN=kivalena.starr@pwc.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:kivalena.starr@pwc.com
-ATTENDEE;CN=jordana.strosberg@pwc.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:jordana.strosberg@pwc.com
-ATTENDEE;CN=will.b.hodges@pwc.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPA
- NT:mailto:will.b.hodges@pwc.com
-ATTENDEE;CN=jennifer.vanoss@pwc.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICI
- PANT:mailto:jennifer.vanoss@pwc.com
-ATTENDEE;CN=alex.zuluaga@ey.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:alex.zuluaga@ey.com
-ATTENDEE;CN=david.brown1@ey.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:david.brown1@ey.com
-ATTENDEE;CN=Deborah M Jones;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mai
- lto:Deborah.Jones@ey.com
-ATTENDEE;CN=info@ey.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:
- info@ey.com
-ATTENDEE;CN=jacqueline.kelley@ey.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:jacqueline.kelley@ey.com
-ATTENDEE;CN=karim.anani@ey.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:karim.anani@ey.com
-ATTENDEE;CN=kevin.klimara@ey.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:kevin.klimara@ey.com
-ATTENDEE;CN=lee.henderson@ey.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:lee.henderson@ey.com
-ATTENDEE;CN=mark.schwartz1@ey.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPA
- NT:mailto:mark.schwartz1@ey.com
-ATTENDEE;CN=rachel.gerring@ey.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPA
- NT:mailto:rachel.gerring@ey.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:PRIYA.RAGHURAM@
- MORGANSTANLEY.COM
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:mscampusrecruit
- ing@morganstanley.com
-ATTENDEE;CN=kerri.saperstein@morganstanley.com;PARTSTAT=NEEDS-ACTION;ROLE=
- REQ-PARTICIPANT:mailto:kerri.saperstein@morganstanley.com
-ATTENDEE;CN=JAMES GORMAN [MORGAN STANLEY];PARTSTAT=NEEDS-ACTION;ROLE=REQ-P
- ARTICIPANT:mailto:james.gorman@morganstanley.com
-ATTENDEE;CN=colin.brooks@morganstanley.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-
- PARTICIPANT:mailto:colin.brooks@morganstanley.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:BILLING@CRYSTAL
- CO.COM
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:info@crystalco.
- com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:Aileen.Morris@a
- lliant.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:dkiehl@alliant.
- com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:hr@alliant.com
- 
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:jbaumann@allian
- t.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:jmannino@allian
- t.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:jmartin@alliant
- .com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ssampiere@allia
- nt.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:tfilley@alliant
- .com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:Jessica.Colpani
- @morganstanley.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:jmorgan274@bloo
- mberg.net
-ATTENDEE;CN=john.varriano@morganstanley.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ
- -PARTICIPANT:mailto:john.varriano@morganstanley.com
-ATTENDEE;CN=mshy1@bloomberg.net;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:mshy1@bloomberg.net
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:MSHY15@MORGANST
- ANLEY.COM
-ATTENDEE;CN=mshyld@bloomberg.net;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:mshyld@bloomberg.net
-ATTENDEE;CN=mstanley153@bloomberg.net;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:mstanley153@bloomberg.net
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:mstanley321@blo
- omberg.net
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:mstanley1541@bl
- oomberg.net
-ATTENDEE;CN=Andrew Keller [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPA
- NT:mailto:akeller106@bloomberg.net
-ATTENDEE;CN=Andrew Korb [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:akorb1@bloomberg.net
-ATTENDEE;CN=Austin McCrary [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:amccrary@bloomberg.net
-ATTENDEE;CN=ASHLEY MEAD [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:amead11@bloomberg.net
-ATTENDEE;CN=Andrew Smith [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:asmith1151@bloomberg.net
-ATTENDEE;CN=Anthony Walker [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:awalker231@bloomberg.net
-ATTENDEE;CN=Cassandra Kirk [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:ckirk21@bloomberg.net
-ATTENDEE;CN=Chris Gursky [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:csgursky@bloomberg.net
-ATTENDEE;CN=Dian Zhu [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:ma
- ilto:dian.zhu@finra.org
-ATTENDEE;CN=FINRA Corporate Notification;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PA
- RTICIPANT:mailto:finracorporatenotification@finra.org
-ATTENDEE;CN=FINRA Product Management;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:finraproductmanagement@finra.org
-ATTENDEE;CN=finrawebmaster@finra.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:finrawebmaster@finra.org
-ATTENDEE;CN=FINRA CAT Helpdesk;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:help@finracat.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:hesham.ibrahim@
- finra.org
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:iard@finra.org
- 
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:Jessica.Brach@f
- inra.org
-ATTENDEE;CN=Josephine.Vella@finra.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:Josephine.Vella@finra.org
-ATTENDEE;CN=John Sagan [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:jsagan8@bloomberg.net
-ATTENDEE;CN=Joshua Wong [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:jwong554@bloomberg.net
-ATTENDEE;CN=Kimberly Berry [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:k28826@bloomberg.net
-ATTENDEE;CN=Kenneth Thompson [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:kthompson84@bloomberg.net
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:michelle.ong@fi
- nra.org
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:nancy.condon@fi
- nra.org
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:pfrdsupport@fin
- ra.org
-ATTENDEE;CN=Finra Webmaster;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mai
- lto:postmaster@finra.org
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ray.pellecchia@
- finra.org
-ATTENDEE;CN=rosalyn.marcus@finra.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:rosalyn.marcus@finra.org
-ATTENDEE;CN=Rosinna Rivera [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:rrivera88@bloomberg.net
-ATTENDEE;CN=TRACE Data Services;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:tracedataservices@finra.org
-ATTENDEE;CN=Finra Webmaster;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mai
- lto:webmaster@finra.org
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:unclaimed.prope
- rty@cpa.texas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:Treasury.operat
- ions@cpa.texas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:TexasABLE@cpa.t
- exas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:texas.tomorrow@
- cpa.texas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:statewide.accou
- nting@cpa.texas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:spd.outreach@cp
- a.texas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ptad.cpa@cpa.te
- xas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:open.records@cp
- a.texas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ombudsman@tdcj.
- texas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:oigspecialops@t
- dcj.texas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:oig.openrecords
- @tdcj.texas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:judiciary@cpa.t
- exas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:exempt.orgs@cpa
- .texas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:econ.dev@cpa.te
- xas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:court.costs@cpa
- .texas.gov
-ATTENDEE;CN=BIANCA 00088govtIdx HARRIMON;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PA
- RTICIPANT:mailto:citysecretary@mundaytexas.com
-ATTENDEE;CN=Sec News;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:web
- master@sec.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:texas@sec.gov
-ATTENDEE;CN=shareholderproposals@sec.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PA
- RTICIPANT:mailto:shareholderproposals@sec.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:Secretarys-Offi
- ce@sec.gov
-ATTENDEE;CN=Rule-Comments;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailt
- o:rule-comments@sec.gov
-ATTENDEE;CN=publicinfo@sec.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:publicinfo@sec.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:philadelphia@se
- c.gov
-ATTENDEE;CN=Pamela Gibbs [SEC];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:OMWI@sec.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:Ombudsman@sec.g
- ov
-ATTENDEE;CN=Carl Hoecker [SEC];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:OIG@sec.gov
-ATTENDEE;CN=oca@sec.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:
- oca@sec.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:NYROBankruptcy@
- SEC.GOV
-ATTENDEE;CN=Newyork;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:newy
- ork@sec.gov
-ATTENDEE;CN=losangeles@sec.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:losangeles@sec.gov
-ATTENDEE;CN=IMshareholderproposals;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:IMShareholderProposals@sec.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:foiapa@sec.gov
- 
-ATTENDEE;CN=dfw@sec.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:
- dfw@sec.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:denver@sec.gov
- 
-ATTENDEE;CN=dcaoletters@sec.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:dcaoletters@sec.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:cshugg@usinfose
- c.com
-ATTENDEE;CN=CHICAGO@SEC.GOV;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mai
- lto:CHICAGO@SEC.GOV
-ATTENDEE;CN=CHAIR@SEC.GOV;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailt
- o:CHAIR@SEC.GOV
-ATTENDEE;CN=boston@sec.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mail
- to:boston@sec.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:atlanta@sec.gov
- 
-ATTENDEE;CN=Yana Siegel;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:
- yana.siegel@wilsonelser.com
-ATTENDEE;CN=WILLIAM BEHR;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto
- :william.behr@wilsonelser.com
-ATTENDEE;CN=Urvashi Sinha;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailt
- o:urvashi.sinha@wilsonelser.com
-ATTENDEE;CN=Thomas R. Manisero;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:thomas.manisero@wilsonelser.com
-ATTENDEE;CN=Suzanne S. Swanson;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:suzanne.swanson@wilsonelser.com
-ATTENDEE;CN=Stephen J. Barrett;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:stephen.barrett@wilsonelser.com
-ATTENDEE;CN=Stacey L. Seltzer;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:m
- ailto:stacey.seltzer@wilsonelser.com
-ATTENDEE;CN=Sean Wagner;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:
- sean.wagner@wilsonelser.com
-ATTENDEE;CN=Roger R. Gottilla;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:m
- ailto:roger.gottilla@wilsonelser.com
-ATTENDEE;CN=Ricki Roer;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:r
- icki.roer@wilsonelser.com
-ATTENDEE;CN=Ricki Roer;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:r
- icki.roer@wilsonanddicker.com
-ATTENDEE;CN=ricki.raared@wilsonsdickers.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ
- -PARTICIPANT:mailto:ricki.raared@wilsonsdickers.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:patricia.wik@wi
- lsonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:meghan.rigney@w
- ilsonelser.com
-ATTENDEE;CN=Lori Semlies;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto
- :lori.semlies@wilsonelser.com
-ATTENDEE;CN=Lois K. Ottombrino;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:lois.ottombrino@wilsonelser.com
-ATTENDEE;CN=Lauren M. Zink;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mail
- to:lauren.zink@wilsonelser.com
-ATTENDEE;CN=Kathleen A. Mullins;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:kathleen.mullins@wilsonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:jwilson578@bloo
- mberg.net
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:judy.selmeci@wi
- lsonelser.com
-ATTENDEE;CN=Jennifer L. Sciales;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:jennifer.sciales@wilsonelser.com
-ATTENDEE;CN=Jennifer M. Provost;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:jennifer.provost@wilsonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:info@wilsonelse
- r.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:Hannah.King@WIL
- SONELSER.COM
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:grace.song@wils
- onelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:erin.zecca@wils
- onelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ellyn.wilder@wi
- lsonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:elizabeth.scodi
- tti@wilsonelser.com
-ATTENDEE;CN=Debra Tama;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:d
- ebra.tama@wilsonelser.com
-ATTENDEE;CN=Daniel F. Flores;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:ma
- ilto:daniel.flores@wilsonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:curt.schlom@wil
- sonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:craig.hunter@wi
- lsonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:craig.brinker@w
- ilsonelser.com
-ATTENDEE;CN=Corrine Shea;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto
- :corrine.shea@wilsonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:carole.nimaroff
- @wilsonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:aviva.stein@wil
- sonelser.com
-ATTENDEE;CN=Ashley V. Humphries;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:ashley.humphries@wilsonelser.com
-ATTENDEE;CN=Angelique Sabia-Candero;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICI
- PANT:mailto:angelique.sabia-candero@wilsonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:angel.vitiello@
- wilsonelser.com
-ATTENDEE;CN=Andrea Shiffman;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mai
- lto:andrea.shiffman@wilsonelser.com
-ATTENDEE;CN=Amy Hanrahan;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto
- :amy.hanrahan@wilsonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:alex.kress@wils
- onelser.com
-ATTENDEE;CN=ALDEN 00066govtIdx WILSON;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:alden.wilson@maine.gov
-ATTENDEE;CN=Alan Rubin;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:a
- lan.rubin@wilsonelser.com
-ATTENDEE;CN=BO DINCER;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:bo
- ndstrt007@gmail.com
-ATTENDEE;CN=info@badboyrecords.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:info@badboyrecords.com
-ATTENDEE;CN=royalty.statements@sonymusic.com;PARTSTAT=NEEDS-ACTION;ROLE=RE
- Q-PARTICIPANT:mailto:royalty.statements@sonymusic.com
-ATTENDEE;CN=realtime@sonymusic.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:realtime@sonymusic.com
-ATTENDEE;CN=privacy@sonymusic.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPA
- NT:mailto:privacy@sonymusic.com
-ATTENDEE;CN=secretariat@impforum.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:secretariat@impforum.org
-ATTENDEE;CN=dgosset@impalamusic.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICI
- PANT:mailto:dgosset@impalamusic.org
-ATTENDEE;CN=info@immf.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailt
- o:info@immf.com
-ATTENDEE;CN=press@ifpi.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mail
- to:press@ifpi.org
-ATTENDEE;CN=secretariat@icmp-ciem.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:secretariat@icmp-ciem.org
-ATTENDEE;CN=office@fim-musicians.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:office@fim-musicians.org
-ATTENDEE;CN=tom.cording@sonymusic.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:tom.cording@sonymusic.com
-ATTENDEE;CN=angela.barkan@sonymusic.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PAR
- TICIPANT:mailto:angela.barkan@sonymusic.com
-ATTENDEE;CN=karyan.diaz@sonymusic.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:karyan.diaz@sonymusic.com
-ATTENDEE;CN=allen.brown@sonymusic.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:allen.brown@sonymusic.com
-ATTENDEE;CN=publicity@rcarecords.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:publicity@rcarecords.com
-ATTENDEE;CN=columbia.publicity@sonymusic.com;PARTSTAT=NEEDS-ACTION;ROLE=RE
- Q-PARTICIPANT:mailto:columbia.publicity@sonymusic.com
-ATTENDEE;CN=B D2022;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ms60
- 710444266@yahoo.com
-ATTENDEE;CN=Bo Dincer;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:bo
- .dincer@yahoo.com
-ATTENDEE;CN=Bo Dincer;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:bd
- incer66@icloud.com
-ATTENDEE;CN=Stephen O'Connell;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:m
- ailto:sgo2107@columbia.edu
-ATTENDEE;CN=Stephen O'Connell;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:m
- ailto:sgo2107@adcu.columbia.edu
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/7
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/11
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/10
-ATTACH:https://www.sec.gov/Archives/edgar/data/0000093715/0001193125212781
- 80/d222043dn8f.htm
-ATTACH:https://www.sec.gov/Archives/edgar/data/0000093715/9999999997210057
- 90/filename1.pdf
-ATTACH:https://saaze2311prdsra.blob.core.windows.net/clean/af081f4095d3ec1
- 1a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%20$3231040-2004555.pdf
-ATTACH:https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec1
- 1a7b5000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg
-ATTACH:https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=K9sgX
- cweC7esRoSPO8MNtA==
-ATTACH:https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=19MVP
- FXy0G0QvnmRLGpYIQ==
-ATTACH:https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=fXMaX
- geyzvA85ViWMmvfAQ==
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/blob/mai
- n/ZUCKER.md
-ATTACH:https://www.sec.gov/Archives/edgar/data/0000093715/0001193125202008
- 10/d913497dncsrs.htm
-ATTACH:https://user-images.githubusercontent.com/70865813/168770555-25ef68
- a8-5bb3-42e6-a28a-c35b60cd9b0b.png
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/files/87
- 06680/nov13.and.Dec18.2021.-.multiple.dwelling.laws.pdf
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/files/87
- 06682/PS-Investigation%40facil.columbia.edu.crcmessages%40ftc.gov.pdf
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/tree/898
- 0dec84c257bd182522e1a4b9a2d1f4e49bb68
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/tree/0d6
- 9023191f5a8a25006caf258a50b649da83aa0
-ATTACH:https://user-images.githubusercontent.com/70865813/168770401-e0220b
- f9-e639-4cc5-baf8-c80166e99414.png
-ATTACH:https://user-images.githubusercontent.com/70865813/168770321-4e8f51
- c0-3ce4-4bdd-afda-c433cc8912d8.png
-ATTACH:https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=NvtIU
- a5jls0V4/OF7/XlGg==
-ATTACH:https://user-images.githubusercontent.com/70865813/168770459-03f1d0
- c4-a460-491d-a82e-e6c400b7ff71.png
-ATTACH:https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1#column-183
- 09490
-ATTACH:https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=PWFQc
- /WFihoyIKwEunaalQ==
-ATTACH:https://user-images.githubusercontent.com/70865813/168733004-b6a8f4
- 37-dd06-409a-83ba-0d404245514f.png
-ATTACH:https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=D9Td7
- IfWXyajw1tBNCFb9g==
-CATEGORIES:Clients
-DTSTART;TZID=America/Atikokan:20220518T053500
-DTEND;TZID=America/Atikokan:20220518T063500
-CLASS:PUBLIC
-TRANSP:OPAQUE
-LOCATION:ONE LIBERTY PLAZA\, NEW YORK\, NY\, 10006
-DESCRIPTION:LOOK AT THESE PEEPING TOMS HARD AT WORK... EVEN TRY TO CUT DOW
- N MY EMAIL &\nINTERNET TO GET A COMPETITIVE ADVANTAGE...\nhttps://github.c
- om/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/pull/2\n> THEY ALSO HAVE AN END
- OWMENT\, REGISTERED AND 100% AT RISK\nhttps://www.sec.gov/Archives/edgar/d
- ata/0000093715/999999999721005616/filename1.pdf\n\nVIOLATION OF PRIVACY.\n
-    \nhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=fXMaXge
- yzvA85ViWMmvfAQ==\n\n    \n\nRE: THE INSIDER C.16 PROMOTERS.\n\n·        
-   https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1#column-18309490
- \n\n·          https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/p
- ull/5\n\n\nFORM N-CSR\n            Date of reporting period: 05/31/2020\n\
- n·        \nhttps://www.sec.gov/Archives/edgar/data/0000093715/0001193125
- 20200810/d913497dncsrs.htm\n\n·         https://github.com/BSCPGROUPHOLDI
- NGSLLC/WILSONELSER-ZUCKER/pull/5\n\nTHIS\, is 100% a FELONY as well\n\n- g
- ood job aiding and abetting this ZUCKER ORGANIZATION...\n\n    https://git
- hub.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5\n\nCOLUMBIA.\n\n·   
-       \nhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=fXMa
- XgeyzvA85ViWMmvfAQ==\n\n·         \nhttps://iapps.courts.state.ny.us/nysc
- ef/ViewDocument?docIndex=NvtIUa5jls0V4/OF7/XlGg==\n\n·         \nhttps://
- user-images.githubusercontent.com/70865813/168770321-4e8f51c0-3ce4-4bdd-af
- da-c433cc8912d8.png\n\nCRC.\n\n·         \nhttps://user-images.githubuser
- content.com/70865813/168770401-e0220bf9-e639-4cc5-baf8-c80166e99414.png\n\
- n·         \nhttps://user-images.githubusercontent.com/70865813/168770459
- -03f1d0c4-a460-491d-a82e-e6c400b7ff71.png\n\nZUCKER.\n\n·         \nhttps
- ://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=fXMaXgeyzvA85ViWM
- mvfAQ==\n\n·         \nhttps://iapps.courts.state.ny.us/nyscef/ViewDocume
- nt?docIndex=PlTp8O/4k_PLUS_GPLPHn15fi6A==\n\n·         \nhttps://iapps.co
- urts.state.ny.us/nyscef/ViewDocument?docIndex=PWFQc/WFihoyIKwEunaalQ==\n\n
- ·         \nhttps://user-images.githubusercontent.com/70865813/168733004-
- b6a8f437-dd06-409a-83ba-0d404245514f.png\n\n·         \nhttps://iapps.cou
- rts.state.ny.us/nyscef/ViewDocument?docIndex=D9Td7IfWXyajw1tBNCFb9g==\n\nR
- E: STATE FARM ASSOCIATES’ FUNDS TRUST\n\n·         \nhttps://iapps.cour
- ts.state.ny.us/nyscef/ViewDocument?docIndex=ZOCFS3HH2UeHQe8j2tXJoQ==\n\n·
-          \nhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=1
- 9MVPFXy0G0QvnmRLGpYIQ==\n\n·         \nhttps://iapps.courts.state.ny.us/n
- yscef/ViewDocument?docIndex=K9sgXcweC7esRoSPO8MNtA==\n\n·         \nhttps
- ://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVan
- EtcRioef3A==\n\nSTATE FARM ASSOCIATES’ FUNDS TRUST 1\n\n·         \nhtt
- ps://www.sec.gov/Archives/edgar/data/0000093715/999999999721005790/filenam
- e1.pdf\n\nEMAIL CONFIRMATIONS BY THE COUNSELORS OF THE ZUCKER ORGANIZATION
- \n\n####        A VIOLATION OF PRIVACY AND A BREACH OF THE LAW\,  CONTRACT
-  VIOLATED.\n\n·         \nhttps://user-images.githubusercontent.com/70865
- 813/168770321-4e8f51c0-3ce4-4bdd-afda-c433cc8912d8.png\n\nNONPLUSSED.\n   
-          was read on Monday\, February 7\, 2022 4:47:05 PM (UTC+00:00)\nMo
- nrovia\, Reykjavik.\n\nTo:       PS-Investigation@FACIL.COLUMBIA.EDU\n\nht
- tps://user-images.githubusercontent.com/70865813/168770401-e0220bf9-e639-4
- cc5-baf8-c80166e99414.png\n\nSubject:                see also : camera NOT
-  POINTED AT A WINDOW docket 49\n\nSent:     Sunday\, February 6\, 2022 8:0
- 6:50 PM (UTC+00:00) Monrovia\, Reykjavik\n\n####        MESSAGES READ\, TI
- MESTAMPED.\n\n·          https://github.com/BSCPGROUPHOLDINGSLLC/WILSONEL
- SER-ZUCKER/pull/2\n\n·          TIMESTAMPED AND SPECIFIC\n\n####        V
- IOLATION OF PRIVACY\n                - FILMED\, PHOTOGRAPHED\, HARRASSED\,
-  VIOTAPED\, NAKED\, AND IN THE\nPRIVACY OF MY HOME.\n\n\nalso:       DISTR
- IBUTION WITHOUT CONSENT\n   \n                BY THE WILSON ELSER & LASKOW
- ITZ LAW FIRM OBO THE ZUCKER ORGANIZATION\n                under the SUPERV
- ISION & NON-ACTION by the guidance counselors at\nCOLUMBIA UNIVERSITY.\n\n
-                 mov distribution - ASKNOWLEDGED MESSAGES\n\n####        ME
- SSAGES READ\, TIMESTAMPED – REGULATORS INCLUSIVE\n\nSECTION IV. MSG READ
-  RECEIPTS\n\n\n                § 11.440                  Tampering with o
- r fabricating physical\nevidence\n\n                VIDEOS HAVE BEEN EDITE
- D AND ALSO DISTRIBUTED\n\np.s.          I never met any of the Zuckers\, W
- ilson Dicker\, Laskowitz\, Miwa\, or\nany of these people.\nDocumented me 
- every day\, UNTIL I FIGURED OUT THEY OWE HUNDREDS OF MILLIONS IN TAXES.\n\
- n·          HAD NO GROUNDS TO LEGALLY COLLECT RENT\nOR SECURITY DEPOSITS.
- \n\n·          ALL TRANSFERRED AND ASSIGNED TO STATE FARM\, A PUBLIC 40 A
- CT MUTUAL FUND.\n\nPER THE FDIC IS NOT PERMITTED FOR CUSTODY AT ANY US DEP
- OSITORY INSTITUTION.\n\nTHE ZUCKERS’ FINANCIAL INSTITUTION.\n\n- I PERSO
- NALLY WENT TO THE BRANCH TO INFORM THEIR MORTGAGE AND CORPORATE\nBANKERS\,
-  AND ON FRIDAY\, MAY 13TH\, 2022 AFTER DISCOVERING THAT THIS SERIES OF\nFE
- LONIES & VIOLATION OF MY PRIVACY HAS BEEN AIDED AND ABETTED IN AN OBSTRUCT
- ION\nTHAT HAS DISGUSTED ME BEYOND ANY MEANS.\n\nMULTIPLE DWELLING LAWS 101
- .\n\nMAYBE THE COUNSELORS AT COLUMBIA WILL UNDERSTAND THIS PRIOR TO HAVING
-  ME ENTER A\nCOURTROOM AND EXPLAIN THE SEVERITY OF PRISON SENTENCES AND TI
- ME FOR AIDING AND\nABETTING TAX-EVASION\, INSIDER TRADING\, AND BANK REGUL
- ATIONS.\n\n\n\n                MULTIPLE DWELLING LAWS\n\n                P
- S-Investigation@facil.columbia.edu\n\n\nVIOLATION OF PRIVACY.\nhttps://iap
- ps.courts.state.ny.us/nyscef/ViewDocument?docIndex=fXMaXgeyzvA85ViWMmvfAQ=
- =\n\n#### HIRED  ON-DEMAN VIDEO SPECIALIST.\n\n****           ps what the 
- heck is Pod-Cast?\n\n****           did NOT know I had one of those either
- …\n@rosaliachann\n\nhttps://iapps.courts.state.ny.us/nyscef/ViewDocument
- ?docIndex=PWFQc/WFihoyIKwEunaalQ==\n\n\n #### ECONOMIC BENEFITS\n   \nhttp
- s://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVa
- nEtcRioef3A==\n            RE: THE INSIDER C.16 PROMOTERS.\nhttps://github
- .com/users/BSCPGROUPHOLDINGSLLC/projects/1#column-18309490\n\nhttps://gith
- ub.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5\n\n\nFORM N-CSR\nDate 
- of reporting period: 05/31/2020\n\n    https://www.sec.gov/Archives/edgar/
- data/0000093715/000119312520200810/d913497dncsrs.htm\n\n    https://github
- .com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/pull/5\n\nTHIS\, is 100% a FE
- LONY as well\n- good job aiding and abetting this ZUCKER ORGANIZATION...\n
- \n    https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5\n\n_
- __________________\n\n\nJP MORGAN CHASE BANK\, N/A.\nAs stated at your bra
- nch on Friday\, I have not heard from these folks \\since\nAugust of 2020\
- , and certainly not in a court of law.\n\n- The violation of privacy and d
- istribution of videos which they filmed and\nphotographed "inside of my ap
- artment" were without consent\, and were also\ndistributed by and between 
- their counselors / advisors and are attached here for\ncontext if you'd li
- ke to look into matters which pertain to Violation of Privacy.\n\nRE:     
- TAX MATTERS\n\n            THE 6 BUILDINGS\, A TOTAL OF 144 APARTMENTS HAV
- E BEEN VALUED AT\nROUGHLY $22.5 MILLION DOLLARS AND FOR TAX PURPOSES PER T
- HE NY DEPT OF FINANCE\nREGISTER AS OF DECEMBER 2021 REPORT YoY GROSS INCOM
- E IN A LINEAR FASHION AND IN\nDOUBLE DIGITS.\n            - THIS HOLDS TRU
- E FOR ALL SIX PROPERTIES USED AS "CREDITWORTHINESS"\nOF INCOME AND ASSETS\
- , HOWEVER\, TO KEEP MATTERS SIMPLE.\n\nTHERE ARE TWO PROPERTIES WHICH MAKE
-  THIS MUCH EASIER FOR YOU AND YOURS TO ABSORB.\n            PROPERTY 1:   
-       111 SULLIVAN STREET REAR\, APT 2BR\, NEW YORK\, NY\,\n10012    \n   
-                                                 - Where I resided\, and th
- e\nrights of the leases and rents transferred to State Farm is a building 
- with no\ncertificate of occupancy.\n            PROPERTY 2:         117 SU
- LLIVAN STREET\, NEW YORK\, NY\, 10012   \n                                
-                  - The neighboring building\,\nwhere the rights of the lea
- ses and rents were also transferred to State Farm is\na building with no c
- ertificate of occupancy.\n                                        BOTH PRO
- PERTIES with " UNLAWFUL INCOME "\nwas used and represented as lawful incom
- e to State Farm and to obtain a loan for\n$6\,000\,000.00 as referenced he
- reunder.\n\n                                        filed under ACRIS:    
- " TRANSFER OF\nLEASES AND RENTS "\n\n                                     
-                   TO:    STATE FARM\n                                     
-                            ONE STATE FARM PLAZA\n                         
-                                        BLOOMINGTON\, IL\,\n61710\n      \n
- \nI did notify the "Brokerage & Investment" department at JP Morgan\, and 
- they no\nlonger are custodians for the Investment Adviser\, who in the for
- mer has\n   \n            "CEASED TO EXIST"  and as of November 24th\, 202
- 1 under the\nSecurities and Exchange Commission.\n\n                      
-                                                        \nhttps://www.sec.g
- ov/Archives/edgar/data/0000093715/999999999721005790/filename1.pdf\n     \
- n                                                          State Farm Assu
- rances\nFunds Trust\n                                                     
-      CIK NUMBER:           \n93715\n                                      
-                     SEC FILE NUMBER:  \n811-01519\n\n                Attac
- hments and link to substantive matters are below my\nsignature and for con
- venience and ease of your references.\n                            1.    T
- CR report attached\, which was filed with the\nSecurities and Exchange Com
- mission on November 13th\, 2021.\n   \n                            2.    L
- osses registered by their Investment Adviser\,\nbetween November 13th\, 20
- 21 through April 30th\, 2022 have grown to the excess of\n1.35 billion dol
- lars\, and one of their Investment Advisers has also Ceased to\nExist [ SE
- C FILER: 93715 ]\n   \n                            3.    NYC DEPT OF FINAN
- CE RECORDS ARE ATTACHED\, AS\nARE THE TAX BILLS FOR BLOCK 803\, LOT 11 ---
-  which was transferred to State Farm\non May 15th\, 2020.\n   \n          
-                   4.    VIOLATION OF PRIVACY AND TAX EVASION\nDOCKETS.PDF 
- is also attached in case there is any question as to the matters\nwhich ar
- e "sensitive" and also "deplorable" in the scope of conduct/ethics.\n\n  \
- n/s/ Baris Dincer.\n    Tel.: 646-256-3609 \n\nSECURITY DEPOSIT(S) ARE HEL
- D IN CUSTODY AT JP MORGAN CHASE BANK\, N/A\n\n    https://iapps.courts.sta
- te.ny.us/nyscef/ViewDocument?docIndex=R9aac7D6DBJZ1wsiq0b38A==\n\nSULLIVAN
-  PROPERTIES LP\, 101 WEST 55TH STREET\, NEW YORK\, NY\, 10019\n           
-          DOES NOT HAVE A CERTIFICATE OF OCCUPANCY\n                    111
-  SULLIVAN STREET\, 113 SULLIVAN STREET OR 115 SULLIVAN\nSTREET (REAR)\n\n 
-    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=SgjFfExxN
- V4Y4DTX6pANaA==\n\nTHERE WERE NO CERTIFICATES OF OCCUPANCY ON FILE FOR MY 
- APARTMENT.\n   \n            111 REAR SULLIVAN STREET\, NEW YORK\, NY\, 10
- 012 AT ANY POINT IN TIME.\n\n    https://iapps.courts.state.ny.us/nyscef/V
- iewDocument?docIndex=IJ47OvVzsLObNsXt0u8trg==\n\n2020-08-04    111 SULLIVA
- N STREET REAR                 \n\n    https://iapps.courts.state.ny.us/nys
- cef/ViewDocument?docIndex=zXega0sLahw5fVuBTVtpnw==\n\n            111 REAR
-  SULLIVAN STREET\n                                                        
- LEGAL ADULT USE:         NO\n\n    https://iapps.courts.state.ny.us/nyscef
- /ViewDocument?docIndex=9zQd7Hu3cy9vp6I960WGNQ==\n\nRENT PAYMENTS          
-                                                       \n                  
-               2020_07_25\n        HAVE NOT BEEN REFUNDED AS OF CURRENT.\n 
-        NOTWITHSTANDING MY DEMANDS\, A DEFAULT " NON-JOINDER " IN THE MATTE
- R OF\n153974/2020\n        MY SECURITY DEPOSIT ALSO WAS NOT RETURNED AND T
- HE GREATER AMOUNTS OF\nRENTS AND SECURITY ARE "PURPORTEDLY"\n\nRENT PAYMEN
- T(S) ARE HELD IN CUSTODY AT JP MORGAN CHASE\, N/A\nTHE INITIAL FINANCING /
-  MORTGAGE TO PURCHASE THE PROPERTIES IN QUESTION WERE\nFROM JP MORGAN CHAS
- E IN 1989.\n\n    https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentIma
- geView?doc_id=FT_1000000324600\n\n    https://a836-acris.nyc.gov/DS/Docume
- ntSearch/DocumentImageView?doc_id=FT_1350000324035\n\n    https://a836-acr
- is.nyc.gov/DS/DocumentSearch/DocumentDetail?doc_id=FT_1350000324035\n\n   
-       THE LOAN DOCKETS AND TAX RECEIPTS WERE ANNEXED IN THE MATTER OF\n153
- 974/2020.\n        THE ACCOUNT ADDRESS YOU SHOULD HAVE FOR THE ENTITIES BE
- LOW SHOULD BE:\n\n                        101 WEST 55TH STREET\, NEW YORK\
- , NY\, 10019\n           \n                        103 WEST 55TH STREET\, 
- NEW YORK\, NY\, 10019\n         UNDER THE CORPORATE NAMES\, OR INDIVIDUALS
- \n         [ DONALD ZUCKER\, LAURIE ZUCKER\, ANDRES REYNOSO\, OR ONE OF TH
- EIR OTHER\nDIRECTORS UNDER THESE ENTITIES ]              \n\n             
-        SULLIVAN PROPERTIES LP\n                    SULLIVAN GP LLC\n      
-               MANHATTAN SKYLINE MANAGEMENT CORP.\n\n    https://iapps.cour
- ts.state.ny.us/nyscef/ViewDocument?docIndex=Mjxo9_PLUS_FdCN/p2Jrgw4MkIQ==\
- n\n\nPER THE NEW YORK SUPREME COURT DOCKETS\n\n           - CUSTODY OF THO
- SE ASSETS ARE HELD AT: JP MORGAN CHASE\, N/A\n                Please under
- stand that BEYOND the RENT & SECURITY which was\nstolen from me by Sulliva
- n Properties LP\n                                        [ who as discusse
- d at your branch on\n2022-05-13\, have mysteriously disappeared ]\n\n     
-            Are also liable for other default provisions under a certain "\
- nnon-joinder " and beyond the unlawful rents and security deposits which a
- re in\nyour custody as of current - are not permitted as accessible per th
- e FDIC and at\nany US depository institution.\n\n                This was 
- all filed and in New York State Supreme Matter\n153974/2020 and under the 
- Honorable Schlomo Haggler\, J.S.C.\, for reference.\n2020-06-15\nhttps://i
- apps.courts.state.ny.us/nyscef/ViewDocument?docIndex=R9aac7D6DBJZ1wsiq0b38
- A==\n\n2020-08-04   \n\n        NO COMPLAINTS FILED IN MY RESIDENCE OR BUI
- LDING\, EVER.\n        NO GROUNDS TO LEGALLY COLLECT RENT AND/OR SECURITY 
- DEPOSITS FOR ANY OF\nTHOSE PROPERTIES.\n\n    https://iapps.courts.state.n
- y.us/nyscef/ViewDocument?docIndex=DnmjCPN_PLUS_DIIELjZFua7gWQ==\n\nNotice 
- to Parties named sent via email:    WITH ENCLOSURES TO AMEND CAPTION.\n\n 
-    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=yMXQNekW7
- te0QA5jjAvP2w==\n\nDOB RECORDS.        ADDRESS INFORMATION FROM THE NEW YO
- RK CITY DEPARTMENT OF\nBUILDINGS.\n\n    https://iapps.courts.state.ny.us/
- nyscef/ViewDocument?docIndex=CeL5zAaUK8tfWrX9kp/QdA==\n    https://iapps.c
- ourts.state.ny.us/nyscef/ViewDocument?docIndex=upAzS2FC6bICOGxa73ptdg==\n\
- nRENT STATEMENTS & RECEIPTS OF PAYMENTS.                       \n\n    REN
- T STATEMENT         2020\, FEBRUARY\n\n    https://iapps.courts.state.ny.u
- s/nyscef/ViewDocument?docIndex=4PiwGksCJul/AGvyopmH8g==\n\n    RENT STATEM
- ENT        2020\, MAY\n\n    https://iapps.courts.state.ny.us/nyscef/ViewD
- ocument?docIndex=vMB0J4qaYgauPBeEMLIOXA==\n\n    RENT PAYMENT            2
- 020\, MAY\n\n    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docI
- ndex=wCwqZV3k3dKPIhAESd/oag==\n\n    STATEMENT:        REQUESTED A REFUND 
- OF ALL UNLAWFUL FEES.    [ NO RESPONSE ]\n     \n            06-03-2020\, 
- 07-31-2020\n\n    https://iapps.courts.state.ny.us/nyscef/ViewDocument?doc
- Index=vd54Sn1RLwYlVxoKhGh0xg==\n\n    RENT PAYMENT RECEIPT AND MONTHLY STA
- TEMENT\n\n            07-31-2020\n            $3106     [ 25% INCREASE:  W
- ITHOUT LEGAL GROUNDS OR REASONABLE CAUSE\nWAS PAID ]\n\n    https://iapps.
- courts.state.ny.us/nyscef/ViewDocument?docIndex=4WL76ylXCtw_PLUS_H5zwmPPkZ
- w==\n\n    RENT PAYMENT RECEIPT AND MONTHLY STATEMENT\n\n            05-31
- -2020\n            $600 IN PENALTIES ARBITRARILY INVOICED\, PAID\, AND REM
- AIN UN-REFUNDED\n\n    https://iapps.courts.state.ny.us/nyscef/ViewDocumen
- t?docIndex=hSVGBDz7FlXskw5BZ_PLUS_e_PLUS_ZA==\n\n    RENT PAYMENT RECEIPT 
- AND REQUEST FOR REFUND\n\n            06-03-2020       \n\n    https://iap
- ps.courts.state.ny.us/nyscef/ViewDocument?docIndex=EJfqnPTVv0u9BQ/iFgKRew=
- =\n\n\n\nPLAINTIFF DOES NOT HAVE A CERTIFICATE OF OCCUPANCY FOR THIS PROPE
- RTY\n\n    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=S
- gjFfExxNV4Y4DTX6pANaA==\n\n\nJULY RENT IS REFUSED BY LANDLORD\, AND SO ARE
-  ANY OTHER DEMANDS - INCLUDING A\nCHANGE IN CAPTION.\n\n    https://iapps.
- courts.state.ny.us/nyscef/ViewDocument?docIndex=ewwxg8z5wECGtkuHHm8O9A==\n
- \nEXHIBIT(S) - OPP\n\n    https://iapps.courts.state.ny.us/nyscef/ViewDocu
- ment?docIndex=rjL6yoW3Mt2U6UigWCM9XQ==\n\nTAX MAP BLOCK 503 - LOT 8\n\n   
-  https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=19MVPFXy0G0
- QvnmRLGpYIQ==\n\nPLAINTIFF ASSIGNED LEASES AND RENTS TO STATE FARM ON MAY 
- 15TH\n\n    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=
- ze6a1KA9akRV9TGfXXJT/g==\n\n\n    ACRIS Detailed Document Information (201
- 9000021408)2019010800475001\n\n        https://iapps.courts.state.ny.us/ny
- scef/ViewDocument?docIndex=bVk8sIt7n3kGwHqebPg0fw==\n\n\n    ACRIS Detaile
- d Document Information (2020000155422)2020052000291003\n\n        https://
- iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=wTG2YD2PqXuxmoKqFiES
- rw==\n\n\n    ACRIS Detailed Document Information (2020000155421)202005200
- 0291002\n\n        https://iapps.courts.state.ny.us/nyscef/ViewDocument?do
- cIndex=au8qh7Dn66hrVmJ9DX_PLUS_bdg==\n\n\n    ACRIS Detailed Document Info
- rmation (2020000155422)2020052000291003\n\n        https://iapps.courts.st
- ate.ny.us/nyscef/ViewDocument?docIndex=/yhElCiKJ0BGv2DF/MOn4g==\n\n\n    A
- CRIS Detailed Document Information (2020000155423)2020052000291004\n\n    
-     https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=gcMSDaFz
- m0ynPeXZKSHgLQ==\n\n\n    ASSIGNMENT OF LEASE AND RENTS ON FILED ON MAY 26
- TH -\n\n        https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIn
- dex=7Ry3LAoVfWOLjSXhyJZ94A==\n\n\n\n\n    notice to State Farm\n\n   \nhtt
- ps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=K9sgXcweC7esRoS
- PO8MNtA==\n\n    notice from Sullivan Properties LP - 101 west 55th Street
-  - New York - NY -\n10019\n\nCOMPLAINT FILED WITH THE BETTER BUSINESS BURE
- AU FOR EXCESSIVE RENTS ARBITRARILY\nINVOICED.\n        COMPLAINT #14585819
-  (7/25/2020) FILED WITH THE BETTER BUSINESS BUREAU\n\n    https://iapps.co
- urts.state.ny.us/nyscef/ViewDocument?docIndex=EJfqnPTVv0u9BQ/iFgKRew==\n\n
- NO CERTIFICATE OF OCCUPANCY\n        AUGUST 4TH\, 2020\n        RENT PAYME
- NT RECEIPT AND MONTHLY STATEMENT 07_31_2020 WITH 8\,106.21 IN\nLEGAL FEES\
- n\n    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=lq9Z3
- VE3sO4pTEk1UrHB2Q==\n\nRENT PAYMENT RECEIPT AND MONTHLY STATEMENT 07_21_20
- 20\n        CLICK PAY IS NO LONGER ACCEPTING PAYMENTS.\n\n    https://iapp
- s.courts.state.ny.us/nyscef/ViewDocument?docIndex=iK7ZjdNLVty6kLSL4SjeoA==
- \n\nRENT PAYMENT RECEIPT AND MONTHLY STATEMENT 04_30_2020\n\n    https://i
- apps.courts.state.ny.us/nyscef/ViewDocument?docIndex=_PLUS_TlrEGCsUUcCcvtJ
- 8O/dfg==\n\nPLAINTIFFS POLICIES AND PROCEDURES FOR INSURANCE\n\n    https:
- //iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=mzFuOKAUp7O4ARBxH4
- uCDA==\n\n00002_LANDLORD_REFUSES_PAYMENT\n\n    https://iapps.courts.state
- .ny.us/nyscef/ViewDocument?docIndex=2lQuDSfPu51L3OhNqqRGvg==\n\nPROPERTY R
- ECORDS: PROPERTY SHARK\n\n    https://iapps.courts.state.ny.us/nyscef/View
- Document?docIndex=UAXjpRh1KO2_PLUS_8KsdF1TuQA==\n\nNOTICE TO CHANGE CAPTIO
- N IN THIS MATTER\, WITH ATTACHED PROPERTY SHARK RECORDS.\n\n    https://ia
- pps.courts.state.ny.us/nyscef/ViewDocument?docIndex=XkdNmKBghAAqMUItDdrwxA
- ==\n\nNOTICE TO CHANGE CAPTION IN THIS MATTER\, WITH ATTACHED PROPERTY SHA
- RK RECORDS.\n        2020-08-04\n\n    https://iapps.courts.state.ny.us/ny
- scef/ViewDocument?docIndex=cWLErrXbEw5qtOLVeWU/7g==\n\nNOTICE TO CHANGE CA
- PTION IN THIS MATTER\, TO ADD STATE FARM AS A RESPONDENT\n        2020-08-
- 08\n\n    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Xj
- n0/e1NcBADqRc_PLUS_g11P4g==\n\nEXHIBIT(S) --- CAUSE TO INVOICE BEYOND BAND
- S OF $3000.00 [J-51]\n\n    https://iapps.courts.state.ny.us/nyscef/ViewDo
- cument?docIndex=d7t3ED/Z4rcggm8dkQ0Jlg==\n\nSUPPLEMENTS FOR CONVENIENCE.\n
- \n    https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11
- a7b5000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg\n\n    https://
- saaze2311prdsra.blob.core.windows.net/clean/8de5f89e10d3ec11a7b50022482864
- 21/CE48526B-6A0E-4B2A-89B9-93BD202498A9.jpeg\n\n    https://saaze2311prdsr
- a.blob.core.windows.net/clean/a463845010d3ec11a7b5000d3a1326fe/0F6C27D5-69
- BD-4971-91F6-A5A40317CC63.jpeg\n\n    https://saaze2311prdsra.blob.core.wi
- ndows.net/clean/25aff4b997d3ec11a7b500224828654e/[STATE%20FARM%20VP%204303
- 6]Advisers%20Investment%20Trust%20[$CIK%201516523]%20MONK[CRD%201357149].p
- df\n\n    https://saaze2311prdsra.blob.core.windows.net/clean/5380dd8997d3
- ec11a7b5000d3a132789/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Tr
- ust%20[$CIK%201516523]%20MONK[CRD%201357149].pdf\n\n    https://saaze2311p
- rdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/[STATE%
- 20FARM%20VP%2043036]$%203487%20$.pdf\n\n    https://saaze2311prdsra.blob.c
- ore.windows.net/clean/25aff4b997d3ec11a7b500224828654e/[STATE%20FARM%20VP%
- 2043036]Advisers%20Investment%20Trust%20[$CIK%201516523]%20MONK[CRD%201357
- 149].pdf\n\n    https://saaze2311prdsra.blob.core.windows.net/clean/3bb901
- 1795d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFarmRealtyInsura
- nceLLC.pdf\n\n    https://saaze2311prdsra.blob.core.windows.net/clean/ff91
- 792a95d3ec11a7b50022482864f0/[sfVP43036]%20$2876793%20-%20david.moore%20$3
- 487%20-%20IA%208018184.pdf\n\n    https://saaze2311prdsra.blob.core.window
- s.net/clean/af081f4095d3ec11a7b50022482864f0/[STATE%20FARM%20VP%2043036]%2
- 0$3231040-2004555.pdf\n\n    https://saaze2311prdsra.blob.core.windows.net
- /clean/d88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CR
- D%2343036.pdf\n\n    https://saaze2311prdsra.blob.core.windows.net/clean/d
- 88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%234303
- 6.pdf\n\n    https://saaze2311prdsra.blob.core.windows.net/clean/d585ccd85
- fd3ec11a7b5000d3a1326fe/TAX%20EVASION%20%20attachments%20%252F%20Omissions
- .%20.pdf\n\n    https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c
- 6a10d3ec11a7b5000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg\n\n  
-   https://saaze2311prdsra.blob.core.windows.net/clean/172de37992d3ec11a7b5
- 00224828654e/[sfVP%2043036]%204971235-%20$SMITH%20-%20SEMI.pdf\n\n    http
- s://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11a7b5002248
- 286997/[SF.VP%2043036]%202876793%20-%20$david%20moore%20$3487%20-%20IA%208
- 018184.pdf\n\n    https://saaze2311prdsra.blob.core.windows.net/clean/9194
- 266492d3ec11a7b500224828654e/[sf%20VP%2043036-$3487]%201943922-%20$%20tips
- ord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$3487.p
- df\n\n    https://saaze2311prdsra.blob.core.windows.net/clean/172de37992d3
- ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20SEMI.pdf
- \n\n    https://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec
- 11a7b5002248286997/[SF.VP%2043036]%202876793%20-%20$david%20moore%20$3487%
- 20-%20IA%208018184.pdf\n\n    https://saaze2311prdsra.blob.core.windows.ne
- t/clean/9194266492d3ec11a7b500224828654e/[sf%20VP%2043036-$3487]%201943922
- -%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20com
- pany-$3487.pdf\n\n    https://saaze2311prdsra.blob.core.windows.net/clean/
- e9eb965d97d3ec11a7b5000d3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.p
- df\n\n    https://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3
- ec11a7b5000d3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf\n\n    ht
- tps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=TxAa7cNVIHKtnJ
- U/ni/zvg==\n\n    https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentIma
- geView?doc_id=2020052000291003\n\n    https://iapps.courts.state.ny.us/nys
- cef/ViewDocument?docIndex=_PLUS_TlrEGCsUUcCcvtJ8O/dfg==\n\n    https://iap
- ps.courts.state.ny.us/nyscef/ViewDocument?docIndex=19MVPFXy0G0QvnmRLGpYIQ=
- =\n\n    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=19M
- VPFXy0G0QvnmRLGpYIQ==\n\n    https://iapps.courts.state.ny.us/nyscef/ViewD
- ocument?docIndex=gcMSDaFzm0ynPeXZKSHgLQ==\n\n    https://iapps.courts.stat
- e.ny.us/nyscef/ViewDocument?docIndex=au8qh7Dn66hrVmJ9DX_PLUS_bdg==\n\n    
- https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=gcMSDaFzm0yn
- PeXZKSHgLQ==\n\n    https://iapps.courts.state.ny.us/nyscef/ViewDocument?d
- ocIndex=TxAa7cNVIHKtnJU/ni/zvg==\n\n    https://iapps.courts.state.ny.us/n
- yscef/ViewDocument?docIndex=LMUE9g_PLUS_k6vCmKgfCSJEzuQ==\n\n    https://p
- ortal.311.nyc.gov/sr-details/?id=4296b0c3-c4a2-ec11-826d-0003ff86900c\n\n 
-    https://saaze2311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b
- 5000d3a1326fe/TAX%20EVASION%20%20attachments%20%252F%20Omissions.%20.pdf\n
- \n/S/ BARIS DINCER\n    \n      bdincer66@icloud.com\n\n      MS6071044426
- 6@YAHOO.COM    \n\nTEL.:     646-256-3609\n\nALT.:     917-378-3467\n\n\n\
- n008 - ROSALIA CHANN AND ALEXIS BRANDON\n2020 07 26 - WINDOW NOT REPAIRED 
-   CAMERA IS WORKING  ON 2020 08 07 DOCKET 300\n2022 02 04 --- FRIDAY  --- 
- CONFIRMATIONS\n2022 02 06 --- SUNDAY --- CONFIRMATIONS\nCAMERA HAS NOT BEE
- N REMOVED - ENTERED IN THE DESCRIPTION OF THESE EXHIBITS -\nREYNOSO - TECH
- MANN  VENTILATOR  FOUND A  MOV FILE\n\nCHECK LINKS\n\n510-682 -9510  -- TH
- IS ONE...\nNOTARIZED AN AFFIDAVIT IN ALAMEDA\, CALIFORNIA AFTER MOVING OUT
-  OF 111 SULLIVAN\nSTREET\, ALLEGEDLY...\n AND HER MOTHER ANNEXED A COMPLAI
- NT THAT  I WAS BOTHERING HER DAUGHTER...\nI NEVER MET THESE B****S\n- I DO
- N'T EVEN KNOW IF SHES A REAL PERSON\, BUT THEY ANNEXED THAT SHE HAD TO MOV
- E\nOUT...\n\n\n[https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIn
- dex=PWFQc/WFihoyIKwEunaalQ==](https://iapps.courts.state.ny.us/nyscef/View
- Document?docIndex=PWFQc/WFihoyIKwEunaalQ==)\n\n[https://iapps.courts.state
- .ny.us/nyscef/ViewDocument?docIndex=Dh6CccrtpsxJlvBthb8nEA==](https://iapp
- s.courts.state.ny.us/nyscef/ViewDocument?docIndex=Dh6CccrtpsxJlvBthb8nEA==
- )\n\n\n\n117 SULLIVAN STREET\, NEW YORK\, NY\, 10012\n\n2022-03-30 - UNDER
- PAYMENT PENATY WITHOUT INTEREST.png\nAttachments:\nCERTIFICATES[COFO][FINE
- S IN THE PRIOR].pdf\t2.8 MB\nNYC DEPT OF FINANCE - PUBLIC RECORD.pdf\t259 
- KB\nTCRReport.pdf\t62.2 KB\nTax Bill — 117 SULLIVAN STREET\, BLOCK 803\,
-  LOT 11 — PROPERTY VALUES.pdf\t625 KB\n-VIOLATION OF PRIVACY AND TAX EVA
- SION DOCKETS.PDF\t80.8 KB\n2022-03-30 - UNDERPAYMENT PENATY WITHOUT INTERE
- ST.png\t63.4 KB\nMOV FILES DISTRIBUTED - LVL 7.html\t225 KB\n
-X-MICROSOFT-DISALLOW-COUNTER:TRUE
-SEQUENCE:5
+SEQUENCE:3
 END:VEVENT
 END:VCALENDAR
 
@@ -4542,8 +3441,8 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 CREATED:20220516T112047Z
-LAST-MODIFIED:20220518T090858Z
-DTSTAMP:20220518T090858Z
+LAST-MODIFIED:20220518T090539Z
+DTSTAMP:20220518T090539Z
 UID:3204d968-75d5-4d2f-b9c8-3f21665498c5
 SUMMARY:time sensitive
 STATUS:CONFIRMED
@@ -4599,13 +3498,11 @@ ATTACH:https://user-images.githubusercontent.com/70865813/168733004-b6a8f4
  37-dd06-409a-83ba-0d404245514f.png
 ATTACH:https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=D9Td7
  IfWXyajw1tBNCFb9g==
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/upload/REQ
- UEST-TO-BAR
 RRULE:FREQ=DAILY
 CATEGORIES:Clients
-DTSTART;TZID=America/Atikokan:20220518T053500
-DTEND;TZID=America/Atikokan:20220518T063500
-CLASS:PUBLIC
+DTSTART;TZID=America/Atikokan:20220518T051000
+DTEND;TZID=America/Atikokan:20220518T061000
+CLASS:PRIVATE
 TRANSP:OPAQUE
 LOCATION:ONE LIBERTY PLAZA\, NEW YORK\, NY\, 10006
 DESCRIPTION;ALTREP="data:text/html,%3Cbody%3E%0A%3Cdiv%20align%3D%22left%2
@@ -6680,15 +5577,15 @@ DESCRIPTION;ALTREP="data:text/html,%3Cbody%3E%0A%3Cdiv%20align%3D%22left%2
  X EVASION DOCKETS.PDF\t80.8 KB\n2022-03-30 - UNDERPAYMENT PENATY WITHOUT I
  NTEREST.png\t63.4 KB\nMOV FILES DISTRIBUTED - LVL 7.html\t225 KB\n
 X-MICROSOFT-DISALLOW-COUNTER:TRUE
-SEQUENCE:5
+SEQUENCE:4
 END:VEVENT
 BEGIN:VEVENT
 CREATED:20220518T054020Z
-LAST-MODIFIED:20220518T090857Z
-DTSTAMP:20220518T090857Z
+LAST-MODIFIED:20220518T090539Z
+DTSTAMP:20220518T090539Z
 UID:3204d968-75d5-4d2f-b9c8-3f21665498c5
 SUMMARY:time sensitive
-STATUS:TENTATIVE
+STATUS:CONFIRMED
 RECURRENCE-ID;VALUE=DATE;TZID=America/Atikokan:20220518
 ORGANIZER;CN=B D2022;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ms60710
  444266@yahoo.com
@@ -7404,13 +6301,10 @@ ATTACH:https://user-images.githubusercontent.com/70865813/168733004-b6a8f4
  37-dd06-409a-83ba-0d404245514f.png
 ATTACH:https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=D9Td7
  IfWXyajw1tBNCFb9g==
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER
 CATEGORIES:Clients
-CATEGORIES:Clients
-CATEGORIES:Clients
-DTSTART;TZID=America/Atikokan:20220518T062000
-DTEND;TZID=America/Atikokan:20220518T072000
-CLASS:PUBLIC
+DTSTART;VALUE=DATE:20220518
+DTEND;VALUE=DATE:20220519
+CLASS:PRIVATE
 TRANSP:OPAQUE
 LOCATION:ONE LIBERTY PLAZA\, NEW YORK\, NY\, 10006
 DESCRIPTION:LOOK AT THESE PEEPING TOMS HARD AT WORK... EVEN TRY TO CUT DOW
@@ -7760,1104 +6654,7 @@ DESCRIPTION:LOOK AT THESE PEEPING TOMS HARD AT WORK... EVEN TRY TO CUT DOW
  SION DOCKETS.PDF\t80.8 KB\n2022-03-30 - UNDERPAYMENT PENATY WITHOUT INTERE
  ST.png\t63.4 KB\nMOV FILES DISTRIBUTED - LVL 7.html\t225 KB\n
 X-MICROSOFT-DISALLOW-COUNTER:TRUE
-SEQUENCE:5
-END:VEVENT
-BEGIN:VEVENT
-CREATED:20220518T090700Z
-LAST-MODIFIED:20220518T090857Z
-DTSTAMP:20220518T090857Z
-UID:3204d968-75d5-4d2f-b9c8-3f21665498c5
-SUMMARY:time sensitive
-STATUS:CONFIRMED
-RECURRENCE-ID;TZID=America/Atikokan:20220518T053500
-ORGANIZER;CN=B D2022;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ms60710
- 444266@yahoo.com
-ATTENDEE;CN=asbpolicy@fdic.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:asbpolicy@fdic.gov
-ATTENDEE;CN=assessments@fdic.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:assessments@fdic.gov
-ATTENDEE;CN=Assetmarketing@fdic.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICI
- PANT:mailto:assetmarketing@fdic.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:careers@fdic.go
- v
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:Depositorservic
- es@fdic.gov
-ATTENDEE;CN=efoia@fdic.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mail
- to:efoia@fdic.gov
-ATTENDEE;CN=MATT LOWE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ml
- owe@fdic.gov
-ATTENDEE;CN=OCMgmtGrp@fdic.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:OCMgmtGrp@fdic.gov
-ATTENDEE;CN=oighotline@fdicoig.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:oighotline@fdicoig.gov
-ATTENDEE;CN=publicinfo@fdic.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:publicinfo@fdic.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:realestateforsa
- le@fdic.gov
-ATTENDEE;CN=Regs@fdic.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailt
- o:Regs@fdic.gov
-ATTENDEE;CN=supervision@fdic.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:supervision@fdic.gov
-ATTENDEE;CN=ANGELA 00043govtIdx STUBBS;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PART
- ICIPANT:mailto:astubbs@feddirect.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:cfaimali@isda.o
- rg
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:isda@isda.org
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:isdaeurope@isda
- .org
-ATTENDEE;CN=Joel Clark Isda;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mai
- lto:jclark@isda.org
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ldobbs@isda.org
- 
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:nlu@isda.org
-ATTENDEE;CN=Nick Isda;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ns
- awyer@isda.org
-ATTENDEE;CN=ikawasaki@kpmg.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:ikawasaki@kpmg.com
-ATTENDEE;CN=info@kpmg.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailt
- o:info@kpmg.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:isabel.zisselsb
- erger@kpmg.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:jean-pascal.nep
- per@kpmg.lu
-ATTENDEE;CN=Jenny Roche;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:
- jennyroche@kpmg.com.au
-ATTENDEE;CN=juliojhernandez@kpmg.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:juliojhernandez@kpmg.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:kbolla@kpmg.ca
- 
-ATTENDEE;CN=pmaes@kpmg.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mail
- to:pmaes@kpmg.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:tim.knight@kpmg
- .co.uk
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ukfmseniorhi@KP
- MG.co.uk
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:wgirth@kpmg.at
- 
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:terrance.ludwig
- @statefarm.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:replacementprog
- ram@statefarm.com
-ATTENDEE;CN=rebecca.coyle@statefarm.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PAR
- TICIPANT:mailto:rebecca.coyle@statefarm.com
-ATTENDEE;CN=PHIL SUPPLE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:
- phil.supple.hid9@statefarm.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:PAUL.SMITH@STAT
- EFARM.COM
-ATTENDEE;CN=Nicole Bowyer;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailt
- o:nicole.bowyer@statefarm.com
-ATTENDEE;CN=State Farm;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:m
- utualfunds@statefarm.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:MIKE.CARTER.HUS
- L@STATEFARM.COM
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:JOSE.MONK@STATE
- FARM.COM
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:dick.luedke.h2h
- j@statefarm.com
-ATTENDEE;CN=David Moore;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:
- david.moore.ct95@statefarm.com
-ATTENDEE;CN=brian.hodgson.nyz6@statefarm.com;PARTSTAT=NEEDS-ACTION;ROLE=RE
- Q-PARTICIPANT:mailto:brian.hodgson.nyz6@statefarm.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:sjs5@ntrs.com
-ATTENDEE;CN=steve@bloomberg.net;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:steve@bloomberg.net
-ATTENDEE;CN=Brent Reeder;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto
- :bdr11@bloomberg.net
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:CBPMEDIARELATIO
- NS@cbp.dhs.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:LYLE.ADRIANO@KE
- YMEDIA.COM
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:media.relations
- @kcc.com
-ATTENDEE;CN=media@chi.frb.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:m
- ailto:media@chi.frb.org
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:mediainquiries@
- brooklynnets.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:mediainquiries@
- POINT72.COM
-ATTENDEE;CN=mediarelations@ap.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPA
- NT:mailto:mediarelations@ap.org
-ATTENDEE;CN=privacy@groupninemedia.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PART
- ICIPANT:mailto:privacy@groupninemedia.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:WMPrivacy@warne
- rmediagroup.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:news@golfchanne
- l.com
-ATTENDEE;CN=LA TIMES NEWSLETTERS;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:NEWSLETTERS@latimes.com
-ATTENDEE;CN=newsoffice@mit.edu;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:newsoffice@mit.edu
-ATTENDEE;CN=Dow Jones;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:pr
- onewsletter@dowjones.com
-ATTENDEE;CN=American Bar Association;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:abanews@americanbar.org
-ATTENDEE;CN=Newsroom Books;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mail
- to:books@nytimes.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:CORRECTIONS@YAH
- OONEWS.COM
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:customerservice
- s@penews.com
-ATTENDEE;CN=desk@dailynewspix.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPA
- NT:mailto:desk@dailynewspix.com
-ATTENDEE;CN=InvestmentNews;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mail
- to:editorial@investmentnews.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:emil.herzog@goo
- dnewsjail.org
-ATTENDEE;CN=InvestmentNews Daily Pulse;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PART
- ICIPANT:mailto:investmentnews@editorial.investmentnews.com
-ATTENDEE;CN=GUEST OF A GUEST;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:ma
- ilto:NEWS@guestofaguest.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:news@penews.com
- 
-ATTENDEE;CN=The Real Deal;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailt
- o:news@therealdeal.com
-ATTENDEE;CN=Ace Anki Tech Newsletters;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:newsletters@ace.anki-tech.com
-ATTENDEE;CN=THE NEW YORK TIMES;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:nytnews@nytimes.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:INFO@physicians
- mutual.com
-ATTENDEE;CN=KEVIN ROCK;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:k
- rock5@bloomberg.net
-ATTENDEE;CN=leaston@ap.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mail
- to:leaston@ap.org
-ATTENDEE;CN=nmeir@ap.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto
- :nmeir@ap.org
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:rss@ap.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:inbox@kellyandr
- yan.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:efile@nycourts.
- gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:BXElectricalIR@
- buildings.nyc.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:MNElectricalIR@
- buildings.nyc.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:RETANSELECTOPNK
- ABC@ABC.COM
-ATTENDEE;CN=retranselectionKABC@abc.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PAR
- TICIPANT:mailto:retranselectionKABC@abc.com
-ATTENDEE;CN=Kids Privacy;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto
- :kidsprivacy@viacomcbs.com
-ATTENDEE;CN=stationservices@cbs2ny.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PART
- ICIPANT:mailto:stationservices@cbs2ny.com
-ATTENDEE;CN=andrew.blankstein@nbcuni.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PA
- RTICIPANT:mailto:andrew.blankstein@nbcuni.com
-ATTENDEE;CN=DAVID.LI@NBCUNI.COM;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:david.li@nbcuni.com
-ATTENDEE;CN=suzanne.gamboa@nbcuni.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:suzanne.gamboa@nbcuni.com
-ATTENDEE;CN=tom.winter@nbcuni.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPA
- NT:mailto:tom.winter@nbcuni.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:3827-staff@list
- s.cs.columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:COLUMBIA@lists.
- columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:columbiacommuni
- ty@lists.columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:COLUMBIAUNIVERS
- ITY@lists.columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:COMS-COURSEREG@
- lists.columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:cs3136@lists.cs
- .columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:gsba-owner@list
- s.columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:gsba@lists.colu
- mbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:no-reopencu-att
- estations@lists.columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:president@lists
- .columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:PS-MS-STUDENTS@
- lists.columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:REOPENCU-ATTEST
- ATIONS@lists.columbia.edu
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:UMS@lists.colum
- bia.edu
-ATTENDEE;CN=ashok.patel@standardandpoors.com;PARTSTAT=NEEDS-ACTION;ROLE=RE
- Q-PARTICIPANT:mailto:ashok.patel@standardandpoors.com
-ATTENDEE;CN=engineering@spglobal.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:engineering@spglobal.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ir@tigerglobal.
- com
-ATTENDEE;CN=plumbingenfir@buildings.nyc.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ
- -PARTICIPANT:mailto:plumbingenfir@buildings.nyc.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:opsdirector@bai
- nbridge.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:kmccaffrey@virt
- u.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ir-operations-t
- eam@tudor.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:interviews@hire
- vue.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:inquiry@newyork
- .bbb.org
-ATTENDEE;CN=Inquiries@Point72.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPA
- NT:mailto:Inquiries@Point72.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:inquiries@desha
- w.com
-ATTENDEE;CN=Concierge Auctions;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:inquiries@conciergeauctions.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:info@virtu.com
- 
-ATTENDEE;CN=help@virtu.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mail
- to:help@virtu.com
-ATTENDEE;CN=CommunityAffairs@occ.treas.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-
- PARTICIPANT:mailto:CommunityAffairs@occ.treas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:Houseconnection
- IR@buildings.nyc.gov
-ATTENDEE;CN=DMastronardi@tigerglobal.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PA
- RTICIPANT:mailto:DMastronardi@tigerglobal.com
-ATTENDEE;CN=Doc Webmaster;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailt
- o:webmaster@doc.gov
-ATTENDEE;CN=tmprosecutordocs@uspto.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PART
- ICIPANT:mailto:tmprosecutordocs@uspto.gov
-ATTENDEE;CN=SARAH 00068govtIdx BARNHART;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PAR
- TICIPANT:mailto:SarahB@doc.ks.gov
-ATTENDEE;CN=MICHAEL 00064govtIdx OSVER;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PART
- ICIPANT:mailto:mosver@doc.gov
-ATTENDEE;CN=Karol.Sabodocha@nypd.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:Karol.Sabodocha@nypd.org
-ATTENDEE;CN=HREmployeeServices@doc.nyc.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-
- PARTICIPANT:mailto:HREmployeeServices@doc.nyc.gov
-ATTENDEE;CN=gpradocorrea@bloomberg.net;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PART
- ICIPANT:mailto:gpradocorrea@bloomberg.net
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:doc@dc.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:doc-del@librari
- es.cul.columbia.edu
-ATTENDEE;CN=Constituentservices@doc.nyc.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ
- -PARTICIPANT:mailto:Constituentservices@doc.nyc.gov
-ATTENDEE;CN=CHERYL 00068govtIdx CADUE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:CherylCa@doc.ks.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:bdocs2019@gmail
- .com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:support@nicic.g
- ov
-ATTENDEE;CN=NYM-PREAComplianceMgr-S@bop.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ
- -PARTICIPANT:mailto:NYM-PREAComplianceMgr-S@bop.gov
-ATTENDEE;CN=Bop Info;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:inf
- o@bop.gov
-ATTENDEE;CN=CNK-CCM@bop.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mai
- lto:CNK-CCM@bop.gov
-ATTENDEE;CN=BRO-ExecAssistant-S@bop.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PAR
- TICIPANT:mailto:BRO-ExecAssistant-S@bop.gov
-ATTENDEE;CN=BOP-RSD-PREACOORDINATOR@bop.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ
- -PARTICIPANT:mailto:BOP-RSD-PREACOORDINATOR@bop.gov
-ATTENDEE;CN=BOP-IPP-PublicAffairs@bop.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-P
- ARTICIPANT:mailto:BOP-IPP-PublicAffairs@bop.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:acjic@alacop.go
- v
-ATTENDEE;CN=ANNETTE 00000govtIdx FORD;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:ANNETTE.R.FORD@USDOJ.GOV
-ATTENDEE;CN=CAROL 00000govtIdx BURGER;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:CAROL.S.BURGER@USDOJ.GOV
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:dojfax@bops.gov
- 
-ATTENDEE;CN=Randyc.wilson@usdoj.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICI
- PANT:mailto:Randyc.wilson@usdoj.gov
-ATTENDEE;CN=tina.jeffery@usdoj.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:tina.jeffery@usdoj.gov
-ATTENDEE;CN=Victimassistance.fraud@usdoj.gov;PARTSTAT=NEEDS-ACTION;ROLE=RE
- Q-PARTICIPANT:mailto:Victimassistance.fraud@usdoj.gov
-ATTENDEE;CN=4audit@bloomberg.net;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:4audit@bloomberg.net
-ATTENDEE;CN=CRC FTC REPORTS;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mai
- lto:CRCMESSAGES@ftc.gov
-ATTENDEE;CN=crcomplaints@treasury.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:crcomplaints@treasury.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:TheBronxBBJccl@
- gmail.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:QueensBBJccl@gm
- ail.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:BrooklynBBJccl@
- gmail.com
-ATTENDEE;CN=info@manhattanbp.nyc.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:info@manhattanbp.nyc.gov
-ATTENDEE;CN=speakerjohnson@counsil.nyc.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-
- PARTICIPANT:mailto:speakerjohnson@counsil.nyc.gov
-ATTENDEE;CN=levine@council.nyc.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:levine@council.nyc.gov
-ATTENDEE;CN=kford@helpusa.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:m
- ailto:kford@helpusa.org
-ATTENDEE;CN=odonned@assembly.state.ny.us;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PA
- RTICIPANT:mailto:odonned@assembly.state.ny.us
-ATTENDEE;CN=jackson@nysenate.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:jackson@nysenate.gov
-ATTENDEE;CN=jcarter@dss.nyc.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:jcarter@dss.nyc.gov
-ATTENDEE;CN=irvinlei@dss.nyc.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:irvinlei@dss.nyc.gov
-ATTENDEE;CN=stringer@comptroller.nyc.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PA
- RTICIPANT:mailto:stringer@comptroller.nyc.gov
-ATTENDEE;CN=megan.disciullo@pwc.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICI
- PANT:mailto:megan.disciullo@pwc.com
-ATTENDEE;CN=larissa.vonlockner@pwc.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PART
- ICIPANT:mailto:larissa.vonlockner@pwc.com
-ATTENDEE;CN=ryan.a.cangialosi@pwc.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:ryan.a.cangialosi@pwc.com
-ATTENDEE;CN=kivalena.starr@pwc.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:kivalena.starr@pwc.com
-ATTENDEE;CN=jordana.strosberg@pwc.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:jordana.strosberg@pwc.com
-ATTENDEE;CN=will.b.hodges@pwc.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPA
- NT:mailto:will.b.hodges@pwc.com
-ATTENDEE;CN=jennifer.vanoss@pwc.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICI
- PANT:mailto:jennifer.vanoss@pwc.com
-ATTENDEE;CN=alex.zuluaga@ey.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:alex.zuluaga@ey.com
-ATTENDEE;CN=david.brown1@ey.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:david.brown1@ey.com
-ATTENDEE;CN=Deborah M Jones;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mai
- lto:Deborah.Jones@ey.com
-ATTENDEE;CN=info@ey.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:
- info@ey.com
-ATTENDEE;CN=jacqueline.kelley@ey.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:jacqueline.kelley@ey.com
-ATTENDEE;CN=karim.anani@ey.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:karim.anani@ey.com
-ATTENDEE;CN=kevin.klimara@ey.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:kevin.klimara@ey.com
-ATTENDEE;CN=lee.henderson@ey.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:lee.henderson@ey.com
-ATTENDEE;CN=mark.schwartz1@ey.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPA
- NT:mailto:mark.schwartz1@ey.com
-ATTENDEE;CN=rachel.gerring@ey.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPA
- NT:mailto:rachel.gerring@ey.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:PRIYA.RAGHURAM@
- MORGANSTANLEY.COM
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:mscampusrecruit
- ing@morganstanley.com
-ATTENDEE;CN=kerri.saperstein@morganstanley.com;PARTSTAT=NEEDS-ACTION;ROLE=
- REQ-PARTICIPANT:mailto:kerri.saperstein@morganstanley.com
-ATTENDEE;CN=JAMES GORMAN [MORGAN STANLEY];PARTSTAT=NEEDS-ACTION;ROLE=REQ-P
- ARTICIPANT:mailto:james.gorman@morganstanley.com
-ATTENDEE;CN=colin.brooks@morganstanley.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-
- PARTICIPANT:mailto:colin.brooks@morganstanley.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:BILLING@CRYSTAL
- CO.COM
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:info@crystalco.
- com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:Aileen.Morris@a
- lliant.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:dkiehl@alliant.
- com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:hr@alliant.com
- 
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:jbaumann@allian
- t.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:jmannino@allian
- t.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:jmartin@alliant
- .com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ssampiere@allia
- nt.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:tfilley@alliant
- .com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:Jessica.Colpani
- @morganstanley.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:jmorgan274@bloo
- mberg.net
-ATTENDEE;CN=john.varriano@morganstanley.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ
- -PARTICIPANT:mailto:john.varriano@morganstanley.com
-ATTENDEE;CN=mshy1@bloomberg.net;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:mshy1@bloomberg.net
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:MSHY15@MORGANST
- ANLEY.COM
-ATTENDEE;CN=mshyld@bloomberg.net;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:mshyld@bloomberg.net
-ATTENDEE;CN=mstanley153@bloomberg.net;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:mstanley153@bloomberg.net
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:mstanley321@blo
- omberg.net
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:mstanley1541@bl
- oomberg.net
-ATTENDEE;CN=Andrew Keller [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPA
- NT:mailto:akeller106@bloomberg.net
-ATTENDEE;CN=Andrew Korb [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:akorb1@bloomberg.net
-ATTENDEE;CN=Austin McCrary [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:amccrary@bloomberg.net
-ATTENDEE;CN=ASHLEY MEAD [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:amead11@bloomberg.net
-ATTENDEE;CN=Andrew Smith [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:asmith1151@bloomberg.net
-ATTENDEE;CN=Anthony Walker [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:awalker231@bloomberg.net
-ATTENDEE;CN=Cassandra Kirk [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:ckirk21@bloomberg.net
-ATTENDEE;CN=Chris Gursky [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPAN
- T:mailto:csgursky@bloomberg.net
-ATTENDEE;CN=Dian Zhu [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:ma
- ilto:dian.zhu@finra.org
-ATTENDEE;CN=FINRA Corporate Notification;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PA
- RTICIPANT:mailto:finracorporatenotification@finra.org
-ATTENDEE;CN=FINRA Product Management;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:finraproductmanagement@finra.org
-ATTENDEE;CN=finrawebmaster@finra.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:finrawebmaster@finra.org
-ATTENDEE;CN=FINRA CAT Helpdesk;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:help@finracat.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:hesham.ibrahim@
- finra.org
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:iard@finra.org
- 
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:Jessica.Brach@f
- inra.org
-ATTENDEE;CN=Josephine.Vella@finra.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:Josephine.Vella@finra.org
-ATTENDEE;CN=John Sagan [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:jsagan8@bloomberg.net
-ATTENDEE;CN=Joshua Wong [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:jwong554@bloomberg.net
-ATTENDEE;CN=Kimberly Berry [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:k28826@bloomberg.net
-ATTENDEE;CN=Kenneth Thompson [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:kthompson84@bloomberg.net
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:michelle.ong@fi
- nra.org
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:nancy.condon@fi
- nra.org
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:pfrdsupport@fin
- ra.org
-ATTENDEE;CN=Finra Webmaster;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mai
- lto:postmaster@finra.org
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ray.pellecchia@
- finra.org
-ATTENDEE;CN=rosalyn.marcus@finra.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:rosalyn.marcus@finra.org
-ATTENDEE;CN=Rosinna Rivera [FINRA];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:rrivera88@bloomberg.net
-ATTENDEE;CN=TRACE Data Services;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:tracedataservices@finra.org
-ATTENDEE;CN=Finra Webmaster;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mai
- lto:webmaster@finra.org
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:unclaimed.prope
- rty@cpa.texas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:Treasury.operat
- ions@cpa.texas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:TexasABLE@cpa.t
- exas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:texas.tomorrow@
- cpa.texas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:statewide.accou
- nting@cpa.texas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:spd.outreach@cp
- a.texas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ptad.cpa@cpa.te
- xas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:open.records@cp
- a.texas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ombudsman@tdcj.
- texas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:oigspecialops@t
- dcj.texas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:oig.openrecords
- @tdcj.texas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:judiciary@cpa.t
- exas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:exempt.orgs@cpa
- .texas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:econ.dev@cpa.te
- xas.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:court.costs@cpa
- .texas.gov
-ATTENDEE;CN=BIANCA 00088govtIdx HARRIMON;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PA
- RTICIPANT:mailto:citysecretary@mundaytexas.com
-ATTENDEE;CN=Sec News;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:web
- master@sec.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:texas@sec.gov
-ATTENDEE;CN=shareholderproposals@sec.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PA
- RTICIPANT:mailto:shareholderproposals@sec.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:Secretarys-Offi
- ce@sec.gov
-ATTENDEE;CN=Rule-Comments;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailt
- o:rule-comments@sec.gov
-ATTENDEE;CN=publicinfo@sec.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:publicinfo@sec.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:philadelphia@se
- c.gov
-ATTENDEE;CN=Pamela Gibbs [SEC];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:OMWI@sec.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:Ombudsman@sec.g
- ov
-ATTENDEE;CN=Carl Hoecker [SEC];PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:OIG@sec.gov
-ATTENDEE;CN=oca@sec.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:
- oca@sec.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:NYROBankruptcy@
- SEC.GOV
-ATTENDEE;CN=Newyork;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:newy
- ork@sec.gov
-ATTENDEE;CN=losangeles@sec.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:losangeles@sec.gov
-ATTENDEE;CN=IMshareholderproposals;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:IMShareholderProposals@sec.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:foiapa@sec.gov
- 
-ATTENDEE;CN=dfw@sec.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:
- dfw@sec.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:denver@sec.gov
- 
-ATTENDEE;CN=dcaoletters@sec.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:dcaoletters@sec.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:cshugg@usinfose
- c.com
-ATTENDEE;CN=CHICAGO@SEC.GOV;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mai
- lto:CHICAGO@SEC.GOV
-ATTENDEE;CN=CHAIR@SEC.GOV;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailt
- o:CHAIR@SEC.GOV
-ATTENDEE;CN=boston@sec.gov;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mail
- to:boston@sec.gov
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:atlanta@sec.gov
- 
-ATTENDEE;CN=Yana Siegel;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:
- yana.siegel@wilsonelser.com
-ATTENDEE;CN=WILLIAM BEHR;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto
- :william.behr@wilsonelser.com
-ATTENDEE;CN=Urvashi Sinha;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailt
- o:urvashi.sinha@wilsonelser.com
-ATTENDEE;CN=Thomas R. Manisero;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:thomas.manisero@wilsonelser.com
-ATTENDEE;CN=Suzanne S. Swanson;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:suzanne.swanson@wilsonelser.com
-ATTENDEE;CN=Stephen J. Barrett;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:stephen.barrett@wilsonelser.com
-ATTENDEE;CN=Stacey L. Seltzer;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:m
- ailto:stacey.seltzer@wilsonelser.com
-ATTENDEE;CN=Sean Wagner;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:
- sean.wagner@wilsonelser.com
-ATTENDEE;CN=Roger R. Gottilla;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:m
- ailto:roger.gottilla@wilsonelser.com
-ATTENDEE;CN=Ricki Roer;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:r
- icki.roer@wilsonelser.com
-ATTENDEE;CN=Ricki Roer;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:r
- icki.roer@wilsonanddicker.com
-ATTENDEE;CN=ricki.raared@wilsonsdickers.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ
- -PARTICIPANT:mailto:ricki.raared@wilsonsdickers.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:patricia.wik@wi
- lsonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:meghan.rigney@w
- ilsonelser.com
-ATTENDEE;CN=Lori Semlies;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto
- :lori.semlies@wilsonelser.com
-ATTENDEE;CN=Lois K. Ottombrino;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:
- mailto:lois.ottombrino@wilsonelser.com
-ATTENDEE;CN=Lauren M. Zink;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mail
- to:lauren.zink@wilsonelser.com
-ATTENDEE;CN=Kathleen A. Mullins;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:kathleen.mullins@wilsonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:jwilson578@bloo
- mberg.net
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:judy.selmeci@wi
- lsonelser.com
-ATTENDEE;CN=Jennifer L. Sciales;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:jennifer.sciales@wilsonelser.com
-ATTENDEE;CN=Jennifer M. Provost;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:jennifer.provost@wilsonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:info@wilsonelse
- r.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:Hannah.King@WIL
- SONELSER.COM
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:grace.song@wils
- onelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:erin.zecca@wils
- onelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ellyn.wilder@wi
- lsonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:elizabeth.scodi
- tti@wilsonelser.com
-ATTENDEE;CN=Debra Tama;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:d
- ebra.tama@wilsonelser.com
-ATTENDEE;CN=Daniel F. Flores;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:ma
- ilto:daniel.flores@wilsonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:curt.schlom@wil
- sonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:craig.hunter@wi
- lsonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:craig.brinker@w
- ilsonelser.com
-ATTENDEE;CN=Corrine Shea;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto
- :corrine.shea@wilsonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:carole.nimaroff
- @wilsonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:aviva.stein@wil
- sonelser.com
-ATTENDEE;CN=Ashley V. Humphries;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT
- :mailto:ashley.humphries@wilsonelser.com
-ATTENDEE;CN=Angelique Sabia-Candero;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICI
- PANT:mailto:angelique.sabia-candero@wilsonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:angel.vitiello@
- wilsonelser.com
-ATTENDEE;CN=Andrea Shiffman;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mai
- lto:andrea.shiffman@wilsonelser.com
-ATTENDEE;CN=Amy Hanrahan;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto
- :amy.hanrahan@wilsonelser.com
-ATTENDEE;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:alex.kress@wils
- onelser.com
-ATTENDEE;CN=ALDEN 00066govtIdx WILSON;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:alden.wilson@maine.gov
-ATTENDEE;CN=Alan Rubin;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:a
- lan.rubin@wilsonelser.com
-ATTENDEE;CN=BO DINCER;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:bo
- ndstrt007@gmail.com
-ATTENDEE;CN=info@badboyrecords.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:info@badboyrecords.com
-ATTENDEE;CN=royalty.statements@sonymusic.com;PARTSTAT=NEEDS-ACTION;ROLE=RE
- Q-PARTICIPANT:mailto:royalty.statements@sonymusic.com
-ATTENDEE;CN=realtime@sonymusic.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIP
- ANT:mailto:realtime@sonymusic.com
-ATTENDEE;CN=privacy@sonymusic.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPA
- NT:mailto:privacy@sonymusic.com
-ATTENDEE;CN=secretariat@impforum.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:secretariat@impforum.org
-ATTENDEE;CN=dgosset@impalamusic.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICI
- PANT:mailto:dgosset@impalamusic.org
-ATTENDEE;CN=info@immf.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailt
- o:info@immf.com
-ATTENDEE;CN=press@ifpi.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mail
- to:press@ifpi.org
-ATTENDEE;CN=secretariat@icmp-ciem.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:secretariat@icmp-ciem.org
-ATTENDEE;CN=office@fim-musicians.org;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:office@fim-musicians.org
-ATTENDEE;CN=tom.cording@sonymusic.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:tom.cording@sonymusic.com
-ATTENDEE;CN=angela.barkan@sonymusic.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PAR
- TICIPANT:mailto:angela.barkan@sonymusic.com
-ATTENDEE;CN=karyan.diaz@sonymusic.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:karyan.diaz@sonymusic.com
-ATTENDEE;CN=allen.brown@sonymusic.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTI
- CIPANT:mailto:allen.brown@sonymusic.com
-ATTENDEE;CN=publicity@rcarecords.com;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTIC
- IPANT:mailto:publicity@rcarecords.com
-ATTENDEE;CN=columbia.publicity@sonymusic.com;PARTSTAT=NEEDS-ACTION;ROLE=RE
- Q-PARTICIPANT:mailto:columbia.publicity@sonymusic.com
-ATTENDEE;CN=B D2022;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:ms60
- 710444266@yahoo.com
-ATTENDEE;CN=Bo Dincer;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:bo
- .dincer@yahoo.com
-ATTENDEE;CN=Bo Dincer;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:mailto:bd
- incer66@icloud.com
-ATTENDEE;CN=Stephen O'Connell;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:m
- ailto:sgo2107@columbia.edu
-ATTENDEE;CN=Stephen O'Connell;PARTSTAT=NEEDS-ACTION;ROLE=REQ-PARTICIPANT:m
- ailto:sgo2107@adcu.columbia.edu
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/7
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/11
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/10
-ATTACH:https://www.sec.gov/Archives/edgar/data/0000093715/0001193125212781
- 80/d222043dn8f.htm
-ATTACH:https://www.sec.gov/Archives/edgar/data/0000093715/9999999997210057
- 90/filename1.pdf
-ATTACH:https://saaze2311prdsra.blob.core.windows.net/clean/af081f4095d3ec1
- 1a7b50022482864f0/%5BSTATE%20FARM%20VP%2043036%5D%20$3231040-2004555.pdf
-ATTACH:https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec1
- 1a7b5000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg
-ATTACH:https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=K9sgX
- cweC7esRoSPO8MNtA==
-ATTACH:https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=19MVP
- FXy0G0QvnmRLGpYIQ==
-ATTACH:https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=fXMaX
- geyzvA85ViWMmvfAQ==
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/blob/mai
- n/ZUCKER.md
-ATTACH:https://www.sec.gov/Archives/edgar/data/0000093715/0001193125202008
- 10/d913497dncsrs.htm
-ATTACH:https://user-images.githubusercontent.com/70865813/168770555-25ef68
- a8-5bb3-42e6-a28a-c35b60cd9b0b.png
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/files/87
- 06680/nov13.and.Dec18.2021.-.multiple.dwelling.laws.pdf
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/files/87
- 06682/PS-Investigation%40facil.columbia.edu.crcmessages%40ftc.gov.pdf
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/tree/898
- 0dec84c257bd182522e1a4b9a2d1f4e49bb68
-ATTACH:https://github.com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/tree/0d6
- 9023191f5a8a25006caf258a50b649da83aa0
-ATTACH:https://user-images.githubusercontent.com/70865813/168770401-e0220b
- f9-e639-4cc5-baf8-c80166e99414.png
-ATTACH:https://user-images.githubusercontent.com/70865813/168770321-4e8f51
- c0-3ce4-4bdd-afda-c433cc8912d8.png
-ATTACH:https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=NvtIU
- a5jls0V4/OF7/XlGg==
-ATTACH:https://user-images.githubusercontent.com/70865813/168770459-03f1d0
- c4-a460-491d-a82e-e6c400b7ff71.png
-ATTACH:https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1#column-183
- 09490
-ATTACH:https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=PWFQc
- /WFihoyIKwEunaalQ==
-ATTACH:https://user-images.githubusercontent.com/70865813/168733004-b6a8f4
- 37-dd06-409a-83ba-0d404245514f.png
-ATTACH:https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=D9Td7
- IfWXyajw1tBNCFb9g==
-CATEGORIES:Clients
-DTSTART;TZID=America/Atikokan:20220518T053500
-DTEND;TZID=America/Atikokan:20220518T063500
-CLASS:PUBLIC
-TRANSP:OPAQUE
-LOCATION:ONE LIBERTY PLAZA\, NEW YORK\, NY\, 10006
-DESCRIPTION:LOOK AT THESE PEEPING TOMS HARD AT WORK... EVEN TRY TO CUT DOW
- N MY EMAIL &\nINTERNET TO GET A COMPETITIVE ADVANTAGE...\nhttps://github.c
- om/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/pull/2\n> THEY ALSO HAVE AN END
- OWMENT\, REGISTERED AND 100% AT RISK\nhttps://www.sec.gov/Archives/edgar/d
- ata/0000093715/999999999721005616/filename1.pdf\n\nVIOLATION OF PRIVACY.\n
-    \nhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=fXMaXge
- yzvA85ViWMmvfAQ==\n\n    \n\nRE: THE INSIDER C.16 PROMOTERS.\n\n·        
-   https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1#column-18309490
- \n\n·          https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/p
- ull/5\n\n\nFORM N-CSR\n            Date of reporting period: 05/31/2020\n\
- n·        \nhttps://www.sec.gov/Archives/edgar/data/0000093715/0001193125
- 20200810/d913497dncsrs.htm\n\n·         https://github.com/BSCPGROUPHOLDI
- NGSLLC/WILSONELSER-ZUCKER/pull/5\n\nTHIS\, is 100% a FELONY as well\n\n- g
- ood job aiding and abetting this ZUCKER ORGANIZATION...\n\n    https://git
- hub.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5\n\nCOLUMBIA.\n\n·   
-       \nhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=fXMa
- XgeyzvA85ViWMmvfAQ==\n\n·         \nhttps://iapps.courts.state.ny.us/nysc
- ef/ViewDocument?docIndex=NvtIUa5jls0V4/OF7/XlGg==\n\n·         \nhttps://
- user-images.githubusercontent.com/70865813/168770321-4e8f51c0-3ce4-4bdd-af
- da-c433cc8912d8.png\n\nCRC.\n\n·         \nhttps://user-images.githubuser
- content.com/70865813/168770401-e0220bf9-e639-4cc5-baf8-c80166e99414.png\n\
- n·         \nhttps://user-images.githubusercontent.com/70865813/168770459
- -03f1d0c4-a460-491d-a82e-e6c400b7ff71.png\n\nZUCKER.\n\n·         \nhttps
- ://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=fXMaXgeyzvA85ViWM
- mvfAQ==\n\n·         \nhttps://iapps.courts.state.ny.us/nyscef/ViewDocume
- nt?docIndex=PlTp8O/4k_PLUS_GPLPHn15fi6A==\n\n·         \nhttps://iapps.co
- urts.state.ny.us/nyscef/ViewDocument?docIndex=PWFQc/WFihoyIKwEunaalQ==\n\n
- ·         \nhttps://user-images.githubusercontent.com/70865813/168733004-
- b6a8f437-dd06-409a-83ba-0d404245514f.png\n\n·         \nhttps://iapps.cou
- rts.state.ny.us/nyscef/ViewDocument?docIndex=D9Td7IfWXyajw1tBNCFb9g==\n\nR
- E: STATE FARM ASSOCIATES’ FUNDS TRUST\n\n·         \nhttps://iapps.cour
- ts.state.ny.us/nyscef/ViewDocument?docIndex=ZOCFS3HH2UeHQe8j2tXJoQ==\n\n·
-          \nhttps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=1
- 9MVPFXy0G0QvnmRLGpYIQ==\n\n·         \nhttps://iapps.courts.state.ny.us/n
- yscef/ViewDocument?docIndex=K9sgXcweC7esRoSPO8MNtA==\n\n·         \nhttps
- ://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVan
- EtcRioef3A==\n\nSTATE FARM ASSOCIATES’ FUNDS TRUST 1\n\n·         \nhtt
- ps://www.sec.gov/Archives/edgar/data/0000093715/999999999721005790/filenam
- e1.pdf\n\nEMAIL CONFIRMATIONS BY THE COUNSELORS OF THE ZUCKER ORGANIZATION
- \n\n####        A VIOLATION OF PRIVACY AND A BREACH OF THE LAW\,  CONTRACT
-  VIOLATED.\n\n·         \nhttps://user-images.githubusercontent.com/70865
- 813/168770321-4e8f51c0-3ce4-4bdd-afda-c433cc8912d8.png\n\nNONPLUSSED.\n   
-          was read on Monday\, February 7\, 2022 4:47:05 PM (UTC+00:00)\nMo
- nrovia\, Reykjavik.\n\nTo:       PS-Investigation@FACIL.COLUMBIA.EDU\n\nht
- tps://user-images.githubusercontent.com/70865813/168770401-e0220bf9-e639-4
- cc5-baf8-c80166e99414.png\n\nSubject:                see also : camera NOT
-  POINTED AT A WINDOW docket 49\n\nSent:     Sunday\, February 6\, 2022 8:0
- 6:50 PM (UTC+00:00) Monrovia\, Reykjavik\n\n####        MESSAGES READ\, TI
- MESTAMPED.\n\n·          https://github.com/BSCPGROUPHOLDINGSLLC/WILSONEL
- SER-ZUCKER/pull/2\n\n·          TIMESTAMPED AND SPECIFIC\n\n####        V
- IOLATION OF PRIVACY\n                - FILMED\, PHOTOGRAPHED\, HARRASSED\,
-  VIOTAPED\, NAKED\, AND IN THE\nPRIVACY OF MY HOME.\n\n\nalso:       DISTR
- IBUTION WITHOUT CONSENT\n   \n                BY THE WILSON ELSER & LASKOW
- ITZ LAW FIRM OBO THE ZUCKER ORGANIZATION\n                under the SUPERV
- ISION & NON-ACTION by the guidance counselors at\nCOLUMBIA UNIVERSITY.\n\n
-                 mov distribution - ASKNOWLEDGED MESSAGES\n\n####        ME
- SSAGES READ\, TIMESTAMPED – REGULATORS INCLUSIVE\n\nSECTION IV. MSG READ
-  RECEIPTS\n\n\n                § 11.440                  Tampering with o
- r fabricating physical\nevidence\n\n                VIDEOS HAVE BEEN EDITE
- D AND ALSO DISTRIBUTED\n\np.s.          I never met any of the Zuckers\, W
- ilson Dicker\, Laskowitz\, Miwa\, or\nany of these people.\nDocumented me 
- every day\, UNTIL I FIGURED OUT THEY OWE HUNDREDS OF MILLIONS IN TAXES.\n\
- n·          HAD NO GROUNDS TO LEGALLY COLLECT RENT\nOR SECURITY DEPOSITS.
- \n\n·          ALL TRANSFERRED AND ASSIGNED TO STATE FARM\, A PUBLIC 40 A
- CT MUTUAL FUND.\n\nPER THE FDIC IS NOT PERMITTED FOR CUSTODY AT ANY US DEP
- OSITORY INSTITUTION.\n\nTHE ZUCKERS’ FINANCIAL INSTITUTION.\n\n- I PERSO
- NALLY WENT TO THE BRANCH TO INFORM THEIR MORTGAGE AND CORPORATE\nBANKERS\,
-  AND ON FRIDAY\, MAY 13TH\, 2022 AFTER DISCOVERING THAT THIS SERIES OF\nFE
- LONIES & VIOLATION OF MY PRIVACY HAS BEEN AIDED AND ABETTED IN AN OBSTRUCT
- ION\nTHAT HAS DISGUSTED ME BEYOND ANY MEANS.\n\nMULTIPLE DWELLING LAWS 101
- .\n\nMAYBE THE COUNSELORS AT COLUMBIA WILL UNDERSTAND THIS PRIOR TO HAVING
-  ME ENTER A\nCOURTROOM AND EXPLAIN THE SEVERITY OF PRISON SENTENCES AND TI
- ME FOR AIDING AND\nABETTING TAX-EVASION\, INSIDER TRADING\, AND BANK REGUL
- ATIONS.\n\n\n\n                MULTIPLE DWELLING LAWS\n\n                P
- S-Investigation@facil.columbia.edu\n\n\nVIOLATION OF PRIVACY.\nhttps://iap
- ps.courts.state.ny.us/nyscef/ViewDocument?docIndex=fXMaXgeyzvA85ViWMmvfAQ=
- =\n\n#### HIRED  ON-DEMAN VIDEO SPECIALIST.\n\n****           ps what the 
- heck is Pod-Cast?\n\n****           did NOT know I had one of those either
- …\n@rosaliachann\n\nhttps://iapps.courts.state.ny.us/nyscef/ViewDocument
- ?docIndex=PWFQc/WFihoyIKwEunaalQ==\n\n\n #### ECONOMIC BENEFITS\n   \nhttp
- s://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=IY8iDH_PLUS_UpVa
- nEtcRioef3A==\n            RE: THE INSIDER C.16 PROMOTERS.\nhttps://github
- .com/users/BSCPGROUPHOLDINGSLLC/projects/1#column-18309490\n\nhttps://gith
- ub.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5\n\n\nFORM N-CSR\nDate 
- of reporting period: 05/31/2020\n\n    https://www.sec.gov/Archives/edgar/
- data/0000093715/000119312520200810/d913497dncsrs.htm\n\n    https://github
- .com/BSCPGROUPHOLDINGSLLC/WILSONELSER-ZUCKER/pull/5\n\nTHIS\, is 100% a FE
- LONY as well\n- good job aiding and abetting this ZUCKER ORGANIZATION...\n
- \n    https://github.com/BSCPGROUPHOLDINGSLLC/ELSER-AND-DICKER/pull/5\n\n_
- __________________\n\n\nJP MORGAN CHASE BANK\, N/A.\nAs stated at your bra
- nch on Friday\, I have not heard from these folks \\since\nAugust of 2020\
- , and certainly not in a court of law.\n\n- The violation of privacy and d
- istribution of videos which they filmed and\nphotographed "inside of my ap
- artment" were without consent\, and were also\ndistributed by and between 
- their counselors / advisors and are attached here for\ncontext if you'd li
- ke to look into matters which pertain to Violation of Privacy.\n\nRE:     
- TAX MATTERS\n\n            THE 6 BUILDINGS\, A TOTAL OF 144 APARTMENTS HAV
- E BEEN VALUED AT\nROUGHLY $22.5 MILLION DOLLARS AND FOR TAX PURPOSES PER T
- HE NY DEPT OF FINANCE\nREGISTER AS OF DECEMBER 2021 REPORT YoY GROSS INCOM
- E IN A LINEAR FASHION AND IN\nDOUBLE DIGITS.\n            - THIS HOLDS TRU
- E FOR ALL SIX PROPERTIES USED AS "CREDITWORTHINESS"\nOF INCOME AND ASSETS\
- , HOWEVER\, TO KEEP MATTERS SIMPLE.\n\nTHERE ARE TWO PROPERTIES WHICH MAKE
-  THIS MUCH EASIER FOR YOU AND YOURS TO ABSORB.\n            PROPERTY 1:   
-       111 SULLIVAN STREET REAR\, APT 2BR\, NEW YORK\, NY\,\n10012    \n   
-                                                 - Where I resided\, and th
- e\nrights of the leases and rents transferred to State Farm is a building 
- with no\ncertificate of occupancy.\n            PROPERTY 2:         117 SU
- LLIVAN STREET\, NEW YORK\, NY\, 10012   \n                                
-                  - The neighboring building\,\nwhere the rights of the lea
- ses and rents were also transferred to State Farm is\na building with no c
- ertificate of occupancy.\n                                        BOTH PRO
- PERTIES with " UNLAWFUL INCOME "\nwas used and represented as lawful incom
- e to State Farm and to obtain a loan for\n$6\,000\,000.00 as referenced he
- reunder.\n\n                                        filed under ACRIS:    
- " TRANSFER OF\nLEASES AND RENTS "\n\n                                     
-                   TO:    STATE FARM\n                                     
-                            ONE STATE FARM PLAZA\n                         
-                                        BLOOMINGTON\, IL\,\n61710\n      \n
- \nI did notify the "Brokerage & Investment" department at JP Morgan\, and 
- they no\nlonger are custodians for the Investment Adviser\, who in the for
- mer has\n   \n            "CEASED TO EXIST"  and as of November 24th\, 202
- 1 under the\nSecurities and Exchange Commission.\n\n                      
-                                                        \nhttps://www.sec.g
- ov/Archives/edgar/data/0000093715/999999999721005790/filename1.pdf\n     \
- n                                                          State Farm Assu
- rances\nFunds Trust\n                                                     
-      CIK NUMBER:           \n93715\n                                      
-                     SEC FILE NUMBER:  \n811-01519\n\n                Attac
- hments and link to substantive matters are below my\nsignature and for con
- venience and ease of your references.\n                            1.    T
- CR report attached\, which was filed with the\nSecurities and Exchange Com
- mission on November 13th\, 2021.\n   \n                            2.    L
- osses registered by their Investment Adviser\,\nbetween November 13th\, 20
- 21 through April 30th\, 2022 have grown to the excess of\n1.35 billion dol
- lars\, and one of their Investment Advisers has also Ceased to\nExist [ SE
- C FILER: 93715 ]\n   \n                            3.    NYC DEPT OF FINAN
- CE RECORDS ARE ATTACHED\, AS\nARE THE TAX BILLS FOR BLOCK 803\, LOT 11 ---
-  which was transferred to State Farm\non May 15th\, 2020.\n   \n          
-                   4.    VIOLATION OF PRIVACY AND TAX EVASION\nDOCKETS.PDF 
- is also attached in case there is any question as to the matters\nwhich ar
- e "sensitive" and also "deplorable" in the scope of conduct/ethics.\n\n  \
- n/s/ Baris Dincer.\n    Tel.: 646-256-3609 \n\nSECURITY DEPOSIT(S) ARE HEL
- D IN CUSTODY AT JP MORGAN CHASE BANK\, N/A\n\n    https://iapps.courts.sta
- te.ny.us/nyscef/ViewDocument?docIndex=R9aac7D6DBJZ1wsiq0b38A==\n\nSULLIVAN
-  PROPERTIES LP\, 101 WEST 55TH STREET\, NEW YORK\, NY\, 10019\n           
-          DOES NOT HAVE A CERTIFICATE OF OCCUPANCY\n                    111
-  SULLIVAN STREET\, 113 SULLIVAN STREET OR 115 SULLIVAN\nSTREET (REAR)\n\n 
-    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=SgjFfExxN
- V4Y4DTX6pANaA==\n\nTHERE WERE NO CERTIFICATES OF OCCUPANCY ON FILE FOR MY 
- APARTMENT.\n   \n            111 REAR SULLIVAN STREET\, NEW YORK\, NY\, 10
- 012 AT ANY POINT IN TIME.\n\n    https://iapps.courts.state.ny.us/nyscef/V
- iewDocument?docIndex=IJ47OvVzsLObNsXt0u8trg==\n\n2020-08-04    111 SULLIVA
- N STREET REAR                 \n\n    https://iapps.courts.state.ny.us/nys
- cef/ViewDocument?docIndex=zXega0sLahw5fVuBTVtpnw==\n\n            111 REAR
-  SULLIVAN STREET\n                                                        
- LEGAL ADULT USE:         NO\n\n    https://iapps.courts.state.ny.us/nyscef
- /ViewDocument?docIndex=9zQd7Hu3cy9vp6I960WGNQ==\n\nRENT PAYMENTS          
-                                                       \n                  
-               2020_07_25\n        HAVE NOT BEEN REFUNDED AS OF CURRENT.\n 
-        NOTWITHSTANDING MY DEMANDS\, A DEFAULT " NON-JOINDER " IN THE MATTE
- R OF\n153974/2020\n        MY SECURITY DEPOSIT ALSO WAS NOT RETURNED AND T
- HE GREATER AMOUNTS OF\nRENTS AND SECURITY ARE "PURPORTEDLY"\n\nRENT PAYMEN
- T(S) ARE HELD IN CUSTODY AT JP MORGAN CHASE\, N/A\nTHE INITIAL FINANCING /
-  MORTGAGE TO PURCHASE THE PROPERTIES IN QUESTION WERE\nFROM JP MORGAN CHAS
- E IN 1989.\n\n    https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentIma
- geView?doc_id=FT_1000000324600\n\n    https://a836-acris.nyc.gov/DS/Docume
- ntSearch/DocumentImageView?doc_id=FT_1350000324035\n\n    https://a836-acr
- is.nyc.gov/DS/DocumentSearch/DocumentDetail?doc_id=FT_1350000324035\n\n   
-       THE LOAN DOCKETS AND TAX RECEIPTS WERE ANNEXED IN THE MATTER OF\n153
- 974/2020.\n        THE ACCOUNT ADDRESS YOU SHOULD HAVE FOR THE ENTITIES BE
- LOW SHOULD BE:\n\n                        101 WEST 55TH STREET\, NEW YORK\
- , NY\, 10019\n           \n                        103 WEST 55TH STREET\, 
- NEW YORK\, NY\, 10019\n         UNDER THE CORPORATE NAMES\, OR INDIVIDUALS
- \n         [ DONALD ZUCKER\, LAURIE ZUCKER\, ANDRES REYNOSO\, OR ONE OF TH
- EIR OTHER\nDIRECTORS UNDER THESE ENTITIES ]              \n\n             
-        SULLIVAN PROPERTIES LP\n                    SULLIVAN GP LLC\n      
-               MANHATTAN SKYLINE MANAGEMENT CORP.\n\n    https://iapps.cour
- ts.state.ny.us/nyscef/ViewDocument?docIndex=Mjxo9_PLUS_FdCN/p2Jrgw4MkIQ==\
- n\n\nPER THE NEW YORK SUPREME COURT DOCKETS\n\n           - CUSTODY OF THO
- SE ASSETS ARE HELD AT: JP MORGAN CHASE\, N/A\n                Please under
- stand that BEYOND the RENT & SECURITY which was\nstolen from me by Sulliva
- n Properties LP\n                                        [ who as discusse
- d at your branch on\n2022-05-13\, have mysteriously disappeared ]\n\n     
-            Are also liable for other default provisions under a certain "\
- nnon-joinder " and beyond the unlawful rents and security deposits which a
- re in\nyour custody as of current - are not permitted as accessible per th
- e FDIC and at\nany US depository institution.\n\n                This was 
- all filed and in New York State Supreme Matter\n153974/2020 and under the 
- Honorable Schlomo Haggler\, J.S.C.\, for reference.\n2020-06-15\nhttps://i
- apps.courts.state.ny.us/nyscef/ViewDocument?docIndex=R9aac7D6DBJZ1wsiq0b38
- A==\n\n2020-08-04   \n\n        NO COMPLAINTS FILED IN MY RESIDENCE OR BUI
- LDING\, EVER.\n        NO GROUNDS TO LEGALLY COLLECT RENT AND/OR SECURITY 
- DEPOSITS FOR ANY OF\nTHOSE PROPERTIES.\n\n    https://iapps.courts.state.n
- y.us/nyscef/ViewDocument?docIndex=DnmjCPN_PLUS_DIIELjZFua7gWQ==\n\nNotice 
- to Parties named sent via email:    WITH ENCLOSURES TO AMEND CAPTION.\n\n 
-    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=yMXQNekW7
- te0QA5jjAvP2w==\n\nDOB RECORDS.        ADDRESS INFORMATION FROM THE NEW YO
- RK CITY DEPARTMENT OF\nBUILDINGS.\n\n    https://iapps.courts.state.ny.us/
- nyscef/ViewDocument?docIndex=CeL5zAaUK8tfWrX9kp/QdA==\n    https://iapps.c
- ourts.state.ny.us/nyscef/ViewDocument?docIndex=upAzS2FC6bICOGxa73ptdg==\n\
- nRENT STATEMENTS & RECEIPTS OF PAYMENTS.                       \n\n    REN
- T STATEMENT         2020\, FEBRUARY\n\n    https://iapps.courts.state.ny.u
- s/nyscef/ViewDocument?docIndex=4PiwGksCJul/AGvyopmH8g==\n\n    RENT STATEM
- ENT        2020\, MAY\n\n    https://iapps.courts.state.ny.us/nyscef/ViewD
- ocument?docIndex=vMB0J4qaYgauPBeEMLIOXA==\n\n    RENT PAYMENT            2
- 020\, MAY\n\n    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docI
- ndex=wCwqZV3k3dKPIhAESd/oag==\n\n    STATEMENT:        REQUESTED A REFUND 
- OF ALL UNLAWFUL FEES.    [ NO RESPONSE ]\n     \n            06-03-2020\, 
- 07-31-2020\n\n    https://iapps.courts.state.ny.us/nyscef/ViewDocument?doc
- Index=vd54Sn1RLwYlVxoKhGh0xg==\n\n    RENT PAYMENT RECEIPT AND MONTHLY STA
- TEMENT\n\n            07-31-2020\n            $3106     [ 25% INCREASE:  W
- ITHOUT LEGAL GROUNDS OR REASONABLE CAUSE\nWAS PAID ]\n\n    https://iapps.
- courts.state.ny.us/nyscef/ViewDocument?docIndex=4WL76ylXCtw_PLUS_H5zwmPPkZ
- w==\n\n    RENT PAYMENT RECEIPT AND MONTHLY STATEMENT\n\n            05-31
- -2020\n            $600 IN PENALTIES ARBITRARILY INVOICED\, PAID\, AND REM
- AIN UN-REFUNDED\n\n    https://iapps.courts.state.ny.us/nyscef/ViewDocumen
- t?docIndex=hSVGBDz7FlXskw5BZ_PLUS_e_PLUS_ZA==\n\n    RENT PAYMENT RECEIPT 
- AND REQUEST FOR REFUND\n\n            06-03-2020       \n\n    https://iap
- ps.courts.state.ny.us/nyscef/ViewDocument?docIndex=EJfqnPTVv0u9BQ/iFgKRew=
- =\n\n\n\nPLAINTIFF DOES NOT HAVE A CERTIFICATE OF OCCUPANCY FOR THIS PROPE
- RTY\n\n    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=S
- gjFfExxNV4Y4DTX6pANaA==\n\n\nJULY RENT IS REFUSED BY LANDLORD\, AND SO ARE
-  ANY OTHER DEMANDS - INCLUDING A\nCHANGE IN CAPTION.\n\n    https://iapps.
- courts.state.ny.us/nyscef/ViewDocument?docIndex=ewwxg8z5wECGtkuHHm8O9A==\n
- \nEXHIBIT(S) - OPP\n\n    https://iapps.courts.state.ny.us/nyscef/ViewDocu
- ment?docIndex=rjL6yoW3Mt2U6UigWCM9XQ==\n\nTAX MAP BLOCK 503 - LOT 8\n\n   
-  https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=19MVPFXy0G0
- QvnmRLGpYIQ==\n\nPLAINTIFF ASSIGNED LEASES AND RENTS TO STATE FARM ON MAY 
- 15TH\n\n    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=
- ze6a1KA9akRV9TGfXXJT/g==\n\n\n    ACRIS Detailed Document Information (201
- 9000021408)2019010800475001\n\n        https://iapps.courts.state.ny.us/ny
- scef/ViewDocument?docIndex=bVk8sIt7n3kGwHqebPg0fw==\n\n\n    ACRIS Detaile
- d Document Information (2020000155422)2020052000291003\n\n        https://
- iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=wTG2YD2PqXuxmoKqFiES
- rw==\n\n\n    ACRIS Detailed Document Information (2020000155421)202005200
- 0291002\n\n        https://iapps.courts.state.ny.us/nyscef/ViewDocument?do
- cIndex=au8qh7Dn66hrVmJ9DX_PLUS_bdg==\n\n\n    ACRIS Detailed Document Info
- rmation (2020000155422)2020052000291003\n\n        https://iapps.courts.st
- ate.ny.us/nyscef/ViewDocument?docIndex=/yhElCiKJ0BGv2DF/MOn4g==\n\n\n    A
- CRIS Detailed Document Information (2020000155423)2020052000291004\n\n    
-     https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=gcMSDaFz
- m0ynPeXZKSHgLQ==\n\n\n    ASSIGNMENT OF LEASE AND RENTS ON FILED ON MAY 26
- TH -\n\n        https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIn
- dex=7Ry3LAoVfWOLjSXhyJZ94A==\n\n\n\n\n    notice to State Farm\n\n   \nhtt
- ps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=K9sgXcweC7esRoS
- PO8MNtA==\n\n    notice from Sullivan Properties LP - 101 west 55th Street
-  - New York - NY -\n10019\n\nCOMPLAINT FILED WITH THE BETTER BUSINESS BURE
- AU FOR EXCESSIVE RENTS ARBITRARILY\nINVOICED.\n        COMPLAINT #14585819
-  (7/25/2020) FILED WITH THE BETTER BUSINESS BUREAU\n\n    https://iapps.co
- urts.state.ny.us/nyscef/ViewDocument?docIndex=EJfqnPTVv0u9BQ/iFgKRew==\n\n
- NO CERTIFICATE OF OCCUPANCY\n        AUGUST 4TH\, 2020\n        RENT PAYME
- NT RECEIPT AND MONTHLY STATEMENT 07_31_2020 WITH 8\,106.21 IN\nLEGAL FEES\
- n\n    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=lq9Z3
- VE3sO4pTEk1UrHB2Q==\n\nRENT PAYMENT RECEIPT AND MONTHLY STATEMENT 07_21_20
- 20\n        CLICK PAY IS NO LONGER ACCEPTING PAYMENTS.\n\n    https://iapp
- s.courts.state.ny.us/nyscef/ViewDocument?docIndex=iK7ZjdNLVty6kLSL4SjeoA==
- \n\nRENT PAYMENT RECEIPT AND MONTHLY STATEMENT 04_30_2020\n\n    https://i
- apps.courts.state.ny.us/nyscef/ViewDocument?docIndex=_PLUS_TlrEGCsUUcCcvtJ
- 8O/dfg==\n\nPLAINTIFFS POLICIES AND PROCEDURES FOR INSURANCE\n\n    https:
- //iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=mzFuOKAUp7O4ARBxH4
- uCDA==\n\n00002_LANDLORD_REFUSES_PAYMENT\n\n    https://iapps.courts.state
- .ny.us/nyscef/ViewDocument?docIndex=2lQuDSfPu51L3OhNqqRGvg==\n\nPROPERTY R
- ECORDS: PROPERTY SHARK\n\n    https://iapps.courts.state.ny.us/nyscef/View
- Document?docIndex=UAXjpRh1KO2_PLUS_8KsdF1TuQA==\n\nNOTICE TO CHANGE CAPTIO
- N IN THIS MATTER\, WITH ATTACHED PROPERTY SHARK RECORDS.\n\n    https://ia
- pps.courts.state.ny.us/nyscef/ViewDocument?docIndex=XkdNmKBghAAqMUItDdrwxA
- ==\n\nNOTICE TO CHANGE CAPTION IN THIS MATTER\, WITH ATTACHED PROPERTY SHA
- RK RECORDS.\n        2020-08-04\n\n    https://iapps.courts.state.ny.us/ny
- scef/ViewDocument?docIndex=cWLErrXbEw5qtOLVeWU/7g==\n\nNOTICE TO CHANGE CA
- PTION IN THIS MATTER\, TO ADD STATE FARM AS A RESPONDENT\n        2020-08-
- 08\n\n    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=Xj
- n0/e1NcBADqRc_PLUS_g11P4g==\n\nEXHIBIT(S) --- CAUSE TO INVOICE BEYOND BAND
- S OF $3000.00 [J-51]\n\n    https://iapps.courts.state.ny.us/nyscef/ViewDo
- cument?docIndex=d7t3ED/Z4rcggm8dkQ0Jlg==\n\nSUPPLEMENTS FOR CONVENIENCE.\n
- \n    https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c6a10d3ec11
- a7b5000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg\n\n    https://
- saaze2311prdsra.blob.core.windows.net/clean/8de5f89e10d3ec11a7b50022482864
- 21/CE48526B-6A0E-4B2A-89B9-93BD202498A9.jpeg\n\n    https://saaze2311prdsr
- a.blob.core.windows.net/clean/a463845010d3ec11a7b5000d3a1326fe/0F6C27D5-69
- BD-4971-91F6-A5A40317CC63.jpeg\n\n    https://saaze2311prdsra.blob.core.wi
- ndows.net/clean/25aff4b997d3ec11a7b500224828654e/[STATE%20FARM%20VP%204303
- 6]Advisers%20Investment%20Trust%20[$CIK%201516523]%20MONK[CRD%201357149].p
- df\n\n    https://saaze2311prdsra.blob.core.windows.net/clean/5380dd8997d3
- ec11a7b5000d3a132789/[STATE%20FARM%20VP%2043036]Advisers%20Investment%20Tr
- ust%20[$CIK%201516523]%20MONK[CRD%201357149].pdf\n\n    https://saaze2311p
- rdsra.blob.core.windows.net/clean/e9eb965d97d3ec11a7b5000d3a1326fe/[STATE%
- 20FARM%20VP%2043036]$%203487%20$.pdf\n\n    https://saaze2311prdsra.blob.c
- ore.windows.net/clean/25aff4b997d3ec11a7b500224828654e/[STATE%20FARM%20VP%
- 2043036]Advisers%20Investment%20Trust%20[$CIK%201516523]%20MONK[CRD%201357
- 149].pdf\n\n    https://saaze2311prdsra.blob.core.windows.net/clean/3bb901
- 1795d3ec11a7b5000d3a132789/153974-2020.Docket399.FTC.StateFarmRealtyInsura
- nceLLC.pdf\n\n    https://saaze2311prdsra.blob.core.windows.net/clean/ff91
- 792a95d3ec11a7b50022482864f0/[sfVP43036]%20$2876793%20-%20david.moore%20$3
- 487%20-%20IA%208018184.pdf\n\n    https://saaze2311prdsra.blob.core.window
- s.net/clean/af081f4095d3ec11a7b50022482864f0/[STATE%20FARM%20VP%2043036]%2
- 0$3231040-2004555.pdf\n\n    https://saaze2311prdsra.blob.core.windows.net
- /clean/d88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CR
- D%2343036.pdf\n\n    https://saaze2311prdsra.blob.core.windows.net/clean/d
- 88e25ae5fd3ec11a7b5002248286997/StateFarmVP%20Management%20Corp-CRD%234303
- 6.pdf\n\n    https://saaze2311prdsra.blob.core.windows.net/clean/d585ccd85
- fd3ec11a7b5000d3a1326fe/TAX%20EVASION%20%20attachments%20%252F%20Omissions
- .%20.pdf\n\n    https://saaze2311prdsra.blob.core.windows.net/clean/db5e3c
- 6a10d3ec11a7b5000d3a132789/8A5FDA9F-D641-4B62-9D15-3AF4205617AC.jpeg\n\n  
-   https://saaze2311prdsra.blob.core.windows.net/clean/172de37992d3ec11a7b5
- 00224828654e/[sfVP%2043036]%204971235-%20$SMITH%20-%20SEMI.pdf\n\n    http
- s://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec11a7b5002248
- 286997/[SF.VP%2043036]%202876793%20-%20$david%20moore%20$3487%20-%20IA%208
- 018184.pdf\n\n    https://saaze2311prdsra.blob.core.windows.net/clean/9194
- 266492d3ec11a7b500224828654e/[sf%20VP%2043036-$3487]%201943922-%20$%20tips
- ord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20company-$3487.p
- df\n\n    https://saaze2311prdsra.blob.core.windows.net/clean/172de37992d3
- ec11a7b500224828654e/%5BsfVP%2043036%5D%204971235-%20$SMITH%20-%20SEMI.pdf
- \n\n    https://saaze2311prdsra.blob.core.windows.net/clean/bee2b76c92d3ec
- 11a7b5002248286997/[SF.VP%2043036]%202876793%20-%20$david%20moore%20$3487%
- 20-%20IA%208018184.pdf\n\n    https://saaze2311prdsra.blob.core.windows.ne
- t/clean/9194266492d3ec11a7b500224828654e/[sf%20VP%2043036-$3487]%201943922
- -%20$%20tipsord%20$%20STATE%20FARM%20mutual%20automobile%20insurance%20com
- pany-$3487.pdf\n\n    https://saaze2311prdsra.blob.core.windows.net/clean/
- e9eb965d97d3ec11a7b5000d3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.p
- df\n\n    https://saaze2311prdsra.blob.core.windows.net/clean/e9eb965d97d3
- ec11a7b5000d3a1326fe/[STATE%20FARM%20VP%2043036]$%203487%20$.pdf\n\n    ht
- tps://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=TxAa7cNVIHKtnJ
- U/ni/zvg==\n\n    https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentIma
- geView?doc_id=2020052000291003\n\n    https://iapps.courts.state.ny.us/nys
- cef/ViewDocument?docIndex=_PLUS_TlrEGCsUUcCcvtJ8O/dfg==\n\n    https://iap
- ps.courts.state.ny.us/nyscef/ViewDocument?docIndex=19MVPFXy0G0QvnmRLGpYIQ=
- =\n\n    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=19M
- VPFXy0G0QvnmRLGpYIQ==\n\n    https://iapps.courts.state.ny.us/nyscef/ViewD
- ocument?docIndex=gcMSDaFzm0ynPeXZKSHgLQ==\n\n    https://iapps.courts.stat
- e.ny.us/nyscef/ViewDocument?docIndex=au8qh7Dn66hrVmJ9DX_PLUS_bdg==\n\n    
- https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=gcMSDaFzm0yn
- PeXZKSHgLQ==\n\n    https://iapps.courts.state.ny.us/nyscef/ViewDocument?d
- ocIndex=TxAa7cNVIHKtnJU/ni/zvg==\n\n    https://iapps.courts.state.ny.us/n
- yscef/ViewDocument?docIndex=LMUE9g_PLUS_k6vCmKgfCSJEzuQ==\n\n    https://p
- ortal.311.nyc.gov/sr-details/?id=4296b0c3-c4a2-ec11-826d-0003ff86900c\n\n 
-    https://saaze2311prdsra.blob.core.windows.net/clean/d585ccd85fd3ec11a7b
- 5000d3a1326fe/TAX%20EVASION%20%20attachments%20%252F%20Omissions.%20.pdf\n
- \n/S/ BARIS DINCER\n    \n      bdincer66@icloud.com\n\n      MS6071044426
- 6@YAHOO.COM    \n\nTEL.:     646-256-3609\n\nALT.:     917-378-3467\n\n\n\
- n008 - ROSALIA CHANN AND ALEXIS BRANDON\n2020 07 26 - WINDOW NOT REPAIRED 
-   CAMERA IS WORKING  ON 2020 08 07 DOCKET 300\n2022 02 04 --- FRIDAY  --- 
- CONFIRMATIONS\n2022 02 06 --- SUNDAY --- CONFIRMATIONS\nCAMERA HAS NOT BEE
- N REMOVED - ENTERED IN THE DESCRIPTION OF THESE EXHIBITS -\nREYNOSO - TECH
- MANN  VENTILATOR  FOUND A  MOV FILE\n\nCHECK LINKS\n\n510-682 -9510  -- TH
- IS ONE...\nNOTARIZED AN AFFIDAVIT IN ALAMEDA\, CALIFORNIA AFTER MOVING OUT
-  OF 111 SULLIVAN\nSTREET\, ALLEGEDLY...\n AND HER MOTHER ANNEXED A COMPLAI
- NT THAT  I WAS BOTHERING HER DAUGHTER...\nI NEVER MET THESE B****S\n- I DO
- N'T EVEN KNOW IF SHES A REAL PERSON\, BUT THEY ANNEXED THAT SHE HAD TO MOV
- E\nOUT...\n\n\n[https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIn
- dex=PWFQc/WFihoyIKwEunaalQ==](https://iapps.courts.state.ny.us/nyscef/View
- Document?docIndex=PWFQc/WFihoyIKwEunaalQ==)\n\n[https://iapps.courts.state
- .ny.us/nyscef/ViewDocument?docIndex=Dh6CccrtpsxJlvBthb8nEA==](https://iapp
- s.courts.state.ny.us/nyscef/ViewDocument?docIndex=Dh6CccrtpsxJlvBthb8nEA==
- )\n\n\n\n117 SULLIVAN STREET\, NEW YORK\, NY\, 10012\n\n2022-03-30 - UNDER
- PAYMENT PENATY WITHOUT INTEREST.png\nAttachments:\nCERTIFICATES[COFO][FINE
- S IN THE PRIOR].pdf\t2.8 MB\nNYC DEPT OF FINANCE - PUBLIC RECORD.pdf\t259 
- KB\nTCRReport.pdf\t62.2 KB\nTax Bill — 117 SULLIVAN STREET\, BLOCK 803\,
-  LOT 11 — PROPERTY VALUES.pdf\t625 KB\n-VIOLATION OF PRIVACY AND TAX EVA
- SION DOCKETS.PDF\t80.8 KB\n2022-03-30 - UNDERPAYMENT PENATY WITHOUT INTERE
- ST.png\t63.4 KB\nMOV FILES DISTRIBUTED - LVL 7.html\t225 KB\n
-X-MICROSOFT-DISALLOW-COUNTER:TRUE
-SEQUENCE:5
+SEQUENCE:3
 END:VEVENT
 END:VCALENDAR
 
