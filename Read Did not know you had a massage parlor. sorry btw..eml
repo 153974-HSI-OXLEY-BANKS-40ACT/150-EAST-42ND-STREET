@@ -1,0 +1,182 @@
+From - Fri Feb 25 20:57:36 2022
+X-Account-Key: account1
+X-UIDL: AHQ2Hf8MNecCYgureALSqEGBTTA
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.150.140
+ by atlas310.free.mail.ne1.yahoo.com with HTTPS; Tue, 15 Feb 2022 13:32:39 +0000
+Return-Path: <OPA@ftc.gov>
+X-Originating-Ip: [40.107.89.57]
+Received-SPF: pass (domain of ftc.gov designates 40.107.89.57 as permitted sender)
+Authentication-Results: atlas310.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@ftc.gov header.s=selector1;
+ spf=pass smtp.mailfrom=ftc.gov;
+ dmarc=pass(p=REJECT,sp=REJECT) header.from=ftc.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 15 Feb 2022 13:32:39 +0000
+X-YMailISG: Vmoe1G8WLDtsnw16JN9nypKooPyg_Az4Hhze.RJ0yQzgC686
+ oRoYvY0tvL4O.6JAwva6nTEiNuo3yJrv7Ccs6uOCyt_wSegS8yM3STtn4zTj
+ xy1MOE3YqNaxA.FTq3t3ofSr5zFzG2iruZFayOU9yXMZQW4fFXFI0baM.o4E
+ KoFo9j0_b9OuHGbT6dxM17A1mJUTjkC.22UeuJ5pFVYUhQ69HE1a1fCEgV7X
+ pQSqkcJOqsXzI6yvGZ7HWG9hIm0YoiLDayVA4rfAlvD09TSGvj_XR1wseMIA
+ fpdJl_e1He1062SJFw7zm4j7ZpXN6iFrbHqBln6bfbCBsvGrHiMIqNm4F8In
+ uJ9__P05UdBtDMR.8PxyuzVfHeiMkYRnXsGvGf6nF9To3FKO2_n8RV93TvtV
+ Bf_5TWrK468flMF0iudU.TrQwYsLT3PsQg00VnwHLOYt8xMOLvbQEhyNPShO
+ sPvnR3z340aN272sjHPvX8Smj2nTs32AeJjxNPv.a1aKuK1UcR.SF1DzEDNF
+ tU1yCAsgbM.W9M6fKiPBihvjoYTC7U96C1EEolnshhISi1h2L1u2ZwCknPHr
+ df9A.0TVR.GmBY1Hf3XTsZe8mFBWRMTgFTW8WJ0oJEkellLxUCvy022_qFkS
+ 4k5gp22Q2IUq5bk9ovbRYrLmHfImyeTpOYW09.mA2KtwihSkKSJQRCFwmO1d
+ S.w0EWtP_4Cfnk__WKAoa00NE4ubmYd1Laeq6NQURTJ19iXgUTKUEL8TmnFK
+ Fz3Xxr7lkplTW9wF23Tp1JR3OSwBSSL2Gp1yOtUP42dl8K2QMZo5l0kVUUmv
+ 9h40I.ciEzaVNPj1KnJwzXaTDUvPeBP6BVO_QUr4yHQZtku8My4CEhBelaox
+ NJjtEUgfwFTUa2MZZRkcmdjRgBmt5FKaTpTJWYS6fgeUmksR4LHbCB67rNec
+ F1.0jAhPXIqGmBGy.Bop64Hni32VEsRVpBcM61iBGINmh0DeY5wbVvbJZCqB
+ UhX7E0GsUZLcXo74MuNyugG_CKPF.TQ2z0yXXEJF3BNW7bIElzEkperKJcW_
+ cH_zfsezONAb9JisMjL0jwTS6FTXlmaUGiso0pbw_6FNvQmGEhpoxHCurBpc
+ SgM2LwwMqlINMkxGQtgbbT9o3FE6DG68FtG7UaxJ0.HHpFtivWrmXhl7KA--
+Received: from 40.107.89.57 (EHLO GCC02-BL0-obe.outbound.protection.outlook.com)
+ by 10.217.150.140 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 15 Feb 2022 13:32:39 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=K2/RJ1kGkaqaYTJFi/8dzFKsxE2orDcK+IYvnnRDpc3LIb5PVzDrPHA8LU18z90O+Dk/AePyqF1lKGezrS8Obr2yuxSPwI4cGvKBQaiao+lMNo8eUMYq4TGCjjlhDXpdQqga3j68fzUHe3XXMTHoAGi1lI7vXP2c+Kbgq0t94tiEiRtNde/HATbS+LC16Zyvk/kdKuoz+CfBfXemSTx9sQEFg+HGM1lzXDiaRfdQB1huYW2ePfpG9WfbD9sQuJcH/4xxnPvu81XO9fyT83FPTwGtV5lJnHYWAtm1ZmRja/hcpekHi9kjQgM3OK16H+pn2IUmYhuSXeVgIiDWSu8iUA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=d2VSKPyXcqhkfuYn/Q+E8S/oF43Ea9L1Uxt+PKVMw18=;
+ b=nsLIhnpVaynaP0dkG1J/o2++fJsA/ocEYFEKgq60vHyz6xR94xViV2LW+UX36Y11kdXJad4D8r62xIZLVrnOv+2Y6PT9yFaLtgV3boB9RcSGnL+V7DocmCz5fUEfSzNKK997EouTUJeG1vemmoAH9BBG47appGy91JxRMTOwVfM/luLOjbXI3M8CxGc+xxZFxYzpBmTm5tGZnzcBmsVT+e7NCyHhA13cvm2qg3ioOOFfkvNy1+QDUaif+7SJk5HLSaGkTDfrw3bELD729VdvmCetjthGuXCW3LsxnsW2Xo3wTKY/jpBLFtVwkrLax9+65yRxFlgaS7Kgly/4jwmB5Q==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=ftc.gov; dmarc=pass action=none header.from=ftc.gov; dkim=pass
+ header.d=ftc.gov; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ftc.gov; s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=d2VSKPyXcqhkfuYn/Q+E8S/oF43Ea9L1Uxt+PKVMw18=;
+ b=K6L0tvroNoXFyyIa2scVevVly57oaJAh7r0oQ4E+lFoU9ojUrfUsMiMo3aLqpWXqIkTucrg8YbKTe0F804xUbILcBpIfAGw7uPLQCtIlZU2UAPBV6EUuiF+NcVMWIo78PHAArXKo6jum92jdiGCYyHm4wDPQAFBrjuqENzZ00uE=
+From: Office of Public Affairs <OPA@ftc.gov>
+To: ms60710444266 <ms60710444266@yahoo.com>
+Subject: Read: Did not know you had a massage parlor. *** sorry btw.
+Thread-Topic: Did not know you had a massage parlor. *** sorry btw.
+Thread-Index: AdgiZRmTOJ2DUkG9QXqjsCvsnq+A5wAC0c3z
+Importance: high
+X-Priority: 1
+Date: Tue, 15 Feb 2022 13:32:38 +0000
+Message-ID:
+ <BLAPR09MB672160839B2537CD467059BCAB349@BLAPR09MB6721.namprd09.prod.outlook.com>
+In-Reply-To:
+ <!&!AAAAAAAAAAAYAAAAAAAAAJAY067VEMBEsaDzXyzyFJ/CgAAAEAAAAHXe5sqEfJtElhpd9KZ9mswBAAAAAA==@yahoo.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-exchange-messagesentrepresentingtype: 1
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: fbc5d287-170f-4813-f78b-08d9f087a237
+x-ms-traffictypediagnostic: BLAPR09MB6082:EE_
+x-microsoft-antispam-prvs:
+ <BLAPR09MB608288AD0B57667F6058BE3CA5349@BLAPR09MB6082.namprd09.prod.outlook.com>
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ G7N48gpedhYeRKaTX8+YkfngWh2rc+Mb39UJJfqBqDah7LzC9Hte7fUt5gDyomZs2UwqtR0RHO46T7oXBeLNUsJPp/dCttjLUkFOOeP6DJ+k2qTmA/Q4i9UOWJUR1f1pp+LZsSNp0tiQ1Vioocqbu4alnk2uK7+E4NL4shJtd7qJxS8v5lfnQNK39ENyogISyf2X9PsdNvtxbS67GpfwG442FPZjTO13zSa7ezI7GSE3voeLWEOSzhbgsxe9SCGyfYCZ6aWJ0Ag8ExeFju5GjA2NeviTOviwRH4VMiFdcm9s6tLBcM8A6NiWWAntkEarqQINNc7eRSBHgD+5Zh6tORNcam+4FkjY4sPpVdNKnWw3YpGtIaGzwKYyFs3yfaWmro27hTJW6P/rzbgisN5+9NpIFxDZPXb+LqONZo3gilH74NiizbGZaUO0B12pVJIiN4NYaqyhh9JGOP+l9+XKiw==
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:BLAPR09MB6721.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230001)(4636009)(366004)(38100700002)(122000001)(316002)(64756008)(42186006)(6916009)(52536014)(8936002)(38070700005)(2906002)(86362001)(8676002)(66946007)(66556008)(76116006)(66476007)(66446008)(4270600006)(9686003)(186003)(26005)(73894004)(621065003)(508600001)(71200400001)(33656002);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?DLUUBLxhSNXwcW0NkfwTjB9twGznk9F/faugoY+0IwnKbAER40A7EblTSa8l?=
+ =?us-ascii?Q?JmacTqBs7MAY7v0j0xTxhTDoTpfn5ggRuyAPqRyIJ6D9K8153jg5aPMiaILG?=
+ =?us-ascii?Q?kIIEK9ClnSDUp5lkv1jazKvALAaTo/fJ9rWl3HpGWWhBLOVSCzFkRrDgmbjq?=
+ =?us-ascii?Q?+0sec6hYqb/GWI1gdIsBuaapBENTnRhaQalwRxYl8d2/8rN6f+rqB3N9KZ4V?=
+ =?us-ascii?Q?PH5SR6mP5kT2YyEDZEEzWzac7FGQ2f2xRSgo+plymdn4IsnzqvgDQcS9XMhb?=
+ =?us-ascii?Q?AFXAoaeRQ838mJOJM5l4sesUJOPDB+5yV1KOpqlFoyTfPAYHo75owPgCirWn?=
+ =?us-ascii?Q?7gJh6HPnPgdyryocbozHZl836H4oLIQCC5WEquFOeX1h1gKQFkOlMwWQricB?=
+ =?us-ascii?Q?v81lx2L4txCuX+g3SpGaGSBh3MT1+C2vKEA8+aQYbquHD0SEtXpceK7MYd8l?=
+ =?us-ascii?Q?nmNm8aGqJiANS6oCWPy3dZVm2NEUD0jLfD3/FkiFyAzwUhjAUc07Zk7A2TXP?=
+ =?us-ascii?Q?YcBC6FOaVBfYm9Y59/l6NY0lrVzNyWQPFA8wTDL1bJmJSv4AwWyAcqeBRZXJ?=
+ =?us-ascii?Q?xmYZLRiMVVUb+356jXfh7UdCKxgm2mYG0VXL9ZA8MJ5m8X6SrHBTW7eMojKm?=
+ =?us-ascii?Q?I6R2zC+sUa3wgGV/FRtd2QtF1YoFxIQapA+I+gFlteQpx/wONFaPAvYMM4Oy?=
+ =?us-ascii?Q?4+883qyROCRj4bSG6SBcBwG3vrISknsg89MehwAzX6OB68lc8Ewm8lqOm9To?=
+ =?us-ascii?Q?Qsj5sA/rELuZXKHsrNzMI9VkRsHJcgscGxi0fU7pqn82dD+lhXkuLmJLs2Zx?=
+ =?us-ascii?Q?jkn6SvGGb08pOFiH9F+pkyeRBpN2d/FveTyT2YYbqb8oF5zWX8KggipLpLaT?=
+ =?us-ascii?Q?Y5wuVg2aOXW0MFufzNdcyefmtIEI5BtdD6QNBcTShl2yJm+X+z/ueX3Nd7at?=
+ =?us-ascii?Q?cgBUi4t0wXCxLOkXdDN/KZOcaELQuM3X2ex/eOzM+KEoYG/pIY8adQtqmY7k?=
+ =?us-ascii?Q?NUipv5LrfXgsulpKZnoRa0ddslCsyKJC3yVcj/PsQjxQQ1khO6N00FMyZAwB?=
+ =?us-ascii?Q?FLVWWPGbs4nRaKNHuQ/5C1aITiC9zNceXNS1h2fX5DPz7jz2dBXyVczXxZab?=
+ =?us-ascii?Q?IP07eUNDkcjrMoSvXrkebZEbjdTDLlXYsW320QJldMoCJmP338j7MVWXKhQs?=
+ =?us-ascii?Q?IFgBfZjEmEjH9+lRZaLewoMtOLHIonOVYg0IJIcn9tKyTy3SxSflUWIJZP40?=
+ =?us-ascii?Q?fDVqV6QI1KT/gm1hMi4eR6UW1yPqCLv5pQsAUOUZdWDI8r9bQomqCxzSA1DG?=
+ =?us-ascii?Q?o5EJs2V72Tg3NHoAr4aLKHkS?=
+Content-Type: multipart/report;
+	boundary="_000_BLAPR09MB672160839B2537CD467059BCAB349BLAPR09MB6721namp_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: ftc.gov
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: BLAPR09MB6721.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: fbc5d287-170f-4813-f78b-08d9f087a237
+X-MS-Exchange-CrossTenant-originalarrivaltime: 15 Feb 2022 13:32:38.1370
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 7302cabc-5af5-469b-af17-700007935a01
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLAPR09MB6082
+Content-Length: 2014
+
+--_000_BLAPR09MB672160839B2537CD467059BCAB349BLAPR09MB6721namp_
+Content-Type: multipart/alternative;
+	boundary="_002_BLAPR09MB672160839B2537CD467059BCAB349BLAPR09MB6721namp_"
+
+--_002_BLAPR09MB672160839B2537CD467059BCAB349BLAPR09MB6721namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Office of Public Affairs
+   Subject: RE: Did not know you had a massage parlor. *** sorry btw.
+   Sent: Tuesday, February 15, 2022 7:11:08 AM (UTC-05:00) Eastern Time (US=
+ & Canada)
+
+ was read on Tuesday, February 15, 2022 8:31:46 AM (UTC-05:00) Eastern Time=
+ (US & Canada).
+
+--_002_BLAPR09MB672160839B2537CD467059BCAB349BLAPR09MB6721namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Office of Public Affairs<br>
+&nbsp;&nbsp; Subject: RE: Did not know you had a massage parlor. *** sorry =
+btw.<br>
+&nbsp;&nbsp; Sent: Tuesday, February 15, 2022 7:11:08 AM (UTC-05:00) Easter=
+n Time (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Tuesday, February 15, 2022 8:31:46 AM (UTC-05:00) Eastern=
+ Time (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_BLAPR09MB672160839B2537CD467059BCAB349BLAPR09MB6721namp_--
+
+--_000_BLAPR09MB672160839B2537CD467059BCAB349BLAPR09MB6721namp_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; OPA@ftc.gov
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: cAB4ViErXEeU9vWClWoKDw==
+X-Display-Name: Office of Public Affairs
+
+
+--_000_BLAPR09MB672160839B2537CD467059BCAB349BLAPR09MB6721namp_--

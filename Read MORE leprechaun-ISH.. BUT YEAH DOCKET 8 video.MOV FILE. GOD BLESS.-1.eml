@@ -1,0 +1,180 @@
+From - Fri Feb 25 20:46:38 2022
+X-Account-Key: account1
+X-UIDL: AC7soMZUdzAnYgGSfQG5aOOweDA
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.130.80
+ by atlas102.free.mail.ne1.yahoo.com with HTTPS; Mon, 7 Feb 2022 21:43:44 +0000
+Return-Path: <crcmessages@ftc.gov>
+X-Originating-Ip: [40.107.91.50]
+Received-SPF: pass (domain of ftc.gov designates 40.107.91.50 as permitted sender)
+Authentication-Results: atlas102.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@ftc.gov header.s=selector1;
+ spf=pass smtp.mailfrom=ftc.gov;
+ dmarc=pass(p=REJECT,sp=REJECT) header.from=ftc.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 7 Feb 2022 21:43:44 +0000
+X-YMailISG: m6MW0VYWLDvXWYYVApNbcFw3gPak3u39HzvoAOKM180OyTTb
+ Qyv_F0I1B.gjPu5u8xGaABlaBUQHsjPCodH1fOxrAKkroGsY6sut6XeLcqES
+ CLqeCF_Z3gBM5rFDgVPNsBlx_N4mRhs77GFCHpM4cxcm9vEqydcORcy_QOk9
+ ZiwmikCKJrmLmltTMweNpsjKqJj1RC1RG6jhzHr0GpvjDBBnmjwDjymeBD_W
+ QbuTVOeSLlVcWRIbMSTDE2.rLJvX.upCRQitND0kF0ZXPEFiUohohfvUdzT1
+ cGVWK5.BZ5nDkRlJQjXli3tAi9COaRxhedgMJmIp7.FgbxO.RzsS3DLb_YKQ
+ KCajzKT94MsiwBwBqqHWZIxsxaUj2oBKUOhiEmHaH5U9g2wvo5hpRhPhOVo_
+ so1MFrnQ.VFgpjVAxb8OQB7wT97yP3UzsdYjPVBzu2xTWpvWcj1aVihExumB
+ KUMIriSTeb6OUompraj632uh485BH1tRK1ZThn9vORcKDF4_4v9lzyYSBToi
+ HEIb2PyH88KD5bmz_qTvb3DeYVwp1fnxuRAYcn9YRims5zdCjc5MVH3qLW.o
+ T2e4f6g8baMkHOMPRJ2OqdppDFnVHjaVSAJFUqeTkGJcBttrC.q5nD4gySHb
+ 2_Trin3e67Ij8VeSHkEQvL1XSTXfzmxBfr2cxxdHpiua7nOZEIxmHaFCeylU
+ 1zmiugDcXrZCKN6GhYlb551Yyg.xK3MPqcIEMu0dwAhnDOYN0_k1SXfct997
+ JDIZT.u5tZrNa0Em2TkKqc7XG.Ojixmtr2MSXYm1b.LlQF1wmfuM0T5_DBJW
+ 9pV8G1vR3PzI2kKpP_9QSPniMnb1rZqBbFf8qOujZLS_YrvuJjY91sYwpZrW
+ Hq49LkbQGp6PG8kql.fQNGi4cifQORK_61kzFw0RjQ3mt.rD93ndMKdwmWVL
+ VRoDEK_3o8S8_Dj84npS7yOUzj4tpiUnwHgSPzr8HaZiO_PbmfAN09dd7RAD
+ 8MxjJI_6jYMchTCu87iw5a8N.oz0MRoYRwto3Rj1JV8lw35TpWtnI05ELmhl
+ vAQJ.iqO3yaD35fyAMHZxiTZxmPuP2rx_gJBtd5iymq5yViX7cbEeMsQn_KT
+ cgpUHG4YJyUnDjiWDlDLEdzS1k0VZJlYdkewK_xlQb8VnAz3e06.h7TO
+Received: from 40.107.91.50 (EHLO GCC02-DM3-obe.outbound.protection.outlook.com)
+ by 10.217.130.80 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 07 Feb 2022 21:43:44 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=XRkiFt7hJ1UctRznq0ZyJVAbcc9xvLAJLHeCiHO5y5P5SEImJPajpf6S8TWcSm0snBIcpTJ2pRN3oGWwFrRzCSYuNNH9IdtXoVBcXrClSiX48KCWpC3i1BXGzMFG99bp7vQYq7aWurZdYHzThukRWHEBsupIoaYOY6XxuuIZxUslQwoThtvFSqP7j5qyV2cZa7lWoOC1h/c3FBqwIW5/y1GboMbQ6p2onOiczPAijpZ9gkqhebSLcNCJ0MIRMdcdYUQtoibi6KnSUyW8lwo0YHUgvKVp2T6Ub3/Zvk+h0UpNb8BDVeH5mzIj22zCiABB6+m1L6OWutdUb7DxYORdrg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=co49VZXK8gE6gY3/cUEX2eu+7jUM8n5TW74Hxs7nV3U=;
+ b=gy0rNSxhZ6ZlGSpDgJPF+36BeOuh2drQnH/Bbre65188T3dLUwIJheP2MAGdcw8tb9CMP6qgm8xDYga7ycfHPrwwDJP/TiYV9OGOSnrh5zEXKhaevCxScd19novjyssUEKmGzbSXE8zWRHPNOyTiI8DaQzA4VZCkc2P1L2llRRZrh5jTgMh4btVDLFVEZOU5FJPeoLNp5PR7MMyd1aDHZgS6XQTpg9RZkt0wjnjRg7htNdm4UQiX1fECqTKlMZqxeGGqmgDXALYWR3E5Pm76G8jLdAz25mDnuzLImMdp3ONggJbyUIoncaf2QTQR/DhAz+rWeLzRoQfzR8utHZSnFg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ftc.gov; s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=co49VZXK8gE6gY3/cUEX2eu+7jUM8n5TW74Hxs7nV3U=;
+ b=AB5d5KBJQbfB5GW9x7hZR/PilpnhdZp3qmPP4OR6/CpanRSq1rWBCzBR0Al5xP6uxB4Dzw0dtsu8xcoXU3qnTsoweprabv8tQWjiuv84noaY44xlxCstJ1+EDgkMdle28yrdAGdwbsyR1zBdATUZJZ7VbV4bCCZAUOAwjOG7wKk=
+From: CRCMessages <crcmessages@ftc.gov>
+To: ms60710444266 <ms60710444266@yahoo.com>
+Subject: Read: ***  MORE leprechaun-ISH.. BUT YEAH DOCKET 8 *** video.MOV
+ FILE. GOD BLESS.
+Thread-Topic: ***  MORE leprechaun-ISH.. BUT YEAH DOCKET 8 *** video.MOV FILE.
+ GOD BLESS.
+Thread-Index: AdgbPrPFS3S8/OkuR9CA5+QhnPMDcQ==
+Importance: high
+X-Priority: 1
+Date: Mon, 7 Feb 2022 21:43:43 +0000
+Message-ID: <48b9c56db0f94266baac59440d4af1cd@ftc.gov>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 8d67ab9c-65af-4827-7ced-08d9ea82e97c
+x-ms-traffictypediagnostic: BLAPR09MB6339:EE_
+x-microsoft-antispam-prvs:
+ <BLAPR09MB633945A4AB8359935D16C879B12C9@BLAPR09MB6339.namprd09.prod.outlook.com>
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ yt70pm6HfgJEl571k1w/7vKVtVvc2InL/H3sYvTMfTy/GNkzYWPjIaupK//ZxydjLPYxe/FSlD7PJMT9J27z+hqcfSLt0eHAhCPA7uviGjPPlIb6mYcxby0oj7eiVp/ifZM092ikHA17qA+SuOXh5OmncvzNqaJp9xb/a7RL2ugBUTX7szgBK+u9isUIxa517hisr3C9l1OioWQQXDGQ2oORFkllXxUpb4oIlSxnxmietyrCVpMgUBAY3BzwA5e65bUGDRfAYeUjMH6TSjCY5sOfgIzkiCkX0l4GXXoWIDdtCv+Pr9377KjycqEPvMgX72X20T2TGqFcH1vR3f1Ws3WHvKgCVPBXz11KLqVbiQLnpGcGTEPY8G0/8GX3xK4A
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:BLAPR09MB6513.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230001)(4636009)(366004)(4270600006)(186003)(36756003)(66946007)(42186006)(66556008)(621065003)(2616005)(73894004)(316002)(122000001)(6916009)(64756008)(86362001)(508600001)(88996005)(108616005)(24736004)(71200400001)(66476007)(2906002)(66446008)(8676002)(8936002);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?LuiluNLY9M3m6WBOdMDh5ekb1izF5iaIuSPG+0p5PJzbQI11cCxfW3PY2B83?=
+ =?us-ascii?Q?kV5EGgPAWE9hNEahW2m6V4mtwHiHBhr80xULbCGnzZjanmjwCW0ROmJkkAM3?=
+ =?us-ascii?Q?dlU/Tf1qEmOUNqgpiS1WXz8gnSGgfuUQlzcbQpv57M1oplHbVpws4qPECSfb?=
+ =?us-ascii?Q?UuRBk9szE2Sk0QR3aQBKIQ78BQJNL8lmtHgVzx2fJqeRQX7jzDlST6oKYRAE?=
+ =?us-ascii?Q?sP7EI14T2CGouLdftpGPHXU6BHGnuJIILTj3Xzy6fcmX4SXo0oq6YxdimhLD?=
+ =?us-ascii?Q?mPG3tR8jfdD1LFkLXQliTxHDnGGkrW84jEx3b18Uw/6LNr5TaJu5kcoUTyDr?=
+ =?us-ascii?Q?k1DDo8WvmllQoxMMEbTFiqQTnLDNKh9mXW3ZGFjQeZVfaD5jChGyldedS5BB?=
+ =?us-ascii?Q?rPOvT+HOM8TAX/GfCtb0IGtuFfLuZym80AcMXwOYhETyFvb2Gae6zjYBXzF7?=
+ =?us-ascii?Q?iOW76nAl1TCtPUXFdbZkUqdCBOaopR5EGewuroetWGL7W1/0WSeJoBmJXjjK?=
+ =?us-ascii?Q?QZ1ZHHElDae+Zfrkw0aqcNj1M5JEgH2k9p3zW9AIPjGNneJpZRkFJO9GRY+3?=
+ =?us-ascii?Q?9mu23DhHc1uJSyskyi3IPV+brau7RXZRw9fDJRZCLFBMhGQhDU+MbEOCdLbA?=
+ =?us-ascii?Q?BQI0J4jl5O8UV4h8kRrjXuD83jiUfe7QooUg7837njil5sgl3OTwEq2ujH4a?=
+ =?us-ascii?Q?AGg7/3ZMbSBBbgEejpDwXH0dGlC6PZt5fI10c3+jdS9GYy+Oxt9Veye1LmO7?=
+ =?us-ascii?Q?4KnohoUgi77XfkWAWlOwD6t2HyiL6UsmLuOEiaDIa9YLtyQ10FE3ZFfZp2bW?=
+ =?us-ascii?Q?p9Jp9xNlStcRPEhMWMA1lWqQTlwXYVwMs0HEKhqXK+8xnrcv82sCXzu718b7?=
+ =?us-ascii?Q?fUFMaARHLBPMRvy2vaYMEg+pVTMJyF1Puob7/G6FugtiuJ6d7obm+cKD7J3b?=
+ =?us-ascii?Q?EDPNBV8mpyLi09uc32ZLK2oMrdHEkW+HS7/OgqihZGGqGWBtB9s+bCwkxkp1?=
+ =?us-ascii?Q?pte9P1iYJSVCP/9TyB5McJwPWLWA9uUTj8zrQ40Z/pl0OXIUk44IGbkzoqyP?=
+ =?us-ascii?Q?M3ilKpOWgeQ12d/sNRQhxpzrrZl8mFCqYEu0nEriMVFWqRnRY0Gzc4OrMEuP?=
+ =?us-ascii?Q?TI+YSk+ilvgjIl0PpE2QZJgwOGXZmJDljtT+YPkSXJD0wFOBbN/mGWWqM39J?=
+ =?us-ascii?Q?Qwst6zTmK1j/6kmT?=
+Content-Type: multipart/report;
+	boundary="_000_48b9c56db0f94266baac59440d4af1cdftcgov_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: ftc.gov
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: BLAPR09MB6513.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 8d67ab9c-65af-4827-7ced-08d9ea82e97c
+X-MS-Exchange-CrossTenant-originalarrivaltime: 07 Feb 2022 21:43:43.2909
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 7302cabc-5af5-469b-af17-700007935a01
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLAPR09MB6339
+Content-Length: 1985
+
+--_000_48b9c56db0f94266baac59440d4af1cdftcgov_
+Content-Type: multipart/alternative;
+	boundary="_002_48b9c56db0f94266baac59440d4af1cdftcgov_"
+
+--_002_48b9c56db0f94266baac59440d4af1cdftcgov_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: CRCMessages
+   Subject: ***  MORE leprechaun-ISH.. BUT YEAH DOCKET 8 *** video.MOV FILE=
+. GOD BLESS.
+   Sent: Sunday, February 6, 2022 9:48:35 AM (UTC+00:00) Monrovia, Reykjavi=
+k
+
+ was read on Monday, February 7, 2022 9:43:43 PM (UTC+00:00) Monrovia, Reyk=
+javik.
+
+--_002_48b9c56db0f94266baac59440d4af1cdftcgov_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: CRCMessages<br>
+&nbsp;&nbsp; Subject: ***&nbsp; MORE leprechaun-ISH.. BUT YEAH DOCKET 8 ***=
+ video.MOV FILE. GOD BLESS.<br>
+&nbsp;&nbsp; Sent: Sunday, February 6, 2022 9:48:35 AM (UTC+00:00) Monrovia=
+, Reykjavik<br>
+<br>
+&nbsp;was read on Monday, February 7, 2022 9:43:43 PM (UTC+00:00) Monrovia,=
+ Reykjavik.</div>
+</span></font>
+</body>
+</html>
+
+--_002_48b9c56db0f94266baac59440d4af1cdftcgov_--
+
+--_000_48b9c56db0f94266baac59440d4af1cdftcgov_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; crcmessages@ftc.gov
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: CEdKONWi3ESjjYz0NgGPRw==
+Original-Message-ID:
+	<!&!AAAAAAAAAAAYAAAAAAAAAJAY067VEMBEsaDzXyzyFJ/CgAAAEAAAAK6Zx09TuE1LkHRYKizLEmoBAAAAAA==@yahoo.com>
+X-Display-Name: CRCMessages
+
+
+--_000_48b9c56db0f94266baac59440d4af1cdftcgov_--

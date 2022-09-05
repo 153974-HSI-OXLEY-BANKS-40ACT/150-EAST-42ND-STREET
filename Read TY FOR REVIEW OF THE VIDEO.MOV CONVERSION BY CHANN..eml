@@ -1,0 +1,180 @@
+From - Fri Feb 25 20:45:40 2022
+X-Account-Key: account1
+X-UIDL: ABX5TC1lxOR2YgEheApQoHKlLwU
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.231.25
+ by atlas204.free.mail.gq1.yahoo.com with HTTPS; Mon, 7 Feb 2022 13:41:12 +0000
+Return-Path: <OPA@ftc.gov>
+X-Originating-Ip: [40.107.89.69]
+Received-SPF: pass (domain of ftc.gov designates 40.107.89.69 as permitted sender)
+Authentication-Results: atlas204.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@ftc.gov header.s=selector1;
+ spf=pass smtp.mailfrom=ftc.gov;
+ dmarc=pass(p=REJECT,sp=REJECT) header.from=ftc.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 7 Feb 2022 13:41:12 +0000
+X-YMailISG: pc621xMWLDvS5_O7WeV22mEYbPzcKfeZLOT_EyyERlgO8zS9
+ qINRDYBtaTcYV15vk0Ba8hmQu18QeB4nCv63w9fhZ4YT5Bz5yYsXY.dUH_hV
+ vkP5iI8UHBPsAE3.4oNf.mWt3GW601EsuQ7ziVDNCee50Ms74SjEiyGrsHt3
+ RDNSz3rOpmTArB61psxxGclDTJkghh.YX7D7h611eMdh1g7UpiXn8NejcXv8
+ 8Sp0VL9ysnzlAJ84W8yD8LXn.HwHigiwtLqzs.4z1vxm74DMFaQ_dZ.ez1jo
+ wmfuCu689v7JCvb7xSN_uqjD4QPRGqD9.rgJPZ1GtrSu44fVnXOAhYHMtRZu
+ ZMWcXZOprBdPJuVJX.yHQPp3XoNCnT0wwjZWXFbiegBIUqn517ApnExQzoP4
+ L3igk9UBWPDmMyr8nOITNEsm6d7E9zmlnQklFmS4BsNcmzOJYVOwPJuSoXKj
+ mp4Sh3sedkprTbhTnWf6njkm4kM7Oj2W052mVy5WMB5hjK8JBw3M8Jn3NxxZ
+ 8S4oqE929LZjMzxslgC.NQ1xBX_0kRlvIKBvaweQ0EjBcYWqqrfuXWfr5W8V
+ aoveiLx5Hdi3VvSCbtJTYYHMotd2NxpCI_zUzfdwwHeguLhkbxYoWl0.gCCv
+ le5wvjmPZcUZPXPhQNHgDxhrh6qA5ZlcAvZRLLdFdquKwqohy3u3scRHvAV8
+ E.7y61DRqRREFNC3XlDiXzWW87IvXSmzjkSXg5RZQvNaksMYkWl2xhjjCNkC
+ _2rHu1Gy.81rRIlXZVi_uYN0xL6_e87Q1Va31gLwQm7JR6COwBYBmG3xYBcs
+ E.z4utlWoyBtVal4HzyvRh0xfb90LCqzTlWlc32EPhDE4M1fLjB3l3n84vP7
+ KEzE3Yb_TYXAguVxz3mRL6UU1.6xJlczzg9JoFfzzL7FJhk5DNwj8608rQnw
+ rQWm19FC32SFnz0rMkvIZN5rCAbVXL80tpU5xDCfORZQXEUznyVxmleHaW0C
+ .gSaeT5IpmeUPnrvjnmUO8rCeg0DuinzJ1XNuGVsIJfMmm4VnVZtg6Ryimuw
+ ivKxUvqredknDSj7FKQGLg4g49qXGY_XpwLWKxkuk9hfmI9..DKL7OmouFnp
+ QutEfQI2VIKwOmenaKkCQudi4aJggvOcYK0K33vqFFYZHSAtDXOa2avj6wQ-
+Received: from 40.107.89.69 (EHLO GCC02-BL0-obe.outbound.protection.outlook.com)
+ by 10.253.231.25 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 07 Feb 2022 13:41:12 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=Wzci5vNrsuyl4/pdvbZJseR2LYIw44Mr653pj4V5YK//rKNuXOGaP7aV8ViZSXh0CxHZHW8Akko6HZZVQkKFBKASS0Rr80cQ3gGCXR84+0rKC9w3VQrtxt/TkM+juwwobXGmhmTA85qR7lFoXYvHNwUdwHqUUEzLcHsBJxHIUHEEQU4RnvWQGDu8Lq+7zyB72a8PSbsPgAtZdMRutpqMf5HH8s+ECZBshaCn1B7aze7idm7lJ9CZjYt2fznrX9bsJqlxupAAQMXtA8/KnavmXIO2I6mK8YUuyfFjBcDFajEHG1Zq2bOoqe5cje1JTMLfr2LiKGorLyLWr3rRPRvjDw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=w971pNPkJGRkXQuNKrvygUB3r2NKSq8foG2eMBIkxOI=;
+ b=g+yhoQ2Q4bpkDd756a1jUjWryD8nGYanD0C6dQQ7dnUedDv9LtRrG0Rlfs1Z4fvy52IH9C7ln3EWHmeGpEUFY1hmB8MD202D8MaObyqC98trD5k5t+KyrrAwSOV4PCq7IhQOI+Bl6U5z5JSKvV61jpcIuxd1QYzp8zCc4Q/eQAV0wQGtl0al2GZqN31EIGlAtbGAbwWVU5XERRwpysFHvCgqHW/O2xoYWLtBfwMolXZgoPWIL3mN/3M0EuhD7Z9/uSm39tVZK58tGW38UPkBHPjjtLaWNjfQREFdXl8q0pqvATNlvmVFY/vzriCRXiSf6YhlioZ8gFL+0wpVgUDTfg==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ftc.gov; s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=w971pNPkJGRkXQuNKrvygUB3r2NKSq8foG2eMBIkxOI=;
+ b=BOXwAjDYJ1flrwbRWefovpvCian1GJ/k2xhvwCfBD4+IK6N325+CKW7a83byDCoshsV4A/r0vzKZePIpp90TYWcInLQuJEAraawMSG/CiuIdGrjGsJW0WUI8h74E/mcyjn7/v2xOwJWjPlROhWzq8QWJxHWzv6tsRABUChBQ8HQ=
+From: Office of Public Affairs <OPA@ftc.gov>
+To: ms60710444266 <ms60710444266@yahoo.com>
+Subject: Read: TY FOR REVIEW OF THE VIDEO.MOV CONVERSION BY CHANN.
+Thread-Topic: TY FOR REVIEW OF THE VIDEO.MOV CONVERSION BY CHANN.
+Thread-Index: AdgbPAntYe4VmWLdQWyXpYvTlrzT8AA7Ea47
+Importance: high
+X-Priority: 1
+Sensitivity: private
+Date: Mon, 7 Feb 2022 13:41:08 +0000
+Message-ID:
+ <BLAPR09MB672150E2A91B9ECDDF3F5902AB2C9@BLAPR09MB6721.namprd09.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-exchange-messagesentrepresentingtype: 1
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 73136b83-7b44-4e81-7da1-08d9ea3f7f82
+x-ms-traffictypediagnostic: BLAPR09MB7316:EE_
+x-microsoft-antispam-prvs:
+ <BLAPR09MB731632750F4778FCB48F2FCCA52C9@BLAPR09MB7316.namprd09.prod.outlook.com>
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ TqL2fEo5HRd2W8YQPQsBF3YH1hGG42R4JCRNGw6BMSMygTB8tZ0XCtcS9ai07o2ZaB/QqF99qpzbwPCAMo726Vw45NhHK5tahYgmChDAODB6i/R9VwzoMr3kUsEfvLJ/nIEvoQQwntMXcUcB6htncG6YVx7GmCzxyTeZcCBdi7L5PY6AEbAsH5dmpIKdEqtyd60pJL7XJDMTlEBaTZRVg/zXMu92uPHxIjbNQR8K+j9P9ufbvqQBmB6NG4hvNOmBzd/Bc3j/V8I6h0sLNOljg2kic4TeSMQ8JpuHnSveTZw8ESsTQd/oa8IjL+4SX4A72La/K/gga4ehxn+f+Wh6ujniBh1IrQudxCpuFnceizO0MXMcsHUAqVLpcSUAS9YOScH0CGyFCapfKkVBU15OEyhL06ytJbWjDs74R6cfpx07YAujHzyPSow83iK0M6ERp4XvQ6UujphYgabkBrALdA==
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:BLAPR09MB6721.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230001)(4636009)(366004)(38070700005)(64756008)(33656002)(66446008)(66476007)(76116006)(66946007)(8676002)(66556008)(4270600006)(621065003)(73894004)(316002)(6916009)(122000001)(508600001)(42186006)(71200400001)(86362001)(2906002)(9686003)(186003)(38100700002)(26005)(52536014)(8936002);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?dmST+/KQeIZ421OkkmmZXrB3SqUu7+AovcyheuUuFBL8pSxr8ktiu3/OhaEI?=
+ =?us-ascii?Q?DNruts+xtmkZLCuyZX/Pw65R93Wiu4avC4IMmLDjr8ZQoxjq1+mwjjxRRv35?=
+ =?us-ascii?Q?uqkP4OjLuRMbwDPzSyVQwnUdQ5Lu1CskpTUrE9TQYG5gnfj/y2ryhDQpLsZy?=
+ =?us-ascii?Q?UEIRd8n2kxzP4HWB8B0Lgm5GSs6GGXUxFUxsEzw7PLvZpSC2lIAaycxSROt4?=
+ =?us-ascii?Q?2jFdOAQq8UCkP1QCgwUzYwug92ekPX83WBEvFcpjEbapdsL/liefR8MtWZCx?=
+ =?us-ascii?Q?+LpVPhQzqPJYcXhQ02rLEU+2TrScKTa6oSx6UjZQxPf2Esq4wsF5vLlBpPSX?=
+ =?us-ascii?Q?zrKamGLUPLforavMtGO7ffjtCcjQhzXDBI4IGg45bYqroLy11jNsLa7QWiGz?=
+ =?us-ascii?Q?ionQ+78pCz8uqiBYpJbtfREsVdovzMr6y+dWkWMXCB5r+V2K2so7y11+OtoA?=
+ =?us-ascii?Q?k1Zd5EuCb2oVhGDXsJBLK0G7cDi8Y2Bq3bRVxdjQ+LQQgAir95bCzor7GR3m?=
+ =?us-ascii?Q?YzIw86fXeQ0Ip0++MDlbocrIbIrfFKavp8R62+LaLORohFyPtsxaw+qbpvov?=
+ =?us-ascii?Q?3RqWWEs7eRoXPGyo2SbjkFtQ/j6XP4bDjEcM2B10X5XIj36/QfpfLwyCx0BT?=
+ =?us-ascii?Q?j9DKCwJnnRK7up+/aG7zwBi0p0IWw13y9Ya0uoG9QoX0zT9iDfihEjZrpd69?=
+ =?us-ascii?Q?CbaGmy/jbEnY5kRSJKCmKhRUCvsVcYQnE0p9NtbTsQu1IzMK/Jat/STQiau6?=
+ =?us-ascii?Q?SSsyzWnmhw9wt+p/jVtVNovXlQzELxXsLepuOaAOMZUH+Ck9VT7++ZN5dRKk?=
+ =?us-ascii?Q?XLK2qo/83FQATer/cq65DrwBts9JPcWBW5pMCqCofbYDDe24ASJeUgy11zdI?=
+ =?us-ascii?Q?qlhAtik/9Z0GjDcIa+rqwAjm+ptM+PVjwe5Ep2GvO+WOA/+wNFfJwuowBOgi?=
+ =?us-ascii?Q?lf2QrIPlO3iSwwNcow+7plbvkEEMYpUTYN5AB6LNgQPz7dvwHM0FlMGp2gnF?=
+ =?us-ascii?Q?b2hOUsc9iqLJ29ts4AsZP7T8KrkzGOCcSkLnjbhsDkIXoUbb330nqf3eCqu2?=
+ =?us-ascii?Q?ioUWE82Ha/xPocl4Lq9+6nYtpR0aAN2nY+sIzGvOa335DoWyRiAMFQYLquOQ?=
+ =?us-ascii?Q?1xkYaEt/TABK4kcomcik7rojQXSKhfbyXft8HsUj/Qb//EDYiBN/DRx+hWOt?=
+ =?us-ascii?Q?I/wyoznSRyI0vXzExsJ+oVSSDu7P09x3npZK03gcKIzA+qArdcFt5dBbfgKO?=
+ =?us-ascii?Q?VRwq+LcyeS+0h8kWW4U9OCLDba9BvWbIVtSW05E8d9jlVuC2wevxVO0Fw3EX?=
+ =?us-ascii?Q?f4vz8qG636GdBfVdX2ACbdMi?=
+Content-Type: multipart/report;
+	boundary="_000_BLAPR09MB672150E2A91B9ECDDF3F5902AB2C9BLAPR09MB6721namp_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: ftc.gov
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: BLAPR09MB6721.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 73136b83-7b44-4e81-7da1-08d9ea3f7f82
+X-MS-Exchange-CrossTenant-originalarrivaltime: 07 Feb 2022 13:41:08.8827
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 7302cabc-5af5-469b-af17-700007935a01
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLAPR09MB7316
+Content-Length: 1994
+
+--_000_BLAPR09MB672150E2A91B9ECDDF3F5902AB2C9BLAPR09MB6721namp_
+Content-Type: multipart/alternative;
+	boundary="_002_BLAPR09MB672150E2A91B9ECDDF3F5902AB2C9BLAPR09MB6721namp_"
+
+--_002_BLAPR09MB672150E2A91B9ECDDF3F5902AB2C9BLAPR09MB6721namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Office of Public Affairs
+   Subject: TY FOR REVIEW OF THE VIDEO.MOV CONVERSION BY CHANN.
+   Sent: Sunday, February 6, 2022 4:37:03 AM (UTC-05:00) Eastern Time (US &=
+ Canada)
+
+ was read on Monday, February 7, 2022 8:40:48 AM (UTC-05:00) Eastern Time (=
+US & Canada).
+
+--_002_BLAPR09MB672150E2A91B9ECDDF3F5902AB2C9BLAPR09MB6721namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Office of Public Affairs<br>
+&nbsp;&nbsp; Subject: TY FOR REVIEW OF THE VIDEO.MOV CONVERSION BY CHANN.<b=
+r>
+&nbsp;&nbsp; Sent: Sunday, February 6, 2022 4:37:03 AM (UTC-05:00) Eastern =
+Time (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Monday, February 7, 2022 8:40:48 AM (UTC-05:00) Eastern T=
+ime (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_BLAPR09MB672150E2A91B9ECDDF3F5902AB2C9BLAPR09MB6721namp_--
+
+--_000_BLAPR09MB672150E2A91B9ECDDF3F5902AB2C9BLAPR09MB6721namp_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; OPA@ftc.gov
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: jABVNWGAwk+tm9E7wch2NQ==
+X-Display-Name: Office of Public Affairs
+
+
+--_000_BLAPR09MB672150E2A91B9ECDDF3F5902AB2C9BLAPR09MB6721namp_--

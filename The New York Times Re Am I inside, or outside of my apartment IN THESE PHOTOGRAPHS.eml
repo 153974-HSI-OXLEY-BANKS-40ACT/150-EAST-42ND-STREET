@@ -1,0 +1,145 @@
+From - Mon Feb 28 19:14:10 2022
+X-Account-Key: account1
+X-UIDL: AB1+NRYj6rDOYh1jrwkf8El7j4Y
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.37.234
+ by atlas104.free.mail.bf1.yahoo.com with HTTPS; Tue, 1 Mar 2022 00:07:11 +0000
+Return-Path: <oped@nytimes.com>
+X-Originating-Ip: [209.85.167.45]
+Received-SPF: pass (domain of nytimes.com designates 209.85.167.45 as permitted sender)
+Authentication-Results: atlas104.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@nytimes.com header.s=google;
+ spf=pass smtp.mailfrom=nytimes.com;
+ dmarc=pass(p=REJECT) header.from=nytimes.com;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 1 Mar 2022 00:07:11 +0000
+X-YMailISG: xuvQIp8WLDvjw2_pdMabfqY2dfMoOtsjJzrCIBcGu2VDY0b4
+ JZOjwXUAWC6ldydO99LZH.15SswIbdfquY1WagoEiHhYt.2iSA.L.DGWZrO2
+ 5Ej_uCJnkXEky.IPCz_On723zgqO83peOg_dbJGpt57xD3372UymGbOPooBO
+ HCxALJOaC_Em_O.hrO2ify6rlD6qUvPtTb0Fp5ChtKTA6QIssiGuDVKjN83A
+ hlRKFApEaaE4Dz1jjUu9WgUyiwkfwhZNd96KxH59HlD3t9H_m3ax.T4gi3VC
+ 8FJIP2X3nNkrK_ow6V5hGcwt.h8SjYGYBSysNcpenYB2ZaeijF_lbxLlA6cG
+ 2NdyYTpvD.oSTtZdkEc_4cwJCMS7EnPp2xU0IPlFHDIeqoFUbCtsHX0q_Z.k
+ v1MOUc2oMG9C03plUnV_nGWHiox9tkwZhJ1gXZI83R2UP6RcSAqTDUqg0KYe
+ eTbkO7alSo2EPolh_9CLMthBo2wWQ9wfYJaysQNtJ37rWDyroE3XyEg0xjPS
+ 6hRlJSlllHSvtthBROGd20OvYEY_dbmhWbTHik2MeXCdYg5V2gw3yc2QU1XT
+ iyKaVjm6YvoHJvthyly9XynNHYIXpOtNZaxrX3HVFNJLzX8pilZY52gMY2Qy
+ jjIiSj1lTR82xH3Tc1EYMU3PAxqY1VL.uIArm692Ep9luv4pIGdNKhHA1qcE
+ 9NauPJ4bt2J40boOrk0F5WPswyR_jWhpMx4r3OPa6DiPSctNM9CUxLCG9a6V
+ 9.Za8XJTpnozmJwGsUEpcdMoGdce7hHCo4KqYol3hCQikkeuDyIAwNugBOlw
+ 0CNrkDN7dTFo_zYu8teZNfSP7q8lSbve41Eg7yCkIRVxffOlxL_Q30kHWfLm
+ tpJbRMQcI9kSX5S1kfmzgz2dHXRp8ynk5O6avCwfJX2iZCDgirENFv0nTUwl
+ xgyeLoR3MUvytO5_TSSujSN6EyaaIrsQEPeFI21XPFPWE8ZThvNaGsrsu97J
+ k1sFLu_RMkvpfBkPJTw4_w8eNGXHnAlrVD1_Bsl.mxM8Nca5XKmCUzyZFKY8
+ ks6_wwGdKKOOcWNtT7MwVjUU0tc6s7aH0Ef_60UPr3BfUnVquPwnWab589iE
+ BJdrVFLfTsBgsmQtM6iXVT0H_dv3jZ8Gk1UInhnFGw--
+Received: from 209.85.167.45 (EHLO mail-lf1-f45.google.com)
+ by 10.197.37.234 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Tue, 01 Mar 2022 00:07:11 +0000
+Received: by mail-lf1-f45.google.com with SMTP id t13so12154700lfd.9
+        for <ms60710444266@yahoo.com>; Mon, 28 Feb 2022 16:07:11 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=nytimes.com; s=google;
+        h=to:from:date:message-id:subject:mime-version
+         :content-transfer-encoding:content-disposition:precedence
+         :auto-submitted;
+        bh=TxfQwllv2YxDKCWS5KgRiinvCZuQ2doAUKxt29nHJzk=;
+        b=JF5cTIqeyzRSlZBHYE2L1q6WqviUhBbbbtDC2OcuaLheK3Oz09EQgCBEJWkZ9qBqnX
+         Tmju6T2qxRNimO+VWGREBiwI0q5jDvYyvPibrfuw9yGN5NLlvooHPMvPb8+Ys29ux6pS
+         1j6495YpIiBbg5W7nXa+wYhNLJ2Gb0AopO69lE2KhmUpHo7a6pvugREe3W3if8EezEoV
+         dLJLSF7Lffsnn6en+NbLCWdyeFg+M50/jTBta6PiBA+79Ve7AV4VVIIJk9xoRMMj9z+h
+         dw4Q6Veqy3YSEy1Jb7jYcbATN89WBozQyjgqSSXS3XKWtJ4VLhsnnTz+bD11M9vtxB9D
+         3yBw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:to:from:date:message-id:subject:mime-version
+         :content-transfer-encoding:content-disposition:precedence
+         :auto-submitted;
+        bh=TxfQwllv2YxDKCWS5KgRiinvCZuQ2doAUKxt29nHJzk=;
+        b=am/BJCtZ0Jf4w2tyNRRmrCpdt3clyq0lIYlTSx7qjMKaDyvNjuHhiv2+KDMmOzeF/I
+         8q3EgVMGYEfuqp12juEE9lWpNjbzLfzcNSN82Xwn/YFH8kfFGmbbj9S7JwcyYMApxpC/
+         m8i8NBuUAEG2dRPzHUpznG6yhNTAW+4UwWiVrXCLY3+MWYm2lawJFzkNr2BCCvSNsfiP
+         wHQblsfwCBfm9PfvlKn1nS0AfGfJvW5LljKN6Oy0UGYeds6AvkqR36uDRdcJWuld+7D8
+         h+6X+euPQ5qGWgIvIzG1LJS47ZmdHrnkXVVwW9qktzg+b245r8WkeppyhKtpETEVdiZi
+         vNdA==
+X-Gm-Message-State: AOAM530v/x6Fu67LZUiUnJxrLPgbxE5+xRs62q5IX4Ht48KPBaCQVmGk
+	5AwZCaruQG4fmqLb/p+cWITPrwix5SQS0hK2pEh2rghzC4wIzDKxCX7HI+jzyTZM
+X-Google-Smtp-Source: ABdhPJx38N+K8OJYeWVB8wBF3RIwECUiT/8da1RYMso1h5Yopzdvxxi15aHx8dfG2/5HaHXGELPneVgdthZt8hpii0OvMT6ae9SNZUuL2q6d
+X-Received: by 2002:ac2:5fe1:0:b0:443:3c53:b941 with SMTP id s1-20020ac25fe1000000b004433c53b941mr13676709lfg.146.1646093230755;
+        Mon, 28 Feb 2022 16:07:10 -0800 (PST)
+To: ms60710444266@yahoo.com
+From: "Dept, OP-ED" <oped@nytimes.com>
+Date: Mon, 28 Feb 2022 16:07:10 -0800
+Message-ID: <CAJZ5Wm4Sq_1fR+jqSLqEg98kmd2PMn+dB102oqC9N8XLoABimg@mail.gmail.com>
+Subject: The New York Times Re: Am I inside, or outside of my apartment IN THESE PHOTOGRAPHS
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: base64
+Content-Disposition: inline
+Precedence: bulk
+X-Autoreply: yes
+Auto-Submitted: auto-replied
+Content-Length: 4568
+
+PGRpdiBkaXI9Imx0ciI+PGRpdj48ZGl2IHN0eWxlPSJjb2xvcjpyZ2IoMzQsMzQsMzQpO2ZvbnQt
+ZmFtaWx5OmFyaWFsLGhlbHZldGljYSxzYW5zLXNlcmlmO2ZvbnQtc2l6ZTpzbWFsbDtmb250LXN0
+eWxlOm5vcm1hbDtmb250LXdlaWdodDo0MDA7bGV0dGVyLXNwYWNpbmc6bm9ybWFsO3RleHQtYWxp
+Z246c3RhcnQ7dGV4dC1pbmRlbnQ6MHB4O3RleHQtdHJhbnNmb3JtOm5vbmU7d2hpdGUtc3BhY2U6
+bm9ybWFsO3dvcmQtc3BhY2luZzowcHg7YmFja2dyb3VuZC1jb2xvcjpyZ2IoMjU1LDI1NSwyNTUp
+Ij48c3Bhbj48cCBkaXI9Imx0ciIgc3R5bGU9ImxpbmUtaGVpZ2h0OjEuMzg7bWFyZ2luLXRvcDox
+MnB0O21hcmdpbi1ib3R0b206MTJwdCI+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMXB0O2ZvbnQt
+ZmFtaWx5OiZxdW90O0xpYnJlIEZyYW5rbGluJnF1b3Q7LHNhbnMtc2VyaWY7Y29sb3I6cmdiKDUx
+LDUxLDUxKTt2ZXJ0aWNhbC1hbGlnbjpiYXNlbGluZTt3aGl0ZS1zcGFjZTpwcmUtd3JhcCI+VGhh
+bmsgeW91IGZvciBjb250YWN0aW5nIHRoZSBPcGluaW9uIHNlY3Rpb24gYXQgVGhlIE5ldyBZb3Jr
+IFRpbWVzLjwvc3Bhbj48L3A+PHAgZGlyPSJsdHIiIHN0eWxlPSJsaW5lLWhlaWdodDoxLjM4O21h
+cmdpbi10b3A6MTJwdDttYXJnaW4tYm90dG9tOjEycHQiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6
+MTFwdDtmb250LWZhbWlseTomcXVvdDtMaWJyZSBGcmFua2xpbiZxdW90OyxzYW5zLXNlcmlmO2Nv
+bG9yOnJnYig1MSw1MSw1MSk7dmVydGljYWwtYWxpZ246YmFzZWxpbmU7d2hpdGUtc3BhY2U6cHJl
+LXdyYXAiPlBsZWFzZSBub3RlOiBUaGlzIGVtYWlsIGFjY291bnQgaXMgbm8gbG9uZ2VyIG1vbml0
+b3JlZC4gSWYgeW91IHdvdWxkIGxpa2UgdG8gc2VuZCBhbiBhcnRpY2xlIGZvciBjb25zaWRlcmF0
+aW9uLCB5b3Ugc2hvdWxkIGZvbGxvdyB0aGVzZSBpbnN0cnVjdGlvbnM6PC9zcGFuPjwvcD48cCBk
+aXI9Imx0ciIgc3R5bGU9ImxpbmUtaGVpZ2h0OjEuMzg7bWFyZ2luLXRvcDoxMnB0O21hcmdpbi1i
+b3R0b206MTJwdCI+PGEgaHJlZj0iaHR0cHM6Ly9oZWxwLm55dGltZXMuY29tL2hjL2VuLXVzL2Fy
+dGljbGVzLzExNTAxNDgwOTEwNyIgdGFyZ2V0PSJfYmxhbmsiPjxzcGFuIHN0eWxlPSJmb250LXNp
+emU6MTFwdDtmb250LWZhbWlseTomcXVvdDtMaWJyZSBGcmFua2xpbiZxdW90OyxzYW5zLXNlcmlm
+O2NvbG9yOnJnYigxNyw4NSwyMDQpO3ZlcnRpY2FsLWFsaWduOmJhc2VsaW5lO3doaXRlLXNwYWNl
+OnByZS13cmFwIj5odHRwczovL2hlbHAubnl0aW1lcy5jb20vaGMvZW4tdXMvYXJ0aWNsZXMvMTE1
+MDE0ODA5MTA3PC9zcGFuPjwvYT48L3A+PHAgZGlyPSJsdHIiIHN0eWxlPSJsaW5lLWhlaWdodDox
+LjM4O21hcmdpbi10b3A6MTJwdDttYXJnaW4tYm90dG9tOjEycHQiPjxzcGFuIHN0eWxlPSJmb250
+LXNpemU6MTFwdDtmb250LWZhbWlseTomcXVvdDtMaWJyZSBGcmFua2xpbiZxdW90OyxzYW5zLXNl
+cmlmO2NvbG9yOnJnYig1MSw1MSw1MSk7dmVydGljYWwtYWxpZ246YmFzZWxpbmU7d2hpdGUtc3Bh
+Y2U6cHJlLXdyYXAiPldlIGRpc2NvdXJhZ2UgZXNzYXlzIHRoYXQgYXJlIHByaW1hcmlseSByZXNw
+b25zZXMgdG8gb3RoZXIgb3BpbmlvbiBhcnRpY2xlcywgY29sdW1ucyBvciBlZGl0b3JpYWxzIGlu
+IFRoZSBUaW1lcy4gVGhlIGJlc3QgZm9ydW0gZm9yIHN1Y2ggcmVzcG9uc2VzIGlzIHRoZSBsZXR0
+ZXJzIHBhZ2UuIFRvIHNlbmQgYSBsZXR0ZXIsIGUtbWFpbCA8YSBocmVmPSJtYWlsdG86bGV0dGVy
+c0BueXRpbWVzLmNvbSIgdGFyZ2V0PSJfYmxhbmsiPmxldHRlcnNAbnl0aW1lcy5jb208L2E+Ljwv
+c3Bhbj48L3A+PHAgZGlyPSJsdHIiIHN0eWxlPSJsaW5lLWhlaWdodDoxLjM4O21hcmdpbi10b3A6
+MTJwdDttYXJnaW4tYm90dG9tOjEycHQiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTFwdDtmb250
+LWZhbWlseTomcXVvdDtMaWJyZSBGcmFua2xpbiZxdW90OyxzYW5zLXNlcmlmO2NvbG9yOnJnYig1
+MSw1MSw1MSk7dmVydGljYWwtYWxpZ246YmFzZWxpbmU7d2hpdGUtc3BhY2U6cHJlLXdyYXAiPklm
+IHdlIGhhdmUgYWNjZXB0ZWQgeW91ciBhcnRpY2xlIGZvciBwdWJsaWNhdGlvbiwgYW5kIHlvdSBh
+cmUgdHJ5aW5nIHRvIHJldHVybiBhIGNvbnRyaWJ1dG9yJiMzOTtzIGFncmVlbWVudCB0byB1cywg
+ZS1tYWlsIGl0IHRvIDxhIGhyZWY9Im1haWx0bzpvcGVkY29uQG55dGltZXMuY29tIiB0YXJnZXQ9
+Il9ibGFuayI+b3BpbmlvbmNvbnRyYWN0c0BueXRpbWVzLmNvbTwvYT4uPC9zcGFuPjwvcD48cCBk
+aXI9Imx0ciIgc3R5bGU9ImxpbmUtaGVpZ2h0OjEuMzg7bWFyZ2luLXRvcDoxMnB0O21hcmdpbi1i
+b3R0b206MTJwdCI+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMXB0O2ZvbnQtZmFtaWx5OiZxdW90
+O0xpYnJlIEZyYW5rbGluJnF1b3Q7LHNhbnMtc2VyaWY7Y29sb3I6cmdiKDUxLDUxLDUxKTt2ZXJ0
+aWNhbC1hbGlnbjpiYXNlbGluZTt3aGl0ZS1zcGFjZTpwcmUtd3JhcCI+VG8gcmVhY2ggdGhlIFRp
+bWVzIGVkaXRvcmlhbCBib2FyZCwgZS1tYWlsIDxhIGhyZWY9Im1haWx0bzplZGl0b3JpYWxAbnl0
+aW1lcy5jb20iIHRhcmdldD0iX2JsYW5rIj5lZGl0b3JpYWxAbnl0aW1lcy5jb208L2E+Ljwvc3Bh
+bj48L3A+PHAgZGlyPSJsdHIiIHN0eWxlPSJsaW5lLWhlaWdodDoxLjM4O21hcmdpbi10b3A6MTJw
+dDttYXJnaW4tYm90dG9tOjEycHQiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTFwdDtmb250LWZh
+bWlseTomcXVvdDtMaWJyZSBGcmFua2xpbiZxdW90OyxzYW5zLXNlcmlmO2NvbG9yOnJnYig1MSw1
+MSw1MSk7dmVydGljYWwtYWxpZ246YmFzZWxpbmU7d2hpdGUtc3BhY2U6cHJlLXdyYXAiPlRvIHJl
+YWNoIE9wLURvY3MsIGUtbWFpbCA8YSBocmVmPSJtYWlsdG86b3Bpbmlvbi52aWRlb0BueXRpbWVz
+LmNvbSIgdGFyZ2V0PSJfYmxhbmsiPm9waW5pb24udmlkZW9Abnl0aW1lcy5jb208L2E+Ljwvc3Bh
+bj48L3A+PHAgZGlyPSJsdHIiIHN0eWxlPSJsaW5lLWhlaWdodDoxLjM4O21hcmdpbi10b3A6MTJw
+dDttYXJnaW4tYm90dG9tOjEycHQiPjxzcGFuIHN0eWxlPSJmb250LXNpemU6MTFwdDtmb250LWZh
+bWlseTomcXVvdDtMaWJyZSBGcmFua2xpbiZxdW90OyxzYW5zLXNlcmlmO2NvbG9yOnJnYig1MSw1
+MSw1MSk7dmVydGljYWwtYWxpZ246YmFzZWxpbmU7d2hpdGUtc3BhY2U6cHJlLXdyYXAiPlRvIGNv
+bnRhY3QgdXMgYWJvdXQgYSBmYWN0dWFsIGVycm9yIGluIGFuIG9waW5pb24gYXJ0aWNsZSBvciBl
+ZGl0b3JpYWwsIGUtbWFpbCA8YSBocmVmPSJtYWlsdG86bGV0dGVyc0BueXRpbWVzLmNvbSIgdGFy
+Z2V0PSJfYmxhbmsiPmxldHRlcnNAbnl0aW1lcy5jb208L2E+Ljwvc3Bhbj48L3A+PC9zcGFuPjwv
+ZGl2PjwvZGl2PjwvZGl2Pg0K

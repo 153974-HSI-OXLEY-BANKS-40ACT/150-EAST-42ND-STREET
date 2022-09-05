@@ -1,0 +1,167 @@
+From - Fri Feb 25 20:42:34 2022
+X-Account-Key: account1
+X-UIDL: AE6rtXk9pAZpYgBhvAvHoFIEbBM
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.150.12
+ by atlas114.free.mail.ne1.yahoo.com with HTTPS; Mon, 7 Feb 2022 00:03:07 +0000
+Return-Path: <ms60710444266@yahoo.com>
+X-Originating-Ip: [74.6.131.218]
+Received-SPF: pass (domain of yahoo.com designates 74.6.131.218 as permitted sender)
+Authentication-Results: atlas114.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 7 Feb 2022 00:03:08 +0000
+X-YMailISG: 0W.iAQcWLDsK_AWp8JZg_YS30AxguZ_3CXIrykOp96oWBZTm
+ 9mw00Jb59YO1iuE31AHV4NBWFQDiYBh9Y53cBfc35b5aPpwvC52R4KUJtoRT
+ pj7p7qP5LDFVnWKJVxylCU.0diOssKQv4vCKIZv4PwI8t_o.dGHL6ojcfptp
+ 4Aj9kVXyhxb7CX0EEaBfK4Q_r5181pIISjtKrjykdq.ucxooPXLfj9i.livl
+ RhYDClrsLHdMaj1i8uShvBxQ0COfv1U8zodcf2lrqC9fgBlcH3bc3NSyFR5L
+ 0KkVq25hDbycWmb2bxCdKVrkVUAj__2hYAygn2xSiCuzGLRYHJLINXYceTgD
+ Jw3Jj.hNaxd1dsP6PRzfqVLqLr.T.8wqeVCOA4bTISDh5N5UT6Xy1ot8q0w6
+ SemGT3kWbnGr7jEppDcF68XmPxFmiU16KY1Ji68HQpr3f2W3dcI_WyQ0Wumw
+ 4cPU6nBhA2GyrTEhM1ZndD_giLLkTQ3a3IzSapnoQm6Nd8lsd_afWpY0AXbX
+ HtT0LdyKdoGXdqdUJ4noJBmsoQp_903Qkn0jOcVsdH.gJbaFrREdGvJe_.Qr
+ nur0deksZqNy882_T20vRwnKN4MlKZhslNazt3E44GayBVmf8mv9kfqa7Fn6
+ BTfe6OAeORL_2iOOft73VVkKjrUDp62SBh4.jKz7_Otxa0OEH6oUNbWPFQJP
+ 40ZzcadBJb79JT_wWXFcBpZxlcbLihZ5UHZ09X4PAN2nTD1gnrX4AVAq6EzH
+ Ah65wnpuIj.E8j2uIPTz6xlpRbrF0Yx7P7C35Uy6AJXc8wYc9p7mr7HcUKrR
+ JQLANJbltQIPlYUkCCHvQXAYId.iogh_Z5dwL.Wgd9e5TYERmRKYJUN4gsr8
+ qrsiXRy3AMBojg95GxAOYlD_yQCbhBMCjvwJFF1my8CmGarAKcOkjhVw7SIp
+ Ua81tCcokAXFsF_d2iHIxQZ68N15LYi2vsGPU9QRs9kq1mJCNvN3SYN6fFyl
+ zENvASy_t0RNFdYwSVjyhEu8MN5_WcJWNkf98pfgDnD102zVsWQYFBQ8kOZn
+ w5gfntrSFqe4SAu8ouzFNn8HOyI_JCAl.vxkVdSt8PcEcj55nVh_1B4fQ_Zp
+ J83PXgq2tp0SIXPOq563o.Ce0hHOeCagba8-
+Received: from 74.6.131.218 (EHLO sonic311-44.consmr.mail.bf2.yahoo.com)
+ by 10.217.150.12 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 07 Feb 2022 00:03:07 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1644192186; bh=fn6hSyOvVwgoshyQLJgQEpMyVRf4tdulP7GX7aA/Owo=; h=From:To:In-Reply-To:Subject:Date:References:From:Subject:Reply-To; b=doxbfjI1e1JKEFmnQ5O9qsPem4jrbHfr9sb/KAhmVU3tYIqJW5NbboUHNYQMUmB3U6ojkN2g3CzoROCdrg3THRk+LTkRsJ6FGbeG2bDkrDNaA7K9LWVYNNzml3lNAXkneeqraClYlHwhpTmX/6TVOg0G+/nfbFAc0Vq8pQtMy7Hs0BlVOaM6Vbpjh++BrVbtpl1zqexMWpRjGD4BkI3P3YyRKvaqSS3GjdJ2NcooehEyvE4niK4Ja4HCZFAkEnxDCz63XiHo/HK/YjNsZKFckgSSIYXQ9f5rtpxoN6S+dYRAr4seI9fTDqT1tG9kZMqtUdkycbxCH4nYg3ellAz+lw==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1644192186; bh=/hjych8dmzEqg9kGr6CaC5twau/i3RvcozswRKGHTPl=; h=X-Sonic-MF:From:To:Subject:Date:From:Subject; b=s2/WbgIqkwxYjX+F0b/w9NWhn4m0LEi/Lw5+2Z5TuAzI5MQecHzSZe3CSpFOWLP/ePaidJ+bX3DLoW7+TlsS4GMuSQS1YedruXUu9DYNgatzwr6sBDL2qR91WNx4Rl2Y6chl3hpMJWwik96xBGLZ9xZh62G33WIl17025CRcQyl8COYcviF6GoIxtOQLfjdJoMbxNMMwUx+NcKQ2JGLObD2XOBdNrvfv9QnWnKgdFp0mw43QCAMfSfFZP0Ghj1sEHG146zTm8r2KwmbSAj+WkB3e+qB8/ZSTef3ZQEe2pCh6RMXK+Wk68aPahmoXwD1OEy8LAQykSwEQa7U9ckmfyw==
+X-YMail-OSG: jiHaVy4VM1mBwvR5Wga0ax25jqtRKYPCGh7IKzqOL2ROxuS9zOSMlJ.w8HShYlr
+ jz2KWtU.v0_RFxRoi1Cc8Kix1OCGH94586KxJTMjdSnLFk8RW3YJM1xqzE9LyYM8UhtuHkPo.t.E
+ 4q7rmYaKRqUCe.lw1zuw4vs1vlfep5JYiSsEC71.CAcc4te_ZmHY_EYGRMGPgzFuaGao8wsrz6sI
+ mis0miyA4SvnmU7o0ae4MMPyG1_2fXdbiin_MMA94IfRwOy0N6w8U1aSvTMQvZPitYjgoT8H17F3
+ MgeH5XAn2nw0tfd37NiWJtAip2JSVxlLL2JivenM4QQL5tC_YZaLch3AsjV7gRLQkOR9XBpmag3r
+ jRW0du_oaJKToNcA7RSWDfsjrv3liNOOSwhCgaUXhYPr9ud4QrpTHX3MAuH4lN23Am12d0Qrxikq
+ 0FJjblpXTbe8cgpKJwQX6sqOBXgAmuP8sOw8f1cRXZP3hOxLtG98tLzinTcN7hk.Q3Q4qf5qWmA0
+ vo80537stVevcqFqJDMPvb7vg8bnUODtZtuCRVGLMotB01U5ViI4QQva2783o.eyMjpdbojforUZ
+ VJnqBMe8C6uj1d87vajXbUkx15s0DJS4fgH2aOWAJr2kR0K8giLKqZnBiZtkA7Rf4CSh2P3tmtqf
+ 5C5UxLEVu1EzkzUr_xEH1ugjxeLqiuGH2NuFyygMFNavBZvW7MiSiqKePskvzVg.dqcWaqhnb65E
+ hGlrzUDv.VnYovgXmGxfcUIsImZsXu.hpxXKvXSJhCDR8GWHqNH33jfHFQjykand42ExGKRj6sPH
+ H5TDzxtwXH8QIAx.UMlVdiJ_48vfPQr.JQGxvF9_ej.qC0VmQqTKX87MH5g7TfncsvZkupFgJvWh
+ gRSw2pQToBXZ6W1Mv60Wef9K2J0TSsjFtGNcizf8hIRd_yEg0kUsNpMIdkFk3hXGRU04rUKIRgxQ
+ exjO1FVnv3uJqFMeoZLDP25m3gYKw0fOlIWQ0rR8JeJWRaiymMx9cYgkC5SbuM_CKKatQbERULm9
+ 6JIViiTPuI.jCjxu48qATunC1gEtYJHeu94tfzVunRhmvveIaCUeBtc5Bsz713KLjcuT37VFd6RI
+ cWPYAZP1PRmkQohliJ_JfMGUbQrzHkpFHeQkx7OWZ9iV8a2D0JNb.pz74rVsCxSy7hOU_40kJjNV
+ i.61WQnbSP.s9.S_ZHSliT7FR_OFH5YXSui_4N0xntwsmCPE9JccvBhHWOchcBuvZr4B43E4epVR
+ maWBFspSM0LzD93YOisA9HV2rA7AemANsdZcibceL6p48gv7NOIyLxKXPNequtDfUzDab2w5IDH0
+ ma7petpSVi3qWwJlMjqQd_3om8T6d6ZUaRb6UTB961GG1rTYdgX25oFW6RwQESXHMuio6pLwiYTR
+ fGsa01R6VEpxRdW.O0beOW8GoLy9spjIEO6.TwxSn8f2EVjbJnKmxb2JF3QIhANnO68UDrZuGawJ
+ E6Mbc3s8n3yTc8Sk7Y.Hnikvhp0cAE.ZcRbV7weDC0qCFT9Wu8ulZdqYQZjpFC3A58KdeJpN105X
+ vFt90SgL59rLjxebh9.ipqh6.rPCUx7eNp2rpNrk1lnWqLdu4qppPhwnDawPn4Tk17XXDcWyWAk7
+ _f7y2iHqjzUKLOfK22jaWnCiYJKwXzNqecZjmXvGU8MRoS0mf5HzJ.4M3bSXPTLEuhjrogL9rkUb
+ vnwwMMlFBw0DJXOKbEv1SeCyPAgY0VMMxtCaL.TrbVh5c1TNYdB6PMqD5u2NEBNBgwJwcitJC5Z7
+ V.oo333PQEy9kh6xlAX5ZPuRfaCnCEBt5r0Mn2xXfAM3_GFBNgcAh0sUfFjR6N6EyATI6BTF93pO
+ zvh74UI4_PToizQi0Mwr5eNNTYWIlvisI8PKyHV457oy.rKzsvxA5R62PSW2ooOYrpcY7Bc_oJvl
+ FUHzvCfCEQKKixNZ_CLHHTImc5ppy0Z6m3Nbc4lvbuudmjVvE9gg2onJvzuOcen2EJpU5SbHEIlt
+ Fn2S3wySK9JWrJ1WDrk2S1z8Qw_pr3voVDBiI0jmy8N4rMSJNfAPWqGyNaMzJ7y1zlWwnNDtOI8t
+ v4irgR7GLeYrtQzkYdmj6CujTKnDyK4pFBjhfm3blFBqb0RfUUh_dt5GdBpikNL2XAhRTXk0gpjI
+ sVubNoHZWpzD7ZqNuX8gtnmUcKnFRZ7hfSKDU5zHzC26xKUtaX5pMMjgqMGIayFSoHw--
+X-Sonic-MF: <ms60710444266@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic311.consmr.mail.bf2.yahoo.com with HTTP; Mon, 7 Feb 2022 00:03:06 +0000
+Received: by kubenode518.mail-prod1.omega.ne1.yahoo.com (VZM Hermes SMTP Server) with ESMTPA ID 2df4bae2c21be8603174de25d81a1814;
+          Mon, 07 Feb 2022 00:01:04 +0000 (UTC)
+From: "ms60710444266" <ms60710444266@yahoo.com>
+To: "'ms60710444266'" <ms60710444266@yahoo.com>
+In-Reply-To: <!&!AAAAAAAAAAAYAAAAAAAAAJAY067VEMBEsaDzXyzyFJ/CgAAAEAAAAJvnruoUFW5NkSONf9Y42jQBAAAAAA==@yahoo.com>
+Subject: =?UTF-8?Q?Read:_****__RE:_U.S._Code_=C2=A7_1512?=
+	=?UTF-8?Q?_18_=3E=3E=3EVIDEO.MOV_****_WILL_NOT_R?=
+	=?UTF-8?Q?ETURN_MY_VIDEOS._HUNG_UP..._?=
+Date: Sun, 6 Feb 2022 19:01:01 -0500
+Message-ID: <01c901d81bb5$cbe98920$63bc9b60$@yahoo.com>
+MIME-Version: 1.0
+Content-Type: multipart/report;
+	report-type=disposition-notification;
+	boundary="----=_NextPart_000_01CA_01D81B8B.E313CF40"
+X-Priority: 1 (Highest)
+X-MSMail-Priority: High
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AQL1VSqSvA47z2Bqx9OcTQKXvUBx2qpMvhS/
+Importance: High
+Sensitivity: Private
+References: <01c901d81bb5$cbe98920$63bc9b60$.ref@yahoo.com>
+Content-Length: 2193
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_01CA_01D81B8B.E313CF40
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_01CB_01D81B8B.E313CF40"
+
+
+------=_NextPart_001_01CB_01D81B8B.E313CF40
+Content-Type: text/plain;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+    To:  DRICHM@LAW.COLUMBIA.EDU; dcr3142@columbia.edu; =
+drichman@law.columbia.edu; LEXUS DIAMOND
+    Cc:  JCB2167@COLUMBIA.EDU; BDINCER66; BO DINCER
+    Subject:  RE: ****  RE: U.S. Code =C2=A7 1512 18 >>>VIDEO.MOV **** =
+WILL NOT RETURN MY VIDEOS. HUNG UP...=20
+    Sent:  2/6/2022 2:33 PM
+
+was read on 2/6/2022 6:49 PM.
+
+------=_NextPart_001_01CB_01D81B8B.E313CF40
+Content-Type: text/html;
+	charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dutf-8">
+<META NAME=3D"Generator" CONTENT=3D"MS Exchange Server version =
+08.01.0240.003">
+<TITLE>Read: ****  RE: U.S. Code =C2=A7 1512 18 &gt;&gt;&gt;VIDEO.MOV =
+**** WILL NOT RETURN MY VIDEOS. HUNG UP... </TITLE>
+</HEAD>
+<BODY>
+<!-- Converted from text/plain format -->
+
+<P><FONT SIZE=3D2>Your message<BR>
+<BR>
+&nbsp;&nbsp;&nbsp; To:&nbsp; DRICHM@LAW.COLUMBIA.EDU; =
+dcr3142@columbia.edu; drichman@law.columbia.edu; LEXUS DIAMOND<BR>
+&nbsp;&nbsp;&nbsp; Cc:&nbsp; JCB2167@COLUMBIA.EDU; BDINCER66; BO =
+DINCER<BR>
+&nbsp;&nbsp;&nbsp; Subject:&nbsp; RE: ****&nbsp; RE: U.S. Code =C2=A7 =
+1512 18 &gt;&gt;&gt;VIDEO.MOV **** WILL NOT RETURN MY VIDEOS. HUNG =
+UP...<BR>
+&nbsp;&nbsp;&nbsp; Sent:&nbsp; 2/6/2022 2:33 PM<BR>
+<BR>
+was read on 2/6/2022 6:49 PM.</FONT>
+</P>
+
+</BODY>
+</HTML>
+------=_NextPart_001_01CB_01D81B8B.E313CF40--
+
+------=_NextPart_000_01CA_01D81B8B.E313CF40
+Content-Type: message/disposition-notification
+Content-Transfer-Encoding: 7bit
+
+Reporting-UA: yahoo.com; Microsoft Outlook 14.0
+Final-Recipient: rfc822;ms60710444266@yahoo.com
+Original-Message-ID: <!&!AAAAAAAAAAAYAAAAAAAAAJAY067VEMBEsaDzXyzyFJ/CgAAAEAAAAJvnruoUFW5NkSONf9Y42jQBAAAAAA==@yahoo.com>
+Disposition: manual-action/MDN-sent-automatically; displayed
+
+------=_NextPart_000_01CA_01D81B8B.E313CF40--
+
