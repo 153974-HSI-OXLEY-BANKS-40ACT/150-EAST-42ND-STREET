@@ -1,124 +1,53 @@
-From - Thu May 12 18:03:12 2022
-X-Account-Key: account8
-X-UIDL: 1645857828.789
+From - Thu May 12 18:03:16 2022
+X-Account-Key: account1
+X-UIDL: ANz5MG8MYQOUYnydaAafUKKJQ2A
 X-Mozilla-Status: 0011
 X-Mozilla-Status2: 00000000
 X-Mozilla-Keys:                                                                                 
+Received: from 10.253.230.151
+ by atlas305.free.mail.gq1.yahoo.com with HTTPS; Thu, 12 May 2022 05:38:47 +0000
 Return-Path: <bo.dincer@yahoo.com>
-Received: from compute4.internal (compute4.nyi.internal [10.202.2.44])
-	 by sloti52n19 (Cyrus 3.7.0-alpha0-591-gfe6c3a2700-fm-20220427.001-gfe6c3a27) with LMTPA;
-	 Thu, 12 May 2022 01:38:50 -0400
-X-Cyrus-Session-Id: sloti52n19-1652333930-2449127-2-4641073148200855421
-X-Sieve: CMU Sieve 3.0
-X-Spam-known-sender: yes ("Address bo.dincer@yahoo.com in From header is in addressbook");
- in-addressbook; bba2db8d-33a3-40c2-87e0-df67be267777 ("Autosaved")
-X-Spam-charsets: plain='UTF-8', html='UTF-8'
-X-Attached: 1
-X-Resolved-to: cockarens@vouchersrus.org
-X-Delivered-to: cockarens@vouchersrus.org
-X-Mail-from: bo.dincer@yahoo.com
-Received: from mx5 ([10.202.2.204])
-  by compute4.internal (LMTPProxy); Thu, 12 May 2022 01:38:50 -0400
-Received: from mx5.messagingengine.com (localhost [127.0.0.1])
-	by mailmx.nyi.internal (Postfix) with ESMTP id AB0E02720115
-	for <cockarens@vouchersrus.org>; Thu, 12 May 2022 01:38:50 -0400 (EDT)
-Received: from mx5.messagingengine.com (localhost [127.0.0.1])
-    by mx5.messagingengine.com (Authentication Milter) with ESMTP
-    id 567D6E6F325;
-    Thu, 12 May 2022 01:38:50 -0400
-ARC-Seal: i=1; a=rsa-sha256; cv=none; d=messagingengine.com; s=fm1; t=
-    1652333930; b=QeUkNtINrFdcfMINmjlNvY90fnIgd82AaeTZJ37Jo59WNHzkOM
-    JYRaac4qzewV+CFBg9vdb9nRU9QI+k49K2maBKFVQmQ/PZiIbrS+rIWuparQEwyE
-    1mtxeyBhScvECD057jxqkCzZZhkGQYjZYfu/AHqQhpCrU8gJaCp0joT1lhkA7tqI
-    7+DA+k33v7JbCAbt5s2WslsOClgAcUpS9lOhqP4/YJUFqJuIa50vS9BtUFrE4oy6
-    zW83txYWxtfebPinNqpG66+e99q4O8xMtwLYwBs8ZHrhZHlcnS056K/pbHbhsM75
-    a4uFA9TIwTnP2tB71/IZsqpj+FrFLeEU1rAQ==
-ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=
-    messagingengine.com; h=date:from:reply-to:to:cc:message-id
-    :in-reply-to:references:subject:mime-version:content-type; s=
-    fm1; t=1652333930; bh=Ov1muvwFSWqlwi3UYuYtAqFMZtRqFfyRoWLnxcpVq8
-    s=; b=ZKadUGa6h+xB0uq0ZXYUL0pYm99DkX/syXlpoQBSUm87yu7roIBbZOrPos
-    ZaFww/eV4OZUxmiEXf63steoxsENPmlmu5b4SP/Go32PqgpZoqATLrqufg+RImt5
-    hrIu8pvI2qGnDDbytMe/N04/c3saX3E0xV9/htf+ieSjFUq/1FUcS1mV8guSIIQY
-    4Eo9xVtRt9h0VYin8/5Akdxm4fICj/cWpTlHx7fPfcbWmnjIDnJmgPEqhkjbT/B8
-    MIbEDGpRby79pQYVhSKjV8ihYT/OJ5K/98cl2ubScg7tx6zeGHUndNp3blY1qUbd
-    KDN9GaSd1e3ohRm38kjqOWrS2gKg==
-ARC-Authentication-Results: i=1; mx5.messagingengine.com;
-    x-csa=none;
-    x-me-sender=none;
-    x-ptr=pass smtp.helo=sonic301-34.consmr.mail.gq1.yahoo.com
-    policy.ptr=sonic301-34.consmr.mail.gq1.yahoo.com;
-    bimi=none (No BIMI records found);
-    arc=none (no signatures found);
-    dkim=pass (2048-bit rsa key sha256) header.d=yahoo.com
-    header.i=@yahoo.com header.b=gzmJ4s63 header.a=rsa-sha256
-    header.s=s2048 x-bits=2048;
-    dmarc=pass policy.published-domain-policy=reject
-    policy.applied-disposition=none policy.evaluated-disposition=none
-    (p=reject,d=none,d.eval=none) policy.policy-from=p
-    header.from=yahoo.com;
-    iprev=pass smtp.remote-ip=98.137.64.160
-    (sonic301-34.consmr.mail.gq1.yahoo.com);
-    spf=pass smtp.mailfrom=bo.dincer@yahoo.com
-    smtp.helo=sonic301-34.consmr.mail.gq1.yahoo.com
-X-ME-Authentication-Results: mx5.messagingengine.com;
-    x-aligned-from=pass (Address match);
-    x-return-mx=pass header.domain=yahoo.com policy.is_org=yes
-      (MX Records found: mta6.am0.yahoodns.net,mta5.am0.yahoodns.net,mta7.am0.yahoodns.net);
-    x-return-mx=pass smtp.domain=yahoo.com policy.is_org=yes
-      (MX Records found: mta5.am0.yahoodns.net,mta7.am0.yahoodns.net,mta6.am0.yahoodns.net);
-    x-tls=pass smtp.version=TLSv1.3 smtp.cipher=TLS_AES_256_GCM_SHA384
-      smtp.bits=256/256;
-    x-vs=clean score=-84 state=0
-Authentication-Results: mx5.messagingengine.com;
-    x-csa=none;
-    x-me-sender=none;
-    x-ptr=pass smtp.helo=sonic301-34.consmr.mail.gq1.yahoo.com
-      policy.ptr=sonic301-34.consmr.mail.gq1.yahoo.com
-Authentication-Results: mx5.messagingengine.com;
-    bimi=none (No BIMI records found)
-Authentication-Results: mx5.messagingengine.com;
-    arc=none (no signatures found)
-Authentication-Results: mx5.messagingengine.com;
-    dkim=pass (2048-bit rsa key sha256) header.d=yahoo.com
-      header.i=@yahoo.com header.b=gzmJ4s63 header.a=rsa-sha256
-      header.s=s2048 x-bits=2048;
-    dmarc=pass policy.published-domain-policy=reject
-      policy.applied-disposition=none policy.evaluated-disposition=none
-      (p=reject,d=none,d.eval=none) policy.policy-from=p
-      header.from=yahoo.com;
-    iprev=pass smtp.remote-ip=98.137.64.160
-      (sonic301-34.consmr.mail.gq1.yahoo.com);
-    spf=pass smtp.mailfrom=bo.dincer@yahoo.com
-      smtp.helo=sonic301-34.consmr.mail.gq1.yahoo.com
-X-ME-VSCause: gggruggvucftvghtrhhoucdtuddrgedvfedrgeeigdeliecutefuodetggdotefrodftvf
-    curfhrohhfihhlvgemucfhrghsthforghilhdpggftfghnshhusghstghrihgsvgdpuffr
-    tefokffrpgfnqfghnecuuegrihhlohhuthemuceftddtnecusecvtfgvtghiphhivghnth
-    hsucdlqddutddtmdenfghrlhcuvffnffculddqgedmnegojggrhhhoohdqqdetfeeiuddq
-    tdduucdlvddtmdenucfjughrpeffhfhrvfevkfgjfhfugggtofesmhdtsggsredtjeenuc
-    fhrhhomhepuehoucffihhntggvrhcuoegsohdrughinhgtvghrseihrghhohhordgtohhm
-    qeenucggtffrrghtthgvrhhnpeeiheeugfdthfetieduueevueetffeujeeitdduffejfe
-    ejhfekgeekveeihfdtieenucffohhmrghinhepshhtrghtvgdrnhihrdhushdpshgvtgdr
-    ghhovhenucfkphepleekrddufeejrdeigedrudeitdenucevlhhushhtvghrufhiiigvpe
-    dtnecurfgrrhgrmhepihhnvghtpeelkedrudefjedrieegrdduiedtpdhhvghlohepshho
-    nhhitgeftdduqdefgedrtghonhhsmhhrrdhmrghilhdrghhquddrhigrhhhoohdrtghomh
-    dpmhgrihhlfhhrohhmpeeosghordguihhntggvrheshigrhhhoohdrtghomheq
-X-ME-VSScore: -84
-X-ME-VSCategory: clean
-X-ME-CSA: none
-Received-SPF: pass
-    (yahoo.com ... _spf.mail.yahoo.com: 98.137.64.160 is authorized to use 'bo.dincer@yahoo.com' in 'mfrom' identity (mechanism 'ptr:yahoo.com' matched))
-    receiver=mx5.messagingengine.com;
-    identity=mailfrom;
-    envelope-from="bo.dincer@yahoo.com";
-    helo=sonic301-34.consmr.mail.gq1.yahoo.com;
-    client-ip=98.137.64.160
-Received: from sonic301-34.consmr.mail.gq1.yahoo.com (sonic301-34.consmr.mail.gq1.yahoo.com [98.137.64.160])
-	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
-	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256)
-	(No client certificate requested)
-	by mx5.messagingengine.com (Postfix) with ESMTPS
-	for <cockarens@vouchersrus.org>; Thu, 12 May 2022 01:38:50 -0400 (EDT)
+X-Originating-Ip: [98.137.64.160]
+Received-SPF: pass (domain of yahoo.com designates 98.137.64.160 as permitted sender)
+Authentication-Results: atlas305.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@yahoo.com header.s=s2048;
+ spf=pass smtp.mailfrom=yahoo.com;
+ dmarc=pass(p=REJECT) header.from=yahoo.com;
+X-Apparently-To: ms60710444266@yahoo.com; Thu, 12 May 2022 05:38:48 +0000
+X-YMailAVSC: 1ahQx_g3bBvO4mvgFnWUrdt8RZGO3FGHZ6Y2f1LkqMp30AX
+ OWmbzVqjxLjZP87NPWyImYlqEYNMGiNGNgXYZdzXB415zvRuPuEbjV.zomaL
+ 5czeRKx2X9NnXDqbzpLuUBU9L12_xqUJfFHjqI4tAo78UZ5aP78_JO6UWEgK
+ Jhur2r7PgzvxGgneQb_I_zxsI_ICMeLBlVK1uYwNreHtQNvPK4.UFpgixtTW
+ JdgXNe9YB.xPgZko7V81IZdcBZKtJLG0JIuMhxxR34O_9VXKNLAL35QP6nHj
+ E_lJmNhXLKnWh4cr38hEQfezjInsP5nUh9K84pHwuICgw7uvzPIikOEkZoJ8
+ uaEC.dIsRUJ2yedLtk24my9b.b6iuHriufYS64NQlAsGGvvusQbX_9dIR7CZ
+ FlyRIPXTRPzRa2wi5ZibpS3Zye0cmmLwBH09M6D0_rkHkIDJfOLpIPQOMpJ5
+ GtNFqZmfX56gJ3vbiwnDwqA--
+X-YMailISG: dRlntn0WLDsZBTNlqJlB3PC6v8Hfrc2THIzbmBALMSgT4485
+ toyqfturig19uKFx79c3y2zRd45KPW7p71KHBcnnXELxQZYf8DFi.sBd7rZ9
+ fpBBRNXYbhMkZjP38YFa02HxwpPA07fJZzrG4cfe2e.hQY_CORnm4pPeMnyy
+ Mf0b557rlQqveaQ_3C.IxN.N6XzZXSFBjT8wYScpm1_vEG6nYZ19mVkih1lV
+ zWnL2I3vOXBTDQ4FVPcbfORSa.KDzHf09jNgRsPZ2AbONz8QHTYfj6JMRDV5
+ yrLk1vBFRk4yiST.oRqj43Ghf6ha9XITAiXRtT5u724gx3tYPr7SAD.0CY6M
+ nXHXlSPPtoMeWIY.eqSn.cFut3uWGF4dNRA.nj5u.I0w7MP4uJcsPLqBBl_O
+ yoOLDZxVObnRqzyIG6ONuLLIRofsbHs.1ohAeU418SQHZLHZiBGVOsm.upC3
+ wdmrLT5A_Pzq.95NtaCY99BFlkXO2_9lnm2rUnvFx02c57AzTr5dH2Cs_GFq
+ DUtbxeOXVP1R5KS1luC7xfI9kRThGuqS1qmXbURDtR3fq9zSyq7aH3PtmWig
+ ZGC8YEGPMBiOtsl2b_DZ7dHgSOcD6hPXAsMuDBKppnVZAtF63F3J5hFEVhp4
+ u2H3VuQ1UQcxUO1pdjvy7ZxKd1yfnQFG8HnmGnyPjLihVJVn_FucK3aMObDx
+ zkhT6VPKJQnM9sx9Ok2vF5WlK6pf2u6n3d82Ey2ef7kfgM1l9zNLwAQyyl50
+ hD.x0.xOkOuDbdmKCObJDfwywMTkPftkPKOYwpn1OkRMMxufUO19M9CiFDRE
+ UGPMDso5C8Ij4W2txa06OldwgSAFjnQrOqSG5UQPoy07ybtqQbepXS1lCONl
+ 9FhGUE2G0YeKWhbv.Tbw7Czl4FJWvFaOAfTrXgQU11To.xyYTj1lxGXX4Yly
+ GZePTiKlyZ9VJ5_6UjFfaMIvM46zEhto.anjI1zlseThLA.aYIKwVzdV.ynJ
+ qMiIQZSoNRzcYlhI03_EVyPLqSXGwdyMW2.ITdSyqmVl1_KQvriS_8qkRZWG
+ WJCqNR6dgWcn4HMMaP5tSG3lZXqkYq880hzzrrHkRCzSv_RcmDl2WoFHzR4y
+ gou3NUNy51u8mEtRVrh9wRggqsS6xTD9ocoq8bH3Ljx7PqPuxB.pVrmPu24r
+ G1DzgXHJAFQ-
+Received: from 98.137.64.160 (EHLO sonic301-34.consmr.mail.gq1.yahoo.com)
+ by 10.253.230.151 with SMTPs
+ (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256);
+ Thu, 12 May 2022 05:38:47 +0000
 DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1652333927; bh=Ov1muvwFSWqlwi3UYuYtAqFMZtRqFfyRoWLnxcpVq8s=; h=Date:From:Reply-To:To:Cc:In-Reply-To:References:Subject:From:Subject:Reply-To; b=gzmJ4s63zko+Lt8ORyBuTo5xG846dopr/ZePdgN1nNLMx0l6NrJgaqpyjf5IpI3OaSo6iDmPj75CDwZKnyue9oNf8fOIxHKirP+ukFHjTq3f6PwjFVEBpkXWCPRthZRyTZaY7gN1njycw+kbZP0iCCaX7ALHUK60iQRQMZCZPJiYuyMwT0+3TCqlul3dluAtduN/89fV0Ck15dSL41To8jImYgZu1vy7VWRD/wRnDNWIwa7Ykkqj66x2dOSYJyjU7HUtX4sZizSGsvD4aA6gEbvcusDjq3GSVuIbHn37eKI0/MaMpMYRV1o0T1T1naZhquVf6OAtopevzBenK0nxKQ==
 X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1652333927; bh=uosMBO4jfwzbaRbXsZQ0bMsTchzzd0TL1wjLcqvJflv=; h=X-Sonic-MF:Date:From:To:Subject:From:Subject; b=g67Gx3p0ovVL57jhNgKfYJwdkmpYMb0jL3MLCT+kDJ52LPSGo99Od1hyPeVgtpHqHBZYX9VwIO+Ze/F1l/pimCyyFIXZSh6I6APS1o7JcsqmzjiaLrGQII3IDQJ2czY1oampcNyE+QZokM2ZrTjHuajbvpSpmLrNgjtFyaHeAggdNRbVaHFwj47Z327Wb6J5VsSnRG4EURphhMNATg+VqrMGX4RS6V7t8SXsBFFs6qT5B4Rq1zrFz9zCOcnsAY/ieaY/WR2OZYP277VRjL8hRtcayT3MQuYyPoIG9cU1cZuAzOkh01v6wvZifqnNdGfXMvwTZnJd8TTAegEsKOVEjg==
 X-YMail-OSG: Vz_a0UkVM1l3wpoqJ9jTZuAIFINFq0mJCAr5s7aGLawvFOQZw3AFE.s2_KkUhdy
@@ -268,6 +197,7 @@ MIME-Version: 1.0
 Content-Type: multipart/mixed; 
 	boundary="----=_Part_1865790_1591939923.1652333924218"
 X-Mailer: WebService/1.1.20188 YahooMailAndroidMobile
+Content-Length: 263859
 
 ------=_Part_1865790_1591939923.1652333924218
 Content-Type: multipart/alternative; 
