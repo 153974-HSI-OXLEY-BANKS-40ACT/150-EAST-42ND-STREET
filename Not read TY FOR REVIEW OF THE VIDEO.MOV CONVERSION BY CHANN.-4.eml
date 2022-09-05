@@ -1,0 +1,187 @@
+From - Fri Feb 25 20:28:43 2022
+X-Account-Key: account1
+X-UIDL: AFW5LwwFk1m9Yf+9Qg8m6GlBBU0
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.223.248.245
+ by atlas314.free.mail.ne1.yahoo.com with HTTPS; Sun, 6 Feb 2022 12:21:22 +0000
+Return-Path: <DION.GASPARD@nypd.org>
+X-Originating-Ip: [40.107.91.136]
+Received-SPF: pass (domain of nypd.org designates 40.107.91.136 as permitted sender)
+Authentication-Results: atlas314.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@nypd.org header.s=selector2;
+ spf=pass smtp.mailfrom=nypd.org;
+ dmarc=pass(p=NONE) header.from=nypd.org;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 6 Feb 2022 12:21:22 +0000
+X-YMailISG: Zo.I7gUWLDs8TkENfmliyoTK3Oh37WuI32J3N7QVMfojRLUL
+ 1KJMCGKCMk2qZBtSgDCCPdZ6VmRIkmdAC5lsb7pY3Zj1zoErEEb08SamZrPI
+ 9L3isfCWMfvM9Gm2kYTip53B.exWUMoQxVfSjazwJCW3OCimrv1LHduoseNb
+ 3lhzfD7MFi8dOmWOJeX47pCiiaswZNBJ49CMpJz_KOgAWrVwHaak3DtQ4OB7
+ 5rJEHF31AyNpUzEhK5ZN8bmeNHxf1SmSJm9TmkX3zDusW1JkcY2O29qc2csA
+ DnT5aLpqJlcjcus1EoVoO7pjBmfPGJnLdZi9U9_og623W283CtOD7yKKAnYK
+ PeN2kg5C6AsQti3EEPS0.FvhIQBGViJgJuqdvfE4EuRuTsVBAYMAha3jPfJd
+ UG3aSkSdfWXNkRFdjg5HkcUTf49Pkn4GK5PxC1JLYnvBcQfp74Do9LlBfDyw
+ ictqZlmHgiJSuZm1ffvjnV2wdqhmGdGr.OlsWOPCD4Jj3roDsPSbMKm53G0I
+ 9xyvBmB4oLHY7UCJMtzLqJY48244oLWq2.VwTPMoVbS4znAJO8mmqkgz5.Gn
+ osmoJDhri6d2k0ksd9ZkG2.lMeAI7Ggl1L3qYwvhal2xOWSsudfefDwnbmwQ
+ Lzw6oYJqudBIl_LbUBosHpQ8lVI8dQKvsAm00ROVMmB.nsMlWnsbrtJj0LUa
+ 25qakAA8UlbznSYQ26GpMDNUiLxqEsvvT4NRCD2Shqr1IY1MUywu4vmwqs74
+ 9oryGkwnDd7oxdgkDHzX9JMhvc4JxB1Wc5CA24u1I4pSOfibF3ELOG5D_fdG
+ 1TIsElkLjpXdZ_xqQmfNWXVCEe1_pJkieClz6B2WKWxtny3ijZKUdbMS00Uc
+ 4R_wVYlW7kGYxdOb2rZTGgW36vahWRsj7GcGStT1PB6jZKV0j9vVSKTurL87
+ kgxuz0oBAb6m4Un3rVxXnIBzJGnNfrAWRHZftcFuf_Ijbk_q9wpkLP33hp2N
+ L9RJmYoQxFiMuGK7i7VhriuXCLyfvIw7Vd7_S8fkDEiPMYaxwAUfF1I02mS1
+ 6OFyc4dsbj87sNZb2WklxW1j8k2EBdELxGj7oXv1TPois4MyoUv2Cuf5Iv6j
+ BJjXMWzDBzjAdmNVGqKV0zwHdrW1ThknqETKsC6TUoamvv76cqGfiwpkR.UB
+ 0Eyk6bkK3W4UJk13Tb8XTQTjs6E.wV5E6Zb1iWEYzsTlZxs-
+Received: from 40.107.91.136 (EHLO GCC02-DM3-obe.outbound.protection.outlook.com)
+ by 10.223.248.245 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 06 Feb 2022 12:21:22 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=OteRMB5fTASbBet7LiVs7zWVJ0Mhqi78jyB64FiG68Y5y6yrUNKmNIBlYbJ/9G6LvFZHXiUNSRmJeF1BotmyD5GRRZn2nMgurQjvv0vdmhzg1J7KUH8l3tr52PiWhGFWcw3GHWTG6QuUJFHjYwnNI2wh3+bPPfWmmLq+SY6b42TA5TQJBx5d5Bb/1umKCxAmoOzGRVJLbVJcsyshdemez2kGxooy1Z9eO7KWv59P/jKbS5VniqTJ8UBzQZy+ttIIqm6vJlpbDYCo1ff8QsJohwOE02jsr9BcNhACcWF6lTX1CHvNB3Kvdlw42uRghFsPMPNPtkjbdCaw4tgsx9Y4ZQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=Kx7AZtZDdUaH9OjEp/NRLfUemJA8D96/pOvAWT/pqv8=;
+ b=Ca4honNLtjIG99FubWFl88nEpjWOcaUEjLStPpVyH3oxu7Vv8EZsxiRqAGPc/6KZYj93feIJX+RFVJDjtelmh3lMp5qCKmCdhpAogaYFVqviNzUoOcp7epWivFWj94U/Jgq5IonRoXTkyT6bMDqekkdBbvAxayw10fnzXVVXlv7kpdcglgvgvn9hlq8oajEeju/bwX+esf5IvH2LwVwAokfruNk0BEZqi8/kAQwmj8Cyn6K0AjW9VEP/B35EZLSmCq1upU9ij7XvByH5zA/7qVFMnSZmBYa2VDqpLX9y1z6tRFx44+2Bxlpnbd7WbC/Zxpg4APhnwHMiOgXleBRw/g==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=nypd.org; s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=Kx7AZtZDdUaH9OjEp/NRLfUemJA8D96/pOvAWT/pqv8=;
+ b=E/RjlmBCg8GMLJyaYzDj8JBrp3QNdx46fHuuw/SPV/2NQ7kWWNavo4/mrSujdawzRv/cp9Pl6YYiwtHFk3ybHWuiL5/YKttbrzguux0LnmN4zrjM0gF+BwAFbfh2Il7G9sAUu7whE7qgxKPrqczW3NbcGSF0sCzzAdl/t8d7Vsg=
+Received: from MN2PR09MB5657.namprd09.prod.outlook.com (2603:10b6:208:218::23)
+ by MN2PR09MB5595.namprd09.prod.outlook.com (2603:10b6:208:223::17) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4951.12; Sun, 6 Feb
+ 2022 12:21:21 +0000
+Received: from MN2PR09MB5657.namprd09.prod.outlook.com
+ ([fe80::155c:3158:d3f:6ee3]) by MN2PR09MB5657.namprd09.prod.outlook.com
+ ([fe80::155c:3158:d3f:6ee3%5]) with mapi id 15.20.4951.018; Sun, 6 Feb 2022
+ 12:21:21 +0000
+From: "GASPARD, DION" <DION.GASPARD@nypd.org>
+To: ms60710444266 <ms60710444266@yahoo.com>
+Subject: Not read: TY FOR REVIEW OF THE VIDEO.MOV CONVERSION BY CHANN.
+Thread-Topic: TY FOR REVIEW OF THE VIDEO.MOV CONVERSION BY CHANN.
+Thread-Index: AdgbPAntYe4VmWLdQWyXpYvTlrzT8A==
+Importance: high
+X-Priority: 1
+Date: Sun, 6 Feb 2022 12:21:21 +0000
+Message-ID: <a191f96fb4dd434db2554ea48adc6efb@nypd.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 3b9634dd-c98e-4d0a-42ba-08d9e96b2f44
+x-ms-traffictypediagnostic: MN2PR09MB5595:EE_
+x-microsoft-antispam-prvs:
+ <MN2PR09MB55955E7FE9F47EA0656440EDFD2B9@MN2PR09MB5595.namprd09.prod.outlook.com>
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ Hd968tUjmxG6SH5wndCf+eYBlc5RRUmpbMHWrID8kvW3MC+C9vrmgbXbZXz1P+h31D36V7hSmKdj6LVR/CqJEuDrMZMGB6gexAu2AoTEQaQEsfhlXM4FU/PtMdW0kc3+/5oCZn1i+rkZ1ra65UEkyYG/zvzG24KH++7qZg+hDJIdH0KUFJqJTz3hmH31eAH/3TeRf6x0q52ukPZToi67TvtN95kAGkqo+iZYvNJ3ZsSo5rWkN8Ly+Zu4Y2qbvWVGLW0SoG+72066irFIU3vmWIFHE1e7MRPlnxcLtgzBUHiOuG7bJGNxAfcT9/Z6/TOY0xzcr4dh2h76J7x+Q9FwygKMSvX6f7YfSxzoQBo0482gHqZk/gh1D3sh2jz7waVOJc4niYcUMjZ3X9lagDQoaMnkK8SmKs2N/IADtdCIl6+bQ6jNVzusnGXixEnXL+UJ
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:MN2PR09MB5657.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230001)(4636009)(366004)(66946007)(66446008)(66476007)(66556008)(64756008)(8936002)(186003)(8676002)(316002)(71200400001)(122000001)(86362001)(4270600006)(6486002)(6512007)(2906002)(82960400001)(24736004)(108616005)(6506007)(2616005)(6916009)(88996005)(508600001)(73894004)(621065003)(36756003)(2490200003);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?pR69CgtjZvLGFKjtsIdC5tQmyzt+6reCm1SoLFv1UEYd+PG7TOXG9ooi8vB2?=
+ =?us-ascii?Q?Ude8HT0GI1Smx1zyWOAyMxSeuCxK5yz9mwQywv0C1dorMuiH/QtS3Wz6ptGd?=
+ =?us-ascii?Q?MmHpPHMrGTT5Q9rfQzogfYz+9VVtuS5tPWmer67PqR6y3W8YZErLdUtfNq1W?=
+ =?us-ascii?Q?BzBlpJbm26X5CW0HmG8n5Cs6tlOsIUfQ0ctsZH096wMAdtQBbndNdTOSczBq?=
+ =?us-ascii?Q?CH3ppVF0xBbaKKGXXOlvnl4Scm31FuE/9ly3/0yUvxyL7Ii++EeZJEf6mbUR?=
+ =?us-ascii?Q?iACKLslH6LPhzmz9pzLC0eqENxuszNSbdMqgs3SaJ4caIvSnsD5Zb7VtMmTc?=
+ =?us-ascii?Q?TmfPcPwQsmWmhHs6qQqWZt0fdbxTrcxLDGecLOB05Ua+CsT00p37RZkolD3x?=
+ =?us-ascii?Q?27hYx2Gd9KpmC5XR2XCTamzS1Wajn/Fuc20EXvIleeozUKEWdyU0LoQMXFMy?=
+ =?us-ascii?Q?dHFKtLpLK+uLT575L01CpJqUj2lj5OuOIQj3Iuayz+0ORkeWNixNwx/PeqT2?=
+ =?us-ascii?Q?0BWHImhb0d9hZB8wZkEsSPmAlCD/ZRSkZC5rjNQehyuNQlIGn/OuoMH2/wa1?=
+ =?us-ascii?Q?A/0eUISwZyl80sgI3WnArg3uy+8YKiuBgW0O3WIlHdOecAct4Dn4yLVY0GlJ?=
+ =?us-ascii?Q?RNUbBe0+z/6b1yyTkrgXRFG210nZqjvOAUIvyaQ2hGpEPrbQcdA15s32OB/A?=
+ =?us-ascii?Q?qLKhrlhJAhh+2T2M3uy0jWKP8rygApXmQG+cRbZraw9LCkfSEU6hUeuKT8+L?=
+ =?us-ascii?Q?F14GQeDIAPy5SakZpb64elH3IYpNVN2nwnm+xBSFemr2KWKqEvR8yncX7mna?=
+ =?us-ascii?Q?CqAOGfe7+d1FpNb5g591twh/NMlBNiV4qtgSwB249RTdYQvCZweFNTafEh2/?=
+ =?us-ascii?Q?I3z/nhc+6ncvcUrIZ7RFvheSpHz7qvpTCZU08WA14kte/B8CQJEDPeT6e8gg?=
+ =?us-ascii?Q?mqz94wO5otyuvX2fYIrWAmbWo1/u/KKEAx8vV0mfi7KucpH2Yj4a6ZSu74ml?=
+ =?us-ascii?Q?o/YGX90H4KFJOoz6eiqH8aupqGD0GVfJku9rBAV7j+BeDUeF2tGAXHtiqUzQ?=
+ =?us-ascii?Q?AwTXBpJYzsJRUKMqja1619qRONr2c2Djaq0fsskSzlBcJYZs5HkfxUiX+Iy/?=
+ =?us-ascii?Q?MiGrSrij3jxy0yt96sSEr/JeaPPjtZIxrNZCuX+3o58BhlXCfBb1zZBPN2TE?=
+ =?us-ascii?Q?vwV3sbAupgCr47B6?=
+Content-Type: multipart/report;
+	boundary="_000_a191f96fb4dd434db2554ea48adc6efbnypdorg_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: nypd.org
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: MN2PR09MB5657.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 3b9634dd-c98e-4d0a-42ba-08d9e96b2f44
+X-MS-Exchange-CrossTenant-originalarrivaltime: 06 Feb 2022 12:21:21.0285
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 2b9f57eb-78d1-46fb-be83-a2afdd7c6043
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: MN2PR09MB5595
+Content-Length: 2023
+
+--_000_a191f96fb4dd434db2554ea48adc6efbnypdorg_
+Content-Type: multipart/alternative;
+	boundary="_002_a191f96fb4dd434db2554ea48adc6efbnypdorg_"
+
+--_002_a191f96fb4dd434db2554ea48adc6efbnypdorg_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: GASPARD, DION
+   Subject: TY FOR REVIEW OF THE VIDEO.MOV CONVERSION BY CHANN.
+   Sent: Sunday, February 6, 2022 4:37:03 AM (UTC-05:00) Eastern Time (US &=
+ Canada)
+
+ was deleted without being read on Sunday, February 6, 2022 7:21:21 AM (UTC=
+-05:00) Eastern Time (US & Canada).
+
+--_002_a191f96fb4dd434db2554ea48adc6efbnypdorg_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: GASPARD, DION<br>
+&nbsp;&nbsp; Subject: TY FOR REVIEW OF THE VIDEO.MOV CONVERSION BY CHANN.<b=
+r>
+&nbsp;&nbsp; Sent: Sunday, February 6, 2022 4:37:03 AM (UTC-05:00) Eastern =
+Time (US &amp; Canada)<br>
+<br>
+&nbsp;was deleted without being read on Sunday, February 6, 2022 7:21:21 AM=
+ (UTC-05:00) Eastern Time (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_a191f96fb4dd434db2554ea48adc6efbnypdorg_--
+
+--_000_a191f96fb4dd434db2554ea48adc6efbnypdorg_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; DION.GASPARD@nypd.org
+Disposition: automatic-action/MDN-sent-automatically; deleted
+X-MSExch-Correlation-Key: iwb6/n/7n0+aH32JmmAE3A==
+Original-Message-ID:
+	<!&!AAAAAAAAAAAYAAAAAAAAAJAY067VEMBEsaDzXyzyFJ/CgAAAEAAAAKO4KXOaNj5IlwcjEOYOuYwBAAAAAA==@yahoo.com>
+X-Display-Name: GASPARD, DION
+
+
+--_000_a191f96fb4dd434db2554ea48adc6efbnypdorg_--
