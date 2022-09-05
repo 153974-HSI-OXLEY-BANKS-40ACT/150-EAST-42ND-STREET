@@ -1,0 +1,309 @@
+From - Sat May  7 17:04:59 2022
+X-Account-Key: account1
+X-UIDL: AC+yyThpYMkCYnbpdwEsyBKZirY
+X-Mozilla-Status: 1001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.233.91
+ by atlas112.free.mail.gq1.yahoo.com with HTTPS; Sat, 7 May 2022 21:49:42 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.203]
+Received-SPF: pass (domain of github.com designates 192.30.252.203 as permitted sender)
+Authentication-Results: atlas112.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sat, 7 May 2022 21:49:42 +0000
+X-YMailAVSC: 52pnY.U3bBsurk8CyVlPX0wd4RgkuHHv5TC0XLiiTQwYrtb
+ hFKSx5jNX4xqNwbGwMoqByOdNtHxjMdg.hT__tj_8_5rdK4x.OS32dD1HXZw
+ 7TMd27Koe.sw4Q_bPsAyb4Y1ufoTFJFGn7lXSNQibJlNlxEk7PoAhEM2NS04
+ 9JxwmauOgJQQN6HkxeevKUsPhlL8qX6lCzeAUXZ85VwxHpj6p6ZyxO_tzJDi
+ l6w5ICJs7u0pHvnCdFE4mr9SsjDZ_i9E_yCQ3aCeOwOrkcsGoh_ugdyi9zPX
+ Ya8wBU04PDRXYVsoLTfHR9UEfmSxXhkRsBlmOPH5jKVaYZ7Uukru0fNi5vpw
+ AY6KxJs0ycXOdNrWhF6C1Wagp0nrgL.r6
+X-YMailISG: urIg6gsWLDsKyoPcFUy2Nl2J6rhIRdtRM_hj_S.qp7d4Nkqb
+ ofsuho.DdoBvtdLsr0wm7i57nRrH0fY1HlC0yM5kxv3V1JKCIq9X1kMunW1p
+ V7Ey3yIQ6ILfJ6vs9juuNkqBDe8OpUwUWnBCmAitS.BpCJeIpr0_AywkU0XS
+ 0wYBQTYczZ1d4M6IuvU2_ewH4ZI2TMk42y9rjPdOZ0Yr2yYeWkRR7dpA2BTy
+ 3vYW1xvBmRY9kJ_dzFicWCb1O9VEJpvSO2.5tGsgmD_0wQaC_TJ_TdfzeYZh
+ Av8pGV_TH7E3QSyYlZZs7lvL7rcQGi4iXd.3gUWNEzveGKDVoDU9_NyR4S5m
+ DevpO_rw_aHzJZKmF.lAuHZ2cU189NyO98i9yaa4Z.qsDmo9z48Dqt9MPA7k
+ P0Poyw4rf2d814T.ZrNuZ6Vd46B6TLYJoFYmTWRrk22wS4_DCRXk.5TbbVUq
+ 13yd1Xqjy5oltLHw27cpOYjasbakxStQ7u5Dl90vrlh7XGGgh4Iwdjtebj2s
+ fYv_1L7uanyjRQe8YwbzF3geZlq82Tynm8gs3KGNEu5I50z90uHsfMnQrAvi
+ 2O2YytIt25hgi8u4bM77Xjr2syizAo5bA9FkoDlLr.AwtiqHXPO_w0DmqKNX
+ EpRIXw81ubP_QpbfXUcq8PCefqnqGyPua4kLA5LluOgGbFXXMKGozHK78.vz
+ yEY5FINZ7cZfC0zzirJ_nTuzzzyncej0X8SB1Ln1febocgCnkAf1.DJ3iWtP
+ eIgxqZU2L1Zh7UJi6DeIv_qtPPGamWI67bIX1l8IJUKrBwuATAYZLgzrqoxB
+ nzehAHeBLwDAHMbm_CA7q2jgSj.zUWAOVF54K4yGwZc4X3ewLXU6NQHqOiDy
+ JL_KSObTpyOTE7ojr5Bw6lid4RLN.2Ck5IHNpK9.19y39vIMyFZz_3LQKAyM
+ 2v2cdGIkjXxFTikTZrUJ.ZdT1pAC_o20kLxWy1BY_xQhlRvRN22n8rUaZxp.
+ L3A4OtEznTBnrzW9Rc0._oxilKsSpEaCNjs8eWHkzUQNo9xdnbMFFGEIcQpV
+ ogVN13I4vRv8Bxm4o45._OrIYN1FzS01leeM17wNJDSCogzopMZTbNFeHfh2
+ QbRkZCn9sd2Z9ofD5gkE9SPgTVOoxIKxO9F7GiUHqoLETlu3Yfvc_HQOxc2Y
+ Zynxke_J4hrJ.opwIor6WMpfOVm5Y5M6Zw--
+Received: from 192.30.252.203 (EHLO out-20.smtp.github.com)
+ by 10.253.233.91 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sat, 07 May 2022 21:49:42 +0000
+Received: from github.com (hubbernetes-node-3101d95.va3-iad.github.net [10.48.204.27])
+	by smtp.github.com (Postfix) with ESMTPA id E4C08E04CD;
+	Sat,  7 May 2022 14:49:41 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1651960181;
+	bh=FHDMRjyd7ylzcFnbr3BPw/xGjewEyi5QBPgolrDkd8k=;
+	h=Date:From:To:Subject:From;
+	b=OBiBoqNDfBEQ5xe2AmTKQxbXAKj0a3Y8qveHJNQs7BkTZhC7EF6aQ+i4E7UC+vRP1
+	 QHrxJwHWLRpqYuYlVLRg5ZUalN0HNc7tE2k3acnMpZPLfgo6ppEPkOt/32QmMY15sP
+	 chmyKoT1RWafUBVjDqA0A0HN84XZPaZdOmhjSaJg=
+Date: Sat, 07 May 2022 14:49:41 -0700
+From: "DINCER & CO." <noreply@github.com>
+To: INFO@KPMG.COM, 
+ MS60710444266@YAHOO.COM
+Message-ID: <BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV/push/refs/heads/security/000000-736001@github.com>
+Subject: [BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWITZ-MOV] 736001:
+ Rename README.md to security-deposit
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: MOV DISTRIBUTIONS ANNEXED
+X-GitHub-Recipient-Address: INFO@KPMG.COM,MS60710444266@YAHOO.COM
+X-Auto-Response-Suppress: All
+Content-Length: 8540
+
+  Branch: refs/heads/security
+  Home:   https://github.com/BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LAS=
+KOWITZ-MOV
+  Commit: 7360015bc506be6d9dc52ba28b557ab49285b5be
+      https://github.com/BSCPGROUPHOLDINGSLLC/WILSON-ELSER-DICKER-LASKOWI=
+TZ-MOV/commit/7360015bc506be6d9dc52ba28b557ab49285b5be
+  Author: DINCER & CO <70865813+BSCPGROUPHOLDINGSLLC@users.noreply.github=
+.com>
+  Date:   2022-05-07 (Sat, 07 May 2022)
+
+  Changed paths:
+    R README.md
+    A security-deposit
+
+  Log Message:
+  -----------
+  Rename README.md to security-deposit
+
+CERTIFICATES OF OCCUPANCY FOR THE RENTS AND LEASES TRANSFERRED TO STATE F=
+ARM
+111 REAR SULLIVAN STREET, BIN CODE 1077252
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DR9aac7D6D=
+BJZ1wsiq0b38A=3D=3D
+^^ my security deposit was placed on deposit at JP morgan chase?
+>> do i go to the bank and ask them for my money?
+https://a810-bisweb.nyc.gov/bisweb/cosbylocationservlet?requestid=3D3&all=
+bin=3D1077252
+    =
+
+
+113 REAR SULLIVAN STREET, BIN CODE 1077254
+https://a810-bisweb.nyc.gov/bisweb/cosbylocationservlet?requestid=3D3&all=
+bin=3D1077254
+       =
+
+
+115 REAR SULLIVAN STREET, BIN CODE 1077256
+    https://a810-bisweb.nyc.gov/bisweb/cosbylocationservlet?requestid=3D3=
+&allbin=3D1077256
+    =
+
+
+117 SULLIVAN STREET, BIN CODE 1007779
+
+    - NO CERTIFICATE OF OCCUPANCY                                        =
+                     03-03-2022
+    - NO CERTIFICATE OF OCCUPANCY                                        =
+                     03-07-2022
+    - NO CERTIFICATE OF OCCUPANCY                                        =
+                     08-10-2020
+
+
+
+    https://a810-bisweb.nyc.gov/bisweb/cosbylocationservlet?requestid=3D3=
+&allbin=3D1007779
+       =
+
+
+BIS CERTIFICATES OF OCCUPANCY
+    https://a810-dobnow.nyc.gov/publish/index.html#!/search
+           =
+
+
+
+
+    https://a836-acris.nyc.gov/DS/DocumentSearch/DocumentDetail?doc_id=3D=
+2020052000291003
+    =
+
+    NYSCEF DOC. NO. 309                                                  =
+                   RECEIVED NYSCEF: 08-09-2020
+    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVP=
+FXy0G0QvnmRLGpYIQ=3D=3D
+    =
+
+    NYSCEF DOC. NO. 379                                                  =
+                   RECEIVED NYSCEF: 08-10-2020
+    https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D572E8=
+gahZUO1KFthrfiyFQ=3D=3D
+   =
+
+               NYSCEF DOC. NO. 388                                       =
+                              RECEIVED NYSCEF: 08/10/2020
+                https://iapps.courts.state.ny.us/nyscef/ViewDocument?docI=
+ndex=3DZOCFS3HH2UeHQe8j2tXJoQ=3D=3D
+                              =
+
+
+THERE ARE NO CERTIFICATES OF OCCUPANCY ON FILE FOR THIS ADDRESSES
+    NYSCEF DOC. NO. 230                                                  =
+                                       RECEIVED NYSCEF: 08/04/2020
+
+               https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIn=
+dex=3DJjKiWNUTBeipcESQfFiwVQ=3D=3D
+
+
+
+
+111 REAR SULLIVAN STREET, BIN CODE 1077252
+    - NO CERTIFICATE OF OCCUPANCY                                        =
+                     03-03-2022
+    - NO CERTIFICATE OF OCCUPANCY                                        =
+                     08-10-2020
+
+113 REAR SULLIVAN STREET, BIN CODE 1077254
+    - NO CERTIFICATE OF OCCUPANCY                                        =
+                     03-03-2022
+    - NO CERTIFICATE OF OCCUPANCY                                        =
+                     08-10-2020
+       =
+
+
+115 REAR SULLIVAN STREET, BIN CODE 1077254 =
+
+    - NO CERTIFICATE OF OCCUPANCY                                        =
+                     03-03-2022
+    - NO CERTIFICATE OF OCCUPANCY                                        =
+                     08-10-2020
+
+
+
+
+-------- Forwarded Message --------
+Subject:	Fwd: Fwd: COMBINED CERTIFICATES AND TAX RECORDS ATTACHED.
+Date:	Sat, 7 May 2022 16:10:45 -0500
+From:	B D2022 <ms60710444266@yahoo.com>
+To:	dobcustomerservice@buildings.nyc.gov, Bo Dincer <bo.dincer@yahoo.com>=
+, Bo Dincer <bdincer66@icloud.com>
+CC:	Comments@dfs.ny.gov <Comments@dfs.ny.gov>, slaskowitz@inngramllp.com =
+<slaskowitz@ingramllp.com>
+
+EXHIBIT(S)  - COR	Dincer, B. (Pro Hac / Pro Se)	Processed
+CERTIFICATE OF OCCUPANCY FOR REAR (DCP 1077252)	Filed: 08/10/2020	Confirm=
+ation Notice
+ 	Received: 08/10/2020	 =
+
+EXHIBIT(S)  - DOB	Dincer, B. (Pro Hac / Pro Se)	Processed
+CERTIFICATE OF OCCUPANCY FOR FRONT (DCP 1077252)	Filed: 08/10/2020	Confir=
+mation Notice
+
+CERTIFICATE ANNEXED --- AUGUST 4TH
+
+
+
+
+-------- Forwarded Message --------
+Subject:	Fwd: COMBINED CERTIFICATES AND TAX RECORDS ATTACHED.
+Date:	Sat, 7 May 2022 16:04:44 -0500
+From:	B D2022 <ms60710444266@yahoo.com>
+To:	terrance.ludwig@statefarm.com, replacementprogram@statefarm.com, rebe=
+cca.coyle@statefarm.com <rebecca.coyle@statefarm.com>, PHIL SUPPLE <phil.=
+supple.hid9@statefarm.com>, PAUL.SMITH@STATEFARM.COM, Nicole Bowyer <nico=
+le.bowyer@statefarm.com>, State Farm <mutualfunds@statefarm.com>, MIKE.CA=
+RTER.HUSL@STATEFARM.COM, JOSE.MONK@STATEFARM.COM, dick.luedke.h2hj@statef=
+arm.com, David Moore <david.moore.ct95@statefarm.com>, brian.hodgson.nyz6=
+@statefarm.com <brian.hodgson.nyz6@statefarm.com>, info@manhattanbp.nyc.g=
+ov <info@manhattanbp.nyc.gov>, speakerjohnson@counsil.nyc.gov <speakerjoh=
+nson@counsil.nyc.gov>, levine@council.nyc.gov <levine@council.nyc.gov>, k=
+ford@helpusa.org <kford@helpusa.org>, odonned@assembly.state.ny.us <odonn=
+ed@assembly.state.ny.us>, jackson@nysenate.gov <jackson@nysenate.gov>, jc=
+arter@dss.nyc.gov <jcarter@dss.nyc.gov>, irvinlei@dss.nyc.gov <irvinlei@d=
+ss.nyc.gov>, stringer@comptroller.nyc.gov <stringer@comptroller.nyc.gov>,=
+ Comments@dfs.ny.gov <Comments@dfs.ny.gov>, CRA@dfs.ny.gov <CRA@dfs.ny.go=
+v>, asbpolicy@fdic.gov <asbpolicy@fdic.gov>, assessments@fdic.gov <assess=
+ments@fdic.gov>, Assetmarketing@fdic.gov <assetmarketing@fdic.gov>, caree=
+rs@fdic.gov, Depositorservices@fdic.gov, efoia@fdic.gov <efoia@fdic.gov>,=
+ MATT LOWE <mlowe@fdic.gov>, OCMgmtGrp@fdic.gov <OCMgmtGrp@fdic.gov>, oig=
+hotline@fdicoig.gov <oighotline@fdicoig.gov>, publicinfo@fdic.gov <public=
+info@fdic.gov>, realestateforsale@fdic.gov, Regs@fdic.gov <Regs@fdic.gov>=
+, supervision@fdic.gov <supervision@fdic.gov>, ANGELA 00043govtIdx STUBBS=
+ <astubbs@feddirect.com>, JPMCinvestorrelations@jpmchase.com <JPMCinvesto=
+rrelations@jpmchase.com>, jpminvestorrelations@jpmchase.com, ABUSE@JPMCHA=
+SE.COM
+CC:	BO.DINCER@YAHOO.COM
+
+111 REAR SULLIVAN STREET, BIN CODE 1077252
+
+       NO CERTIFICATE OF OCCUPANCY 03.03.2022
+       NO CERTIFICATE OF OCCUPANCY AUGUST 10TH, 2020
+      =
+
+
+
+
+FILED WITH THE NY SUPREME COURT                     NYSCEF MATTER 153974/=
+2020
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DZOCFS3HH2=
+UeHQe8j2tXJoQ=3D=3D       =
+
+
+
+
+
+
+
+-------- Forwarded Message --------
+Subject:	COMBINED CERTIFICATES FOR THE PROPERTIES LOANED TO STATE FARM AT=
+TACHED.
+Date:	Sat, 7 May 2022 15:59:10 -0500
+From:	B D2022 <ms60710444266@yahoo.com>
+To:	amasters@boc.nyc.gov <amasters@boc.nyc.gov>, info@statefarm.com
+CC:	Sec News <webmaster@sec.gov>, texas@sec.gov, shareholderproposals@sec=
+.gov <shareholderproposals@sec.gov>, Secretarys-Office@sec.gov, Rule-Comm=
+ents <rule-comments@sec.gov>, publicinfo@sec.gov <publicinfo@sec.gov>, ph=
+iladelphia@sec.gov, Pamela Gibbs [SEC] <OMWI@sec.gov>, Ombudsman@sec.gov,=
+ Carl Hoecker [SEC] <OIG@sec.gov>, oca@sec.gov <oca@sec.gov>, NYROBankrup=
+tcy@SEC.GOV, Newyork <newyork@sec.gov>, losangeles@sec.gov <losangeles@se=
+c.gov>, IMshareholderproposals <IMShareholderProposals@sec.gov>, foiapa@s=
+ec.gov, dfw@sec.gov <dfw@sec.gov>, denver@sec.gov, dcaoletters@sec.gov <d=
+caoletters@sec.gov>, cshugg@usinfosec.com, CommissionerRoisman@sec.gov, C=
+ommissionerPeirce@sec.gov <CommissionerPeirce@sec.gov>, CommissionerLee@s=
+ec.gov, CommissionerCrenshaw@sec.gov, CHICAGO@SEC.GOV <CHICAGO@SEC.GOV>, =
+CHAIR@SEC.GOV <CHAIR@SEC.GOV>, boston@sec.gov <boston@sec.gov>, atlanta@s=
+ec.gov, BK01 (CB) <bk01@cb.nyc.gov>
+
+111 REAR SULLIVAN STREET, BIN CODE 1077252
+
+with no certificate of occupancy ( rent aside )
+
+        - NO CERTIFICATE OF OCCUPANCY 03.03.2022
+        - NO CERTIFICATE OF OCCUPANCY AUGUST 10TH, 2020
+        - FILED WITH THE NY SUPREME COURT                     NYSCEF MATT=
+ER 153974/2020
+
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DZOCFS3HH2=
+UeHQe8j2tXJoQ=3D=3D       =
+
+ORDINARY LEGAL PROCEEDINGS
+
+- PODCAST
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DPWFQc/WFi=
+hoyIKwEunaalQ=3D=3D
+
+

@@ -1,0 +1,211 @@
+From - Sun Apr 17 11:56:12 2022
+X-Account-Key: account1
+X-UIDL: AC/vSgxoP+Y/YlRXiQYWmFoVld0
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.40.104
+ by atlas121.free.mail.bf1.yahoo.com with HTTPS; Mon, 11 Apr 2022 16:30:01 +0000
+Return-Path: <abanews@americanbar.org>
+X-Originating-Ip: [40.107.93.130]
+Received-SPF: pass (domain of americanbar.org designates 40.107.93.130 as permitted sender)
+Authentication-Results: atlas121.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@americanbar.org header.s=selector1;
+ spf=pass smtp.mailfrom=americanbar.org;
+ dmarc=pass(p=QUARANTINE) header.from=americanbar.org;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 11 Apr 2022 16:30:01 +0000
+X-YMailISG: CIXjOvAWLDtvop8Kn91BHnC4f4.gxafYlq8_cGmLPjqkvRDe
+ 7AM_XnKuaGCJ5Sk0iK4muWX5RxjeP1uRPZ0IVkgGQhBNTXKbVGh9ucVZF57T
+ wt95VtN.oUbTdwucFBzqOr3n6YcFOcmRUpSWjQ2Z8oBsEZrBGHU3Qrw5u5Ka
+ cOr5MWSY8btl5sL4EJJh0DKKw1yl4eYOccyCDMLTXiQG95KRy1Z4xuBHxOYo
+ .3hkTVjSP4kJxoAHXCwWtfhQ2OlE8l7b4CH.AwJY5zdmv.TKP5e.vvTP9bRo
+ LUHgT5KwXDFlQPvLvZWkLvaJbO6k1eWJ0a1cRSTg3.7rx6DGQpQun7C506t2
+ PteM5CUmLR6JbA.RNjkU3dgwAzRvO3MgR.xf9CnAjf5oYJsOo2qy8GlmKjRF
+ 7aNGouF1prqxdPD4rApeR7B6D8bfi6jYL1A2XEPhqODH47TNLm6XB_yLk3rj
+ iHAvyUqQxTCPDhm5MHlsveu7iA4esbrYU0_Ct4PoQodXKCFclMHT.8d_i1mf
+ JHscR9wP1nHlOW3LQkoYYSeo2BQe3VgaADABv9Jt_UkYEb7VutQow7i2olBJ
+ Rs2WG9ZdrNznkLTjEr1pWaRmjqnafD85yjgCDTrrPJzrq5YSS7B890oLPY8b
+ svfwtUkiXW7DRSimyHY_xw6B5TaPeTSpKpVP90ftzva3.CJm.Us.6_wJvOQt
+ 4xmh3wvS6SBDF7GFp8a96VdIXEIWKPPXXSDhIgGMzeJMfq9JAqSRpNh2ZwbR
+ UNyC9Tm4ibknu4DLZaMwCeSvZ7rrDkl54UXDx8sN2ExyLFbNgD7tVpxmZqt8
+ Vl7ziA1GYgHo5zKFtp4WQ1G.GVtS9xtP1.Da6UZsXki.6hgxaq00kR2fu93H
+ a_nROC77BWGVmoIJP6yaAtYKlduH4iRPGGsdJL8f4KgnzeHqNcg91fcwTTj7
+ eGUbHA7FdV1DkqMCV3FIduy8.cFJvPKboXkwSFQkadRkitrfo1qFSesT04Sy
+ IjlhdbRN58lJX3Cy0UrmJ4jJG93XCrTrj0Ai1KVuXlRei1VkPE2XpGuUgMzX
+ OSJgP2HXrf6p55VJHOf3_4i3mPCly8KF01Ly24ln7w27xTlOcbYAt9nI1JM0
+ 2IyKBScbHdyr2xhwIDm6d_ozpgdyrVHM19NB2kQid.gJ1e3e.IwEJfd3VXtC
+ cpBaDtXLTFZIMtBzl8fCroALk4zgSP3duA--
+Received: from 40.107.93.130 (EHLO NAM10-DM6-obe.outbound.protection.outlook.com)
+ by 10.197.40.104 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 11 Apr 2022 16:30:01 +0000
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=b9E2pE04Om+L0o6hGdHvnyxf56ITD2AtacYsWoh78MTxqUd1ypVSLv9ulUSBoIMD8+d4UJUxCVOXC+nfkEGKrGJ6U4Bkqhl/o0RWOW/c4QM/0FfYBkWLmN/h4TUvndodq9zKeRnGEyhGDWhqkNYRSkzLvOTmriVoqFsS7jYRz1oCmA08S909KIFdmRKeC7qLJJR09X/myIDJ3RIYNqX4hWVG92eWGUwsk9h1tkK9+4xmRjuxwFizyhh4qfGIgelLOq3UjKhF/RbGMr6YrDLBGBLhLPJeheCVuMiFTVWEQXK+dCtzCPS4a67O1X+FsNKqB+j0OGrZo7sJZdaVPjDkfg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=yzUAjO44j2L/FfVTXwQzrXLTmWgsLXKs6lkBXp3H23k=;
+ b=k0Vs6bUWsDsHihVPSspCW4tBLzNmqesmBIT4winkrMYJBTcBLzUGiBmgnkywp+caxg3EF1Zq+SNO/MtRG4fO2aBYw068C1brFvS+Nd2n98inWcg9Z/lDCt0pr1LYOvQMs/w/VR54wcaYSPuFQTLbMfZnRiizGjgr66BahB7u/ka0W+BWMNegnayK+NI9sqLH9DLu0Lu1VJfEWnWGYE3BPksnqkIUVLsREpNcipGNlAdPSXze9EVNPLW4podzw99iIXVWrwUJeNMQCb5ROU6xTUK7J4CAFSQ7cwRPauC9PHa+kCYdG5OBIaZ1yjQ8UNeVPC/tflllD7wCF7B6MVZ3LQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=americanbar.org; dmarc=pass action=none
+ header.from=americanbar.org; dkim=pass header.d=americanbar.org; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=americanbar.org;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=yzUAjO44j2L/FfVTXwQzrXLTmWgsLXKs6lkBXp3H23k=;
+ b=bdjY39+pHwatVPBUWKO78W9UPvOK6wQLHbz70WpKkLhYsaczBtS7smL/vamxDm/KOCvx9YudqiDY6ga4/GSEo1B7aYiaDdeA/nQDOLLe7pH1RffUEFwODtWQWw1Sw+uQDBqF4qIkGO+z9Wz4vjvlXr5FbtVySbTLjmJL/3QhOvQ=
+Received: from MN2PR12MB3773.namprd12.prod.outlook.com (2603:10b6:208:164::14)
+ by DM6PR12MB4137.namprd12.prod.outlook.com (2603:10b6:5:218::21) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5144.29; Mon, 11 Apr
+ 2022 16:29:58 +0000
+Received: from MN2PR12MB3773.namprd12.prod.outlook.com
+ ([fe80::9c6:40ab:dee2:ba2c]) by MN2PR12MB3773.namprd12.prod.outlook.com
+ ([fe80::9c6:40ab:dee2:ba2c%5]) with mapi id 15.20.5144.029; Mon, 11 Apr 2022
+ 16:29:58 +0000
+From: ABA Media Relations and Strategic Communications
+	<abanews@americanbar.org>
+To: ms60710444266 <ms60710444266@yahoo.com>
+Subject:
+ =?iso-8859-1?Q?Not_read:_FW:_Read:_here_are_their_commencement_documents.?=
+ =?iso-8859-1?Q?_the_48TH..._not_accessible_there._--_here_it_is_attached.?=
+ =?iso-8859-1?Q?.._see_also_page_21_of_the_lease._SSN_---_Redacted_per_22_?=
+ =?iso-8859-1?Q?NYCRR_=A7202.5(e)=3F=3F=3F=3F?=
+Thread-Topic:
+ =?iso-8859-1?Q?Read:_here_are_their_commencement_documents._the_48TH..._n?=
+ =?iso-8859-1?Q?ot_accessible_there._--_here_it_is_attached..._see_also_pa?=
+ =?iso-8859-1?Q?ge_21_of_the_lease._SSN_---_Redacted_per_22_NYCRR_=A7202.5?=
+ =?iso-8859-1?B?KGUpPz8/Pw==?=
+Thread-Index: Adgc8Y/NYSXkBVfSTLKvULEtS2lkgQ==
+Importance: high
+X-Priority: 1
+Date: Mon, 11 Apr 2022 16:29:42 +0000
+Message-ID: <d02a74c7ae514de3b7cc620541785e1f@americanbar.org>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 0649ffa6-96de-4ed1-1078-08da1bd8851e
+x-ms-traffictypediagnostic: DM6PR12MB4137:EE_
+x-microsoft-antispam-prvs:
+ <DM6PR12MB41372446D74A4183CF7D6A76ACEA9@DM6PR12MB4137.namprd12.prod.outlook.com>
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ 2PZ/yiHZNFI5ltLaIN5JZ3LCSVhHqMGSt1sfpwC121BKaifgaQKKRRN1sjdiX2lqfJnNfc+K81fC7a8WOj+89e5DOlf4pqYi2a4RsF+OOBv4Dz6VuSz4YJyFejCq6rcS/D2y9yKM7+tawkZJopt4mRKh4Y5TFN/cYyLM7nQUNcZyIvAbrKqg0IDfRcnvyldF6r0E35OWX8QzJdjDhMHsA//mmzNORozRdC44/BC1ZH9LGQnGLJxfa2qsrtEgbs2eo/3EPXghAolh6HGtrPLQ8O6ExBUulefet9wpqa3u/vY4r0ITGvrFSxMiK8UY51t5JQZvBlQFIRZoLv9KVWV5tYauoPhTxpWt/xhBTgsweTpXetVS0w9c3hnJciSoAToE7O0OgmQz7GztP9Vum4Rq0D4YfvjmBQOE+DKfUglQ39XLiZ/jFwqG5MAm/FzLe/kD
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:MN2PR12MB3773.namprd12.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230001)(4636009)(366004)(88996005)(8936002)(4270600006)(6486002)(186003)(621065003)(2906002)(36756003)(73894004)(2616005)(508600001)(316002)(86362001)(64756008)(66946007)(6916009)(66556008)(66446008)(66476007)(108616005)(24736004)(6512007)(6506007)(71200400001)(6666004)(122000001)(2490200003);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?CvH6hLKPBWOfIhyjWzIY8mcfEEu3dCoFCmPkBDksR7kE11P9H1Hr1PVSgO?=
+ =?iso-8859-1?Q?VW/Wpp2Ajw8CEHP8Q+SiTQkpbLsi+SihfuTKLZt+GBJp8xDX9UAB75U9Oq?=
+ =?iso-8859-1?Q?8WTSdUMxYp93mhOf1pDja1FM3REfceLvPRAq+icUkRBlwCkK+CO2gxQeMo?=
+ =?iso-8859-1?Q?bMi0IjaC8x4sSyz9yS6v1ptCXgENhXNgvSaZlJ04J+BkKvstJigvP1kAFe?=
+ =?iso-8859-1?Q?AY2aXXoFYDs3VFD61DThovbXZT8op0KP42VFhenGGvyEUact27lk1lfGnY?=
+ =?iso-8859-1?Q?CZREFUvOMEqqfn/nhj1dyhxaVuL27l7HlrkYyxZ2j44J5Hf0YzSHWjG5F+?=
+ =?iso-8859-1?Q?fZ9Ug73MPNeRt2p5cYJ0A+cx38rRZt2urWRulNYTH+dE5Ux4/pxMAmOOUD?=
+ =?iso-8859-1?Q?9wzGEnhvsaIEa6fTq7xR0QE6Bo6RSM//cE0d70ucEkcKxTvnfNNNu+wmsE?=
+ =?iso-8859-1?Q?6vcouaw0druVYLHWZyjgTbmsfVjjQJM6HtFjQGnPu3fN0dd50hFlBD6fBt?=
+ =?iso-8859-1?Q?30y0C1SvYWxPJWbyAW4iczYWFh4X7jk+YYm4HqukNMXxiVsO2i7e2BZjkk?=
+ =?iso-8859-1?Q?Xk5TUR93MQQ/Y+w781BQpx2KzHP97C6rsDTmBGpqlX8kcuCOIxWkWHiShj?=
+ =?iso-8859-1?Q?2fhVpeEfzacL0PUVvjpSiVAajsrsrzTJUaQtFkKNkAHzE47d2/LQHL9X9Y?=
+ =?iso-8859-1?Q?kOHaCnt9cFTNfqQj9EFmM/MJyDcxthjC2rZ7mIZJjgmrKFgv9y0MkAbJJX?=
+ =?iso-8859-1?Q?K/QM7IbEkqlG4dwXusg2xQQuE7Jmi/McMLPU+kNon2SXHp+bCs2TUGrvub?=
+ =?iso-8859-1?Q?ItHRWco0fzIH/OS6N703P4b7jffEvWxmgqFVaHCtwaUTH1J0d3PYIHZwDT?=
+ =?iso-8859-1?Q?oMZFu6fAQnQD4l9p0wC4T4J/LzKmBLZJuX7EHB7+FZFQePipcr/Gv4ESVQ?=
+ =?iso-8859-1?Q?rK5ye1DDmCotN0EINkT/q8HaBehB+/bWUOX9I9HT4CrYZpC+dmfPxmgNTs?=
+ =?iso-8859-1?Q?uGP7++RtFEVOU9vGM4S1THdv8zADrwFx4qPsY+3aa1eWg0KVml7uwiI2l9?=
+ =?iso-8859-1?Q?thbm/ygx/uqw2wczdQnLJ3XbH+PogTEUSZoz1nynWevUC1lngdHgJsL4mc?=
+ =?iso-8859-1?Q?Kkt9CSzE0j3H+lnd4sL2uFvQHIguaVZwUWD3/ncZzCwjRMVXAzPyijXgQL?=
+ =?iso-8859-1?Q?yWOxGbQHzQqJP+nfh3qSQXpb1KWaXk49NeZz5FsuQjuZZJI9zI015yT4K/?=
+ =?iso-8859-1?Q?5RqEwxtEAk+aI/Bf/yv7ItJ8wVclRebGUAGd5fT3zRfpIVUjsYaYDOOHLs?=
+ =?iso-8859-1?Q?YNvynyoAdP83gqQOcTZ6V+jC7wK54VpomdVAHWa35544r7vXydEH5OKm7m?=
+ =?iso-8859-1?Q?/5m3c5PbUEB5GbDWm0cyl2xrLvXkK9S8H+NNk8FBJhXTusJUs4/IiU1fdu?=
+ =?iso-8859-1?Q?qJXwtX2jEEMGrL6ToD0JyHOx7exEeW7MTe4lWoaptO/WopnXJLbvCguaTS?=
+ =?iso-8859-1?Q?veXqwwLouG4chKTIsub5L+z/90orzrdt2F7xF6mj7pqlU9Ee6bflKbsGRT?=
+ =?iso-8859-1?Q?SLQNRKfy6PEVKrPXeq5VUmENscnEg3F2bkXB5NtzYvhqMGTJwZnlgQ770d?=
+ =?iso-8859-1?Q?zGcRt+ruUbtUlnFr9VnZnX/R7g7F2O2Fh1PMm0EFzjVW2JTHrFyZh0HCvK?=
+ =?iso-8859-1?Q?3pyeNB/sFBUtGsIC5Nk1AAJMuby1ieERa+gK29cY89ql4n8YHcQgNVM5K3?=
+ =?iso-8859-1?Q?OFgA=3D=3D?=
+Content-Type: multipart/report;
+	boundary="_000_d02a74c7ae514de3b7cc620541785e1famericanbarorg_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: americanbar.org
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: MN2PR12MB3773.namprd12.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 0649ffa6-96de-4ed1-1078-08da1bd8851e
+X-MS-Exchange-CrossTenant-originalarrivaltime: 11 Apr 2022 16:29:42.8303
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: c0f7bf33-a74b-4d15-a7b3-bcae22ea9bdc
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: 629HOO3qXxqgUDxOYE9LRr/HGpk471qowSGRxTHcJ95cS5PfhZ18zSfMPAzarcHyu6ttcLtrjrjlN0k5zrNX9g==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM6PR12MB4137
+Content-Length: 2459
+
+--_000_d02a74c7ae514de3b7cc620541785e1famericanbarorg_
+Content-Type: multipart/alternative;
+	boundary="_002_d02a74c7ae514de3b7cc620541785e1famericanbarorg_"
+
+--_002_d02a74c7ae514de3b7cc620541785e1famericanbarorg_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: ABA Media Relations and Strategic Communications
+   Subject: FW: Read: here are their commencement documents. the 48TH... no=
+t accessible there. -- here it is attached... see also page 21 of the lease=
+. SSN --- Redacted per 22 NYCRR =A7202.5(e)????
+   Sent: Tuesday, February 8, 2022 7:41:23 AM (UTC-06:00) Central Time (US =
+& Canada)
+
+ was deleted without being read on Monday, April 11, 2022 11:29:42 AM (UTC-=
+06:00) Central Time (US & Canada).
+
+--_002_d02a74c7ae514de3b7cc620541785e1famericanbarorg_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: ABA Media Relations and Strategic Communications<br>
+&nbsp;&nbsp; Subject: FW: Read: here are their commencement documents. the =
+48TH... not accessible there. -- here it is attached... see also page 21 of=
+ the lease. SSN --- Redacted per 22 NYCRR =A7202.5(e)????<br>
+&nbsp;&nbsp; Sent: Tuesday, February 8, 2022 7:41:23 AM (UTC-06:00) Central=
+ Time (US &amp; Canada)<br>
+<br>
+&nbsp;was deleted without being read on Monday, April 11, 2022 11:29:42 AM =
+(UTC-06:00) Central Time (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_d02a74c7ae514de3b7cc620541785e1famericanbarorg_--
+
+--_000_d02a74c7ae514de3b7cc620541785e1famericanbarorg_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; abanews@americanbar.org
+Disposition: automatic-action/MDN-sent-automatically; deleted
+X-MSExch-Correlation-Key: JYjzV9XEvk6kNroOQhec0g==
+Original-Message-ID:
+	<!&!AAAAAAAAAAAYAAAAAAAAAJAY067VEMBEsaDzXyzyFJ/CgAAAEAAAAD/TU9VznjhHpC1DeKi9p08BAAAAAA==@yahoo.com>
+X-Display-Name: ABA Media Relations and Strategic Communications
+
+
+--_000_d02a74c7ae514de3b7cc620541785e1famericanbarorg_--

@@ -1,0 +1,265 @@
+From - Sun Jun 26 12:10:47 2022
+X-Account-Key: account1
+X-UIDL: AAXrShtdIDJrYriR2gVbGE8bOF0
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.253.31.91
+ by atlas109.free.mail.gq1.yahoo.com with HTTPS; Sun, 26 Jun 2022 17:05:29 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.201]
+Received-SPF: pass (domain of github.com designates 192.30.252.201 as permitted sender)
+Authentication-Results: atlas109.free.mail.gq1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 17:05:30 +0000
+X-YMailAVSC: RTLiSiQ3bBv6B1WfBHbC7XYmT9Vdn37O8M9zU2r4LFUIFuH
+ vPyQizhOZF_cjTBVWLpbXrPoo.5cm9VjMul4VK98R9Gx5mCJKVw28SF3fqK6
+ ..gt06zfng.IbPeDwC.2WuerZtejz6_cfzRqY56gnaLZdKSDMRbvt723NSVV
+ Arlhxg_hWZ7RnSQgTzOfjCis2TGJyJ2WPD_F3bRVJ.UUMHnAi7nnUiExp7Np
+ JuRxFTckY8vdzPBnYq_f8pDkVnx_X_07aQJFpnWFc7jL71Lrbu0ikguzwSRT
+ SGDRt7IO_.n3a9a283kqNxEIt_lfNK1eR0zKlMq0HmCL8yTcqIjiMDU.J9BU
+ Pkis10V6EWPtqIapl2RXYhzl1W93y8ZhqRywbiA--
+X-YMailISG: pVPFhz4WLDs0GVTIgobe_cdMM.WjV5G.Px_m4LGHuEDIEjX9
+ GZkxuJRjfPDDgokB3uuWIyHL3CHWEnaLkhDWmhgrSsXkAxRbSk8GYB957sap
+ UQxvW.qL2zfT6OAC3jQ7.tB5ZvG.o6BH_Xv7RWNrbmaAepVwkQqx5Mruqop7
+ okRiI0tBg3FqIUvM4G63yps3yPj9v8FFoWCV9poBBli6pa3YTPi5uA.6.rPg
+ TuUwTLRTc7E29AL40Rgp4jSiLfC53Gup5TnqAeMEo0I6S41P3eIJu2jfJGi7
+ KaKgBi.57nyhwwMEMAZd2.nxySHNFeJyMv3idDEAu.O96Pu0uzrf0QpIHHiJ
+ 6AkN5i0UGxl40hYbsOfcANTQuZTfuBwTIsC65kIbJCnICnKutZsxvpIUzMKP
+ _WWz876SPw4pkiYxcE8LlcKGnEkdwXzcl1HuU8UiEgWcSMarkYtR9juj15dq
+ oBXX5q7Ej9EquraOdkW0OlZ906P9f9ncP11lPC5TYyD6xQ8nL403.jTAzW8r
+ ZgtMZ9x18MJS5LkSUCW8PSh.mXTN6JSUs.KP9Z2TKFyarWx_s58lgVjtxOK7
+ oH.8b0OL.yqbygJ9sZG.ScxjzNyXcmJd.IO.FLg9xNNn89bVMV1YkkpCQzaM
+ W0dZs4YXsGbpUMDMM1pYnkDXbkNhmfViksORIiP1aJHF6ZlWpiBbSmBoO0Ov
+ pEwhFaT78DNoFvmY6MWb3f8XUI_M1eE.J5zjcK3pmyChszSyPTAOdkUA0Dl6
+ zGJmI6OW2v11m_.s_lDUQmIcWzYmIxGUQ39q9jbUCN8i6XImDS7IY3bMMjxr
+ eE3t8BmjUPteLfTCuj32r.AouiCkChhPkN33b89hdUKbaeeiMSaree6ApaFf
+ KC_f0nO9rng3byS54Ydjzc5v41.DGJEOscDrFAdavl.AdJHcUXxtOjJ_4ZHX
+ 8wbo053jK97MKOaJu2K3RWgtOdy9gTkwVS_zqsUvTqPtgCKtJglx7Ape0_DB
+ BFzoUl4Oe4RuqLlrkKd78FReCP_ixpzK_7Txs9WTm76inPX4w6PxHk.R4mWN
+ gYPpUs12xdgaW0Wm0G3kxvfMbnhMZYNKYoE696Qj6hU2kIJ1olWdEMgwrS5v
+ gJNgpE9MNfe0.21YKt_PHI3daHQMzWwwKG9tJ9qY_WzDZVxpQF7K29iCcXNy
+ UN47pdLRJDvOh5JVZDylOuD_CIuSTFowfzF3bofJ
+Received: from 192.30.252.201 (EHLO smtp.github.com)
+ by 10.253.31.91 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 17:05:29 +0000
+Received: from github.com (hubbernetes-node-0456f9c.va3-iad.github.net [10.48.124.44])
+	by smtp.github.com (Postfix) with ESMTPA id E2DEE34044D;
+	Sun, 26 Jun 2022 10:05:28 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656263128;
+	bh=g/9KhgFMKX8UsjnpNSM/dkhsO6Y9JJ8pMIp+b6SsPH0=;
+	h=Date:From:To:Subject:From;
+	b=crH9jpff3CoA6Bd/Jv6/qC6AAZXosP2qIvPcO0f7GEs+DTwVVBq1Kzoqw6Qw8e+9E
+	 m6o6FsLpbO2XnqKESVMciwWFfI7zJ5w34kFtNnsIabbb2OOOUSzD5tIeL25S09TRgn
+	 bi4wgTfNgIdZdC6TFVAO0gw05ziHIS89nQ6quJl4=
+Date: Sun, 26 Jun 2022 10:05:28 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/3afbbf-a49e0d@github.com>
+Subject: =?UTF-8?Q?[WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STA?=
+ =?UTF-8?Q?TEFARM-SULLIVAN-ZUCKER]_a49e0d:_=C2=A7_1.6662=E2=80=931_26_CFR?=
+ =?UTF-8?Q?_Ch._I_=284=E2=80=931=E2=80=9310_Edition=29_17-1-NSMA...?=
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 9418
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: a49e0db0170ce04968e62dd3c1fc7dccea1e261b=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/a49e0db0170ce04968e62dd3c1fc7dccea1e=
+261b=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-26 (Sun, 26 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  =C2=A7 1.6662=E2=80=931 26 CFR Ch. I (4=E2=80=931=E2=80=9310 Edition) 1=
+7-1-NSMAIL >> Content-Length: 717319 >> ASC 820 #GOCARDS=0D
+=0D
+=C2=A7 1.6662=E2=80=931 26 CFR Ch. I (4=E2=80=931=E2=80=9310 Edition)=0D
+=0D
+[NYC.DEPT.OF.FINANCE-TAX RECEIPTS](https://github.com/WILSON-ELSER-STATEF=
+ARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8987083/=
+NYC.DEPT.OF.FINANCE.-.PUBLIC.RECORD.1.pdf)=0D
+=0D
+>From - Sun Apr 17 11:36:13 2022=0D
+X-Account-Key: account1=0D
+X-UIDL: ACV58ZM0uUukYkZ9qw8yoB9JCWQ=0D
+X-Mozilla-Status: 0005=0D
+X-Mozilla-Status2: 00000000=0D
+X-Mozilla-Keys:                                                          =
+                       =0D
+Received: from 10.253.35.48=0D
+ by atlas220.free.mail.gq1.yahoo.com with HTTPS; Fri, 1 Apr 2022 04:20:59=
+ +0000=0D
+Return-Path: <cockarens@vouchersrus.org>=0D
+X-Originating-Ip: [66.111.4.221]=0D
+Received-SPF: pass (domain of vouchersrus.org designates 66.111.4.221 as =
+permitted sender)=0D
+Authentication-Results: atlas220.free.mail.gq1.yahoo.com;=0D
+ dkim=3Dpass header.i=3D@vouchersrus.org header.s=3Dfm1;=0D
+ dkim=3Dpass header.i=3D@messagingengine.com header.s=3Dfm3;=0D
+ spf=3Dpass smtp.mailfrom=3Dvouchersrus.org;=0D
+ dmarc=3Dunknown header.from=3Dvouchersrus.org;=0D
+X-Apparently-To: ms60710444266@yahoo.com; Fri, 1 Apr 2022 04:20:59 +0000=0D=
+
+X-YMailISG: H2pWPscWLDvWrxu5bTE0TzgzR4nO_TFZWv4Kp5Ycw7fS..O3=0D
+ q7VwwPNDrYFIa3JPxYl2N3OweiTmbaDx_AWz_5o_lXZO0fr9aP0bMGxJZkCk=0D
+ 3_.qzXlUG.al_dTLTVGO7e42NJuUt4qTx6qtVfXHAMCEqZlPlS31BZlIkJdm=0D
+ nyEoit1umb_uQmR.2ZfIHClFj8Y.ZUjI_2SIREkzCJwGBsTWYM2q8UNw_BuZ=0D
+ if3w49sluTLMuosSh7RZFzRQX5mONm2gUhiYdCzlNEk_baOczpKFv5F7jmyD=0D
+ 1EIp8L9NBaOOBQkG7vdn6ELwt1v5JtQXn98_Xo6SwcvGj4ae5h4S2sJwSMwt=0D
+ GYW5UsBT0.uTEtTCpsrwvx9a4lVQJ9BAGrVZLhE8R_eF16.DNarjpLpYVXUf=0D
+ mdi2uW9ZYebweTFsbK3a4Pu7EoIyobz9cGKkKoMj_ARquvppIhzpEgSrv3oY=0D
+ nFky5mq35GRGcDm5YC8fiNmKokQtOwKCfx8E.Is.tu8IQgtBnlr_k_BksE3z=0D
+ 66APu9ijInqg5.jOJ4DaLw0kd0XguO6khS0X3_YuOlpcTrefhRt4zTRzx0yj=0D
+ c2TjE7AQ.QSXCfBBhknYt.1R7q4qEq.rNtnsDsp_Pzo4yCiasdt_Tma.0phz=0D
+ jh4yzU.Q_DRf7rETreN_sIkEwnJQ3B.ZGnJxN5iD1ahDQKoNxHW3VG9gpHe.=0D
+ KyatXG5JPte2W.cJpmFW83i97ORsC4EHjOQtilGi_19b1QFoc30kNJWTQwps=0D
+ 3sBxqCAA3Xs7nMfCcnpc48.Zd808SYrnQ7mtUke.Jc1tGy5lTSJUWxfDqkkF=0D
+ s.WC5kuwhLiFetzH2iS4xzS2TYOB6ZhuEet.gJUC6MvUXm7TWbKPxouoVqfN=0D
+ LmDlYixliy.gZzYH2s_XegwtNvFnlTQDY6Y5IR_cUXAncB8P_HD2gab4Qq.j=0D
+ rejoM303R.jrdJ88PljM2iafhshbyOnn6BlFnFRGLOotcZFMvWPIbYs7HrwN=0D
+ 7uCBGyK_NSCioLSwIyEreFsrUxIKui2hfJNkVn1x6WR.qyjE5gY9gjIzJsFq=0D
+ PH8Zkv6GNz08rfRBKWjya_rAztH0yjmgrQGyb1vd1iv1kuE4KGRQYs_A1Yy2=0D
+ I51SsLkYWuUT4lLBFpmCcAa191x862xL0P.CXS3lgzPaHHXj_fGTFaNl4JPG=0D
+ a10vqQrTmaK_eeQGAhDUaBx9ujU3KFKLNM2uCQeVQOo53M20esMx=0D
+Received: from 66.111.4.221 (EHLO new1-smtp.messagingengine.com)=0D
+ by 10.253.35.48 with SMTPs=0D
+ (version=3DTLS1_3 cipher=3DTLS_AES_128_GCM_SHA256);=0D
+ Fri, 01 Apr 2022 04:20:59 +0000=0D
+Received: from compute3.internal (compute3.nyi.internal [10.202.2.43])=0D=
+
+	by mailnew.nyi.internal (Postfix) with ESMTP id 5E9B6580366;=0D
+	Thu, 31 Mar 2022 21:13:31 -0400 (EDT)=0D
+Received: from mailfrontend1 ([10.202.2.162])=0D
+  by compute3.internal (MEProxy); Thu, 31 Mar 2022 21:13:31 -0400=0D
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed; d=3Dvouchersr=
+us.org;=0D
+	 h=3Dcc:cc:content-type:date:date:from:from:in-reply-to=0D
+	:in-reply-to:message-id:mime-version:references:reply-to:sender=0D
+	:subject:subject:to:to; s=3Dfm1; bh=3DRjiYjxvhgcTllxZ+YEn9ORjELdiYUH=0D
+	MXGXal5pPbarY=3D; b=3DcCWOWzE+jLAEp4+GI3yPZjAFZd5mPo20Fv1JFmDI6OBtPt=0D
+	HFUYUEqd3ce7yvLgUM9QB+u0b+bJBuGry+FFpmHHk9PcmUP1XPOb5Bfe0eS8n1p6=0D
+	SiDuoOLG6pmkSyCZLqplaMvTyIDm8bwK7BQL6I0XCJVapZzaLDbfSEyRZiE1HwW7=0D
+	u8En4FdCyeISVtILWs/ZAlO/Hels13Ylyc0AvCTbUzue0hpOlUw1J7SrzSiT4LHa=0D
+	Xtl6AIoS6tpL83tJoyu9Gr7ZoGweoY88aKpzSB/Zy/574oWUat4ssXDq6zKAeM1d=0D
+	+HxCvZUqZxRvtPNSUXqHUgKgnK0df/38D+ZJmy7g=3D=3D=0D
+DKIM-Signature: v=3D1; a=3Drsa-sha256; c=3Drelaxed/relaxed; d=3D=0D
+	messagingengine.com; h=3Dcc:cc:content-type:date:date:from:from=0D
+	:in-reply-to:in-reply-to:message-id:mime-version:references=0D
+	:reply-to:sender:subject:subject:to:to:x-me-proxy:x-me-proxy=0D
+	:x-me-sender:x-me-sender:x-sasl-enc; s=3Dfm3; bh=3DRjiYjxvhgcTllxZ+Y=0D
+	En9ORjELdiYUHMXGXal5pPbarY=3D; b=3DnTrDc3T1rYoG/Cuj9ugvLVyuOcdOL7yZf=0D
+	OCKzNh+EDXJrLQIR5SSEC8h/tv+gwhxbXErEC2Surs+GtWSRVNsd4MzeR1RGmVqg=0D
+	cxB8fWtMuAX0siwMMvwhi7LMR+lL4BCSxeqnEiZq/KiKBWNAWnvSG8jCltr4rcLV=0D
+	8BI++aSMc3WRDkpcagx8hpWYDktb1L2UqD/VUZdyRUwchn1N98U30DQ/h6M+Db5f=0D
+	cjOzjIx9XjgquFtqeqUpKJ2U2XU35YKQmDEqQJr3AnWDysp4HsopXFATWnpiDq0q=0D
+	NcR8lJpDGzgceWYrnVe/SWHUh4fnizLi3WWUTHWdIWd0nxji9XvOQ=3D=3D=0D
+X-ME-Sender: <xms:uFFGYo1-R2BhHj4JSNErRaKlU27XGxHVcXnbQ4DACMn2-g0PAQu59Q>=
+=0D
+    <xme:uFFGYjGsFXIP9GUHtAuY7foO9Q_4Ro3-2k89nArnX8W9XJ346-tGN9mztcjSc6Tj=
+9=0D
+    1xVTozHNXfkYMU4qm0>=0D
+X-ME-Received: <xmr:uFFGYg6vej6nBFeUPB-pxItKlbNwmyKRRG3yOvNphJcJaF34bWWUD=
+oJZRkr1Enyz>=0D
+X-ME-Proxy-Cause: gggruggvucftvghtrhhoucdtuddrgedvvddrudeihedggeefucetufd=
+oteggodetrfdotf=0D
+    fvucfrrhhofhhilhgvmecuhfgrshhtofgrihhlpdfqfgfvpdfurfetoffkrfgpnffqhge=
+n=0D
+    uceurghilhhouhhtmecufedttdenucesvcftvggtihhpihgvnhhtshculddquddttddmn=
+e=0D
+    gfrhhlucfvnfffucdlqdehmdenucfjughrpegtkfffgggfufhfvffhjgesmhdtreertde=
+f=0D
+    jeenucfhrhhomhephghorhhkuceotghotghkrghrvghnshesvhhouhgthhgvrhhsrhhus=
+h=0D
+    drohhrgheqnecuggftrfgrthhtvghrnhephedtteekueegtdeuheffiefgvefgtdejgfe=
+h=0D
+    ueeghffhfffffedtueeuveehueeinecuffhomhgrihhnpehsvggtrdhgohhvpdhgihhth=
+h=0D
+    husgdrtghomhdpshhtrghtvgdrnhihrdhushenucevlhhushhtvghrufhiiigvpedtnec=
+u=0D
+    rfgrrhgrmhepmhgrihhlfhhrohhmpegtohgtkhgrrhgvnhhssehvohhutghhvghrshhru=
+h=0D
+    hsrdhorhhg=0D
+X-ME-Proxy: <xmx:uFFGYh2JTp0zbiS9Ejg5LghIXIkxlBUKY7hIGDDTUUsBNLlpEdyAAg>=0D=
+
+    <xmx:uFFGYrEzoFIgF-zb2w3R-abjNo_IifnGBM_Bb5-2mD3eHaQ3I4jPpw>=0D
+    <xmx:uFFGYq-kucK-JXx974lWfF4-fSfSeid8VvVMM79P5U-xdO8pcPkwBQ>=0D
+    <xmx:uVFGYut4jt9V9eWBYSNq01ntTYN253mh9HHH-7M00rQONhn3Y9Xvhlba-NWZhzh1=
+>=0D
+Received: by mail.messagingengine.com (Postfix) with ESMTPA; Thu,=0D
+ 31 Mar 2022 21:13:27 -0400 (EDT)=0D
+Content-Type: multipart/mixed; boundary=3D"------------ATQk0PhmOl0ofUvNjU=
+DhMIo8"=0D
+Message-ID: <ae1719d9-91eb-247d-47d3-222da22635b0@vouchersrus.org>=0D
+Date: Thu, 31 Mar 2022 20:13:16 -0500=0D
+MIME-Version: 1.0=0D
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:91.0) Gecko/20100=
+101=0D
+ Thunderbird/91.6.1=0D
+Subject: MOT-001 :: Release No. 34411 # TCR FILED # $1.5 million penalty,=
+ a=0D
+ censure, and an order to cease and desist from future violations.=0D
+Content-Language: en-US=0D
+References: <ef13f2a5-ff8b-ebcb-64d1-47d35a30d217@vouchersrus.org>=0D
+To: Sec News <webmaster@sec.gov>, texas@sec.gov,=0D
+ "shareholderproposals@sec.gov" <shareholderproposals@sec.gov>,=0D
+ Secretarys-Office@sec.gov, Rule-Comments <rule-comments@sec.gov>,=0D
+ publicinfo@sec.gov, philadelphia@sec.gov,=0D
+ "Pamela Gibbs [SEC]" <OMWI@sec.gov>, Ombudsman@sec.gov,=0D
+ "Carl Hoecker [SEC]" <OIG@sec.gov>, "oca@sec.gov" <oca@sec.gov>,=0D
+ NYROBankruptcy@SEC.GOV, Newyork <newyork@sec.gov>,=0D
+ Sec News <news@sec.gov>, losangeles@sec.gov,=0D
+ IMshareholderproposals <IMShareholderProposals@sec.gov>, foiapa@sec.gov,=
+=0D
+ "dfw@sec.gov" <dfw@sec.gov>, denver@sec.gov,=0D
+ "dcaoletters@sec.gov" <dcaoletters@sec.gov>, cshugg@usinfosec.com,=0D
+ CommissionerRoisman@sec.gov,=0D
+ "CommissionerPeirce@sec.gov" <CommissionerPeirce@sec.gov>,=0D
+ CommissionerLee@sec.gov, CommissionerCrenshaw@sec.gov,=0D
+ "CHICAGO@SEC.GOV" <CHICAGO@SEC.GOV>, "CHAIR@SEC.GOV" <CHAIR@SEC.GOV>,=0D=
+
+ "boston@sec.gov" <boston@sec.gov>, atlanta@sec.gov,=0D
+ "megan.disciullo@pwc.com" <megan.disciullo@pwc.com>,=0D
+ "larissa.vonlockner@pwc.com" <larissa.vonlockner@pwc.com>,=0D
+ "ryan.a.cangialosi@pwc.com" <ryan.a.cangialosi@pwc.com>,=0D
+ "kivalena.starr@pwc.com" <kivalena.starr@pwc.com>,=0D
+ "jordana.strosberg@pwc.com" <jordana.strosberg@pwc.com>,=0D
+ "will.b.hodges@pwc.com" <will.b.hodges@pwc.com>,=0D
+ "jennifer.vanoss@pwc.com" <jennifer.vanoss@pwc.com>=0D
+Cc: david.moore.ct95@statefarm.com, FundLegalGroup@cohenandsteers.com,=0D=
+
+ KEVIN ROCK <krock5@bloomberg.net>,=0D
+ "mharvey13@bloomberg.net" <mharvey13@bloomberg.net>,=0D
+ "thermanson@northmarq.com" <THERMANSON@NORTHMARQ.COM>,=0D
+ "jpetit@mccarter.com" <jpetit@mccarter.com>, inquiry@newyork.bbb.org,=0D=
+
+ "premerger@ftc.gov" <premerger@ftc.gov>, electronicfilings@ftc.gov,=0D
+ INFO@ingramllp.com, Amy Hanrahan <amy.hanrahan@wilsonelser.com>,=0D
+ Alan Rubin <alan.rubin@wilsonelser.com>,=0D
+ "slaskowitz@ingramllp.com" <slaskowitz@ingramllp.com>,=0D
+ "lzucker@mskyline.com" <lzucker@mskyline.com>=0D
+From: Work <cockarens@vouchersrus.org>=0D
+In-Reply-To: <ef13f2a5-ff8b-ebcb-64d1-47d35a30d217@vouchersrus.org>=0D
+X-Forwarded-Message-Id: <ef13f2a5-ff8b-ebcb-64d1-47d35a30d217@vouchersrus=
+.org>=0D
+Content-Length: 717319=0D
+=0D
+=0D

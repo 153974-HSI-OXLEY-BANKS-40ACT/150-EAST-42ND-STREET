@@ -1,0 +1,316 @@
+From - Sun Jun 26 11:50:48 2022
+X-Account-Key: account1
+X-UIDL: AAo+PWIORaDhYriNygsneMwdk5A
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.197.39.75
+ by atlas224.free.mail.bf1.yahoo.com with HTTPS; Sun, 26 Jun 2022 16:48:12 +0000
+Return-Path: <noreply@github.com>
+X-Originating-Ip: [192.30.252.206]
+Received-SPF: pass (domain of github.com designates 192.30.252.206 as permitted sender)
+Authentication-Results: atlas224.free.mail.bf1.yahoo.com;
+ dkim=pass header.i=@github.com header.s=pf2014;
+ spf=pass smtp.mailfrom=github.com;
+ dmarc=pass(p=REJECT) header.from=github.com;
+X-Apparently-To: ms60710444266@yahoo.com; Sun, 26 Jun 2022 16:48:12 +0000
+X-YMailAVSC: mJpebuU3bBuQnsXkRyDaEzo0RltEBMpu0AwvWBMCiRDNrpb
+ IV.lW4VjrA2Z5ILI5MTWJmLWcavODZl8iymAixezC8Q8aR_uUavhVoZgDQ5p
+ cgfjr6jjoarJfyuF5xNcPkLx96SCP7886.49afuCBdk0cXkMjf2lHGBHUKJB
+ C9Kox9EIZL8uPLfcNXZZCoAez9XPlT7ZKUCwgrVce5qS8Mt9bFefHegDpZpB
+ D019dL6H_ln__3GIdsr7gM9OcWP6aMvwKmgQqJsICOm.ArZUmyt8.FybYcQ3
+ 7yjgYmwEj0enU0RW9DPLRdktdaAhTAYiUuVdxF.zV21A.XtT640ARIrKFybr
+ Cj8s-
+X-YMailISG: lt_xDE4WLDt7btYVG5y5yJwhNyS6NsyB8wfrbCvirQtqJInl
+ Kt729ssIPo9dnDlsqfPhrUkrZlL5w3ZVgLmC08FE6552gCcpxTzaMrRHyI.z
+ BjpVfPgKBlmmOdiLFCSCVf0Zp1R7muMXEVBvHQHN4_38CR3ItG5UuDgvUCt1
+ Vd8vdnL1Es3FkY.KlhyruQVhpFWJhKVt_XG9zDDFuHkbXEYiWD_GXNl5aj_k
+ sGW8eZiSFLKSUERei3I9ikwRLG83Fy0fnXecsBbEcAiy8xcRvKGV0Cq40zOV
+ HQTKe4t2L7FjNR4iOgrDlqPy6uhcn1bMg1TPdDP8C.S.yn2pXz_Akjx53a_W
+ a8TEJqFveg.hD9JfQccu5pqzvSk3rB0hqvKjkVY5_NZ1oBgCq7qVh5EedYVn
+ oche1SPEAlEt815AK3G9cOOYB476xWYa9IVs_L7t9qWpyjnHdXT.BzFjMqL.
+ Cdq7yMFqSfnJ8O.QeD9evFEGkEZ5.4Nqe_b_708Dz2mG_y_I6p_m5Qth0XQm
+ 1xCiw82DxxWC_ilkY3QK3HfClUE__d.wAIojRerbpLihRBwjOnAQ2_RzUFEA
+ ymumJsmQzqVoWLuNIMOB5e1eP0ImfMtx3kr_T1REHzvA.AY7xY1rZNySToS.
+ JQRdolSYt_9VOBGGKS831AknQyyGvwKnix5EadVfQCCeu33EzIf8cQPT9j8Q
+ mXJuL4YW3GjmUfFxp917j7weoGlOyfGpThmJlQEMrSXZ32xSTP4psqM4ZRjz
+ NeKWIEJuflGeDOn.I.FAFQ4uXz9XTx_SWPHewP.uGFCa4zb2GM8YPHyMm3fd
+ 9rXFEfSEnkubVkGHBIjSAdaxvCCXO.S31ElzPSCZnhEGGvdc9.orCmf5LHJv
+ I278VplsHnX0JQeg6oZ1wNOPgbwEpCEx2tE6AM8t4egINPzPIqEFxZ2fTpiI
+ 0fQhPugyQBbiW743c7WNpnhBBBh.bi_0K6AxrNnxTP3F29JYJSTRI1cp00.l
+ HbWV.ooJOCNMHm3Sy8vGxURw6zfDYqqw_PGMU_e1URnlw65RBXmQuT6vq_K1
+ .PgpC3jV0JeybT9cNZnxWO.RilQk3U_Ze2iXy8Z58GzSkmbRkS2DfL3vWZzU
+ Py9yJqdz_S3f..3DeBD9KdccYePZpL0C36lOCjl46rJkkQ8mShuFKFN.4ZxD
+ UYeB4B6MCVrqGs.6tiZSsv.3PYTRvtrsgVFoUw--
+Received: from 192.30.252.206 (EHLO out-23.smtp.github.com)
+ by 10.197.39.75 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Sun, 26 Jun 2022 16:48:12 +0000
+Received: from github.com (hubbernetes-node-a384db1.ac4-iad.github.net [10.52.125.76])
+	by smtp.github.com (Postfix) with ESMTPA id 7B1C860042C;
+	Sun, 26 Jun 2022 09:48:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=github.com;
+	s=pf2014; t=1656262092;
+	bh=cOBT0SsxXmfeCk6od53NyNzEeAK0RPYVPIkjwDjrPBM=;
+	h=Date:From:To:Subject:From;
+	b=el8Ac56Bt32Okssh7Hu7C/VXKFNAgdYyVcJEJjMwZGHoH8cEH05GKNKmDY77tk4T3
+	 o4Jfk6BLXHG6z4qLzqsdiWYZrqgrLh0+YhQ2tFf+xoBpFuE4XIvB4XhWPFI4l6KUt5
+	 1iDQNkZLDDJ8dewmyl8D1S3fhagyOpsA/K+/iekk=
+Date: Sun, 26 Jun 2022 09:48:12 -0700
+From: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <noreply@github.com>
+To: ms60710444266@yahoo.com, 
+ CBPINFOCENTER@cbp.dhs.gov
+Message-ID: <WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/push/refs/heads/main/e93a3a-95ce0b@github.com>
+Subject: [WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER]
+ 95ce0b: # LINKS TO PROPERTY TAX RECEIPTS. *** #GOCARDS htt...
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Approved: 12.VIOLATION OF PRIVACY AND BREACH OF DUTIES [INDEX NO. 153974/2020]
+X-GitHub-Recipient-Address: ms60710444266@yahoo.com,CBPINFOCENTER@cbp.dhs.gov
+X-Auto-Response-Suppress: All
+Content-Length: 9851
+
+  Branch: refs/heads/main=0D
+  Home:   https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSO=
+N-ELSER-STATEFARM-SULLIVAN-ZUCKER=0D
+  Commit: 95ce0b16073dce8a3d8b759680d59772ad367898=0D
+      https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-EL=
+SER-STATEFARM-SULLIVAN-ZUCKER/commit/95ce0b16073dce8a3d8b759680d59772ad36=
+7898=0D
+  Author: WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER <108204659+WILSON-ELSER-=
+STATEFARM-SULLIVAN-ZUCKER@users.noreply.github.com>=0D
+  Date:   2022-06-26 (Sun, 26 Jun 2022)=0D
+=0D
+  Changed paths:=0D
+    M README.md=0D
+=0D
+  Log Message:=0D
+  -----------=0D
+  # LINKS TO PROPERTY TAX RECEIPTS. *** #GOCARDS https://github.com/users=
+/BSCPGROUPHOLDINGSLLC/projects/1#column-183=0D
+=0D
+# LINKS TO PROPERTY TAX RECEIPTS. *** =0D
+#GOCARDS =0D
+https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1#column-183=0D
+=0D
+THE MOST EXPENSIVE CHANGE OF NAME I HAVE EVER WITNESSED, SAME ADDRESS: ON=
+E STATE FARM PLAZA, BLOOMINGTON, IL, 61710=0D
+=0D
+INTEREST" SOLD MORE SUBSCRIPTIONS... CIK: 1516523 26 U.S. Code =C2=A7 [1]=
+ --- =0D
+FOR EACH OF THE 6 BUILDINGS TOGETHER IS more than $50MM... =0D
+https://faxzero.com/status/30666994/5790f17018611119e07814be9e36110d164af=
+aa6 =0D
+=0D
+	=0D
+[document index](https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKE=
+R/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8987047/document.index.pdf=
+)=0D
+	=0D
+[DOCKET 385--2020-08-10--EMAIL.TO.LAURIE.ZUCKER.AT.1236AM - NOTICE TO STA=
+TE FARM - NON RESPONSIVE - GENERALLY AT ALL TIMES](https://github.com/WIL=
+SON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKE=
+R/files/8987048/EX69.---.docket.385.--.2020-08-10.--.EMAIL.TO.LAURIE.ZUCK=
+ER.AT.1236AM.pdf)=0D
+	=0D
+[firm_43036](https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WI=
+LSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8987049/firm_43036.pdf)=0D
+	=0D
+[merger 431K CONFIRMS  ::  USC 18.215, 18.2 by the DIRECTORS of firm_4303=
+6](https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER=
+-STATEFARM-SULLIVAN-ZUCKER/files/8987050/merger.431K.CONFIRMS.USC.18.215.=
+18.2.pdf)=0D
+=0D
+[__2021.12.01.NOTICE.FAX.103W55thSTREET-confirmed](https://github.com/WIL=
+SON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKE=
+R/files/8987044/__2021.12.01.NOTICE.FAX.103W55thSTREET.DELIVERED.FAX.pdf)=
+=0D
+	=0D
+[---2020--DOCKET 379 :: CONFIRMS USC 18.225, 18.21, 18.4, 18.3, 18.2- LET=
+TER OF CREDIT FILED WITH THE NYC DEPT. OF FINANCE](https://github.com/WIL=
+SON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKE=
+R/files/8987045/---2020.00379.nyc.department.of.finance.pdf)=0D
+	=0D
+[2020_05_27 - INDEX OF PAPERS FILED WITH THE SECURITIES AND EXCHANGE COMM=
+ISSION](https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-=
+ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8987046/2020_05_27.-.INDEX.and.PAPE=
+RS.pdf)=0D
+	=0D
+![FEMA BARCODE SCANNER - NOT SURE HOW THIS THING WORKS](https://user-imag=
+es.githubusercontent.com/108204659/175824703-63f7480a-9561-4272-8532-5e56=
+cee0475c.JPG)=0D
+=0D
+=0D
+## FAXED THE PRIOR MSG TO NY SUPREME COURTS, CIVIL BRANCH.=0D
+https://faxzero.com/status/31316917/6b34c3ad9620003256df358c638765fc2ae38=
+7cc=0D
+	*** 	***	***=0D
+Your fax (ID: #31316917) to VARIOUS at 212-401-9146 has been delivered su=
+ccessfully at 12:12 AM EST on June 26th, 2022.=0D
+	[ 50074 EAST ++ ]=0D
+=0D
+=0D
+https://faxzero.com/status/30246810/5331540dcefa70818b47fb597bf6a69acfd10=
+6be=0D
+	*** 	***	***=0D
+Your fax (ID: #30246810) to DONALD ZUCKER at 2125869867 has been delivere=
+d successfully at 9:50 PM EST on December 1st, 2021.=0D
+	=0D
+https://faxzero.com/status/30666994/5790f17018611119e07814be9e36110d164af=
+aa6=0D
+Your fax (ID: #30666994) to IRS CRIMINAL INVESTIGATIONS at 2674661115 has=
+ been delivered successfully at 11:44 PM EST on February 20th, 2022.=0D
+	=0D
+Your fax (ID: #30852826) to JOE MONK at 8164714832 has been delivered suc=
+cessfully at 4:42 AM EST on March 26th, 2022.=0D
+=0D
+=0D
+=0D
+---------- Forwarded message ---------<br>=0D
+Date: Sun, May 22, 2022, 4:16 PM=0D
+Subject: OBSTRUCTION C16-93715=0D
+=0D
+=0D
+https://faxzero.com/status/30666994/5790f17018611119e07814be9e36110d164af=
+aa6=0D
+=0D
+=0D
+DIRECT:  	646-256-3609<br>=0D
+EMAIL:		ms60710444266@yahoo.com=0D
+=0D
+----=0D
+=0D
+=0D
+------- Forwarded Message --------=0D
+Subject: 	Fwd: OBSTRUCTION C16-93715. OMISSIONS=E2=80=94=0D
+Date: 	Sun, 22 May 2022 16:22:06 -0400=0D
+From: 	BO DINCER <bondstrt007@gmail.com>=0D
+To: 	BBO 121 <ms60710444266@yahoo.com>, Ir-operations-team <ir-operations=
+-team@tudor.com>, ir@tigerglobal.com, info@kpmg.com, Ryan Cangialosi (US)=
+ <ryan.a.cangialosi@pwc.com>, Dean's Discipline - SCCS <conduct-admin@col=
+umbia.edu>, Amber Griffiths <ag2943@columbia.edu>, sgo2107@columbia.edu, =
+endowmentadmin@columbia.edu, jpminvestorrelatioms@jpmchase.com, Pam Olson=
+ (US) <pam.olson@us.pwc.com>=0D
+CC: 	TRACE Data Services <tracedataservices@finra.org>, Treasury.operatio=
+ns@cpa.texas.gov, tedhermanson@northmarq.com, Jpetit <jpetit@mccarter.com=
+>, jpminvestorrelations@jpmchase.com, JPMCinvestorrelations@jpmchase.com,=
+ JAMES GORMAN [MORGAN STANLEY] <james.gorman@morganstanley.com>, icegloba=
+lnetwork-info@ice.com <iceglobalnetwork-info@ice.com>, Bill Cassese (ICE =
+BONDS SECURITIES) <bcassese19@bloomberg.net>=0D
+=0D
+=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DR9aac7D6D=
+BJZ1wsiq0b38A=3D=3D=0D
+=0D
+# UNLAWFUL CUSTODY OF SECURITY=0D
+## TAX RECEIPTS=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D19MVPFXy0=
+G0QvnmRLGpYIQ=3D=3D=0D
+=0D
+##  DISTRIBUTION OF MOV FILES / VIOLATION OF PRIVACY=0D
+# " PEEPING TOMS "=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Dc3iexOlBw=
+sgc1lnMJ2_PLUS_AqQ=3D=3D=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DC4X_PLUS_=
+6_PLUS_kgBxoElZyFgKxGEQ=3D=3D=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DYvkihzM1c=
+wANtAvbUwWX_PLUS_g=3D=3D=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DUZsCx4RNL=
+y/6V9gf1BkpTQ=3D=3D=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DYGRsoOyDJ=
+uc93MrOnwh5Jw=3D=3D=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D84wdx4RhX=
+5LEi0sISXetBw=3D=3D=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3D5uMb/ORkl=
+Cen4NaSEt6oFg=3D=3D=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3DC4X_PLUS_=
+6_PLUS_kgBxoElZyFgKxGEQ=3D=3D=0D
+=0D
+https://iapps.courts.state.ny.us/nyscef/ViewDocument?docIndex=3Doz2nfEu9a=
+94Y3U5/kpIt5g=3D=3D=0D
+=0D
+# LINKS TO PROPERTY TAX RECEIPTS.=0D
+https://github.com/users/BSCPGROUPHOLDINGSLLC/projects/1#column-183=0D
+    JANUARY 15, 2011. . . . . . . . . . . . . . . . . . . .. . . . . . . =
+. . . .[0005]=0D
+    JANUARY 15, 2012. . . . . . . . . . . . . . . . . . . .. . . . . . . =
+. . . .[0007]=0D
+    JANUARY 15, 2013. . . . . . . . . . . . . . . . . . . .. . . . . . . =
+. . . .[0009]=0D
+    JANUARY 15, 2014. . . . . . . . . . . . . . . . . . . .. . . . . . . =
+. . . .[0011]=0D
+    JANUARY 15, 2015. . . . . . . . . . . . . . . . . . . .. . . . . . . =
+. . . .[0013]=0D
+    JANUARY 15, 2016. . . . . . . . . . . . . . . . . . . .. . . . . . . =
+. . . .[0015]=0D
+    JANUARY 15, 2017. . . . . . . . . . . . . . . . . . . .. . . . . . . =
+. . . .[0017]=0D
+    JANUARY 15, 2019. . . . . . . . . . . . . . . . . . . .. . . . . . . =
+. . . .[0019]=0D
+    JANUARY 15, 2020. . . . . . . . . . . . . . . . . . . .. . . . . . . =
+. . . .[0025]=0D
+	=0D
+---------- Forwarded message ---------=0D
+Date: Sun, May 22, 2022, 4:16 PM=0D
+Subject: OBSTRUCTION C16-93715=0D
+=0D
+=0D
+=0D
+Your fax (ID: #30852826) to JOE MONK at 8164714832 has been delivered suc=
+cessfully at 4:42 AM Eastern Daylight Time on March 26th, 2022.=0D
+=0D
+INTEREST" SOLD MORE SUBSCRIPTIONS... CIK: 1516523 26 U.S. Code =C2=A7 [1]=
+ --- =0D
+FOR EACH OF THE 6 BUILDINGS TOGETHER IS more than $50MM... =0D
+https://faxzero.com/status/30666994/5790f17018611119e07814be9e36110d164af=
+aa6 =0D
+=0D
+	=0D
+[document index](https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKE=
+R/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8987047/document.index.pdf=
+)=0D
+	=0D
+[DOCKET 385--2020-08-10--EMAIL.TO.LAURIE.ZUCKER.AT.1236AM - NOTICE TO STA=
+TE FARM - NON RESPONSIVE - GENERALLY AT ALL TIMES](https://github.com/WIL=
+SON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKE=
+R/files/8987048/EX69.---.docket.385.--.2020-08-10.--.EMAIL.TO.LAURIE.ZUCK=
+ER.AT.1236AM.pdf)=0D
+	=0D
+[firm_43036](https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WI=
+LSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8987049/firm_43036.pdf)=0D
+	=0D
+[merger 431K CONFIRMS  ::  USC 18.215, 18.2 by the DIRECTORS of firm_4303=
+6](https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER=
+-STATEFARM-SULLIVAN-ZUCKER/files/8987050/merger.431K.CONFIRMS.USC.18.215.=
+18.2.pdf)=0D
+=0D
+[__2021.12.01.NOTICE.FAX.103W55thSTREET-confirmed](https://github.com/WIL=
+SON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKE=
+R/files/8987044/__2021.12.01.NOTICE.FAX.103W55thSTREET.DELIVERED.FAX.pdf)=
+=0D
+	=0D
+[---2020--DOCKET 379 :: CONFIRMS USC 18.225, 18.21, 18.4, 18.3, 18.2- LET=
+TER OF CREDIT FILED WITH THE NYC DEPT. OF FINANCE](https://github.com/WIL=
+SON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKE=
+R/files/8987045/---2020.00379.nyc.department.of.finance.pdf)=0D
+	=0D
+[2020_05_27 - INDEX OF PAPERS FILED WITH THE SECURITIES AND EXCHANGE COMM=
+ISSION](https://github.com/WILSON-ELSER-STATEFARM-SULLIVAN-ZUCKER/WILSON-=
+ELSER-STATEFARM-SULLIVAN-ZUCKER/files/8987046/2020_05_27.-.INDEX.and.PAPE=
+RS.pdf)=0D
+	=0D
+![FEMA BARCODE SCANNER - NOT SURE HOW THIS THING WORKS](https://user-imag=
+es.githubusercontent.com/108204659/175824703-63f7480a-9561-4272-8532-5e56=
+cee0475c.JPG)=0D
+=0D
+=0D

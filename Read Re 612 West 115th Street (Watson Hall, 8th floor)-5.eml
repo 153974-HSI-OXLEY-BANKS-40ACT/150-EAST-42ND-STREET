@@ -1,0 +1,211 @@
+From - Tue Jul 26 02:18:36 2022
+X-Account-Key: account1
+X-UIDL: AD/dUm1ucySmYt7WygMwaFQr+ZM
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.147.94
+ by atlas310.free.mail.ne1.yahoo.com with HTTPS; Mon, 25 Jul 2022 17:45:45 +0000
+Return-Path: <ofac_feedback@treasury.gov>
+X-Originating-Ip: [164.95.40.40]
+Received-SPF: pass (domain of treasury.gov designates 164.95.40.40 as permitted sender)
+Authentication-Results: atlas310.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@treasury.gov header.s=fsticfy19q1;
+ dkim=pass header.i=@ustreasury.onmicrosoft.com header.s=selector1-ustreasury-onmicrosoft-com;
+ spf=pass smtp.mailfrom=treasury.gov;
+ dmarc=pass(p=REJECT) header.from=treasury.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Mon, 25 Jul 2022 17:45:45 +0000
+X-YMailISG: .CqoPxkWLDtR5hlNbdayUSISvSGb.UQz9R.upt9PubO.7q9R
+ S61kdyMXkHtczw.c74k172pBkujc4a4VwzfoLsnNxMvBeLoEhvSDpl7GavyZ
+ oLmfDyFRZlPgMTPdN2xot0imD.VXFvx6lnKgYhQcBbNYrb.f1Qy8Yga5czKi
+ d3C05Vtpo.YHCg.OYqaVZiXWdC2Sk060mHO4IRQ6aMRwNtliD3lsS3O6ng0a
+ chDInn1ERt4wKPOTJtP02HjlROUWsuMR13YvoowdwimtbTTX5WoQ9tswXX61
+ hp.9kNCnFLIMJzd1TNU5VmBEE3oBxtk.nC2K1FCyu6dJKMkUJd8eP2wsgON5
+ 1NYccKtwNNntz.nb0qT6_g0vjr.TeJ4pi0WC.tV9e_GKIvA_tDfX4WnCEWjH
+ ZriWUbO2ktjMuaDsGwNHzvrNdKjatWyXHCsKvII7I5NV8vvwafeiVoSJvLaa
+ tsLsUqXZyVrU2bAKQbz8o6zMtpp3AToFwRO5W70IMAT4yKsthHD95GO2lUd6
+ wTcO9B9cGpXvFC81FWToTN0DrS9f4alePQDudThe2lZGO38MPthDVDDdT1zU
+ SYsBjm6jSZBJkRTjFg9GGf0ui4.Yt.hTDwvxdNXIU5IHC_kstCUNmeEJMPs0
+ OLtc438Pw3_AAkna8WHxo4ErUNDOg5kRdwnKN7Cxn36cKNuBy1psKuleeA83
+ .WRLzMDb8CoG4bhtj5W20CmEXUS5o8WCn6xsET05t3V66WS5aZt9gSwTNx5j
+ 5VFyzaYwfG.Qrq_wi7MBKyRTX_kVYXvPxYDeDhFQWvsZnX4TpKb2WvMMSn6k
+ vMc_nQxM5WHcb9iGzgdawe4Pv4hDCdZ8Gtd2_Onazod87PJg.VWyPXGwMUza
+ Btd1wN_yRztsOWvkv1GHfLM7gTiMY1PNWXJDC9n1c_1hqMGGA8g_mHFYLvqp
+ OwNrf0KdTB1sg9aYm_hxanxEq7sFkPByUvrt1S2DNwzgQEdEU_x68_YfmpQU
+ KLXJEyqYQ6dQ6xNoK7.kehbD_GXG_Grxyoq84LOrQQIj6DqR3Ywme5IwqqH5
+ bfFIEJNu43u_YTp8qq6i.WI6rqrVwgWXbnRkx8Ipxm8hk72ONL2rQME.IcWv
+ IKhibtid_9PPooqgwkJuRWG0H3xmSJyMff5zgJc7p0qrxwaPljXuv6svcesp
+Received: from 164.95.40.40 (EHLO ce-extmail1.treasury.gov)
+ by 10.217.147.94 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Mon, 25 Jul 2022 17:45:45 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+  d=treasury.gov; i=@treasury.gov; q=dns/txt;
+  s=fsticfy19q1; t=1658771145; x=1690307145;
+  h=from:to:subject:date:message-id:mime-version;
+  bh=nIqOs9/79vCK+/erJ8jEuNnVJIznrLQki5k0kTeSMCw=;
+  b=RFgvNCj6BZli72J66tG75tJ1SKOqIzABKTNklLMCxdoBIym9lphgPu/q
+   qbR6Q+c1zoVW5nrKS1Wqg1P2sQ+xj1R6h3eDgOJaonaueLOwKh6AfjlmE
+   x37lS0Z1qhleHa06YTe0Cmf4K9VqCU84Ak1j7LsGyd1SNZMzJjMZMIiF4
+   78A2nJxMfXmE8ScdufxTaeem5YL9oj0S8EozI8tx+r8A+CKMIlOucrsTd
+   IKfIYw3cN2Y3PEwrnVpeHBRRxnGTopZULDXTINjW+QzbNRXqC5SJT5JRT
+   bQtEuCoDCvta0ktkkbEfXBo7VMRqBjvqB8mzfB1mGzqrqlwWsEug4gBS9
+   A==;
+X-IronPort-AV: E=Sophos;i="5.93,193,1654560000"; 
+   d="scan'208,217";a="26688527"
+Received: from unknown (HELO d98zixvpm01p.do.treas.gov) ([10.72.96.67])
+  by ce-intmail1.treasury.gov with ESMTP; 25 Jul 2022 17:45:43 +0000
+Received: from 127.0.0.1 (ZixVPM [127.0.0.1])
+	by Outbound.do.treas.gov (Proprietary) with SMTP id F348B1A1669
+	for <ms60710444266@yahoo.com>; Mon, 25 Jul 2022 13:45:43 -0400 (EDT)
+Received: from D26IRONPORT01P_MAIL.do.treas.gov (d26ironport01p_mail.do.treas.gov [10.72.156.48])
+	by d98zixvpm01p.do.treas.gov (Proprietary) with ESMTP id 0CEA31A1637
+	for <ms60710444266@yahoo.com>; Mon, 25 Jul 2022 13:45:43 -0400 (EDT)
+IronPort-Data: =?us-ascii?q?A9a23=3AbdTGzKNXm6VoqnrvrR2WlcFynXyQoLVcMsEvi?=
+ =?us-ascii?q?/4bfWQNrUom0zMPzTcfWmiEaP+KM2Dzfdh+PY7joEoH6pTXyt5iHQZtpSBmQ?=
+ =?us-ascii?q?kwRpJueD7x1DKtQ0wB+jyH7ofYOA/w2MrEsF+hpCC6FzvuRGuK59yMkiPjWH?=
+ =?us-ascii?q?uOU5NPsYUideyc1EU/Ntjozw4bVsqYw6TSIK1vlVeHa+qUzC3f8s9JACV/43?=
+ =?us-ascii?q?orYwP9ZlK2v52lI4ABWicdj5zcyn1FNZH4WyDrYw3HQGuG4FcbiLwrPIS3Qw?=
+ =?us-ascii?q?4/Xw/stIovNfrfTXhxab475ZVS2zHZRHbS4jxFZ4CM1zM7XNtJFMQEI0XPYw?=
+ =?us-ascii?q?ZYrkL2htrTpIestForisc8qfRRVHyt3Nq5u5KXKKGOiq93VwErYG5fp66U1U?=
+ =?us-ascii?q?BpsZddGkgpwKSQUnRACExgIdU7b2LvunO7nELcyrtUqLM7seogYvxldIZvxZ?=
+ =?us-ascii?q?Ro9aZySE6ja7ocExHE8gYZSB/vXfIwWbiQHUfgJWDUXUn9/NX70tL7AaqHDT?=
+ =?us-ascii?q?gBl?=
+IronPort-HdrOrdr: =?us-ascii?q?A9a23=3AqbVQOKNO2Gl4/MBcTsGjsMiBIKoaSvp037?=
+ =?us-ascii?q?BL7SpMoHluGfBw+PrCoB1273PJYVQqNk3I6OruBEDoexq1yXcf2+gs1NmZLW?=
+ =?us-ascii?q?vbkVrtAIZ+7Zbzhx3McheOk9K1DJ0BT0GpMqySMWRH?=
+X-IronPort-AV: E=Sophos;i="5.91,230,1647316800"; 
+   d="scan'208,217";a="83432026"
+Received: from d98exc04p.do.treas.gov ([10.72.96.20])
+  by D26IRONPORT01P_MAIL.do.treas.gov with ESMTP/TLS/AES256-SHA; 25 Jul 2022 13:45:42 -0400
+Received: from d98excmrs08p.do.treas.gov (10.72.96.181) by
+ D98EXC04P.do.treas.gov (10.72.96.20) with Microsoft SMTP Server (TLS) id
+ 15.0.1497.36; Mon, 25 Jul 2022 13:45:41 -0400
+Received: from USG02-CY1-obe.outbound.protection.office365.us (10.72.99.254)
+ by d98excmrs08p.do.treas.gov (10.72.96.181) with Microsoft SMTP Server (TLS)
+ id 15.0.1497.36 via Frontend Transport; Mon, 25 Jul 2022 13:45:41 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector5401; d=microsoft.com; cv=none;
+ b=Cxx9yS0NAll3HFP//BetzQUj5c4i8M24SJofP2i6oB2ME1CzEeIgo3MK5t+fNwFLwklnEXi+gtZxa4z6bLhC5sdTiDytO6tf2tlL85KETLa8a9x26JoJJ7WWi/06SRkbIpkqZt5YFuDGqKwQLlqq8XuYOp/4AdbmE9IWzXxd2VQBYBFFO1RvYX2lSId9Oc+GaLTKGhTQMcHZBffyOdObscglq6jbI9CQ42xRE+/cIUBr92gMY1yJb2lAJTTRH/lxcGrRYIafcA6qwvtAeh3cGlcCp8mW93fnpS9IYx2U23LcsYtzE3cA89PFnRKqBLzKT0N4Q27KtW8EEGiH4XgXwA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector5401;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=VBX1ojirqRtPb7yaCzzuHXx3S2AkHItw+/l73MZ9RrU=;
+ b=g+r3hRIuV9H/8QWTz5/8uaIMNS6IUeUALGXAacLvGFypWQrJgnsvT5APuxTzld0Bd0xHMWqFSjduXJrF6yJVT8H4PyczwHTyJtSBVh5ujyozT4CavVDNMJ7yQ01FdFmpoHl+PC0dtXbnV+74SI6zSkhl96d6d9EnCHtYmfG5polE0LsNFQisJ09QgInVK58gcLlOwcPriC2U8DeOJ5VgcvofxmuA+bADCxz0KNQjxwQvLel9Sw5P0wtFHzYgLCQvnHitwGJGYhDQ8xDdwmihh3+7aSES0Zu1U6emtqX9+G21GN2QQBLmbaO2SATBLw1FEwKx6uzj0DCbP9QB+M3NzQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=treasury.gov; dmarc=pass action=none header.from=treasury.gov;
+ dkim=pass header.d=treasury.gov; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=ustreasury.onmicrosoft.com; s=selector1-ustreasury-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=VBX1ojirqRtPb7yaCzzuHXx3S2AkHItw+/l73MZ9RrU=;
+ b=EvFxCR0FJgadlv8vAD6ADjd4UiVvsE+JUYmEowWfF34zMBXOgmB/a2OTuXpfSU2WG6Vxf2vCze40myqN5UEoFgzcBj4d/gOyNBf4ezv0IV6eTDY8yyCLGfOxi0eUoOXeGGpc8YLsgMAEsGVL7N3vva8OWQBrcnh2U57clpA2ouY=
+Received: from BN2P110MB1382.NAMP110.PROD.OUTLOOK.COM (2001:489a:200:17f::13)
+ by BN2P110MB1076.NAMP110.PROD.OUTLOOK.COM (2001:489a:200:169::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5458.20; Mon, 25 Jul
+ 2022 17:45:40 +0000
+Received: from BN2P110MB1382.NAMP110.PROD.OUTLOOK.COM
+ ([fe80::8402:2ece:6b5:d6b9]) by BN2P110MB1382.NAMP110.PROD.OUTLOOK.COM
+ ([fe80::8402:2ece:6b5:d6b9%3]) with mapi id 15.20.5458.024; Mon, 25 Jul 2022
+ 17:45:40 +0000
+From: <OFAC_Feedback@treasury.gov>
+To: <ms60710444266@yahoo.com>
+Subject: Read: Re: 612 West 115th Street (Watson Hall, 8th floor)
+Thread-Topic: 612 West 115th Street (Watson Hall, 8th floor)
+Thread-Index: AQHYn5gzzXjK4eURz0uhwXq/2a5pF62OAmMA
+Date: Mon, 25 Jul 2022 17:45:40 +0000
+Message-ID: <e2bed4e5082c4a8282fe9c7541157014@treasury.gov>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: b3208823-3cee-480d-e47e-08da6e657db9
+x-ms-traffictypediagnostic: BN2P110MB1076:EE_
+x-ms-exchange-atpmessageproperties: SA|SL
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info: GELmd6WaIPlAo82am1Ix0Rj0hAUWkhpnyF74f927MIjTf6R8mvEReOlq2M/U2B8CQ7Da1sHueVRUPnRNP6qP1mRnJ7qX1HPcrUC86wHWc99hLk2g9exrYs+rvvnGys8OJ646gk2wjGGn4R+oS4GLuSIxWoy1CRrDJ5yelkKRhTSq/T8S0JJwCn+EJo+PjEPIhT8oX7++CeMnzalqUTQmapTKtVkyJ0WVlC6vwUp66oUPYL3X/0NhcFryP1yHxM7yDmZ457s0ZdKBj9+t8GedheSLcN1uKmj0GE2mXhkopOzPBnH3ln5YxWjQ6zjxP5rGxobIWzSUQuyd2de98AImvyIegR5XdNBVwPR+1YgPiZorbCgKNQI0Ka/G9Wb+qkWRnrTN1bwZH3G7S4hk8FcVrg==
+x-forefront-antispam-report: CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:BN2P110MB1382.NAMP110.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230016)(4636009)(366004)(73894004)(66476007)(82960400001)(6916009)(66946007)(66556008)(64756008)(88996005)(66446008)(8676002)(6486002)(122000001)(6512007)(498600001)(108616005)(24736004)(2906002)(4270600006)(71200400001)(6506007)(8936002)(36756003)(2616005)(86362001)(621065003)(186003);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0: P/9zHNjtdGidkYjfKZLA+N0uYbwTuPolWlnoJ7u/1guMn0bie99U4BlhD7tjLNKij1D7VTIMS98SUbVv0qYAJzl+QxBVYrB2b/roQOaGAFWdagpZkLePP2zXqZ/xZZcQLboOB1Dn/8pYki3uIeRkTM0J82A2T9GMXEtgvwIIEiRrxw4rC9CFiuPqyiB2CaJMyaBClbAXiV4M5WhoCHsZlALr4L5Y+2+yGxeBJmORCN/pAf1OikBfvAc5ijB69zkpuuXMZ14kYILb2tntwG43eNDrngV9opPTcGRl4FNbKIdoetFtW+x9LVMZ8YPkhrc2
+Content-Type: multipart/report;
+	boundary="_000_e2bed4e5082c4a8282fe9c7541157014treasurygov_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: BN2P110MB1382.NAMP110.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: b3208823-3cee-480d-e47e-08da6e657db9
+X-MS-Exchange-CrossTenant-originalarrivaltime: 25 Jul 2022 17:45:40.6120
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 58f1e3fa-58cb-4cb6-88cc-c91cac207f18
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN2P110MB1076
+X-OriginatorOrg: treasury.gov
+X-VPM-MSG-ID: 32e5240e-e836-453d-b49e-4a6ee9e422be
+X-VPM-HOST: d98zixvpm01p.do.treas.gov
+X-VPM-GROUP-ID: 0e43cd8c-d81e-40a9-9446-d28d1e2f6e29
+X-VPM-ENC-REGIME: ZixVPM,ZixMail,Plaintext
+X-VPM-IS-HYBRID: 0
+Content-Length: 1949
+
+--_000_e2bed4e5082c4a8282fe9c7541157014treasurygov_
+Content-Type: multipart/alternative;
+	boundary="_002_e2bed4e5082c4a8282fe9c7541157014treasurygov_"
+
+--_002_e2bed4e5082c4a8282fe9c7541157014treasurygov_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: OFAC_Feedback
+   Subject: Re: 612 West 115th Street (Watson Hall, 8th floor)
+   Sent: Sunday, July 24, 2022 5:03:14 PM (UTC-05:00) Eastern Time (US & Ca=
+nada)
+
+ was read on Monday, July 25, 2022 1:45:40 PM (UTC-05:00) Eastern Time (US =
+& Canada).
+
+--_002_e2bed4e5082c4a8282fe9c7541157014treasurygov_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: OFAC_Feedback<br>
+&nbsp;&nbsp; Subject: Re: 612 West 115th Street (Watson Hall, 8th floor)<br=
+>
+&nbsp;&nbsp; Sent: Sunday, July 24, 2022 5:03:14 PM (UTC-05:00) Eastern Tim=
+e (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Monday, July 25, 2022 1:45:40 PM (UTC-05:00) Eastern Time=
+ (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_e2bed4e5082c4a8282fe9c7541157014treasurygov_--
+
+--_000_e2bed4e5082c4a8282fe9c7541157014treasurygov_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; OFAC_Feedback@treasury.gov
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: WidPgd1G/02Z6XNQZYYBgw==
+Original-Message-ID: <c786a3c6-2ec7-7003-071f-67769b94a526@yahoo.com>
+X-Display-Name: OFAC_Feedback
+
+
+--_000_e2bed4e5082c4a8282fe9c7541157014treasurygov_--
+

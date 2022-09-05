@@ -1,0 +1,227 @@
+From - Tue Jul 12 14:53:29 2022
+X-Account-Key: account1
+X-UIDL: AKnoxMN7bAorYs3QxweRgEG9Tps
+X-Mozilla-Status: 0001
+X-Mozilla-Status2: 00000000
+X-Mozilla-Keys:                                                                                 
+Received: from 10.217.136.18
+ by atlas320.free.mail.ne1.yahoo.com with HTTPS; Tue, 12 Jul 2022 19:51:34 +0000
+Return-Path: <prvs=18529111c=ServiceDesk@doc.nyc.gov>
+X-Originating-Ip: [216.71.141.178]
+Received-SPF: pass (domain of doc.nyc.gov designates 216.71.141.178 as permitted sender)
+Authentication-Results: atlas320.free.mail.ne1.yahoo.com;
+ dkim=pass header.i=@doc.nyc.gov header.s=mail-s1;
+ dkim=pass header.i=@doc.nyc.gov header.s=selector1;
+ spf=pass smtp.mailfrom=doc.nyc.gov;
+ dmarc=pass(p=REJECT) header.from=doc.nyc.gov;
+X-Apparently-To: ms60710444266@yahoo.com; Tue, 12 Jul 2022 19:51:35 +0000
+X-YMailISG: nUhuFkkWLDskqvJsjrrnRBVu_slk8Kl4ASCJp3HHswyQ41bn
+ u83SeaFhucahoc46Rw3wGjn9bFl2Vhj.Wod_5X00PNYcuvlZ5rjGcJGmAm57
+ dsh.gg3eUp8ZHbvdtytO9SdMU9LMsRGT3.SUN_v7fJA3dolU8mHqbHIHmfus
+ KoYurGhN48yFv3ByRpkGUXqw4nBygs5Pw9iKXdmi1iEevIlgEM3qYta5MmCc
+ YLUjvW5CwN07aigheE4zCvRdFhtncfn7Kh2D6_Odzmq5wiwGIEel9si64_7R
+ x5yQrIdmBkCadpp.6X9GvZ9a.w58mkwsbwNyEbomm5a8uxLSOuH2rQYdARqF
+ M0VI66Gb7f6lSJw0s__Jo_uu0F6wIF5QSb8YpgAZpdcpH.sX1FSWZ9M5ts4y
+ 6FCNeWQu2echKIK.2kFFCh1.L.dhKpyk8w5B6nmdtlUoscBPKZFWoUmWKlGN
+ 2w237tCsZgfRGqG29eyVZLSqOH3SD9MGawHDUsJhHA6wPvc.pyC8bGp6f70A
+ 1JwLh4Hna8ibEAwnuuNU22k4n8oYBP9QWy8yIKIv.z_T2mMq53ulKUFwE5qx
+ Kp8ychNgQh97oGzbiOTs5GFxIZAy30QV8MLbCzPITw7ou2418PWqEXGl0hP.
+ UYg4SmXZzQvS7C3KUJQsKxSubAt9GqD7bzuxuwWgU3hfEQkz6.UwzANmK2HG
+ ng7yLgH0KlmZWgwxzBn.MM2o6IFWHpDkAs1MgSXw4bs20892xB3PSF3HNCUJ
+ vql0skRI3PxVz7OuTN0U37EvArZI9TkVBLtYP5pM4t4rvRFAt.DnFzTYDGT4
+ hIfG2tqKjDUDU8HC_ANci.MqCY1YvpLq0dHQZiMI430R6uXUUZWtPJK9sx5_
+ YR9A65Vvnu6JTpuYtGa2_lvjUgaDwn_3Ewms3fBcKaSN8ti2krUeBP2hU1_j
+ 9uOLqvYa83SRaxVq5OCU1_4h4O6Vo1JRrhWTngAw_wjuVhnTUufD.pdAyp74
+ s9KvFUqEtJSLGcahf0NJ5GDQjw2XDO7D0kYE5jBSNeK6POSsQYbgJjOhjVLP
+ mm8Mk0Ad8K4sr8fJKs8zfNO55.Av4TUP1hpL75OqM.pVqJNePJpB6uJsEP2V
+ ES256cXkBCOQx6g2Zf0Dhynz7.2QSySyZlYs91qcnRwp9cjj7kyWc8LxucnW
+ tLT.eQtxd95qOBhY0O2ypXeKSPGPnTjg.LasSYj0MgegegsHv6C3LD4BfTBM
+ yJEUFds3ZOej.jf92oF25BzGDI0LQsz1Isg-
+Received: from 216.71.141.178 (EHLO esa15.nycdoitt.iphmx.com)
+ by 10.217.136.18 with SMTPs
+ (version=TLS1_2 cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256);
+ Tue, 12 Jul 2022 19:51:34 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+  d=doc.nyc.gov; i=@doc.nyc.gov; q=dns/txt; s=mail-s1;
+  t=1657655494; x=1689191494;
+  h=from:to:subject:date:message-id:mime-version;
+  bh=jQ4OK6vFHhrwSDp07TasVfhlYVGLs6QLWQRu8jB9MpA=;
+  b=AYPlMlSBQHKlAFJT8U1OSD4dbYfjFVTh0VqCRDWbzWJgMbM4VmuMNCuS
+   Uf9P4bYso/7Fd3uix5wb7phI8ohHdvePAnO4nVTXLIYXJB/dUoZg8r4wD
+   5rpnolcCMnHzNW3u2LSaoz2vvTyj3tH7p7wMLoXXzKnj2UDR6yn8Hghgr
+   j3v9MhzP6h9lzzl8jdB5WMHK59KnFw4uUwBUn2IqtmBg3i03LDakDqLKl
+   5/F+EclKp1UOF9Nk68jv3LFsYgfopVd4/epFyt6qFLZUBZByTr86nIzr2
+   z6I2vaF0Aucndeayemv2M6QG940adjDiWTIENTHyeSylgXMQA5ZdhW8/K
+   w==;
+IronPort-Data: A9a23:CNYDlqj5/NbDFflyZIN0PTbLX161LhEKZh0ujC45NGQN5FlHY01je
+ htvWm/SaPbbZjHzLt8gbdux8hlVsJSGyNJjSgE9qi0yRikW8JqUDtmndXv9bniYRiHhoOOLz
+ Cm8hv3odp1coqr0/0/1WlTZhSAgk/nOHNIQMcacUsxLbVYMpBwJ1FQywYbVvqYy2YLjW1zU4
+ 4uoyyHiEATNNwBcYzt8B52r+EsHUMTa4Fv0aXRnOJinFHeH/5UkJMp3yZOZdhMUcaENdgKOf
+ Nsv+Znilo/vE7bBPfv++lrzWhVirrc/pmFigFIOM0SpqkEqSiDfTs/XnRfTAKtao2zhojx/9
+ DlCnYa/E1YrL6T3o9hHSRVeK39ZNol39ZaSdBBTseTLp6HHW1TH6K00SW0TZsgf8OsxBnxS/
+ /sFLjxLdgqEm++93LO8TK9rm9gnK87oeogYvxmMzxmAVapgHc+FHfiMvIcDtNszrpkm8fL2X
+ McDdztkYTjNeB5nNlAcTpQvl6GngWeXnzhw9w3F//Josja7IApZ4IrjLovPXtuxROJrtVrFi
+ V3Yxk/UHURPXDCY4X/fmp62vcfKhn2jB9tKSOHkrKA0qEyaxmsUThYRUDOGTeKRj0e/X5dTL
+ hcb8SF296wqrhXzFZ/6QgGyp2OCslgEQd1MHuYm6QaLjK3J/wKeAWtCRTlEADA7iPILqfUR/
+ gfht7vU6fZH7NV5lVr1Gm+okA6P
+IronPort-HdrOrdr: A9a23:qFFIzK1bOdmQwgTzEuMRcwqjBSJyeYIsimQD101hICG9Lfb0qy
+ n+pp4mPEHP4wr5AEtQ/+xoS5PwOE80lKQFl7X5WI3PYOCIghrNEGgP1+rfKl7bamTDH4xmpM
+ BdmsFFYbWeY2SS5vyKgzVQZuxQpeVvh5rY59s2oU0McShaL4VbqytpAAeSFUN7ACNcA4AiKZ
+ aa7s1b4xK9ZHU+dK2AdzI4dtmGg+eOuIPtYBYACRJiwhKJlymU5LnzFAXd9gsCUglI3awp/Q
+ H+4kbED+SYwryGIy3npiDuBqdt6ZXcI+54dYCxY4YuW3TRY02TFfxcsvW5zUsISaeUmR4XeZ
+ D30m0dFtU25HXLcm6vpxzxnwHmzTY18nfnjUSVmH35vKXCNUcH4ud69PFkmyHimjgdlcA51L
+ gO03OStpJRAx+FlCPh58LQXxUvkkavu3ItneMaknQaCOIlGchshJ1a+FkQHIYLHSr85oxiGO
+ 5yDNvE7PITdV+BdXjWsmRm3dTpVHUuGRWNRFQEp6WuokxrtWE8y1FdyN0Un38G+p54Q55Y5/
+ 7cOqAtj71KRt9+V9MMOA7Ae7rHNoXge2OxDIvJGyWbKEguAQOzl7fnpLMo+eqtZJsEiJMvhZ
+ WpaiIniVIP
+X-IronPort-AV: E=Sophos;i="5.92,266,1650945600"; 
+   d="scan'208,217";a="77820796"
+X-IronPort-Outbreak-Status: No, level 0, Unknown - Unknown
+Received: from mail-dm3gcc02lp2103.outbound.protection.outlook.com (HELO GCC02-DM3-obe.outbound.protection.outlook.com) ([104.47.65.103])
+  by ob1.nycdoitt.iphmx.com with ESMTP/TLS/ECDHE-RSA-AES256-GCM-SHA384; 12 Jul 2022 15:51:33 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=NXqWV8HQ5IxSfMNPJv/3wIQ2aOwcZiJua7PXsVjC0mpKxZJILO5tGWP6hYHAE8D703qzkP5osMPQVyLIELLbW2pyUAgt1A9F6oKCf7DaBj6fYc2jNKX5oN++ayTgUMDe8ft/d4ef7/+WzpY96+g/kdudh1pP0dYnLO+SDB2BJ/7FfPvHQHVFp2UyYDzuXusLPqAoffS5C44cK7vQ+8P+sBhitstcaYEVE09FwS58zgXLM2A5gppsRVmvqSko8ovvJRJD/78MF9sugVctQBYnv7H/S2OPKDJU1j+W7GOIL8b2aNibquGz76zkqXvwMWRORcDjkEhghLjrq3gPT6I4Vg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=jQ4OK6vFHhrwSDp07TasVfhlYVGLs6QLWQRu8jB9MpA=;
+ b=KcfQkE7DIFQhVUzP01KPG3Sjk0GuTOzmjnbupnJTmlZ09VDpQhkSx86vSYYHJjzgBICUjxMrt8B6GqM1pY5kDUDegAKiCe7fhg8rJg7uQxR+QwEyrDAGgRaebzeklOPdxYOshtd7L8HPQqs80gZV447nccoceMNDLky54pV2uDh3YMfYP8Xqq1VYVAeTOozb8oBQtR7aHZw9CVjUrvjVOn7KjhX1LijLu9S7qR6aOXG52BbcRWLZFLmfzCV/kEf2kDqe7VeHOAW2/PSNlIAd5qrzJBiaHeuy0LjQ0zryFLnNzL5+gvdU7ntltl1MCXNpyBVk0EUuOpTS9AzxEEX3CQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=doc.nyc.gov; dmarc=pass action=none header.from=doc.nyc.gov;
+ dkim=pass header.d=doc.nyc.gov; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=doc.nyc.gov;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=jQ4OK6vFHhrwSDp07TasVfhlYVGLs6QLWQRu8jB9MpA=;
+ b=HBTt88qjgvhyjntSuwRGjR/YTwPGqDTC35LzRAEbQ9dHFCjXtp3feo7zV26crGuFdOkpqRg+01uZ0wXPHHHDfBJhvxoIHpuzvU7+lG2GO+m/X+mtl/WVIEyzwcO531fr85zVR4s/rgARH0roJ7ahlpocg5wAteDZs8eDiavca8RskzQPPfeF3S+KgIJvTxsRcqO1ZAmzg/gPWkTd/glX0INtzka84CJ5DQeanE4kMkWzsF/xih1GhHxQXPCEheBu66ziRZ6mXnZpUKQEVZcPobg3TOIgV9tIfNI5DYaFtOWevpyHKh16ErlIotl1nomO0tMvKPMlx9mXosFEFOxALA==
+Received: from CO6PR09MB8199.namprd09.prod.outlook.com (2603:10b6:303:c2::18)
+ by DM8PR09MB7336.namprd09.prod.outlook.com (2603:10b6:5:2eb::17) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5417.20; Tue, 12 Jul
+ 2022 19:51:32 +0000
+Received: from CO6PR09MB8199.namprd09.prod.outlook.com
+ ([fe80::959:b01a:eab8:a190]) by CO6PR09MB8199.namprd09.prod.outlook.com
+ ([fe80::959:b01a:eab8:a190%9]) with mapi id 15.20.5417.026; Tue, 12 Jul 2022
+ 19:51:31 +0000
+From: Service Desk <ServiceDesk@doc.nyc.gov>
+To: B D2022 <ms60710444266@yahoo.com>
+Subject: Read: [EXTERNAL] PIMCO | GS | FDIC | JOB REGISTRATIONS
+Thread-Topic: [EXTERNAL] PIMCO | GS | FDIC | JOB REGISTRATIONS
+Thread-Index: AQHYlii+q43jOlo0F0+h4dxd1EtlpA==
+Date: Tue, 12 Jul 2022 19:51:31 +0000
+Message-ID: <9f741cccfbae4cc3844fd92a2f828d75@doc.nyc.gov>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 9709c19b-005f-4f94-d266-08da643feb2a
+x-ms-traffictypediagnostic: DM8PR09MB7336:EE_
+x-outbound-auth: NYCO365
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ jgUi9TBpA7NqIIqvIKLTILOVDTaoiB9IbgyXoqwiONRdhie77OZJihbpH2iAWnzqKC0pC9di9/Af4OZ83t5JVNWIe7G4m69VzK1Dql7nvTOB8jIPVfikjjjwDUjtgGcjcFZnsP6mgupWyCe/TFOB5j+DvvfUKLUTb1en08H1da4oE9XdCqvIobyWrYA9CEoJgHIFQVqZdLe953Ud0NPevCXfPFrVHoeepAYzEeRN+j/HX+t4ZfW5Y5FnuhLYFQM+XMPS0j6oZX6ia/cl9IrvcQWDqjaDSa6Cc7e680OA4HYL+NFoaEoPEcBXGeLI4/lDwXPLEhHcHMW7lc1EgkBriOg3hhtejvBSa1TzVyrcqJ3U28otu98NyCmpqAMfH0NguPiL9DpSrEprEXOVgBCW73vI2w/ijoMvMUJoHIeZ5GT4Dt04KbuGcdalv6odkFMg+gWuCNYGJp8MKEZtBrj/vp1hjC2/ROzQpstz8/GjZBM=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:CO6PR09MB8199.namprd09.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230016)(4636009)(366004)(2906002)(108616005)(122000001)(6486002)(6506007)(2616005)(82960400001)(24736004)(6512007)(71200400001)(64756008)(621065003)(86362001)(8936002)(186003)(88996005)(66556008)(66476007)(4270600006)(6916009)(66946007)(8676002)(498600001)(66446008)(73894004);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?Mx095M+xiBzeUNRMOWRMam4JQmi6hadZksWfoOxsWS2tArL3pg1m/lrNXgrI?=
+ =?us-ascii?Q?I1eb2en4CzdX5tuZJXHbjMv1mKeNWtLpoRGrElaDMIbC0y4EuPk/4F6P7jPQ?=
+ =?us-ascii?Q?afqZM8WP8E+ollIDJXqLZbxwI3A/xrmEgweOtkOT/RNC6fdwM/OYBu99YG4f?=
+ =?us-ascii?Q?czuUuv0rXQOJqMTRY3ULaQ7YRfBCVor/tKycy1fMtBLrYTblChf2EP/45Tua?=
+ =?us-ascii?Q?5jEC9DAcUNXQKA5Ns39o3rUOQo/fFMQlrXzAt0oKjs6jMjFfaKUMycVg7Hu9?=
+ =?us-ascii?Q?J8SkjMzQ+B+XK5CvfTY5Z0PCKVf1VWc3PmYTE8jvFWNyF+pe5WmH8HuMXRv5?=
+ =?us-ascii?Q?Vs8SLf05mqQajky2s2u0ePwtIgy7ktLIDTV6h0mtH+3x4HnFVTI6wcOkeUQ2?=
+ =?us-ascii?Q?Dtt0KdQbNEgKUNGbrUMXp815YT9TDdkRIj6EjdMohQcVrFsrZjA1FOuNgb9r?=
+ =?us-ascii?Q?Vo2TI3o/BDRaRUMP6rbmThsBFi6ywqw/nkZ1PtUDFzs8xxqP+QiAJtAnKwGC?=
+ =?us-ascii?Q?GzWhy6G/aCMunQMn+bMSv31fHQQ359a9vDwRAzmgyidIY6plHKy0qbXpoHZa?=
+ =?us-ascii?Q?Huo6kO81iZ3UVvnOnkw+UdO+4ACJLqqWaFadtKsNBl+O8xcUACoX2KDmTnQi?=
+ =?us-ascii?Q?NvBLhoDmRwlfrr4mBhgZYdDajQJShkUtTk1DI/V2Zm0jHOImMNmw0i/kZTfR?=
+ =?us-ascii?Q?kLURzZYqak3bd6ThehzND+hCpoko408yZnm/dTSTvOWaR6wrM5J1G+CM3zPZ?=
+ =?us-ascii?Q?5v7eKmRkIArJqY0jeCWEbL7lALjhjaS8B3HzedroD3VliqF4GEMFeSsG9v0p?=
+ =?us-ascii?Q?29/ZdjPOjrzWLE8rbEv0W1eaDoXzcOAXLlAimI5+wwYC9gzmVtH0SFJbcZm4?=
+ =?us-ascii?Q?q6vymwgVNs949DH1proJ4+ZZhZLg7p8pvLbDeqL0ee4AliZTez9VKRVj4rGL?=
+ =?us-ascii?Q?0tf5XAHXUkneQVuppoK4iHVBFzwcLQLEnFFhiVEnXRheuTX3glHSPqdJWPak?=
+ =?us-ascii?Q?ySzCWQcWiWN7Briy27okPAZMJ6ojJw4Qr5i9hVoFYlBRYxFgtqzEgtzy242M?=
+ =?us-ascii?Q?NwJBxkjdjcZh04arwH1j1YRYzzOV5+rCo4VdsMFh9z+KUODf2aX9vPdwChua?=
+ =?us-ascii?Q?dAlQav3a6TlY7/aQUiA5PkiqnkaSyXEa28mrlQPsnbq1pmOdnD4Y4v57PRsb?=
+ =?us-ascii?Q?1QUbu17y8IPx3/DqkPWhYhvR6YaMk9mmVlhBIJU6oBrCHCABPW4+0mPgQITl?=
+ =?us-ascii?Q?Wix23jBjaQJllwF+t9XUtZQvN0R4Ni0M79y0cFbxKZPR8pzi57j5y957hHzq?=
+ =?us-ascii?Q?2dtVyHBEwpQZcNlqAseIMxc1RBC0gO8h+ZxcanJqHpNGZDZyxu7hiF9CC6V/?=
+ =?us-ascii?Q?57O3TiUGGa0IJGw/EHZOc2EflpIs+kYdMVu5wP3iM6zxFjEPydfviMUzTEC7?=
+ =?us-ascii?Q?YY/v+tIgSAj9RiY69ghaK731CiMnWOV9?=
+Content-Type: multipart/report;
+	boundary="_000_9f741cccfbae4cc3844fd92a2f828d75docnycgov_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-OriginatorOrg: doc.nyc.gov
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: CO6PR09MB8199.namprd09.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 9709c19b-005f-4f94-d266-08da643feb2a
+X-MS-Exchange-CrossTenant-originalarrivaltime: 12 Jul 2022 19:51:31.6890
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 32f56fc7-5f81-4e22-a95b-15da66513bef
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM8PR09MB7336
+Content-Length: 1926
+
+--_000_9f741cccfbae4cc3844fd92a2f828d75docnycgov_
+Content-Type: multipart/alternative;
+	boundary="_002_9f741cccfbae4cc3844fd92a2f828d75docnycgov_"
+
+--_002_9f741cccfbae4cc3844fd92a2f828d75docnycgov_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Your message
+
+   To: Service Desk
+   Subject: [EXTERNAL] PIMCO | GS | FDIC | JOB REGISTRATIONS
+   Sent: Tuesday, July 12, 2022 3:47:41 PM (UTC-05:00) Eastern Time (US & C=
+anada)
+
+ was read on Tuesday, July 12, 2022 3:51:31 PM (UTC-05:00) Eastern Time (US=
+ & Canada).
+
+--_002_9f741cccfbae4cc3844fd92a2f828d75docnycgov_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:11pt;">
+<div class=3D"PlainText">Your message <br>
+<br>
+&nbsp;&nbsp; To: Service Desk<br>
+&nbsp;&nbsp; Subject: [EXTERNAL] PIMCO | GS | FDIC | JOB REGISTRATIONS<br>
+&nbsp;&nbsp; Sent: Tuesday, July 12, 2022 3:47:41 PM (UTC-05:00) Eastern Ti=
+me (US &amp; Canada)<br>
+<br>
+&nbsp;was read on Tuesday, July 12, 2022 3:51:31 PM (UTC-05:00) Eastern Tim=
+e (US &amp; Canada).</div>
+</span></font>
+</body>
+</html>
+
+--_002_9f741cccfbae4cc3844fd92a2f828d75docnycgov_--
+
+--_000_9f741cccfbae4cc3844fd92a2f828d75docnycgov_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; ServiceDesk@doc.nyc.gov
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: Yu5nsdJU2U6sIwXXK36fUA==
+Original-Message-ID: <575afa52-2cab-5056-1b51-84ae01377f85@yahoo.com>
+X-Display-Name: Service Desk
+
+
+--_000_9f741cccfbae4cc3844fd92a2f828d75docnycgov_--
